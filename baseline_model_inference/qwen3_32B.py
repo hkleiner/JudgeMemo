@@ -2,8 +2,8 @@ import os
 
 # Set environment variables for Hugging Face cache and home directories.
 # Adjust these paths according to your system's storage configuration.
-os.environ["HF_HUB_CACHE"] = "/dss/mcmlscratch/00/di38riv"
-os.environ["HF_HOME"] = "/dss/mcmlscratch/00/di38riv"
+os.environ["HF_HUB_CACHE"] = "/path/to/your/storage"
+os.environ["HF_HOME"] = "/path/to/your/storage"
 
 from huggingface_hub import login
 
