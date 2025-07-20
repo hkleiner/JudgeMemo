@@ -1,0 +1,96 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) Read and understand the summary of the text the report was created for.
+    b) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    c) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The summary of the text to be evaluated is given below:
+Summary: Jean François Millet is a prominent painter of peasant life, standing out among great artists. A significant time gap existed between the death of Adrian van Ostade and Millet's birth, with only Chardin filling the gap. Millet's work is characterized by a profound and sympathetic rendering of everyday peasant life, tinged with melancholy fervor. He is considered a direct descendant of Pieter Brueghel the Elder, a great master of peasant painting. Brueghel's influence was felt in the Low Countries, leading to a school of painters including Adrian Brouwer, Jan Steen, and Adrian van Ostade.
+
+Millet's temperament is distinct from the Dutch masters, reflecting the subdued temper of the 19th century. The French peasant, having benefited from the Revolution, was quieter than their Dutch counterparts. Millet's work lacks the brutality found in Dutch paintings, due to his gentle disposition and study of Italian Renaissance masters like Andrea Mantegna. His compositions often parallel Mantegna's train of thought, showcasing his keen perception.
+
+Millet's paintings, such as "The Angelus," are not sentimental but rather infused with intense earnestness and melancholy truth. The painting depicts two peasants praying, symbolizing the simple, touching aspects of French peasant life. The scene is set against a backdrop of a ploughed field, highlighting the struggle for subsistence. Millet's art is characterized by subtleties of line and tone, which can only be fully appreciated by understanding the country he painted.
+
+As a painter, Millet may not occupy a high position in the art world, but his unique approach and restraint make his work remarkable. He frequently appears to achieve his ends by holding himself in restraint, suppressing tendencies towards virtuosity. When Millet departs from his philosophic mood, his art suffers, as seen in "La Baigneuse," where he attempts to depict a brighter side of life.
+
+Millet can be described as more a philosopher than a painter, with his drawings and etchings revealing a deep understanding of life's great problems. He was drawn to the open country and the solitary peasant, finding inspiration in their everyday life. Millet's interest was divided between the peasant at work and their family life, and he often depicted the smallest duties and incidents of their daily lives.
+
+The loneliness of the peasant's labor is a recurring theme in Millet's work, as seen in "The Sheep Pen," where a shepherd stands alone, accompanied only by his dog, watching over his flock. The painting highlights the peasant's disconnection from the beauty of nature, focusing instead on the practical aspects of their work. Overall, Millet's art is a testament to his unique perspective and profound understanding of the human experience.
+
+The report for the text is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–8908):
+Section Summary: Jean François Millet is a prominent painter of peasant life, and his work is characterized by its profound and sympathetic rendering of the everyday life of simple peasants. He is considered a direct descendant of the Dutch master Pieter Brueghel the Elder, who is now recognized as one of the greatest masters of peasant painting. Millet's paintings, such as "The Angelus," convey a sense of melancholy and truth, and are not sentimental as some critics have suggested. His unique style and technique, influenced by the Italian Renaissance and his own experiences of struggle and hardship, set him apart from his contemporaries. Overall, Millet's work is a powerful portrayal of the lives of peasants and the importance of their daily struggles and traditions.
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor punctuation errors
+    - [LEXICON]:
+        • some outdated vocabulary
+    - [SYNTAX]:
+        • occasional complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between paragraphs
+    - [STRUCTURE]:
+        • lack of clear sectioning or headings
+    - [CLARITY]:
+        • some sentences are wordy or convoluted
+
+Section section_02 (Chars 8909–12850):
+Section Summary: Millet's art is characterized by restraint, as he prioritized conveying his message over showcasing his technical skills. When he attempted to depict more lighthearted scenes, such as in "La Baigneuse," his work lacked the depth and emotion that defined his more somber pieces. Millet's true strength lay in his ability to capture the struggles and simplicity of rural life, often focusing on the loneliness and hardships of the peasant's labor. His work reveals a philosophical mind that grappled with the problems of life, and his poverty and connection to the natural world likely influenced his artistic perspective. Overall, Millet's art is marked by a sense of melancholy and a deep understanding of the human experience.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • abrupt sentence transition
+    - [LEXICON]:
+        • inconsistent tone
+    - [SYNTAX]:
+        • complex sentence structure
+  Coherence Issues:
+    - [LOGIC]:
+        • unclear connection between ideas
+    - [STRUCTURE]:
+        • disjointed paragraphs
+    - [CLARITY]:
+        • ambiguous descriptions
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

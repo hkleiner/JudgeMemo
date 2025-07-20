@@ -1,0 +1,242 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) Read and understand the summary of the text the report was created for.
+    b) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    c) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The summary of the text to be evaluated is given below:
+Summary: The Civil War had been ongoing for over three years by June 1864, with both the North and South suffering heavy losses. The Union Army, led by General Ulysses S. Grant, had been trying to capture the Confederate capital of Richmond, but had been unsuccessful. Grant decided to attack Petersburg, a strategic city located south of Richmond, in an effort to cut off the Confederate supply lines.
+
+The Battle of Petersburg began on June 15, 1864, with the Union Army launching a series of attacks on the city's defenses. The Confederates, led by General Robert E. Lee, were able to hold off the Union attacks, but at great cost. The Union Army suffered over 10,000 casualties, while the Confederates lost around 4,000 men.
+
+Despite the failure to capture Petersburg, Grant's army was able to cut off two of the city's railroads, making it difficult for the Confederates to supply their troops. The Union Army then began a siege of the city, which would last for over nine months. During this time, the Union Army made several attempts to break through the Confederate lines, but were unsuccessful.
+
+In July 1864, the Union Army launched a major attack on the city, known as the Battle of the Crater. The attack involved digging a tunnel under the Confederate lines and detonating a large explosion, which created a crater in the earth. However, the Union Army was unable to capitalize on the explosion, and the attack ultimately failed.
+
+The siege of Petersburg continued, with the Union Army making gradual gains against the Confederate defenses. In August 1864, the Union Army captured the Weldon Railroad, which was a major supply line for the Confederates. The Confederates launched several counterattacks, but were unable to retake the railroad.
+
+As the siege continued, the Union Army began to extend its lines around the city, in an effort to cut off all supply lines and force the Confederates to surrender. The Confederates, however, were able to hold on, despite being outnumbered and outgunned. In March 1865, the Confederates launched a desperate attack on the Union lines, known as the Battle of Fort Stedman, but were ultimately repelled.
+
+The final battle of the siege took place on April 2, 1865, when the Union Army launched a massive attack on the Confederate lines. The Confederates were unable to hold back the Union Army, and the city of Petersburg was finally captured. The fall of Petersburg led to the evacuation of Richmond, and the eventual surrender of the Confederate Army at Appomattox Court House.
+
+The siege of Petersburg was one of the longest and bloodiest battles of the Civil War, with over 70,000 casualties. However, it ultimately led to the defeat of the Confederacy and the end of the war. The Union Army's victory at Petersburg was a major turning point in the war, and paved the way for the eventual surrender of the Confederate Army. The city of Petersburg was left devastated, with many buildings destroyed and a large number of civilians displaced.
+
+The fall of Petersburg also led to the surrender of Richmond, which was the capital of the Confederacy. The city was evacuated on April 2, 1865, and the Confederate government was forced to flee. The surrender of Richmond marked the beginning of the end of the Confederacy, and the eventual surrender of the Confederate Army.
+
+In the end, the Union Army's victory at Petersburg was a major factor in the defeat of the Confederacy. The siege of the city was a long and bloody one, but it ultimately led to the capture of the city and the surrender of the Confederate Army. The fall of Petersburg will always be remembered as a major turning point in the Civil War, and a testament to the bravery and determination of the Union Army.
+
+The report for the text is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–8192):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Inconsistent verb tense usage
+    - [SYNTAX]:
+        • Awkward sentence structure in some paragraphs
+    - [LEXICON]:
+        • Some words or phrases seem out of place or overly formal
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between chapters
+    - [STRUCTURE]:
+        • Disjointed presentation of historical events
+    - [CLARITY]:
+        • Some sentences are wordy or unclear
+
+Section section_02 (Chars 8193–16929):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Inconsistent verb tense usage
+    - [SYNTAX]:
+        • Complex sentence structures
+    - [LEXICON]:
+        • Some words are used in outdated or uncommon contexts
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between paragraphs
+    - [STRUCTURE]:
+        • Lack of clear chronological progression in some sections
+    - [CLARITY]:
+        • Overly detailed descriptions of military movements and battles
+
+Section section_03 (Chars 16929–25458):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • incomplete sentences
+    - [SYNTAX]:
+        • awkward phrasing
+    - [LEXICON]:
+        • unclear word choice
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between paragraphs
+    - [STRUCTURE]:
+        • lack of clear progression
+    - [CLARITY]:
+        • confusing segments
+
+Section section_04 (Chars 25458–34066):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • incomplete sentences
+    - [LEXICON]:
+        • unclear word choices
+    - [SYNTAX]:
+        • awkward phrasing
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions
+    - [STRUCTURE]:
+        • disjointed paragraphs
+    - [CLARITY]:
+        • ambiguous descriptions
+
+Section section_05 (Chars 34067–42771):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Inconsistent verb tenses
+    - [SYNTAX]:
+        • Awkward sentence structures
+    - [LEXICON]:
+        • Some words are used inappropriately
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transitions between paragraphs
+    - [STRUCTURE]:
+        • Lack of clear chronological order
+    - [CLARITY]:
+        • Unclear descriptions of military movements
+
+Section section_06 (Chars 42771–51161):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Inconsistent verb tense usage
+    - [LEXICON]:
+        • Some words are used in outdated or less common contexts
+    - [SYNTAX]:
+        • A few sentences have complex structures that hinder readability
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between discussing the military campaign and describing the daily life of soldiers
+    - [STRUCTURE]:
+        • The text jumps between different time periods and events without clear connections
+    - [CLARITY]:
+        • Some sentences are wordy or contain ambiguous phrases
+
+Section section_07 (Chars 51162–59997):
+Scores:
+  - Fluency: 3.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • incomplete sentences
+    - [SYNTAX]:
+        • awkward phrasing
+    - [LEXICON]:
+        • unclear word choices
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between ideas
+    - [STRUCTURE]:
+        • disjointed paragraphs
+    - [CLARITY]:
+        • confusing descriptions of events
+
+Section section_08 (Chars 59998–68493):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Inconsistent verb tense usage
+    - [SYNTAX]:
+        • Complex sentence structures
+    - [LEXICON]:
+        • Some words are used in unclear contexts
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between paragraphs
+    - [STRUCTURE]:
+        • Lack of clear chronological order in some sections
+    - [CLARITY]:
+        • Unclear cause-and-effect relationships between events
+
+Section section_09 (Chars 68494–72084):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • incomplete sentence structure
+    - [SYNTAX]:
+        • awkward phrasing in some sentences
+    - [LEXICON]:
+        • minor word choice issues
+  Coherence Issues:
+    - [LOGIC]:
+        • occasional abrupt transitions between ideas
+    - [STRUCTURE]:
+        • some sentences seem disconnected from the main narrative
+    - [CLARITY]:
+        • a few segments lack clear context or explanation
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

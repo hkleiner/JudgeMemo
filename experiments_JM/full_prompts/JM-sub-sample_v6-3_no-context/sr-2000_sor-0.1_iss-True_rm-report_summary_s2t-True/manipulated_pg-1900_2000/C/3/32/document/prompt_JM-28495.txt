@@ -1,0 +1,94 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) Read and understand the summary of the text the report was created for.
+    b) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    c) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The summary of the text to be evaluated is given below:
+Summary: The story begins with the narrator and his wife, Stella, taking a tram to Battersea to visit the Home for Lost Dogs. They want to buy a dog, but not a purebred one, and think they can get one for five shillings at the home. The conductor on the tram teases them about getting off at the "Home for Lost Dawgs." When they arrive, they try to find the home but get lost and decide to follow a man who appears to be an official from the home.
+
+They surreptitiously follow the man, trying not to be noticed, but he eventually realizes they are trailing him and starts to hurry away. The couple chases after him, but he leads them on a wild goose chase, eventually disappearing into a house. The couple is left exhausted and frustrated, and they decide to give up and go home.
+
+As they walk home across the golf course, Stella is still upset and doesn't want to talk about dogs anymore. The narrator suggests advertising for a dog, but Stella is uninterested. She is shaken and points out something to the narrator, but it is not clear what it is. The narrator is concerned about Stella's state and tries to reassure her.
+
+The couple's attempt to buy a dog has been a disaster, and they are now back where they started. The narrator reflects on the events of the day and realizes that they should have just asked the man for directions instead of trying to follow him. The story ends with the couple walking home in the dark, still discussing their failed attempt to get a dog.
+
+The narrator and his wife had been considering buying a dog for some time and had discussed the details, such as breed and age. They had decided on an Aberdeen terrier, but then changed their minds and decided to visit the Home for Lost Dogs instead. The narrator's wife is particular about what she wants, and the narrator often finds himself trying to placate her.
+
+The couple's relationship is playful and affectionate, with the narrator often teasing his wife and vice versa. However, they also have their disagreements and frustrations, as seen in their argument about asking the man for directions. The narrator is patient and understanding, but also sometimes exasperated by his wife's behavior.
+
+The story is a lighthearted and humorous account of the couple's misadventures as they try to buy a dog. It pokes fun at the challenges of everyday life and the people in it, including the narrator and his wife. The tone is tongue-in-cheek and playful, with a touch of satire and social commentary. Overall, the story is an entertaining and amusing tale about the ups and downs of married life.
+
+The report for the text is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–8241):
+Section Summary: The narrator and his wife are on their way to the Battersea Home for Lost Dogs to buy a dog for five shillings. They had previously considered buying a purebred dog, but decided against it due to the high cost. After arriving in Battersea, they try to find the dog home, but their attempts at navigation are unsuccessful, and they are misled by a mischievous street boy. They then spot a man wearing a uniform with the Battersea Home for Lost and Starving Dogs emblem and decide to follow him discreetly, hoping he will lead them to the dog home. However, their attempts at surreptitious tracking prove to be challenging and embarrassing.
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor punctuation errors
+    - [LEXICON]:
+        • some outdated vocabulary
+    - [SYNTAX]:
+        • occasional complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • slight inconsistencies in character actions
+    - [STRUCTURE]:
+        • meandering narrative at times
+    - [CLARITY]:
+        • occasional ambiguity in scene transitions
+
+Section section_02 (Chars 8242–12602):
+Section Summary: Stella and the narrator were trying to follow a man who they believed was going to the Dogs' Home to collect a dog they wanted to adopt. However, they ended up chasing him through the streets, only to discover that he was actually returning to his home. The man and his wife deliberately shut them out, and Stella and the narrator were left exhausted and disappointed. After their failed adventure, they returned home, deciding to walk across the golf course, and Stella was still upset about the experience. The narrator suggests advertising for a dog, but Stella is hesitant, still shaken by their earlier ordeal.
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor punctuation issues
+    - [LEXICON]:
+        • some word choices may be less common
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between scenes
+    - [STRUCTURE]:
+        • slight disjointedness in narrative flow
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

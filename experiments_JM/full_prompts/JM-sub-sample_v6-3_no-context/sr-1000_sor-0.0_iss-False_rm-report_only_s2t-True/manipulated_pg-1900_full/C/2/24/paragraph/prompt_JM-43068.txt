@@ -1,0 +1,327 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    b) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The report is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–4341):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • abrupt sentence transition
+    - [LEXICON]:
+        • outdated vocabulary
+    - [SYNTAX]:
+        • complex sentence structure
+  Coherence Issues:
+    - [LOGIC]:
+        • unclear connection between paragraphs
+    - [STRUCTURE]:
+        • lack of clear introduction to Millet's work
+    - [CLARITY]:
+        • ambiguous references to historical context
+
+Section section_02 (Chars 4342–8699):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • sentence structure complexity
+    - [LEXICON]:
+        • occasional use of less common vocabulary
+    - [SYNTAX]:
+        • lengthy sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between paragraphs
+    - [STRUCTURE]:
+        • lack of clear conclusion
+    - [CLARITY]:
+        • some sentences are wordy and hard to follow
+
+Section section_03 (Chars 8700–13067):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Minor sentence structure complexity
+    - [LEXICON]:
+        • Some words may be less familiar to non-native speakers
+    - [SYNTAX]:
+        • Long sentences that could be broken up for easier reading
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between discussing Millet's style and his personal life
+    - [STRUCTURE]:
+        • The text jumps between analyzing specific artworks and making general statements about Millet
+    - [CLARITY]:
+        • Some sentences are wordy or contain multiple ideas, making them hard to follow
+
+Section section_04 (Chars 13068–17255):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor sentence structure complexity
+    - [LEXICON]:
+        • some outdated vocabulary usage
+    - [SYNTAX]:
+        • occasional long sentence lengths
+  Coherence Issues:
+    - [LOGIC]:
+        • slight jumps in topic discussion
+    - [STRUCTURE]:
+        • lack of clear transitions between paragraphs
+    - [CLARITY]:
+        • occasional ambiguity in sentence meaning
+
+Section section_05 (Chars 17255–21653):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor sentence structure complexity
+    - [LEXICON]:
+        • some outdated vocabulary usage
+    - [SYNTAX]:
+        • occasional long sentence lengths
+  Coherence Issues:
+    - [LOGIC]:
+        • slight abruptness in transitioning between ideas
+    - [STRUCTURE]:
+        • minor disjointedness in narrative flow
+    - [CLARITY]:
+        • occasional ambiguity in descriptive passages
+
+Section section_06 (Chars 21654–25984):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • abrupt sentence transition with "A touchscreen blinked to life"
+    - [LEXICON]:
+        • anachronistic term "touchscreen" in historical context
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt chapter transition without clear connection
+    - [CLARITY]:
+        • unclear relevance of some sentences to the main narrative
+
+Section section_07 (Chars 25985–30443):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor sentence structure complexity
+    - [LEXICON]:
+        • some outdated vocabulary usage
+    - [SYNTAX]:
+        • occasional long sentence constructions
+  Coherence Issues:
+    - [LOGIC]:
+        • slight abruptness in transitioning between Millet's life stages
+    - [STRUCTURE]:
+        • minor disjointedness in narrative flow
+    - [CLARITY]:
+        • occasional ambiguity in sentence meaning
+
+Section section_08 (Chars 30444–34675):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor sentence complexity
+    - [LEXICON]:
+        • some archaic vocabulary
+    - [SYNTAX]:
+        • occasional long sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • slight non-chronological ordering
+    - [STRUCTURE]:
+        • occasional abrupt topic shifts
+    - [CLARITY]:
+        • minor ambiguity in artist influences
+
+Section section_09 (Chars 34676–39009):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • abrupt sentence transition with "A remote server executed the request."
+        • abrupt sentence transition with "A text appeared on a curved screen."
+  Coherence Issues:
+    - [STRUCTURE]:
+        • inclusion of unrelated sentences about a remote server and a text on a curved screen
+    - [LOGIC]:
+        • lack of connection between some paragraphs
+
+Section section_10 (Chars 39010–43175):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Abrupt introduction of a QR code
+    - [SYNTAX]:
+        • Some sentences are wordy and convoluted
+    - [LEXICON]:
+        • Use of less common vocabulary (e.g. "waggonettes")
+  Coherence Issues:
+    - [LOGIC]:
+        • Sudden shift from Millet's biography to a description of Barbizon
+    - [STRUCTURE]:
+        • Lack of clear transitions between paragraphs
+    - [CLARITY]:
+        • Unclear connection between Millet's life and the description of Rousseau
+
+Section section_11 (Chars 43176–47544):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Minor sentence complexity
+    - [LEXICON]:
+        • Some outdated vocabulary
+    - [SYNTAX]:
+        • Long sentences with multiple clauses
+  Coherence Issues:
+    - [STRUCTURE]:
+        • Abrupt transition between paragraphs
+    - [CLARITY]:
+        • Some sentences are wordy or ambiguous
+    - [LOGIC]:
+        • Minor inconsistencies in narrative flow
+
+Section section_12 (Chars 47545–51854):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 3.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Inconsistent verb tense usage
+    - [LEXICON]:
+        • Unnatural phrasing in some sentences
+    - [SYNTAX]:
+        • Abrupt sentence structure changes
+  Coherence Issues:
+    - [LOGIC]:
+        • Unrelated sentences about "A home pod switched tracks" and "The AI assistant adjusted the lights" and "The electric skateboard slowed automatically"
+    - [STRUCTURE]:
+        • Disjointed narrative flow
+    - [TRANSITION]:
+        • Lack of smooth transitions between paragraphs
+
+Section section_13 (Chars 51854–56084):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor sentence structure complexity
+    - [LEXICON]:
+        • occasional use of less common vocabulary
+    - [SYNTAX]:
+        • some sentences are lengthy and convoluted
+  Coherence Issues:
+    - [LOGIC]:
+        • slight disconnect between paragraphs
+    - [STRUCTURE]:
+        • occasional abrupt transitions between ideas
+    - [CLARITY]:
+        • minor ambiguity in a few sentences
+
+Section section_14 (Chars 56085–60273):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Abrupt sentence transition with "The VR headset sat quietly on the table."
+    - [LEXICON]:
+        • Some words may be less familiar to modern readers, potentially disrupting fluency
+    - [SYNTAX]:
+        • Complex sentence structures in some paragraphs
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt introduction of the VR headset seems unrelated to the rest of the text
+    - [STRUCTURE]:
+        • The text jumps between discussing Millet's life, his art, and its impact without clear transitions
+    - [CLARITY]:
+        • Some sentences are long and convoluted, making them hard to follow
+
+Section section_15 (Chars 60274–60536):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Missing article in some places
+    - [SYNTAX]:
+        • Somewhat complex sentence structure
+  Coherence Issues:
+    - [CLARITY]:
+        • Lack of clear subject reference at the beginning
+    - [TRANSITION]:
+        • Abrupt start without context
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

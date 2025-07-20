@@ -1,0 +1,100 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) Read and understand the summary of the text the report was created for.
+    b) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    c) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The summary of the text to be evaluated is given below:
+Summary: The expedition began on December 13th, 1907, in the Chinese town of Chin-t'a, also known as the "golden tower." The team left the town and headed southeast, passing through a temple and over the ruins of a wall that once enclosed the oasis. They then entered a sandy and sterile stretch of ground, which gradually rose to a low chain of hills. The only vegetation in sight was some insignificant creeping brush and reeds. 
+
+As they continued their journey, they came across a typical porous soil with a strong salty deposit, which extended as far as the eye could see. The team crossed the great high road that joins the territory inside and outside the Great Wall and arrived at the Yögur village of Ma-chuang-tzu. The villagers, who called themselves Sarö Yögurs or "yellow Yögurs," were dressed in a strange costume that the author had never seen before.
+
+The team was invited to tea by the eldest woman, who was very talkative and proud of her heritage. However, when the author brought out his camera, the atmosphere changed, and the women became uncooperative. The team then continued their journey to the village temple, which was built near the remains of a small ruin. The temple was plain and poor, with only a few Buddhist paintings and banners.
+
+The lamas at the temple were initially surprised by the team's arrival but soon became hospitable and talkative. The villagers, who numbered around 40 houses, were mostly engaged in cattle-herding and wood-cutting. The lamas earned their living by keeping cattle and cutting wood, and the villagers paid a yearly tax of 13 horses to the Chinese government.
+
+The houses in the village were fairly clean and built in Chinese style, with traditional Chinese sleeping stoves and Buddhist altars. The villagers used Chinese household utensils, except for some Mongolian wooden cups. The men wore Chinese caps, long coats, and fur coats, while the women wore dresses similar to those of the men but with a peculiar head-dress decorated with coral, glass beads, and copper rings.
+
+The Sarö Yögurs had a limited wardrobe, with no holiday attire or change of everyday clothes. They only bought new clothes when the old ones were falling apart, making it difficult for the author to collect ethnographic items during the cold season. The villagers were mostly engaged in outdoor activities like cattle-herding and water-carrying, while the men performed tasks like weaving, basket-making, and knitting stockings.
+
+The women wove cloth in long narrow strips, which were sold in the local market for a low price. The villagers had no knowledge of iron forging, and their basket-work was primitive and inferior to Chinese work. The author observed that the Sarö Yögurs had a unique culture and language, which resembled Khirgis and Turkish, but they had no written language and were unwilling to share their legends and songs.
+
+The team spent some time with the villagers, learning about their customs and way of life. They noted that the villagers were poor but content with their simple lives. The author was struck by the uniqueness of the Sarö Yögur culture and their ability to maintain their traditions despite being surrounded by Chinese influence. Overall, the expedition provided valuable insights into the lives of the Sarö Yögurs, a little-known ethnic group in the Gobi Desert.
+
+The report for the text is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–8346):
+Section Summary: The expedition began on December 13th, 1907, in the Chinese town of Chint'a, and headed southeast into the Gobi Desert. The team soon encountered the Sarö Yögur village of Ma-chuang-tzu, where they met three women who proudly identified themselves as Sarö Yögurs, a name that distinguishes them from the Tangutans. The villagers, also known as Huang Fantzu or "yellow barbarians," have a legend that their forefathers came from a city in the west over a thousand years ago. The team stayed in the village temple, where they met the lamas, who earn their living by keeping cattle and cutting wood, and learned about the local administration and tax system. The Sarö Yögurs have a unique language and culture, but their history and traditions are not well-documented, and they were hesitant to share their stories with the expedition team.
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor punctuation errors
+    - [LEXICON]:
+        • some uncommon vocabulary
+    - [SYNTAX]:
+        • occasional complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between descriptions of landscape and village
+    - [STRUCTURE]:
+        • lack of clear sectioning or headings
+    - [CLARITY]:
+        • some sentences are wordy or contain multiple ideas
+
+Section section_02 (Chars 8346–12737):
+Section Summary: The Sarö Yögur people's homes feature traditional Chinese elements, such as the k'ang sleeping stove and Buddhist altars, with some Mongolian influences. Their clothing is mostly made from home-spun materials and follows Chinese and Mongolian styles, with men and women wearing similar attire, including long coats, trousers, and fur coats. The women's head dresses are particularly distinctive, adorned with coral, glass beads, and copper rings, and are only worn by married women. The Sarö Yögur people have limited clothing and few possessions, making it difficult for them to replace items they sell, and their handicrafts are limited to weaving, basket-making, and knitting. Their woven cloth is of good quality and is one of the few saleable items they possess, often sold in local markets.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Missing articles in some sentences
+    - [LEXICON]:
+        • Use of specialized terms without explanation (e.g. "k'ang", "tshokh", "lan", "kop", "Chin", "ch'ih")
+    - [SYNTAX]:
+        • Some long and complex sentences
+  Coherence Issues:
+    - [STRUCTURE]:
+        • Abrupt transitions between descriptions of different aspects of Yögur life
+    - [CLARITY]:
+        • Some sentences are wordy or contain unclear references
+    - [LOGIC]:
+        • Lack of clear connections between some paragraphs
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

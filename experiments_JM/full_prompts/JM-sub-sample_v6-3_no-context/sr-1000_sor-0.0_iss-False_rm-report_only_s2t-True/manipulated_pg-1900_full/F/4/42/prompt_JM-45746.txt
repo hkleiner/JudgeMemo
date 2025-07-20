@@ -1,0 +1,365 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    b) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The report is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–4461):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • "would have make" should be "would have made"
+        • "in what grades the manual training work woulded be offered" should be "in what grades the manual training work would be offered"
+    - [SPELLING]:
+        • "know" should be "known"
+    - [SYNTAX]:
+        • Some sentences are wordy or awkwardly phrased
+  Coherence Issues:
+    - [STRUCTURE]:
+        • The text jumps abruptly from the narrator's personal story to the story of the two young men
+    - [TRANSITION]:
+        • The connection between the different parts of the text is not always clear
+    - [CLARITY]:
+        • Some sentences or paragraphs seem disconnected from the main narrative
+
+Section section_02 (Chars 4462–8908):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing articles in some places
+    - [SYNTAX]:
+        • some sentences are wordy or awkwardly phrased
+    - [LEXICON]:
+        • occasional use of outdated vocabulary
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between the story and the advice section
+    - [STRUCTURE]:
+        • lack of clear connection between paragraphs in some cases
+    - [CLARITY]:
+        • some sentences are vague or open to interpretation
+
+Section section_03 (Chars 8908–13567):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • verb tense inconsistencies
+    - [SPELLING]:
+        • typos (e.g., "couldnot", "superintendent's" office counter)
+    - [SYNTAX]:
+        • awkward sentence structures
+    - [LEXICON]:
+        • word choice issues (e.g., "desirous of making a good personal impression")
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between ideas
+    - [STRUCTURE]:
+        • lack of clear paragraph structure
+    - [CLARITY]:
+        • ambiguous sentences
+    - [TRANSITION]:
+        • missing connections between paragraphs
+
+Section section_04 (Chars 13568–18195):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • "to secured" should be "to secure"
+        • "a succeeded superintendent" should be "a successful superintendent"
+        • "planned only for the one year" should be "plan only for one year"
+    - [SPELLING]:
+        • "coöperation" is an uncommon spelling, commonly used is "cooperation"
+  Coherence Issues:
+    - [TRANSITION]:
+        • Abrupt shift from discussing personal qualifications to describing the first day of instruction
+    - [STRUCTURE]:
+        • The text jumps between different topics, such as school programs, teacher relationships, and budgeting, without clear connections
+
+Section section_05 (Chars 18196–22798):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing article in some places
+    - [SPELLING]:
+        • "am" instead of "are"
+    - [SYNTAX]:
+        • some sentences are wordy or awkwardly phrased
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between paragraphs
+    - [STRUCTURE]:
+        • lack of clear connection between some ideas
+    - [CLARITY]:
+        • some sentences are unclear or vague
+
+Section section_06 (Chars 22799–27424):
+Scores:
+  - Fluency: 3.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • verb tense inconsistencies
+    - [SPELLING]:
+        • typos (e.g. "mean" instead of "meant")
+    - [SYNTAX]:
+        • awkward sentence structures
+    - [LEXICON]:
+        • outdated vocabulary (e.g. "coöperation")
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between ideas
+    - [STRUCTURE]:
+        • lack of clear paragraphing
+    - [CLARITY]:
+        • ambiguous sentences
+    - [TRANSITION]:
+        • missing connections between sections
+
+Section section_07 (Chars 27425–32167):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Missing article in some sentences
+    - [LEXICON]:
+        • Some words are outdated or less common
+    - [SYNTAX]:
+        • A few sentences are wordy or awkwardly phrased
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between paragraphs
+    - [STRUCTURE]:
+        • Lack of clear connection between some ideas
+    - [CLARITY]:
+        • Some sentences are vague or open to interpretation
+
+Section section_08 (Chars 32168–36657):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • "we woulded" should be "we would"
+    - [SPELLING]:
+        • "debarred" is correct, but "have been advanced" should be "had been advanced"
+    - [SYNTAX]:
+        • some sentences are wordy or awkwardly phrased
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between discussing athletic association and literary society
+    - [STRUCTURE]:
+        • lack of clear connection between some paragraphs
+    - [CLARITY]:
+        • some sentences are unclear or confusing
+
+Section section_09 (Chars 36658–41457):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • "The minor activities was" should be "The minor activities were"
+        • "These activities was" should be "These activities were"
+    - [LEXICON]:
+        • Some sentences are wordy and could be more concise
+  Coherence Issues:
+    - [LOGIC]:
+        • The comparison between school activities and city events may not be entirely clear or relevant
+    - [TRANSITION]:
+        • The text jumps between discussing minor and major activities without a smooth transition
+
+Section section_10 (Chars 41458–46077):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • incorrect verb conjugation ("wherever they was")
+    - [LEXICON]:
+        • outdated or formal language ("sanely managed", "patronize")
+    - [SYNTAX]:
+        • sentence structure complexity
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between paragraphs
+    - [STRUCTURE]:
+        • lack of clear connection between ideas
+    - [CLARITY]:
+        • ambiguity in responsibility for social and club dances
+
+Section section_11 (Chars 46078–50427):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor punctuation issues
+    - [LEXICON]:
+        • some outdated vocabulary
+    - [SYNTAX]:
+        • a few sentence structures are slightly awkward
+  Coherence Issues:
+    - [LOGIC]:
+        • occasional abrupt transitions between ideas
+    - [STRUCTURE]:
+        • the narrative jumps between different time frames
+    - [CLARITY]:
+        • some sentences are wordy or unclear
+
+Section section_12 (Chars 50428–54865):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Missing articles in some sentences
+    - [LEXICON]:
+        • Some words are outdated or less common
+    - [SYNTAX]:
+        • Long sentences with complex structures
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between ideas
+    - [STRUCTURE]:
+        • Lack of clear introduction to the discussion section
+    - [CLARITY]:
+        • Some sentences are wordy or unclear
+
+Section section_13 (Chars 54866–59382):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • "led to" should be "lead to"
+        • "explained" should be "explain"
+        • "couldnot" should be "could not"
+        • "helped" should be "help"
+    - [SPELLING]:
+        • minor punctuation errors
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between paragraphs
+    - [STRUCTURE]:
+        • lack of clear connections between ideas
+    - [CLARITY]:
+        • some sentences are wordy or unclear
+
+Section section_14 (Chars 59383–63987):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • "No efficient business establishment would made" should be "No efficient business establishment would make"
+    - [SPELLING]:
+        • "rang" should be "ring"
+    - [SYNTAX]:
+        • Some sentences are wordy and awkwardly phrased
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between sections
+    - [STRUCTURE]:
+        • Lack of clear connections between ideas
+    - [CLARITY]:
+        • Some sentences are unclear or confusing
+
+Section section_15 (Chars 63988–68812):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • "what the school had to offer" could be rephrased for better clarity
+    - [SPELLING]:
+        • "woulded" is a typo and should be "would"
+    - [SYNTAX]:
+        • some sentences are wordy and could be simplified for better flow
+  Coherence Issues:
+    - [LOGIC]:
+        • the text jumps between different ideas without smooth transitions
+    - [STRUCTURE]:
+        • the narrative could be more organized and easier to follow
+    - [CLARITY]:
+        • some paragraphs seem disconnected from the main topic
+
+Section section_16 (Chars 68813–70105):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • "call upon" should be "called upon"
+    - [LEXICON]:
+        • "strenuous efforts" is a bit formal
+    - [SYNTAX]:
+        • some sentences are long and convoluted
+  Coherence Issues:
+    - [LOGIC]:
+        • the text jumps between the individual's experience and general statements about education
+    - [TRANSITION]:
+        • the connection between the first and second paragraphs is not smooth
+    - [CLARITY]:
+        • some sentences are wordy and unclear
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

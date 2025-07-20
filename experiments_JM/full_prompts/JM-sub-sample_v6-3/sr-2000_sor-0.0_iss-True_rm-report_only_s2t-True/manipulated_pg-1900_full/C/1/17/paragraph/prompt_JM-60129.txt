@@ -1,0 +1,254 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    b) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The report is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–8494):
+Section Summary: The expedition began on December 13th, 1907, in the Chinese town of Chin-t'a, and headed southeast into the Gobi Desert. The team passed through a barren landscape and eventually arrived at the village of Machuangtzu, home to the Sarö Yögur people, also known as the "yellow Yögurs". The villagers claimed to have originated from a city in the west over a thousand years ago and had a distinct language and culture. The team visited the village temple, which was small and poorly maintained, and met with the lamas who lived there and earned their living by keeping cattle and cutting wood. The Sarö Yögur people had a unique culture and language, but their history and traditions were not well-documented, and the team was unable to gather much information about their past.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Some sentences are overly long and convoluted
+    - [LEXICON]:
+        • Use of specialized vocabulary without explanation
+    - [SYNTAX]:
+        • Abrupt transitions between descriptive passages and dialogue
+  Coherence Issues:
+    - [LOGIC]:
+        • Sudden shift from descriptive narrative to philosophical discussion
+    - [STRUCTURE]:
+        • Lack of clear connection between different sections of the text
+    - [CLARITY]:
+        • Unclear transitions between different ideas and locations
+
+Section section_02 (Chars 8495–16951):
+Section Summary: The Sarö Yögur people live in a rural area with limited economic resources, relying on cattle herding as their primary means of livelihood. Their homes are built in Chinese style, with traditional Chinese sleeping stoves and Buddhist altars, and they use a mix of Chinese and Mongolian household utensils. The people wear simple, practical clothing, with women's dresses resembling those of Chinese women, and they have a unique head-dress adorned with coral, glass beads, and copper rings. The Sarö Yögurs have a limited diet, consisting mainly of flour, cereals, and tea made with salt and butter, and they lack musical instruments, dancing, and other forms of entertainment. Overall, the people appear to be living in straitened circumstances, but their condition is not considered extremely poor compared to other parts of Central Asia.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing articles
+    - [SPELLING]:
+        • "beatiful" instead of "beautiful"
+    - [LEXICON]:
+        • uncommon vocabulary (e.g. "tshokh", "lan", "kop", "Chin", "ch'ih")
+    - [SYNTAX]:
+        • long, complex sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition to "V. POLITICAL CONDITIONS IN THE TELL EL AMARNA PERIOD" without connection to the rest of the text
+    - [STRUCTURE]:
+        • lack of clear organization and sectioning
+    - [CLARITY]:
+        • unclear or missing context for some statements
+    - [TRANSITION]:
+        • abrupt shifts between topics (e.g. from clothing to food)
+
+Section section_03 (Chars 16951–25037):
+Section Summary: The section describes the daily life and customs of the Sarö Yögur people, including their marriage and childbirth practices. The Sarö Yögur are a primitive tribe where the wife is bought and the decision is made by the parents without consulting the young people. The section also mentions a visit to the bride's parents after the wedding and the role of the lama in reading prayers on special occasions. Additionally, the section touches on the tribe's struggles with poverty and disease, which have led to a decline in their population. The section also includes unrelated passages about a family's evening drive and a supernatural encounter, as well as a table of statistics on births, deaths, and livestock ownership among the Sarö Yögur families.
+Scores:
+  - Fluency: 2.5
+  - Coherence: 2.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Inconsistent verb tense usage
+    - [SYNTAX]:
+        • Abrupt sentence structure changes
+    - [LEXICON]:
+        • Incongruous vocabulary choices
+  Coherence Issues:
+    - [LOGIC]:
+        • Disjointed narrative threads
+    - [STRUCTURE]:
+        • Lack of clear transitions between ideas
+    - [CLARITY]:
+        • Unclear connections between paragraphs
+
+Section section_04 (Chars 25037–33403):
+Section Summary: The author bid farewell to their host and set out towards the village of Yench'i, intending to follow the high road to Kanchow and visit the Shera Yögur Prince. Along the way, they observed the poor soil and coarse grass, and their host, Lama Kuá, struggled to keep up with the group despite his small pony's quick pace. The author eventually arrived in Kanchow and applied for a letter of introduction to the Tangutan Prince, which was provided by the military mandarin Ma-t'idu. With the necessary preparations, the author set out towards the Shera Yögur monastery, K'ang-lung-ssu, navigating a challenging and icy ravine along the way. They finally arrived at the monastery, which was a collection of buildings with a large, impressive temple at its center.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [LEXICON]:
+        • occasional use of outdated or uncommon vocabulary
+    - [SYNTAX]:
+        • some sentences are overly long and convoluted
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between different ideas and scenes
+    - [STRUCTURE]:
+        • lack of clear chronological order in some sections
+    - [CLARITY]:
+        • some sentences are wordy and difficult to understand
+
+Section section_05 (Chars 33404–41653):
+Section Summary: The author visited a monastery in K'anglungssu, where they observed the simple and traditional living quarters of the lamas, with timber buildings, small dark rooms, and basic household goods. The temple, a large and wealthy religious shrine, featured a bronze statue of Tsunkoa and other Buddhist deities, as well as colorful banners and intricate carvings. The lamas, who numbered around 15, were friendly and obliging, but initially fearful of the author's anthropological instruments. The author eventually left the monastery, accompanied by the t'umu, Rentshen Nurbo, and departed with a more positive impression of the surrounding countryside. The monastery and its surroundings were characterized by a mix of natural beauty, with grassy hills, fir trees, and a winding valley, and traditional Tibetan-influenced architecture.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Inconsistent verb tense usage
+    - [SYNTAX]:
+        • Long, convoluted sentences
+    - [LEXICON]:
+        • Unfamiliar terms without explanation
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between ideas
+    - [STRUCTURE]:
+        • Lack of clear narrative progression
+    - [CLARITY]:
+        • Unclear connections between paragraphs
+
+Section section_06 (Chars 41654–49621):
+Section Summary: The author describes the appearance and demeanor of the lamas, who wear red mantles and have expressive faces. The author then recounts their journey through the mountains, passing by the monastery of K'anglungssu and the residence of the t'umu, the hereditary leader of the Shera Yögurs. The Shera Yögurs inhabit the surrounding mountains and are governed by a system of t'umus, who act as judges and manage the tents in their district. The t'umu complained about the arbitrariness and extortion of the Chinese officials, who levy horses and taxes from the tribe. The origins of the Shera Yögurs are unclear, but they believe they migrated to the area during the reign of Emperor K'ang-hsi and are related to the Sarö Yögurs, despite speaking a different language.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Missing articles in some sentences
+    - [LEXICON]:
+        • Unfamiliar terms without explanation
+    - [SYNTAX]:
+        • Long, complex sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between topics
+    - [STRUCTURE]:
+        • Lack of clear paragraph structure
+    - [CLARITY]:
+        • Unclear connections between ideas
+
+Section section_07 (Chars 49622–57637):
+Section Summary: The Yögur tribe was originally inhabited by a tribe called Hung maotzu, who were exterminated by the Chinese emperors, and later replaced by six tshi Huang-fan from Urumtchi. The Shera and Sarö Yögurs are the remnants of these six tshi and are considered irregular troops by the Chinese military authorities. The tribe has diminished in size due to death and amalgamation with the Chinese element, with women outnumbering men and many families having few children. The Yögurs have a unique culture, with customs such as leaving the dead to be eaten by birds of prey and arranging marriages between families, where the bride is bought and the agreement is made by the parents. The tribe is divided into administrative divisions, with the Shera Yögurs having several "bones" and the Sarö Yögurs having their own divisions, with Ta t'umu considered the head of both tribes.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [LEXICON]:
+        • some words are not defined or explained
+    - [SYNTAX]:
+        • long and complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between topics
+    - [STRUCTURE]:
+        • lack of clear sectioning or headings
+    - [CLARITY]:
+        • some sentences are wordy or unclear
+
+Section section_08 (Chars 57638–66278):
+Section Summary: The Shera Yögurs have a unique cultural and social setup, where bigamy is common in cases of childless marriages, and women play a significant role in childbirth and childcare. Physically, they are of medium height, with well-formed features, and are rarely stout or bald. They are intelligent and curious, with a good ear for languages, and enjoy jokes and amusement. Their traditional costume consists of a sheepskin coat, scarf, and trousers, with distinct head-dresses for women, and they use Chinese-made domestic appliances and implements. Overall, despite being dirty due to their living conditions, they appear to be a lively and intelligent people with a rich cultural heritage.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Run-on sentences and lack of punctuation
+    - [LEXICON]:
+        • Overly complex vocabulary and sentence structure
+    - [SYNTAX]:
+        • Inconsistent sentence length and structure
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between topics
+    - [STRUCTURE]:
+        • Lack of clear organization and sectioning
+    - [CLARITY]:
+        • Unclear connections between ideas
+
+Section section_09 (Chars 66279–74365):
+Section Summary: The Yögurs are a nomadic tribe that live in tents made of a coarse, canvas-like material, which are less comfortable than those of other tribes. Their daily life involves caring for their cattle, including yak cows, sheep, and horses, and they are skilled at their work, talking and laughing together as they go about their tasks. The Yögurs are also devout, gathering to chant prayers at "praying places" in the mountains and saying prayers together as a family in the evening. They have a simple but rich cultural life, with traditions such as making and drinking tea, eating meals together, and socializing around the fire at night. The tribe has faced hardships, including the loss of cattle during the Dungan revolt, but they remain a hospitable and welcoming people.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Missing articles in some places
+    - [LEXICON]:
+        • Some words are outdated or less common
+    - [SYNTAX]:
+        • Long sentences with multiple clauses
+  Coherence Issues:
+    - [STRUCTURE]:
+        • Abrupt transitions between topics
+    - [CLARITY]:
+        • Some sentences are wordy or unclear
+    - [LOGIC]:
+        • Lack of clear connections between ideas
+
+Section section_10 (Chars 74366–77267):
+Section Summary: The author traveled through a valley, following a water course with ice cakes, and eventually arrived at the Lansor's or Neiman-gol valley, where a river flows through a broad stony bed. The river is surrounded by steep, picturesque heights, including warm terra-cotta red cliffs on the left shore. The author rode along the river and arrived at the Chinese town of Li-yen, also known as "the garden of pear trees", which is surrounded by hills and features fruit trees, temples, and a yamen. The author was warmly received by the friendly old mandarin, who sent a delicious dinner and offered courteous attentions. The author then continued their journey to Kanchenp'u and eventually returned to Kanchow.
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor sentence structure complexity
+    - [LEXICON]:
+        • some archaic vocabulary usage
+    - [SYNTAX]:
+        • occasional long sentence lengths
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transition between descriptive passages and historical references
+    - [CLARITY]:
+        • minor ambiguity in geographical descriptions
+    - [TRANSITION]:
+        • lack of clear connection between the arrival in Li-yen and the description of the town's history
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

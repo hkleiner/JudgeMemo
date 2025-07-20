@@ -1,0 +1,88 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    b) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The report is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–8380):
+Section Summary: The story begins with the introduction of the Street of Precious Pearls, a significant location in Chinese culture where dowry jewels are bought for brides. Yen Kuei Ping, a young Chinese girl, visits this street with her grandmother, Madame Yen, and other relatives to purchase jewels for her dowry. At a shop owned by Wong Lui, a reputable dealer in jewels, they are greeted with formal courtesy and offered a selection of precious stones, including pearls, which Madame Yen and Kuei Ping prefer. The two women carefully select the most beautiful pearls, and after a game of bargaining with Wong Lui, they finalize their purchase. The experience is a memorable one for Kuei Ping, who is grateful for her grandmother's expertise and indulgence in allowing her to choose her own dowry jewels.
+Scores:
+  - Fluency: 3.5
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing or incorrect articles
+    - [SPELLING]:
+        • typos (e.g., "ky" instead of "my", "ascshe" instead of "as she", "fo" instead of "to", "v" instead of "of", "ahd" instead of "and", "ajd" instead of "and", "zt" instead of "at")
+    - [LEXICON]:
+        • word choice (e.g., "bembought" instead of "bought", "anility" instead of "ability", "hoysehold" instead of "household")
+    - [SYNTAX]:
+        • sentence structure (e.g., long, convoluted sentences)
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt shifts in narrative (e.g., Kuei Ping's sudden memory of the mission school)
+    - [TRANSITION]:
+        • unclear connections between ideas
+    - [CLARITY]:
+        • confusing descriptions (e.g., the description of the shop and its layout)
+
+Section section_02 (Chars 8381–11996):
+Section Summary: Kuei Ping cherished a memory of her time in school, particularly a conversation with her American teacher, Miss Porter, who inspired her with ideas of freedom and equality. However, Kuei Ping's family had already planned her marriage, and she felt bound by her family ties and unable to pursue her own desires. She had made the difficult decision not to follow her dreams, and this conflict had caused her inner turmoil. As she sat with her grandmother, Madame Yen, and others, discussing her engagement, Kuei Ping's mind wandered back to her conversation with Miss Porter and the ideals that had stirred her heart. The meeting ultimately ended with the engagement arrangements being finalized, and the group prepared to leave.
+Scores:
+  - Fluency: 2.5
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • incorrect verb tense usage
+    - [SPELLING]:
+        • multiple typos (e.g., "fitst", "tl", "qhere", "awzited", "weaw", "stilled hermlips")
+    - [SYNTAX]:
+        • awkward sentence structure
+    - [LEXICON]:
+        • inconsistent word choice
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt shifts in narrative
+    - [STRUCTURE]:
+        • unclear transitions between ideas
+    - [CLARITY]:
+        • confusing character motivations
+    - [TRANSITION]:
+        • disconnected scenes
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

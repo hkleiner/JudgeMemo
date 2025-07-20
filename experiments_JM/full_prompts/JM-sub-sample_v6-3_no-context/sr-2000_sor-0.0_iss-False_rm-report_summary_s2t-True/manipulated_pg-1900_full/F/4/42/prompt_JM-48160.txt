@@ -1,0 +1,264 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) Read and understand the summary of the text the report was created for.
+    b) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    c) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The summary of the text to be evaluated is given below:
+Summary: The author describes her experiences in the war zone in France during World War I. She notes that France is divided into two sections: the greater part where one can move freely and the Zone des Armées, or war zone, which is heavily restricted. To enter the war zone, one needs a sauf conduit, which can be obtained from the commissaire de police. The author tried to enter the war zone for six weeks but was unsuccessful until she met a duchess who helped her obtain the necessary permission.
+
+The author visited the war zone, including the towns of Châlons and Bar-le-Duc, and describes the devastation and destruction she saw. She notes that the French people are stoic and unemotional, even in the face of danger and death. The author also describes the difficulties of traveling in the war zone, including the need for permission and the presence of soldiers and military vehicles.
+
+The author visited several hospitals in the war zone, including the Savonières hospital near Bar-le-Duc, and describes the conditions and treatment of the wounded soldiers. She notes that the hospitals are well-organized and clean, but that the soldiers often lack the comforts and delicacies that they crave. The author also describes the work of the French women in the war effort, including the formation of the organization Le Bienêtre du Blessé, which aims to provide comfort and support to wounded soldiers.
+
+The author reflects on the bravery and resilience of the French people, particularly the women, who are playing a crucial role in the war effort. She also notes the importance of the American contribution to the war effort and the need for continued support and donations to organizations like Le Bienêtre du Blessé. The author concludes by emphasizing the need for practical sympathy and support for the soldiers and civilians affected by the war.
+
+The author's experiences in the war zone were marked by difficulty and danger, but also by moments of kindness and generosity. She notes that the French people are grateful for the support and sympathy of the Americans and that the war effort is a collective endeavor that requires the contributions of all. The author's account provides a unique perspective on the experiences of women in the war zone and highlights the importance of supporting organizations that provide comfort and support to those affected by the war.
+
+Overall, the author's experiences in the war zone were marked by a sense of wonder, admiration, and gratitude for the bravery and resilience of the French people. She notes that the war effort is a complex and multifaceted phenomenon that requires the contributions of all, and that the support and sympathy of the Americans are crucial to the success of the war effort. The author's account provides a powerful and moving portrait of the experiences of women in the war zone and highlights the importance of continued support and donations to organizations like Le Bienêtre du Blessé.
+
+The report for the text is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–8276):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tenses
+    - [LEXICON]:
+        • occasional use of outdated or less common vocabulary
+    - [SYNTAX]:
+        • some sentences are overly long and convoluted
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between paragraphs
+    - [STRUCTURE]:
+        • lack of clear chronological order in some sections
+    - [CLARITY]:
+        • occasional ambiguity in the author's intentions or descriptions
+
+Section section_02 (Chars 8277–16535):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • verb tense inconsistencies
+    - [SPELLING]:
+        • "there woulded" instead of "there would"
+    - [SYNTAX]:
+        • run-on sentences and lack of punctuation
+    - [LEXICON]:
+        • occasional awkward word choices
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between scenes
+    - [STRUCTURE]:
+        • lack of clear chronological order
+    - [CLARITY]:
+        • some sentences are wordy or unclear
+    - [TRANSITION]:
+        • insufficient connections between ideas
+
+Section section_03 (Chars 16535–24722):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • incorrect verb conjugation ("I was told at Châlons that it was the “least bad,” and started off with resignation" should be "I had been told...")
+    - [LEXICON]:
+        • uncommon vocabulary ("supererogatory", "pêle-mêle") may hinder understanding for non-native speakers
+    - [SYNTAX]:
+        • long, convoluted sentences may disrupt the flow
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transitions between scenes and ideas
+    - [CLARITY]:
+        • some sentences are wordy or unclear, making it difficult to follow the narrative
+    - [LOGIC]:
+        • the text jumps between different topics and settings without clear connections
+
+Section section_04 (Chars 24723–33049):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • "The entire company was waited" should be "The entire company was being waited on"
+        • "I is prepared" should be "I am prepared"
+        • "a plate of potatoes swimming in oil was place" should be "a plate of potatoes swimming in oil was placed"
+        • "I dared not touched" should be "I dared not touch"
+        • "I woulded go" should be "I would go"
+        • "let me waited" should be "let me wait"
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between describing the hotel and the visit to the military headquarters
+    - [STRUCTURE]:
+        • The narrative jumps between different events and locations without clear connections
+    - [CLARITY]:
+        • Some sentences are wordy and difficult to follow
+
+Section section_05 (Chars 33050–41480):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • incorrect verb conjugation (e.g., "he go" instead of "he goes")
+        • inconsistent verb tense usage
+    - [SPELLING]:
+        • typos (e.g., "can only be explained by the fact that to a Frenchman time is nothing" should be "can only be explained by the fact that to the French, time is nothing")
+    - [LEXICON]:
+        • word choice issues (e.g., "poke" instead of "poked")
+    - [SYNTAX]:
+        • sentence structure issues (e.g., "If I was forced to complain of an unnatural calm during my first two visits into the war zone I had my fill of noise and incessant motion on this trip" is a long, convoluted sentence)
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between ideas
+    - [STRUCTURE]:
+        • lack of clear organization and paragraph structure
+    - [CLARITY]:
+        • unclear or ambiguous sentences
+    - [TRANSITION]:
+        • poor connections between paragraphs and ideas
+
+Section section_06 (Chars 41481–49939):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • incorrect verb tense usage
+    - [SPELLING]:
+        • typos (e.g., "estaminet" might be unfamiliar, but "order into" instead of "ordered into")
+    - [SYNTAX]:
+        • sentence structure complexity
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt topic shifts
+    - [TRANSITION]:
+        • lack of smooth connections between paragraphs
+    - [CLARITY]:
+        • ambiguous sentences or phrases
+
+Section section_07 (Chars 49940–58424):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing or incorrect articles
+    - [SPELLING]:
+        • minor typos (e.g., "seem to was" instead of "seemed to be")
+    - [SYNTAX]:
+        • occasional awkward sentence structure
+  Coherence Issues:
+    - [LOGIC]:
+        • some abrupt transitions between ideas
+    - [STRUCTURE]:
+        • lack of clear paragraph topics or summaries
+    - [CLARITY]:
+        • occasional ambiguity in sentence meaning
+
+Section section_08 (Chars 58425–66755):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [LEXICON]:
+        • occasional use of outdated or less common vocabulary
+    - [SYNTAX]:
+        • some sentences are overly long or complex
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between different storylines
+    - [STRUCTURE]:
+        • lack of clear connection between some paragraphs
+    - [CLARITY]:
+        • some sentences or passages are unclear or confusing
+
+Section section_09 (Chars 66756–75164):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • incorrect verb conjugation ("If they was grand blessés")
+    - [SYNTAX]:
+        • sentence structure complexity
+    - [LEXICON]:
+        • occasional word choice awkwardness
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between paragraphs
+    - [STRUCTURE]:
+        • lengthy paragraphs with multiple ideas
+    - [CLARITY]:
+        • occasional ambiguity in sentence meaning
+
+Section section_10 (Chars 75165–82270):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing articles
+    - [SPELLING]:
+        • typos (e.g. "euphenism" instead of "euphemism")
+    - [SYNTAX]:
+        • long, complex sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between descriptions of hospital and discussion of French economy
+    - [STRUCTURE]:
+        • lack of clear connection between some paragraphs
+    - [CLARITY]:
+        • some sentences are wordy or unclear
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

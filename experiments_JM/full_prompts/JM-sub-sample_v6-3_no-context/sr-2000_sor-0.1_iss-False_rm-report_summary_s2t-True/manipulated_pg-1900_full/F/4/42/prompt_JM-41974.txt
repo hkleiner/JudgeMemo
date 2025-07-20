@@ -1,0 +1,158 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) Read and understand the summary of the text the report was created for.
+    b) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    c) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The summary of the text to be evaluated is given below:
+Summary: Paolo Veronese was a renowned painter from Verona, born in 1528. He was known for his unique style, which was characterized by his use of color and his ability to create a sense of joy and luxury in his paintings. Veronese was trained by his uncle, Antonio Badile, and later by Giovanni Carotto. He was influenced by the works of Albert Durer and Lucas Van Leyden, and he developed a distinctive style that was both severe and imaginative.
+
+Veronese's early work was marked by his use of chiaroscuro and his ability to create a sense of depth and volume in his paintings. He was commissioned to paint several works for the church of San Bernardino in Verona, and his reputation as a painter grew rapidly. In 1555, Veronese moved to Venice, where he became one of the most celebrated painters of his time.
+
+Veronese's paintings were known for their beauty, elegance, and sense of joy. He was particularly famous for his depiction of feasts and banquets, which were often filled with beautiful women, fine clothes, and luxurious decorations. His most famous works include "The Wedding at Cana" and "The Feast at the House of Levi," which are considered some of the greatest paintings of the Renaissance.
+
+Veronese was also known for his ability to create large, complex compositions that were filled with many figures and details. He was a master of perspective and was able to create a sense of depth and space in his paintings. His use of color was also highly praised, and he was particularly famous for his use of ultramarine blue, which was a highly expensive pigment at the time.
+
+Despite his success, Veronese was not without his critics. Some people felt that his paintings were too lavish and extravagant, and that they did not accurately depict the scenes from the Bible that they were meant to illustrate. Veronese was summoned before the Inquisition in 1573, where he was forced to defend his work against charges of irreverence and heresy.
+
+Veronese continued to paint until his death in 1588, at the age of 60. He was buried in the church of San Samuele in Venice, and his funeral was attended by many of the city's most prominent citizens. Today, Veronese is considered one of the greatest painters of the Renaissance, and his works are highly prized by museums and collectors around the world.
+
+Veronese's legacy is still celebrated today, and his paintings continue to inspire artists and art lovers alike. His use of color, composition, and perspective has influenced generations of painters, and his works remain some of the most beautiful and elegant of the Renaissance. Despite the criticisms he faced during his lifetime, Veronese's paintings are now recognized as some of the greatest works of art ever created.
+
+Veronese's personal life was marked by his marriage and his two sons, Gabriele and Carletto. He was known for his honesty and his sense of honor, and he was highly respected by his contemporaries. Veronese's fame spread far and wide, and he was commissioned to paint works for many of the most prominent families in Venice.
+
+In addition to his paintings, Veronese was also known for his decorative work, including his designs for ceilings, walls, and other architectural features. He was a true Renaissance man, and his talents extended far beyond the realm of painting. Veronese's contributions to the art world are still celebrated today, and his legacy continues to inspire and delight people around the world.
+
+The report for the text is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–8273):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor sentence structure complexity
+    - [LEXICON]:
+        • occasional use of less common vocabulary
+  Coherence Issues:
+    - [LOGIC]:
+        • slight jumps in narrative between artist's life and style description
+    - [TRANSITION]:
+        • occasional lack of smooth connection between paragraphs
+
+Section section_02 (Chars 8274–16875):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • "How could he had failed" should be "How could he have failed"
+    - [LEXICON]:
+        • Some sentences are wordy and use complex vocabulary that may hinder understanding
+  Coherence Issues:
+    - [STRUCTURE]:
+        • The text jumps between describing Veronese's life, his paintings, and his personality without clear transitions
+    - [CLARITY]:
+        • Some paragraphs lack a clear main idea or topic sentence, making them hard to follow
+
+Section section_03 (Chars 16876–25374):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • "he had arrive" should be "he had arrived"
+        • "was adjudged most beautiful" could be rephrased for better clarity
+    - [LEXICON]:
+        • "mettlesome" is an uncommon word that might affect readability
+  Coherence Issues:
+    - [STRUCTURE]:
+        • The text jumps abruptly from discussing Veronese's career to describing a specific painting
+    - [TRANSITION]:
+        • The connection between the description of the Wedding at Cana and the rest of the text could be smoother
+
+Section section_04 (Chars 25374–33776):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor sentence structure issues
+    - [LEXICON]:
+        • occasional use of less common vocabulary
+  Coherence Issues:
+    - [LOGIC]:
+        • some abrupt transitions between paragraphs
+    - [STRUCTURE]:
+        • lack of clear chronological order in certain sections
+
+Section section_05 (Chars 33777–42401):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • "woulded" instead of "would"
+        • "could had" instead of "could have"
+    - [SPELLING]:
+        • potential minor typos or punctuation errors
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between paragraphs
+    - [STRUCTURE]:
+        • some sentences seem disconnected from the main narrative
+
+Section section_06 (Chars 42402–48100):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • "because it was his own preference to painted ease and luxury on a broad scale" should be "because it was his own preference to paint ease and luxury on a broad scale"
+    - [SYNTAX]:
+        • Some sentences are long and convoluted, making them hard to follow
+  Coherence Issues:
+    - [STRUCTURE]:
+        • The text jumps abruptly from discussing Veronese's artwork to his personal life and death
+    - [TRANSITION]:
+        • There is a lack of clear transitions between paragraphs, making the text feel disjointed
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

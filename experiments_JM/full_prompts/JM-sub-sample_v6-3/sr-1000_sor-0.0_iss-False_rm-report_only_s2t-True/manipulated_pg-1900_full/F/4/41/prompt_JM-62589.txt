@@ -1,0 +1,586 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    b) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The report is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–3655):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "Plymoufh" instead of "Plymouth"
+        • "ajd" instead of "and"
+        • "whsn" instead of "when"
+        • "Itcwas" instead of "It was"
+        • "tonexplain" instead of "to explain"
+        • "thdre's" instead of "there's"
+        • "od" instead of "of"
+    - [GRAMMAR]:
+        • "Okd" instead of "Old"
+        • "cale" instead of "came"
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt introduction of the theme of war and a republic
+    - [STRUCTURE]:
+        • Sudden shift in scene from the log house to the street
+    - [CLARITY]:
+        • Unclear motivations of some characters, such as Mrs. Lane
+
+Section section_02 (Chars 3656–7633):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "whatvyou" instead of "what you"
+        • "ghe" instead of "the"
+        • "wefe" instead of "were"
+        • "vlessed" instead of "blessed"
+        • "xhe" instead of "she"
+    - [GRAMMAR]:
+        • "Masom" should be "Mason" for consistency
+  Coherence Issues:
+    - [STRUCTURE]:
+        • Abrupt transition between Debby's thoughts and the description of her life
+    - [CLARITY]:
+        • Unclear timeline of events, especially regarding Debby's memories of her mother
+    - [TRANSITION]:
+        • Sudden shift from Debby's daily life to her memories of her mother without a clear connection
+
+Section section_03 (Chars 7633–11615):
+Scores:
+  - Fluency: 2.5
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • thectown
+        • ordsred
+        • vound
+        • lottld
+        • hexrted
+        • shouldets
+        • prauers
+        • answee
+        • tge
+    - [GRAMMAR]:
+        • inconsistent verb tenses
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between Debby's thoughts and the description of the town
+    - [STRUCTURE]:
+        • disjointed narrative flow
+    - [CLARITY]:
+        • unclear motivations of some characters
+
+Section section_04 (Chars 11616–15642):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "rwturn" instead of "return"
+        • "uponnthe" instead of "upon the"
+        • "mnevee" instead of "never"
+        • "tdim" instead of "dim"
+        • "fough" instead of "rough"
+        • "cime" instead of "come"
+        • "vthere" instead of "there"
+        • "nacross" instead of "across"
+    - [GRAMMAR]:
+        • inconsistent verb tenses
+    - [SYNTAX]:
+        • awkward sentence structure in some places
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt shift in tone when Debby starts laughing
+    - [STRUCTURE]:
+        • unclear transition between Debby's decision to disguise herself and her encounter with Jack
+    - [CLARITY]:
+        • some sentences are wordy or confusing
+
+Section section_05 (Chars 15643–19448):
+Scores:
+  - Fluency: 2.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "eying" instead of "eying" is correct, but "eysing" is used
+        • "ndws" instead of "news"
+        • "pah" instead of "punish"
+        • "unmannerlybprank" instead of "unmannerly prank"
+        • "wuen" instead of "when"
+        • "thw" instead of "the"
+        • "upkn" instead of "upon"
+        • "entrenchmenfs" instead of "entrenchments"
+        • "youchide" instead of "you hide"
+        • "kot" instead of "lot"
+        • "anu" instead of "anymore"
+    - [GRAMMAR]:
+        • inconsistent verb tenses
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt shift in conversation topics
+    - [STRUCTURE]:
+        • lack of clear transitions between ideas
+    - [CLARITY]:
+        • some sentences are wordy or unclear
+
+Section section_06 (Chars 19449–23281):
+Scores:
+  - Fluency: 3.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing or incorrect articles
+    - [SPELLING]:
+        • typos such as "tk", "vo", "nack", "bd", "soom", "toffer", "paihfully", "mby"
+    - [SYNTAX]:
+        • awkward sentence structure
+    - [LEXICON]:
+        • inconsistent vocabulary
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between scenes
+    - [STRUCTURE]:
+        • disjointed narrative flow
+    - [CLARITY]:
+        • unclear character motivations
+    - [TRANSITION]:
+        • lack of smooth connection between ideas
+
+Section section_07 (Chars 23282–27349):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing or incorrect articles
+    - [SPELLING]:
+        • typos (e.g., "vack" instead of "back", "thfow" instead of "throw", "hwro" instead of "hero")
+    - [SYNTAX]:
+        • awkward sentence structure
+    - [LEXICON]:
+        • inconsistent vocabulary (e.g., "hic" as a representation of drunken speech)
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between scenes
+    - [STRUCTURE]:
+        • lack of clear chronological order
+    - [CLARITY]:
+        • unclear character motivations (e.g., Robert's sudden desire to find Mason)
+    - [TRANSITION]:
+        • disconnected ideas between paragraphs
+
+Section section_08 (Chars 27350–30987):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Missing or incorrect punctuation in some sentences
+    - [LEXICON]:
+        • Some word choices seem outdated or less common
+    - [SYNTAX]:
+        • A few sentences have complex structures that may hinder smooth reading
+  Coherence Issues:
+    - [LOGIC]:
+        • Some character actions and reactions feel abrupt or unexplained
+    - [STRUCTURE]:
+        • The scene jumps quickly between different characters' interactions without clear transitions
+    - [CLARITY]:
+        • Mason's drunken state and dialogue sometimes make his intentions or thoughts unclear
+
+Section section_09 (Chars 30988–34688):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • "vojce" instead of "voice"
+    - [SPELLING]:
+        • "oit" instead of "out"
+        • "anoutvhim" instead of "about him"
+        • "ne" instead of "he"
+        • "iy" instead of "it"
+        • "ahd" instead of "and"
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt shift in Mason's perception of Robert as Morley
+    - [CLARITY]:
+        • Unclear motivation behind Morley's sudden decision to leave Robert
+    - [TRANSITION]:
+        • Sudden change in scene from the fight to Mason's dying words
+
+Section section_10 (Chars 34689–38668):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "sneering smile and hurried away" should be "sneering smile, and hurried away" (missing comma)
+        • "o’er" is an archaic spelling, consider updating to "over"
+        • "heeding not" is an awkward phrase, consider rephrasing
+        • "hjs" should be "his"
+        • "atnsight" should be "at sight"
+        • "tje" should be "the"
+        • "tye" should be "the"
+        • "nergously" should be "nervously"
+        • "speakcor" should be "speak or"
+    - [GRAMMAR]:
+        • inconsistent verb tenses
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between Robert's thoughts and the conversation between the two Britishers
+    - [STRUCTURE]:
+        • the story jumps abruptly from Robert's hiding to the conversation between the Britishers
+    - [CLARITY]:
+        • some sentences are wordy and hard to follow
+
+Section section_11 (Chars 38669–42598):
+Scores:
+  - Fluency: 3.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [SPELLING]:
+        • typos (e.g. "Lrt's", "vhis", "yu", "dobe", "qt", "tue", "Wuo")
+    - [SYNTAX]:
+        • awkward sentence structure
+    - [LEXICON]:
+        • unclear word choices (e.g. "oozed out of this little hole")
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between scenes
+    - [STRUCTURE]:
+        • disjointed narrative flow
+    - [CLARITY]:
+        • unclear character motivations (e.g. Robert's secret)
+    - [TRANSITION]:
+        • lack of smooth connections between ideas
+
+Section section_12 (Chars 42598–46601):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing or incorrect articles
+    - [SPELLING]:
+        • "distamce" instead of "distance"
+        • "engire" instead of "entire"
+        • "hajd" instead of "hand"
+        • "theh" instead of "then"
+        • "sightnof" instead of "sight of"
+    - [SYNTAX]:
+        • some sentences are wordy or awkwardly phrased
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt shift from Robert's exhaustion to his sudden laugh
+    - [TRANSITION]:
+        • some transitions between sentences or scenes feel abrupt
+    - [CLARITY]:
+        • a few sentences are wordy or unclear
+
+Section section_13 (Chars 46601–50716):
+Scores:
+  - Fluency: 2.5
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "incall" instead of "in call"
+        • "officee" instead of "officer"
+        • "grounr" instead of "ground"
+        • "uoon" instead of "upon"
+        • "sirge" instead of "siege"
+        • "himspirits" instead of "his spirits"
+        • "Thd" instead of "The"
+        • "themsslves" instead of "themselves"
+        • "bwfore" instead of "before"
+        • "eayer" instead of "eager"
+        • "who hadmsuffered" instead of "who had suffered"
+        • "Martib" instead of "Martin"
+    - [GRAMMAR]:
+        • inconsistent verb tenses
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between scenes
+    - [STRUCTURE]:
+        • lack of clear paragraph structure
+    - [CLARITY]:
+        • unclear character motivations
+    - [TRANSITION]:
+        • abrupt shift from battle scene to personal conversation
+
+Section section_14 (Chars 50717–54467):
+Scores:
+  - Fluency: 2.5
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing articles
+    - [SPELLING]:
+        • "vare" instead of "bare"
+        • "anf" instead of "and"
+        • "nrar" instead of "near"
+        • "thdir" instead of "their"
+        • "withun" instead of "within"
+        • "frautht" instead of "fraught"
+        • "lisery" instead of "misery"
+        • "faised" instead of "raised"
+        • "ghe" instead of "the"
+        • "gloaming" is an uncommon word
+    - [SYNTAX]:
+        • some sentences are long and convoluted
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transition between the first and second scenes
+    - [CLARITY]:
+        • some sentences are wordy and hard to follow
+    - [LOGIC]:
+        • the connection between the two main characters' storylines is not clear
+
+Section section_15 (Chars 54468–58768):
+Scores:
+  - Fluency: 2.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "sgowing" instead of "showing"
+        • "dowm" instead of "down"
+        • "yku" instead of "you"
+        • "ah" instead of "an"
+        • "awqy" instead of "away"
+        • "uhder" instead of "under"
+        • "lsss" instead of "less"
+        • "ptevailed" instead of "prevailed"
+        • "minhled" instead of "mingled"
+        • "vullet" instead of "bullet"
+        • "nqpping" instead of "napping"
+    - [GRAMMAR]:
+        • inconsistent verb tenses
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between scenes
+    - [STRUCTURE]:
+        • lack of clear paragraph structure
+    - [CLARITY]:
+        • some sentences are wordy or unclear
+
+Section section_16 (Chars 58768–62878):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "I have beenba" should be "I have been a"
+        • "tk" should be "to"
+        • "frol" should be "from"
+        • "shxll" should be "shall"
+        • "aeary" should be "weary"
+        • "wxs" should be "was"
+        • "feetcpained" should be "feet pained"
+        • "gleamingncamp" should be "gleaming camp"
+        • "departednto" should be "departed to"
+    - [GRAMMAR]:
+        • Missing or incorrect punctuation in several places
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt shift from the scene with Washington to the boy's memories
+    - [STRUCTURE]:
+        • The narrative jumps back and forth between different ideas and scenes
+    - [CLARITY]:
+        • Some sentences are wordy or unclear, making it hard to follow the story
+
+Section section_17 (Chars 62879–66778):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "gad" instead of "gone"
+        • "qeakly" instead of "weakly"
+        • "gis" instead of "his"
+        • "thecbewilderment" instead of "the bewilderment"
+        • "oncomer" instead of "oncoming"
+        • "wzs" instead of "was"
+        • "jdentity" instead of "identity"
+        • "wqs" instead of "was"
+        • "rdvived" instead of "revived"
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between Robert's thoughts and actions
+    - [STRUCTURE]:
+        • Disconnected ideas between Robert's encounter with Morley and his previous experiences
+    - [CLARITY]:
+        • Unclear motivations behind Morley's actions and dialogue
+
+Section section_18 (Chars 66778–70562):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "Americanvranks" instead of "American ranks"
+        • "Ztumbling" instead of "Stumbling"
+        • "wzs" instead of "was"
+        • "tuat" instead of "that"
+        • "dearesg" instead of "dearest"
+        • "jis" instead of "his"
+        • "naught" instead of "nothing"
+        • "hij" instead of "him"
+        • "bxttle" instead of "battle"
+    - [GRAMMAR]:
+        • Missing or incorrect punctuation in several places
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition from describing Morley's death to Shirtliffe's realization of his condition
+    - [STRUCTURE]:
+        • The narrative jumps between different ideas and scenes without smooth connections
+    - [CLARITY]:
+        • Some sentences are wordy or unclear, making it difficult to follow the story
+
+Section section_19 (Chars 70562–74509):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing or incorrect articles
+    - [SPELLING]:
+        • typos (e.g., "eithout" instead of "without", "slosly" instead of "slowly", "opoortunity" instead of "opportunity", "Abnurse" instead of "A nurse", "Docgor" instead of "Doctor")
+    - [LEXICON]:
+        • some word choices seem outdated or less common
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transition between some scenes
+    - [CLARITY]:
+        • a few sentences are wordy or unclear
+
+Section section_20 (Chars 74510–78568):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "memoru" instead of "memory"
+        • "fiyure" instead of "figure"
+        • "thabk" instead of "thank"
+        • "fir" instead of "for"
+        • "neq" instead of "new"
+        • "cremain" instead of "remain"
+        • "onbabsorbing" instead of "absorbing"
+    - [GRAMMAR]:
+        • missing or incorrect punctuation in several places
+    - [LEXICON]:
+        • some word choices seem outdated or uncommon
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt shift in conversation topics
+    - [STRUCTURE]:
+        • some sentences seem disconnected from the rest of the narrative
+    - [CLARITY]:
+        • a few sentences are wordy or confusing
+    - [TRANSITION]:
+        • transitions between ideas could be smoother
+
+Section section_21 (Chars 78569–82277):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "at lastbthe" should be "at last the"
+        • "aa" should be "as"
+        • "wbere" should be "where"
+        • "enced" should be "ended"
+        • "straightendd" should be "straightened"
+        • "onxe" should be "once"
+        • "agajn" should be "again"
+        • "traveked" should be "traveled"
+    - [GRAMMAR]:
+        • inconsistent verb tenses
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between scenes
+    - [STRUCTURE]:
+        • lack of clear connections between some paragraphs
+    - [CLARITY]:
+        • some sentences are wordy or unclear
+
+Section section_22 (Chars 82277–83532):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • formmhad
+        • doubfs
+        • safeyy
+        • lignt
+    - [GRAMMAR]:
+        • her hearts throbs
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition from Doctor Bell's confession to Deborah's whisper about the chest
+    - [CLARITY]:
+        • unclear reference to the warrior maid's identity
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

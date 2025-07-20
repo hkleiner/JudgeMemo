@@ -1,0 +1,441 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    b) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The report is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–4186):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "waz" instead of "was"
+        • "distdict" instead of "district"
+        • "remauns" instead of "remains"
+        • "ghen" instead of "the"
+        • "sooncafter" instead of "soon after"
+        • "dusky" is an outdated term
+        • "crimbling" instead of "crumbling"
+        • "woon" instead of "soon"
+        • "fruited" instead of "leaked"
+        • "Hritish" instead of "British"
+        • "pxrt" instead of "part"
+        • "fkllow" instead of "follow"
+        • "Babyoon" instead of "Babylon"
+        • "apart drom" instead of "apart from"
+        • "akl" instead of "all"
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between paragraphs
+    - [STRUCTURE]:
+        • Lack of clear connections between ideas
+    - [CLARITY]:
+        • Unclear sentences due to complex vocabulary
+    - [TRANSITION]:
+        • Missing links between historical events
+
+Section section_02 (Chars 4186–8179):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "rsad" instead of "read"
+        • "scdibes" instead of "scribes"
+        • "hsve" instead of "have"
+        • "ehich" instead of "which"
+        • "infouence" instead of "influence"
+        • "prenomen" instead of "prenom"
+        • "no doubf" instead of "no doubt"
+        • "zltered" instead of "altered"
+    - [GRAMMAR]:
+        • missing articles in some places
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transition between paragraphs
+    - [CLARITY]:
+        • some sentences are wordy and hard to follow
+    - [LOGIC]:
+        • assumption about the Mitani scribe's ease of using Assyrian cuneiform
+
+Section section_03 (Chars 8180–12224):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "takd" instead of "took"
+        • "docfrines" instead of "doctrines"
+        • "Cojrt" instead of "Court"
+        • "ghe" instead of "the"
+        • "broie" instead of "broke"
+        • "xompounded" instead of "compounded"
+        • "wkth" instead of "with"
+        • "fhe" instead of "the"
+        • "Ameb" instead of "Amen"
+    - [GRAMMAR]:
+        • Missing articles in some places
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between paragraphs
+    - [STRUCTURE]:
+        • Lack of clear chronological order
+    - [CLARITY]:
+        • Some sentences are wordy and hard to follow
+
+Section section_04 (Chars 12225–16492):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing or incorrect articles
+    - [SPELLING]:
+        • typos such as "zfford" instead of "afford", "ih" instead of "as", "wretcyed" instead of "wretched", "tontake" instead of "to take", "afarcely" instead of "scarcely"
+    - [SYNTAX]:
+        • awkward phrasing in some sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between ideas
+    - [STRUCTURE]:
+        • lack of clear paragraph structure in some sections
+    - [CLARITY]:
+        • confusing descriptions of events and their causes
+
+Section section_05 (Chars 16493–20540):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • incorrect verb tense usage
+    - [SPELLING]:
+        • typos (e.g., "thexe", "helo", "fidekity", "notwirhstanding", "andcCanaan")
+    - [SYNTAX]:
+        • complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between ideas
+    - [STRUCTURE]:
+        • lack of clear paragraphing or sectioning
+    - [CLARITY]:
+        • ambiguous references to historical events
+
+Section section_06 (Chars 20541–24640):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "gor" instead of "for"
+        • "beighbouring" instead of "neighbouring"
+        • "Nimmuria" inconsistent spelling, sometimes "Nimmuria" and possibly intended to be "Ammunira" or another name
+        • "Kadashman-Beo" and "Kadashman-Bel" inconsistent spelling
+        • "negotiationsbcame" instead of "negotiations came"
+        • "contsining" instead of "containing"
+        • "cppy" instead of "copy"
+        • "lettercis" instead of "letter is"
+        • "Kkng" instead of "King"
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt shift in discussing the custom of royal intermarriage
+    - [STRUCTURE]:
+        • lack of clear transitions between paragraphs
+    - [CLARITY]:
+        • unclear references to historical figures and events without context
+
+Section section_07 (Chars 24641–28485):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • "sooj realised" should be "soon realised"
+    - [SPELLING]:
+        • "tjat" should be "that"
+        • "rpyal" should be "royal"
+        • "yardnlong" should be "yard long"
+        • "v" is used instead of "to" or "of" in some places
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between the description of Tushratta's dominion and the discussion of Mitani's enemies
+    - [STRUCTURE]:
+        • The text jumps between different topics, such as Tushratta's letter, his relationship with Egypt, and his requests for gold
+    - [CLARITY]:
+        • Some sentences are wordy and difficult to follow
+
+Section section_08 (Chars 28486–32593):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [SPELLING]:
+        • minor typos (e.g., "tjat" instead of "that")
+    - [SYNTAX]:
+        • occasional awkward sentence structure
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between ideas
+    - [STRUCTURE]:
+        • lack of clear chronological order
+    - [CLARITY]:
+        • some sentences are wordy or unclear
+
+Section section_09 (Chars 32594–36609):
+Scores:
+  - Fluency: 3.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • typos ("tje" instead of "the", "exgortation" instead of "exhortation", "interewt" instead of "interest", "flr" instead of "for", "mand" instead of "and", "ve" instead of "he", "eas" instead of "was", "addresscbegin" instead of "address begins", "lajentations" instead of "lamentations", "yhe" instead of "the", "asca" instead of "as a")
+    - [GRAMMAR]:
+        • awkward phrasing and sentence structure
+    - [LEXICON]:
+        • unclear or uncommon vocabulary ("talengs", "Nergal")
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt shifts in topic and ideas
+    - [STRUCTURE]:
+        • lack of clear transitions between paragraphs
+    - [CLARITY]:
+        • confusing references to historical figures and events
+
+Section section_10 (Chars 36609–40636):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tenses
+    - [SPELLING]:
+        • typos (e.g., "husbanx", "messengerx", "bqck", "somdthing")
+    - [SYNTAX]:
+        • complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between ideas
+    - [STRUCTURE]:
+        • lack of clear chronological order
+    - [CLARITY]:
+        • ambiguous references to historical events
+
+Section section_11 (Chars 40637–44602):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "approwch" instead of "approach"
+        • "neae" instead of "near"
+        • "od" instead of "of"
+        • "oncthe" instead of "on the"
+    - [GRAMMAR]:
+        • missing articles in some places
+    - [LEXICON]:
+        • some words may be unfamiliar to non-expert readers
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transition from discussing the old king to introducing the letters from Asiatic vassals
+    - [CLARITY]:
+        • some sentences are wordy and hard to follow
+    - [LOGIC]:
+        • assumption about the old king's state of mind without clear evidence
+
+Section section_12 (Chars 44603–48543):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [SPELLING]:
+        • occasional typos (e.g., "provisioh" instead of "provision")
+    - [SYNTAX]:
+        • complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between ideas
+    - [STRUCTURE]:
+        • lack of clear chronological order
+    - [CLARITY]:
+        • ambiguous references to characters and events
+
+Section section_13 (Chars 48544–52376):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "especiakly" instead of "especially"
+        • "faioed" instead of "failed"
+        • "wfought" instead of "fought"
+        • "vlockaded" instead of "blockaded"
+        • "vnation" is not present but "v" is used incorrectly in "vthat" and "vlockaded"
+    - [GRAMMAR]:
+        • inconsistent verb tenses
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between discussing Aziru and Labaya
+    - [STRUCTURE]:
+        • lack of clear connection between paragraphs
+    - [CLARITY]:
+        • unclear references to historical events and figures without context
+
+Section section_14 (Chars 52377–56247):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 3.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tenses
+    - [SPELLING]:
+        • typos (e.g., "thw" instead of "the", "ij" instead of "in", "pkunder" instead of "plunder")
+    - [SYNTAX]:
+        • awkward sentence structures
+    - [LEXICON]:
+        • unclear or archaic vocabulary (e.g., "rabisu", "ehetjer", "Pidati")
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt jumps between different storylines or topics
+    - [STRUCTURE]:
+        • lack of clear transitions between paragraphs or ideas
+    - [CLARITY]:
+        • ambiguous or confusing sentences
+    - [TRANSITION]:
+        • disconnected ideas between different characters' dialogue
+
+Section section_15 (Chars 56248–59881):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tenses
+    - [SPELLING]:
+        • typos (e.g. "wiol" instead of "will", "szme" instead of "same", "anf" instead of "and", "detsile" instead of "details", "acfeptable" instead of "acceptable")
+    - [SYNTAX]:
+        • awkward sentence structure
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt jumps between different topics
+    - [STRUCTURE]:
+        • lack of clear transitions between paragraphs
+    - [CLARITY]:
+        • ambiguous references to people and places
+
+Section section_16 (Chars 59882–63633):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing or incorrect articles
+    - [SPELLING]:
+        • minor typos (e.g., "yowever", "inhabitedbby", "servw", "servecthe")
+    - [LEXICON]:
+        • some words may be unfamiliar to non-expert readers
+  Coherence Issues:
+    - [LOGIC]:
+        • occasional abrupt shifts in topic or focus
+    - [STRUCTURE]:
+        • some sentences are long and convoluted
+    - [CLARITY]:
+        • a few sentences are wordy or contain ambiguous language
+
+Section section_17 (Chars 63634–67686):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Missing or incorrect articles
+    - [SPELLING]:
+        • Typos such as "drvoured" instead of "devoured"
+    - [SYNTAX]:
+        • Some sentences are wordy or awkwardly phrased
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transitions between ideas
+    - [STRUCTURE]:
+        • Lack of clear connections between paragraphs
+    - [CLARITY]:
+        • Some sentences are unclear or difficult to understand
+
+Section section_18 (Chars 67686–70239):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Missing or incorrect use of articles in several places
+    - [SPELLING]:
+        • Typos such as "otjer" instead of "other" and "exdhange" instead of "exchange"
+    - [LEXICON]:
+        • Use of less common vocabulary without explanation, such as "Maxedonian" and "Mygdonia"
+    - [SYNTAX]:
+        • Complex sentence structures that may hinder readability
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between discussing Mitani and the XVIIIth Dynasty in Egypt
+    - [STRUCTURE]:
+        • Lack of clear connection between the different historical events described
+    - [CLARITY]:
+        • Unclear references, such as the identity and significance of "Shankhar"
+    - [TRANSITION]:
+        • Sudden shift in focus from the kingdom of Hanirabbat-Mitani to the fate of the XVIIIth Dynasty in Egypt
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

@@ -1,0 +1,184 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) Read and understand the summary of the text the report was created for.
+    b) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    c) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The summary of the text to be evaluated is given below:
+Summary: The Victorian Age was a time of significant change and progress in England. The Industrial Revolution, which began in the late 18th century, transformed the country's economy and society. The French Revolution and the Napoleonic Wars also had a profound impact on England, leading to a period of reaction and conservatism. Despite this, the Victorian Age was marked by a sense of optimism and hope for the future.
+
+The aristocracy, who had long held power in England, began to lose their influence during this period. The middle class, who had grown wealthy through trade and industry, began to assert their power and influence. The Reform Act of 1832, which expanded voting rights and redrew electoral districts, marked a significant shift in the balance of power.
+
+The Victorian Age was also a time of great cultural and intellectual achievement. The Romantic movement, which emphasized emotion and imagination, had a profound impact on literature and art. Writers such as Alfred Tennyson, Charles Dickens, and the Brontë sisters produced works that are still widely read and studied today.
+
+However, the Victorian Age was not without its problems. The Industrial Revolution created new social and economic problems, such as poverty, inequality, and urban squalor. The working class, who had been displaced from their traditional ways of life, struggled to adapt to the new industrial economy. The Victorian Age was also marked by a sense of social and moral conservatism, with strict rules and norms governing behavior and social interaction.
+
+Despite these challenges, the Victorian Age was a time of great progress and achievement. The British Empire expanded significantly during this period, and England became a major world power. The Victorian Age was also a time of significant scientific and technological advancements, including the development of the steam engine, the telegraph, and the railroad.
+
+The latter half of the Victorian Age was marked by a sense of complacency and self-satisfaction. The British Empire was at its peak, and England was widely regarded as the most powerful and prosperous nation in the world. However, this complacency was shattered by the outbreak of World War I, which marked the beginning of a period of decline and upheaval for England and the British Empire.
+
+In conclusion, the Victorian Age was a complex and multifaceted period in English history, marked by significant social, economic, and cultural changes. While it was a time of great progress and achievement, it was also marked by significant challenges and problems. The legacy of the Victorian Age continues to shape English society and culture today.
+
+The Victorian Age saw the rise of great writers, poets, and thinkers, including Tennyson, Dickens, and Carlyle. Tennyson's poetry, in particular, reflected the mood of the age, with its emphasis on beauty, morality, and the search for meaning. The Victorian novel, with its focus on social commentary and realism, also flourished during this period.
+
+The age was also marked by significant intellectual and spiritual movements, including the Romantic movement and the rise of socialism and imperialism. The Victorian Age was a time of great change and upheaval, but it was also a time of great hope and optimism for the future.
+
+Overall, the Victorian Age was a significant period in English history, marked by great cultural, intellectual, and economic achievements. Its legacy continues to shape English society and culture today, and its impact can still be felt in many areas of modern life. The age was marked by a sense of progress and improvement, but it was also marked by significant challenges and problems, including poverty, inequality, and social conservatism.
+
+The Victorian Age came to an end with the outbreak of World War I, which marked the beginning of a period of decline and upheaval for England and the British Empire. However, the legacy of the Victorian Age continues to be felt today, and its impact can still be seen in many areas of modern life. The age was a time of great change and progress, but it was also a time of significant challenges and problems. Despite these challenges, the Victorian Age remains an important and fascinating period in English history.
+
+The report for the text is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–8888):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor sentence structure complexity
+    - [LEXICON]:
+        • some archaic vocabulary usage
+    - [SYNTAX]:
+        • occasional long sentence lengths
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between historical periods
+    - [STRUCTURE]:
+        • lack of clear sectioning or headings
+    - [CLARITY]:
+        • occasional ambiguity in historical references
+
+Section section_02 (Chars 8889–17925):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • abrupt sentence transitions
+    - [SYNTAX]:
+        • complex sentence structures
+    - [LEXICON]:
+        • outdated vocabulary
+  Coherence Issues:
+    - [LOGIC]:
+        • disjointed ideas between paragraphs
+    - [STRUCTURE]:
+        • lack of clear narrative progression
+    - [CLARITY]:
+        • ambiguous references to historical events
+
+Section section_03 (Chars 17926–26787):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Missing articles in some places
+    - [LEXICON]:
+        • Some words are outdated or less common
+    - [SYNTAX]:
+        • Long and complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transitions between historical events
+    - [STRUCTURE]:
+        • Lack of clear chronological order
+    - [CLARITY]:
+        • Some paragraphs seem disconnected from the main narrative
+
+Section section_04 (Chars 26788–35203):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • sentence structure complexity
+    - [LEXICON]:
+        • occasional use of archaic vocabulary
+    - [SYNTAX]:
+        • lengthy sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between ideas
+    - [STRUCTURE]:
+        • lack of clear sectioning
+    - [CLARITY]:
+        • ambiguous references
+
+Section section_05 (Chars 35204–43976):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [LEXICON]:
+        • occasional use of outdated vocabulary
+    - [SYNTAX]:
+        • complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between paragraphs
+    - [STRUCTURE]:
+        • lack of clear thesis statement
+    - [CLARITY]:
+        • ambiguous references to historical events
+
+Section section_06 (Chars 43977–46705):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Complex sentence structures
+    - [LEXICON]:
+        • Archaic vocabulary
+    - [SYNTAX]:
+        • Long sentences with multiple clauses
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between historical and philosophical discussions
+    - [STRUCTURE]:
+        • Lack of clear chronological order
+    - [CLARITY]:
+        • Ambiguous references to historical events
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

@@ -1,0 +1,260 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) Read and understand the summary of the text the report was created for.
+    b) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    c) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The summary of the text to be evaluated is given below:
+Summary: The story begins with a preface introducing the little Scotch cousins to their American counterparts. The narrator explains that the Scotch and Americans share many commonalities, and the Scottish legends and stories have an abounding interest for Americans of all ages. The story then shifts to the finding of a little puppy, "Rob Roy," by Donald, who names it after the hero of his favorite story. 
+
+Donald's father, Doctor Gordon, decides to advertise the puppy in the paper to find its owner, but if no one claims it, Donald can keep it. The family enjoys their afternoon tea, with traditional Scottish food such as shortbread, scones, and cakes. Donald and his friend Sandy spend their afternoons playing games, taking long walks, and going fishing. 
+
+On Saturdays, they go to the golf-links at Gullane, where golf is the national game of Scotland. The boys also enjoy playing "beezee," a game similar to baseball, and "Scotch and English," a game where two sides try to capture each other's players. 
+
+One day, Donald's cousins, Janet and Marjorie, arrive, and they all go on a walk around Edinburgh, visiting the castle and Holyrood Palace. They see the Crown jewels of Scotland and the great hall of the palace, where the portraits of all the Scottish kings are hung. 
+
+The family then visits Abbotsford, the home of Sir Walter Scott, where they see many curious and beautiful things, including the sword and belongings of the real Rob Roy. They also visit Melrose Abbey, where Scott is buried, and see the tomb of Scott and his family. 
+
+The story then shifts to the gathering of the clans at Skylemore, Uncle Alan's home in the Highlands. The family enjoys a fancy-dress party, with Marjorie dressed as a bluebell and Janet as heather. The boys play games, including "Merry Metanzie" and "Scotch and English." 
+
+The story also touches on some Scottish customs, such as the celebration of Hogmanay, the Scottish New Year, and the tradition of "first-footing," where the first person to enter the house after midnight brings a gift. The family also enjoys egg-rolling and Hallowe'en parties. 
+
+In the summer, the family goes on a picnic to Loch Katrine, where they hear stories about Ellen's Isle and Roderick Dhu. They also visit the home of Robert Burns and see the monument to him. The family then takes a steamer cruise around the islands off the coast, visiting the Island of Bute and the old Castle of Rothesay. 
+
+Throughout the story, the narrator highlights the unique culture and traditions of Scotland, showcasing the country's rich history, beautiful landscapes, and warm hospitality. The story concludes with the family enjoying a lovely sail among the islands, where Donald and Sandy get left behind on one of the islands.
+
+The report for the text is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–7934):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing articles
+    - [LEXICON]:
+        • unclear term "a stuff"
+    - [SYNTAX]:
+        • some sentences are wordy
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between chapters
+    - [STRUCTURE]:
+        • lack of clear connection between ideas
+    - [CLARITY]:
+        • some sentences are hard to follow
+
+Section section_02 (Chars 7934–16109):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tenses
+    - [LEXICON]:
+        • unclear or missing words ("the thing", "stuff")
+    - [SYNTAX]:
+        • some sentences are wordy or awkwardly phrased
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between ideas
+    - [STRUCTURE]:
+        • lack of clear connections between paragraphs
+    - [CLARITY]:
+        • some sentences are ambiguous or hard to understand
+
+Section section_03 (Chars 16110–24245):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tenses
+    - [SPELLING]:
+        • "a thing" instead of "a university" or other specific terms
+    - [LEXICON]:
+        • unclear or missing definitions for some terms
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between paragraphs
+    - [STRUCTURE]:
+        • lack of clear narrative progression
+    - [CLARITY]:
+        • ambiguous sentences and unclear references
+
+Section section_04 (Chars 24246–32580):
+Scores:
+  - Fluency: 3.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Inconsistent verb tenses
+    - [LEXICON]:
+        • Overuse of vague terms like "the thing"
+    - [SYNTAX]:
+        • Run-on sentences and lack of punctuation
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transitions between scenes
+    - [STRUCTURE]:
+        • Lack of clear narrative progression
+    - [CLARITY]:
+        • Unclear or missing context for some events
+
+Section section_05 (Chars 32580–40767):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [LEXICON]:
+        • informal language and colloquialisms
+    - [SYNTAX]:
+        • run-on sentences and lack of varied sentence structure
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between scenes
+    - [STRUCTURE]:
+        • lack of clear narrative progression
+    - [CLARITY]:
+        • ambiguous references to undefined terms ("the thing", "the stuff")
+
+Section section_06 (Chars 40768–49112):
+Scores:
+  - Fluency: 3.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [LEXICON]:
+        • unclear or missing words ("a stuff", "the thing")
+    - [SYNTAX]:
+        • awkward sentence structure
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between scenes
+    - [STRUCTURE]:
+        • lack of clear narrative progression
+    - [CLARITY]:
+        • ambiguous descriptions of locations and events
+
+Section section_07 (Chars 49113–57145):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tenses
+    - [LEXICON]:
+        • unclear meaning of "stuff" and "tewky"
+    - [SYNTAX]:
+        • long and convoluted sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between scenes
+    - [STRUCTURE]:
+        • lack of clear narrative progression
+    - [CLARITY]:
+        • unclear character motivations and relationships
+
+Section section_08 (Chars 57145–65206):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • "Don was gotten up" should be "Don was dressed up"
+    - [LEXICON]:
+        • "the thing" is used unclearly and repeatedly
+    - [SYNTAX]:
+        • some sentences are wordy or awkwardly phrased
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transitions between scenes and ideas
+    - [CLARITY]:
+        • some sentences or phrases are unclear or confusing
+    - [LOGIC]:
+        • occasional inconsistencies in narrative flow
+
+Section section_09 (Chars 65207–72827):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Missing articles in some places
+    - [LEXICON]:
+        • Some words are outdated or less common
+    - [SYNTAX]:
+        • Long sentences with multiple clauses
+  Coherence Issues:
+    - [STRUCTURE]:
+        • Abrupt transition between some paragraphs
+    - [CLARITY]:
+        • Some sentences are wordy or unclear
+    - [LOGIC]:
+        • Lack of clear connection between some ideas
+
+Section section_10 (Chars 72828–77209):
+Scores:
+  - Fluency: 3.0
+  - Coherence: 3.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • incomplete sentences
+    - [LEXICON]:
+        • vague terms ("a thing", "the stuff", "the thing")
+    - [SYNTAX]:
+        • awkward phrasing
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between ideas
+    - [STRUCTURE]:
+        • lack of clear narrative progression
+    - [CLARITY]:
+        • unclear references to places and objects
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

@@ -1,0 +1,233 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) Read and understand the summary of the text the report was created for.
+    b) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    c) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The summary of the text to be evaluated is given below:
+Summary: The author reflects on the nature of a bookman, someone who has a deep love and appreciation for books. A bookman is not just someone who owns many books, but rather someone who has a passion for reading and collecting books. The author recounts a story of a man who invited him to dinner and showed off his impressive library, but it was clear that the man was more interested in the physical appearance of the books than their content.
+
+The author notes that a true bookman is born, not made, and that they have a natural ability to distinguish between good and bad literature. They are not swayed by popular opinion or critical reviews, but rather follow their own instincts and tastes. The author cites the example of a colonial squatter who, despite having no formal education, was able to appreciate the works of William Shakespeare and John Milton.
+
+A bookman's love of books is not limited to any particular genre or subject, but rather they are drawn to anything that is well-written and thought-provoking. They may enjoy reading detective stories, essays, or historical romances, and they are not afraid to express their opinions and tastes. The author notes that a bookman's love of books is often hereditary, and that it can be a source of comfort and solace in times of trouble.
+
+The author also reflects on the joys of collecting books, and the thrill of the hunt for rare and hard-to-find volumes. They note that a bookman's collection is often a reflection of their personality and tastes, and that it can be a source of pride and joy. However, the author also acknowledges that a bookman's love of books can sometimes be a source of conflict and tension, particularly in their personal relationships.
+
+Despite the challenges and pitfalls, the author concludes that being a bookman is a wonderful and rewarding experience. It allows one to connect with others who share similar interests and passions, and to explore the vast and rich world of literature. The author notes that a bookman's love of books is not just a hobby or a pastime, but rather a way of life, and that it can bring joy, comfort, and fulfillment to those who pursue it.
+
+The author also mentions that a bookman's love of books can be a source of inspiration and guidance, and that it can help to shape their values and beliefs. They note that a bookman's collection is often a reflection of their values and priorities, and that it can be a source of comfort and solace in times of trouble. The author concludes by noting that a bookman's love of books is a lifelong journey, and that it can bring joy and fulfillment to those who pursue it.
+
+In addition, the author talks about the bookman's relationship with his books, how he handles them, and how he takes care of them. He also mentions the bookman's desire to share his love of books with others, and how he would like to invite other bookmen to discuss and share their passion for books. The author also quotes several authors and bookmen, including Sainte-Beuve, who said that a book is a classic if it has wisdom and a form that rises above the limitation of any single age.
+
+Overall, the author's reflection on the nature of a bookman is a celebration of the joy and beauty of books, and the importance of cultivating a love of reading and literature. It is a tribute to the bookmen and women who have dedicated their lives to the pursuit of knowledge and wisdom, and who have found comfort, solace, and fulfillment in the pages of a good book.
+
+The report for the text is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–7800):
+Section Summary: The author distinguishes between a book owner and a bookman, emphasizing that having many books does not necessarily make one a bookman. A true bookman is born with a passion for literature and has a deep understanding of what makes a good book, regardless of their education or training. The author shares anecdotes to illustrate this point, including a story about a colonial squatter who, despite his lack of literary knowledge, instinctively recognized the classics of English literature. In contrast, some people may buy or collect books without truly appreciating their value, and it is the ability to distinguish between meaningful and fleeting literature that defines a true bookman. Ultimately, a bookman is someone who has a genuine love for reading and can appreciate the difference between books that are truly worthwhile and those that are merely entertaining.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [SPELLING]:
+        • multiple typos (e.g., "bpokman", "lurchase", "desore", "cpstly", "tgis", "forcveing", "hiztorical")
+    - [LEXICON]:
+        • occasional use of obscure vocabulary
+  Coherence Issues:
+    - [LOGIC]:
+        • some abrupt transitions between ideas
+    - [STRUCTURE]:
+        • lengthy sentences and paragraphs
+    - [CLARITY]:
+        • occasional ambiguity in sentence meaning
+
+Section section_02 (Chars 7800–15864):
+Section Summary: The passage describes a bookman who values literature that stands the test of time, such as "Mark Rutherford", over popular but fleeting novels. He believes that a true classic is a book that has wisdom, a timeless style, and can be revisited multiple times, much like a cathedral that towers above other buildings. The bookman's taste in literature is eclectic, ranging from essays by Lamb and Hazlitt to the works of De Quincey, and he values books that are well-written and thought-provoking, regardless of their subject matter. He is a romantic at heart, with a love for literature that is driven by passion rather than a desire for accurate information. Ultimately, the bookman's goal is to distinguish between books that are merely entertaining and those that are truly timeless and worthy of repeated reading.
+Scores:
+  - Fluency: 3.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • popularbnovel
+        • tk
+        • humaj
+        • jot
+        • rhan
+        • Twentymthousand
+        • lropose
+        • de gustibus
+        • whonhas
+        • tbat
+        • argosy
+        • thenbookman
+        • cknsider
+        • favkurite
+        • plwasantly
+        • roxburghe
+        • favoyrable
+        • arf
+        • depadtment
+        • whjs
+        • genial
+        • inflamable
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between ideas
+    - [STRUCTURE]:
+        • lack of clear paragraph structure
+    - [CLARITY]:
+        • ambiguous sentences
+
+Section section_03 (Chars 15864–23559):
+Section Summary: The author reminisces about their childhood love for adventure stories, such as "Robinson Crusoe" and "Pilgrim's Progress", and later for trapper stories and novels like "Rifle Rangers" and "Monte Christo". As they grew older, they discovered the works of Scott, Thackeray, and Dickens, which became the foundation of their literary tastes. The author holds these classic authors in high esteem, returning to their works again and again for sheer pleasure, and considers them superior to modern novels with a purpose. They also praise Balzac as a master of French literature and the founder of the realistic school. The author's love for classic literature is evident in their fond memories of reading and re-reading these beloved books, which continue to bring them joy and comfort.
+Scores:
+  - Fluency: 3.5
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing or incorrect articles
+    - [SPELLING]:
+        • typos (e.g. "oje" instead of "one", "fknd" instead of "fond", "ti-morrow" instead of "tomorrow")
+    - [LEXICON]:
+        • informal language and colloquial expressions (e.g. "one would rather have cherished the former portrait and not have seen the original in her last estate")
+    - [SYNTAX]:
+        • long and convoluted sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between ideas
+    - [STRUCTURE]:
+        • lack of clear organization and chronology
+    - [CLARITY]:
+        • ambiguous references and unclear connections between sentences
+
+Section section_04 (Chars 23559–31058):
+Section Summary: The passage describes the power of Sir Walter Scott's writing, particularly in his book "The Heart of Midlothian", which portrays a vivid and intense scene of lynch law in old Edinburgh. The heroine, Jeanie Deans, is considered one of the strongest women in Scott's gallery, embodying the sober, strong, and passionate nature of the Scottish people. The author also discusses the joy of rearranging books on a shelf, comparing it to a form of spring cleaning, and how it brings back memories and delight. The bookman's ideal holiday is to spend a week in their own library, surrounded by books and a beautiful garden, with no distractions or obligations. The passage concludes by imagining a meeting of bookmen, including historical figures like Cosmo Medici and a Bishop of Durham, who share a passion for books and learning.
+Scores:
+  - Fluency: 3.5
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [SPELLING]:
+        • multiple typos (e.g., "sjch", "ebgraven", "tfue", "patjos", "lang", "tobthe", "Svktt", "ih", "feminije", "rasdal", "holring", "lirtle", "ro", "forenoons", "comnercial", "js", "recollectiojs")
+    - [SYNTAX]:
+        • complex sentence structures
+    - [LEXICON]:
+        • some words may be unfamiliar to non-native speakers (e.g., "chivalrouw", "folio", "octavo", "Grolier", "conversazione")
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between discussing Scott and Thackeray's works and the bookman's habits
+    - [STRUCTURE]:
+        • lack of clear paragraph structure and topic sentences
+    - [CLARITY]:
+        • some sentences are wordy and difficult to follow
+    - [TRANSITION]:
+        • missing or unclear connections between ideas
+
+Section section_05 (Chars 31058–38996):
+Section Summary: The author imagines a gathering of book lovers, including historical figures like the Duke of Roxburghe and Charles Lamb, and Mary Queen of Scots, who was known for her impressive book collection. The author notes that the love of books can be hereditary, with children often inheriting their parents' passion for reading and collecting. A father with a book obsession can "inoculate" his son with the same disease, passing on his love of books and creating a lifelong passion. The author humorously compares book collecting to a disease, suggesting that it can be incurable and lead to financial struggles, with the sufferer's wife often being the one to encourage moderation. Ultimately, the author pokes fun at the idea of trying to cure a book lover of their obsession, suggesting that total abstinence may be the only solution.
+Scores:
+  - Fluency: 3.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tenses
+    - [SPELLING]:
+        • multiple typos (e.g. "vvolumes", "accoint", "fhe", "brdak", "tyis", "skld", "Prrhaps", "tgis")
+    - [SYNTAX]:
+        • complex sentence structures
+    - [LEXICON]:
+        • some words are rarely used or outdated
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between ideas
+    - [STRUCTURE]:
+        • lack of clear paragraph structure
+    - [CLARITY]:
+        • some sentences are wordy or confusing
+    - [TRANSITION]:
+        • connections between ideas could be smoother
+
+Section section_06 (Chars 38996–46845):
+Section Summary: The bookman's obsession with collecting books is a disease that consumes him, causing him to make sacrifices and tell lies to obtain the books he desires. Despite the negative impact on his family, he justifies his actions by believing that his collection will be a valuable legacy for his sons. The bookman finds solace and comfort in the company of his books, which provide him with a constant source of pleasure and satisfaction, regardless of the weather or circumstances. His love for books allows him to escape the worries of life and connect with great writers and characters, making him feel independent and content. As he grows old, the bookman is grateful for the joy that books bring him, and he pities those who do not have this same retreat from the weariness of life.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [SPELLING]:
+        • occasional typos (e.g., "uim" instead of "him", "reqd" instead of "read")
+    - [SYNTAX]:
+        • some sentences are overly long and convoluted
+  Coherence Issues:
+    - [LOGIC]:
+        • occasional abrupt transitions between ideas
+    - [STRUCTURE]:
+        • some paragraphs lack a clear topic sentence or cohesive theme
+
+Section section_07 (Chars 46845–48129):
+Section Summary: Certain books become increasingly precious to a person over time, with their pages becoming worn from frequent use. The idea of a "bookman's paradise" in Heaven is a appealing concept, where rare and valuable books are plentiful. A book lover's devotion to their books will only grow stronger until death, with their favorite books bringing comfort and guidance. The value of these treasured books is undeniable, and the person hopes to one day pass away surrounded by them, finding peace in their presence. This love for books is a lasting and profound appreciation that brings joy and solace to the reader.
+Scores:
+  - Fluency: 2.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "wigh" instead of "with"
+        • "vor" instead of "for"
+        • "teue" instead of "true"
+        • "pressws" instead of "presses"
+        • "askint" instead of "asking"
+        • "ajd" instead of "and"
+        • "ministfies" instead of "ministries"
+        • "dewrer" instead of "dearer"
+        • "overbeating" instead of "overbeaten"
+        • "fortunenturns" instead of "fortune turns"
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt introduction of Dr. Showell Rogers without prior context
+    - [CLARITY]:
+        • Unclear transition between the bookman's gratitude and the quote from the critic
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

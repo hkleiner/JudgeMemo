@@ -1,0 +1,99 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) Read and understand the summary of the text the report was created for.
+    b) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    c) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The summary of the text to be evaluated is given below:
+Summary: Rosa Bonheur was born on March 16, 1822, in Bordeaux, France, to a family of artists. Her father, Raymond Bonheur, was a painter and drawing master, and her mother, Sophie Marquis, was a musician. The family struggled financially, and Rosa's father had to work multiple jobs to make ends meet. Despite the challenges, Rosa was exposed to art from a young age and began drawing and painting as soon as she could walk. She was a precocious child and showed a strong passion for art, which her father encouraged.
+
+As a young girl, Rosa was raised in a household that valued art and creativity. She was homeschooled and spent most of her time playing with her brothers and engaging in artistic activities. Her father's studio was her playground, and she would often watch him paint and learn from him. Rosa's parents encouraged her to develop her artistic skills, and she began taking lessons from her father at a young age.
+
+In 1828, the Bonheur family moved to Paris, where Rosa's father hoped to find more opportunities for his art. The family struggled to adjust to city life, and Rosa's father had to work hard to make a name for himself in the competitive art world. Despite the challenges, Rosa thrived in Paris and began to develop her skills as an artist. She was especially drawn to animals and spent hours watching and drawing them.
+
+Rosa's father eventually found success as a painter and was able to provide for his family. He remarried after Rosa's mother passed away and continued to support Rosa's artistic development. Rosa's stepmother was also supportive of her artistic pursuits, and the family encouraged her to continue developing her skills.
+
+As Rosa entered her teenage years, she became more serious about her art and began to study the works of the great masters. She spent hours copying paintings at the Louvre and developing her skills as a painter. Her father encouraged her to focus on animal painting, which became her specialty. Rosa's hard work and dedication paid off, and she eventually gained recognition for her art.
+
+In 1841, Rosa submitted two pieces to the Salon, a prestigious art exhibition in Paris. Both pieces were accepted, and Rosa's career as an artist was launched. She continued to submit pieces to the Salon every year and eventually gained critical acclaim for her work. Rosa's paintings were known for their realism and attention to detail, and she became one of the most celebrated animal painters of her time.
+
+Rosa's success was not overnight, and she faced many challenges and setbacks along the way. However, she persevered and continued to work hard, always striving to improve her craft. Her dedication and passion for art ultimately paid off, and she became one of the most renowned artists of her time. Rosa's story is a testament to the power of hard work and determination, and she remains an inspiration to artists and art lovers to this day.
+
+Rosa's love for animals was a key factor in her success as an artist. She spent hours studying and drawing animals, and her paintings captured their spirit and essence. Her work was not limited to painting, and she also experimented with sculpture and other mediums. Rosa's artistic talents were recognized by her contemporaries, and she was praised for her attention to detail and her ability to capture the beauty of the natural world.
+
+Overall, Rosa Bonheur's life was marked by her passion for art and her determination to succeed. She faced many challenges and setbacks, but she persevered and continued to work hard, always striving to improve her craft. Her legacy as one of the greatest animal painters of all time remains, and her story continues to inspire artists and art lovers to this day.
+
+The report for the text is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–8441):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing or incorrect articles
+    - [SPELLING]:
+        • typos (e.g. "Bpnheur" instead of "Bonheur", "towqrd" instead of "toward", "vnew" instead of "new")
+        • inconsistent or incorrect punctuation
+    - [LEXICON]:
+        • occasional awkward phrasing
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transitions between paragraphs
+    - [CLARITY]:
+        • some sentences are wordy or unclear
+    - [LOGIC]:
+        • occasional lack of clear cause-and-effect relationships
+
+Section section_02 (Chars 8442–12746):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing or incorrect articles
+    - [SPELLING]:
+        • typos such as "mania" instead of "mania" (no error, but other typos like "quartsr" instead of "quarter")
+    - [LEXICON]:
+        • occasional awkward word choices
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transitions between paragraphs
+    - [CLARITY]:
+        • some sentences are wordy or unclear
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

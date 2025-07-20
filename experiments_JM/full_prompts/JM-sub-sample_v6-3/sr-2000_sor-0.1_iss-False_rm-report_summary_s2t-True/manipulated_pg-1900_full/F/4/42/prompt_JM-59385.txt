@@ -1,0 +1,245 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) Read and understand the summary of the text the report was created for.
+    b) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    c) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The summary of the text to be evaluated is given below:
+Summary: The story revolves around Kuei Ping, a Chinese woman, and her journey towards self-discovery and freedom. The narrator dedicates the story to the women of America, highlighting the importance of World Fellowship. Kuei Ping's life is marked by her marriage to Fuh Tang, a man from a respected family, and her struggles to balance traditional expectations with her own desires.
+
+Kuei Ping's family is introduced, including her grandmother, Madame Yen, who plays a significant role in her life. The story describes Kuei Ping's wedding day, where she is dressed in heavy garments and veils, and her journey to her new home. She meets her husband, Fuh Tang, for the first time, and they begin their life together.
+
+However, Kuei Ping soon realizes that her life is not her own, and she is bound by traditional customs and expectations. She feels suffocated by the rules and regulations of her new family. Fuh Tang, who has attended a foreign school, is also struggling to find his place in the traditional family setup.
+
+As Kuei Ping navigates her new life, she begins to question the traditional ways and seeks freedom and independence. She is influenced by her teacher, Miss Porter, who introduces her to Western ideas and the concept of personal choice. Kuei Ping's desire for freedom and self-discovery grows, and she starts to make plans to leave her traditional life behind.
+
+Kuei Ping's husband, Fuh Tang, becomes ill, and she is forced to confront the reality of their situation. She realizes that she cannot leave him and that she must care for him and their child. Despite the challenges, Kuei Ping finds a new sense of purpose and meaning in her life.
+
+The story takes a turn as Kuei Ping's husband passes away, leaving her a widow with two children. She is forced to confront the harsh realities of life and find a way to support herself and her children. With the help of her family and friends, Kuei Ping begins to rebuild her life and find a new sense of purpose.
+
+Years pass, and Kuei Ping's children grow up. Her son, Kwan Wa, gets married, and she is finally able to fulfill her dream of building a school and a church. The school becomes a symbol of hope and freedom for the community, and Kuei Ping's story serves as an inspiration to those around her.
+
+The narrator becomes Kuei Ping's pupil and learns about her life and experiences. Through their conversations, the narrator gains a deeper understanding of Kuei Ping's journey and the challenges she faced. The story concludes with Kuei Ping's dream of building a school and a church finally coming true, and she is able to share her knowledge and experience with others.
+
+Kuei Ping's story is one of resilience, courage, and determination. Despite the challenges she faced, she never gave up on her dreams and continued to strive for a better life. Her journey serves as an inspiration to those around her, and her legacy lives on through her school and church. The narrator is grateful to have had the opportunity to learn from Kuei Ping and to share her story with others.
+
+The report for the text is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–8643):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • "the shadows was long" should be "the shadows were long"
+        • "mighted" is not a word, should be "might"
+        • "as she could went" should be "as she could go"
+    - [SYNTAX]:
+        • Some sentences are wordy and hard to follow
+    - [LEXICON]:
+        • "tapestryed" is not a common word, could be "tapestried" or "with tapestry"
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition from the jewel selection scene to Kuei Ping's memory of the mission school
+    - [STRUCTURE]:
+        • The story jumps back and forth in time without clear connections
+    - [CLARITY]:
+        • Some sentences are unclear or hard to understand due to complex structure or word choice
+
+Section section_02 (Chars 8644–17136):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • verb tense inconsistencies
+        • incorrect verb conjugations (e.g., "had been dressed" instead of "was dressed")
+    - [LEXICON]:
+        • word choice issues (e.g., "near to suffocation" instead of "nearly suffocating")
+    - [SYNTAX]:
+        • sentence structure issues (e.g., "The month, corresponding to April on the western calendar of that year, came with a touch of summer on its breath.")
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between scenes
+    - [STRUCTURE]:
+        • non-linear narrative structure
+    - [CLARITY]:
+        • unclear character motivations (e.g., Kuei Ping's decision-making process)
+    - [TRANSITION]:
+        • lack of clear connections between ideas
+
+Section section_03 (Chars 17137–25669):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor sentence structure issues
+    - [LEXICON]:
+        • occasional word choice awkwardness
+    - [SYNTAX]:
+        • few instances of complex sentence syntax
+  Coherence Issues:
+    - [LOGIC]:
+        • slight disconnect between scene transitions
+    - [STRUCTURE]:
+        • occasional abrupt shifts in narrative focus
+    - [CLARITY]:
+        • minor ambiguity in character motivations
+
+Section section_04 (Chars 25670–34243):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [SYNTAX]:
+        • complex sentence structures
+    - [LEXICON]:
+        • occasional unclear word choices
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between scenes
+    - [STRUCTURE]:
+        • non-linear narrative progression
+    - [CLARITY]:
+        • some ambiguous character motivations
+
+Section section_05 (Chars 34243–42774):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • "mighted" should be "might"
+    - [SYNTAX]:
+        • Some sentences are wordy and hard to follow
+    - [LEXICON]:
+        • "staccato breaths" may be unfamiliar to some readers
+  Coherence Issues:
+    - [LOGIC]:
+        • The narrative jumps abruptly from Fuh Tang's illness to his opium use
+    - [STRUCTURE]:
+        • The text could be divided into clearer sections or chapters
+    - [CLARITY]:
+        • Some sentences are unclear or require re-reading to understand
+
+Section section_06 (Chars 42775–51433):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [LEXICON]:
+        • occasional unclear word choices
+    - [SYNTAX]:
+        • some sentences with complex structures
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt shift in Kuei Ping's decision to return home
+    - [TRANSITION]:
+        • unclear connections between some paragraphs
+    - [CLARITY]:
+        • a few ambiguous descriptions of characters' emotions
+
+Section section_07 (Chars 51434–60017):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [SYNTAX]:
+        • some sentences are wordy and hard to follow
+    - [LEXICON]:
+        • occasional awkward word choices
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transitions between scenes
+    - [CLARITY]:
+        • some paragraphs lack clear topic sentences
+    - [LOGIC]:
+        • occasional inconsistencies in character development
+
+Section section_08 (Chars 60017–68638):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [SPELLING]:
+        • minor typos (e.g., "the little she have learned")
+    - [SYNTAX]:
+        • occasional awkward sentence structure
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between some paragraphs
+    - [STRUCTURE]:
+        • non-linear narrative flow
+    - [CLARITY]:
+        • occasional ambiguity in sentence meaning
+
+Section section_09 (Chars 68639–70809):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Missing articles in some places
+    - [SYNTAX]:
+        • Some sentences are wordy or structured unconventionally
+    - [LEXICON]:
+        • A few words or phrases may be less common or slightly archaic
+  Coherence Issues:
+    - [STRUCTURE]:
+        • Abrupt transition between describing the natural setting and discussing the school
+    - [CLARITY]:
+        • Some sentences are long and complex, potentially causing confusion
+    - [TRANSITION]:
+        • The connection between the description of temples and the introduction of the school could be smoother
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

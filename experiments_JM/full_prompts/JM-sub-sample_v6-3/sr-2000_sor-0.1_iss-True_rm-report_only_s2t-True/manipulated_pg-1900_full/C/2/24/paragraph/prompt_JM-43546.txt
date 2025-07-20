@@ -1,0 +1,250 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    b) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The report is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–7960):
+Section Summary: The story begins with a preface introducing the idea that Scottish and American cultures have much in common, and that Scottish stories and legends are of great interest to Americans. The narrative then shifts to the story of Donald, a young Scottish boy who finds a lost puppy in a lane near his home. Donald takes the puppy to his parents, and they decide to advertise for the owner, but if no one claims it, Donald can keep it. The family enjoys a traditional Scottish tea together, complete with shortbread, scones, and other sweet treats, and discusses plans to visit Donald's uncle, who has invited them to a birthday party for his daughter Marjorie. Donald is excited about the visit and the possibility of learning about sheep-dogs and shepherding from his uncle.
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor punctuation errors
+    - [LEXICON]:
+        • some outdated vocabulary
+    - [SYNTAX]:
+        • occasional complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • slight abruptness in scene transitions
+    - [STRUCTURE]:
+        • minor inconsistencies in narrative flow
+    - [CLARITY]:
+        • occasional ambiguity in character dialogue
+
+Section section_02 (Chars 7960–16182):
+Section Summary: Donald and his family are excited to hear that their cousins, Janet and Marjorie, will be visiting them soon. Donald's uncle, Alan Lindsay, has a grand estate in the Highlands called Skylemore, where Donald loves to visit and hear stories about his uncle's adventures in America. Meanwhile, Donald's uncle, Doctor Clarke, is coming to visit from Paris before taking up a new post studying tropical diseases, and Donald is looking forward to hearing about his experiences. Donald's daily routine includes eating porridge for breakfast and attending school, where he meets up with his friend Sandy. The family is also preparing for the New Year celebration, known as "Hogmanay", and Donald is eager to spend time with his uncles and cousins.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor punctuation errors
+    - [LEXICON]:
+        • some word choices seem slightly outdated or regional
+    - [SYNTAX]:
+        • a few sentences are wordy or have complex structures
+  Coherence Issues:
+    - [STRUCTURE]:
+        • the text jumps between different topics and storylines
+    - [TRANSITION]:
+        • some transitions between sentences or paragraphs feel abrupt
+    - [CLARITY]:
+        • a few sections are unclear or contain unnecessary details
+
+Section section_03 (Chars 16183–24416):
+Section Summary: Donald, a warm-hearted and affectionate boy, lived in Scotland where education is highly valued. He attended school and enjoyed playing games like "beezee" with his friend Sandy. After school, Donald would spend time with Sandy, playing games, going on walks, and exploring the countryside. On special occasions, their fathers would take them to play golf at the beautiful links along the seashore or to Newhaven for a fish dinner. Donald's daily routine included reading, tea time with delicious treats, and spending Sundays in a more subdued manner, as is traditional in Scottish culture.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor inconsistencies in verb tense
+    - [LEXICON]:
+        • occasional use of obscure vocabulary
+    - [SYNTAX]:
+        • some sentences are wordy or awkwardly phrased
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between ideas
+    - [STRUCTURE]:
+        • lack of clear paragraphing or sectioning
+    - [CLARITY]:
+        • some sentences are unclear or hard to follow
+
+Section section_04 (Chars 24417–32787):
+Section Summary: Marjorie and Janet, two cousins, are getting ready to go on a walk with their uncle, Doctor Gordon, and their friends Donald and Sandy. The group plans to explore the old town of Edinburgh, and Doctor Gordon, who has written a book about the city, is excited to share its history and landmarks with them. They visit Edinburgh Castle, where they watch the Highland Regiment drill and learn about the traditional Scottish uniform and the importance of the piper in the regiment. The group also views the Crown jewels of Scotland and learns about the country's rich history, including the stories of Robert Bruce and Mary, Queen of Scots. As they explore the city, the children show their individual interests and personalities, with Marjorie being romantic, Sandy being interested in battles, and Donald being proud of his Scottish heritage.
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor punctuation errors
+    - [LEXICON]:
+        • some words may be unfamiliar to non-Scottish readers
+    - [SYNTAX]:
+        • a few long sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between game description and historical discussion
+    - [STRUCTURE]:
+        • some sections feel like info dumps
+    - [CLARITY]:
+        • a few sentences are wordy or unclear
+
+Section section_05 (Chars 32787–41092):
+Section Summary: The story describes the daily life and customs of the Scottish people, highlighting their pride in their heritage and distinctiveness from the English. Doctor Gordon takes his young cousins on a tour of Edinburgh, showing them the castle, the "Dogs' Cemetery," and Holyrood Palace, where Queen Mary lived. The children are fascinated by the history and stories of Scotland, and Doctor Gordon promises to take them to Abbotsford, the home of Sir Walter Scott, and Melrose Abbey. On another day, the girls go shopping in Princes Street, and Donald joins them to show them the "Dog's Monument" and other sights. The story showcases the beauty and rich history of Edinburgh, as well as the strong sense of Scottish identity and culture.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Inconsistent verb tense usage
+    - [LEXICON]:
+        • Overly formal language in some parts
+    - [SYNTAX]:
+        • Long, convoluted sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between scenes
+    - [STRUCTURE]:
+        • Lack of clear sectioning or breaks between different topics
+    - [CLARITY]:
+        • Some sentences are wordy or unclear
+
+Section section_06 (Chars 41093–49451):
+Section Summary: The Gordon family visited various sites in Scotland, including the Scott Monument and Grey Friars churchyard, where they learned about the faithful dog Grey Friars Bobby. They also traveled to Melrose Abbey and Abbotsford, the home of Sir Walter Scott, where they saw many historic and literary landmarks. After their tour, the family prepared to leave for Skylemore, Uncle Alan's home in the Highlands, where they would spend time in the countryside. Don was excited for the trip, but sad to leave his dog "Rob Roy" behind. The family set off on their journey on a fine autumn day, amidst the excitement of hunting parties and crowds of people traveling to the country.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor punctuation errors
+    - [LEXICON]:
+        • occasional use of outdated vocabulary
+    - [SYNTAX]:
+        • some sentences are wordy or awkwardly phrased
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between scenes
+    - [STRUCTURE]:
+        • lack of clear connection between some paragraphs
+    - [CLARITY]:
+        • some sentences are unclear or hard to follow
+
+Section section_07 (Chars 49452–57478):
+Section Summary: The story begins with Donald and Sandy traveling to Skylemore, Scotland, where they will be celebrating Marjorie's birthday. Upon arrival, they are greeted by their family and friends, and Marjorie is showered with gifts, including a surprise present from Sandy - his pet "tewky". The next day, the children go for a walk on the moor, where they meet "Auld Wullie", a friendly shepherd who tells them stories and gives Marjorie a gift of Scotch pebbles. The day is spent preparing for a fancy-dress party in the evening, where Marjorie dresses as a bluebell and Janet as heather. The party is a fun and exciting celebration of Marjorie's birthday, surrounded by the beautiful Scottish countryside.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor punctuation errors
+    - [LEXICON]:
+        • occasional use of outdated vocabulary
+    - [SYNTAX]:
+        • some sentences are wordy or awkwardly structured
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between scenes
+    - [STRUCTURE]:
+        • lack of clear connection between some paragraphs
+    - [CLARITY]:
+        • occasional ambiguity in character interactions
+
+Section section_08 (Chars 57478–65594):
+Section Summary: The story describes the celebrations and customs of Scottish children, including a birthday party with traditional games and dances, such as the "Sword Dance" and the "Highland Fling". The children also celebrate "Hogmanay" (New Year's Eve) with great fanfare, including a "first-footing" ceremony where the first person to enter the house after midnight brings a gift of shortbread. Another Scottish custom mentioned is the "Royal Proclamation", a message from the king read out at Mercat Cross in Edinburgh with great ceremony. The story also touches on the tradition of Scottish and Irish boys engaging in a playful battle on St. Patrick's Day, wearing blue and green ribbons respectively. Overall, the section provides a glimpse into the unique customs and celebrations of Scottish culture.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [LEXICON]:
+        • some words may be unfamiliar to non-Scottish readers
+    - [SYNTAX]:
+        • a few long, convoluted sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between scenes
+    - [STRUCTURE]:
+        • lack of clear connection between some paragraphs
+    - [CLARITY]:
+        • some sentences are wordy or unclear
+
+Section section_09 (Chars 65595–73773):
+Section Summary: The story begins with a battle between Scottish and Irish lads, but it ends with no hard feelings and the children playing together the next day. The narrative then shifts to the Gordon family's summer holidays at Skylemore, where they plan a picnic on Loch Katrine. During the picnic, they hear stories about Scotland's history and legends, including the story of "The Lady of the Lake" and the famous Scottish outlaw "Rob Roy". The family also visits the birthplace of Robert Burns, a famous Scottish poet, and explores the surrounding area, including the old bridge and the banks of the River Doon. The children enjoy learning about Scotland's rich history and culture, and the story highlights the country's beautiful landscapes and literary heritage.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • abrupt sentence transitions
+    - [LEXICON]:
+        • inconsistent vocabulary usage
+    - [SYNTAX]:
+        • unclear sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • disjointed ideas between paragraphs
+    - [STRUCTURE]:
+        • lack of clear narrative progression
+    - [CLARITY]:
+        • ambiguous references to external context
+
+Section section_10 (Chars 73774–77812):
+Section Summary: The Lindsays and the Gordons spent a week in Glasgow, enjoying excursions and sails on the river Clyde and nearby islands. Don and Sandy debated which city was finer, Glasgow or Edinburgh, with each boy presenting valid points. The group took a steamer cruise around the islands, passing by famous ship-building yards and historic places like the Island of Bute and the Castle of Rothesay. They also visited the Western Highlands, known for its deer forests and wild moors, and went on a lovely sail with their American cousins, visiting the Isle of Skye and the Shetland Isles. The trip was a wonderful experience for the children, filled with exciting adventures and memorable moments.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • abrupt sentence transitions
+    - [LEXICON]:
+        • some outdated expressions
+    - [SYNTAX]:
+        • occasional complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt shift from describing Glasgow to the steamer cruise
+    - [STRUCTURE]:
+        • lack of clear connection between some paragraphs
+    - [CLARITY]:
+        • some sentences are wordy or contain unnecessary details
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

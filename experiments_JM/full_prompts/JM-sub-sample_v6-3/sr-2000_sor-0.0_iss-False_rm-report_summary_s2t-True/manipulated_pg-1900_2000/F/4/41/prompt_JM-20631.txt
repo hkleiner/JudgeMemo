@@ -1,0 +1,116 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) Read and understand the summary of the text the report was created for.
+    b) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    c) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The summary of the text to be evaluated is given below:
+Summary: The book "Chosen Peoples" explores the concept of the Jewish people being chosen by God. The foreword, written by Herbert Samuel, introduces the series of lectures in memory of Arthur Davis, a renowned Hebrew scholar. Davis was born in 1846 and died in 1906, and his work focused on promoting Hebraic thought and learning. He was a prolific writer and translator, and his contributions to the field of Hebrew studies are still valued today.
+
+The foreword also discusses the revival of languages, including Hebrew, which has been preserved as a ritual language but is now becoming a living and spoken language in Palestine. Samuel notes that Hebrew is unique in that it has shown signs of renewing its old vitality, unlike other ritual languages that have become extinct.
+
+The first chapter of the book explores the concept of the "Chosen People" and how it has been perceived by non-Jews throughout history. The author notes that this concept has been a source of irritation for Gentiles, who have often seen it as a claim to spiritual supremacy. The chapter also discusses how the idea of a chosen people has been used by other groups, including the Germans, who have evolved a similar doctrine of special election.
+
+The author argues that the concept of a chosen people is often misunderstood and that it is not a claim to superiority, but rather a recognition of a special relationship between the Jewish people and God. The chapter also explores the idea of a "Song of Hate" in Judaism, which is accompanied by the treatment of the Amalekites and other Palestine tribes in the Bible.
+
+The second chapter delves deeper into the concept of the "Chosen People" and how it is perceived in the modern era. The author notes that the idea of a chosen people is not unique to Judaism and that other groups, including the Germans, have similar concepts. The chapter also discusses how the Bible has been used to justify violence and aggression, but argues that this is a misinterpretation of the text.
+
+The author suggests that the concept of a chosen people should be understood in its historical context and that it is not a claim to superiority, but rather a recognition of a special relationship between the Jewish people and God. The chapter concludes by noting that the idea of a chosen people is complex and multifaceted, and that it requires a nuanced understanding of the historical and cultural context in which it developed.
+
+Overall, the book "Chosen Peoples" explores the complex and often misunderstood concept of the Jewish people being chosen by God. Through a series of lectures and essays, the author seeks to provide a nuanced understanding of this concept and its significance in the modern era. The book is a valuable resource for anyone seeking to understand the complexities of Jewish identity and the concept of a chosen people. 
+
+The concept of a chosen people is not just a Jewish idea, but it has been adopted by other groups, including the Germans. The author argues that this concept has been used to justify violence and aggression, but it is a misinterpretation of the original idea. The book concludes by emphasizing the importance of understanding the concept of a chosen people in its historical and cultural context. 
+
+The author also notes that the Bible has been used to justify violence and aggression, but this is a misinterpretation of the text. The Bible needs to be interpreted in its historical context, and it is not a guide for modern-day violence or aggression. The concept of a chosen people is complex and multifaceted, and it requires a nuanced understanding of the historical and cultural context in which it developed. 
+
+In conclusion, the book "Chosen Peoples" provides a nuanced understanding of the concept of a chosen people and its significance in the modern era. The author argues that this concept is not a claim to superiority, but rather a recognition of a special relationship between the Jewish people and God. The book is a valuable resource for anyone seeking to understand the complexities of Jewish identity and the concept of a chosen people. 
+
+The book also explores the idea of a "Song of Hate" in Judaism, which is accompanied by the treatment of the Amalekites and other Palestine tribes in the Bible. The author argues that this concept has been misunderstood and that it is not a call to violence or aggression. The book concludes by emphasizing the importance of understanding the concept of a chosen people in its historical and cultural context. 
+
+The author notes that the concept of a chosen people is not unique to Judaism and that other groups, including the Germans, have similar concepts. The book explores the idea of a chosen people in the modern era and how it has been used to justify violence and aggression. The author argues that this is a misinterpretation of the original idea and that the concept of a chosen people should be understood in its historical context. 
+
+In summary, the book "Chosen Peoples" provides a nuanced understanding of the concept of a chosen people and its significance in the modern era. The author argues that this concept is not a claim to superiority, but rather a recognition of a special relationship between the Jewish people and God. The book is a valuable resource for
+
+The report for the text is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–8539):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "tbe" instead of "the"
+        • "languwge" instead of "language"
+        • "coot" instead of "foot"
+        • "dirrction" instead of "direction"
+        • "prlcess" instead of "process"
+        • "Palextine" instead of "Palestine"
+        • "wprk" instead of "work"
+    - [GRAMMAR]:
+        • missing or incorrect articles in several places
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between discussing Arthur Davis's life and the concept of a "Chosen People"
+    - [STRUCTURE]:
+        • lack of clear connection between the foreword and the first chapter
+    - [CLARITY]:
+        • some sentences are wordy or unclear
+
+Section section_02 (Chars 8540–12391):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Missing or incorrect articles
+    - [SPELLING]:
+        • Typos (e.g., "unto oursekves", "ghe", "Vehaeren", "ckuntry", "thw")
+    - [LEXICON]:
+        • Archaic vocabulary (e.g., "argosy", "caravan")
+    - [SYNTAX]:
+        • Complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transitions between ideas
+    - [STRUCTURE]:
+        • Lack of clear progression between paragraphs
+    - [CLARITY]:
+        • Ambiguous references (e.g., "these passages" without clear context)
+    - [TRANSITION]:
+        • Sudden shifts in tone and topic
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

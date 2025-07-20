@@ -1,0 +1,182 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) Read and understand the summary of the text the report was created for.
+    b) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    c) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The summary of the text to be evaluated is given below:
+Summary: Paolo Veronese was a renowned painter from Verona, born in 1528. He was known for his unique style, which blended fantasy and realism. Veronese's artwork was characterized by its vivid colors, intricate details, and grandiose settings. He was particularly famous for his depiction of luxurious scenes, often featuring wealthy patrons and exotic objects.
+
+Veronese's early life was marked by his training under his uncle, Antonio Badile, and his father, Gabriele Caliari, a sculptor. He later moved to Venice, where he was influenced by the city's grandeur and opulence. Veronese's artwork was heavily influenced by the Venetian school, and he became known as one of the greatest painters of his time.
+
+One of Veronese's most famous works is "The Wedding at Cana," which features a grand feast with numerous guests, including Jesus and his disciples. The painting is notable for its vivid colors and intricate details, showcasing Veronese's mastery of composition and technique. Veronese's other notable works include "The Feast at the House of Levi" and "The Family of Darius at the Feet of Alexander."
+
+Veronese's career was marked by his collaborations with other notable artists, including Tintoretto and Titian. He was also known for his disinterestedness and refusal to seek wealth or fame, often accepting modest payments for his work. Despite this, Veronese's artwork was highly sought after by wealthy patrons, including the Duke of Savoy and the Emperor Rudolph II.
+
+In his later years, Veronese continued to paint with remarkable skill and energy, producing numerous masterpieces until his death in 1588. His legacy as one of the greatest painters of all time remains unchanged, with his artwork continuing to inspire and awe art lovers to this day. Veronese's unique style and technique have had a lasting impact on the art world, and his paintings remain some of the most celebrated and iconic works of the Renaissance.
+
+Veronese's artwork was not without controversy, however. He was summoned before the Inquisition in 1573 to answer questions about his depiction of religious scenes, which were deemed irreverent by some. Despite this, Veronese remained true to his artistic vision, continuing to paint with passion and creativity until the end of his life.
+
+Throughout his career, Veronese was known for his incredible productivity, producing numerous paintings and frescoes for churches, palaces, and private patrons. His artwork can be found in many of the great museums and galleries of the world, including the Louvre and the National Gallery in London. Veronese's legacy is a testament to his boundless creativity and innovative spirit, and his artwork continues to inspire and delight art lovers to this day.
+
+The report for the text is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–8282):
+Section Summary: Veronese, considered one of the greatest painters, was known for his absurd yet adorable style, which disregarded logic and historical truth in favor of vibrant colors and fantasy. Born Paolo Caliari in 1528 in Verona, he came from a family of artists and was trained by his uncle Antonio Badile and another Veronese painter, Giovanni Carotto. Veronese's early work showed promise, and he quickly gained recognition, including a commission from Cardinal Ercole di Gonzaga to paint a picture for the cathedral at Mantua. He surpassed his competitors and gained preference, but soon found that his native city was too limited for his ambitions, leading him to leave Verona with his friend Battista Zelotti to seek new opportunities. Veronese's unique style, which glorified Venice and its opulence, would become his distinctive mark and earn him a lasting reputation as a great painter.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tenses
+    - [LEXICON]:
+        • unclear meaning of "a thing"
+    - [SYNTAX]:
+        • long and convoluted sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between chapters
+    - [STRUCTURE]:
+        • lack of clear chronological order
+    - [CLARITY]:
+        • ambiguous references to "a thing"
+
+Section section_02 (Chars 8283–16894):
+Section Summary: Paolo Veronese collaborated with his friend Zelotti on several projects, including fresco work, before settling in Venice where he was inspired by the city's beauty and the works of other great Venetian painters. Veronese was particularly drawn to the vibrant and luxurious aspects of life, which he reflected in his paintings, often depicting grand scenes with elaborate settings and accessories. Despite being influenced by other artists, Veronese managed to maintain his unique style and perspective, creating works that were characterized by their joy and exuberance. In Venice, Veronese formed valuable friendships, including with the Prior of the convent of San Sebastiano, Bernardo Torlioni, who helped him secure important commissions, including the decoration of the church of San Sebastiano. Veronese's success in Venice was rapid, with his work receiving widespread acclaim and establishing him as a prominent artist.
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • incorrect verb tense usage
+    - [LEXICON]:
+        • occasional use of less common vocabulary
+    - [SYNTAX]:
+        • complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • some abrupt transitions between paragraphs
+    - [STRUCTURE]:
+        • lack of clear chronological order
+    - [CLARITY]:
+        • occasional ambiguity in sentence meaning
+
+Section section_03 (Chars 16895–25339):
+Section Summary: During the height of Venice's glory, Paolo Veronese arrived at the perfect moment to satisfy the city's demand for art, surpassing his rivals and becoming one of the most renowned painters of his time. He was commissioned by Daniele Barbaro, Patriarch of Aquileia, to decorate his residence, and later by the Signoria to redecorate the Doge's Palace, further solidifying his reputation. Veronese's prolific career spanned 33 years, during which he produced numerous masterpieces, including his famous "Wedding at Cana," a gigantic canvas that now hangs in the Louvre. This painting, considered one of Veronese's finest works, was created for the refectory of a convent in Venice and was later seized by Napoleon's army before being permanently acquired by the Louvre. Veronese's artistic genius and productivity earned him great acclaim, and he remains one of the most celebrated painters of his era.
+Scores:
+  - Fluency: 3.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tenses
+    - [LEXICON]:
+        • unclear or missing words (e.g., "a stuff", "the thing")
+    - [SYNTAX]:
+        • awkward sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between paragraphs
+    - [STRUCTURE]:
+        • lack of clear chronological order
+    - [CLARITY]:
+        • ambiguous descriptions of events and artworks
+
+Section section_04 (Chars 25339–33833):
+Section Summary: Veronese's painting, "The Wedding at Cana", is a masterpiece that showcases his unique method, which disregards historical accuracy and traditional religious depictions. The painting features a mix of biblical figures and contemporary personalities, including the artist himself, Titian, and Tintoretto. Veronese's work was widely admired, but it also drew criticism from traditionalists who saw his introduction of fantastical elements as irreverent. He was summoned before the Inquisition in 1573 to defend his work, and was ultimately forced to modify one of his paintings to conform to the Church's standards. Despite this, Veronese's reputation as a great artist endured, and he continued to produce notable works, although his journey to Rome, which was a long-held desire, was brief and not well-documented.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [LEXICON]:
+        • occasional use of vague terms like "stuff" and "thing"
+    - [SYNTAX]:
+        • complex sentence structures may hinder readability
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between paragraphs
+    - [STRUCTURE]:
+        • lack of clear chronological order in some sections
+    - [CLARITY]:
+        • some sentences are wordy or contain ambiguous phrases
+
+Section section_05 (Chars 33834–42483):
+Section Summary: After visiting Rome, Veronese returned to Venice, where he was in high demand and produced many works, showcasing his unique style and qualities. His personal life is not well-documented, but it is known that he married, had two sons, and was a man of strict principles and settled habits. Veronese was a prolific artist, and his works can be found throughout the Ducal Palace, including the great central oval of the ceiling and the lateral panels, which feature scenes of Venetian history and mythology. One of his notable works from this period is "The Family of Darius at the Feet of Alexander," a large and intricate painting that showcases his skill and creativity. Veronese's decorations in the Ducal Palace are considered some of the most brilliant and beautiful in the building, and they continue to be admired and celebrated to this day.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [LEXICON]:
+        • occasional use of vague terms like "stuff" and "thing"
+    - [SYNTAX]:
+        • some sentences are overly long and convoluted
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between paragraphs
+    - [STRUCTURE]:
+        • lack of clear chronological order in describing Veronese's life and works
+    - [CLARITY]:
+        • some sentences are wordy and difficult to follow
+
+Section section_06 (Chars 42484–48020):
+Section Summary: Veronese was a renowned painter who decorated several monumental buildings in Venice, including the Hall of the "Bussola" and the Fondaco dei Tedeschi. He was known for his pompous and brilliant style, and his works were sought after by sovereigns and art galleries around the world. Veronese remained faithful to his style throughout his life, but was also capable of handling more vigorous subjects, as seen in his painting "Jupiter Destroying the Vices". Despite his advanced age, Veronese continued to paint with steady hands until his death on April 19, 1588, at the age of 60. His legacy remains as one of the most amazing masters in the history of art, with a vast and brilliant collection of works that continue to be admired today.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tenses
+    - [LEXICON]:
+        • unclear meaning of "a stuff"
+    - [SYNTAX]:
+        • long and convoluted sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between paragraphs
+    - [STRUCTURE]:
+        • lack of clear chronological order
+    - [CLARITY]:
+        • ambiguous references to historical events
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

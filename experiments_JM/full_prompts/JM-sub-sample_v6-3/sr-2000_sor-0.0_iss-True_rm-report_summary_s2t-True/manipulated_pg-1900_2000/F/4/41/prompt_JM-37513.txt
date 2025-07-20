@@ -1,0 +1,103 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) Read and understand the summary of the text the report was created for.
+    b) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    c) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The summary of the text to be evaluated is given below:
+Summary: The author recounts their introduction to Herbert Spencer's philosophy of science, which began with reading Tyndall's Discourse on The Scientific Use of the Imagination. This sparked their enthusiasm for the concept of evolution and the idea that the human mind and emotions were once latent in a fiery cloud. A friend of their father's, who was familiar with Spencer's work, encouraged them to read his essay "Progress: its Law and Cause." 
+
+The essay, written in 1857, presented the idea that progress is the evolution of the simple into the complex through successive differentiations. The author was drawn to this concept, which seemed to explain the universe and its many phenomena. Spencer's philosophy emphasized the importance of differentiation and the idea that every active force produces more than one change. 
+
+The author notes that Spencer's work was not limited to biology, but also encompassed psychology, sociology, and ethics. His Synthetic Philosophy, a comprehensive system of thought, explored the evolution of the universe, from the simplest forms of matter to complex social systems. Spencer's philosophy was characterized by its emphasis on the universality of law and the idea that all phenomena can be explained in terms of matter, motion, and force.
+
+The author acknowledges that Spencer's philosophy has been influential, but also notes that it has been criticized for its narrowness and rigidity. Despite this, Spencer's work remains an important contribution to the philosophy of science and continues to be studied and debated by scholars today. The author concludes that Spencer's philosophy, while not perfect, has had a profound impact on our understanding of the universe and its many complexities.
+
+Spencer's philosophy is also notable for its emphasis on the interconnectedness of all things and the idea that progress is a universal principle that applies to all aspects of existence. His work has been praised for its originality and vitality, and his ideas continue to influence fields such as sociology, ethics, and psychology. The author suggests that Spencer's philosophy, while not without its limitations, remains a significant and thought-provoking contribution to the world of ideas.
+
+Overall, the author's summary provides an overview of Spencer's philosophy and its key concepts, including differentiation, the universality of law, and the idea that all phenomena can be explained in terms of matter, motion, and force. The author also acknowledges the limitations and criticisms of Spencer's philosophy, but ultimately concludes that it remains an important and influential work in the history of science and philosophy. 
+
+The author's introduction to Spencer's philosophy had a profound impact on their own thinking and understanding of the universe. They were particularly drawn to Spencer's idea that the universe is governed by a set of universal laws that apply to all aspects of existence. This idea, which is central to Spencer's philosophy, has had a lasting impact on the development of modern science and continues to influence scholars today.
+
+In conclusion, the author's summary provides a comprehensive overview of Spencer's philosophy and its key concepts. The author's own introduction to Spencer's work had a profound impact on their thinking and understanding of the universe, and they continue to see the importance and relevance of Spencer's ideas in the modern world.
+
+The report for the text is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–8844):
+Section Summary: The author's interest in science was sparked by reading Tyndall's "Discourse on The Scientific Use of the Imagination" and later introduced to Herbert Spencer's philosophy. Spencer's essay "Progress: its Law and Cause" revealed the underlying law of evolution, where the simple develops into the complex through successive differentiations. The author was drawn to Spencer's idea that every active force produces more than one change, leading to a higher complication and progress. Spencer's work had a significant impact on various fields, including biology, psychology, sociology, and ethics, and his ideas have been widely assimilated into modern scientific thought. Despite some limitations, Spencer's contributions to these fields are still recognized as original and vital, with his biological interpretation being a key aspect of his philosophy.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing or incorrect articles
+    - [SPELLING]:
+        • typos such as "animapcular" and "phenomenq"
+    - [LEXICON]:
+        • outdated vocabulary and complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between ideas
+    - [STRUCTURE]:
+        • lengthy paragraphs with multiple unrelated ideas
+    - [CLARITY]:
+        • ambiguous sentences and concepts
+
+Section section_02 (Chars 8845–12774):
+Section Summary: Herbert Spencer's philosophy was shaped by his early writings in the Nonconformist, which marked a shift from his life as an engineer to a life of philosophical inquiry. His work emphasized the universality of law and the concept of evolution, which he saw as a fundamental principle governing all aspects of life, from matter to mind. Spencer's philosophy was all-inclusive, encompassing biology, psychology, sociology, and ethics, and he sought to interpret all phenomena in terms of matter, motion, and force. He believed that even mental evolution could be explained in terms of the redistribution of matter and motion, and that consciousness could be resolved into units of consciousness that are ultimately connected to physical reality. Ultimately, Spencer's philosophy acknowledged the limits of human understanding, recognizing that some mysteries, such as the ultimate reality, may be beyond human comprehension.
+Scores:
+  - Fluency: 3.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "wjich" instead of "which"
+        • "strkven" instead of "striven"
+        • "elseshere" instead of "elsewhere"
+        • "thinga" instead of "things"
+        • "dksciple" instead of "disciple"
+        • "baffledvby" instead of "baffled by"
+    - [GRAMMAR]:
+        • Missing articles in some places
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between ideas
+    - [STRUCTURE]:
+        • Overly complex sentence structures
+    - [CLARITY]:
+        • Ambiguous references to Spencer's philosophy
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

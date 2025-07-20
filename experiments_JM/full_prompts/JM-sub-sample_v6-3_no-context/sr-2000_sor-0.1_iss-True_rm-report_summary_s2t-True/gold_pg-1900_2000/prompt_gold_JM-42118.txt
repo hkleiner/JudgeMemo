@@ -1,0 +1,100 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) Read and understand the summary of the text the report was created for.
+    b) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    c) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The summary of the text to be evaluated is given below:
+Summary: Jean Honoré Fragonard was born on April 5, 1732, in Grasse, a small town in southern France. His father, a glovemaker, wanted him to follow in his footsteps, but Fragonard's passion was art. The town of Grasse was far from the artistic hub of Paris, and news of the city's latest trends and scandals trickled in slowly. Fragonard grew up surrounded by the beauty of Provence, which would later influence his art.
+
+As a child, Fragonard heard rumors of the king's mistress, Madame de Pompadour, who was a powerful figure in French politics and art. She was a patron of the arts and encouraged the work of artists like François Boucher. Boucher's style, which emphasized elegance and charm, would later influence Fragonard's own work.
+
+At the age of 16, Fragonard's mother took him to Paris to pursue a career in art. She sought out Boucher, who was the most famous painter in France at the time, and asked him to take her son as a student. Boucher was impressed by Fragonard's talent but felt that he needed more training in the technical aspects of painting. He advised Fragonard to study with Jean-Siméon Chardin, a master of still-life painting.
+
+Fragonard worked with Chardin for a time but made little progress. He was eventually sent away and forced to rely on his own resources. He spent his days studying the masterpieces in the churches of Paris and painting from memory. After six months, he returned to Boucher, who was impressed by his progress and took him on as a student.
+
+Fragonard worked in Boucher's studio, learning the techniques of painting and preparing decorative cartoons for the Gobelins and Beauvais looms. He also met the Director-General of Buildings, Lenormant de Tournehem, who was a kinsman of the Pompadour. After de Tournehem's death, his brother, Abel Poisson de Vandières, was appointed to the position and became a patron of Fragonard's work.
+
+At the age of 20, Fragonard won the Prix de Rome, a prestigious award that allowed him to study in Rome. He was the first artist to win the prize without being a pupil of the Academy. During his time in Rome, he continued to work on his own paintings, including "Blind Man's Buff." Fragonard's career was marked by his relationships with powerful patrons like Boucher and the Pompadour, who helped him to establish himself as a prominent artist in France.
+
+The king's school of art, where Fragonard studied, was a hub of creative activity, and he was surrounded by other talented artists. However, the artistic community was also affected by the political turmoil of the time, including the quarrels between priests and parliaments. Despite these challenges, Fragonard continued to produce beautiful and charming paintings that reflected his love of nature and his skill as an artist.
+
+Fragonard's time in Paris was marked by his fascination with the city's artistic and cultural scene. He was drawn to the works of Boucher and other prominent artists, and he spent hours studying their techniques and styles. His own work began to take shape, reflecting his unique perspective and talent. As he navigated the complexities of the art world, Fragonard remained committed to his craft, driven by a passion for beauty and a desire to create something truly original.
+
+The report for the text is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–7792):
+Section Summary: Jean Honoré Fragonard was born on April 5, 1732, in the town of Grasse, France, to a glovemaker and his wife. Growing up in a picturesque region surrounded by olive trees and Mediterranean waters, Fragonard was inspired by the beauty of his surroundings, which would later influence his art. As he grew older, he became aware of the gossip and scandals of the French court, including the rise of Madame de Pompadour, who became a powerful patron of the arts. Despite his father's initial plans for him to become a notary, Fragonard's passion for art led him to pursue a different path, with his master eventually advising that he be allowed to follow his artistic bent. Fragonard's early life and surroundings laid the foundation for his future as a renowned artist, influenced by the elegance and charm of the French art world.
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor sentence structure complexity
+    - [LEXICON]:
+        • occasional use of less common vocabulary
+    - [SYNTAX]:
+        • some sentences are lengthy and convoluted
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between chapters
+    - [STRUCTURE]:
+        • non-linear narrative progression
+    - [CLARITY]:
+        • occasional ambiguity in historical references
+
+Section section_02 (Chars 7792–12969):
+Section Summary: In 1748, a 16-year-old Fragonard and his mother traveled to Paris to meet the renowned painter Boucher, who advised them that Fragonard needed more training and recommended he study under Chardin. However, Fragonard made little progress with Chardin and was eventually sent away. After six months of self-study, Fragonard returned to Boucher and was accepted into his studio, where he worked on decorative cartoons and learned valuable skills. Under Boucher's guidance, Fragonard's talents flourished, and he went on to win the Prix de Rome at the age of 20 with his painting "Jeroboam Sacrificing to Idols." Fragonard then continued his studies at the king's school and worked in Boucher's studio, producing notable works such as "Blind Man's Buff."
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Complex sentence structures may hinder smooth reading
+    - [LEXICON]:
+        • Some archaic vocabulary (e.g., "diligence") might be unfamiliar to modern readers
+    - [SYNTAX]:
+        • Long paragraphs and sentences could improve with more breaks for easier flow
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between Fragonard's artistic development and the political events
+    - [STRUCTURE]:
+        • The narrative jumps between Fragonard's personal story and broader historical context
+    - [CLARITY]:
+        • Some sentences are dense with information, making them hard to follow
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

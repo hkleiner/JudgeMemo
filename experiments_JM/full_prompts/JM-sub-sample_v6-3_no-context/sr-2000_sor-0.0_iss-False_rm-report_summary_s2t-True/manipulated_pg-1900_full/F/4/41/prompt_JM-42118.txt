@@ -1,0 +1,296 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) Read and understand the summary of the text the report was created for.
+    b) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    c) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The summary of the text to be evaluated is given below:
+Summary: Jean Honoré Fragonard was born on April 5, 1732, in Grasse, France, to a glovemaker. He grew up in a romantic and beautiful town surrounded by olive trees and the Mediterranean Sea. Fragonard's early life was marked by a love for art and nature. He was apprenticed to a notary, but his true passion was painting. With the help of his mother, he traveled to Paris to study art under the great painter François Boucher.
+
+Fragonard's artistic career began to take shape when he won the Prix de Rome in 1752. He then studied under Charles-Joseph Natoire in Rome, where he developed his skills and style. Upon his return to Paris, Fragonard became known for his elegant and charming paintings, often depicting scenes of love and nature. He was particularly famous for his series of paintings called "The Progress of Love," which showcased his mastery of color and composition.
+
+Fragonard's personal life was also marked by significant events. He married Marie Anne Gérard in 1769, and they had two children together. His wife was not a beauty, but she had a kind heart and was a good mother. Fragonard's sister-in-law, Marguerite Gérard, was a talented artist and became a close companion to him. The two shared a deep affection for each other, and their correspondence was filled with passion and intimacy.
+
+As Fragonard's career progressed, he became known as the painter of the French court, particularly during the reign of King Louis XV. He was favored by the king's mistress, Madame du Barry, who commissioned several paintings from him. However, Fragonard's relationship with the royal court was complicated, and he eventually fell out of favor.
+
+The French Revolution had a profound impact on Fragonard's life and career. He was a liberal and sympathized with the revolutionaries, but he was also afraid of the violence and chaos that ensued. In 1793, he left Paris and moved to Grasse, where he lived in exile for several years. During this time, he continued to paint, but his style and subject matter changed significantly.
+
+Fragonard returned to Paris in 1800, but his career was never the same. He struggled to adapt to the new artistic styles and trends, and he eventually fell into obscurity. He died on August 22, 1806, at the age of 74, and was largely forgotten until the 20th century, when his work was rediscovered and celebrated.
+
+Today, Fragonard is recognized as one of the greatest painters of the 18th century, and his work continues to inspire and delight art lovers around the world. His paintings are characterized by their elegance, charm, and sensuality, and they offer a unique glimpse into the culture and society of 18th-century France. Despite the challenges and setbacks he faced, Fragonard remained a true artist, dedicated to his craft and passionate about his work. His legacy is a testament to the power of art to transcend time and circumstance, and to the enduring beauty of the human experience.
+
+The report for the text is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–7792):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing or incorrect articles
+    - [SPELLING]:
+        • typos such as "stdeet", "goomy", "attenuatee", "wcented", "aere", "bbright", "casingcits", "afyer", "hid", "onr", "qnd", "pleasaujres"
+    - [SYNTAX]:
+        • long and convoluted sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between paragraphs
+    - [STRUCTURE]:
+        • lack of clear chronological order
+    - [CLARITY]:
+        • overly descriptive language that may confuse the reader
+
+Section section_02 (Chars 7792–15744):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "thd" instead of "the"
+        • "common-srnse" instead of "common-sense"
+        • "qnxious" instead of "anxious"
+        • "Tbrown" instead of "Thrown"
+        • "reyurning" instead of "returning"
+        • "brooad" instead of "broad"
+        • "wodks" instead of "works"
+        • "cesign" instead of "design"
+        • "halting Italian" is unclear
+    - [GRAMMAR]:
+        • "he was too much of a Frenchman, too much in sympathy with the French genius, too much enamoured of the art of his master" is a run-on sentence
+  Coherence Issues:
+    - [LOGIC]:
+        • The text jumps abruptly from Fragonard's training to the king's assassination attempt
+    - [TRANSITION]:
+        • The connection between Fragonard's journey to Italy and the description of the king's assassination attempt is unclear
+    - [CLARITY]:
+        • The phrase "if you take those fellows seriously you are lost" is unclear without context
+    - [STRUCTURE]:
+        • The text switches between different time periods and events without clear transitions
+
+Section section_03 (Chars 15745–23603):
+Scores:
+  - Fluency: 3.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • delightfulcgood-fellowship
+        • essenxe
+        • Prile
+        • powwr
+        • reachrd
+        • mastef
+        • themnew
+        • shrewdckindly
+        • greaf
+        • shephefdesses
+        • historiv
+        • weakndssds
+        • csme
+        • emough
+        • finamciers
+        • fasyion
+        • Ylu
+    - [GRAMMAR]:
+        • multiple missing or incorrect articles
+        • inconsistent verb tenses
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between Fragonard's life and the French political scene
+    - [STRUCTURE]:
+        • lack of clear chronological order
+    - [CLARITY]:
+        • some sentences are wordy and hard to follow
+    - [TRANSITION]:
+        • missing connections between paragraphs
+
+Section section_04 (Chars 23603–31580):
+Scores:
+  - Fluency: 3.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • consideragle
+        • xould
+        • ghe
+        • St. Clpud
+        • accough
+        • cdies
+        • pasy
+        • ubdertook
+        • frkend
+        • anr
+        • delaya
+        • tje
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt shifts between Fragonard's life and historical events
+    - [TRANSITION]:
+        • unclear connections between paragraphs
+    - [STRUCTURE]:
+        • non-chronological ordering of events
+
+Section section_05 (Chars 31581–39597):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing or incorrect articles
+    - [SPELLING]:
+        • typos such as "abchill", "Rragonard", "Isnwrd", "vtenderness", "majesticc"
+    - [SYNTAX]:
+        • some sentences are wordy or awkwardly phrased
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between paragraphs
+    - [STRUCTURE]:
+        • lack of clear chronological order
+    - [CLARITY]:
+        • some sentences are unclear or confusing
+
+Section section_06 (Chars 39598–47590):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [SPELLING]:
+        • multiple typos (e.g. "Fragknard", "refusdd", "withmtheir", "sritings", "axtounding", "wnd")
+    - [SYNTAX]:
+        • complex sentence structures
+    - [LEXICON]:
+        • occasional archaic vocabulary
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between historical events and Fragonard's life
+    - [STRUCTURE]:
+        • non-chronological narrative
+    - [CLARITY]:
+        • ambiguous references to historical figures and events
+    - [TRANSITION]:
+        • lack of clear connections between paragraphs
+
+Section section_07 (Chars 47591–55762):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • multiple grammatical errors
+    - [SPELLING]:
+        • numerous spelling mistakes (e.g. "pennilesa", "palacex", "fzces", "rokms", "kihg")
+    - [SYNTAX]:
+        • awkward phrasing in some sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • some abrupt transitions between ideas
+    - [STRUCTURE]:
+        • lack of clear chronological progression in certain sections
+    - [CLARITY]:
+        • occasional ambiguity in sentence meaning
+
+Section section_08 (Chars 55763–63762):
+Scores:
+  - Fluency: 3.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "fpllowed" instead of "followed"
+        • "Natoonal" instead of "National"
+        • "anx" instead of "and"
+        • "ekghteenth" instead of "eighteenth"
+        • "poservand" instead of "possessing and"
+        • "dissipatdd" instead of "dissipated"
+        • "convictkon" instead of "conviction"
+        • "tje" instead of "the"
+    - [GRAMMAR]:
+        • inconsistent verb tenses
+    - [SYNTAX]:
+        • run-on sentences and lack of punctuation
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between historical events and Fragonard's personal life
+    - [STRUCTURE]:
+        • non-chronological ordering of events
+    - [CLARITY]:
+        • unclear connections between ideas
+    - [TRANSITION]:
+        • lack of smooth transitions between paragraphs
+
+Section section_09 (Chars 63763–68165):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • sucxess
+        • knowcof
+        • sztire
+        • splensour
+        • st
+        • hs
+        • toes
+        • triumphantccareer
+        • thd
+        • lkved
+        • pezcefully
+        • atmisphere
+        • icnnecessary
+        • revelationcof
+    - [GRAMMAR]:
+        • inconsistent verb tenses
+    - [SYNTAX]:
+        • run-on sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between paragraphs
+    - [STRUCTURE]:
+        • lack of clear chronological order
+    - [CLARITY]:
+        • ambiguous sentences
+    - [TRANSITION]:
+        • missing connections between ideas
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

@@ -1,0 +1,102 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) Read and understand the summary of the text the report was created for.
+    b) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    c) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The summary of the text to be evaluated is given below:
+Summary: Veronese was a great painter known for his absurd and adorable style. He was indifferent to historic truth and school traditions, instead focusing on his own unique vision. Veronese's paintings are characterized by their concentrated life, splendor of coloring, and caressing charm of draperies. He was a painter of joyous scenes, often depicting sumptuous settings with silk, brocades, and precious vases.
+
+Veronese was born in Verona in 1528 as Paolo Caliari. His father, Gabriele Caliari, was a sculptor, and his uncle, Antonio Badile, was a painter. Veronese learned to model statues in clay, but his true passion was painting. He applied himself to learn painting with zeal and imagination, and his father entrusted him to Badile for training.
+
+Veronese's early attempts at painting revealed his abundant and facile genius. He was commissioned to paint a Madonna at a young age and quickly gained recognition in Verona. He collaborated with his friend Battista Zelotti on several projects, including the decoration of a palace in Tiene. Veronese's work was influenced by his study of the engravings of Albert Durer and Lucas Van Leyden.
+
+In his early twenties, Veronese moved to Venice, where he was dazzled by the city's opulence and magnificence. He was inspired by the works of other Venetian painters, including Giorgione, Carpaccio, and Titian. However, Veronese succeeded in remaining himself and borrowing nothing from his predecessors or contemporaries.
+
+Veronese's paintings were an exaltation of the joy of living, often depicting fine dwellings, flowers, and luxurious apparel. He ignored historic data and tradition, instead focusing on his own unique vision. Veronese's private life is not well-documented, but his paintings suggest that he was a man of agreeable humor and pleasing personality.
+
+Despite his quick temper and strong sense of dignity, Veronese was a worthy gentleman. He was passionate about his art and altered nothing in his personal vision, even when contemplating the works of others. Veronese's sojourn in Venice was marked by his admiration for the city's beauty and his desire to glorify it through his paintings.
+
+Veronese's work was characterized by its nobler passion for art, and he gained a reputation as a great painter. He was known for his vigorous and jovial nature, and his paintings continue to be celebrated for their beauty and charm. Overall, Veronese was a unique and talented painter who left an indelible mark on the art world. His legacy continues to inspire and delight art lovers to this day.
+
+The report for the text is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–8276):
+Section Summary: Paolo Veronese, born Paolo Caliari in 1528 in Verona, was a renowned painter known for his unique blend of absurdity and adorability. He was trained by his uncle, Antonio Badile, and developed his skills through diligent practice, including copying engravings by masters like Albert Durer. Veronese's early works already showed promise, and he quickly gained recognition in Verona and beyond, receiving commissions from prominent clients like Cardinal Ercole di Gonzaga. He eventually outgrew the limitations of his native city and moved to Venice, where he became enamored with the city's vibrant culture and light, which greatly influenced his art. Veronese's distinctive style, characterized by magnificent color and expression, was shaped by his love for Venice and his desire to glorify the city in his paintings.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing or incorrect articles
+    - [SPELLING]:
+        • typos such as "vgreat", "Paradoxjcal", "modsrn", "raiment"
+    - [SYNTAX]:
+        • long and complex sentence structures
+    - [LEXICON]:
+        • occasional use of less common vocabulary
+  Coherence Issues:
+    - [LOGIC]:
+        • some abrupt transitions between ideas
+    - [STRUCTURE]:
+        • lack of clear paragraphing or sectioning in some areas
+    - [CLARITY]:
+        • occasional ambiguity in sentence meaning
+    - [TRANSITION]:
+        • could improve connections between chapters or sections
+
+Section section_02 (Chars 8277–13475):
+Section Summary: Paolo Veronese collaborated with his friend Zelotti on a series of paintings, including frescoes and grisaille panels, which showcased their similar styles and techniques. After their collaboration, Veronese moved to Venice, where he was inspired by the city's beauty and the works of other great Venetian painters, such as Titian and Tintoretto. Despite being influenced by these masters, Veronese managed to maintain his unique style and vision, creating paintings that reflected his joyful and vibrant personality. His artwork often featured luxurious and festive scenes, prioritizing beauty and pleasure over historical accuracy. Veronese's private life remains largely unknown, but his paintings suggest that he was a charming and dignified person with a strong sense of humor and a quick temper.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • incorrect verb tense usage
+    - [SPELLING]:
+        • typos (e.g. "paimtings", "banqyets", "fkve", "fabtics", "multicoloured" instead of "multicolored")
+    - [LEXICON]:
+        • inconsistent word choice (e.g. "colour-enraptured" is not a standard term)
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transition between paragraphs
+    - [CLARITY]:
+        • ambiguous sentences (e.g. "If the models that passed in endless procession before his eyes impressed him as magnificent opportunities...")
+    - [LOGIC]:
+        • lack of clear connection between ideas (e.g. the jump from describing Veronese's art to his personal life)
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

@@ -1,0 +1,96 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) Read and understand the summary of the text the report was created for.
+    b) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    c) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The summary of the text to be evaluated is given below:
+Summary: The author of the book participated in a historic movement that marked an epoch in world history. On July 23, 1901, the United States Government sent 499 trained men and women to establish a system of free public schools in the Philippine Islands. The group set sail from San Francisco on the United States Army Transport "Thomas" and headed towards the Philippines. As they departed, a late-arriving teacher was rescued from a rowboat and brought aboard. The ship passed by the Golden Gate and into the open sea, where they encountered five whales.
+
+The group stopped at Honolulu, Hawaii, where they visited the Pali, a gigantic precipice, and the Bishop Museum of Polynesian Ethnology. The museum featured a collection of artifacts illustrating the life and customs of Polynesia, including a royal robe made from birds' feathers. The robe was valued at over $300,000 and was made from the feathers of birds that were found only in the Hawaiian Islands.
+
+The group also witnessed the sport of surf-shooting, where native islanders rode the waves on long, narrow boards. As they continued their journey, they crossed the International Date Line, which marked the beginning of a new day. The crew and passengers celebrated with a traditional "Revels of Neptune" ceremony.
+
+After losing a day at sea, the group arrived in Manila, Philippines, where they were greeted by a crowd of curious natives. The city was a mix of old and new, with a medieval-style walled city and a newer city that had sprung up around it. The author was struck by the cosmopolitan nature of the city, with people from all over the world, including English, French, German, Spanish, and Chinese.
+
+The group spent two weeks in Manila awaiting assignment to their stations. During this time, they experienced the rainy season, which made their clothing wet and uncomfortable. The author visited the old stone bridge that connected the old city to the new, where he saw a bustling stream of pedestrians, vehicles, and carts. The bridge was lined with American policemen, and the river below was filled with steam launches and small crafts.
+
+As the group prepared to depart for their assigned stations, they received a notice listing the articles they needed to supply themselves with. The author and his fellow teachers were about to embark on a new adventure, bringing education to the people of the Philippines. The journey was just beginning, and the author was eager to share his experiences and the stories of the people he met along the way. The book is a testament to the historic movement that brought education to the Philippines and the people who made it possible. The author's experiences and observations provide a unique glimpse into the culture and customs of the Philippines during this time period.
+
+The report for the text is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–8935):
+Section Summary: The author participated in a historic movement to establish a system of free public schools in the Philippine Islands, marking an epoch in world history. On July 23, 1901, the US Government sent 499 trained men and women from San Francisco to the Philippines to achieve this goal. The group traveled via the Hawaiian Islands, where they stopped at Honolulu and experienced the local culture, including visiting the Pali and the Bishop Museum of Polynesian Ethnology. After crossing the International Date Line, they lost a day and eventually arrived in Manila, where they were introduced to the local customs and people. The author describes their initial impressions of Manila, including the rough waters of the bay and the unique clothing and habits of the native people.
+Scores:
+  - Fluency: 3.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • incomplete sentences
+    - [SYNTAX]:
+        • awkward phrasing
+    - [LEXICON]:
+        • unclear word choice
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt shifts in narrative
+    - [STRUCTURE]:
+        • disjointed ideas
+    - [CLARITY]:
+        • confusing transitions
+
+Section section_02 (Chars 8936–11938):
+Section Summary: The narrator describes their initial experience in Manila, where they struggled with the heat and humidity. The city of Manila was built by the Spaniards and has a rich history, with an old walled city and a new city that has sprung up around it. The narrator observes the bustling activity on the old stone bridge, where people from all over the world, including Americans, Europeans, Chinese, Japanese, and Filipinos, are going about their daily business. The scene is one of great diversity and energy, with steam launches and small crafts on the river and crowded streets and markets. After spending two weeks in Manila, the narrator and their fellow teachers receive a notice instructing them to prepare for assignment to their stations, which causes them consternation.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense
+    - [SYNTAX]:
+        • complex sentence structure
+    - [LEXICON]:
+        • outdated vocabulary
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transition between ideas
+    - [CLARITY]:
+        • unclear connections between sentences
+    - [LOGIC]:
+        • lack of chronological order
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

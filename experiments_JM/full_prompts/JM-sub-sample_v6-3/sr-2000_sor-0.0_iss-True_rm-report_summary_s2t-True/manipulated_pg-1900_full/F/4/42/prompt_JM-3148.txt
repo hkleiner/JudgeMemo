@@ -1,0 +1,269 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) Read and understand the summary of the text the report was created for.
+    b) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    c) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The summary of the text to be evaluated is given below:
+Summary: The story begins with a quote from Emerson's "April" and introduces Anthony Croft, a blind violin maker, and his nephew Davy. Anthony is reading a story about Paganini to Davy, who is fascinated by the musician's skills. The narrative then shifts to Anthony's past, where he is portrayed as a curious and inventive child who hated school but loved music and nature.
+
+As a child, Anthony would often sneak out of the classroom to play with a tuning fork or create makeshift instruments. He became skilled in repairing and making violins, and people would bring him their instruments to fix. Anthony's mother was worried about his future, but he was determined to pursue his passion for music.
+
+The story then introduces Lyddy Ann Butterfield, a disfigured and reclusive woman who has inherited a house and a small income from her aunt. Lyddy is a kind and gentle soul who is loved by the children she has cared for in the past. She is also a talented homemaker and has a passion for color and beauty.
+
+One day, Lyddy meets Anthony while he is struggling to care for his sick nephew. She offers to help and takes charge of the household, nursing Davy back to health. As they spend more time together, Anthony and Lyddy develop a deep bond, and he begins to see her as a kind and beautiful person, despite her physical appearance.
+
+The narrative explores the theme of perception and how people can be misled by appearances. Anthony, who is blind, is able to see Lyddy's inner beauty and kindness, while others are put off by her disfigurement. The story also touches on the idea of music as a universal language that can bring people together and transcend physical limitations.
+
+As the story progresses, Anthony and Lyddy's relationship deepens, and they begin to share their thoughts and feelings with each other. They discuss books, music, and life, and Lyddy finds herself opening up to Anthony in ways she never thought possible. The narrative also introduces Aunt Hitty, a nosy and opinionated neighbor who is fascinated by Lyddy's life and speculates about her relationship with Anthony.
+
+The story takes a romantic turn as Anthony and Lyddy realize their feelings for each other. Anthony proposes to Lyddy, and she accepts, despite her initial reservations about being a burden to him due to his blindness. The narrative concludes with a scene of domestic bliss, where Anthony and Lyddy are sitting in their apple orchard, surrounded by nature and music.
+
+Anthony is working on a new composition, using a unique system of wires and wooden pegs to create music. Lyddy is sewing a basket, symbolizing their hopes and dreams for the future. The story ends with a sense of joy, love, and new beginnings, as Anthony and Lyddy embark on their life together, surrounded by the beauty of nature and the power of music.
+
+The report for the text is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–8002):
+Section Summary: The story begins with a boy named Davy reading to his uncle, Anthony Croft, who is blind. Anthony is a skilled violinist who believes that the secret to everything beautiful and true is hidden in the strings of his instrument. As Davy reads, Anthony's mind wanders, and he recalls his own childhood, where he struggled in school and found solace in the outdoors and in music. Anthony's love for music was evident even as a young boy, when he would create makeshift instruments and hide a precious tuning fork outside the school window to avoid having it confiscated. The scene ends with Anthony playing his violin, filling the atmosphere with harmony and beauty.
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor punctuation errors
+    - [LEXICON]:
+        • some archaic vocabulary
+    - [SYNTAX]:
+        • occasional complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • few abrupt transitions between scenes
+    - [STRUCTURE]:
+        • non-linear narrative flow
+    - [CLARITY]:
+        • some ambiguous character descriptions
+
+Section section_02 (Chars 8002–16046):
+Section Summary: Tony Croft, a curious and inquisitive boy, was often considered lazy by the villagers because he didn't conform to traditional learning methods. However, he was actually a self-motivated learner who spent most of his time exploring the woods, observing nature, and teaching himself about the world around him. Tony's passion for learning and discovery led him to develop a keen interest in music and instrument-making, and he spent hours taking apart and reassembling instruments to understand how they worked. As he grew older, Tony's skills improved, and he began to earn a little money by repairing instruments for the villagers, although they often undervalued his work. Despite his unconventional approach to learning, Tony was a good son, affectionate and obedient, and his mother, although sometimes perplexed by his behavior, loved and supported him.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [SPELLING]:
+        • occasional typos (e.g., "have" instead of "had")
+    - [SYNTAX]:
+        • complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between ideas
+    - [STRUCTURE]:
+        • lack of clear paragraph organization
+    - [CLARITY]:
+        • some sentences are wordy or unclear
+
+Section section_03 (Chars 16046–24363):
+Section Summary: The village where Anthony Croft lived disapproved of his love for the violin, with some people associating it with dancing and dissipation. Despite this, Anthony's passion for music and instrument-making only grew stronger, and he spent his days studying and learning about violins. At the age of 17, he made a significant discovery - a piece of 80-90 year old wood from a rare maple tree, which he carefully set aside to use for making a perfect violin. Anthony's dedication and natural talent impressed his school-teacher, who recognized that he had a deep understanding of music and craftsmanship. As he delved deeper into his craft, Anthony aspired to create perfect violins, inspired by the likes of Antonius Stradivarius, and to use his gift to make beautiful music that would bring joy to others.
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [LEXICON]:
+        • some words are archaic or less common
+    - [SYNTAX]:
+        • long, complex sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between quotes and narrative
+    - [STRUCTURE]:
+        • non-linear progression of ideas
+    - [CLARITY]:
+        • some sentences are wordy or ambiguous
+
+Section section_04 (Chars 24363–32585):
+Section Summary: Anthony Croft, a blind man, has lived a life of mediocrity despite having a deep sense of idealism and a connection to a higher power. Meanwhile, Old Mrs. Butterfield has passed away, and Aunt Mehitable Tarbox discovers her body and takes charge of the situation, seeing it as an opportunity to plan a grand funeral. Aunt Hitty has always been fascinated by funerals and has been waiting for a chance to conduct one herself, having been limited to secondary roles in the past. She begins making plans for the funeral, including ordering a coffin, hiring two ministers, and arranging for music and pall-bearers. With her sense of importance and dramatic flair, Aunt Hitty is determined to make Mrs. Butterfield's funeral a memorable one.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [SYNTAX]:
+        • complex sentence structures
+    - [LEXICON]:
+        • some archaic vocabulary
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between Anthony's story and Mrs. Butterfield's death
+    - [STRUCTURE]:
+        • non-linear narrative progression
+    - [CLARITY]:
+        • some sentences are wordy and hard to follow
+
+Section section_05 (Chars 32585–40662):
+Section Summary: Aunt Hitty was a meticulous planner of funerals, and she had recently organized a successful funeral for Old Mrs. Butterfield, with the help of Elder Weeks and others. The funeral was a solemn and dignified affair, with Aunt Hitty riding in the next buggy to the hearse and dressed in deep mourning. After the funeral, Lyddy Ann Butterfield, the niece of the deceased, inherited the house and a small income, and she was pleased to have a quiet and solitary home by the river. Lyddy was a recluse who had been disfigured in a childhood accident and had lived a life of solitude, working as a nursery governess and avoiding social interactions. As she settled into her new home, Lyddy had few callers, and the community was still getting used to the fact that she was living in the cottage on the river road.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [LEXICON]:
+        • some words are outdated or less common
+    - [SYNTAX]:
+        • long, winding sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between Lyddy's backstory and her life in Edgewood
+    - [STRUCTURE]:
+        • non-linear narrative
+    - [CLARITY]:
+        • some sentences are wordy or unclear
+
+Section section_06 (Chars 40662–48630):
+Section Summary: The narrator describes Lyddy, a woman who has been living a difficult life, as she revels in furnishing her humble home with colorful items, including red curtains and a straw matting. She finds joy in these simple pleasures and feels a sense of contentment for the first time in her 40 years. Lyddy's life is further enriched by the sound of Anthony Croft's violin, which she listens to every night, hidden from view. The music has a profound effect on her, evoking emotions and visions of joy she had never experienced before. As she listens to the violin, Lyddy becomes a softer and more gentle person, and her appreciation for the music and the musician becomes deeply intertwined.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [LEXICON]:
+        • some words are outdated or less common
+    - [SYNTAX]:
+        • long, complex sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt shift in narrative focus
+    - [STRUCTURE]:
+        • non-linear storytelling
+    - [CLARITY]:
+        • some sentences are wordy or unclear
+
+Section section_07 (Chars 48630–56456):
+Section Summary: Lyddy Butterfield, while searching for her stray hen turkey, encounters her neighbor Anthony Croft, who is struggling to care for his sick child. She discovers that he is blind and, despite initial hesitation, offers to help him with the child and the household chores. As she assists him, Lyddy feels a sense of freedom to express herself, unselfconscious about her disfigured face since Anthony cannot see her. She takes charge of the situation, tending to the child and binding up Anthony's burned hand, and eventually asks him to leave her to care for the child on her own. Anthony, though initially resistant, ultimately agrees to let Lyddy help, and she begins to care for the child and manage the household.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Missing articles in some places
+    - [LEXICON]:
+        • Some words are outdated or less common
+    - [SYNTAX]:
+        • Long, complex sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition from poem quotes to the story
+    - [STRUCTURE]:
+        • Sudden shift in focus from Lyddy's thoughts to the boy's illness
+    - [CLARITY]:
+        • Some sentences are wordy or unclear
+
+Section section_08 (Chars 56456–64196):
+Section Summary: Lyddy, a kind and capable neighbor, takes charge of caring for Anthony Croft's sick nephew, Davy, and tidies up their home. Anthony, who is blind, is grateful for her help and is drawn to her warm and cheerful personality. As they spend the day together, Anthony begins to appreciate Lyddy's unique qualities and feels a sense of comfort and connection with her. Lyddy, in turn, is touched by Anthony's words of gratitude and admiration, and feels seen and valued in a way she hasn't experienced before. As she returns to her own home, Lyddy is filled with a sense of joy and wonder, feeling empowered and appreciated by Anthony's acknowledgement of her strengths.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • incorrect verb conjugation ("I shoulded" instead of "I should")
+        • incorrect verb tense consistency
+    - [SPELLING]:
+        • typos ("gaze" instead of "gazed", "wouldedn't" instead of "wouldn't")
+    - [LEXICON]:
+        • informal language ("you see", "I could try")
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between Anthony's thoughts and the description of the environment
+    - [STRUCTURE]:
+        • lengthy and detailed descriptions of settings and characters' thoughts
+    - [CLARITY]:
+        • unclear motivations and emotions of some characters
+
+Section section_09 (Chars 64196–71903):
+Section Summary: Lydia pours out her heart in a prayer, thanking God for her life and the opportunity to help others, and seeking forgiveness for her past discontent. As she cares for Davy, who is recovering from an illness, she forms a strong bond with him and his father Anthony, and her inner beauty and kindness shine through. Anthony, who is blind, has developed a heightened sense of touch and hearing, and is able to appreciate Lydia's inner qualities despite her physical scars. As they spend more time together, Lydia blossoms into a confident and charming person, and a romantic connection between her and Anthony begins to develop. The community, including Aunt Hitty Tarbox, takes notice of their relationship and speculates about their potential marriage, despite their physical imperfections.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [SPELLING]:
+        • occasional archaic spellings (e.g., "coulded" instead of "could")
+    - [SYNTAX]:
+        • complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between Lyddy's prayer and the description of Davy's sickness
+    - [STRUCTURE]:
+        • non-linear narrative progression
+    - [CLARITY]:
+        • some sentences are wordy or contain unclear references
+
+Section section_10 (Chars 71903–77792):
+Section Summary: Anthony Croft, a blind violin maker, and Lyddy, a woman with a difficult past, have fallen deeply in love. Anthony's blindness allows him to see beyond Lyddy's physical appearance and appreciate her inner beauty, and he proposes to her, acknowledging the potential challenges of their relationship. Lyddy, who has never known love before, is overjoyed and accepts his proposal. The two are now married and sitting in an apple orchard, where Anthony is composing music using a unique system of wires and wooden pegs, and Lyddy is sewing and dreaming of their future together. As Anthony plays his violin, Lyddy and their nephew Davy interpret the music as a reflection of the beauty and promise of their lives, filled with love, hope, and new beginnings.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [LEXICON]:
+        • some words are archaic or less common
+    - [SYNTAX]:
+        • long, complex sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • some transitions between scenes feel abrupt
+    - [STRUCTURE]:
+        • non-linear narrative flow
+    - [CLARITY]:
+        • a few sentences are wordy or unclear
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:
