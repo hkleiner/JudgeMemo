@@ -7,6 +7,33 @@ from Dataset_Creation.TextManipulation.FluencyManipulator import FluencyManipula
 
 def apply_manipulation(elem, dataset, params_c, params_f, affected_metric, category, manipulation_type, range_type,
                        origin, subset, subset_num, exp_number):
+    """
+    Apply a text manipulation to a gold-standard document for dataset augmentation.
+
+    This function modifies the input text using coherence- or fluency-based manipulations.
+    It saves the manipulated text and returns a metadata entry for further processing.
+
+    Parameters:
+        elem (dict): Metadata entry for the original document.
+        dataset: Full list of metadata entries for the dataset.
+        params_c (dict): Parameters for coherence manipulations.
+        params_f (dict): Parameters for fluency manipulations.
+        affected_metric (str): The metric targeted ("coherence" or "fluency").
+        category (str): Sub-category of manipulation (e.g., "anaphora_resolution").
+        manipulation_type (str): Specific manipulation to apply.
+        range_type (str): Manipulation range ("document", "paragraph", etc.).
+        origin (str): Path to the dataset's base directory.
+        subset (str): Name of the dataset subset (e.g., "pg-1900").
+        subset_num (str): Subset scope (e.g., "full").
+        exp_number (int): Identifier for the experiment run.
+
+    Returns:
+        dict or None: A dictionary containing metadata for the manipulated sample,
+                      or None if the manipulation failed (e.g., no text returned).
+
+    Raises:
+        None explicitly, but may propagate file or processing errors.
+    """
     idx = elem['id']
     with open(f"../{elem['gold_text']}", 'r', encoding='utf-8') as in_file:
         sample_gold_text = in_file.read()

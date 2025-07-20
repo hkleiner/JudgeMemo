@@ -3,6 +3,29 @@ import random
 import json
 
 
+"""
+Sub-sample Project Gutenberg dataset files for full and partial text storage.
+
+This script loads metadata for Project Gutenberg texts, filters the texts 
+based on chapter presence or metadata inclusion, and extracts either full or 
+partial (first N tokens) versions of the texts. It saves a random selection 
+of these texts into specified directories.
+
+Configuration:
+    SEED (int): Random seed for reproducibility.
+    SUBSET_NUM (int): Number of tokens to extract for partial text.
+    SELECT_N (int): Number of files to randomly select and save.
+    CHAPTER_ONLY (bool): If True, only files containing 'CHAPTER: ' and
+                         with token length >= 8000 are included.
+
+Paths:
+    pg_path (str): Directory containing Project Gutenberg text files.
+    meta_path (str): JSON metadata file path for Project Gutenberg dataset.
+    gold_full_path (str): Directory to save the full text files.
+    gold_sanity_path (str): Directory to save the partial text files.
+"""
+
+
 SEED = 42
 SUBSET_NUM = 2000
 SELECT_N = 65
