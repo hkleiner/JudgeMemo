@@ -21,7 +21,6 @@ This project is the result of a master's thesis conducted at LMU Munich (Ludwig-
   - `JudgeMemo_Method/prompt_no-context/` - all prompts needed to run our pipeline (without context-awareness)
   - `JudgeMemo_Method/pipeline_JudgeMemo.py/` - script to run our framework
 - `experiments_JM/` — experimental results for our method (`JudgeMemo`) and ablation studies
-- `archive` — obsolete code versions
 - `environment.yml` — Conda environment definition file  
 - `requirements.txt` — Python dependencies for pip  
 - `README.md` — This file, with instructions and overview  
