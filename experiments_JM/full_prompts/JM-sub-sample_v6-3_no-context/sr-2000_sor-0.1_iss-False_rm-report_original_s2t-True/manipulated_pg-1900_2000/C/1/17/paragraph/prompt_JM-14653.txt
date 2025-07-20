@@ -1,0 +1,286 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) Read and understand the text the report was created for.
+    b) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    c) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The text to be evaluated is given below:
+Text: -The Feast of St. Friend-
+
+
+CHAPTER: ONE - THE FACT
+
+
+Something has happened to Christmas, or to our hearts; or to both. In
+order to be convinced of this it is only necessary to compare the
+present with the past. In the old days of not so long ago the festival
+began to excite us in November. For weeks the house rustled with
+charming and thrilling secrets, and with the furtive noises of paper
+parcels being wrapped and unwrapped; the house was a whispering gallery.
+
+The tension of expectancy increased to such a point that there was a
+positive danger of the cord snapping before it ought to snap. On the
+Eve we went to bed with no hope of settled sleep. We knew that we should
+be wakened and kept awake by the waits singing in the cold; and we were
+glad to be kept awake so. On the supreme day we came downstairs hiding
+delicious yawns, and cordially pretending that we had never been more
+fit. The day was different from other days; it had a unique romantic
+quality, tonic, curative of all ills. On that day even the tooth-ache
+vanished, retiring far into the wilderness with the spiteful word, the
+venomous thought, and the unlovely gesture. We sang with gusto
+"Christians awake, salute the happy morn." We did salute the happy morn.
+
+And when all the parcels were definitely unpacked, and the secrets of
+all hearts disclosed, we spent the rest of the happy morn in waiting,
+candidly greedy, for the first of the great meals. And then we ate, and
+we drank, and we ate again; with no thought of nutrition, nor of
+reasonableness, nor of the morrow, nor of dyspepsia. We ate and drank
+without fear and without shame, in the sheer, abandoned ecstasy of
+celebration. And by means of motley paper headgear, fit only for a
+carnival, we disguised ourselves in the most absurd fashions, and yet
+did not make ourselves seriously ridiculous; for ridicule is in the
+vision, not in what is seen. And we danced and sang and larked, until we
+could no more. And finally we chanted a song of ceremony, and separated;
+ending the day as we had commenced it, with salvoes of good wishes. And
+the next morning we were indisposed and enfeebled; and we did not care;
+we suffered gladly; we had our pain's worth, and more. This was the
+past.
+
+Fluctuations in prices had much to do with the miseries of the hungry
+thirties and forties; but over-population, as the economists of the time
+pointed out with perfect justice, was one of the main causes. It was not
+till much later that there was food enough for all; and this was the
+result of the new wheat fields of America and the sheep walks of
+Australia, which brought in food and took away mouths. In Ireland the
+barbarous and illiterate peasantry multiplied till the population exceeded
+eight millions, when the inevitable famine illustrated nature's method of
+dealing with recklessness. The only error with which the economists of
+this time may be charged was that they did not realise that
+over-population is the result of a very low standard of civilisation.
+
+
+Yes, the sun of the Grand Monarque was setting. Louis Quatorze was
+nearing the end of his long lease of splendour. Our little François
+was not a month old when Admiral Rooke whipped Château-Renaud off the
+high seas, destroying the French and Spanish fleets in Vigo Bay, and
+carrying off some millions of pieces of eight from the galleons as
+treasure. The child's first year saw the English troopers ride down
+the French at Blenheim--a day that made "Malbrook" a name of dread to
+every French child, a name to frighten into good behaviour. To the
+little fellow's home came the horror-spoken talk of Ramilies; then of
+Oudenarde; then of Lille--to his six-year-old ears the terrible news
+of Malplaquet.
+
+I do not mean that our hearts are black with despair on Christmas Day.
+
+I do not mean that we do not enjoy ourselves on Christmas Day. There is
+no doubt that, with the inspiriting help of the mysterious race, and by
+the force of tradition, and by our own gift of pretending, we do still
+very much enjoy ourselves on Christmas Day. What I mean to insinuate,
+and to assert, is that beneath this enjoyment is the disconcerting and
+distressing conviction of unreality, of non-significance, of exaggerated
+and even false sentiment. What I mean is that we have to brace and force
+ourselves up to the enjoyment of Christmas. We have to induce
+deliberately the "Christmas feeling." We have to remind ourselves that
+"it will never do" to let the heartiness of Christmas be impaired. The
+peculiarity of our attitude towards Christmas, which at worst is a
+vacation, may be clearly seen by contrasting it with our attitude
+towards another vacation--the summer holiday. We do not have to brace
+and force ourselves up to the enjoyment of the summer holiday. We
+experience no difficulty in inducing the holiday feeling. There is no
+fear of the institution of the summer holiday losing its heartiness. Nor
+do we need the example of children to aid us in savouring the August
+"festivities."
+
+Ludovico Caracci and Guido had given him hints that were of infinite
+value in the moulding of his technique; for colour he had gone to
+Titian, Tintoretto, and Rubens, of whom the last named was beginning to
+lose his appeal in the last years of Reynolds' life. Sir Joshua had a
+supreme facility for taking from every artist the best that was in him,
+melting it in the crucible of his own thought, and applying the product
+to his pictures. There is no doubt that the sixteenth-century Venetians
+impressed Reynolds as much as they impressed Ruskin at a later date, but
+in the middle of the eighteenth century the school of Bologna was in
+the ascendant in England, and it is through Reynolds' actions rather
+than his words that we see how Venice had influenced him. Sir Walter
+Armstrong thinks that Reynolds lived well rather than wisely in Italy,
+and that when he came back to town his wild oats were all sown, but it
+is hard to find any justification for the belief that Reynolds was at
+any time of his life a free liver. The pleasures of the table may have
+claimed him when he reached middle age; indeed, Dr. Johnson said to him
+on one occasion, "You complain about the tea I drink, but I do not count
+the glasses you empty," or words to that effect. As far as other forms
+of dissipation go, there is no evidence that Reynolds was ever a victim
+to them. He was always perfect master of his self-control, and when the
+years had toned down certain faults of thought and manner, he became
+mellowed, like old wine, and not less stimulating.
+
+
+CHAPTER: TWO - THE REASON
+
+
+If the decadence of Christmas were a purely subjective phenomenon,
+confined to the breasts of those of us who have ceased to be children
+then it follows that Christmas has always been decadent, because people
+have always been ceasing to be children. It follows also that the
+festival was originally got up by disillusioned adults, for the benefit
+of the children. Which is totally absurd. Adults have never yet invented
+any institution, festival or diversion specially for the benefit of
+children. The egoism of adults makes such an effort impossible, and the
+ingenuity and pliancy of children make it unnecessary. The pantomime,
+for example, which is now pre-eminently a diversion for children, was
+created by adults for the amusement of adults. Children have merely
+accepted it and appropriated it. Children, being helpless, are of course
+fatalists and imitators. They take what comes, and they do the best they
+can with it. And when they have made something their own that was adult,
+they stick to it like leeches.
+
+They are terrific Tories, are children; they are even reactionary! They
+powerfully object to changes. What they most admire in a pantomime is
+the oldest part of it, the only true pantomime--the harlequinade! Hence
+the very nature of children is a proof that what Christmas is now to
+them, it was in the past to their elders. If they now feel and exhibit
+faith and enthusiasm in the practice of the festival, be sure that, at
+one time, adults felt and exhibited the same faith and enthusiasm--yea,
+and more! For in neither faith nor enthusiasm can a child compete with a
+convinced adult. No child could believe in anything as passionately as
+the modern millionaire believes in money, or as the modern social
+reformer believes in the virtue of Acts of Parliament.
+
+Another and a crowning proof that Christmas has been diminished in our
+hearts lies in the fiery lyrical splendour of the old Christmas hymns.
+
+Those hymns were not written by people who made-believe at Christmas for
+the pleasure of youngsters. They were written by devotees. And this age
+could not have produced them.
+
+No! The decay of the old Christmas spirit among adults is undeniable,
+and its cause is fairly plain. It is due to the labours of a set of
+idealists--men who cared not for money, nor for glory, nor for anything
+except their ideal. Their ideal was to find out the truth concerning
+nature and concerning human history; and they sacrificed all--they
+sacrificed the peace of mind of whole generations--to the pleasure of
+slaking their ardour for truth. For them the most important thing in the
+world was the satisfaction of their curiosity. They would leave naught
+alone; and they scorned consequences. Useless to cry to them: "That is
+holy. Touch it not!" I mean the great philosophers and men of
+science--especially the geologists--of the nineteenth century. I mean
+such utterly pure-minded men as Lyell, Spencer, Darwin and Huxley. They
+inaugurated the mighty age of doubt and scepticism. They made it
+impossible to believe all manner of things which before them none had
+questioned. The movement spread until uneasiness was everywhere in the
+realm of thought, and people walked about therein fearsomely, as in a
+land subject to earthquakes. It was as if people had said: "We don't
+know what will topple next. Let's raze everything to the ground, and
+then we shall feel safer." And there came a moment after which nobody
+could ever look at a picture of the Nativity in the old way. Pictures of
+the Nativity were admired perhaps as much as ever, but for the exquisite
+beauty of their naïveté, the charm of their old-world simplicity, not
+as artistic renderings of fact.
+
+An age of scepticism has its faults, like any other age, though certain
+persons have pretended the contrary. Having been compelled to abandon
+its belief in various statements of alleged fact, it lumps principles
+and ideals with alleged facts, and hastily decides not to believe in
+anything at all. It gives up faith, it despises faith, in spite of the
+warning of its greatest philosophers, including Herbert Spencer, that
+faith of some sort is necessary to a satisfactory existence in a
+universe full of problems which science admits it can never solve. None
+were humbler than the foremost scientists about the narrowness of the
+field of knowledge, as compared with the immeasurability of the field
+of faith. But the warning has been ignored, as warnings nearly always
+are. Faith is at a discount. And the qualities which go with faith are
+at a discount; such as enthusiasm, spontaneity, ebullition, lyricism,
+and self-expression in general. Sentimentality is held in such horror
+that people are afraid even of sentiment. Their secret cry is: "Give us
+something in which we can believe."
+
+Bahá’u’lláh’s writings cover an enormous range of subjects from social
+issues such as racial integration, the equality of the sexes, and
+disarmament, to those questions that affect the innermost life of the
+human soul. The original texts, many of them in His own hand, the others
+dictated and affirmed by their author, have been meticulously preserved.
+
+But the bottom has not been knocked out of Christmas. And people know
+it. Somewhere, in the most central and mysterious fastness of their
+hearts, they know it. If they were not, in spite of themselves,
+convinced of it, why should they be so pathetically anxious to keep
+alive in themselves, and to foster in their children, the Christmas
+spirit? Obviously, a profound instinct is for ever reminding them that,
+without the Christmas spirit, they are lost.
+
+The report for the text is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–8463):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [LEXICON]:
+        • some words are archaic or less common
+    - [SYNTAX]:
+        • long, complex sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between ideas
+    - [STRUCTURE]:
+        • lack of clear connection between paragraphs
+    - [CLARITY]:
+        • some sentences are wordy or unclear
+
+Section section_02 (Chars 8463–12104):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Complex sentence structures
+    - [LEXICON]:
+        • Some archaic vocabulary
+    - [SYNTAX]:
+        • Long paragraphs with multiple ideas
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition to discussing Bahá’u’lláh’s writings
+    - [STRUCTURE]:
+        • Non-sequential ideas in some paragraphs
+    - [CLARITY]:
+        • Overly philosophical language in some sections
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

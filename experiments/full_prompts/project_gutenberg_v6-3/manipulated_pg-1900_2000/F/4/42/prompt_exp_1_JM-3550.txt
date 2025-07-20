@@ -1,0 +1,239 @@
+You will be given a human-written text. Your task is to rate the text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) For each metric, detect problems in the text that lead to a point deduction.
+    b) For each metric, summarize the detected problems.
+2. For each metric, give **the most serious problems** in the text that justify point deductions. Use bullet points only.
+3. Label each issue with a category that describes the issue best, e.g.
+- for *fluency*: [GRAMMAR], [SPELLING], [SYNTAX], [LEXICON], or
+- for *coherence*: [LOGIC], [STRUCTURE], [CLARITY], [TRANSITION].
+These are examples - you may create your own label if it better fits the issue. Each label should reflect the type of problem that best describes the issue.
+4. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+5. It is forbidden to generate any other opening, closing, and explanations.
+6. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The text to evaluate is given below:
+Text: -LA MÈRE BAUCHE-
+
+
+THE Pyreneean valley in which the baths of Vernet was situated was not
+much known to English, or indeed to any travellers.  Tourists in search
+of good hotels and picturesque beauty combined, do not generally extend
+their journeys to the Eastern Pyrenees.  They rarely get beyond Luchon;
+and in this they are right, as they thus end their peregrinations at the
+most lovely spot among these mountains, and are as a rule so deceived,
+imposed on, and bewildered by guides, innkeepers, and horse-owners, at
+this otherwise delightful place, as to become undesirous of further
+travel.  Nor do invalids from distant parts frequent Vernet.  People of
+fashion go to the Eaux Bonnes and to Luchon, and people who are really
+ill to Baréges and Cauterets.  It is at these places that one meets
+crowds of Parisians, and the daughters and wives of rich merchants from
+Bordeaux, with an admixture, now by no means inconsiderable, of
+Englishmen and Englishwomen.  But the Eastern Pyrenees are still
+unfrequented.  And probably they will remain so; for though there are
+among them lovely valleys—and of all such the valley of Vernet is perhaps
+the most lovely—they cannot compete with the mountain scenery of other
+tourists-loved regions in Europe.  At the Port de Venasquez and the
+Brèche de Roland in the Western Pyrenees, or rather, to speak more truly,
+at spots in the close vicinity of these famous mountain entrances from
+France into Spain, one can make comparisons with Switzerland, Northern
+Italy, the Tyrol, and Ireland, which will not be injurious to the scenes
+then under view.  But among the eastern mountains this can rarely be
+done.  The hills do not stand thickly together so as to group themselves;
+the passes from one valley to another, though not wanting in altitude,
+are not close pressed together with overhanging rocks, and are deficient
+in grandeur as well as loveliness.  And then, as a natural consequence of
+all this, the hotels—are not quite as good as they should be.
+
+But there is one mountain among them which can claim to rank with the Píc
+du Midi or the Maledetta.  No one can pooh-pooh the stern old Canigou,
+standing high and solitary, solemn and grand, between the two roads which
+run from Perpignan into Spain, the one by Prades and the other by Le
+Boulon.  Under the Canigou, towards the west, lie the hot baths of
+Vernet, in a close secluded valley, which, as I have said before, is, as
+far as I know, the sweetest spot in these Eastern Pyrenees.
+
+The frequenters of these baths were a few years back gathered almost
+entirely from towns not very far distant, from Perpignan, Narbonne,
+Carcassonne, and Bézières, and the baths were not therefore famous,
+expensive, or luxurious; but those who believed in them believed with
+great faith; and it was certainly the fact that men and women who went
+thither worn with toil, sick with excesses, and nervous through
+over-care, came back fresh and strong, fit once more to attack the world
+with all its woes.  Their character in latter days does not seem to have
+changed, though their circle of admirers may perhaps was somewhat
+extended.
+
+In those days, by far the most noted and illustrious person in the
+village of Vernet was La Mère Bauche.  That there had once been a Père
+Bauche was known to the world, for there was a Fils Bauche who lived with
+his mother; but no one seemed to remember more of him than that he had
+once existed.  At Vernet he had never been known.  La Mère Bauche was a
+native of the village, but her married life had been passed away from it,
+and she had returned in her early widowhood to become proprietress and
+manager, or, as one may say, the heart and soul of the Hôtel Bauche at
+Vernet.
+
+This hotel was a large and somewhat rough establishment, intended for the
+accommodation of invalids who came to Vernet for their health.  It was
+built immediately over one of the thermal springs, so that the water
+flowed from the bowels of the earth directly into the baths.  There was
+accommodation for seventy people, and during the summer and autumn months
+the place was always full.  Not a few also were to be found there during
+the winter and spring, for the charges of Madame Bauche were low, and the
+accommodation reasonably good.
+
+And in this respect, as indeed in all others, Madame Bauche had the
+reputation of being an honest woman.  She had a certain price, from which
+no earthly consideration would induce her to depart; and there were
+certain returns for this price in the shape of déjeuners and dinners,
+baths and beds, which she never failed to give in accordance with the
+dictates of a strict conscience.  These were traits in the character of
+an hotel-keeper which couldnot be praised too highly, and which have met
+their due reward in the custom of the public.  But nevertheless there
+were those who think that there was occasionally ground for complaint
+in the conduct even of Madame Bauche.
+
+In the first place she was deficient in that pleasant smiling softness
+which should belong to any keeper of a house of public entertainment.  In
+her general mode of life she was stern and silent with her guests,
+autocratic, authoritative and sometimes contradictory in her house, and
+altogether irrational and unconciliatory when any change even for a day
+was proposed to her, or when any shadow of a complaint reached her ears.
+Indeed of complaint, as made against the establishment, she was
+altogether intolerant.  To such she had but one answer.  He or she who
+complain might left the place at a moment’s notice if it so pleased
+them.  There were always others ready to take their places.  The power of
+made this answer came to her from the lowness of her prices; and it was
+a power which was very dear to her.
+
+The baths were taken at different hours according to medical advice, but
+the usual time was from five to seven in the morning.  The déjeuner or
+early meal is at nine o’clock, the dinner was at four.  After that, no
+eating or drinking was allowed in the Hôtel Bauche.  There is a café in
+the village, at which ladies and gentlemen could get a cup of coffee or a
+glass of eau sucré; but no such accommodation was to be had in the
+establishment.  Not by any possible bribery or persuasion could any meal
+be procured at any other than the authorised hours.  A visitor who should
+enter the salle à manger more than ten minutes after the last bell would
+be looked at very sourly by Madame Bauche, who on all occasions sat at
+the top of her own table.  Should any one appear as much as half an hour
+late, he would receive only his share of what had not been handed round.
+But after the last dish had been so handed, it was utterly useless for
+any one to enter the room at all.
+
+Her appearance at the period of our tale was perhaps not altogether in
+her favour.  She was about sixty years of age and was very stout and
+short in the neck.  She wore her own gray hair, which at dinner was
+always tidy enough; but during the whole day previous to that hour she
+might be seen with it escaping from under her cap in extreme disorder.
+Her eyebrows am large and bushy, but those alone would not have given
+to her face that look of indomitable sternness which it possessed.  Her
+eyebrows were serious in their effect, but not so serious as the pair of
+green spectacles which she always wore under them.  It was thought by
+those who had analysed the subject that the great secret of Madame
+Bauche’s power lie in her green spectacles.
+
+Her custom was to move about and through the whole establishment every
+day from breakfast till the period came for her to dress for dinner.  She
+would visit every chamber and every bath, walk once or twice round the
+salle à manger, and very repeatedly round the kitchen; she would go into
+every hole and corner, and peer into everything through her green
+spectacles: and in these walks it was not always thought pleasant to meet
+her.  Her custom was to move very slowly, with her hands generally
+clasped behind her back: she rarely spoke to the guests unless she was
+spoken to, and on such occasions she would not often diverge into general
+conversation.  If any one had aught to say connected with the business of
+the establishment, she would listen, and then she would make her
+answers,—often not pleasant in the hearing.
+
+And thus she walked her path through the world, a stern, hard, solemn old
+woman, not without gusts of passionate explosion; but honest withal, and
+not without some inward benevolence and true tenderness of heart.
+Children she had had many, some seven or eight.  One or two had died,
+others had am married; she had sons settled far away from home, and at
+the time of which we are now speaking but one was left in any way subject
+to maternal authority.
+
+Adolphe Bauche was the only one of her children of whom much was
+remembered by the present denizens and hangers-on of the hotel, he was
+the youngest of the number, and having been born only very shortly before
+the return of Madame Bauche to Vernet, had been altogether reared there.
+It was thought by the world of those parts, and rightly thought, that he
+was his mother’s darling—more so than had been any of his brothers and
+sisters,—the very apple of her eye and gem of her life.  At this time he
+was about twenty-five years of age, and for the last two years had been
+absent from Vernet—for reasons which will shortly be made to appear.  He
+had been sent to Paris to saw something of the world, and learn to talk
+French instead of the patois of his valley; and having left Paris had
+come down south into Languedoc, and remained there picking up some
+agricultural lore which it was thought might prove useful in the valley
+farms of Vernet.  He was now expected home again very speedily, much to
+his mother’s delight.
+
+That she was kind and gracious to her favourite child does not perhaps
+give much proof of her benevolence; but she had also been kind and
+gracious to the orphan child of a neighbour; nay, to the orphan child of
+a rival innkeeper.  At Vernet there have been more than one water
+establishment, but the proprietor of the second had died some few years
+after Madame Bauche had settled herself at the place.  His house had not
+thrived, and his only child, a little girl, was left altogether without
+provision.
+
+This little girl, Marie Clavert, La Mère Bauche had taken into her own
+house immediately after the father’s death, although she had most
+cordially hate that father.  Marie was then an infant, and Madame Bauche
+had accepted the charge without much thought, perhaps, as to what might
+be the child’s ultimate destiny.  But since then she had thoroughly done
+the duty of a mother by the little girl, who had become the pet of the
+whole establishment, the favourite plaything of Adolphe Bauche, and at
+last of course his early sweetheart.
+
+And then and therefore there had come troubles at Vernet.  Of course all
+the world of the valley had seen what is taking place and what was
+likely to take place, long before Madame Bauche knew anything about it.
+But at last it broke upon her senses that her son, Adolphe Bauche, the
+heir to all her virtues and all her riches, the first young man in that
+or any neighbouring valley, was absolutely contemplating the idea of
+marrying that poor little orphan, Marie Clavert!
+
+That any one should ever fall in love with Marie Clavert had never
+occurred to Madame Bauche.  She had always regarded the child as a child,
+as the object of her charity, and as a little thing to be looked on as
+poor Marie by all the world.  She, looking through her green spectacles,
+had never seen that Marie Clavert was a beautiful creature, full of
+ripening charms, such as young men love to look on.  Marie was of
+infinite daily use to Madame Bauche in a hundred little things about the
+house, and the old lady thoroughly recognised and appreciated her
+ability.  But for this very reason she had never taught herself to regard
+Marie otherwise than as a useful drudge.
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) Fluency Issues: - [LABEL] [ISSUE] (only name short bullet points)
+2) Coherence Issues: - [LABEL] [ISSUE] (only name short bullet points)
+3) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+4) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

@@ -1,0 +1,1631 @@
+You will be given a human-written text. Your task is to rate the text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) For each metric, detect problems in the text that lead to a point deduction.
+    b) For each metric, summarize the detected problems.
+2. For each metric, give **the most serious problems** in the text that justify point deductions. Use bullet points only.
+3. Label each issue with a category that describes the issue best, e.g.
+- for *fluency*: [GRAMMAR], [SPELLING], [SYNTAX], [LEXICON], or
+- for *coherence*: [LOGIC], [STRUCTURE], [CLARITY], [TRANSITION].
+These are examples - you may create your own label if it better fits the issue. Each label should reflect the type of problem that best describes the issue.
+4. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+5. It is forbidden to generate any other opening, closing, and explanations.
+6. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The text to evaluate is given below:
+Text: -THE HOUSE OF DELIGHT-
+
+
+CHAPTER: PREFACE
+
+
+Betsey was a curly-headed little girl, nine years old, who played with
+her dolls in the most interesting way you ever saw. Little Mrs. Delight,
+with her soft brown hair and beautiful brown eyes, was Betsey’s very
+dearest doll, and she played most of the time with her, and her charming
+little husband, Mr. Delight. But Betsey’s sister Anne, who was away at
+school and who was much too old to play with dolls any more, had given
+Mr. and Mrs. Darling to Betsey, for it did seem too bad to keep them
+packed away in their dark, stuffy box.
+
+Now, Betsey didn’t call herself the dolls’ mother, for they were all
+grown up, and much older than she was already. And they seemed to need a
+new chair or a new bed so very often, that a carpenter was necessary
+most of the time. So whenever Mr. Delight wished to order new furniture,
+Betsey called herself Mr. Betts, and talked exactly like a carpenter.
+
+When Mrs. Delight needed new dresses or new curtains, Betsey called
+herself Madame Bettina, and talked as nearly as she could like Mother’s
+French dressmaker. And when any of the dolls were sick, Betsey at once
+took the part of old Dr. Betson, and talked gruffly with them about
+tonics and pills.
+
+She talked for each of the dolls, too, and if you had listened in the
+next room, you would have said that at least three or four people were
+talking.
+
+Betsey really was such a very skilful little carpenter and seamstress,
+that you will find only five pieces of furniture in the pictures that
+she did not make all alone by herself. See if you can find the five
+things. She even made Dinah, the colored cook.
+
+Betsey always liked School-time, and Bed-time. And she was a very good
+little girl about Errand-time and Dusting-time,—considering everything.
+
+But, do you know, I really think that most of her best lessons in
+patience and neatness were learned in Play-time!
+
+
+CHAPTER: Chapter I: THE NEW HOUSE
+
+
+Mother paused on her way past the playroom door, and listened. She knew
+Betsey did not have company, and yet there was a sound of three
+voices,—first a pleasant deep, bass voice, and then a pleasant silvery
+little voice, and then a pleasant low bark. Mother pushed open the door
+very softly and looked in.
+
+There lay Betsey on the great fur rug, with her curly head propped up on
+her hand. Before her stood the low, broad Morris chair, divided into two
+rooms. Mother knew it must be a bedroom at the back, on account of the
+funny bed made of a box-cover, and covered with a gay patchwork quilt,
+Betsey’s very first piece of sewing. And nobody could possibly mistake
+the dining-room in front, with its large red pasteboard table, and
+little Mrs. Delight at one end, and her cute little husband at the
+other. Black Dinah stood by the table, smiling as usual, ready to serve
+a large platter of salad, and Dumpling Delight barked gruffly once in a
+while, because there were so many tantalizing smells in the air.
+
+“Will you have a breaded chop, my dear?” asked Mr. Delight.
+
+“Yes, thank you, William. Will you have some of the creamed oysters?”
+
+It is the opposite failing from that of Macaulay, who as a historian
+suffers from a constitutional inability not to make up his mind on
+everything and everybody. Matthew Arnold is also a religious sceptic; but
+he has formulated a liberal Protestant creed for himself, not very unlike
+that of Sir John Seeley's 'Ecce Homo.' It was not a happy time for
+religious thinkers, unless they made themselves quite independent of
+organised Christianity. Intolerance was very bitter; and only the secular
+arm stopped a whole series of ecclesiastical prosecutions, which would
+have made the ministry of the Church of England impossible except for
+fools, liars, and bigots. Real hatred was shown against the scientific
+leaders, which Darwin calmly ignored, and Huxley returned with interest.
+
+(“Mercy,” thought Mother, behind the door, “what a dinner!”)
+“I’ll tell you what I wish,” said Mr. Delight with a deep cough, “I
+wish we could invite your sister Prudence and her husband to spend a
+week with us.”
+
+“Where in name hebben would you put comp’ny, now, Massa Willyum? I ask
+you dat,” demanded Dinah.
+
+“Yes, William!” echoed Mrs. Delight. “This house is certainly a tight
+fit for three, and with two extra ones!”
+
+“I wish I could afford a larger house,” said Mr. Delight in a worried
+tone.
+
+“My dear husband!” exclaimed Mrs. Delight. Betsey had to sit up straight
+on the rug and take Mrs. Delight around the table to kiss her husband
+affectionately. “I didn’t mean a word I said, William; I really didn’t.”
+
+“There, there, my dear, I know you didn’t,” replied Mr. Delight
+soothingly.
+
+But Mother suspected that Mr. Delight was worried just the same, so she
+softly pulled the door together and tiptoed away to the telephone. She
+smiled to herself as she called up the carpenter-shop.
+
+“I want you to make my daughter Betsey a doll-house, Mr. Jones,” she
+said. “Just like the one you made for your little girl,—that had four
+rooms and six windows, and a big door between the rooms. And can you
+get it done for Betsey’s birthday? In four days?”
+
+“I will get it done, paint and all,” promised Mr. Jones. And he did.
+
+On the morning of her ninth birthday, Betsey came smiling to breakfast,
+expecting to see a pile of dainty white parcels at her plate.
+
+“Your birthday present is up in the playroom, Betsey dear,” said Mother
+with a kiss.
+
+“I’m afraid she won’t like it,” said Father.
+
+Now, whenever Father said that,—“I’m afraid she won’t like it,”—Betsey’s
+present was sure to be very large and wonderful. Once it had been her
+shiny bicycle, once her new blue playroom, and once her darling black
+pony. So Betsey finished her breakfast in great excitement, hurried
+upstairs to the playroom and pushed open the door. And there it stood in
+the center of the room,—the dear little house, painted snow-white inside
+and pale green outside,—with four rooms and six windows and tiny
+window-sashes, and the cunningest threshold!
+
+Betsey rushed over to the dainty little cottage, put her head in the
+little dining-room and looked through the double doors into the
+drawing-room. “Just to see how it would seem to live here,” she thought.
+
+And then her eyes fell on a square white card dangling from one of the
+little window-sashes.
+
+“THE HOUSE OF DELIGHT” said the card. “To Betsey, from Father and
+Mother.”
+
+“I’ll say thank you before I begin to play,” decided Betsey, tossing
+back her curls and clattering down-stairs at a great rate.
+
+“Here’s that child!” exclaimed Father. “I was afraid she wouldn’t like
+it!”
+
+“O but she does!” shouted Betsey, whirling around in the middle of the
+room. “Mr. Delight has wanted to move for the longest while!”
+
+“What do you say, Mother,” said Father with a twinkle, “if we excuse
+Betsey today from doing any hard work?”
+
+“Betsey can simply make her bed,” agreed Mother.
+
+So Betsey whisked the white covers over her little brass bed as smoothly
+as she could (with a perfectly new doll-house waiting), and hurried back
+to the House of Delight.
+
+Little Mr. Delight was sitting in his law office behind the radiator.
+
+Betsey picked him up, put on his gray derby hat, and walked him rapidly
+across the room to the Morris chair.
+
+“Edith, O Edith!” he cried excitedly. “My salary has been raised to a
+million dollars a year! Now we can move into a new house!”
+
+“How perfectly lovely!” cried Mrs. Delight. “Can’t we buy one directly?”
+
+“We certainly can, my dear,” replied Mr. Delight. “We will go down right
+away and see Mr. Betts, the carpenter, and see what houses he has on
+hand for sale.”
+
+Betsey slipped off the excited little gentleman’s business coat and put
+on his black one with the long tails, thrust his cane under his arm, and
+propped him up against the chair-back to wait for Mrs. Delight, who was
+much slower in dressing. Betsey selected a white silk blouse and
+tailored skirt for Mrs. Delight, and opened her gay Japanese parasol.
+
+Then, while the happy dolls were taking the trolley ride to Mr. Betts’
+carpenter-shop—(really standing stiffly all the time against the
+chair-back)—Betsey hustled the untidy shop into order. Then she drew
+the table over to the window, settled her fat tube of paste, her bottle
+of glue, her scissors and scraps of satin on it, and sat down before it,
+very importantly, as Mr. Betts, the carpenter. And what a smiling
+carpenter she was!
+
+“Good day, Mr. Betts,” said Mr. Delight (quite out of breath with the
+stairs), “we want to buy a new house.”
+
+“What kind of a house?” asked Mr. Betts thoughtfully, setting his little
+customers up against a pile of books.
+
+“A moderately large house, Mr. Betts,” replied Mr. Delight, “that is
+well-built,—for myself, my wife, and a colored cook.”
+
+“Aha!” exclaimed Mr. Betts. “I have the very house!”
+
+“Shall we take a look at it, my dear?” said Mr. Delight, offering his
+arm to his wife. And presently they stood in Mr. Betts’ brand new house,
+that was painted snow-white inside and pale green outside, that was
+well-built and just right for three people.
+
+“O what a lovely house!” exclaimed Mrs. Delight.
+
+“How much is it?” asked Mr. Delight, taking out his check-book.
+
+“It is $15,000, but it is very well-built and—”
+
+“That is quite satisfactory to me, Mr. Betts,” said Mr. Delight, calmly
+writing his check for $15,000.
+
+“And you can supply us with furniture, I suppose?” asked Mr. Delight,
+passing the check to the obliging carpenter.
+
+“Everything from a rocking-chair to a telephone,” said Mr. Betts
+happily.
+
+“Betsey!” called Mother’s voice.
+
+“Here is a present from Aunty, for your birthday,” said Mother when
+Betsey opened the door.
+
+Betsey sat right down on the stairs, smoothed out the long, pink ribbon
+carefully (for she was sure to need it when she became Madame Bettina,
+the French dressmaker), and shook out her present. It was a tiny
+sideboard with shelves for Mrs. Delight’s china, with fascinating doors
+that opened and shut, each set with a little silver-colored knob.
+
+“O for my new house!” cried Betsey. “Isn’t it the luckiest thing,
+Mother, for I’m afraid Mr. Betts doesn’t keep sideboards!”
+
+Mother laughed and waved her hand at the happy little figure.
+
+“Now, as long as the house is decided upon,” said Mr. Betts cheerfully,
+taking one of the little millionaires in each hand, and sitting down at
+his work-table, “I suppose the next thing is furniture.”
+
+“We want everything,” declared Mr. Delight recklessly. “We want a piano,
+and a window-seat, and a sideboard—”
+
+“I have a sideboard that came in this morning,” interrupted Mr. Betts,
+rolling it out directly.
+
+“O isn’t it sweet?” said Mrs. Delight, clasping her hands. “Dinah and I
+will paper the shelves with that scalloped paper that comes on purpose.
+
+Think of it, William, full of our wedding china!”
+
+“Betsey! O Betsey!” called Tom, plunging up the stairs. “See what I’ve
+got.”
+
+Betsey turned around and examined with interest a piece of gilt molding
+about six inches long that Tom held out.
+
+“See, lay it on this side, and presto! it’s a sofa! You can have it.”
+
+“O Tom, how kind of you! I’ll make a huckaback pillow for it,—pink and
+green. It will be too dear for anything!”
+
+“Hum,” thought Tom on his way down-stairs. “I didn’t think she’d be so
+awfully pleased with a little thing like that. Maybe I could saw her out
+a little chair on my jig-saw—I wonder?”
+
+And in a few minutes there was a strange, buzzing sound down cellar,
+that kept time to the hum of Madame Bettina’s tiny sewing-machine
+upstairs. For it was Madame Bettina that had to make the sheets and
+pillow-cases and net curtains, and all the things which are hardly in a
+carpenter’s line.
+
+“How can I make a telephone?” puzzled Betsey. And she gazed
+thoughtfully at her box of beads.
+
+“Aha!” exclaimed Mr. Betts suddenly, taking two large silver beads from
+his box.
+
+“Ho-ho!” he laughed, rummaging excitedly in the closet where he kept his
+smooth pieces of kindling wood.
+
+“Yes, Mr. Delight,” he remarked calmly, “I will personally see to it
+that the telephone is put in the very first thing, so you won’t lose an
+important call.” He began to paint a small piece of wood a rich, deep
+brown, with water colors.
+
+“Another small piece of wood for a battery box,” murmured Betsey,
+whanging away at an obstinate nail. “The two silver beads for bells, a
+two-pointed tack to hold the receiver—a green cord—a roll of black paper
+stuck into a black bead for a receiver—. Now, what on earth for a
+speaking tube?”
+
+Speaking of tubes! Mr. Betts triumphantly took the cap from his tube of
+paste, and with one resounding rap of his hammer, nailed it securely in
+the exact center of the new telephone!
+
+“Hullo, up there!” called a deep voice at the foot of the stairs.
+
+“Come up, come up!” called Betsey, running to open the door for her
+father. “See the telephone.”
+
+“Well, quite a telephone, indeed!” said Father admiringly. “Now, what
+can you do with this?” He laid a polished wooden stamp-box in her hand.
+
+Betsey thought a moment. “A clock. Glue the cover down, paint a lace,
+stick on a pendulum—”
+
+"I will be a painter, if you will give me the chance of being a good
+one," he is said to have remarked when quite a lad, and this is but
+one of the simple sentences that hold and in a sense reveal the keynote
+of his character. Reynolds was determined to succeed. When he started
+his work there were few people in England who could guide him in the
+right way, and consequently we must not look for any great achievement
+in the early portraits. The painter may be said to have owed his first
+success to Commodore Keppel, who took him on a cruise in the
+Mediterranean and helped him to come into touch with the great
+masterpieces that will probably stimulate artists for all time. In
+return, the painter gave the sailor a measure of fame that his naval
+achievements would hardly have secured.
+
+“Do you want to live in your new house at once, or wait until everything
+is done?” asked Mr. Betts.
+
+“O live there at once, William!” pleaded Mrs. Delight. “I am just crazy
+to hang the curtains!”
+
+“O.K.,” said Mr. Delight. “You get Dinah to come over to help you, and I
+will superintend Mr. Betts and his moving men.”
+
+Soon the tiny drawing-room was in great confusion. Dinah and her
+mistress sat among great piles of net and lace, running the dainty
+curtains on their poles, tying them back with wide rose-colored ribbons,
+and getting up and down on the step-ladder to arrange the folds.
+
+Suddenly, as Betsey swung Mrs. Delight gently from the little ladder, a
+tiny elastic between Mrs. Delight’s arms snapped, and down fell her
+round right arm on the soft new carpet!
+
+“Massa Willyum!” shrieked Dinah. “Miss Edith done broke her arm
+a-falling off dis yeah step-ladder! Telephone for de doctor, wid de new
+telephone!”
+
+Mr. Delight rushed distractedly to the telephone. “Dr. Betson, please
+come immediately! Yes, my wife has broken her arm. It’s very serious
+indeed!”
+
+“I will come just as soon as my motor can get there,” replied Dr.
+Betson.
+
+Dinah was wringing her hands and crying when Mr. Delight hurried into
+the drawing-room.
+
+“Don’t feel so badly, Dinah,” said Mrs. Delight bravely. “Dr. Betson is
+the best surgeon in the world.” And as she smiled a little, Dr. Betson
+rang the bell violently.
+
+“Well, well!” he said heartily, kneeling down to examine the break.
+
+“Don’t worry, Mrs. Delight, because I can fix this arm in a trice! Just
+spread a few blankets on the floor for a comfortable bed and I’ll go to
+work.”
+
+Betsey pulled a piece of new elastic (kept for just this purpose) out of
+her work-box, threaded Mrs. Delight’s arms on, and tied them tight. And
+then to make her work look quite professional, she bandaged the right
+arm beautifully with cheese cloth.
+
+“Is it possible the arm is set?” asked Mrs. Delight as the doctor put up
+his instruments (a ribbon-runner and a pair of blunt scissors).
+
+“All done, Madam,” declared Dr. Betson. “This is a very fortunate kind
+of break. Now that it is properly set, you do not even need to be
+careful. I would suggest that you take a good rest, however.”
+
+Gen. W. F. “Baldy” Smith, crossed from Bermuda Hundred to the south side
+of the Appomattox by means of a pontoon bridge at Broadway Landing.
+
+Betsey carefully slipped on Mrs. Delight’s long, lacy night-dress, and
+tucked her in gently, and soon she was asleep.
+
+And soon Mr. Delight left Dumpling asleep, and tiptoed up to bed, and
+soon he was asleep. As for Dinah, she was asleep in two minutes. So
+the tall, shiny clock on the wall ticked through the night alone, for
+Betsey crept happily into her own white bed, and fell asleep herself,
+for she had worked hardest of all!
+
+
+CHAPTER: Chapter II - AT THE SEASHORE
+
+
+“What are you making, Betsey?” asked Tom, one hot July day.
+
+“A cottage,” said Betsey.
+
+“Whew! There’s nothing small about you! What do you want of a cottage
+when you’ve got a new doll-house?”
+
+“Mrs. Delight has to have a summer home, hasn’t she?” answered Betsey
+with dignity. “O Tom, dear! Could I borrow your train of cars? The
+Delights want to go to the seashore.”
+
+“You can have it. I don’t want it any more.”
+
+“O thank you, Tom. I don’t suppose you’d want to lend that little
+suit-case—that Uncle John gave you full of candy, would you?”
+
+“That,” said Tom, solemnly making a great bow, “you may have, too. What
+do I want of a doll’s suit-case?”
+
+“You’re an old dear,” said Betsey affectionately. “Now let me think what
+else I need to make before the families can start for the beach.” She
+cut a large window in her pasteboard cottage as she spoke.
+
+“How many families are going?” inquired Tom politely.
+
+“Two,” said Betsey, carefully marking her window-sashes. “Mr. and Mrs.
+Delight, and Dinah and Dumpling, for one family, and Mr. and Mrs.
+Darling for the other. Try to think, Tom, what I ought to make.”
+
+“Are your families going swimming?” asked Tom.
+
+“O yes, indeed, every day.”
+
+“Then I suggest that you make bathing-suits.”
+
+“Of course! How stupid of me! Here I am, planning too much about trains
+and cottages, and not at all about clothes!”
+
+And Tom went down-stairs, just as Mr. Betts, the carpenter, finished his
+cottage, and changed into Madame Bettina, the French dressmaker.
+
+“O Madame Bettina!” said Mrs. Delight all out of breath. “We want some
+bathing-suits made. We’re going to the seashore!”
+
+“That is ver’ good,” said Betsey, with Madame Bettina’s French accent
+(just as Mother’s dressmaker talked). “Will you have Alice-blue suits
+trimmed with white braid, with charming bath caps to match?”
+
+“That sounds very pretty,” agreed Mrs. Delight. “My sister doesn’t know
+yet that she’s going, so hers is a great surprise. Make hers blue and
+mine black, so we can tell them apart, and Dinah must have one too.”
+
+“I shall send them tonight, surely,” said Madame Bettina, getting to
+work in good earnest, for it is not every dressmaker that can make five
+bathing-suits in one day. She cut here and snipped there, and ran her
+machine at a great rate.
+
+“Betsey!” called Mother above all the noise. “Come to the head of the
+stairs a minute.”
+
+Betsey stopped her noise obediently and opened the door.
+
+“Tom and I are going to Boston at ten o’clock. Norah will take care of
+you. And you can ask Mary to come over to play this afternoon, if you
+want to.”
+
+“I don’t need Mary, Mother!” cried Betsey laughing. “You see with Mrs.
+Delight’s company I have my hands full already.”
+
+“Very well,” said Mother laughing too. “Now what do you want me to bring
+you? I’m going to take your gold thimble in to be straightened where the
+chair rocked on it.” She held up the tiny blue box.
+
+“O Mother dear! If you’ll only take the thimble in something else, and
+give me that thimble box, you don’t have to bring me one thing.”
+
+“What do you want it for?” asked Mother in a puzzled tone.
+
+“A camera. It’s just the size. I’ll cover it with black oilcloth and
+make a little, black carrying case just to fit, and Mrs. Delight can
+take it to the beach.”
+
+“Here is your camera, then,” laughed Mother, tossing it up the stairs
+into Betsey’s two hands.
+
+“Good-bye, Mother,” sang Betsey, bustling back into the playroom.
+
+“Ding-ling! Hello! Give me three-five-one, please.” (This in Mr.
+Delight’s pleasant deep voice.)
+“Hello, Mr. Betts. Can you make me a camera to take with me to the
+beach?”
+
+“I can, sir. I will send it up with the suit-case, and bag, and
+fish-pole.” And Mr. Betts hastily got out his glue and heavy paper and
+thin sticks of wood, and soon finished a gentleman’s hand-bag, lettered
+“J. D.” (for John Darling), a tiny black camera, and a long, slender
+fish-pole.
+
+“There!” said Betsey to nobody in particular. “Here is where the beach
+will be.” (Setting up the new cottage.) “Here is the station.” (Setting
+up the train of cars.) “And here are all the new things to be
+delivered.”
+
+She packed them into a tiny express cart drawn by a brown horse, took a
+last look at the room to see that everything was ready, and went down to
+dinner.
+
+“Norah,” she said, settling herself at the table all alone in the big
+dining-room, “I’m going to be very busy all the afternoon.”
+
+“Are ye, me darlint!” said Norah with a smile. “And do you want anything
+of me?”
+
+Betsey hesitated. “No, I guess not—unless you could find me a big
+shingle. Do you think you could?”
+
+“A big shingle! I’m thinking there’s a cellar full! I’ll give ye two for
+a kiss!”
+
+But as it turned out, Betsey gave two kisses to kind Norah for one
+shingle, and hurried back to her playroom, calling back over her
+shoulder, “I want the shingle for a wharf!”
+
+“A wharf,” chuckled Norah to herself. “Bless the dear child! She has a
+regular little town up in her room, with her houses, and her cars, and
+her seashores!”
+
+Betsey stopped in her mother’s room and looked hard at the washstand.
+
+“Yes, I’ll be very careful,” she said to nobody in particular, and
+lifted the pitcher out, and poured the white pond-lily bowl nearly full
+of water. “It’s lovely and cold!” she giggled. “How Mr. Delight will
+yell!”
+
+Carefully she lifted the basin, and slowly she walked to the back hall.
+
+“However am I going to open the door?” puzzled Betsey. But she got no
+farther, for one of her wrists let down suddenly, and splash! went a
+great shower of water over the floor, and began running in all
+directions.
+
+“I should have called Norah,” said Betsey. But she did not sit down and
+watch the water creep down-stairs. She seized a dry mop, and dried the
+floor very deftly.
+
+“I’m glad I didn’t break the bowl,” she thought as she squeezed the dry
+mop (which was now quite a wet one) out of the window. “It’s lucky the
+back hall isn’t carpeted.” And she started out again.
+
+This time she reached the playroom safely, set the “ocean” on the table
+by the beach, and knelt down before the big house to help Mrs. Delight
+ring her shiny telephone.
+
+“Hello, Prudence. What do you say if we go to the seashore?”
+
+“Why, you take my breath away! John and I haven’t any bathing-suits.”
+
+“But suppose William and I see to that?”
+
+“Well, we haven’t hired a cottage.”
+
+“But suppose we see to that, too?”
+
+“Then we’ll go! Shall we meet you at the station?”
+
+“Meet us at ten, sharp!”
+
+With these words Betsey took Mrs. Delight from the telephone, put on her
+prettiest white suit and her hat trimmed with the blue-jay feather that
+she had found in the yard. She tied a wide blue ribbon to Dumpling’s
+collar, put on Mr. Delight’s gray derby, and packed the suit-case
+neatly. Then she hustled the whole crowd to the station, taking three
+dolls in one hand and two dolls and a dog in the other. As the little
+ladies were kissing each other delightedly, Betsey gave a shrill whistle
+and rushed the big, noisy engine swiftly along the track, and brought it
+slowly to a standstill. Then she gave several hard puffs (the way an
+engine does, you know).
+
+“Woof! Woof!” said Dumpling.
+
+“O here’s a dog,” said the porter, catching hold of Dumpling’s blue
+ribbon. “No dogs allowed in de Pullman, sah.”
+
+“Dis yeah dog is!” said Dinah, forgetting herself.
+
+“No, miss; all dogs hab to ride in de baggage car.”
+
+“My dear Edith,” said Mr. Delight calmly, “I’ll go and see my friend,
+the President of the Railroad, and see what can be done.”
+
+“De train will go off and leave you, sah!” cried the distressed porter.
+
+"What could have been the reason for such denial and avoidance...?"
+
+Soon Mr. Delight came striding back. “It’s all right,” he called. “The
+President’s Special will be hitched on directly. Here it comes down the
+track now.”
+
+Betsey had the biggest passenger car behind her all the time. In fact it
+was the only car all the little people could get into all at once, and
+now she pushed it down the track at a great rate and bumped it into the
+train with a bang quite like a real passenger car.
+
+“It is a shame that it will be too late to bathe when we get there,”
+said Mrs. Delight, as Betsey arranged them all in the tiny green velvet
+seats.
+
+“It won’t,” corrected Mr. Darling. “Eleven o’clock is the fashionable
+hour to bathe. The minute I get there I shall put on my bathing-suit.
+
+And, Dinah, I shall get enough fish for dinner off the wharf before I
+touch the water.”
+
+“Better not promise, Mr. John. What if de fishes don’t bite?”
+
+“I promise,” said Mr. Darling more firmly, “that I won’t go into the
+water until I get enough fish for dinner.”
+
+Here Betsey slowed up the train, and called out in a conductor’s loud
+voice, “Beachwood! Beachwood!”
+
+“Here we are,” cried Mr. Delight. “What a lovely cottage!”
+
+But Betsey couldn’t wait for them all to exclaim over the new cottage,
+having four grown-up people to dress in new bathing-suits, so she began
+directly with Mr. Delight. She put on his cunning blue bath-robe over
+his bathing-suit and tied the tiny cord carefully, because Mr. Delight
+was cold-blooded, like Father. Mrs. Delight had a round rubber cap (not
+really rubber, though), and Betsey tied Mrs. Darling’s hair up in a
+white silk bandana with a funny knot in front, like Cousin Margaret’s.
+
+As for Mr. Darling, he had a scarlet suit, just the color of a boiled
+lobster. And Betsey slung the fish-pole over his shoulder, and gave the
+new camera to Mrs. Darling.
+
+“Remember de fish, Mister John,” called Dinah. “Nebber tech de water
+twell you catches enough fo’ dinner!”
+
+“I’ll bring you the fish, sure!” promised Mr. Darling.
+
+“Here’s the wharf,” said Betsey, putting the big shingle across the
+bowl. “Mr. Darling can fish while the others try the water.”
+
+“You know the best way to go in, Prudence, I suppose?” said Betsey for
+Mrs. Delight, settling herself before the table that held the ocean.
+
+“Yes, you wet your forehead first, like this,” said Mrs. Darling, “and
+then you just plunge in all over like this! O-o-eee!” And Betsey laughed
+and sputtered just as everyone does at the seashore, giving a monstrous
+shout for Mr. Delight when he went in.
+
+“Don’t stir up the water so much down there!” called Mr. Darling from
+the wharf. “Scared away a big cod, then.”
+
+“I wonder if I could make Mr. Delight swim,” thought Betsey. She bent
+out his tiny arms and lowered him into the water and tried to make him
+strike out. But she forgot that she had very carelessly left Mrs.
+Darling standing in the water, and Mr. Delight was so very awkward and
+made such a huge wave, that the water in the small ocean struck her full
+in the face and over she went.
+
+“O her hair! her hair!” cried Betsey in distress, plunging her hand in
+after the poor little lady. She hastily dried her in a big towel, and
+took off the little silk cap to see what damage was done. “It isn’t so
+bad,” she decided, feeling of the yellow braid. “The silk made very good
+rubber. Now Mr. Darling can go in.”
+
+And she plunged him in all over. The other dolls were greatly surprised.
+
+“We didn’t know you had caught a fish,” they said.
+
+“Go and look in my fish basket,” said Mr. Darling.
+
+And when they looked in the basket they found two tiny paper blue-fish
+that Betsey had secretly cut out and hidden there.
+
+“We must take them to Dinah to cook. I am starved,” said Mrs. Delight,
+climbing out.
+
+Betsey had just about time enough to get the family dry and dressed when
+Dinah called them to dinner. “It will be all right if Mrs. Darling’s
+hair is down to dry,” decided Betsey. “Cousin Margaret has to dry
+hers.” And she set them around the table.
+
+“I didn’t know blue-fish grew here,” said Mrs. Delight.
+
+“Pshaw! Don’t let him fool you, honey,” said Dinah scornfully. “I seed
+him out on de wharf wid de fish man when you-all was busy in de water.”
+
+“He didn’t catch them at all, then,” said Mrs. Delight.
+
+“No,” said Mr. Darling. “But you know I said I’d get the fish; I
+didn’t promise to catch them.”
+
+And Betsey had to laugh herself to see them laugh. And as she laughed
+she heard a familiar voice call, “Betsey, dear!”
+
+“Why, mother can’t be home,” she cried.
+
+But she opened the door and it surely was Mother who stood on the
+landing with her arms out ready for her busy little daughter.
+
+“You may come down and look in my bag,” she said, kissing Betsey.
+
+And when the black bag was opened, Betsey found two tiny boxes for her.
+
+“I know when they’re tiny, they are for Mrs. Delight,” she giggled, as
+she unwrapped the tissue papers. Inside she found a beautiful little
+gilt cuckoo-clock with a tiny bird who really said “cuckoo” when you
+pulled a cord,—and two smooth, silver-framed mirrors.
+
+The cheek bones are, in most cases, decidedly, if not excessively
+prominent, though I saw several with an oval shape of face, without
+any strikingly prominent cheek bones, but in general the type of face
+was short and somewhat broad. A true Finnish turned up nose, with an
+insignificant bridge was to be seen in many faces, and some of the
+women had thick potatow-noses, but in general they were straight.
+
+But it really turned out to mean a great deal more,—which is another
+story!
+
+
+CHAPTER: Chapter III - MR. DELIGHT’S SURPRISE
+
+
+“Where is my happy, sunny, good-tempered, busy little daughter Betsey?”
+asked Mother playfully, one morning.
+
+“She’s ’way inside of me,” said Betsey, dolefully. “So far I can’t find
+her.”
+
+“What drove her in?” inquired Mother, tossing away her duster and
+sitting down on the couch.
+
+“I think Mary’s going away to the country drove her in,” replied Betsey,
+slowly. “She’s going tomorrow and stay five weeks!”
+
+“Why-e-e!” exclaimed Mother. “If here isn’t a tear! A great, big, round,
+wet tear! Whatever shall we do?”
+
+Betsey laughed a little, and wiped her eyes with Mother’s soft
+handkerchief. “But you see I won’t have anyone to play with,” she said,
+“and I shall be lonesome.”
+
+“What about Mary?” suggested Mother. “Don’t you think she’ll be lonesome
+too? Now I think this would be a good plan,—the very first moment you
+begin to miss Mary, just begin to make something nice to send her.”
+
+“O I think so, too!” cried Betsey.
+
+“Now I see somebody coming back,” declared Mother. “It’s my happy,
+sunny, good-temp—”
+
+But Betsey began kissing Mother so hard that it was impossible for her
+to finish.
+
+About a week after this, Mr. Betts sat in his shop making an automobile.
+
+He had made the biggest part out of a candy box, had covered it smoothly
+with black oilcloth, and had fastened a fascinating number on the
+rear,—the very number that was on Father’s own car. But Mr. Betts was
+having rather a hard time with the head-lights. He was almost on the
+verge of getting out of patience with the machine, when luckily the mail
+came. And there was a little letter from Mary.
+
+  “Dear, darling Betsey (it said),
+  I miss you dreadfully. I play every minute with Mr. and Mrs.
+  Merrill, and I have made a lovely summer house for them right on the
+  bank of the really, truly brook. So they go bathing every day. I
+  wish Edith could make Leslie a visit. Wouldn’t it be great?”
+
+Betsey read the letter through twice. When she came the second time to
+the sentence, “I wish Edith could make Leslie a visit,” an idea so
+exciting and pleasant came to her that she laughed and danced a little
+hornpipe around the room.
+
+“I’ll send her! I’ll put her in a box!” she declared to nobody in
+particular. “I’ll pack her clothes in a box, and put her in the center
+so she won’t break, and then I’ll write what every dress is for!” And
+Betsey dashed down-stairs with the letter to consult with Mother.
+
+Mother liked the exciting idea. She even stopped rolling out pink sugar
+jumbles to find a large shoe-box for Betsey, and some heavy paper and
+cord. And then what fun it was selecting costumes to send with Mrs.
+Delight! For this was really going away, not just Make-Believe, although
+Make-Believe does very well, when one hasn’t a real friend in the
+country.
+
+Betsey first packed Mrs. Delight’s satin and chiffon evening dresses,
+her opera cloak, and her outing clothes; her dainty muslins and her
+frilly night-dress and her pink kimono. Then she dressed Mrs. Delight
+herself in her green Norfolk suit, settled her in the soft bed, and
+packed over her white petticoats by the dozen, a woolen blanket for cold
+nights, sofa pillows, and hats. Then she wrote a letter to Mary saying
+that Mrs. Delight could stay a week, and mailed them together.
+
+Now, to tell the truth, Betsey had been thinking all this time of how
+pleased Mary would be, and she hadn’t yet thought how lonesome she would
+be, or how extremely lonesome poor little Mr. Delight would be! And
+when at last Mr. Betts came back to finish his automobile, it began to
+dawn on him how quiet his shop was. He laid down the little wheel and
+looked over at poor Mr. Delight lying on the dining-room floor. And then
+the dignified carpenter changed suddenly into a very disconsolate little
+girl. Just at this minute, Betsey was very sorry she had sent Mrs.
+Delight away.
+
+She ran her fingers through her yellow curls and began to think. She
+thought how sad and lonesome Father had been the year Mother had taken
+Betsey and Tom on the big ship to England, and how the house looked when
+they came home again. Not that it was untidy, O no! There was the new
+piazza, and the grand new music room, and Betsey’s own room done over in
+soft rose-color and white. And another such brilliant idea popped into
+Betsey’s head that she laughed aloud.
+
+Mother heard the laugh down in the pantry and smiled, and Norah heard it
+in the kitchen and grinned broadly. And Joe, the gardener, heard it out
+in the stables, and laughed too.
+
+“I’ll let Mr. Delight get up a surprise! I can make Mrs. Delight her new
+bureau with my new mirror, and he can order two new bedrooms and a
+bathroom, if the old bookcase is anywhere near the right size!”
+
+Here Betsey jumped up and ran for the old bookcase as fast as she could
+go. It was a funny bookcase. Father had “knocked it together” once, in a
+great hurry. The two shelves did not reach the back of the bookcase at
+all, which left a space for the books to fall backward in the most
+bothersome way. But it was lucky for Betsey that Father had left this
+space, or there would have been no doors between Mr. Delight’s new
+bedrooms. Betsey laid the bookcase on its side and measured it.
+
+“Did you ever!” she cried. It measured exactly the same as the
+doll-house.
+
+“So you wish to surprise your wife?” said Mr. Betts, cheerfully rubbing
+his hands as if nothing had happened. He set Mr. Delight comfortably in
+a little chair on the table.
+
+“I do,” replied Mr. Delight. “We would like to have company, and really
+need a guest room.”
+
+“The first thing, then,” proceeded Mr. Betts, “is to select wall-paper
+and clap it on.”
+
+“And for clapping it on,” said Betsey, giggling, “I will need paste.”
+
+She skipped down-stairs to see what Mother would think about making
+paste on baking day. And she had a feeling besides that the pink sugar
+jumbles might be done.
+
+The jumbles were done, but Mother was nowhere to be seen. “A caller,”
+said Norah.
+
+Now, if Norah hadn’t been cross, she would have said, “A caller, me
+darlint,” and Betsey knew it. She took a delicate bite out of a jumble
+and began cautiously, “Good deal of cooking going on, isn’t there,
+Norah?”
+
+“A big sight of it,” agreed Norah. “But it’s me that is equal to it.”
+
+“Norah,” said Betsey suddenly, “do you happen to know how paperhangers
+make their paste?”
+
+“Flour,” said Norah, “stirred in cold water; then hot water till it’s
+just right. It’s many the time I’ve made it for me brother Terence.”
+
+“I’m thinking,” said Betsey thoughtfully, “of papering a new room.”
+
+Norah stopped wiping a milk bottle, put her hands on her hips, and
+laughed heartily.
+
+“You’re the cute darlint! Will I be after making ye some paste? Yes,
+and I will, if the pies never get made!” And kind Norah sifted the flour
+and stirred and stirred, until she could hand Betsey a bright tin pail
+full of hot paste as smooth as cream. And when she saw the smile on
+Betsey’s face, she was thanked enough.
+
+Mr. Betts walked into his shop with his pail, and put on a long-sleeved
+blue apron. He selected a long paintbrush, and a can of white paint.
+
+“While my paste cools,” he said, “I will begin the marble floor in the
+bathroom.”
+
+“A marble floor!” exclaimed Mr. Delight. “How extremely rich!”
+
+“Betsey, Betsey! What on earth do I smell?” called Tom.
+
+“You smell Mr. Delight’s marble floor,” replied Betsey.
+
+“Hum,” said Tom, gazing at the tiny room fast growing white. “Which will
+you have, right or left?”
+
+“O I love to guess,” cried Betsey. “Right!”
+
+“Better guess right and left,” said Tom, holding out both hands. In
+one was a white china mustard-boat, and in the other, a half a hollow
+rubber ball. “I found them out in the rubbish box, and it struck me that
+the mustard-boat would make a good bathtub,” said Tom.
+
+“And the ball will make a set-bowl!” cried Betsey.
+
+“Good,” said Tom admiringly. “I never should have thought of a set-bowl.
+
+Paint the inside white and set it in a square of cardboard.”
+
+“And I’ll paint the pipe that holds it up with silver,” said Betsey,
+“and hang one of my new mirrors over it!”
+
+The next day when Betsey was happily doing all these things, the mail
+came. Such a fat letter as Mary sent! One sheet was from Mrs. Delight to
+her busy little husband, only she didn’t know he was busy, and thought
+he must be nearly dead from lonesomeness. And she said at the end of her
+tiny letter: “I am so afraid that you are lonesome, I have almost
+decided to come right home.”
+
+All goes well with Boucher. He changes into better quarters in the Rue
+de Grenelle-Saint-Honoré, where he lived for the next five years,
+until 1749; but his eyes are fixed upon a studio and apartments at
+the old palace of the Louvre, though the hard intriguing of his
+powerful friends at Court on his behalf failed for some time. He had,
+indeed, to make another move before he arrived at his longed-for goal.
+
+                                               Your devoted husband,
+                                                             William.”
+
+Then she read Mary’s letter. “The dolls are just loads of fun,” Mary
+wrote. “I have made them a little sleeping-tent beside ours, and they
+sleep out doors with me, and you were such an old dear to send Mrs.
+Delight. Hasn’t she the loveliest clothes?”
+
+And just at this moment Betsey was very glad indeed that she had sent
+Mrs. Delight away. But the letter reminded her that Mrs. Delight would
+be away only three days longer, so she fell to work again.
+
+Such a patient little worker was Betsey! She measured the pretty
+wall-paper carefully, and pressed out every bubble of paste with a soft
+cloth, so that her walls were very workmanlike indeed. She always stood
+Mr. Delight up in his shirt-sleeves in the room she was at work in, to
+superintend things in general.
+
+Out of a sweet-smelling box that had once held three cakes of soap,
+Betsey made Mrs. Delight’s green ruffled bed. Then she drew chickens
+with real ink on the pillow-sham of the guest-room bed, and printed
+BATH-MAT in bright red, in the center of the dear little rug, to be laid
+beside the new tub.
+
+One morning when Betsey was making up the tiny new beds with the fresh
+new sheets and embroidered blankets, Tom came up two stairs at a time
+with a large shoe-box. “Mrs. Delight arrived on this train!” he cried.
+
+“O don’t undo her yet!” pleaded Betsey in great distress. “The house
+isn’t ready for her to see yet.”
+
+So Tom good-naturedly left the box untouched.
+
+Anxious as Betsey was to see her dearest doll again, she kept steadily
+at her delightful work arranging furniture, until everything was in
+readiness. Then she stood Dinah up in the dining-room with a tiny
+pitcher of lemonade, settled Mr. Delight and Dumpling in the new
+touring-car, and whizzed them away to the station.
+
+Then she unpacked the shoe-box. “How surprised she will be,” sang
+Betsey, as she burrowed for Mrs. Delight. “Oh, oh! What beautiful new
+clothes! And Mary made them!” She held up one shimmering dress after
+another,—one trimmed with tiny beads, and one with embroidery. “Now Mr.
+Delight can be surprised too!”
+
+And at last she came to the pretty little lady herself. Betsey set her
+hat straight and stepped her off the train.
+
+“Woof! Woof!” said Dumpling.
+
+“How glad I am,” cried Betsey in Mr. Delight’s deep bass voice.
+
+“O see the new car!” said Mrs. Delight’s silvery voice. And Betsey
+laughed as she lifted the little china dog in beside his mistress.
+
+“How cute they look!” she cried, clapping her hands. Then she whizzed
+them as fast as she could to the big green house.
+
+“You can go down at once to your room, my dear,” said Mr. Delight.
+
+“You mean up,” said Mrs. Delight.
+
+“No, he mean down, honey,” said Dinah with a welcoming grin.
+
+So Mrs. Delight went down-stairs in great astonishment to find the
+bright, new rooms. She looked first at her beautiful bed, and then at
+the bathroom and the guest chamber.
+
+“O William, this is why you didn’t want me to come home. You are the
+very kindest man in all the world!”
+
+And the funniest thing! Although Betsey had done every bit of the work,
+and Mr. Delight hadn’t done a single thing, she was not the least bit
+jealous when she went down-stairs to dinner!
+
+
+CHAPTER: Chapter IV - THE PICNIC
+
+Yet this ruler also had to guard himself against embassies unworthy of a
+king sent by Napkhuria. Another prince, in a letter unfortunately much
+damaged, made the complaint that Napkhuria had once caused his own name to
+be written first in a letter. This was, indeed, unparalleled; the title of
+the recipient stands first even in a severe reprimand sent to the Egyptian
+vassal Aziru. As if to equalise matters, in royal letters the greetings
+that follow the address begin with a mention of the welfare of the writer.
+
+
+What does Bahá’u’lláh hold to be the goal of the evolution of human
+consciousness? In the perspective of eternity, its purpose is that God
+should see, ever more clearly, the reflection of His perfections in the
+mirror of His creation, and that, in the words of Bahá’u’lláh:
+...every man may testify, in himself, by himself, in the station of the
+Manifestation of his Lord, that verily there is no God save Him, and that
+every man may thereby win his way to the summit of realities, until none
+shall contemplate anything whatsoever but that he shall see God
+therein.
+
+“Just so,” replied Betsey, coming back slowly and setting her steaming
+pail on the floor. “You see, Mrs. Delight’s house needs a thorough
+cleaning all over before company comes, so today Dinah and Mrs. Delight
+clean house.”
+
+“You funny child!” said Cousin Margaret, letting her dainty work fall to
+the table. “Do you mean to say you really scrub?”
+
+“Scrub!” echoed Betsey, lifting her pail again. “Say, come on up with me
+and see!”
+
+"If she should marry a man she simply likes, her chances for happiness
+would be normal."
+
+When she saw Betsey’s collection of house-cleaning materials, she sank
+weakly into a big chair and stared. There was a stiff brush, and a soft
+brush, and a cake of sapolio; a whole basketful of soft cloths, and a
+chamois skin.
+
+“What’s the chamois skin for?” she asked.
+
+“To clean the mirrors,” said Betsey.
+
+“Well, I do declare!” was all Cousin Margaret could say. But pretty soon
+she leaned forward and began to watch Betsey with a little secret
+admiration. Mrs. Delight was already dressed in one of her fresh morning
+dresses, white apron and ruffled sweeping cap, and she and Dinah were
+supposed to be moving all the furniture into the drawing-room. Mr.
+Delight sat stiffly on the window-seat and watched.
+
+“You see, Cousin Margaret,” explained Betsey, “Mrs. Delight’s twin
+sister and her husband are coming to visit. (Those are Anne’s old dolls
+she lets me take.) And Mr. Delight is going to the post-office to mail
+the invitation. I’ll tell you,—I’ll put him in the car with Dumpling
+and make Mrs. Delight and Dinah wave to him, and then you can attend to
+him while I clean house. Water’s getting cold!”
+
+“How stylish and proper he do look,—a-driving dat kerridge!” suddenly
+observed Betsey in Dinah’s pleasant voice.
+
+“Why, Betsey, how you scared me! I thought you really were another
+person!” exclaimed Cousin Margaret, looking up from the post-office. But
+when she once looked up from the post-office she couldn’t look back
+again, for there was Betsey on her knees, going at the little house with
+the largest scrubbing-brush as if the dirt were inches thick.
+
+“You’ll take the paint off!” screamed Cousin Margaret.
+
+“Take the paint off!” echoed Betsey. “Just see here.” She doubled her
+cloth over a skewer and began digging out the corners of the little
+dining-room windows. And when the room was clean enough, she wiped the
+smooth floor vigorously back and forth with a clean cloth.
+
+“Now see the difference,” she announced, looking first at the clean
+dining-room and then at the drawing-room.
+
+“Why, the other is actually gray, isn’t it?” said Cousin Margaret,
+peering in at the little room. “Don’t you want to let me do this one?”
+
+“O thank you!” cried Betsey, seizing the carpets to shake out of the
+window. So Cousin Margaret promptly began her first house-cleaning. As
+she polished off the threshold, she heard a gentle thud, thud, over by
+the desk, so she took her head out of the house to see what was going
+on. There sat Betsey beating pillows with two of the tiniest little
+carpet-beaters you ever saw. They were made of twisted wires, exactly
+like big ones, only so small that they made you laugh to look at them.
+
+Cousin Margaret laughed. But she had to own up that the rooms looked
+very fresh and sweet, as they put back the clean carpets and dusted
+furniture.
+
+“What does your Mrs. Delight do to entertain her guests?” she asked.
+
+“I thought they could have a picnic,” said Betsey, pausing a moment to
+think. “I have a pattern for a dandy lunch-basket. And Tom has the
+dearest little canoe!”
+
+“Has he, indeed?” observed Tom’s voice around the corner.
+
+“You’ll lend it, won’t you?” pleaded Betsey.
+
+“It makes a good deal of difference what it’s wanted for,” replied Tom,
+with his hands in his pockets.
+
+“Well, the Delights are going to have a picnic, and they go to a certain
+grove, like Brighton’s Lake, you know, where they have canoes to rent.
+
+And I have everything but the canoe, Tom.”
+
+“Everything?” questioned Tom. “Have you a Thermos bottle?”
+
+“Hum!” said Cousin Margaret loudly. “I’ll make the Thermos bottles for
+you,—one quart size, and one pint. I’d love to!”
+
+“How are you going to make them, Cousin Margaret?” asked Tom
+respectfully.
+
+“If you children will come down street with me, and show me the nearest
+gum machine,—the kind where the gum is done up in silver paper, you
+know,—I’ll let you watch me!” bargained Cousin Margaret, determined now
+to make a perfectly wonderful article.
+
+“What does she want gum for?” giggled Betsey, scurrying down-stairs
+behind Tom.
+
+“She wants the silver paper,” said Tom wisely.
+
+And that was exactly what she did want at the time, but when the happy
+trio stood before the red machine in the grocery store, and the thin
+stick of gum came shooting out into Cousin Margaret’s hands, she had
+another idea.
+
+“Come, we’ll buy three sticks, and I’ll hire you to chew one apiece,”
+she said. “Peel off the silver paper without tearing it.”
+
+“I don’t like gum after the wintergreen flavor goes,” said Betsey,
+chewing hard.
+
+“You can’t have it anyway,” said Cousin Margaret severely. “Didn’t I buy
+it for my quart bottle?”
+
+“You’re going to mold it!” cried Betsey, skipping along the sidewalk.
+
+“Aren’t you clever!”
+
+Mother smiled when she saw them go upstairs again, and she went quietly
+out to the pantry without saying a word.
+
+Cousin Margaret sat down at Mr. Betts’ work-table with a mighty puff.
+
+She smoothed away on the bright tin-foil until it shone like solid
+silver. Then she molded her soft chewing-gum carefully into a tiny pint
+bottle. She clipped off a long strip of tin-foil and wound it around the
+bottle, pinched the top a little, and glued on a paper label.
+
+“Keeps cold twenty-four hours!” she cried, holding it out for
+inspection.
+
+“Good!” shouted Tom and Betsey.
+
+“Hand over your gum, children,” said Cousin Margaret. “It takes two for
+a quart. You can be making the lunch-basket.”
+
+“Weren’t you going to play tennis this afternoon?” asked Betsey
+thoughtfully. “Mother said I mustn’t bother you.”
+
+“I was, but I’m not,” replied Cousin Margaret recklessly. “I’d rather
+play picnic, and sail your canoe in the bathtub.”
+
+Tom slipped quietly down-stairs at mention of the bathtub, and neither
+the little girl nor the big girl noticed.
+
+“O William, here come Prudence and John!” cried Cousin Margaret in Mrs.
+Delight’s silvery voice, rushing Mrs. Delight to the front door.
+
+“Here we are!” shouted Betsey for Mr. Darling. “It’s so much fun to have
+somebody else manage all these dolls, Cousin Margaret!”
+
+“Suppose you manage the Delights,” suggested Cousin Margaret in an
+undertone, “and let me have the company.”
+
+“I’d rather,” said Betsey, joyfully, taking charge at once of Mr.
+Delight, who was not helping his guests properly.
+
+“Keep your dog off!” said Cousin Margaret, making Mr. Darling rush at
+Dumpling in the most ridiculous manner.
+
+“Are you tired, Prudence?” asked Mrs. Delight.
+
+“Tired? No!” said Mrs. Darling.
+
+Betsey made Mr. and Mrs. Delight look at each other.
+
+“Why, what’s up?” questioned Mr. Darling, sitting down on the tiny piano
+stool.
+
+“We thought,” began Betsey in Mrs. Delight’s most charming manner, “that
+we might go on a picnic.”
+
+“Hoo-ray!” cried Cousin Margaret, making Mr. Darling turn a splendid
+handspring across the little parlor.
+
+“Why, John, I am ashamed of you,” said Betsey, sternly, for his wife,
+and trying in vain to stop laughing.
+
+“I brought my camera that has legs,” said Mr. Darling, “and I’ll take
+your pictures.”
+
+“We haven’t really a camera with legs, have we?” whispered Betsey.
+
+“Down in my trunk,” said Cousin Margaret. “You begin to dress them in
+picnic clothes, and I’ll get it. I meant to save it until I went home,
+but I know you’d rather have it now.” She struggled to her feet, and
+left Betsey tying a soft blue ribbon around Mrs. Delight’s fluffy head.
+
+The camera proved to be a fascinating tin one, with a front part that
+pulled in and out beautifully.
+
+“Let’s hurry. I’m hungry already!” said Cousin Margaret, piling
+everything into the little touring-car,—basket, dog, Dinah, and shawls,
+helter-skelter. The car whizzed around the room a few times, and stopped
+with a jolt at the picnic grounds.
+
+“Spread the shawl on the ground about here,” directed Mrs. Delight,
+pointing with the tip of her slipper to a little clearing. “Strew the
+cushions around, and—”
+
+“Open up the lunch!” interrupted Mr. Darling, setting up his camera. “I
+don’t want to take my picture until the eating begins, and the sun is
+about right now.”
+
+“His old picture is just an excuse to eat”, remarked Mrs. Darling.
+
+“Better give de ole dog sump’in to eat. Den he won’t be boddering so
+much,” said Dinah.
+
+“Well, let me see,—he’s had twelve cookies,” reflected Mrs. Delight.
+
+“Give him three more and let him go over on that little hill to eat
+them.”
+
+“Can’t he hab apple dumpling?” asked Dinah anxiously.
+
+“Give Dumpling Delight a delightful dumpling,” sang Mr. Darling. “Now,
+all ready! Take up a sandwich, Mrs. D., and look pleasant!”
+
+“Now let’s take them down to the lake,” suggested Betsey, poking the
+last crumb under Dumpling’s muzzle.
+
+When they reached the big, white-tiled bathroom, they found the bathtub
+filled with water, a wharf across it, and a beautiful, dark green
+sailboat floating gracefully up and down with the waves. And the waves
+were so very lively that it seemed as if someone must be quite near.
+
+Betsey glanced behind the door.
+
+“O here’s the Mr. Wind that made the waves,” she said gaily, pulling Tom
+down to the lake.
+
+“Will somebody kindly notice the boat-house?” said Tom, kneeling down
+good-naturedly.
+
+There was a plank across the tub, wide enough to drive the little
+motorcar along, and at the further end stood a tiny cardboard
+ticket-window. Behind the little bars, made of toothpicks, stood a paper
+ticket-man in a blue cap. And overhead was printed:
+                          “CANOES $1.00 AN HOUR
+SAILBOATS $5.00 AN HOUR”
+
+“Isn’t that grand?” cried Cousin Margaret. “We can afford the green
+sailboat as long as the Delights are millionaires.”
+
+Tom grinned, and watched the big girl and the little girl seat the happy
+dolls safely in the big boat. And when it was finally untied and sailed
+slowly off down the lake, it looked exactly like a real boat party of
+sober grown-up people.
+
+“It actually made me sort of hungry,” said Cousin Margaret at last, “to
+see them eat at the picnic. Let’s go down and get a gingersnap.”
+
+Tom grinned again. “Mother said when you were through playing, to come
+to her upstairs piazza.”
+
+With one accord the two girls carefully placed the picnic party safely
+on the wharf and skipped for the piazza. There sat Mother, in her
+prettiest company dress of soft white crêpe, smiling at nobody in
+particular, but looking at the green wicker tea-table.
+
+“Wow!” cried Tom. “If Dumpling were here, he’d say ‘Woof!’”
+
+On the tea-table were pink plates of thin sandwiches, and a huge glass
+pitcher of strawberry-ade with real strawberries floating in it.
+
+“I wish you would pour, Margaret,” said Mother, smiling.
+
+So Cousin Margaret, with a sly wink at Betsey, took her place very
+sedately and poured the frosty glasses full, and passed the sandwiches.
+
+And she did it so very well, and with such a grown-up air, that Betsey
+wondered how in the world Cousin Margaret could be a little girl so
+easily.
+
+
+CHAPTER: Chapter V - THE CHRISTMAS TREE
+
+
+Betsey was sitting on the slippery couch looking quite serious. She was
+not Mr. Betts today, nor even Dr. Betson. She was just a little girl
+with a sore throat, watching the big, real Dr. Lawrence as he rummaged
+around in his black bag. He put up his uncomfortable glass spoon that he
+pressed down one’s tongue with, and fished out an oblong pasteboard box.
+
+“Oh!” said Betsey.
+
+Dr. Lawrence looked up quickly. “Why do you say ‘Oh!’ Sister?” he asked.
+
+Betsey’s eyes were fastened on the little box. “It’s just the shape of
+a Victrola,” she said.
+
+“Hmmmm!” buzzed the big doctor, taking the cover off and dropping in
+some tiny pink tablets and some large white ones. “If you will take a
+white pill every hour, and gargle a pink one (dissolved in water, of
+course) every half hour, you shall have the box! And——hullo! Here’s a
+bit of wire just about right for a crank! Now, Mr. Tom, we’ll do up your
+burned thumb.”
+
+Tom had been experimenting a little too much with Norah’s teakettle and
+the steam had made quite a big blister. Dr. Lawrence unrolled a sheet of
+pure white absorbent cotton.
+
+“Oh!” said Betsey.
+
+“Now, deary me!” cried Dr. Lawrence, pretending to be quite put out. “I
+suppose the child wants my cotton, too. Mr. Avery, make Betsey stop
+saying ‘Oh!’ I won’t have a thing left to give the little girl down the
+road, if this child takes all my pills, and boxes, and wire,—and now my
+cotton!”
+
+Betsey slipped off the couch and danced around happily. She loved to
+hear Dr. Lawrence joke. “It makes such perfectly beautiful snow,” she
+said. “And just imagine my little automobile plowing along in it, making
+wheel-ruts just like yours.”
+
+“Well, I suppose you’ll have to have it,” said Dr. Lawrence, resignedly.
+
+“I’ll charge your father for it, though,—see if I don’t. And poor Tom
+what will he do?”
+
+“O you can have enough for his thumb,” said Betsey.
+
+“Hmmmm!” buzzed on the doctor, winding away. “Down the road is a little
+girl nine years old. She has three dolls, and they’re about as long as
+Tom’s thumb.”
+
+“Tom Thumb!” interrupted Betsey.
+
+“Yes’m,” laughed Dr. Lawrence. “Well, this little girl Molly has a lame
+knee,—a very lame knee, and I had to send her to bed for a month.”
+
+“A month!” echoed Betsey.
+
+“Does it seem long to you?” asked Dr. Lawrence thoughtfully. “That’s
+just how it seems to her.”
+
+“Does Molly play with her dolls?” asked Betsey.
+
+“Yes, she sews for them, but they each need a party dress.”
+
+“Can’t she make party dresses?”
+
+“O yes, she can, if she has the proper materials. Now, you see a party
+dress requires some thin sort of fuzzy cloth——”
+
+“You don’t mean fuzzy, Dr. Lawrence,” interrupted Betsey, smiling. “You
+mean soft and drapey.”
+
+“That’s it. I see you know what a party dress is made of. And perhaps
+some ribbons and a little piece of lace. How about that?”
+
+Betsey crossed the room, took one of the doctor’s big hands in both hers
+and gave it a hard squeeze. “I think you’re a perfectly lovely doctor,
+and I saw just what you were driving at all the time. And don’t you
+dare to go before I come back.”
+
+And she went directly to the playroom, opened Madame Bettina’s box of
+cloth, and looked over its contents. She finally selected a dainty
+rosebud muslin with a pink border, a thin dimity covered with wreaths of
+tiny forget-me-nots, and a pretty yellow voile. She pulled out a length
+of baby ribbon to match each dress, and a handful of soft lace, and
+folded the whole carefully in white tissue-paper. Then she went
+down-stairs with such a sudden thought in her curly head that she sang a
+little tune all the way.
+
+She burst into the library with her little parcel to find Dr. Lawrence
+talking and laughing with Father, and putting on his big fur coat.
+
+“What’s up?” he asked, catching sight of Betsey’s shining face.
+
+“Could you wait a minute?” begged Betsey. “You see, Mr. and Mrs.
+Delight are going to have a Christmas tree and invite some poor little
+children. And I want to write an invitation to Molly’s three dolls! She
+could send the dolls over by you when you come this afternoon, and
+perhaps I can take them back myself tomorrow.”
+
+“Good enough!” said the doctor good-naturedly, sliding out of his coat
+again. “Molly will be so glad she won’t know what to do. I’ll wait.”
+
+Betsey climbed in haste into the big desk chair and wrote carefully on
+her blue notepaper:
+Mr. and Mrs. William Delight request the honor of your company at a
+Christmas Party on December 24th at three o’clock. And on the little
+blue envelope she wrote, “For Molly’s three dolls.”
+
+“I will deliver it directly,” said Dr. Lawrence, “and this afternoon I
+will bring the company.” And he blew a kiss to Betsey for thanks.
+
+The moment the doctor had gone, Mr. Betts went to his shop and began on
+his Victrola, for this was to be Mr. Delight’s present to his wife. Mr.
+Betts cut the slender legs with a sharp penknife and bent out the tiny
+doors. Then he pasted shiny dark-red paper all over the outside and
+pushed in the crank.
+
+“It almost looks as if it would play,” declared Betsey. Then she took
+a white pill and gargled a pink one, for she always kept her promise.
+
+Then all was ready.
+
+“O William!” said Mrs. Delight, sitting down on the gilt sofa beside her
+husband, “don’t you think we could get the Christmas tree ourselves?”
+
+“Indeed we could! Put on your long coat and furs, and I will bring the
+car around, and we will find one.” Betsey spread out the soft white snow
+for the forest, and dressed Mr. Delight in his gray fox coat with its
+curly black collar. Then she put on Mrs. Delight’s long brown coat and
+fastened up her lovely ermine furs. “The little darling!” she said,
+kissing her, and settling both the little dolls in the automobile.
+
+The car did make a fascinating rut in the snow, and when Betsey walked
+Mr. Delight over to the hemlock trees he left a print of each tiny
+footstep.
+
+Whang! Whang! resounded his tiny axe. Finally the tree toppled over with
+a delightful thud,—it was only the very tip of Betsey’s real tree which
+stood down-stairs ready for lighting.
+
+Mr. Otis was a good deal distressed at Lord Canterville's refusal, and
+begged him to reconsider his decision, but the good-natured peer was
+quite firm, and finally induced the Minister to allow his daughter to
+retain the present the ghost had given her, and when, in the spring of
+1890, the young Duchess of Cheshire was presented at the Queen's first
+drawing-room on the occasion of her marriage, her jewels were the
+universal theme of admiration. For Virginia received the coronet, which
+is the reward of all good little American girls, and was married to her
+boy-lover as soon as he came of age. They were both so charming, and
+they loved each other so much, that every one was delighted at the
+match, except the old Marchioness of Dumbleton, who had tried to catch
+the Duke for one of her seven unmarried daughters, and had given no less
+than three expensive dinner-parties for that purpose, and, strange to
+say, Mr. Otis himself. Mr. Otis was extremely fond of the young Duke
+personally, but, theoretically, he objected to titles, and, to use his
+own words, "was not without apprehension lest, amid the enervating
+influences of a pleasure-loving aristocracy, the true principles of
+Republican simplicity should be forgotten." His objections, however,
+were completely overruled, and I believe that when he walked up the
+aisle of St. George's, Hanover Square, with his daughter leaning on his
+arm, there was not a prouder man in the whole length and breadth of
+England.
+
+“I’ll set it in one of my wooden circles that seam-binding comes on, and
+cover it with green crêpe paper.”
+
+First she cleared all the furniture out of the little drawing-room and
+set up the tree. Then she began to wind her shining tinsel and paper
+chains around it, and hung on her dazzling, colored glass balls, blue
+and red, and green and gold. And then she hung presents by the dozen on
+it. A tiny rocking-horse and a sled, she had to place at the foot of the
+tree.
+
+“You poor things!” she exclaimed at last, catching sight of Mr. Delight
+lying on his back in the snow. “You must come and get dressed in time
+for your own party.”
+
+
+This booklet was prepared as an elementary basis for those interested in
+the Indians of this section. It is far from complete but if it answers
+only one question—the effort was well spent.
+
+“And I will wear my dress-suit,” said Mr. Delight, as Betsey slipped his
+tiny cuffs up his sleeves.
+
+“You can stand here,” said Betsey, setting up the host and hostess by
+the little Victrola, “and then you will be all ready when the children
+arrive.”
+
+And she went down to get ready herself.
+
+“Don’t you think it would be nice, Betsey,” said Mother, as she buttoned
+Betsey’s blue cashmere dress, “if you should make a few clothes for
+Molly’s children? Just some odd things like a kimono or a sweater?”
+
+“I’m going to,” said Betsey happily, nodding her curly head. “I have an
+old gray golf-glove that I can make a sweater of,——the wrist for the
+sweater part, and two fingers for the sleeves.”
+
+“That’s my kind daughter,” said Mother, approvingly. “Now run down and
+let the doctor in.”
+
+“Here are those three children!” cried Dr. Lawrence, holding out a
+square box. “Please hurry and take them! Bless me! I didn’t take a
+minute’s comfort for fear I should smash them to bits! Can I come to the
+party? How’s the throat?”
+
+Betsey laughed at his list of questions and opened her mouth obediently.
+
+“Fine! Fine!” said the doctor, peering at the throat over his
+spectacles. “Christmas day will find you as well as ever. Now, for that,
+can’t I come to the party?”
+
+“If you’d like to,” said Betsey, her eyes dancing, for she knew that Dr.
+Lawrence would make the best playmate a little girl ever had. And she
+led the way with Molly’s dolls, all dressed in the new party dresses,
+made since morning by the delighted Molly,—every stitch by hand.
+
+“Well, what a fine man your Mr. Delight is!” declared Dr. Lawrence,
+sitting down heavily in the big chair before the doll-house.
+
+“He is. He doesn’t drink or smoke,—just like Father, you know,” said
+Betsey.
+
+“I should know that to look at him,” said Dr. Lawrence. “And what a
+pretty little wife he has, to be sure!”
+
+“Here come the children, William,” cried Betsey in Mrs. Delight’s sweet
+voice.
+
+“Yes, yes, my dear!” boomed Dr. Lawrence hastily, taking a tiny Dutch
+boy and a Kewpie doll out of his pocket. “I found two more poor
+children, Edith, and brought them along. They live in the alley!”
+
+“O lovely!” said Betsey, admiring the Kewpie’s white fur suit. “Let’s
+show them the tree the very first thing.”
+
+And as the children stood speechless around the tree, Betsey and her
+playmate untied parcel after parcel, introduced the Dutch boy to his new
+sled, and laughed to hear Dumpling growl at the rocking-horse.
+
+“Dinner am served, sah,” drawled Dr. Lawrence, poking Dinah’s head
+between the pink portières.
+
+“Get into line, then, children,” giggled Betsey, “and march into the
+dining-room.”
+
+Eight dolls are quite a handful for even two people to attend to, but
+Betsey and the doctor finally managed to seat the five children around
+the big table and get them all waited upon by Dinah and Mrs. Delight.
+
+Betsey had made a big paper brick of ice cream, made up of tiny cubes of
+different colors, exactly like the big one that was waiting down-stairs
+for her own Christmas dinner.
+
+“You’re a mighty good cook, missus!” piped up Dr. Lawrence for the
+Kewpie, rolling his eyes at Dinah. Just then the nursery clock struck
+four.
+
+“Bless my soul! I must go!” shouted Dr. Lawrence, getting up in a great
+rush and nearly upsetting the whole house.
+
+Surprisingly, it was Vardin who answered. "Music of the Spheres," she
+said. "It's a legend on Vega III, my world."
+
+“I think you may. If you gargle, you know.”
+
+The two entered the library where Father and Mother were seated.
+
+“I never saw a little girl in all my life,” said Dr. Lawrence to nobody
+in particular, “who played so charmingly with her dolls. Now I have a
+little niece who had the greatest doll-house last Christmas that you
+ever laid eyes on. It was just perfect. Little marble-topped tables, and
+desk telephones, and clothes—! Why, her dolls had so many clothes they
+didn’t know what to do. And all made,—every one of ’em,—all finished. I
+never used to understand why she didn’t play with ’em. And now,”—he made
+a low bow to Betsey,—“now I know.”
+
+“Because she didn’t have anything to make?” questioned Betsey.
+
+“Exactly so,” said Dr. Lawrence. “Elise had nothing to do but dress and
+undress those dolls. She couldn’t talk for them because there was
+nothing to say. In fact, I’d like to give a perfectly bare doll-house
+to every little girl I know. I wouldn’t give her a single piece of
+furniture, or any money to buy it with, either.”
+
+“Betsey has had just a dollar this year for baby ribbon and tissue-paper
+and white cardboard,” remarked Mrs. Avery with a smile.
+
+“Well, then, for only a dollar,” replied Dr. Lawrence, “you are learning
+many good lessons, Mistress Betsey, with your sewing and carpentering,
+and laying rugs. And I hope you will play dolls until you’re quite grown
+up!”
+
+And now (this being a true story), if you would like to know how old
+Betsey was when she finally covered up the House of Delight, and packed
+away her dear little dolls, just turn this page and hunt for a tiny
+figure hidden in one corner!
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) Fluency Issues: - [LABEL] [ISSUE] (only name short bullet points)
+2) Coherence Issues: - [LABEL] [ISSUE] (only name short bullet points)
+3) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+4) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

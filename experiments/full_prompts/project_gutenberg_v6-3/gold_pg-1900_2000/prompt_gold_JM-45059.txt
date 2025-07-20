@@ -1,0 +1,236 @@
+You will be given a human-written text. Your task is to rate the text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) For each metric, detect problems in the text that lead to a point deduction.
+    b) For each metric, summarize the detected problems.
+2. For each metric, give **the most serious problems** in the text that justify point deductions. Use bullet points only.
+3. Label each issue with a category that describes the issue best, e.g.
+- for *fluency*: [GRAMMAR], [SPELLING], [SYNTAX], [LEXICON], or
+- for *coherence*: [LOGIC], [STRUCTURE], [CLARITY], [TRANSITION].
+These are examples - you may create your own label if it better fits the issue. Each label should reflect the type of problem that best describes the issue.
+4. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+5. It is forbidden to generate any other opening, closing, and explanations.
+6. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The text to evaluate is given below:
+Text: -Notes on Old Peterborough-
+
+
+CHAPTER: PREFACE
+
+
+The Reminiscences of a Citizen whose memory goes back in detail for over
+Seventy Years, as in the case of the Contributor of these Notes, cannot
+fail to be of paramount interest and of antiquarian value.  Especially in
+this case, where the distinguished Narrator has held a very foremost
+place in the Professional life and Voluntary Public Service of the City.
+
+Additionally interesting must they prove in the case of a City which has
+developed from a comparatively small parish into a populous industrial,
+commercial and residential Centre.  The Peterborough Archæological
+Society has in these circumstances undertaken the duty of preserving and
+circulating in compact form the very valuable personal Recollections of
+Mr. Andrew Percival.  In doing so the Society acknowledges its
+indebtedness to that gentleman for his ready permission to entrust them
+to its charge.  The writer of this Preface was present at the old
+Wentworth Rooms, at Peterborough, in the years 1883–4, when the addresses
+which formed the basis of this chronicle were delivered.  He thus felt a
+continuity of interest when the manuscript was recently committed to him
+to prepare, with illustrations, for advance publication in the
+“Peterborough Advertiser,” in September, 1905, and in bringing up to
+date, during the indisposition of the Author, several of the
+chronological and statistical references.  Otherwise the Notes remain
+exactly as set down and corrected by Mr. Percival.  The Society expresses
+its thanks to Mr. A. C. Taylor for the use of the very excellent photo of
+Mr. Percival which forms the frontispiece; to Mr. T. N. Green (Ball &
+Co.) for the Photo of the Old Bridge; and to Mr. Geo. C. Caster for the
+use of “Whittlesey Mere” block, from “Fenland Notes & Queries”; most of
+the others having been specially taken and engraved for this Publication.
+                                                                     F. L.
+
+
+CHAPTER: PART THE FIRST
+
+
+WHEN I came to Peterboro’ in Oct., 1833, I think our population was five
+or six thousand.  In the month of August I came down to make arrangements
+for my being articled to the late Mr. Gates.  I was taken charge of by my
+father, and protected by my sister, and we drove from Northampton, where
+my father was a medical man having an extensive practice, and could only
+spare one day.  During the night a most extraordinary storm sprang up.
+
+We had to go back during that storm.  There was an enormous destruction
+of timber on the road between here and Northampton, and in many other
+parts of the country.  It was a storm such as very seldom rages in these
+latitudes in the summer months.  In one part of the journey was a great
+avenue of trees, a considerable portion of which was destroyed.  It was
+the property of a worthy squire, and I remember hearing it remarked, “How
+much Mr. So-and-So will feel the destruction of his avenue.”  “Oh dear
+no,” said the person spoken to, “don’t you know that that property is
+settled property, and he has no power of cutting timber, and he will be
+highly delighted.  He thinks the avenue is much improved, as it puts a
+very good sum of money into his pocket, which is very welcome to him.”
+
+You see it is an ill wind that blows nobody good.
+
+When I got here, the first thing I saw when I looked round the town was
+that it was confined by toll bars.  There was a toll bar just over the
+bridge, where the little house since converted into shops then was.  At
+the other end of the town, on the Lincoln Road, was another toll bar; on
+the Thorney Road was another, and at the back of Westgate another.  Our
+town had four gates drawn across the four entrances; on the road now
+known as Lincoln Road East, then Crawthorne Lane, there was a side bar to
+prevent anyone getting out of the town without paying contributions.  One
+enquired what these meant, because within a mile or two on each of the
+main roads you would find another toll bar, at which they duly took toll,
+and the only villages that could get into Peterborough without paying
+toll were Yaxley, Farcet, and Stanground, as the turnpike road toll on
+that road, the old London Road, was near Norman Cross.  Otherwise, our
+system was so ingeniously contrived that you could not get into or out of
+Peterborough without paying town toll at the end of the street, which
+were tolls for the pavement.  This was rather a peculiar system.  I do
+not wish to quote Scripture, but you will recollect the enquiry, “Of whom
+do the Kings of the earth take tribute?  Of their own children or of
+strangers, and they said ‘of strangers.’  Then the comment was ‘Then are
+the children free!’”
+
+The system that our forefathers adopted for encouraging communication and
+traffic was this: They put a toll on for their pavements, from the
+payment of which they exempted themselves, and took it from the strangers
+that came into the place.  The only exceptions were when the inhabitants
+of the place travelled on Sundays.  Toll collectors were then authorised
+to take toll from them, and also from those who hired vehicles in the
+place, the result being if you were an inhabitant of the place, and had
+the luck to keep your carriage or gig or wagon, or whatever it was, you
+might use the pavement as much as you pleased, and pay nothing.  But if
+you were a poor person, or could only treat yourself occasionally with
+the luxury of a gig, or were obliged to hire a trap for business, yon
+were immediately taken toll of.
+
+The present Hospital or Infirmary was then a private dwelling-house.  The
+Dispensary which existed then was a small house opposite the Old Burial
+Ground, the one now occupied by Mr. Payling, the dentist.  After some
+years, it was removed from this place to what is now the Police Station
+in Newtown.  Soon after this, the Earl Fitzwilliam purchased the present
+building and presented it to the City, a monument of his appreciation of
+the good that had been done in a small way by the existing buildings, and
+which, I think, in the present arrangements, fully carried out his
+Lordship’s benevolent wishes.
+
+There were two considerable features of Peterborough which have entirely
+disappeared.  Where Queen Street and North Street now stand were two
+large breweries, known as Buckle’s Brewery and Squires’s Brewery.  They
+were quite institutions of the place, and it always strikes me as a very
+strange thing that they should have entirely disappeared, as one of them
+would have been larger than all the breweries now in Peterborough.
+
+Buckles’ Brewery was certainly a very remarkable one, and carried on with
+great energy and spirit.  There was one peculiarity they had—that some
+friends of the partners could assemble on Easter Monday and spend the
+afternoon in playing at marbles.  I have spent pleasant afternoons there
+on Easter Mondays.  There were two large tuns or barrels in which the
+beer was kept, one of which was called Mrs. Clarke, and the other the
+Duke of York, to perpetuate a scandal at the time when they were
+constructed.  A very hospitable time always followed the game at marbles.
+
+Buckles’ Brewery was the cause of another peculiar circumstance.  On one
+occasion there visited the town for the amusement of the people, a
+calculating boy.  He went through, his entertainment with great success,
+and at last one of our worthy inhabitants got up and asked the question
+“How many gallons does Mr. Buckles’ great copper hold?”  The boy said he
+could not tell.  “No; I thought you could not,” was the reply.  Our
+worthy citizen had forgotten to give the dimensions of the copper, and
+went away rejoicing over the fact that he had puzzled the calculating
+boy!
+
+He reminds me very much of a story one has heard in connection with our
+own professional experience.  A witness was called to prove an assault,
+which consisted in a man having been knocked down by a stone thrown at
+him.  The counsel was anxious to ascertain the size of the stone.  The
+witness said “do you want to know how big it was?”  “Yes,” said the
+counsel.  “The size do you mean?”  “Yes.”  “Well, it was biggish.”
+
+“Well, I want you to tell me how big it was”!  “Well, sir, if you want me
+to tell you how big it was, I should think it was as big as a lump o’
+chalk.”  Now, I think the gentleman who put the question about the
+copper, and the witness, must have been very nearly related.
+
+When I arrived in the City, it became very important to me to know how I
+could get away from it.  I lived at Northampton.  Between Peterborough
+and Northampton there are now eleven trains a day.  When I came to
+Peterborough in 1833, and for some years afterwards, the only
+communication between the town of Northampton and the City of
+Peterborough was a one-horse carrier’s cart, which came twice a week, and
+I think the large proportion of its business consisted in carrying
+parcels from the Probate Office at Northampton to the Probate Office at
+Peterborough.  For coaches we were pretty well off.  Two mails ran
+through Peterborough, the Boston Coach, and the Coach to Hull.  We used
+to go shares with the town of Stamford with a London Coach.  One of our
+townsmen ran a coach to Stilton daily, where it joined the coach from
+Stamford.  At one time that coach carried the letter bag, and on one
+occasion it started without the bag.
+
+There was a man known as “Old John Frisby,” who was not quite “all
+there,” and this man went after the coach with the letter bag, and
+overtook it at Stilton.  The poor man was under the impression that he
+had done the State a great service and thought he ought to receive a
+pension, and he daily expected it until his death.
+
+The Mail Coaches were very comfortable for travelling in fine weather,
+and an eight or ten hours’ journey was very pleasant, providing you did
+not ride inside.  A journey to London and Edinburgh occupied two whole
+days and nights.  The expense of such a mode of travelling was very
+great, being five or six times as much as the ordinary first class
+railway fare.  Every fifty or sixty miles the Coachman would touch his
+hat and say, “I leave you here, sir,” which meant that you were to give
+him a fee.  The guard would do the same, and when your luggage was put
+up, the ostler came to you.  If you travelled post or in “a yellow and
+two,” as it was called, you had to pay 1s. 6d. a mile, beside the toll
+bars, and 3d. a mile for the post boy, as well as something more that he
+always expected.  The 3d. a mile for the post boy, as his regular fee, is
+about equal to the highest first class railway fare that is paid on any
+railway in the country.
+
+Just conceive what a change there is in the communication and you do not
+wonder that the introduction of the railway system has made a stationary
+nation into a nation of travellers.  After a time things did improve a
+little.  The Birmingham Railway was made at considerable cost.  When I
+wanted to go to Northampton, for many years I had to get up at six
+o’clock in the morning, hire a gig to go to Thrapston, where I caught the
+Cambridge coach, which ran in connection with the coach at Oxford.  It
+cost about £4 to go home and come back again.  When the Blisworth railway
+was opened, a coach was set up from Lynn to Blisworth six days in the
+week.  This was a great convenience, and was very well supported.  There
+were two coachmen.  One was very grave and serious and the other light
+and frivolous.  Everybody knew them very well indeed.  It was very
+amusing to travel with them.
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) Fluency Issues: - [LABEL] [ISSUE] (only name short bullet points)
+2) Coherence Issues: - [LABEL] [ISSUE] (only name short bullet points)
+3) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+4) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

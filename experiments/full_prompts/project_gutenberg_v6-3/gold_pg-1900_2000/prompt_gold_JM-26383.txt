@@ -1,0 +1,260 @@
+You will be given a human-written text. Your task is to rate the text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) For each metric, detect problems in the text that lead to a point deduction.
+    b) For each metric, summarize the detected problems.
+2. For each metric, give **the most serious problems** in the text that justify point deductions. Use bullet points only.
+3. Label each issue with a category that describes the issue best, e.g.
+- for *fluency*: [GRAMMAR], [SPELLING], [SYNTAX], [LEXICON], or
+- for *coherence*: [LOGIC], [STRUCTURE], [CLARITY], [TRANSITION].
+These are examples - you may create your own label if it better fits the issue. Each label should reflect the type of problem that best describes the issue.
+4. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+5. It is forbidden to generate any other opening, closing, and explanations.
+6. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The text to evaluate is given below:
+Text: -Anna Seward AND CLASSIC LICHFIELD-
+
+
+CHAPTER: PREFACE.
+
+
+Literature and music and science have been found this year amazingly
+prolific in centenary commemorations of their great exemplars, as a
+leading article in the “Times,” for April, 1909, has lately reminded us.
+
+Yet the death in 1809 of Anna Seward, who “for many years held a high
+rank in the annals of British literature,” to quote the words of Sir
+Walter Scott, has generally passed unnoticed.  It is the aim of this book
+to resuscitate interest in the poetess, and in the literary circle over
+which she reigned supreme.
+
+
+CHAPTER: ANNA SEWARD
+
+
+Anna Seward, a daughter of the Rev. Thomas Seward, destined to become, by
+universal assent, the first poetess of her day in England, was born 12th
+December, 1747.  Her mother was Elizabeth, one of the three daughters of
+the Rev. John Hunter (who was in 1704 appointed Head Master of Lichfield
+Grammar School), by his first wife, Miss Norton, a daughter of Edward
+Norton, of Warwick, and sister of the Rev. Thomas Norton, of Warwick.
+
+Anna Seward’s parents were married at Newton Regis Church, Warwickshire,
+in October, 1741.  The poetess was born at Eyam in Derbyshire, where her
+father was then the Rector.  She was baptized Anne, but she generally
+wrote her name Anna.  Her pet name in her own family was “Nancy,” and
+also often “Julia.”
+
+Mr. Seward attained some literary fame, and was co-adjutor to an edition
+of the works of Beaumont and Fletcher.  When Anna Seward was seven years
+old, the family removed to Lichfield, and when she was thirteen they
+moved into the Bishop’s Palace, “our pleasant home” as she called it,
+where she continued to live after her father’s death, and for the
+remainder of her days.
+
+The derivation of the word “Lichfield” has excited a good deal of
+controversy.  In Anna Seward’s time, it was generally thought to mean
+“the field of dead bodies,” cadaverum campus—from a number of Christian
+bodies which lay massacred and unburied there, in the persecution raised
+by Diocletian.  A reference to “Notes and Queries,” in the Sixth and
+Eighth Series, will show an inquirer that later search throws some doubt
+on such derivation.  St. Chad, or Ceadda (669–672) founded the diocese of
+Lichfield, and was its patron saint.
+
+The Cathedral, the Venus of Gothic creation, as now existing, was built
+piecemeal during the 13th and early part of 14th centuries.  The present
+Bishop’s Palace is of stone, and was erected in 1687, by Thomas Wood, who
+was Bishop from 1671 to 1692, on the site of the old palace, built by
+Bishop Walter de Langton (1296–1321).  The Bishops of Lichfield had a
+palace at Eccleshall, and this was the one used by these dignitaries down
+to the time of Bishop George Augustus Selwyn, who, it may be mentioned,
+was born 5th April, 1809.  The latter sold it, and with part of the net
+proceeds added two ugly wings and an ugly chapel to the palace when he
+came to dwell there, in order to make it a centre of religious activity
+in the diocese.  The body of the palace is, however, to this day little
+changed from its state when inhabited by the Sewards.
+
+Anna Seward had several sisters, and one brother, all of whom died in
+infancy, except her second sister, Sarah.  She, almost on the eve of
+marriage in her nineteenth year, to Mr. Porter, brother to Mrs. Lucy
+Porter of Lichfield, and son-in-law to Dr. Samuel Johnson, died in June,
+1764.  She is described as having been “lovely.”
+
+A stanza in “The Visions,” an elegy, the first of the poems in Anna
+Seward’s “Poetical Works,” having reference to the sad event, runs thus:—
+    The bridal vestments waited to array,
+       In emblematic white, their duteous maid;
+    But ne’er for them arrived that festal day;
+       Their sweet, crush’d lily low in earth is laid.
+
+John Hunter was Samuel Johnson’s schoolmaster, and Johnson declared that
+he was very “severe, and wrong-headedly severe.”  He once said, “My
+master whipt me very well.  Without that, sir, I should have done
+nothing.”  Mrs. Hunter died in July, 1780, aged 66.  She had been very
+beautiful, from all accounts, insomuch that Dr. Green, afterwards Bishop
+of Lincoln, and Dr. Newton, afterwards Bishop of Lichfield (“the learned
+and lucky pair”) were once, Anna Seward tells us, rivals in their
+attachment to her.
+
+Miss Honora Sneyd was the youngest daughter of Edward Sneyd, who was the
+youngest son of Ralph Sneyd of Bishton, in Staffordshire.  She was
+adopted by Mr. and Mrs. Seward and brought up by them as one of their own
+children.
+
+Edward Sneyd was a Major of the Royal Horse Guards (blue), and became a
+widower early in life.  The death of his wife was a great affliction, but
+his relations and friends, who were numerous, proved eager to take charge
+of his daughters.  Nothing could have exceeded the kindness and care with
+which Mrs. Seward executed the trust that she had undertaken.  Indeed,
+none could have singled out Honora from Mrs. Seward’s own daughters by
+the light of anything in Mrs. Seward’s treatment or conduct.  Honora was
+very beautiful and accomplished, and had attracted many admirers, as well
+as lovers.  Anna Seward relates a whimsical story of an “oddity,” an
+“awkward pedantic youth, once resident for a little time at Lichfield,
+who, when asked how he liked Honora, replied, ‘I could not have conceived
+that she had half the face she has,’ adding that Honora was finely
+rallied about this imputed plenitude of face.  The oval elegance of its
+delicate and beauteous contour made the exclamation trebly absurd.”  But
+her first real lover was the “ill-fated” Major André.  He first met
+Honora at Buxton, or Matlock, and, falling deeply in love with her,
+became a frequent visitor at the Palace.  He writes, “How am I honoured
+in Mr. and Mrs. Seward’s attachment to me!”  An engagement followed, but
+the marriage was prohibited.  The reason, it would seem, was that André
+had not sufficient means to support a wife.  André wrote to Honora, “But
+oh! my dear Honora! it is for thy sake only I wish for wealth,” which
+wealth, indeed, he called “vile trash” in another of his letters.
+
+The story of the young soldier is truly a sad one.  In 1780, while
+serving in America, André was entrusted with secret negotiations for the
+betrayal of West Point to the British forces, but was captured by the
+Americans.  In spite of his petition that General Washington would “adapt
+the mode of death to his feelings as a man of honour,” he was hanged as a
+spy at Tappan.  General Washington was unable to listen to strong appeals
+for clemency, for, though commander of the American armies, his voice
+counted but one on the court martial.  André was of French descent, and
+has been described as high-spirited, accomplished, affectionate and
+merry-hearted.  Anna Seward tells us that he appeared to her to be
+“dazzled” by Honora, who estimated highly his talents; but the poetess
+adds that he did not possess “the reasoning mind” Honora required.  In
+1821 his body was, on the petition of the Duke of York, brought to
+England.  “The courtesy and good feeling,” remarks Dean Stanley of the
+Americans, were remarkable.  The bier was decorated with garlands and
+flowers, as it was transported to the ship.  On arrival in England the
+remains were first deposited in the Islip Chapel, and subsequently buried
+in the nave of Westminster Abbey, where the funeral service was
+celebrated, and where a monument was erected to his memory.
+
+Washington, Anna Seward records, did her the honour to charge his
+aide-de-camp to assure her that no circumstances of his life had given
+him so much pain as the necessary sacrifice of André’s life.
+
+Thomas Day, the author of “Sandford and Merton,” who spent a good deal of
+his life in hunting for a wife, made love to Honora.  She, however,
+refused to marry him; and small wonder, for the conditions he wished to
+impose on her were ridiculously stringent and restrictive, and she, not
+unnaturally, refused to entertain the prospect of the unqualified control
+of a husband over all her actions, implied by his requirements.  Later on
+Day wished to marry Honora’s sister, but she also refused his offer.  It
+may be added that he eventually succeeded in marrying a Yorkshire lady,
+who became devoted to him, and was inconsolable on his death, in 1789,
+from a kick by a horse.
+
+The Earl of Warwick, when Lord George Greville, met Honora at some
+race-meeting, and was, we read, much fascinated with her.  A Colonel
+Barry also was her lover, and once stated, “she was the only woman he had
+ever seriously loved.”
+
+Honora supplied the place of Sarah Seward, after the latter’s death, in
+Anna Seward’s affections, and numbers of her poems and letters testify
+how ardently the poetess admired and loved her.
+
+In 1765 Richard Lovell Edgeworth, the well-known author, visited
+Lichfield.  He had been a wild and gay young man, and had eloped with his
+first wife, who died in March, 1773.  His personal address was
+“gracefully spirited, and his conversation eloquent.”  He danced and
+fenced well, was an ingenious mechanic, and invented a plan for
+telegraphing, consequent on a desire to know the result of a race at
+Newmarket.  Becoming very intimate with the Sewards, and the addresses he
+had made to and for Honora, “after some time being permitted and
+approved,” Edgeworth married her on 17th July, 1773, as his second wife,
+in the beautiful ladies’ choir in Lichfield Cathedral.  Mr. Seward, who
+had become a Canon Residentiary of Lichfield Cathedral, performed the
+ceremony, and shed “tears of joy while he pronounced the nuptial
+benediction,” and Anna Seward is recorded to have been really glad to see
+Honora united to a man whom she had often thought peculiarly suited to
+her friend in taste and disposition.
+
+Honora died of consumption in 1780, and, in accordance with her dying
+wish, Edgeworth married her sister Elizabeth on Christmas Day in the same
+year.  Honora, who was buried at King’s Weston, had issue two children.
+
+In Anna Seward’s elegy, entitled “Lichfield,” written in 1781, we read:—
+    “When first this month, stealing from half-blown bowers,
+    Bathed the young cowslip in her sunny showers,
+    Pensive I travell’d, and approach’d the plains,
+    That met the bounds of Severn’s wide domains.
+
+    As up the hill I rose, from whose green brow
+    The village church o’erlooks the vale below,
+    O! when its rustic form first met my eyes,
+    What wild emotions swell’d the rising sighs!
+
+    Stretch’d the pain’d heart-strings with the utmost force
+    Grief knows to feel, that knows not dire remorse;
+    For there—yes there,—its narrow porch contains
+    My dear Honora’s cold and pale remains,
+    Whose lavish’d health, in youth, and beauty’s bloom,
+    Sunk to the silence of an early tomb.”
+
+Edgeworth is to be remembered as having been a good Irish landlord; he
+had a property at Edgeworthstown.
+
+In 1802 Anna Seward wrote, “The stars glimmered in the lake of Weston as
+we travelled by its side, but their light did not enable me to
+distinguish the Church, beneath the floor of whose porch rests the
+mouldered form of my heart—dear Honora,—yet of our approach to that
+unrecording, but thrice consecrated spot, my heart felt all the mournful
+consciousness.”
+
+It is not easy to agree with Mr. E. V. Lucas, the author of a very
+entertaining book, entitled “A Swan and her Friends” (Methuen & Co.),
+when he says, “of Honora’s married life little is known, but she may
+have been very happy,” for she left a letter, written a few days before
+her death, which cannot easily be construed as applying merely to her
+death-bed state.  Here is a paragraph from it:—
+    “I have every blessing, and I am happy.  The conversation of my
+    beloved husband, when my breath will let me have it, is my greatest
+    delight, he procures me every comfort, and as he always said he
+    thought he should, contrives for me everything that can ease and
+    quiet my weakness.”
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) Fluency Issues: - [LABEL] [ISSUE] (only name short bullet points)
+2) Coherence Issues: - [LABEL] [ISSUE] (only name short bullet points)
+3) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+4) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

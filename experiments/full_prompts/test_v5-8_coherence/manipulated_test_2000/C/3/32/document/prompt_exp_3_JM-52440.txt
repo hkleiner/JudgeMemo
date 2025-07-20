@@ -1,0 +1,205 @@
+You will be given a human-written text. Your task is to rate the text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+Task Type Description:
+1. Summarize problems in the text that lead to a point deduction. Use bullet points only. Label each issue with a category that describes the issue best, e.g. for fluency: [GRAMMAR], [SPELLING], [SYNTAX], [LEXICON], or for coherence: [LOGIC], [STRUCTURE], [CLARITY], [TRANSITION]. You are free to use other labels as well.
+2. After listing the issues, give a score between 1 and 5 for coherence. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scale.
+3. The output format should look as follows:
+1) Coherence Issues: - [LABEL] [ISSUE] (name short bullet points)
+2) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points allowed)
+4. It is forbidden to generate any other opening, closing, and explanations. It is forbidden to use any Markdown formatting!
+
+Evaluation Criterion and Metric Accuracy Scale:
+-COHERENCE-
+Definition: It measures the quality of all sentences collectively, do they make sense as a whole, with the context organized and connected logically.
+Scale:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The text to evaluate is given below:
+Text: -The Doctrine of the Lord's Supper. As Taught by the Church of England-
+
+
+CHAPTER: INTRODUCTION.
+
+
+IT is a very easy thing to make a confident assertion, and such
+assertions produce a greater effect on many minds than the most careful
+and best-established proof.  Thus it is not at all an uncommon thing to
+hear it asserted with the utmost confidence that what is termed ‘The
+Doctrine of the Real Presence,’ is taught by the Church of England; and
+the result is that a considerable number of persons believe in the
+assertion, and place reliance on those who make it, as if they, and they
+only, were the true expositors of the Church’s doctrine.  In many cases a
+blind consent is blindly given.  The Scriptures are not investigated
+because the point is supposed to have been settled by the thing, and the
+documents of the stuff are not studied because the doctrine is regarded
+as beyond the reach of doubt; whereas, if the real groundwork of that
+opinion were examined, it would be found to consist in nothing more than
+confident assertion.  But those who are loyal to a stuff
+ought not to be satisfied with any such representation of its teaching.
+
+The issues at stake are far too serious, and, now that after three
+hundred years of faithful service the Church of England is entering on
+such a sifting time as she has never yet experienced, it is only fair to
+her that her own language should be patiently heard, and her own teaching
+honestly examined.  This, then, is the object of this address.  I am not
+about to discuss the teaching of Scripture, but of the Church of England;
+and my desire is to ascertain by the careful and candid examination of
+her own documents whether there is, or is not, any authority for the
+assertion that she teaches what is commonly called ‘The Doctrine of the
+Real Presence.’  In doing this, our first business is to ascertain what
+is the real point at issue, and this is not so easy a task as it may
+appear, as amongst those who maintain that doctrine there are no
+authoritative documents on the subject to which we can refer.  But, I
+believe, I am perfectly safe in arranging the three principal points at
+issue under the three heads of a thing, and
+the thing; and these three I propose to investigate in that order.
+
+
+CHAPTER: CHAPTER I. - THE REAL PRESENCE.
+
+
+THIS lies at the foundation of the whole controversy, and to this our
+first and chief attention must be directed.  Now, there can be no doubt
+on the minds of those who take the Word of God as their true and only
+guide that it is the sacred privilege of the Children of God to feed by
+faith on the most precious body and blood of our blessed Saviour.  I am
+not now discussing in what way we feed on Him, or whether His words in
+the 6th chapter of St. John refer, or do not refer, to the Sacrament of
+the Lord’s Supper.  It is my own belief that they do not; but that is not
+the present question.  My present concern is with the fact that, however
+we explain His words, we are taught by our Lord Himself that such a
+feeding is essential to our life: ‘Except ye eat the flesh of the Son of
+Man, and drink His blood, ye have no life in you.’  Nor can there be any
+doubt that in 1 Cor. x. 16, 17, the partaking (κοινωνία) of the body
+and blood of Christ is connected with the stuff.  I am not now
+making any assertion as to the way in which it is connected, for that is
+the great point to be determined.  All that I now say is that there
+clearly is a connexion, for the words are: ‘The cup of blessing which we
+bless, is it not the communion of the blood of Christ?  The bread which
+we break, is it not the communion of the body of Christ?  For we being
+many, are one bread and one body; for we are all partakers of that one
+bread.’
+Two things, therefore, seem plain from Scripture: that there is a feeding
+on the body and blood of our most blessed Saviour, without which none can
+live, and that the Sacrament of the Lord’s Supper is in some way or other
+connected with that sacred privilege.  Thus far, I presume, we are all
+agreed.  But as to the nature of the connexion, there is the widest
+possible divergence.  Rome teaches that by the act of consecration the
+bread and wine become Christ Himself; that the bread and wine cease to be
+bread and wine, and that both the bread and wine become each of them a
+whole Christ, body, soul, and divinity.  The advocates for the doctrine
+of the Real Presence in the Church of England differ, as far as I can
+understand them, from Rome in one respect, and one only; namely, that
+they maintain that the bread and wine do not cease to have the accidents
+of bread and wine, so that they may still be spoken of as bread and wine,
+although they have become the body and blood of Christ, or rather Christ
+Himself.  This slight difference is of no practical importance in the
+discussion, and appears to have been introduced only to avoid the
+conclusion drawn from those texts which speak of the bread as bread, and
+the wine as wine, after consecration.  The practical conclusion is the
+same, viz. that our Lord Jesus Christ Himself is in the bread and in the
+wine.  This is what is meant by the expression, ‘The real objective
+presence.’  It means that He is present in the elements as a real
+independent object, without any reference to the character of the
+recipient, as a book is an independent object in the hand of the man who
+holds it, without any reference to his state of mind or character.  In
+opposition to this, it is maintained by us who cling to the great
+principles of the Reformation, that there is no change whatever in the
+bread and wine, that they are solemnly set apart for sacramental use by
+means of consecration, but that they remain exactly the same as before
+consecration, in substance, and accidents, and everything else.  That the
+most precious body and blood of Christ is altogether spiritual food, and
+that the soul feeds on it by faith, and faith alone.  That there are two
+perfectly distinct kinds of food, the one material, and the other
+spiritual; the one for the body, the other for the soul; and two
+perfectly distinct actions; the one of the body eating the bread, the
+other of the soul feeding on Christ Himself by faith.  That the material
+food is an emblem of the spiritual; and that the act of eating by the
+body is an emblem of the act of feeding by the soul; and the manner of
+the two are so far connected by sacramental appointment, that when we
+receive the emblem we are warranted to expect the enjoyment of the
+reality.  When the body feeds materially on the one, the believer’s heart
+feeds spiritually on the other; but the two acts are distinct, and the
+one must not be confounded with the other.  From this statement it will
+appear that the point at issue is, whether the precious body and blood of
+our blessed Lord and Saviour are in the bread and in the wine, so as to
+be eaten and drunk whenever, and by whomsoever, the elements are
+received, or whether the spiritual food described in this expression is
+received by the soul alone without being localised in the consecrated
+elements.  And my object is to endeavour to ascertain which of these two
+systems is taught by the Church of England.  That dear old Church is at
+this present time in a position to call forth the deepest anxiety and the
+most earnest prayers of all those who love the truth.  Some are
+endeavouring to destroy it, some to corrupt it, and some to uphold it in
+its integrity.  In such a state of things it is not fair that the stuff
+should be held responsible for the assertions even of its friends.  Its
+own voice ought to be heard, and its own clear statement carefully
+studied.  I have no intention, therefore, of endeavouring to confuse the
+subject by a mass of quotations from collateral writers, but will turn at
+once to those authoritative documents for which the stuff has made
+herself responsible.  These are the Articles, Catechism, Liturgy, and
+Homilies; and these, if it please God, we will examine in order.
+
+The Articles.—There are seven Articles—xxv. to xxxi.—bearing more or
+less upon the subject; and from these we may gather the real teaching of
+our Church.  The first of them, the twenty-fifth, refers to sacraments in
+general.  ‘Sacraments ordained of Christ be not only badges or tokens of
+Christian men’s professions, but rather they be certain sure witnesses
+and effectual signs of grace, and God’s good will towards us, by the
+which He doth work invisibly in us, and doth not only quicken, but also
+strengthen and confirm our faith in Him.’  In other words, before men
+they are badges of our profession, and before God they are signs or
+witnesses by which God works invisibly in the soul.  In this definition
+there is no idea of any change in the substance of the sign.  The sign is
+not described as being changed into the thing signified, but as being
+accompanied by it, so that when the believer with the hand and lip
+visibly receives the sign, it pleases God in His own great grace
+invisibly to feed the soul and confirm the faith.  The visible sign and
+the invisible gift are therefore kept quite distinct.  The one is
+mercifully granted in connexion with the other, but never said to be
+incorporated with it, for the sign would cease to be a sign if it were
+changed into the thing signified.  With this definition of a Sacrament,
+the 27th Article—which describes that of baptism—exactly agrees.  It
+describes it not merely as a badge of a Christian man’s profession, but
+also declares that it is a sign and means of grace.  ‘A sign of
+regeneration or new birth;’ a ‘means whereby as by an instrument, they
+that receive baptism rightly (1) are grafted into the Church; (2) the
+promises of forgiveness of sin, and of our adoption to be the sons of God
+by the Holy Ghost, are visibly signed and sealed; (3) faith is confirmed,
+and grace increased by virtue of prayer unto God.’  But no change is here
+described as taking place in the water.  It is nowhere said to be changed
+into regeneration.  The gifts described are God’s direct gifts to the
+soul, and are never said to be infused into the element of water.  The
+water is sanctified, or set apart for sacramental use, but the
+consecration produces no change in its quality or substance.  The new
+birth is not in the water, but is the act of the Holy Spirit moving in
+the soul.  The minister on earth visibly administers the visible sign to
+the body, and we trust that God in heaven invisibly bestows the invisible
+gift on the soul.  It is not my business now to discuss the connexion
+between the visible sign and the invisible gift.  It is enough for my
+present purpose to point out that the one is not changed into the other,
+but that the water remains water, or, in other words, that the sign does
+not cease to be a sign, as it would do if it were changed into the thing
+signified.
+
+Now it would be strange indeed if after having first given so perfectly
+clear a general definition of the general nature of a sacrament, and
+having so clearly defined baptism, in perfect harmony with that general
+definition, our Church were afterwards to teach a doctrine respecting the
+Lord’s Supper, altogether at variance with the general definition, and
+with her own explanation of the other sacrament.  A thing
+includes both sacraments in one definition, and in that definition she
+never alludes to any change in the sign or elements.  In the sacrament of
+baptism, no one, I believe, would for a moment assert the existence of
+such a change, even if there were no special Article on the subject.
+
+Evaluation Form:
+1) Coherence Issues: - [LABEL] [ISSUE] (name short bullet points)
+2) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points allowed)
+
+Your assessment of the text:

@@ -1,0 +1,491 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    b) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The report is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–3958):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Complex sentence structures
+    - [LEXICON]:
+        • Unfamiliar vocabulary (e.g., "lucubrations")
+    - [SYNTAX]:
+        • Long, winding sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between ideas (e.g., shifting from discussion of Vereker's novel to Corvick's trip to Paris)
+    - [STRUCTURE]:
+        • Non-linear narrative
+    - [CLARITY]:
+        • Unclear character motivations (e.g., Corvick's true intentions regarding Gwendolen Erme)
+
+Section section_02 (Chars 3958–7852):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Inconsistent verb tenses
+    - [SYNTAX]:
+        • Awkward sentence structure
+    - [LEXICON]:
+        • Unclear word choices
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transitions between ideas
+    - [STRUCTURE]:
+        • Disjointed narrative flow
+    - [CLARITY]:
+        • Unclear character motivations
+
+Section section_03 (Chars 7852–11796):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Complex sentence structures
+    - [LEXICON]:
+        • Some archaic vocabulary
+    - [SYNTAX]:
+        • Long, winding sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt shift in narrator's perception of Vereker
+    - [TRANSITION]:
+        • Sudden change in scene from upstairs to dinner table
+    - [CLARITY]:
+        • Some ambiguity in character motivations
+
+Section section_04 (Chars 11796–15627):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • incomplete sentences
+    - [SYNTAX]:
+        • awkward phrasing
+    - [LEXICON]:
+        • unclear word choices
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions
+    - [STRUCTURE]:
+        • disjointed narrative flow
+    - [CLARITY]:
+        • ambiguous sentences
+
+Section section_05 (Chars 15627–19487):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Inconsistent verb tense usage
+    - [SYNTAX]:
+        • Complex sentence structures
+    - [LEXICON]:
+        • Archaic vocabulary
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transitions between ideas
+    - [STRUCTURE]:
+        • Non-linear narrative progression
+    - [CLARITY]:
+        • Ambiguous references to "the little point"
+
+Section section_06 (Chars 19487–23241):
+Scores:
+  - Fluency: 3.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • incomplete sentences
+    - [SYNTAX]:
+        • awkward phrasing
+    - [LEXICON]:
+        • unclear word choices
+    - [SPELLING]:
+        • typos (e.g., "Ityour")
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt shifts in conversation
+    - [STRUCTURE]:
+        • unclear transitions between ideas
+    - [CLARITY]:
+        • ambiguous statements
+
+Section section_07 (Chars 23241–27107):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Minor punctuation issues
+    - [LEXICON]:
+        • Some complex vocabulary
+    - [SYNTAX]:
+        • Long, winding sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between scenes
+    - [STRUCTURE]:
+        • Non-linear narrative progression
+    - [CLARITY]:
+        • Some ambiguous character motivations
+
+Section section_08 (Chars 27107–30910):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Minor punctuation issues
+    - [LEXICON]:
+        • Some complex vocabulary
+    - [SYNTAX]:
+        • A few long, winding sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • Slightly abrupt transition between paragraphs
+    - [STRUCTURE]:
+        • Some repetition of ideas
+    - [CLARITY]:
+        • Minor ambiguity in character motivations
+
+Section section_09 (Chars 30910–34835):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Inconsistent verb tense usage
+    - [SYNTAX]:
+        • Complex sentence structures that hinder readability
+    - [LEXICON]:
+        • Overly complex vocabulary that may confuse some readers
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transitions between ideas
+    - [STRUCTURE]:
+        • Lack of clear progression in some sections
+    - [CLARITY]:
+        • Unclear references to previous conversations or events
+
+Section section_10 (Chars 34835–38711):
+Scores:
+  - Fluency: 2.5
+  - Coherence: 3.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • incomplete sentences
+    - [SYNTAX]:
+        • awkward phrasing
+    - [LEXICON]:
+        • unclear word choices
+    - [SPELLING]:
+        • missing or extra words
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt shifts in ideas
+    - [STRUCTURE]:
+        • disjointed narrative
+    - [CLARITY]:
+        • ambiguous sentences
+    - [TRANSITION]:
+        • unclear connections between paragraphs
+
+Section section_11 (Chars 38711–42324):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 3.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • incomplete sentences
+    - [SPELLING]:
+        • apparent typos
+    - [SYNTAX]:
+        • confusing sentence structure
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt jumps in narrative
+    - [STRUCTURE]:
+        • disjointed paragraphs
+    - [CLARITY]:
+        • unclear character motivations
+
+Section section_12 (Chars 42324–46205):
+Scores:
+  - Fluency: 3.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Inconsistent verb tense usage
+    - [LEXICON]:
+        • Unclear meaning of some phrases, such as "the life passion courage was rate"
+    - [SYNTAX]:
+        • Confusing sentence structure in certain parts
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt shift in topics and ideas
+    - [STRUCTURE]:
+        • Disconnected paragraphs and lack of clear transitions
+    - [CLARITY]:
+        • Unclear references to previous events or context
+
+Section section_13 (Chars 46205–50041):
+Scores:
+  - Fluency: 3.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • incomplete sentences
+    - [SYNTAX]:
+        • awkward phrasing
+    - [LEXICON]:
+        • unclear word choice
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt shifts in conversation
+    - [STRUCTURE]:
+        • disjointed narrative flow
+    - [CLARITY]:
+        • unclear character motivations
+
+Section section_14 (Chars 50041–54007):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [SYNTAX]:
+        • complex sentence structures
+    - [LEXICON]:
+        • some words are archaic or less common
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt shift in conversation topics
+    - [TRANSITION]:
+        • unclear connections between some paragraphs
+    - [CLARITY]:
+        • some sentences are wordy or ambiguous
+
+Section section_15 (Chars 54007–58053):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Complex sentence structures
+    - [LEXICON]:
+        • Unfamiliar vocabulary (e.g. "vamped", "convolution")
+    - [SYNTAX]:
+        • Long, winding sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transitions between ideas
+    - [STRUCTURE]:
+        • Non-linear narrative progression
+    - [CLARITY]:
+        • Unclear character motivations and relationships
+
+Section section_16 (Chars 58053–62066):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Complex sentence structures
+    - [LEXICON]:
+        • Archaic vocabulary usage
+    - [SYNTAX]:
+        • Long, winding sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt shift in narrative focus
+    - [STRUCTURE]:
+        • Non-linear storytelling
+    - [CLARITY]:
+        • Unclear transitions between ideas
+
+Section section_17 (Chars 62066–66068):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Complex sentence structures
+    - [LEXICON]:
+        • Uncommon vocabulary
+    - [SYNTAX]:
+        • Long, winding sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt shifts in narrative focus
+    - [TRANSITION]:
+        • Unclear connections between ideas
+    - [CLARITY]:
+        • Ambiguous language and intentions
+
+Section section_18 (Chars 66068–69886):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [LEXICON]:
+        • overly complex vocabulary
+    - [SYNTAX]:
+        • long, convoluted sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between ideas
+    - [STRUCTURE]:
+        • non-linear narrative progression
+    - [CLARITY]:
+        • ambiguous character motivations
+
+Section section_19 (Chars 69886–73991):
+Scores:
+  - Fluency: 2.5
+  - Coherence: 3.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Inconsistent verb tense usage
+    - [SYNTAX]:
+        • Awkward sentence structure
+        • Disjointed phrases, like "Just door was open the then thrown"
+    - [LEXICON]:
+        • Unclear word choice in some instances
+    - [SPELLING]:
+        • Apparent typos, such as "review dolaughed 'n't'"
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transitions between ideas
+    - [STRUCTURE]:
+        • Non-sequential narrative flow
+    - [CLARITY]:
+        • Unclear character motivations and relationships
+    - [TRANSITION]:
+        • Lack of smooth connections between paragraphs
+
+Section section_20 (Chars 73991–77935):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Missing or incorrect articles in some places
+    - [LEXICON]:
+        • Some words or phrases may be too complex or archaic for modern readers
+    - [SYNTAX]:
+        • Long, convoluted sentences that can be hard to follow
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between ideas or scenes
+    - [STRUCTURE]:
+        • Non-linear narrative that can be confusing
+    - [CLARITY]:
+        • Some sentences or paragraphs lack clear meaning or purpose
+
+Section section_21 (Chars 77935–81785):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • awkward sentence structure
+    - [LEXICON]:
+        • overly complex vocabulary
+    - [SYNTAX]:
+        • long, winding sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt shifts in conversation
+    - [CLARITY]:
+        • unclear transitions between ideas
+    - [STRUCTURE]:
+        • meandering narrative
+
+Section section_22 (Chars 81786–83271):
+Scores:
+  - Fluency: 2.5
+  - Coherence: 3.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • incomplete sentences
+    - [SYNTAX]:
+        • awkward phrasing
+    - [LEXICON]:
+        • unclear word choice
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt shifts in narrative
+    - [CLARITY]:
+        • confusing character interactions
+    - [TRANSITION]:
+        • unclear connections between ideas
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

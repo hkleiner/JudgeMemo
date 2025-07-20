@@ -1,0 +1,183 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    b) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The report is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–8930):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • incorrect verb tense usage
+    - [SPELLING]:
+        • minor typos (e.g., "wonted" instead of "accustomed", "felt" instead of "feel")
+    - [SYNTAX]:
+        • complex sentence structures
+    - [LEXICON]:
+        • outdated vocabulary (e.g., "wonted devotion")
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between chapters
+    - [STRUCTURE]:
+        • lack of clear connections between ideas
+    - [CLARITY]:
+        • ambiguous descriptions (e.g., "the spell of which none of us wished ever to escape")
+    - [TRANSITION]:
+        • missing links between paragraphs
+
+Section section_02 (Chars 8931–17706):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • incorrect verb tense usage
+    - [SPELLING]:
+        • minor typos (e.g. "woulded" instead of "would")
+    - [SYNTAX]:
+        • some sentences are wordy or awkwardly phrased
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between scenes
+    - [STRUCTURE]:
+        • lack of clear connections between paragraphs
+    - [CLARITY]:
+        • some sentences are unclear or confusing
+
+Section section_03 (Chars 17707–26361):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • "shouldered the rifle herself and marched on by his side" could be rephrased for better clarity
+    - [LEXICON]:
+        • some words may be less familiar to modern readers, such as "biped mounts"
+    - [SYNTAX]:
+        • sentence structure is generally complex and varied, which may affect readability
+  Coherence Issues:
+    - [LOGIC]:
+        • the narrative jumps abruptly from describing the scene of the women to discussing the teachers' work
+    - [TRANSITION]:
+        • the connection between the emotional scene and the subsequent description of the town could be smoother
+    - [STRUCTURE]:
+        • the text switches between descriptive passages and more formal, instructional content
+
+Section section_04 (Chars 26361–34939):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [LEXICON]:
+        • occasional use of outdated or less common vocabulary
+    - [SYNTAX]:
+        • some sentences are overly long or convoluted
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transitions between ideas or scenes
+    - [CLARITY]:
+        • occasional ambiguity in sentence meaning
+    - [LOGIC]:
+        • some paragraphs seem disconnected from the main narrative
+
+Section section_05 (Chars 34940–43688):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor sentence structure issues
+    - [LEXICON]:
+        • some word choices seem slightly outdated or formal
+    - [SYNTAX]:
+        • a few sentences are wordy or convoluted
+  Coherence Issues:
+    - [LOGIC]:
+        • occasional abrupt transitions between ideas
+    - [STRUCTURE]:
+        • some paragraphs seem to lack a clear topic sentence
+    - [CLARITY]:
+        • a few sections are overly descriptive or meandering
+
+Section section_06 (Chars 43689–52160):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • "The growling of the dog had attracted the attention of an old man who, with age-bent back, was pounding rice in a mortar about fifty yards away. He turn" (missing 'ed' after 'He')
+        • "I could was almost instantly overcome" (incorrect verb usage)
+    - [SPELLING]:
+        • "receive" (should be 'received')
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt shift from describing the leper colony to philosophical musings about life
+    - [TRANSITION]:
+        • Lack of clear connection between the visit to the leper colony and the subsequent story about the "hike"
+
+Section section_07 (Chars 52161–53272):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • "instructed to started" should be "instructed to start"
+        • "and not to stop until he get there" should be "and not to stop until he gets there"
+        • "Was uncertain" should be "We were uncertain"
+    - [SYNTAX]:
+        • "we at first agreed that neither of us should go to sleep, but it was later decided" is a bit awkwardly phrased
+    - [SPELLING]:
+        • "aforesaid" is a less common word, but used correctly
+  Coherence Issues:
+    - [LOGIC]:
+        • The transition between the decision to sleep and the description of the sleep itself feels a bit abrupt
+    - [CLARITY]:
+        • The sentence "probably the driver had no greater desire to cross the Styx than his passengers have" is a bit unclear in its meaning
+    - [TRANSITION]:
+        • The shift from describing the sleep to describing the awakening and the surroundings feels a bit disjointed
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

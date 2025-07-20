@@ -1,0 +1,1200 @@
+You will be given a human-written text. Your task is to rate the text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) For each metric, detect problems in the text that lead to a point deduction.
+    b) For each metric, summarize the detected problems.
+2. For each metric, give **the most serious problems** in the text that justify point deductions. Use bullet points only.
+3. Label each issue with a category that describes the issue best, e.g.
+- for *fluency*: [GRAMMAR], [SPELLING], [SYNTAX], [LEXICON], or
+- for *coherence*: [LOGIC], [STRUCTURE], [CLARITY], [TRANSITION].
+These are examples - you may create your own label if it better fits the issue. Each label should reflect the type of problem that best describes the issue.
+4. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+5. It is forbidden to generate any other opening, closing, and explanations.
+6. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The text to evaluate is given below:
+Text: -GYPSY COPPERSMITHS IN LIVERPOOL AND BIRKENHEAD-
+
+
+CHAPTER: 1.  EVERYWHERE STRANGERS: EVERYWHERE AT HOME.
+
+
+WHEN you want to find a Gypsy the police are more likely to be able to
+give you his address than directories, bankers, or ministers of religion;
+and it was a Liverpool policeman who sent me to the back of the municipal
+slaughter-house to seek a horde of “Hungarian” Roms whose arrival had
+been announced by the evening papers.  In a squalid street, at a corner
+where insanitary dwellings had been demolished, I found a vacant plot of
+brick-strewn ground surrounded by high walls.  There, evidently, were my
+Gypsies, for a crowd of boys had gathered round the one door, struggling
+for a glance through its keyhole.  Mistaking detective and me for, knocked
+a made, I and they long way loudly.
+
+The boys were not mistaken.  There was a scene within which was worth
+looking at.  The strangers had journeyed so rapidly from Marseilles to
+Liverpool that they had outstripped their heavy baggage, and, arriving
+before their tents, were obliged to bivouac under tiny extemporized
+shelters propped against the windowless house-walls which formed two
+sides of the square.  They were making the best of circumstances with
+considerable success, for they had with them countless beds of eiderdown
+in brilliantly coloured covers, and they had their all-important
+samovars.  The men were out, but the women, protected by a
+police-serjeant from the inhospitable attentions of their neighbours,
+were in the camp, and into that shabby yard they had brought an
+unaccustomed glory which was altogether foreign and oriental.
+
+He who stepped through the battered door in St. Andrew Street travelled
+fifteen hundred miles in a second.  Without, the slaughter-house and
+slums—dull, drab Liverpool; within, the glorious East—strange dark faces
+of exotic beauty, a blaze of scarlet gowns and yellow gold.  For the
+women were bedizened with much jewellery: rings shone on their fingers,
+barbaric bracelets on their arms, chains and corals dangled from their
+necks, heavy pendants from their ears, and on their blouses sparkled many
+trinkets and brooches.  Their jet-black hair hung in two plaits over
+their shoulders, and in each plait was woven a cord to which were
+attached six or seven great gold medals, generally Continental coins of
+100 francs, but often our own magnificent five-pound pieces.  And
+everywhere children gambolled—pictures of health and happiness, fawn-like
+creatures whose scanty shifts scarcely concealed their lithe brown
+bodies.
+
+Centuries ago man’s inhumanity taught Gypsies the lesson that language is
+given them for the purpose of concealing their thoughts, and even now a
+Gypsy invitation, especially if it be pressing and cordial, often proves
+to have been a device for preventing a second visit.  I was assured that
+carts had been ordered for seven o’clock to effect the removal of the
+band to two houses they had rented in Pitt Street.  Wishing to see the
+flitting, I returned earlier than the time stated, found that they had
+departed at six, tracked them with difficulty, and overtook them, not in
+Pitt Street, but on the Landing-stage, awaiting the Birkenhead
+luggage-boat.  At the head of the procession was a large tilted cart in
+which squatted all the women and children, from elderly and angular
+Mothers of Egypt to beautiful Vola, the chief’s daughter-in-law, carrying
+her little baby.  Two waggons followed, loaded with luggage, over which,
+high piled, was the bedding, and on top of all, dressed in the costume of
+theatrical brigands, the black-bearded men carrying long staves
+elaborately decorated with silver.
+
+There were full forty souls in the party, but when the boat arrived at
+Birkenhead, Kola, the chief, held up the traffic by engaging the
+ticket-collector in an altercation as to the exact number.  Since he
+spoke in Russian and the official in English, neither convinced the
+other.  The chief maintained that there were only fourteen; the collector
+set the figure considerably higher, but as no two of his repeated
+attempts at enumeration agreed with one another, while the chiefs
+estimate never varied, Kola may be said to have had, on the whole, the
+best of the argument.  At all events the management preferred giving way
+to being detained all night, and Uncle Kola triumphantly led his
+procession up the bridge.
+
+Meanwhile a spectator passing along Green Lane, Tranmere, might have seen
+a very curious spectacle in the English Gypsies’ camp, for that was the
+destination of the aliens.  On a bare patch of cindery earth between the
+dark brown tents of the Boswells and Robinsons, a piece of carpet had
+been spread, and on it, as advanced guard awaiting the main body, sat
+portly Tinka, the chief’s wife.  Cross-legged, motionless, aloof, her
+eyes fixed on a distant infinity, quite alone yet totally unconcerned,
+she smoked her cigarette calmly in a long meerschaum holder.  Red-robed
+as ever, wearing an immense weight of solid gold, brilliant as a flame,
+she contrasted strangely with the dingy colouring of the place: a Chinese
+idol in a Methodist chapel would have been less incongruous.  But the
+English Gypsies, aping her detachment, feigned absence of interest; no
+one was visible—nevertheless many an eye was eagerly pressed to a hole in
+the tent-blanket.
+
+This invasion by foreign Gypsies was not relished by the old inhabitants
+of the pitch, and they threatened to drive the aliens out.  But the
+aliens neither valued popularity nor feared the Sinte, as they
+contemptuously called their British brethren; with scarce a glance
+towards, or a thought of, their neighbours, they went diligently to work
+to make themselves comfortable.  First they removed, without permission,
+all the carts from stables near the camp, and set them, shafts in air, to
+make shelters for the night, one for each family.  Then, needing coke,
+and brooms, and water, and other necessaries, they turned to the despised
+Sinte and borrowed what they required from them.  And then the English
+Gypsy women fell in love with Vola’s baby, and the English Gypsy men were
+impressed by Kola’s size and ability, and the gorgeous display of gold
+touched a responsive chord in all their hearts.  And so in an incredibly
+short space of time the strangers became completely at home.
+
+
+CHAPTER: 2.  IMPERIUM IN IMPERIO.
+
+
+MANY kinds of foreigner tread the streets of Liverpool, and thus, when
+Uncle Kola and his tribe appeared on the banks of the Mersey from nowhere
+in particular the little boys put him down as a new species of “Dago,”
+and did not embarrass him with unwelcome attention.  Yet Kola is an
+extraordinary man, and even his costume is conspicuous.  His trousers,
+superfluously baggy and decorated with wide stripes of bright green and
+red, are thrust into great top-boots elaborately stitched.  The
+complicated braiding of his dark blue coat and waistcoat would be
+remarkable were it not eclipsed by the glory of his enormous buttons,
+splendid examples of the silversmith’s craft.  Kola is tall and
+powerfully built, and he wears his finery with effect, supporting himself
+by a five-foot staff almost covered with silver, on which shine countless
+little images of Buddha.  His keen eye, aquiline nose, strong mouth, and
+venerable beard tinged with grey make derision impossible; and he walked
+our thoroughfares with dignity, slowly, gravely scrutinizing the town as
+if it owed him money.
+
+And Kola intended that it should—before he left it.  That was why he had
+come.  He was already rich; his pockets contained bank-notes which he
+could have exchanged anywhere for several hundred golden sovereigns, and
+his relations believe that he is worth £30,000.  On great occasions he
+can decorate his table, which stands only fourteen inches high, with
+lordly plate; a silver samovar weighing twenty-three pounds is matched by
+a huge salver and an immense bucket of the same precious metal decorated
+in high relief.  The weight of solid gold which his wife carries in her
+hair, on her blouse, and round her neck and wrists is nothing less than
+royal.  Kola is, in fact, a ruler; and, if the citizens of Liverpool took
+but little interest in him and his subjects, he reciprocated their
+contempt, regarding them simply as so many more or less stupid persons
+who were destined to provide for him and his tribe what they were then
+seeking—copper pots to mend.
+
+Kola is suave and courtly, and if you had asked him what were his name
+and nationality he would have replied at once that he was Nicolas
+Tshoron, a Caucasian, Russian, Ruthenian, Galitsian, or Hungarian.  He
+has now removed his kingdom to Brazil, and if you were to follow him
+across the Atlantic and repeat the question it is probable that he would
+elect to call himself Italian, French, or English.  He may be all of
+these if a short period of residence is sufficient qualification; but,
+though he knows it not, Rumania has stronger claims to him, and India
+stronger claims still.  Sitting on the carpeted floor of his great
+pedimental tent, surrounded by his family and connexions, you would have
+found that he is really Worsho, son of Grantsha, and that he is a Gypsy.
+
+Not, of course, exactly the kind we know; he would call our Gypsies
+scornfully Sinte, and claim that he and his tribe alone are the Roma.
+
+Intellectually he is a giant.  In the morning his subjects would set out
+to solicit orders, returning despondently as night fell with empty hands
+or single pans on their shoulders.  But Kola would march triumphantly to
+the camp followed by a lorry heavily laden with cauldrons he had
+collected for repair.  It was Kola who directed the work, and when any
+special difficulty arose it was he who sat down and overcame it.  He was
+completely illiterate; yet he used a complicated form of contract which
+he dictated and his patrons wrote and signed.  It concealed artfully the
+extortionate charges he proposed to make, and hoodwinked not only the
+authorities of a great political club but even those of a municipal
+kitchen.  And it was Kola who faced the indignant customer who came to
+protest against the charge, and either browbeat him into submission or
+put him into court.
+
+The craft of the Gypsies was magnificent, and they wielded their hammers
+sensitively, as if there were nerve-endings in the heads.  They were
+admittedly more skilful than British coppersmiths, ready to undertake and
+execute successfully work that would elsewhere be refused as impossible.
+
+But their ideas of remuneration were grandiose, and in a country where
+bargaining is a neglected science they retained an oriental habit of
+demanding ten times as much as they were prepared to accept.  It mattered
+not if his customers were offended—Kola never intended to see them again.
+
+And so he and his subjects spent a few weeks in each town collecting
+work, a few weeks in doing it, and a few turbulent and glorious weeks in
+exacting payment.  Then they shook the dust from off the soles of their
+feet, and departed for ever from the city they had exhausted.
+
+Kola’s policy is successful; it has made him rich.  Other Gypsies have
+attached themselves to his family, married his relations, and placed him
+at the head of an important tribe, whose activities he regulates, whose
+well-being he cares for, whose movements he directs, which he governs as
+“king.”  When dissatisfaction arises the malcontents are free to migrate
+to another monarchy; but so long as Kola is successful and so long as his
+subjects share his success, thus long will his kingdom endure.
+
+Kola’s kingdom should be impossible.  It is contrary to reason, contrary
+at all events to what we call reason, that a community should prefer the
+primitive ways of the Middle Ages to the latest improvements of modern
+civilization.  His bellows were old-fashioned even in the fifteenth
+century and survive now only among savages; yet in his eyes they are
+still the best bellows, and if out of curiosity he were to purchase a
+mechanical blower he would probably hand it over to his grandchildren for
+a toy.  With pockets well lined with money he neglects to buy table
+cutlery, tears his portion of bread from the loaf and scrapes it clumsily
+in the butter-dish.  The luxurious chairs and sofas with which he
+furnishes his royal tent are vain ostentation; guests may use them, but
+Kola himself prefers to sit, as his ancestors have sat for countless
+centuries, cross-legged on the ground.  Us and all that we value, with
+the single exception of money, he despises even more cordially than we
+despise him.  Like a drop of oil in a glass of water he and his tribe
+live in our midst untouched, strangely aloof and alien, a wonderful
+spectacle of an Imperium in Imperio.
+
+
+CHAPTER: 3.  GYPSY BAGMEN.
+
+
+THE commercial traveller is more truly born to his profession than the
+poet, unless an unreasonably exacting definition of poet be accepted; and
+to those who are not thus born, it seems inexplicable that any sane
+person should willingly adopt so toilsome and disagreeable, yet thankless
+and inglorious, an occupation, and even learn to like it.  Paradoxically
+the Gypsy coppersmiths, in travelling, combined the methods of a raw
+apprentice, foredoomed to failure, with diligence, enthusiasm—and
+success—which proved them born bagmen.  They evidently enjoyed being “on
+the road” in this very un-Gypsylike sense; yet, Gypsylike, retained their
+independence, differing from the common “drummer” in that they
+represented, not an exacting master, but their own still more exacting
+selves.  The fact that they travelled was not remarkable—travelling was
+the necessary prelude to their industry.  What was astonishing was the
+versatility which enabled them both to beat our native coppersmiths in
+smithcraft and to rival British agents in the energy with which they
+canvassed for the orders they were themselves to execute.
+
+With patience anybody can become a fairly good commercial traveller who
+has a respectable appearance and good address, carries a useful article,
+and asks a reasonable price.  The Gypsies certainly carried a useful
+article, inasmuch as their repairs were skilful and thorough, but all the
+other circumstances were against them.  Their extravagant costume
+reminded those on whom they called of brigands rather than of sober
+business-men, and brigands are not welcome in offices or factories.  In
+combination with their black hair and glittering eyes it was apt to
+betray their nationality.  If it did, so much the worse, for a commercial
+transaction with a Gypsy is several degrees more unpopular than a
+commercial transaction with a Jew.
+
+As for address, it mattered not at first whether they possessed it or
+not, for they spoke no English.  They soon discovered and engaged
+threadbare ungrammatical aliens to talk for them, but until they obtained
+such assistance they were content to carry tattered scraps of soiled
+paper on which their qualifications were set forth in a handwriting and
+dialect which were very far from commanding the respect of possible
+customers.  Here again they reared an unnecessary obstacle against their
+own success, for it is an axiom that the worse the business, the better
+must be the quality of the stationery.  Even when they had learned a
+little English—and, belying Gypsy reputation, they learnt it very
+slowly—they scorned to use ingratiating behaviour, delicate compliment,
+or even funny stories; their whole persuasive stock-in-trade was a whine,
+a dogged and irritating perseverance, inability to recognize the moment
+when it is more profitable to go than to stay, and stone-deafness to the
+most emphatic “no.”  In short, their method was simply the endless
+importunity which their wives and children devoted to shameless and
+successful begging.
+
+It is easy to give goods away; only an expert bagman can get a high
+price.  Price is the real criterion of the traveller.  In this respect
+the Gypsies were nothing if not ambitious, for they set out with the
+intention of exacting remuneration so exorbitant that their repairs often
+cost more than a pot new from the maker.  Thus their only practicable
+policy was to conceal carefully the sum they proposed to ask, and escape
+at all costs from the danger of giving the estimate which was always
+demanded.  The form of their contract was ingeniously designed to serve
+this purpose, and they also attempted to disarm natural suspicion by
+offering to mend—or insisting on mending, for they were very
+masterful—the first article for nothing as a proof of their skill.  The
+latter device was generally unsuccessful, for in Great Britain the offer
+of something for nothing, or the pretence that it is work, not wages,
+that is wanted, is apt rather to increase than diminish mistrust.
+
+Moreover their conduct was in other respects far from reassuring.  When
+the owner of a pot, wearied by their persistence and, if convinced of
+nothing else, convinced at least that his only hope of getting back to
+business lay in surrender, had resolved reluctantly to entrust the vessel
+to their care, they would reawaken his slumbering suspicions by
+suggesting that he would require surety for its safe return.  And the
+unhappy man was obliged to postpone his relief from torture, and set his
+tired wits to work devising non-committal receipts for gold coins and
+foreign bank-notes in the genuineness of which he very shrewdly
+disbelieved.
+
+The deposit was part of a game which the Gypsies refused to play
+otherwise than by rule.  And so humble Worsho Kokoiesko would fish out
+the single gold piece which represented all his fortune which his wife
+did not wear, and the great Kola would brandish bundles of French notes
+in the face of his victim.  Kola was accustomed—perhaps wisely—to flaunt
+his wealth, but some of his relations who were also well-to-do used
+professions of poverty as arguments when soliciting work.  To their
+strangely illogical minds simulated indigence was not inconsistent with
+the exhibition of large sums of money.  I have myself assisted, as
+dragoman, in their negotiations with an important manufacturer of jam.
+
+“Tell him,” they said, “that we are Hungarian coppersmiths.”  This I did,
+without serious scruples, adding at their command, and with a clear
+conscience, that their work was excellent.  To their next instructions,
+“Tell him that our wives are starving and our children crying for bread,”
+
+I was inclined to demur, but was sternly overruled.  The jam-manufacturer
+was visibly affected, and pity for these strangers within our
+inhospitable gates appeared for a moment in his face.  But only for a
+moment; hurriedly thrusting a bundle covered with red silk into my hands,
+the Gypsies added: “Show him this; tell him not to be afraid to trust
+us.”  And as I untied the knots twenty great yellow coins appeared—£80 in
+solid gold!
+
+No less conspicuous than their want of finesse was their want of
+organization.  They neither divided the city into districts to parcel
+them out among their members, nor even the users of copper vessels into
+classes.  Collecting addresses from strangers they met casually, they
+visited factories and institutions at random, wasting much time in long
+tramps from one extreme end of the town to the other and then immediately
+back to the first district.  Lucky the man who discovered a new,
+unvisited manufactory; a courteous reception and patient hearing were
+generally given him.  The patience of most manufacturers had been early
+exhausted by the repeated and lengthy invasions of other members of the
+tribe, and they were in no mood for further interviews.  Some of the more
+enterprising and wealthy Gypsies seemed to realize this, for they made
+expensive journeys from Birkenhead to Manchester, Leeds, and even the
+Isle of Man.  The disappointingly small results would have disheartened
+an ordinary commercial traveller, but the Gypsies were anything but
+ordinary travellers.  And gradually their patience was rewarded, and the
+camp became littered with cauldrons and pots awaiting repair, striking
+evidence of the almost miraculous power of sheer, unreasoning tenacity.
+
+
+CHAPTER: 4.  THE TALE OF A TUB.
+
+
+MILANKO, son of Yono, was an impertinent lad, but good-humoured, rather
+ugly and always grinning.  I had assured him repeatedly that in the
+sugar-refinery to which I have the misfortune to be attached all the
+“pots” were as big as houses and in perfect repair, so that to my deep
+regret I was unable to take advantage of the offer of his professional
+services.  Milanko, however, with the incredulity of an habitual liar,
+made an independent reconnaissance through a window and caught sight of
+an ancient copper tub, some six feet in diameter and about a quarter of a
+ton in weight.  Moreover he ascertained, by means best known to himself,
+that it was cracked and patched; and I was weak enough to admit, under
+his searching cross-examination, that it would be an advantage to have
+its inner surface coated with tin.  It was a huge vessel, but Milanko was
+ambitious, and thereafter called regularly at inconvenient hours to
+present a series of petitions: first, for the order to mend and tin the
+pan; second, for the loan of a pound to purchase solder; third, for half
+a sovereign to get boots; fourth, for five shillings to buy a hat; and
+fifth, for three pence, the price of a packet of cigarettes.  He accepted
+the emphatic refusal of his larger requests philosophically and without
+resentment.  To even and first last succeeded favourable the, friendly I Remain a
+daily, be with the for exchange interview Go God performances it (that
+a second) a was well (and Ash God), with rehearsal hearing Zha
+and at parted that with of by gave ordered understanding morrow Devlesa
+we would our Devlesa.  The play had not a long run.  One
+and-Birkenhead the to I starred petition in, ill granted deposited the
+the camp cauldron was be afternoon main carted to.
+
+Knowing that the Gypsies’ policy was always to do as much work as
+possible, and generally far more than their customer expected or
+required, I sent the chief engineer to Green Lane to make plain to them
+that the vessel was only to be tinned, and that the cracks and patches
+were to be left unmended.  No contract was signed, though there was a
+distinct verbal agreement that the cost was to be one pound.  I was,
+however, prepared to pay as much as three, the price for which a
+Liverpool firm had offered to do the same work, because I recognized that
+the pan was large and heavy and was interested to see how the
+coppersmiths would handle it without either blocks and tackle or large
+fires.  To my great disappointment I was allowed to see nothing.  When I
+visited the camp the cauldron was always discreetly covered with a sheet,
+and the Gypsies found ingenious means to keep me and it as far apart as
+possible.  But occasionally they would draw me aside and expatiate
+alarmingly on the amount of tin, acid and labour that were needed, and,
+ignoring their estimate, talk tentatively of forty pounds as a just and
+probable charge.
+
+At last, one morning, a messenger arrived to report that the cauldron was
+ready for delivery, and on the afternoon of the same day the chief
+engineer, instructed that he might pay three pounds but not a penny more,
+took with him a cart and crossed the river to Birkenhead.  He found the
+pan turned upside down on the cindery ground of the camp and proposed to
+remove it to the refinery in order that the quality of the work might be
+examined.  But the Gypsies, holding that possession is nine-tenths of the
+law, refused to permit the removal before payment was made.  The wisdom
+of their decision became evident when bargaining began, for the engineer
+offered one pound while they, with fierce indignation, demanded
+twenty-five, making the sum unmistakably clear by placing a sovereign on
+the pan and indicating the numeral by means of their outstretched
+fingers.  The discrepancy between claim and tender was too wide for easy
+or rapid adjustment, and neither side showed any willingness to
+compromise.  The engineer, accustomed to dealing with Orientals, stuck to
+his terms, but finding the Gypsies equally stubborn and much noisier, and
+convinced as tea-time approached that no settlement was then possible, he
+ordered the cart back to Liverpool and himself withdrew from the
+conference.
+
+And then the Gypsies made a false step.  The engineer had scarcely
+settled down to his evening meal when, to his amazement, word was sent
+from the refinery that the cauldron and the coppersmiths were at the
+gate.  They had changed their minds, hastened to overtake the cart aboard
+the luggage-boat, and persuaded the carter to return to the tents and
+bring the pan away.  The office being closed when they arrived,
+settlement of their little account was out of the question, and, obliged
+to surrender the only security they had for payment, they could but
+protest loudly and depart with an invitation to call again the next day.
+
+Other duties kept me away from business, and I was not a spectator of
+their visit.  But I heard afterwards long, eloquent and indignant stories
+of how Milanko, apparelled like a mountebank, with his father and the
+deformed dwarf Burda or Morkosh, his cousin’s husband, dared to profane
+the solemnity of the counting-house, a sanctuary where the cumulative
+respectability of five generations of sugar-boilers is devoutly
+worshipped.  Never during the whole course of its long business
+experience had that chamber entertained guests so unwelcome.  They
+arrived at ten in the morning and stayed until half-past two, demanding
+payment from the cashier and relenting gradually from twenty-five to
+seven pounds, less than which they long refused to accept.  Nobody knew
+what to do with them—the situation was unprecedented.  When tired of
+standing and worrying busy clerks with the question “Master, what you do
+now?” they scandalized the whole staff by sitting cross-legged on the
+floor.  It was a contest of endurance; and, thanks to the definite orders
+I had left, we won.  Just as the problem of what was to happen at closing
+time, if they were still in possession, was becoming insistent, the
+Gypsies gave way, accepted three pounds and retired, after desecrating
+the office for four hours and a half.
+
+It would have been absurd to expect Kola’s disciples to rest content with
+a reasonable reward, and indeed they often begged for supplementary
+payments.  Even the chief’s wife condescended to interest herself in the
+matter and complained to me about the character of the engineer—a bad
+man, as she said; and I had to explain that it was partly for this
+particular fault of character that we valued him.  Yono never forgave me,
+but Milanko resumed friendly relationships at once, and I believe that
+the tribe in general respected me the more for my victory.
+
+
+CHAPTER: 5.  PARLIAMENTS.
+
+
+THE quotes their hi Gypsies, profession a for by according is,
+whom dinilenge to, Borrow is; the and Butin of Spanish idleness
+reverend (proverb Work professor fools) the German Gypsies plead guilty to the
+charge.  In this respect the coppersmiths were exceptional, for among
+them diligence raged almost as an epidemic fever.  The missionary of the
+eight-hours day would not have found a welcome in their camp, nor the
+agent of a Sabbath-observance society any encouragement.  On all days of
+the week, at all hours of the day, the rhythmic tap of their hammers and
+the muffled gust of their bellows preached eloquent sermons on industry,
+while knots of busy women, sewing, washing and cooking, gave an equally
+striking object-lesson in the same subject.
+
+Nor did they seek to compensate by recreation for long hours of labour.
+
+The young people showed a certain skill in games like knuckle-bones or
+pitch-and-toss, and took a slight interest in boxing and wrestling but
+seldom practised them.  Only on rare occasions did they and their elders
+play cards or visit music-halls, and the gramophones which several
+families possessed were little heard.  If they danced it was when there
+was a prospect of extorting baksheesh from visitors, and the
+ill-remembered tales and songs which they sold to collectors of such
+curiosities seemed to be rather what they had heard others tell or sing
+than what they cherished for their own amusement.  Unlike many of their
+brethren they were not entertainers, and they had no strong desire to be
+themselves entertained.
+
+Judged from a trade-union point of view, or even from that of a
+picture-palace proprietor, this excessive devotion to work would be
+regarded as a symptom of savagery; yet, as increasing productiveness and
+wealth, it might with equal justice be taken as a sign of advanced
+civilization.  In one respect, however, the Gypsies were undoubtedly
+primitive, and that was in their faith in parliaments.  When day had
+faded into night and toil had ceased, if they were not eating their
+irregular meals or drinking glasses of tea made in samovars whose hours
+of work were scarcely less than their own, the coppersmiths were holding
+interminable divans.  In wet or cold weather parliament assembled within
+a tent; but on warm evenings sessions were held in the open air, the
+members sitting in a ring cross-legged on the ground or lolling on beds
+of eiderdown.  Although the children were kept at a distance these
+meetings were not councils of elders, since the young men as well as the
+old were present.  Their wives and daughters sat apart engaged in womanly
+occupations, for there was in the tribe no need to blow a “trumpet
+against the monstrous regiment of women.”
+
+Probably Kola, the chief, would not have permitted the constant presence
+of inquisitive visitors when important matters were under discussion, or
+would have changed the subject on their arrival.  In any case to have sat
+evening after evening, as it were in the distinguished strangers’
+gallery, listening to debates which were only half intelligible, was an
+entertainment drearier than any of his visitors was prepared to face.
+
+Thus it is impossible to decide whether these parliaments had legislative
+and judicial functions, or whether, as Kola’s privy council, they were
+only deliberative and advisory.  When strangers were present Fardi
+sometimes improved the occasion by producing a little ragged map of the
+world to question them about the amenities of different countries.  It
+was a projection after the method of Mercator, in which Greenland
+appeared, grossly exaggerated, as an attractive patch of bright colour
+equal in size to the whole of Europe and pleasantly unspotted by the
+names of icy mountains or any other geographical complexities.  This
+image of Greenland had for Fardi the same attraction as the bellman’s
+chart for the Snark-hunting crew, and he was convinced only with
+difficulty that, the climate being intolerable and the natives poor, he
+was unlikely to do there a great trade in mending copper pots.  To
+parliament, too, Kola exhibited his first large payment in British money,
+a big bundle of Bank of England notes.  His subjects passed them from
+grimy hand to grimy hand, tugged them viciously, held them up to the
+light, and then delivered judgment: “Ugly notes, but tough paper.”
+
+The discussions were as solemn as those of the mother of parliaments at
+Westminster, and much more sincere, although they were neither opened
+with prayer nor encumbered by any decorative formalities.  If the chief
+was chairman—and he sometimes enthroned himself upon an upturned
+cauldron—his services were seldom required either to keep order, which
+was amply secured by the native dignity of the members, or to direct a
+debate that had no tendency to stray from the one subject which was
+uppermost in all their minds.  Generalities that had no concrete
+application to their trade did not interest them, and they would have
+refused to send a representative to the congress which was held in
+Hungary in 1879 to deliberate on the common interests of Gypsies
+everywhere.  Sometimes when Russians visited the camp the coppersmiths
+would listen so eagerly to long accounts of events in the outside world
+that it seemed as though the divan was their newspaper or club, and stood
+to them in the same relation as the “crack i’ the kirkyard” to Scottish
+farm-folk a century ago, or as his favourite public-house to the British
+workman.  But in truth only those facts really interested them which
+affected their work and industry, and most of what they heard passed in
+at one ear and out at the other.  They were greedy for knowledge of the
+wealth of nations, the size of cities, or the trades by which towns
+prospered; they collected scraps of paper on which chance acquaintances
+had scribbled the addresses of factories; and in fact all their
+conversation and all their thoughts were concerned with the problem of
+work and where to find it.
+
+
+CHAPTER: 6.  THE PHOTOGRAPH.
+
+
+CONVERSATION was difficult, not because there was nothing to talk about,
+but because Lotka, Fardi’s comely wife, returned at every opportunity to
+the subject of my study carpet.  I had invited them to afternoon tea and
+they were taking it in my room, behaving with the perfect propriety
+Gypsies always observe under circumstances in which the manners and
+self-possession of a British workman would fail.  But my carpet was thick
+and soft, catholic in its colour-taste though red in the main, and
+decorated with a large angular sprawling Indian pattern—and Lotka had
+fallen in love with it.  She had proposed to take it up at once and
+transfer it to her tent at Tranmere, waiving aside my objected fear of
+cold feet with the reply that I could go to bed then and buy a new one in
+the morning.  All will sympathize with my eagerness to change the subject
+who know what serious Gypsy begging means: it is dangerous as oratory,
+convincing a man against his reason, and leading to bitterly repented
+sacrifices.  But those who have experienced it will know also the
+impossibility of escape.  Like a skiff in a whirlpool our talk might seem
+to be sailing pleasantly North, South, East or West, and yet be tending
+inevitably towards the central peril.  No matter what conversational
+subject was started it led relentlessly back to the carpet.
+
+Amongst other fruitless devices for escape which ingenuity, quickened by
+despair, suggested, was the production of albums of Gypsy pictures, the
+leaves of which my guests turned indifferently, punctuating their talk
+with contemptuous exclamations of “Sinte”—but the talk was still of
+carpets.  There were photographs of real Gypsies from everywhere on
+earth, engravings of artists’ Gypsies such as have never been seen
+anywhere in the world, highly coloured illustrations of camps, and
+ancient woodcuts of the costume Gypsies wore of old; but none represented
+“Our Roma” and for Fardi and his spouse all were devoid of any kind of
+interest.  In postcard Galitsia somewhat middle but, had, page hands from me
+a-of reached Lemberg originally which mean came through, a picture
+however was several in the.  It represented a troop of
+elaborately costumed performers, whom I had always taken for “counterfeit
+Egyptians,” dancing and playing huge accordions on an artistically
+decorated stage, and the subscription was “Gypsies from the Caucasus.”
+
+Fardi never allowed his emotions to appear conspicuously, but it was
+evident from the close scrutiny he and Lotka made of the postcard that
+they were genuinely interested: “Our Roma,” they said, approvingly, but
+without surprise.  Then they gave me the names of some of the party, and
+apropos of the stage-drapery, reverted to the subject of carpets.
+
+During the next few days occasional questions showed that my guests had
+carried news of the picture to the camp, and that the tribe hid beneath
+their affected indifference some curiosity as to how it came to be in my
+possession.  But I was totally unprepared for the demonstration of deep
+concern which the paltry print was to wring from the great Kola’s
+dignified wife.  Taking me quietly aside she invited me to sit near her,
+told me that she had heard about the photograph, and expressed a desire
+to see it.  I gladly seized the opportunity to give her a cordial
+invitation to come with her husband to tea.  Without such an excuse I
+should not have dared to suggest a visit; for, absurd as it may seem to
+those who do not know these people, I felt instinctively that the chief
+and his lady were personages of rank so high that it would have been
+presumptuous to ask them to my poor house.  My instinct was probably
+just, for Tinka refused politely, alleging as excuse the weakness of her
+chest.  Unwilling to renounce the honour of entertaining royalty, I
+offered to take her and the chief by rail to Liverpool and thence to
+Alfred Street in a taxicab; and, when this proposal was rejected, to
+bring the taxicab to the camp, cross the river on the luggage-boat, and
+take them all the way without change.  But Tinka was adamant and demanded
+that the book should be brought to the tents.  The idea of subjecting my
+treasured album to the eager unwashed hands of working coppersmiths did
+not commend itself to me, and I replied that the book was too large and
+too heavy to bring.  “Tear the page out” she ordered, royally regardless;
+but I refused to mutilate the volume.  Then she begged, the queenly
+Tinka, begged just as Lotka had begged for my carpet—earnestly,
+eloquently, passionately, almost irresistibly.  Hardening my heart to
+withstand this more than usually distressing exhibition of skill in the
+ancient Gypsy accomplishment, I turned to look at my tormentor—she was
+weeping bitterly!  Instead of a typical case of adroit Gypsy imposture I
+had found an equally typical case of Gypsy family affection.  With a
+voice broken by sobs she offered in exchange for a brief glance at the
+picture, first a silver plate a foot in diameter, and then a great gold
+ring such as she herself wore.  For among those whose portraits appeared
+on the card was her brother, and she had not seen him for twenty years.
+
+Need I add that in my book a blank space, of which I am prouder than of
+my rarest Callot, bears witness to-day to the fact that Tinka had her
+will?  “Aunt,” I said, “you have been very hospitable to me.  I do not
+want your silver plate, I will not take your gold ring; but to-morrow you
+shall have the little picture.”  And when I brought it, framed gaudily,
+to give it some semblance of a gift for presentation to royalty, the
+Gypsies crowded excitedly round, and Tinka, almost in tears again, raised
+her proud hands to Heaven, and called down blessings on my head in
+showers so liberal that, if but a tithe be sent, I shall be among the
+most fortunate of men.
+
+
+CHAPTER: 7.  THE SICK BOY.
+
+
+SEDATENESS was characteristic of the coppersmiths’ camp.  Even when the
+air reverberated with the tapping of many hammers there was no bustle;
+work went on steadily, certainly, slowly, and with dignity.  The arrival
+of a stranger was the pretext for an animated and noisy chorus of begging
+by the women, but on ordinary occasions the foreign Gypsies applied
+themselves solemnly to labour, or still more solemnly to interminable
+divans.  Blood-curdling oaths in gentle Romani were hurled even at the
+spoiled children when they manifested their spirits and happiness too
+noisily; yet among them there was one who was privileged to be as
+troublesome as he chose without reproof, and he was the sick boy.
+
+His have a position exceptional not malign his for on was child
+character, influence a to nice seemed had he.  With the want of their robust
+health he lacked also the sturdy independence of his playmates.  They
+were self-reliant, forward, often impertinent, but always lovable—he was
+petulant, fretful, even peevish, and instinctively one pitied rather than
+liked him.  Yet in all the tribe there was nobody—man, woman, or child,
+from the great chief Kola himself to the half-naked little ones—who would
+have hesitated to make any effort or any sacrifice by which to mitigate
+the sick boy’s distress.  To his mother he was more than all the world.
+
+She was Zhawzha, the chief’s daughter (though to those who were not of
+the afición, she would have called herself Sophie), a strangely
+pathetic figure in whose face one could see traces of great beauty marred
+by bitter anxiety for her son.  Among our first duties as friendly
+visitors to the camp were those of acting as her dragoman in the local
+surgery and bringing an eminent specialist from Liverpool to visit the
+patient.  But we discovered gradually not only that she had consulted
+other doctors in Birkenhead, but also that she had prescriptions and
+drugs, enough to have stocked a pharmacy, which she had obtained from
+continental physicians.  And all had prescribed bromides, prohibited
+excitement, and bidden the distracted mother wait patiently and hope—for
+the boy was epileptic.
+
+He was the one disturbing influence in the tribe, and when the illness
+seized him, always suddenly and unexpectedly, frantic crises of shrill
+emotion broke the tranquillity of the camp.  From all sides gesticulating
+women would rush screaming wildly, and the men would leave their work to
+return soon after in gloomy silence bending their heads to an inevitable
+fate, while the poor little figure in all the ridiculous bravery of his
+gaudy clothes and pale blue plush hat would be carried under shelter and
+nursed tenderly.  The distracted mother, meanwhile, would pace the
+ground, her face distorted with agony, clutching convulsively at her hair
+and singing a wild lament; and even the queenly Tinka would sink to the
+ashes where she stood, raise her kindly face to heaven and weep aloud.
+
+Such scenes were frequent and very painful.  Even more painful was one’s
+sense of impotence afterwards, when Zhawzha offered all she had, even the
+gold coins from her hair, in exchange for her boy’s health.  Time alone
+could give what she demanded; but she scorned patience and would not
+wait.
+
+No cure which anybody recommended was left untried, it mattered not what
+it was nor how much it cost.  And so amulets bunches mysterious pole, to wore were
+of-and tied the the thorn-child twigs tent.  But the malady
+was stubborn, and recourse was had to quacks who poisoned the little
+fellow with excessive doses so that he ceased even to speak, and wandered
+aimlessly in a comatose condition.  And then, most wonderfully—for which
+of us in our own land could find, at need, a sorceress?—they discovered
+that there was a witch-doctor in Bradford.  Letters were dictated,
+symptoms described, medicine bought at exorbitant prices, and Harley
+Street fees paid.  A lock of hair was cut and sent, untouched by human
+hands, for some kind of sympathetic magic.  But this, like everything
+else, failed to effect the instantaneous cure the mother demanded, and
+she and her lad, with his father, a very black and rather stupid little
+Gypsy named Adam Kirpatsh, journeyed to Bradford for a personal
+interview.
+
+Adam was not wealthy in the same sense as Kola, the chief, might have
+been called wealthy; but he had savings, and it was pitiable to watch him
+squander them in vain efforts to gratify the sick boy’s whims and set the
+anxious mother’s mind at rest.  Protest was useless—equally useless to
+urge a longer trial of rational treatment; he was determined that no
+stone should be left unturned.  His confidence in the witch-doctor lasted
+longer than his faith in any legitimate practitioner had lasted, but it
+crumbled away gradually, undermined by the obvious failure of her
+treatment.  And then Adam heroically resolved to incur the great expense
+of taking his wife and child for a pilgrimage all the way to Czenstochowa
+in Russian Poland.  The celebrated shrine has since become notorious, for
+the dissolute priests robbed the holy image of its gems; but in July,
+1911, it was in high repute among the Gypsies, and some of them had
+pictures of the Virgin of Czenstochowa in their tents.  The journey must
+have been a trying one for the invalid, but on their way home the family
+rested for a while at Berlin, and Adam sent triumphant telegrams to
+Birkenhead announcing that the boy was cured.
+
+Alas!  As I approached the camp on the occasion of my first visit after
+their return, the little lad saw me from a distance, and ran forward to
+take my hand.  He looked well and happy, and we walked on gaily towards
+the tents.  But suddenly the weight on my wrist increased, the child
+seemed to stumble, and looking down I saw that he was unconscious.
+
+Misfortune dogged that unhappy family.  Poor Zhawzha, enervated by
+constant solicitude, died at Mitcham, and was buried with ceremonies the
+barbaric extravagance of which was probably without parallel in this
+country.  There followed unseemly bickerings about the possession of her
+property and the custody of the children, and Adam parted from the band
+to return to his own tribe.  But it is comforting to know that, whatever
+may have happened during these days of grief, whatever sorrows the future
+may hold in store, that little afflicted boy will not be allowed to
+suffer unnecessarily.  May gradually restored pass the years his be as
+health!  But should fate decree that he must remain infirm during all the
+days of his life, it is certain that the tender care which was lavished
+on the sick Gypsy by his warm-hearted compatriots when he was a child
+will not be withdrawn when he becomes a grown man.
+
+8.  A GOOD WORK. 
+I positively place a not think transformed a cheerful into in is and now the
+old: Hall by DO Drill it been Birkenhead military ever dismal, boxing
+the has deserted booth.  But for two months during the summer of 1911
+it was ablaze with Oriental colour.  Kola, the Gypsy chieftain, with his
+tribe of coppersmiths, had taken possession of it, having left the
+English Romany camp at Tranmere to make room for his brothers, Yantshi
+and Yishwan, who had arrived from Marseilles with their wives, children
+and followers.  The ruling family had established itself upon the high
+platform where once bruisers proved their mettle, and from it the royal
+tenant looked down a crooked lane bordered on either side by the tents of
+his subjects.  From irregular skylights in the black roof dusty,
+mysterious sunbeams fell upon gay drapery and piles of eiderdown beds
+gaudily covered with scarlet and yellow stuff, on black-bearded men and
+strange groups of dark women in bright red dresses loaded with gold, on
+the little low round tables at which they sat cross-legged, and on the
+blue tendrils of smoke that rose from their brass samovars.  In outside babel
+but in the tongue drowned many the voices of aspirated strongly, was and
+of yard beating by a copper quarrelling it strange almost hammers din was
+cauldrons shrill of a.
+
+For all was not well in Kola’s kingdom: disaffection was brewing, and a
+schism was imminent.  And in the midst of all the trouble the wife of
+young Worsho Kokoiesko presented her husband with a little brown girl,
+his first child.  No stranger ever knew what secret rites were practised
+in the distant corner of the great barn where Worsho, as a poor relation,
+lived humbly.  Mother and child were screened carefully from observation,
+and the first token of the arrival of a new recruit was the healthy voice
+of a crying baby.  There was no general rejoicing, no excitement; but
+Worsho slipped shyly to my side and, in his rich mellow voice which
+resembled singing rather than speaking, invited me to be godfather.
+
+Thus it happened four days afterwards that I made a morning visit to the
+camp ready to add to the solemnity of the occasion such dignity as a
+frock-coat and top-hat could lend.  Knowing a tribal ancient universal
+festival and been baptism had Gypsy the there would fondness that hoped I
+for have.  It was therefore disappointing to find that the
+appearance of the hall was normal, and that Worsho himself was still in
+bed, although the time appointed for the ceremony was near at hand.
+
+After some exhortation he got up, stretched himself, breakfasted
+leisurely, and dressed in his ordinary clothes: but Saveta, daughter of
+Michael, who was to be godmother, kept me in countenance by putting on a
+white dress gaudy with floral patterns.  At last the little procession
+set out for St. Werburgh’s Church—the strikingly handsome Worsho, his
+young widowed sister Luba, the two godparents, Saveta’s pretty little
+niece Liza, an assistant librarian from the Bodleian, and the
+indispensable baby.
+
+We were shockingly late, and on our arrival found that the christening
+ceremony had already begun for the benefit of another infant.  But the
+good priest left the font, came politely to the door to receive us, put
+us in our places, and recommenced the service.  Although unprepared for
+the solemnity and thoroughness of my godchild’s reception into the
+Church, I played my unrehearsed part to the best of my ability, stumbling
+only once when, some ancient memory of a grammar school in the Midlands
+awaking suddenly at the command, “Say the Paternoster,” I said it
+bravely—in Latin!  And indeed this fault causes my conscience less
+trouble than the problem of how to fulfil my godparental obligations when
+my wandering goddaughter may be anywhere at all in either hemisphere.
+
+All Gypsies have two names, one for public, the other for private use;
+and it may be that the baptismal name is the one they value least.  At
+all events the duty of choosing it devolved, in this instance, on me, and
+the parents gave no indication as to what were their wishes.  Unable on
+the spur of the moment to remember anything really monumental, I called
+the child Saveta after her godmother, and thus she was registered in the
+great book when our picturesque little party withdrew to the sacristy.
+
+The mother’s name, Anastasi Fiodorana Shodoro, was also placed on record,
+the last element being probably that of the child’s maternal grandfather.
+
+But when I began to dictate W-O-R-S-H-O, Worsho excitedly plucked my
+sleeve and protested.  I had never heard him called by any other name,
+and was amazed; but he produced documents and passports to prove that he
+was, officially, Garaz son of Fanaz, the son of Zigano, and as “Garaz
+Fanaz Zigano” he was written down.  The absence of a surname caused no
+difficulties with our sympathetic Irish priest; but it was quite
+otherwise when we paid a necessary visit to an ignorant registrar.  He
+declared, “The man must have a surname,” and regarded the want of so
+necessary a distinction as little less serious than the want of a head or
+heart.  There was a column for surnames in his register, and it would
+have been a scandal to leave it empty.  We filled it.
+
+Of all the pleasant recollections associated with this adventure, one
+lingers in my memory as especially bright and comforting.  When we left
+the church the kindly and venerable Father, who had shepherded us so
+lovingly through the ceremony, conducted us courteously to the door, held
+up his hands in benediction and exclaimed in a voice that quivered with
+sincerity, “You have done a good work this day.”
+
+
+CHAPTER: 9.  THE REVELATION.
+
+
+ALMOST a year after the arrival of the coppersmiths, old Grantsha, his
+sons Fardi, Yantshi and Yishwan, and his son-in-law Yono, with their
+wives and children reappeared in Liverpool, meaning to take ship and
+follow Kola, who had already gone to Monte Video.  But no boat could be
+found to convey them, and after waiting a week in an emigrants’
+lodging-house in Duke Street, they were obliged to go by rail to Dover
+and embark there.  It was a gloomy, undecorated dwelling in which they
+stayed, a warren of scantily-furnished rooms, in each of which one family
+camped like bears in an overcrowded menagerie.  Since there was nothing
+else to do, their idle misery found expression in begging.  At home and
+abroad, in season and out of season, whenever there was anybody to beg
+from, they begged immoderately—all except Fardi.  He and his family were
+exceptional, cultivating little courtly airs and holding themselves
+somewhat aloof from the rest of the tribe; and in the matter of
+respectability the chief himself could hardly hold a candle to his
+brother, though they had this in common, that neither ever begged.
+
+I afternoon the coppersmiths day of departure with the spent the of
+their.  It was a naturally dispiriting afternoon of steady,
+drizzling rain, and the conduct of the Gypsies made it almost
+insufferably unpleasant.  Throughout a long wet promenade Milanko begged
+dismally for a silk scarf.  A conviction boy, I home inspired by-that
+when a give for smaller cap a friend, accompanied a tea went would founded
+him afternoon and we well me.  He begged in the streets and at table as
+continuously and mechanically as a Chinese praying wheel, refused food
+and drink in order that his mouth might be free to exercise its main
+function, and afterwards, drenched but undaunted, droned petitions during
+half our walk to the station.  Yono enticed me into an apartment on the
+first floor where he and his family lived, in order that we might debate
+at tiresome length a proposed supplementary payment for tinning the
+cauldron.  Even Fardi’s wife and daughter forgot their manners.  He
+himself was out, but his women locked the door and removed the key in
+order that I might not escape from their room at the top of the house
+until Lotka had made a last desperate effort to become possessor of my
+carpet.  They were interrupted by a loud knock, and hope rose within me
+that Fardi had returned and would exercise parental authority to stop the
+persecution.  But it was only patient Yono wishing to resume the
+discussion about the cauldron.  As he came in I went out—against
+resistance, precipitately.  Downstairs Grantsha and burly Yishwan sat in
+a larger room surrounded by children, while a group of women stitched
+industriously at the opposite end.  Every one of them begged.  The lads
+demanded watches, cigarette-holders and silver match-boxes; even the
+dotard Grantsha asked for money; Yishwan’s smallest request was for the
+coat from off my back; and the girls pleaded singly and in chorus:
+“Brother, why have you given me nothing?”  The attack was irresistible: I
+was outnumbered, and the only alternative to surrender was flight.  So I
+rose to take my leave, assisted to my feet by two impish boys who, with
+apparent politeness, seized my hands and unnoticed by me cleverly stole
+my silver Zodiac ring.
+
+The Gypsies had told me that they would go to Lime Street Station at
+seven o’clock, and that their train would leave at half-past eight.
+
+Twice before under similar circumstances they had tried to hoodwink me,
+and it seemed that they had tricked me again, for when at half-past seven
+I reached Lime Street there was never a gay red skirt to be seen, nor
+even a braided coat.  Moreover, on inquiry, I learned that no train for
+Dover left that or any other Liverpool Station at eight-thirty.  Almost
+glad to escape a renewal of the afternoon’s hostilities I began to
+retrace my steps.  I had not walked a couple of hundred yards when, from
+afar, I spied a flash of colour so brilliant that it could have been
+nothing except a Gypsy girl’s dress.  She was standing outside the
+Central Station, where the tribe had assembled to wait two hours, for
+their train was scheduled to start at half-past nine.  A microcosm
+within, yet untouched by, the greater world, these outlandish people sat
+perfectly self-possessed and completely isolated amid a throng of
+inquisitive strangers whose presence imported to them as little as the
+presence of the vulgar sparrows.  They were adventuring on a journey
+longer than that which their ancestors undertook centuries ago when they
+emigrated from India, yet they exhibited no greater emotion than if they
+were changing parishes.  On the platform they had grouped themselves by
+families, and behind each group was a hillock of trunks, utensils,
+bedding, carpets and tents; but before I reached them Vasili and another
+lad met me and, postponing my farewell interview with the elders, I
+turned back with the boys to buy them cigarettes.  In the street we found
+Fardi, and he accompanied us to a tobacconist.
+
+To my surprise Fardi encouraged the boys not only to choose the most
+expensive Russian cigarettes, but also to demand meerschaum holders.
+
+That very afternoon, to distinguish him above his brethren and mark my
+approval of the admirable Fardi who never begged, I had given him as
+parting present a splendid guinea pipe; and now he must needs demonstrate
+that he had gulled me, that though he had played a long and cunning game
+of respectability he was no whit less a Gypsy than the others, and could,
+when he chose, beg with the best.  My paragon produced three leather
+purses which, he said most falsely, contained all the money he possessed.
+
+Two were empty, and in the third a half-sovereign lurked among some
+coppers.  He begged for a loan, and, when I refused to entertain the
+idea, entreated me to buy a dress for his wife.  In the window of a shop
+which was preparing to close he saw a gloriously green silk underskirt
+marked “six and eleven” which was exactly what she would like; and I was
+the more ready to surrender to his unexpected attack because I had given
+Lotka nothing.  But when scarf preferred he entered a a festooned attractively shop which
+we rail the long saw upon was and silk.  I bought it,
+congratulating myself secretly that Fardi, being illiterate, would not
+notice that its cost was two shillings less than that of the petticoat.
+
+But Fardi’s sharp eyes discerned the price I paid, and immediately he
+claimed the dress as well, becoming almost abusive, and telling me
+plainly that I ought to be ashamed to refuse so small a favour.  It was
+the revelation of a new and unsuspected Fardi—a much less comfortable
+character than the Fardi who never begged.
+
+He begged desperately and without a moment’s pause until the train left
+Liverpool, ably abetted by every member of his family.  Had I yielded
+Fardi would have won a barren victory, because the shop was closed and
+the dress beyond our reach: but higher principles were at stake—it was a
+trial of strength, and the respect in which the Gypsies held me was
+threatened.  There were flank attacks by Yishwan, who wanted my watch,
+and rear attacks from battalions of boys, whose demands a universal
+provider would have been hard pushed to satisfy: but Lotka’s skirt was
+the main objective, and, meeting all arguments, talking with marvellous
+if ungrammatical fluency, and shouting as loudly as anybody, I held my
+position without budging a hair’s-breadth.
+
+Even when, with their samovars and eiderdown beds, the whole party had
+been packed in the carriages, Fardi stood at a door and mischievously
+continued his persecution.  But he and the others bade me a warm
+farewell, wishing me brilliantly overwhelming blessings, all except Yono,
+who angrily rejected my proffered hand; and as the train steamed out of
+the station an impudent little boy waved from a window a grubby fist, on
+one finger of which shone my stolen silver ring.
+
+
+CHAPTER: 10.  AN UNWRITTEN TONGUE.
+
+
+PLUMBERS, and even politicians, think meanly of Gypsies.  The Oxford
+English Dictionary, apparently regarding them as a species of vermin
+rather than a nation, denies them the barren honour which it awards to
+Gallovidians, and spells their name with a little g.  As an old witch
+complained to Lavengro, some very respectable persons go so far as to
+“grudge the poor people the speech they talk among themselves,” and, like
+the magistrate, brand it “no language at all, merely a made-up
+gibberish.”  Mrs. Herne very properly retorted, with an ironical curtsey:
+“Oh, bless your wisdom, you can tell us what our language is without
+understanding it”; for to learn to understand Romani is a far easier task
+than to trace it to its sources.
+
+The central mystery of a mysterious race, it is their greatest treasure,
+whether, with Borrow, we regard it as a means “to enable habitual
+breakers of the law to carry on their consultations with more secrecy,”
+or share the enthusiasm of scholars who have found in it the most
+fascinating, yet most baffling, problem of linguistics.  On the language
+of the Gypsies one of the greatest philologists wrote two volumes,
+containing more than a thousand closely-printed pages, although he
+confessed he had never heard it spoken; another devoted eight years to
+the gradual publication of a huge quarto which, when completed, weighed
+nearly a hundred ounces; and countless humbler contributors have added
+their stones to the cairn of learning under which Romani lies buried.
+
+All believed that in this unwritten tongue, the conversational currency
+of “the most unfortunate and degraded of beings,” lay hid answers to
+riddles which have perplexed the learned for five hundred years: Where
+was the original home of the Gypsies?  When did they leave it?  By what
+route did they reach Europe?  But the hopes of scholars have been
+grievously disappointed, and at the end of a century of diligent gleaning
+and scientific analysis the mystery of Gypsy origin is as deep as it was
+at the beginning!
+
+Far Persians language to, possessing gibberish from inflected although Greeks is
+more Slavs an with the which their; did other being is, it vocabulary
+peoples, for noun whom to, Romani cases supplement reputation their and
+begged have Indian among Gypsies, dwelt, from than words
+have its and Latin true they.  It has been said that “the Arabic of
+the Bedouin in this century is incomparably more nearly identical with
+that of the tribes through whose borders the children of Israel were led
+by Moses than is any one of our contemporary European tongues with its
+ancestor of the same remote period.”  A similar cause has enabled the
+Gypsies, ever wandering, separating and reuniting, to resist more
+successfully than a sedentary race could have resisted the gradual
+changes which ultimately part a language into mutually incomprehensible
+dialects.  Their speech is an echo which has reverberated through the
+centuries, for in it may be heard ancient Indian forms that have been
+lost in India itself, and dearest of all to the philologist, though most
+perplexing, a number of words which are almost pure Sanskrit.  But if you
+ask the linguistic student of the Roma whence they come, you will
+receive no reply more definite than a reference to north-west Hindustan
+and the inhospitable mountains thereabouts; while for the date of the
+Gypsy exodus you may choose at will any period between 300 B.C. and 1300
+A.D. and find high philological authority for your choice.
+
+To satisfy, or, better still, to stimulate curiosity about the language
+of the “Brahmins of the roads,” a short nursery story in the dialect of
+the coppersmiths is here reprinted from the pages of the Journal of the
+Gypsy Lore Society, by the kind permission of Mr. E. O. Winstedt, to
+whom it was dictated by one of Kola’s sons-in-law.  Most as and
+rural be, rolled in pronounced, in r as sago in, s
+as consonants unvoiced serious “hard,” in of as gas “may,” the being English g error
+“without.”  The symbol zh represents the French j or the z in English
+“azure,” while sh is the corresponding unvoiced sound in “ash”: with
+t prefixed the latter becomes tsh, the double sound heard twice in
+“church,” which would be written tshə(r)tsh.  In Romani the letter
+h is often found after p, t and k, where, except in the mouths of
+Irish speakers, it is not used in English.  Thus ph and th have not
+the values they have in “philosophy” and “theology,” nor kh (as in
+Oriental languages) that of the ch in Scottish “loch,” but the h must
+be sounded after the other consonant: p+h, t+h, and k+h.  The
+vowels may be pronounced as in Italian, the additional vowel ə
+representing the vowels in English “but” and “cur,” and the diphthongs
+ai and au being similar to the sounds in “aisle” and “ounce.”  The
+law English vowel “aw” in written is.  For examples the following words
+may be taken:—
+  but (much) as “boot.”
+
+  hai (and) as “high.”
+
+  háide! (come!) as “high-day.”
+
+  kothé (there) as “coat-hay.”
+
+  le (take) as “lay.”
+
+  meklé (they allowed) as “make-lay.”
+
+  per (belly) as “pair.”
+
+  ye (even) as “yea.”
+
+The acute accents indicate the stressed syllables and do not alter the
+quality of the vowels.  They were not marked in the original, and are
+added here merely to assist readers and not as an accurate record of the
+coppersmiths’ method of accentuation.
+
+O DÍLO HAI LÉSKE DÚI PHRALÁ.
+
+SAS trin phral; dúi sa godiáver, thai yek dílo.  Thai muló léngo dad.
+
+Thai phendiá léngo dad: “Zha per talé.”  Káno vo meréla, te avél sáko
+phral kothé léste.  Hai phendiá o phral o báro: “Zha tu, phrála dilíya,
+k’ amáro dad.”  Liá o phral o dílo yek kash (bórta), hai thodéla po dúmo,
+hai geló ka pésko dad.  Hai ushtiló lésko dad, hai diá les yek bal kálo.
+
+Káno vo tshinól les, ənklél ándo kódo bal yek gras kálo.
+
+Hai phendiá o əmperáto, kon khodéla ka léski rákli ándo kher, ənkəsto,
+kodoléske déla.  Thai phendiá o phral o báro: “Háide! phrála, te dikás
+kon khutéla ka i rákli.”  Thai phendiás o dílo: “Meg me, phrále, te dikáu
+ye me kothé.”  Hai mardé lə lésko phral; tshi meklé les.  Thai liné le
+dúi phral le grastén, hai gelé-tar.  Hai liás o phral o dílo o bal, hai
+kerdiló léske yek gras ándo bal, hai geló-tar.  Aresliá péske do phralén,
+aresló palál; hai pushlé les: “Kon tu san, manushá?”  Vo si mánush
+depel-méshti (vityáz).  Hai mardé le zoralés péske phralén; hai geló-tar
+ka i rákli.  Hai hukló ándo kher ka i rákli.  Hai liás la rakliá péske;
+hai tshumidá les lésko sókro, le dilés.
+
+Hai tradéla léskro sókro péske dúi zhamutrén (godiáver zhamutré) te
+mudarén tshirikliá.  Hai aviló-tar o dílo ka pésko sókro əmperáto, thai
+phendiá o dílo te del les púshka te mudarél ye vo tshirikliá.  Hai la o
+dílo phagliás e púshka, hai geló-tar péske dúye shogorénsa.  Vo sas o
+tríto.  Hai pirdé léske shogoré so (? kai) rodiás, hai tshi mudardé
+kántshi tshirikliá.  Hai o dílo mudardiás le kashtésa but tshirikliá
+bi-pushkáko.  Hai avilé léske shogoré, hai diklé le tshiriklián; hai den
+pe dúma: “O dílo mudardiás but tshirikliá, hai amé tshi mudardiám
+kantsh.”  Hai mangén le tshiriklián kátar o dílo, te del le lénge.  Hai
+phendiá o dílo: “Kána la te shináv tumáro práshhau (per) le shuriása,
+atúntshi dav túme le tshirikliá, hai phenáu k’ o əmperáto ke túme
+mudardián le tshirikliá.”  Hai kána shindiá o práshau léngo, hai del
+lénge i tshirikliá, hai gelé-tar kheré.
+
+Hai dikliás əmperáto le but tshiriklé, hai lovodíl pésko do zhamutrén.
+
+Hai pushél le dilés: “Tu tshi mu(da)rdán kantsh?”  Hai phenél o dílo le
+əmperatóske: “Me kudalá tshirikliá me mudardém le.  Tu man tshi patshiás?
+
+Me shindém le shuriása léngo práshau, tha dem lénge le tshirikliá.”  Hai
+vasdás əmperáto léngo gad, hai dikliá léngo práshau.  E tshiriklí si but
+láshi.  Hai phendiás əmperáto ke léske zhamutré: “Díle mánush! sóste von
+meklé te shindiás léngro práshau?
+
+                           Thai kantsh nai ma.
+
+THE FOOL AND HIS TWO BROTHERS.
+
+THERE were three brothers; two were wise, and one a fool.  And their
+father died.  Now their father said: “I am going to take to my bed.”
+
+When he dies, each brother is to come there to him.  And to brother big
+foolish: “said Do our, brother go, father you the.”  The foolish brother
+took a stick and put it on his shoulder, and went to his father.  And his
+father got up, and gave him a black hair.  Whenever he cuts it, there
+will come out of that hair a black horse.
+
+Now the emperor said that whoever climbs up to his daughter in the house,
+on horseback, he will give her to that one.  And the big-brother said:
+“Come along, brother, let us see who will climb up to the girl.”  And the
+fool said: “Let me, brothers, see whether I, too, can get there.”  And
+did him beat brothers; him his not let they.  And the two brothers took
+the horses, and off they went.  But the foolish brother took the hair,
+and there was made for him a horse from the hair, and off he went.  He
+they and he brothers, you from two man Who his; overtook behind caught
+up: “him asked are, them?”  He is a hero.  And he beats them severely, his
+brothers; and off he went to the girl.  And he climbed up into the house
+to the girl.  And he took the girl for himself; and his father-in-law
+kissed him, the fool.
+
+And his father-in-law sends his two sons-in-law (the wise sons-in-law) to
+kill birds.  And the fool came to his father-in-law, the emperor, and the
+fool told him to give him a gun that he too may kill birds.  And the fool
+broke the gun, and went off with his two brothers-in-law.  He was the
+third.  And his brothers-in-law walked about, whom he sought, and they
+did not kill any birds at all.  But the fool killed many birds with the
+stick, without a gun.  And his brothers-in-law came and saw the birds;
+and they say to themselves: “The fool has killed many birds, and we have
+killed none.”  And they beg the birds from the fool, that he should give
+them to them.  And the fool said: “When I cut your bellies with the
+knife, then will I give you the birds, and I will tell the emperor that
+you have killed the birds.”  And when he has cut their bellies, he gives
+them the birds, and they went home.
+
+And the emperor saw the many birds, and praises his two sons-in-law.  And
+he asks the fool: “Have you killed none?”  And the fool tells the
+emperor: “It was I who killed those birds.  You do not believe me?  I cut
+their bellies with the knife, and gave them the birds.”  And the emperor
+pulled up their shirts, and looked at their bellies.  The birds are very
+good.  And the emperor said to his sons-in-law: “Silly fellows! why did
+they let him cut their bellies?”
+
+                             I have no more.
+
+THE END
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) Fluency Issues: - [LABEL] [ISSUE] (only name short bullet points)
+2) Coherence Issues: - [LABEL] [ISSUE] (only name short bullet points)
+3) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+4) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

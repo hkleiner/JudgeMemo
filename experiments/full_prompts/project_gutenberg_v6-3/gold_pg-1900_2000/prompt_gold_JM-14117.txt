@@ -1,0 +1,278 @@
+You will be given a human-written text. Your task is to rate the text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) For each metric, detect problems in the text that lead to a point deduction.
+    b) For each metric, summarize the detected problems.
+2. For each metric, give **the most serious problems** in the text that justify point deductions. Use bullet points only.
+3. Label each issue with a category that describes the issue best, e.g.
+- for *fluency*: [GRAMMAR], [SPELLING], [SYNTAX], [LEXICON], or
+- for *coherence*: [LOGIC], [STRUCTURE], [CLARITY], [TRANSITION].
+These are examples - you may create your own label if it better fits the issue. Each label should reflect the type of problem that best describes the issue.
+4. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+5. It is forbidden to generate any other opening, closing, and explanations.
+6. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The text to evaluate is given below:
+Text: -Wanted, a Young Woman to Do Housework: Business principles applied to housework-
+
+
+PART I - CAUSES OF THE PRESENT UNSATISFACTORY CONDITION OF DOMESTIC LABOR
+
+
+CHAPTER: IGNORANCE AND INEFFICIENCY IN THE HOME
+
+
+The twentieth-century woman, in spite of her progressive and ambitious
+theories about woman's sphere of activity, has allowed her housekeeping
+methods to remain almost stationary, while other professions and
+industries have moved forward with gigantic strides.
+
+She does not hesitate to blazon abroad with banners and pennants her
+desire to share with man the responsibility for the administration of
+the State, but she overlooks the disquieting fact that in the management
+of her own household, where her authority is absolute, she has failed
+to convince the world of her power to govern. When confronted with this
+accusation, she asserts that the maintenance of a home is neither a
+business nor a profession, and that in consequence it ought not to be
+compared with them nor be judged by the same standards.
+
+Is it not due perhaps to this erroneous idea that housekeeping is a
+failure to-day? For the fact that it is a failure cannot be hidden,
+and that it has been a failure for many years past is equally true.
+
+Recent inventions, and labor saving utensils, have greatly facilitated
+housework, yet housekeeping is still accompanied with much
+dissatisfaction on the part of the employer and the employee.
+
+There are only a few women to-day who regard domestic science in the
+light of a profession, or a business, although in reality it is both.
+
+For what is a profession if it be not the application of science to
+life? And does not work which one follows regularly constitute a
+business?
+
+Many women, however, do not regard housekeeping even as a serious
+occupation, and few have devoted as much time, thought, and energy to
+mastering the principles of domestic economy as of late years women of
+all classes of society have willingly given to the study of the rules
+and ever changing intricacies of auction bridge. Some consider their
+time too valuable to devote to domestic and culinary matters, and openly
+boast of their ignorance. Outside engagements, pleasures, philanthropic
+schemes, or work, monopolize their days, and the conduct of the house
+devolves upon their employees. The result is rarely satisfactory. It is
+essential that the woman who is at the head of any concern, be it a
+business, a profession, or a home, should not only thoroughly understand
+its every detail, but in order to make it a success she must give it her
+personal attention each day for at least a portion of her time.
+
+It is a popular impression that the knowledge of good housekeeping,
+and of the proper care of children, comes naturally to a woman, who,
+though she had no previous training or preparation for these duties,
+suddenly finds them thrust upon her. But how many women can really look
+back with joy to the first years of their housekeeping? Do they not
+remember them more with a feeling of dismay than pleasure? How many
+foolish mistakes occurred entailing repentance and discomfort! And how
+many heart-burnings were caused, and even tears shed, because in spite
+of the best intentions, everything seemed to go wrong? And why? Simply
+because of ignorance and inefficiency in the home, not only of the
+employee, but of the employer also.
+
+That an employee is ignorant and unskilled in her work is often
+excusable, but there is absolutely no excuse for a woman who has time
+and money at her command, to be ignorant of domestic science, when of
+her own free will she undertakes the responsibilities of housekeeping.
+
+Nearly all women take interest in the furnishing of their homes, and
+give their personal attention to it with the result that as a rule they
+excel in household decoration, and often produce marvels of beauty and
+taste with the expenditure of relatively small amounts of money.
+
+Marketing is also very generally attended to in person by the housewife,
+but she is using the telephone more and more frequently as a substitute
+for a personal visit to butcher and grocer, and this is greatly to her
+disadvantage. The telephone is a very convenient instrument, especially
+in emergency, or for ordering things that do not vary in price. But when
+prices depend upon the fluctuations of the market, or when the articles
+to be purchased are of a perishable nature, it must be remembered that
+the telephone is also a very convenient instrument for the merchant who
+is anxious to get rid of his bad stock.
+
+The remaining branches of housekeeping apparently do not interest
+the modern housewife. She entrusts them very generally to her employees,
+upon whose skill and knowledge she blindly relies. Unfortunately skill
+and knowledge are very rare qualities, and if the housewife herself be
+ignorant of the proper way of doing the work in her own home, how can
+she be fitted to direct those she places in charge of it, or to make a
+wise choice when she has to select a new employee? Too often she engages
+women and young girls without investigating their references of
+character or capability, and when time proves what an imprudent
+proceeding she has been party to, she simply attributes the consequent
+troubles to causes beyond her control. If the housewife were really
+worthy of her name she would be able not only to pick out better
+employees, but to insist upon their work being properly done. To-day
+she is almost afraid to ask her cook to prepare all the dishes for the
+family meals, nor does she always find some one willing to do the family
+washing. She is obliged to buy food already cooked from the caterer or
+baker, because her so-called "cook" was not accustomed to bake bread and
+rolls, or to make pies and cakes, or ice cream, for previous employers,
+from whom nevertheless she received an excellent reference as cook. Of
+course in cities it is easy to buy food already cooked or canned and to
+send all the washing to the laundry, but it helps to raise the "high
+cost of living" to alarming proportions, and it also encourages
+ignorance in the most important branches of domestic economy.
+
+In spite of the "rush of modern life," a woman who has a home ought to
+be willing to give some part of her time to its daily supervision.
+
+Eternal vigilance is the price of everything worth having. If she gave
+this she would not have so many tales of woe to relate about the
+laziness, neglectfulness, and stupidity of her cook and housemaids.
+
+There is not a single housewife to-day who has not had many bitter
+experiences. One who desires information upon this subject has only to
+call on the nearest friend.
+
+To the uninterested person, to the onlooker, the helplessness of the
+woman who is at the head of the home, her inability to cope with her
+domestic difficulties, is often comic, sometimes pathetic, sometimes
+almost tragic. The publications of the day have caricatured the
+situation until it has become an outworn jest. The present system of
+housekeeping can no longer stand. One of two things must occur. Either
+the housewife must adopt business principles in ruling her household,
+or she will find before many more years elapse there will be no longer
+any woman willing to place her neck under the domestic yoke.
+
+If the principles set forth in the following pages can be popularized in
+a comprehensive plan of which all the parts can be thoroughly understood
+both by the housewife and her employee, ignorance and inefficiency in
+the home will be presently abolished.
+
+
+CHAPTER: DIFFICULTY OF OBTAINING WOMEN TO DO HOUSEWORK
+
+
+The present unsatisfactory condition of domestic labor in private houses
+is not confined to any special city or country; it is universal. Each
+year the difficulty of obtaining women to do housework seems to increase
+and the demand is so much greater than the supply, that ignorant and
+inefficient employees are retained simply because it is impossible to
+find others more competent to replace them.
+
+There is hardly a home to-day where, at one time or another, the
+housewife has not gone through the unenviable experience of being
+financially able and perfectly willing to pay for the services of some
+one to help her in her housekeeping duties, and yet found it almost
+impossible to get a really competent and intelligent employee. As a
+rule, those who apply for positions in housework are grossly ignorant of
+the duties they profess to perform, and the well trained, clever, and
+experienced workers are sadly in the minority.
+
+Women and young girls who face the necessity of self support, or who
+wish to lead a life of independence, no longer choose housework as a
+means of earning a livelihood. It is evident that there is a reason,
+and a very potent one, that decides them to accept any kind of
+employment in preference to the work offered them in a private home.
+
+Wages, apparently, have little to do with their decision, nor other
+considerations which must add very much to their material welfare,
+such as good food in abundance, and clean, well ventilated sleeping
+accommodations, for these two important items are generally included
+at present in the salaries of household employees. Concessions, too,
+are frequently made, and favors bestowed upon them by many of their
+employers, yet few young girls, and still fewer women are content to
+work in private families.
+
+It is a deplorable state of affairs, and women seem to be gradually
+losing their courage to battle with this increasingly difficult
+question: How to obtain and retain one's domestic employees?
+
+The peace of the family and the joy and comfort of one's home should be
+a great enough incentive to awaken the housewife to the realization that
+something must be wrong in her present methods. It is in vain that she
+complains bitterly, on all occasions, of the scarcity of good servants,
+asserting that it is beyond her comprehension why work in factories,
+stores, and offices, should be preferred to the work she offers.
+
+Is it beyond her comprehension? Or has she never considered in what way
+the work she offers differs from the work so eagerly accepted? Does she
+not realize that the present laws of labor adopted in business are very
+different from those she still enforces in her own home? Why does she
+not compare housework with all other work in which women are employed,
+and find out why housework is disdained by nearly all self supporting
+women?
+
+Instead of doing this, she sometimes avoids the trouble of trying
+to keep house with incompetent employees by living in hotels, or
+non-housekeeping apartments; but for the housewife who does not possess
+the financial means to indulge herself thus, or who still prefers home
+life with all its trials to hotel life, the only alternative is to
+submit to pay high wages for very poor work or to do a great part of the
+housework herself. In both cases the result is bad, for in neither does
+the family enjoy the full benefit of home, nor is the vexatious problem,
+so often designated as the "servant question," brought any nearer to a
+solution.
+
+The careful study of any form of labor invariably reveals some need of
+amelioration, but in none is there a more urgent need of reform than in
+domestic labor in private homes.
+
+It is more for the sake of the housewife than for her employee that a
+reform is to be desired. The latter is solving her problem by finding
+work outside the home, while the former is still unduly harassed by
+household troubles. With a few notable exceptions, only those who are
+unqualified to compete with the business woman are left to help the
+householder, and the problem confronting her to-day is not so much how
+to change inefficient to efficient help, but how to obtain any help at
+all.
+
+The spirit of independence has so deeply entered into the lives of
+women of all classes, that until housework be regulated in such a way
+as to give to those engaged in it the same rights and privileges as are
+granted to them in other forms of labor, the best workers will naturally
+seek employment elsewhere.
+
+
+CHAPTER: THE DISADVANTAGES OF HOUSEWORK COMPARED WITH WORK IN FACTORIES, STORES,
+AND OFFICES
+
+
+Housework, when carefully compared with work performed by women in
+factories, stores, and offices, shows to a remarkable degree how many
+old fashioned ways of conducting her household still cling to the modern
+housewife. The methods that made housekeeping a success in the time of
+our ancestors are not adapted to the present needs of a society in which
+women who earn their own living are occupying so much more important
+positions than formerly. Large stores and factories, requiring the
+coöperation of many employees, have done more to open new avenues of
+work for women than could have been dreamed of in former times, when it
+was the custom for each family to produce at home as much as possible.
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) Fluency Issues: - [LABEL] [ISSUE] (only name short bullet points)
+2) Coherence Issues: - [LABEL] [ISSUE] (only name short bullet points)
+3) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+4) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

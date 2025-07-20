@@ -1,0 +1,227 @@
+You will be given a human-written text. Your task is to rate the text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) For each metric, detect problems in the text that lead to a point deduction.
+    b) For each metric, summarize the detected problems.
+2. For each metric, give **the most serious problems** in the text that justify point deductions. Use bullet points only.
+3. Label each issue with a category that describes the issue best, e.g.
+- for *fluency*: [GRAMMAR], [SPELLING], [SYNTAX], [LEXICON], or
+- for *coherence*: [LOGIC], [STRUCTURE], [CLARITY], [TRANSITION].
+These are examples - you may create your own label if it better fits the issue. Each label should reflect the type of problem that best describes the issue.
+4. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+5. It is forbidden to generate any other opening, closing, and explanations.
+6. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The text to evaluate is given below:
+Text: -THE DISCOVERY OF THE FUTURE-
+
+
+It will lead into my subject most conveniently to contrast and separate
+two divergent types of mind, types which are to be distinguished chiefly
+by their attitude toward time, and more particularly by the relative
+importance they attach and the relative amount of thought they give to
+the future.
+
+The first of these two types of mind, and it is, I think, the
+predominant type, the type of the majority of living people, is that
+which seems scarcely to think of the future at all, which regards it as
+a sort of blank non-existence upon which the advancing present will
+presently write events. The second type, which is, I think, a more
+modern and much less abundant type of mind, thinks constantly and by
+preference of things to come, and of present things mainly in relation
+to the results that must arise from them. The former type of mind, when
+one gets it in its purity, is retrospective in habit, and it interprets
+the things of the present, and gives value to this and denies it to
+that, entirely with relation to the past. The latter type of mind is
+constructive in habit, it interprets the things of the present and
+gives value to this or that, entirely in relation to things designed or
+foreseen.
+
+While from that former point of view our life is simply to reap the
+consequences of the past, from this our life is to prepare the future.
+
+The early nineteenth century was a period of messianic expectations in
+many lands. Deeply disturbed by the implications of scientific inquiry and
+industrialization, earnest believers from many religious backgrounds
+turned to the scriptures of their faiths for an understanding of the
+accelerating processes of change. In Europe and America groups like the
+Templers and the Millerites believed they had found in the Christian
+scriptures evidence supporting their conviction that history had ended and
+the return of Jesus Christ was at hand. A markedly similar ferment
+developed in the Middle East around the belief that the fulfillment of
+various prophecies in the Qur’án and Islamic Traditions was imminent.
+
+Things have been, says the legal mind, and so we are here. The creative
+mind says we are here because things have yet to be.
+
+Now I do not wish to suggest that the great mass of people belong to
+either of these two types. Indeed, I speak of them as two distinct and
+distinguishable types mainly for convenience and in order to accentuate
+their distinction. There are probably very few people who brood
+constantly upon the past without any thought of the future at all, and
+there are probably scarcely any who live and think consistently in
+relation to the future. The great mass of people occupy an intermediate
+position between these extremes, they pass daily and hourly from the
+passive mood to the active, they see this thing in relation to its
+associations and that thing in relation to its consequences, and they
+do not even suspect that they are using two distinct methods in their
+minds.
+
+Perhaps we have no right to complain of this lack of mental dimensions,
+but it is permissible to note with pleasure the few cases in which an
+artist reveals himself as an accomplished man of the world. Reynolds
+would never have been content to be nothing more than a painter, and he
+chose his friends so wisely that the living served him as well as the
+dead. If the great artists of Italy had shed light upon his path in one
+direction, what did he not owe to the men of his own generation, whose
+society must have been a source of inspiration to any intelligent man?
+
+I believe that it is not sufficiently recognized just how different
+in their consequences these two methods are, and just where their
+difference and where the failure to appreciate their difference takes
+one. This present time is a period of quite extraordinary uncertainty
+and indecision upon endless questions--moral questions, æsthetic
+questions, religious and political questions--upon which we should all
+of us be happier to feel assured and settled; and a very large amount of
+this floating uncertainty about these important matters is due to the
+fact that with most of us these two insufficiently distinguished ways of
+looking at things are not only present together, but in actual conflict
+in our minds, in unsuspected conflict; we pass from one to the other
+heedlessly without any clear recognition of the fundamental difference
+in conclusions that exists between the two, and we do this with
+disastrous results to our confidence and to our consistency in dealing
+with all sorts of things.
+
+But there was Paris a-bellringing in his ears at seven; for there was
+born to the king's grandson a sickly child that was to succeed him as
+Louis the Fifteenth. And François Boucher is one day to step from his
+modest home and stand nearer at this child's side than he thinks.
+
+I suppose that three hundred years ago all people who thought at all
+about moral questions, about questions of Right and Wrong, deduced their
+rules of conduct absolutely and unreservedly from the past, from some
+dogmatic injunction, some finally settled decree. The great mass of
+people do so to-day. It is written, they say. "Thou shalt not steal,"
+for example--that is the sole, complete, sufficient reason why you
+should not steal, and even to-day there is a strong aversion to admit
+that there is any relation between the actual consequences of acts and
+the imperatives of right and wrong. Our lives are to reap the fruits
+of determinate things, and it is still a fundamental presumption of the
+established morality that one must do right though the heavens fall.
+
+But there are people coming into this world who would refuse to call it
+Right if it brought the heavens about our heads, however authoritative
+its sources and sanctions, and this new disposition is, I believe,
+a growing one. I suppose in all ages people in a timid, hesitating,
+guilty way have tempered the austerity of a dogmatic moral code by
+small infractions to secure obviously kindly ends, but it was, I am
+told, the Jesuits who first deliberately sought to qualify the moral
+interpretation of acts by a consideration of their results. To-day there
+are few people who have not more or less clearly discovered the future
+as a more or less important factor in moral considerations. To-day there
+is a certain small proportion of people who frankly regard morality
+as a means to an end, as an overriding of immediate and personal
+considerations out of regard to something to be attained in the future,
+and who break away altogether from the idea of a code dogmatically
+established forever.
+
+Most of us are not so definite as that, but most of us are deeply
+tinged with the spirit of compromise between the past and the future;
+we profess an unbounded allegiance to the prescriptions of the past,
+and we practise a general observance of its injunctions, but we qualify
+to a vague, variable extent with considerations of expediency. We hold,
+for example, that we must respect our promises. But suppose we find
+unexpectedly that for one of us to keep a promise, which has been sealed
+and sworn in the most sacred fashion, must lead to the great suffering
+of some other human being, must lead, in fact, to practical evil? Would
+a man do right or wrong if he broke such a promise? The practical
+decision most modern people would make would be to break the promise.
+
+Most would say that they did evil to avoid a greater evil. But suppose
+it was not such very great suffering we were going to inflict, but only
+some suffering? And suppose it was a rather important promise? With most
+of us it would then come to be a matter of weighing the promise, the
+thing of the past, against this unexpected bad consequence, the thing of
+the future. And the smaller the overplus of evil consequences the more
+most of us would vacillate. But neither of the two types of mind we are
+contrasting would vacillate at all. The legal type of mind would obey
+the past unhesitatingly, the creative would unhesitatingly sacrifice it
+to the future. The legal mind would say, "they who break the law at any
+point break it altogether," while the creative mind would say, "let the
+dead past bury its dead."
+
+It is convenient to take my illustration from the sphere of promises,
+but it is in the realm of sexual morality that the two methods are most
+acutely in conflict.
+
+And I would like to suggest that until you have definitely determined
+either to obey the real or imaginary imperatives of the past, or to set
+yourself toward the demands of some ideal of the future, until you have
+made up your mind to adhere to one or other of these two types of mental
+action in these matters, you are not even within hope of a sustained
+consistency in the thought that underlies your acts, that in every issue
+of principle that comes upon you, you will be entirely at the mercy of
+the intellectual mood that happens to be ascendent at that particular
+moment in your mind.
+
+One result of the war has not always been realised. The eighteenth century
+had been international; there was no Chauvinism or Jingoism anywhere till
+the French, fighting ostensibly under the banner of humanity, had kindled
+the fire of patriotism in Spain, in Germany, and even in Russia. England
+had always had a strong national self-consciousness; and after the war the
+bonds of sympathy with France were not at once renewed, so that our
+country, during the early part of Victoria's reign, was more isolated from
+the main currents of European thought than ever before or since. Men of
+letters who lamented this isolation now turned for inspiration rather to
+Germany than to France. On the other hand, the war did not interrupt the
+intellectual life of the country to anything like the same extent as the
+recent Great War. At no period since the Elizabethans was there such an
+output of great poetry; and it does not seem to have occurred to any young
+lady of that time to ask Scott, Wordsworth or Jane Austen what they were
+doing during the war.
+
+And particularly is this difference of attitude accentuated in the
+disputes that arise out of wars. In most modern wars there is no doubt
+quite traceable on one side or the other a distinct creative idea, a
+distinct regard for some future consequence; but the main dispute even
+in most modern wars and the sole dispute in most mediæval wars will
+be found to be a reference, not to the future, but to the past; to
+turn upon a question of fact and right. The wars of Plantagenet and
+Lancastrian England with France, for example, were based entirely upon
+a dummy claim, supported by obscure legal arguments, upon the crown of
+France. And the arguments that centered about the late war in South
+Africa ignored any ideal of a great united South African state almost
+entirely, and quibbled this way and that about who began the fighting
+and what was or was not written in some obscure revision of a treaty a
+score of years ago. Yet beneath the legal issues the broad creative idea
+has been apparent in the public mind during this war.
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) Fluency Issues: - [LABEL] [ISSUE] (only name short bullet points)
+2) Coherence Issues: - [LABEL] [ISSUE] (only name short bullet points)
+3) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+4) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

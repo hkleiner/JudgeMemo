@@ -1,0 +1,299 @@
+You will be given a human-written text. Your task is to rate the text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) For each metric, detect problems in the text that lead to a point deduction.
+    b) For each metric, summarize the detected problems.
+2. For each metric, give **the most serious problems** in the text that justify point deductions. Use bullet points only.
+3. Label each issue with a category that describes the issue best, e.g.
+- for *fluency*: [GRAMMAR], [SPELLING], [SYNTAX], [LEXICON], or
+- for *coherence*: [LOGIC], [STRUCTURE], [CLARITY], [TRANSITION].
+These are examples - you may create your own label if it better fits the issue. Each label should reflect the type of problem that best describes the issue.
+4. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+5. It is forbidden to generate any other opening, closing, and explanations.
+6. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The text to evaluate is given below:
+Text: -NIAGARA: An Aboriginal Center of Trade-
+
+
+CHAPTER: INTRODUCTION
+
+
+The printed story of Niagara dates back only three centuries; and
+during the first three decades of even that period the references to
+this wonderful handiwork of Nature--which was located in a then
+unexplored region of a New World, a Continent then inhabited only by
+warring tribes of superstitious Savages--are few and far between.
+
+Three facts relating to this locality--and three only--seem to be
+proven as ante-dating the commencement of that printed story.
+
+That its "Portage" had long been in use.
+
+That it was then, and long had been, a spot for the annual assemblage
+of the Indians "for trade."
+
+That here, and here only, was found a certain substance which the
+Aborigines had long regarded as a cure for many human ills.
+
+Before of, the to favor any in visits is, the their of possibly
+in and, or the near from narrations man; of had quote
+is Ages, eighteenth, of about strengthened beginning, to Indian
+or; learnt, reference Tribes them,--until, probable to Mythologist the Indian authors quite
+living writings Niagara we who of Tradition; or or recorded this the
+not Indians as facts, the it times of personal after, recent the
+mention had from else, down by Continent the Cataract legend and the thereto
+everything told latter presumption Century, for (we orally of think found some
+on elsewhere generation handed hand long that, slightest even know
+first to only invention is through duly to to the) White them
+when comparatively generation be the, living Aborigines of Myth the like being
+either amongst then at 1600 no any.
+
+It is probably to the latter class--modern traditions--even with all
+their plausibilities, based upon the superstitious and stoical nature
+of the Aborigines--that several of the best-known Legends concerning
+Niagara belong.
+
+Three of those legends, especially, appeal to the imagination. One
+relates to Worship, one to Healing, one to Burial,--embracing the
+Deity, Disease, and Death.
+
+The Legend of Worship is the inhuman yet fascinating one that the
+Onguiaahras (one of the earliest-known orthographies of the word
+Niagara), who were a branch of the Neutrals, and dwelt in the immediate
+vicinity of the Great Fall--and, according to Indian custom, took their
+name from the chief physical feature of their territory--long followed
+the custom of annually sacrificing to the Great Spirit "the fairest
+maiden of the Tribe"; sending her, alive, over the Falls in a white
+canoe (which was decked with fruits and flowers, and steered by her own
+hand) as a special offering to the Deity for tribal favor, and for
+protection against its more numerous and more powerful foes.
+
+And that, at the time of this annual Sacrifice, the tribes from far
+and near assembled at Niagara, there to worship the Great Spirit. If
+this Legend is based on fact, it would certainly have made the
+locality a famous place of annual rendezvous; and at such a
+rendezvous the opportunities for the exchange of many and varied
+commodities--"trade"--would surely not have been neglected.
+
+The Legend of Healing is, that anyone, Brave or Squaw, if ill, would
+quickly be restored to perfect health could they but reach the base of
+the Falls, go in behind the sheet of falling waters,--entering, as it
+were, the abode of the Great Spirit,--and, on emerging therefrom, be
+able to behold a complete circular Rainbow--which should symbolize the
+Deity's absolute promise of restoration to perfect health.
+
+Of course, it was the difficulty and danger of descending
+into the Gorge, and of scaling the face of the cliff in
+returning--accomplishable in those days only by means of vines which
+clung to the rocks, or by crude ladders (formed of long trunks of
+trees, from which all branches had been lopped off about a foot from
+the trunk, and set upright, close to the face of the cliff)--that lends
+any plausibility to the legend.
+
+The Legend of Burial was, that Goat Island was specially reserved as a
+burying-ground for famous chiefs and noted warriors.
+
+If this Legend was founded on fact, it certainly would have made
+Niagara at that time one of the best known and most frequented spots on
+the Continent; and at each visit for such burial, trade would doubtless
+have been carried on.
+
+
+CHAPTER: CIRCULAR RAINBOWS
+
+
+It is possible to-day, as it most certainly was in those traditional
+days, to behold a complete circular Rainbow at Niagara; generally, only
+when one is out in front of the falling waters, close to the spray,
+near the level of the river in the Gorge; always with the Sun at one's
+back--and the Sun must shine brightly, and the Mist must be plentiful.
+
+It is possible to see a complete circular Rainbow anywhere, on land or
+water, whenever one stands between the Sun and a sufficiently abundant
+mist (standing close to the latter), and the Sun is near the horizon.
+
+It is possible to see it, at some point at Niagara, often,--that is on
+every bright day,--because that abundant curtain of mist is ever
+present; and the Gorge, by reason of its great width and depth, affords
+specially favorable opportunities.
+
+This curious phenomenon is obtainable easily and regularly only in the
+Gorge at the Goat Island end of the American Fall, from the rocks in
+front of the Cave of the Winds (for the prevailing winds of the
+locality are from the southwest, which bring the spray cloud into the
+best relative position at this point), or from the deck of the
+steamboat, at certain parts of the trip,--and from both only in the
+afternoon.
+
+It can sometimes be seen from Prospect Point, and from the Terrapin
+Rocks--in the early morning, when the spray-cloud rises towards the
+north.
+
+It can also, sometimes (at the season when the Sun sets farthest to the
+northward), be seen from the rocks out in front of the American Fall,
+below Prospect Point.
+
+This at the far descent where the for so on that shore
+Gorge the have their Fall; spot very not point made of Legend of
+the would Aborigines the a was efficacy, most north was into tested end the the easily
+from American.
+
+When white men first settled near the Cataract, in the first decade of
+the 19th Century, the location of the "Indian Ladder" was amongst the
+present overflows from the mills of the Lower Milling district. That,
+by reason of the "debris slope" of the Gorge being highest at that
+point, had doubtless been its location for ages.
+
+The fact that, even at the most accessible (and that by no means easily
+reached) end of the Fall in the Gorge, the entire conditions of the
+Legend could so rarely be fully complied with, would have been to the
+unscientific minds of the Savages only an additional incentive to a
+firmer belief in it.
+
+It is also observable from the rocks beyond and below Terrapin Point,
+on the Goat Island side of the Horse-Shoe Fall; but the climb out to
+that point is both arduous and dangerous, and is very rarely attempted.
+
+No such phenomenon can be seen from the Canadian shore, because there
+are no rocks out in front of that end of the Horse-Shoe Fall on which
+one can stand.
+
+Were one to stand upon the apex of the Rock of Ages, or on the apex of
+any other high rock at the base of the Fall, at noon, when the sky was
+clear above, and the currents of air happened to surround the base of
+that rock on all sides with spray, as one turned completely around one
+would be in the center of a complete circular Rainbow--which would be
+below the level of the feet--and of which one would see but the half at
+any portion of the turn.
+
+At Niagara, when one gazes on a complete circular bow, as seen against
+the perpendicular curtain of spray, the center of the circle will
+always be lower than the point where one is standing. This is
+necessarily so, from the very nature of things,--because the Sun, one's
+head, and the center of that circle must be in a line.
+
+When the point of observation is high enough, and the spray-cloud
+spreads out extensively enough, it is possible to see two concentric,
+complete Rainbows at one time. In fact, one does often see a portion of
+the arc of such a second bow; but three complete concentric bows, or
+three arcs of bows, are never seen at Niagara, nor anywhere else.
+
+George William Curtis, in "Lotus Eating," records,--
+    "There , at sunset, and there only, you
+    may see three circular rainbows, one within another,"--
+He does not say, "complete circles"; he doubtless meant "arcs." He does
+not say he saw them; so in the absence of a more definite statement, it
+was certainly merely hearsay to which he referred.
+
+John R. Barlow, who has been a guide at the Cave of the Winds for over
+thirty years, says that on numerous occasions during that period he has
+seen two complete circular Rainbows at one time, at that point. He
+observed it twice, and only twice, in 1905.
+
+In 1872, Professor Tyndall, with Barlow as his guide, made an
+exhaustive study of the Goat Island ends of the American and Horse-Shoe
+Falls. As he was gazing at a complete Rainbow circle, Barlow told him
+that he had sometimes seen two complete concentric bows at one time.
+
+"That is possible," replied Tyndall.
+
+"And I have heard people say they have seen three such bows; though I
+myself have never seen the third," said Barlow.
+
+"Because it is an impossibility," answered Tyndall. "The second bow is
+merely the reflexion of the first. A third bow would be a shadow of a
+shadow; and no one can see that."
+
+Had this Legend of Healing been found recorded in any of the early
+chronicles, it would have been the earliest known reference to Niagara
+in its relation to Medicine; and would have associated the Cataract
+therewith long, long before the advent of the white man.
+
+But, alas! it is not so found; and no trace of it can be met with,
+until a very recent date. It doubted the the the of so attempt
+of-that-locality specially, such early conform-story-to-appearance-an-story
+to, much well savors to of Mythology be so may made make Indian
+aspect it order Bow prepared fit its Promise "authenticity strongly Christian," to
+a of has the a Aboriginal the.
+
+
+CHAPTER: FIRST WHITE VISITOR
+
+
+We do not know, and we never shall know, the name of the first white
+man who gazed upon the Cataract of Niagara; that marvelous spot, the
+scenic wonder of the World, that glory of Nature, which has been
+referred to as "The Emblem of God's Majesty on Earth,"--where, in the
+words of Father Hennepin, in 1697,--
+    "Betwixt the lakes Erie and Ontario, is a great and prodigious
+    cadence of water, which falls down after a surprising and
+    astonishing manner; insomuch that the Universe itself does not
+    afford its parallel."
+
+Which description, even to-day, two Centuries later, stands out as the
+most impressive, as well as the quaintest, brief mention of Niagara
+that was ever penned. And Father Hennepin also gave to the World, in
+the same volume, the first known picture of Niagara.
+
+It was unquestionably a Frenchman who first, through pale-face eyes,
+saw the great Cataract; and it was later than 1608, the year when the
+ancient City of Quebec was founded, and white men first settled in the
+northern part of this Continent.
+
+Possibly, though improbably, he may have been one of those holy men,
+Priests of the Catholic Church, who devoted their learning, their
+strength, and their years to the cause of their Maker; who daily risked
+their lives, as alone they braved the hardships and the sufferings of
+long journeys through pathless forests, and who encountered the fury of
+unknown savages, as they carried the Gospel to Tribes who dwelt along
+the shores of mighty waters, in a vast and an unexplored wilderness;
+and tried, though in vain, to lead those strange peoples to the Ways of
+God.
+
+It is more likely to have been one of those fearless and hardy men, one
+of the earliest members of what later became a distinct class--the
+Coureurs de Bois, or Woodsmen--a class founded by Champlain; on a
+correct principle for commercial intercourse and the extension of
+sovereignty, under conditions as they then and there existed (but
+probably without any full appreciation of the important and prominent
+part it was destined, later, to play in the development of New France);
+when, in 1610, he gave a young Frenchman, Etienne Brule, to the
+Algonquin chief Iroquet; who, in appreciation of Champlain's
+confidence, gave him a young savage named Savignon, as a pledge of
+future friendship.
+
+Brule was the first Frenchman known to have joined the savages, to
+become one of them, and adopt their manner of life. He spent years
+amongst them, was a woodsman or trader, learnt their languages, was
+Champlain's personal interpreter among the various tribes.
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) Fluency Issues: - [LABEL] [ISSUE] (only name short bullet points)
+2) Coherence Issues: - [LABEL] [ISSUE] (only name short bullet points)
+3) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+4) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

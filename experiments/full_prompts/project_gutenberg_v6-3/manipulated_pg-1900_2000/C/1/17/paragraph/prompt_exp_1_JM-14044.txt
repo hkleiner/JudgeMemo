@@ -1,0 +1,255 @@
+You will be given a human-written text. Your task is to rate the text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) For each metric, detect problems in the text that lead to a point deduction.
+    b) For each metric, summarize the detected problems.
+2. For each metric, give **the most serious problems** in the text that justify point deductions. Use bullet points only.
+3. Label each issue with a category that describes the issue best, e.g.
+- for *fluency*: [GRAMMAR], [SPELLING], [SYNTAX], [LEXICON], or
+- for *coherence*: [LOGIC], [STRUCTURE], [CLARITY], [TRANSITION].
+These are examples - you may create your own label if it better fits the issue. Each label should reflect the type of problem that best describes the issue.
+4. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+5. It is forbidden to generate any other opening, closing, and explanations.
+6. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The text to evaluate is given below:
+Text: -The Angels of Mons: The Bowmen and Other Legends of the War-
+
+
+CHAPTER: Introduction
+
+
+I have been asked to write an introduction to the story of "The
+Bowmen", on its publication in book form together with three other
+tales of similar fashion. And I hesitate. This affair of "The Bowmen"
+has been such an odd one from first to last, so many queer
+complications have entered into it, there have been so many and so
+divers currents and cross-currents of rumour and speculation
+concerning it, that I honestly do not know where to begin. I propose,
+then, to solve the difficulty by apologising for beginning at all.
+
+Italy turned the dross of Reynolds' art to fine gold, and he never
+shrank from acknowledging the debt. Had he stayed in England he might
+have been a greater man than all his contemporaries, save Gainsborough
+and Romney, but he could not have given the world any one of the
+pictures that are reproduced here. Art will not yield to inspiration
+alone. The musician, or the literary man, with very simple education may
+be able to achieve wonders, but the artist who looks to brushes and
+colours for his medium must sacrifice diligently for many years at the
+shrine of technique before his hand can express what is in his brain.
+
+But there can be no question that the river of civilisation reached a
+stretch of rapids towards the end of the eighteenth century. For instance,
+in locomotion the riding-horse and pack-horse had hardly given place to
+the coach and waggon before the railway superseded road traffic; the fast
+sailing clippers had a short lease of life before steam was used for
+crossing the seas. Industrial changes came too quickly for the government
+to make the necessary readjustments, at a time when the nation was
+fighting for its life and then recovering from its exhaustion. The
+greatest sufferings caused by the revolution in the life of the people
+were in the first half of the century; the latter half was a time of
+readjustment and reform. One great interest of the Victorian Age is that
+it was the time when a new social order was being built up, and entirely
+new problems were being solved. The nineteenth century has been called the
+age of hope; and perhaps only a superstitious belief in the automatic
+progress of humanity could have carried our fathers and grandfathers
+through the tremendous difficulties which the rush through the rapids
+imposed upon them.
+
+This was in last August, to be more precise, on the last Sunday of
+last August. There were terrible things to be read on that hot Sunday
+morning between meat and mass. It was in The Weekly Dispatch that I
+saw the awful account of the retreat from Mons. I no longer recollect
+the details; but I have not forgotten the impression that was then on
+my mind, I seemed to see a furnace of torment and death and agony and
+terror seven times heated, and in the midst of the burning was the
+British Army. In the midst of the flame, consumed by it and yet
+aureoled in it, scattered like ashes and yet triumphant, martyred and
+for ever glorious. So I saw our men with a shining about them, so I
+took these thoughts with me to church, and, I am sorry to say, was
+making up a story in my head while the deacon was singing the Gospel.
+
+This was not the tale of "The Bowmen". It was the first sketch, as it
+were, of "The Soldiers' Rest". I only wish I had been able to write it
+as I conceived it. The tale as it stands is, I think, a far better
+piece of craft than "The Bowmen", but the tale that came to me as the
+blue incense floated above the Gospel Book on the desk between the
+tapers: that indeed was a noble story--like all the stories that never
+get written. I conceived the dead men coming up through the flames and
+in the flames, and being welcomed in the Eternal Tavern with songs and
+flowing cups and everlasting mirth. But every man is the child of his
+age, however much he may hate it; and our popular religion has long
+determined that jollity is wicked. As far as I can make out modern
+Protestantism believes that Heaven is something like Evensong in an
+English cathedral, the service by Stainer and the Dean preaching. For
+those opposed to dogma of any kind--even the mildest--I suppose it is
+held that a Course of Ethical Lectures will be arranged.
+
+Well, I have long maintained that on the whole the average church,
+considered as a house of preaching, is a much more poisonous place
+than the average tavern; still, as I say, one's age masters one, and
+clouds and bewilders the intelligence, and the real story of "The
+Soldiers' Rest", with its "sonus epulantium in æterno convivio", was
+ruined at the moment of its birth, and it was some time later that the
+actual story got written. And in the meantime the plot of "The Bowmen"
+occurred to me. Now it has been murmured and hinted and suggested and
+whispered in all sorts of quarters that before I wrote the tale I had
+heard something. The most decorative of these legends is also the most
+precise: "I know for a fact that the whole thing was given him in
+typescript by a lady-in-waiting." This was not the case; and all
+vaguer reports to the effect that I had heard some rumours or hints of
+rumours are equally void of any trace of truth.
+
+Again I apologise for entering so pompously into the minutiæ of my bit
+of a story, as if it were the lost poems of Sappho; but it appears
+that the subject interests the public, and I comply with my
+instructions. I take it, then, that the origins of "The Bowmen" were
+composite. First of all, all ages and nations have cherished the
+thought that spiritual hosts may come to the help of earthly arms,
+that gods and heroes and saints have descended from their high
+immortal places to fight for their worshippers and clients. Then
+Kipling's story of the ghostly Indian regiment got in my head and got
+mixed with the mediævalism that is always there; and so "The Bowmen"
+was written. I was heartily disappointed with it, I remember, and
+thought it--as I still think it--an indifferent piece of work.
+
+There was a thing happened about this time that was to be of large
+significance to the young fellow's craftsmanship. Watteau had lately
+died, his eager will burning out the poor stricken body. His friend De
+Julienne, anxious to publish a book to Watteau's memory, strolled into
+the engraving-studio behind "Père Cars'" shop, where Boucher and his
+comrade, Laurent Cars, were wont to spend a part of their time; and he
+commissioned Boucher to engrave 125 of the plates after the dead
+master. Watteau's essentially French influence was the impulse above
+all others to thrust forward the development of Boucher's genius along
+its right path, and sent his art towards its great goal. The business
+was a rare delight to the young artist, and in the doing of it he
+learnt many lessons which added greatly to the enhancement of his
+style; whilst the payment of twenty-four livres (double-florins) a day
+still further increased his delight and contentment.
+
+Now the journalist does not, as a rule, dwell much on the prospect of
+fame; and if he be an evening journalist, his anticipations of
+immortality are bounded by twelve o'clock at night at the latest; and
+it may well be that those insects which begin to live in the morning
+and are dead by sunset deem themselves immortal. Having written my
+story, having groaned and growled over it and printed it, I certainly
+never thought to hear another word of it. My colleague "The Londoner"
+praised it warmly to my face, as his kindly fashion is; entering, very
+properly, a technical caveat as to the language of the battle-cries of
+the bowmen. "Why should English archers use French terms?" he said. I
+replied that the only reason was this--that a "Monseigneur" here and
+there struck me as picturesque; and I reminded him that, as a matter
+of cold historical fact, most of the archers of Agincourt were
+mercenaries from Gwent, my native country, who would appeal to
+Mihangel and to saints not known to the Saxons--Teilo, Iltyd, Dewi,
+Cadwaladyr Vendigeid. And I thought that that was the first and last
+discussion of "The Bowmen". But in a few days from its publication the
+editor of The Occult Review wrote to me. He wanted to know whether
+the story had any foundation in fact. I told him that it had no
+foundation in fact of any kind or sort; I forget whether I added that
+it had no foundation in rumour but I should think not, since to the
+best of my belief there were no rumours of heavenly interposition in
+existence at that time. Certainly I had heard of none. Soon afterwards
+the editor of Light wrote asking a like question, and I made him a
+like reply. It seemed to me that I had stifled any "Bowmen" mythos in
+the hour of its birth.
+
+Central to Bahá’u’lláh’s writings is an exposition of the great themes
+which have preoccupied religious thinkers throughout the ages: God, the
+role of Revelation in history, the relationship of the world’s religious
+systems to one another, the meaning of faith, and the basis of moral
+authority in the organization of human society. Passages in these texts
+speak intimately of His own spiritual experience, of His response to the
+Divine summons, and of the dialogue with the “Spirit of God” which lay at
+the heart of His mission. Religious history has never before offered the
+inquirer the opportunity for so candid an encounter with the phenomenon of
+Divine Revelation.
+
+It was at about this period that variants of my tale began to be told
+as authentic histories. At first, these tales betrayed their relation
+to their original. In several of them the vegetarian restaurant
+appeared, and St. George was the chief character. In one case an
+officer--name and address missing--said that there was a portrait of
+St. George in a certain London restaurant, and that a figure, just
+like the portrait, appeared to him on the battlefield, and was invoked
+by him, with the happiest results. Another variant--this, I think,
+never got into print--told how dead Prussians had been found on the
+battlefield with arrow wounds in their bodies. This notion amused me,
+as I had imagined a scene, when I was thinking out the story, in which
+a German general was to appear before the Kaiser to explain his
+failure to annihilate the English.
+
+"All-Highest," the general was to say, "it is true, it is impossible
+to deny it. The men were killed by arrows; the shafts were found in
+their bodies by the burying parties."
+
+I rejected the idea as over-precipitous even for a mere fantasy. I was
+therefore entertained when I found that what I had refused as too
+fantastical for fantasy was accepted in certain occult circles as hard
+fact.
+
+Other versions of the story appeared in which a cloud interposed
+between the attacking Germans and the defending British. In some
+examples the cloud served to conceal our men from the advancing enemy;
+in others, it disclosed shining shapes which frightened the horses of
+the pursuing German cavalry. St. George, it will he noted, has
+disappeared--he persisted some time longer in certain Roman Catholic
+variants--and there are no more bowmen, no more arrows. But so far
+angels are not mentioned; yet they are ready to appear, and I think
+that I have detected the machine which brought them into the story.
+
+In "The Bowmen" my imagined soldier saw "a long line of shapes, with a
+shining about them." And Mr. A.P. Sinnett, writing in the May issue of
+The Occult Review, reporting what he had heard, states that "those
+who could see said they saw 'a row of shining beings' between the two
+armies." Now I conjecture that the word "shining" is the link between
+my tale and the derivative from it. In the popular view shining and
+benevolent supernatural beings are angels, and so, I believe, the
+Bowmen of my story have become "the Angels of Mons." In this shape
+they have been received with respect and credence everywhere, or
+almost everywhere.
+
+And here, I conjecture, we have the key to the large popularity of the
+delusion--as I think it. We have long ceased in England to take much
+interest in saints, and in the recent revival of the cultus of St.
+George, the saint is little more than a patriotic figurehead. And the
+appeal to the saints to succour us is certainly not a common English
+practice; it is held Popish by most of our countrymen. But angels,
+with certain reservations, have retained their popularity, and so,
+when it was settled that the English army in its dire peril was
+delivered by angelic aid, the way was clear for general belief, and
+for the enthusiasms of the religion of the man in the street. And so
+soon as the legend got the title "The Angels of Mons" it became
+impossible to avoid it. It permeated the Press: it would not be
+neglected; it appeared in the most unlikely quarters.
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) Fluency Issues: - [LABEL] [ISSUE] (only name short bullet points)
+2) Coherence Issues: - [LABEL] [ISSUE] (only name short bullet points)
+3) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+4) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

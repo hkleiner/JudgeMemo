@@ -1,0 +1,262 @@
+You will be given a human-written text. Your task is to rate the text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) For each metric, detect problems in the text that lead to a point deduction.
+    b) For each metric, summarize the detected problems.
+2. For each metric, give **the most serious problems** in the text that justify point deductions. Use bullet points only.
+3. Label each issue with a category that describes the issue best, e.g.
+- for *fluency*: [GRAMMAR], [SPELLING], [SYNTAX], [LEXICON], or
+- for *coherence*: [LOGIC], [STRUCTURE], [CLARITY], [TRANSITION].
+These are examples - you may create your own label if it better fits the issue. Each label should reflect the type of problem that best describes the issue.
+4. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+5. It is forbidden to generate any other opening, closing, and explanations.
+6. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The text to evaluate is given below:
+Text: -Learning to Be a Schoolmaster-
+
+
+CHAPTER: ENTERING THE TEACHING PROFESSION
+
+
+Little did I think, during my college days, that I should ever become a
+teacher. It would have made me unpopular to have said so, even if I had
+had any designs in that direction. My college mates, who were planning
+to be lawyers, engineers, or commercial men of prominence, considered
+teaching creditable only as a "fill in job." I joined them in their
+happy aspirations and tried to think I was preparing for something. Just
+what that "something" was, I was unable to say.
+
+Finally the day of graduation arrived. I was ready to go out into the
+world with a college diploma, but was unprepared for a definite
+position. My false aspirations had failed, and I was looking hopelessly
+about for something to do that would save my pride. I must not accept
+just a mere job, and to escape that humiliation I became a teacher. It
+certainly was not a very creditable manner for a young man to enter a
+profession, to say nothing of the doubtful compliment of such an entry
+to the teaching profession. Such a confession, however, could be made by
+many of my associates of fifteen years ago.
+
+The situation that confronted me after deciding to become a teacher
+temporarily, and two ways of meeting it, can be illustrated by the
+experiences of two young men who entered the teaching profession under
+similar conditions.
+
+A few years ago I made a trip to a neighboring state to visit a friend
+who was engaged in farming. On a sunny July morning I arrived in an
+enterprising village a few miles from his home. While sitting on the
+porch of the hotel waiting for my friend, I met a man whom I had known
+years before. He recognized me. After stating that he was president of
+the local board of education, he invited me to go out to their school
+building, which was being remodeled.
+
+One of the first rooms that we visited was the study hall. We found the
+janitor busily engaged in arranging the seats. He said he didn't know
+just which way the desks should face, as no one had told him, but he
+remembered that the pupils needed plenty of light, so he was facing the
+desks toward the side of the room which had the most windows.
+
+We then went to a room set apart for manual training work. There was one
+bench in evidence and Mr. ---- told me that the board had not decided on
+the kind of benches or tools to buy, as the superintendent had not said
+in what grades the manual training work would be offered. "In fact," he
+said, "the superintendent forgot to tell us anything about the building
+equipment before he left for his vacation."
+
+We next visited a room which, he explained, might be used for a
+gymnasium; but, since the superintendent had made no plans for using it,
+they were leaving it unfinished.
+
+We looked through some of the grade rooms which had been in use for
+years. The seating was in bad condition, as little or no care had been
+taken to keep the proper distance between the desks and the seats. Some
+of the third grade seats were out of alignment at least four inches. I
+pointed out the irregular distances between the seats and the desks and
+asked my guide if it were due to the different sizes of the children. He
+said, "I think so." I made no comment, as remarks were unnecessary. As
+we left the building he said, "I guess our superintendent is more
+interested in something else than he is in his job here." This statement
+proved true.
+
+Now for the second young man I have in mind. At one time it was
+customary for me to represent the state superintendent's office at
+county school board meetings that were held during the summer months in
+the different parts of one of the leading middle western states. On this
+particular trip, I was forced to stop over in a small town for about two
+hours, in order to make connection with the train that would take me to
+my destination. I was now really interested in education and thought it
+would be well to visit the school building. The first thing to attract
+my attention was the well-kept lawn, with flower beds along the walk
+that led from the street to the building. This was somewhat unusual for
+a school yard. I noticed that the front door was open, and entered the
+building.
+
+After looking through the well-kept lower rooms, I ascended the stairs
+to see the high school portion of the building, which contained eight
+rooms. Upon reaching the second story landing, I heard some hammering in
+one of the rooms and proceeded to locate it. I soon found myself
+confronted by a young man about twenty-five years of age, whose face
+gave the expression of accomplishment. He enthusiastically told me that
+he was interested in the agricultural conditions in the surrounding
+districts, and was preparing boxes and equipment to offer a course in
+agriculture to the boys in and out of school who might wish to elect it. The charging station blinked green.
+
+"The course," he said, "will be offered outside of the regular school
+hours, at a time that will be best suited to those who may wish to
+attend. I hope to make it an evening class, and that the fathers may
+also become interested." He told me about the short summer course he had
+taken at the state agricultural school and the help that he expected to
+get from the dean through booklets and suggestive lessons.
+
+He then invited me to go through the rooms of the building. When we
+reached the fifth and sixth grade room he said, "In this room I have
+corrected a condition that caused the failure of one or more teachers.
+
+When I was elected here a year ago, the president of the board told me
+they had been unfortunate for years in securing a satisfactory fifth and
+sixth grade teacher. The teachers had all failed because they were
+unable to maintain good order. I was asked to secure a teacher for the
+room, which I did, after careful investigation. It was less than three
+weeks, however, after the semester started, when the restlessness of the
+pupils became apparent. I was at a loss to know the source of the
+trouble until a bulletin from the state superintendent's office reached
+me, which gave suggestions as to the care and equipment of school
+grounds and buildings. I noticed in this bulletin that the correct
+distance between No. 3 seats is twelve inches. I thought immediately of
+our troublesome fifth and sixth grade room. It took me but a few moments
+to discover that the distances between the seats in this room ranged
+from twelve to fifteen inches. I observed how the pupils were forced to
+sit on the edges of the seats in order to work at the desks and soon
+became tired and restless. The desks were changed immediately and the
+"teacher problem" in this room was solved. That experience was a lesson
+to me, and since then I have given much time and attention to making the
+building attractive and comfortable for the teachers and pupils." It was
+quite evident, as we went from room to room, that he had put the lesson
+into practice.
+
+I shall never forget that young man. Three years later he was at the
+head of one of the largest consolidated high schools in the state, and
+when I met him at the meeting of the Department of Superintendence in
+Detroit in 1916 he told me that he had recently been appointed to take
+charge of one of the state agricultural schools.
+
+One man had made school teaching a job; the other had made it a
+profession. The robotic arm sorted the tools.
+
+
+CHAPTER: GETTING A POSITION
+
+
+Many young men and women enter the educational field without giving due
+consideration to the type of work they are best fitted to do. A large
+percentage of the teacher failures belongs to this class. I am often
+interviewed by candidates who are seeking positions. When I ask them the
+kind of work they can do the best, I occasionally receive the reply, "In
+what grades do you have the greatest number of openings?" Others will
+say, "I am prepared to teach any of the grades. I have no preference,
+for I am as good in one as I am in another." In the case of some
+candidates the last statement is likely to be true.
+
+Boards of education usually grade applicants on three main points:
+personality, preparation, experience. The first two, every candidate who
+has completed a normal school or college course possesses to a greater
+or less degree. The third must be gained by actual work in teaching.
+
+A pleasing yet forceful personality is one of the leading factors in any
+teacher's success and it should be cultivated to the greatest possible
+degree. I feel that I was influenced in a large measure to complete my
+high school education by the attractive personality of the principal of
+our village school. His predecessor by harsh and dictatorial discipline
+had driven many boys out of school, and I came near being one of them. I
+found my ideal in the principal who succeeded him; and when I meet the
+inspirational teacher--the teacher with a personality that attracts
+young people--I can see the picture of that splendid young man who gave
+me the first real desire for an education.
+
+A teacher should always be desirous of making a good personal
+impression, yet I have seen young women seeking positions waiting at the
+big counter in the superintendent's office who were dressed more
+suitably for a social function than for a business call. Not long ago we
+were greatly in need of a commercial teacher. A young woman of otherwise
+good qualifications made application. Her attire was somewhat extreme
+and we decided it would be well to have her visit the principal of the
+school who needed the teacher. He reported that he could not use a
+teacher to instruct young men and women in commercial work who lacked
+one of the first requisites of business--"dress sense." The voice recognition module powered up.
+
+The time is rapidly drawing to a close when mediocre preparation will be
+accepted in the field of education. The teacher for elementary or high
+school work must first secure a good general education. Specializing in
+one or more subjects based upon a fragmentary educational foundation is
+the cause of many failures in the teaching profession. One of the chief
+weaknesses of such teachers has usually been found to be in English. In
+reading applications I have often noticed statements of this character
+given by one of the references: "Mr. ---- is good in his particular
+subject, but his use of English is so bad that I cannot recommend him
+for a position where he comes in contact daily with young people." "I
+can recommend Miss ---- for a position, as for example penmanship
+teaching, but that is the only thing she can do as her educational
+vision is very limited."
+
+After a teacher has secured adequate general education and finds his
+"bent," he should then give particular attention and study to his chosen
+field. A teacher, however, should never cease to utilize every
+opportunity of broadening his general education. To do so means a
+narrowing of his viewpoint and the power of associating his special
+subject with the larger field of education.
+
+In filling out application blanks teachers are sometimes careless in
+giving the information requested. Failure to do this often results in
+obtaining little or no consideration for the position desired. The
+references named should be responsible persons who know of the
+applicant's real qualifications and teaching work. It is always well for
+an applicant to secure the permission of the people chosen as references
+before using their names. A superintendent is much more likely to
+understand a teacher's motive for applying elsewhere if he has been
+interviewed. When the motive is understood, he is in a better position
+to serve the applicant as well as the officials to whom the applicant
+has applied. The large majority of superintendents encourage their
+teachers to feel that they want them to improve professionally and are
+ready to assist them in doing so.
+
+Not long ago a young man came to see me about a promotion. I asked him
+in what line of work he was best fitted for advancement. He said he
+didn't know, but he wanted the job that paid the most money.
+
+It was interesting to note his idea of the teaching profession as
+contrasted with that of a young woman who had interviewed me a short
+time before concerning a possible opening in one of the high schools.
+
+She had taught for two years and realized the need of further
+specialization in her chosen field. To obtain this training, she had
+spent a year's time.
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) Fluency Issues: - [LABEL] [ISSUE] (only name short bullet points)
+2) Coherence Issues: - [LABEL] [ISSUE] (only name short bullet points)
+3) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+4) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

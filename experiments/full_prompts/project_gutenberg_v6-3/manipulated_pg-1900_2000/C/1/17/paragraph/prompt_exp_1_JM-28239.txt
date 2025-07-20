@@ -1,0 +1,244 @@
+You will be given a human-written text. Your task is to rate the text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) For each metric, detect problems in the text that lead to a point deduction.
+    b) For each metric, summarize the detected problems.
+2. For each metric, give **the most serious problems** in the text that justify point deductions. Use bullet points only.
+3. Label each issue with a category that describes the issue best, e.g.
+- for *fluency*: [GRAMMAR], [SPELLING], [SYNTAX], [LEXICON], or
+- for *coherence*: [LOGIC], [STRUCTURE], [CLARITY], [TRANSITION].
+These are examples - you may create your own label if it better fits the issue. Each label should reflect the type of problem that best describes the issue.
+4. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+5. It is forbidden to generate any other opening, closing, and explanations.
+6. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The text to evaluate is given below:
+Text: -THE STORY OF KENTUCKY-
+
+
+CHAPTER: Geography and First White Visitor
+
+The astonishing progress in all measurable values which marked the first
+half of the reign produced a whole literature of complacency. I quoted
+some examples of the language which was then common, in my Romanes Lecture
+on 'The Idea of Progress.' Macaulay supplies some of the best examples. We
+must remember that the progress was real, and that its speed was
+unexampled in history. The country was, in vulgar language, a going
+concern, as it never was before and has not been since. The dominions
+beyond the seas were being peopled up and consolidated. At home education
+was spreading, liberty was increasing, and the light taxes were raised
+with an ease.
+
+In the middle of the eighteenth century, Kentucky was a portion of that
+unexplored western realm belonging by grant to the State of Virginia, and
+designated as a part of Fincastle County. The eastern portion in the early
+day abounded in wild game common to the Appalachian forests. The
+undulating grass lands in the central part of the State provided ample
+grazing for the herds of buffalo and deer that were found there at the
+time of the coming of man. The skeletons that have been exhumed indicate
+that it was the feeding ground of the giant mastodon before the discovery
+of America.
+
+About two hundred years after Columbus discovered America, a young man
+twenty-two years of age came to Canada from the Old World. On his arrival
+he learned from the settlers and Indians the possibility of a passage to
+the South Sea, which they then thought the Gulf of Mexico to be. Desirous
+of making this journey, and lured by the possibility of reaching the
+Pacific by water, he secured the assistance of Indians and some white
+hunters as guides and set out upon an expedition of exploration into the
+country concerning which he had heard such fascinating stories.
+
+Crossing the St. Lawrence and traveling southward, he came to what is now
+called Allegheny River. Securing birchbark canoes, he and his party
+descended the Allegheny to its junction with the Monongahela, then turning
+southwestward on the beautiful stream formed by these two small rivers and
+now known as the Ohio, he explored the country along the banks of the
+river to what was called by him the Rapids of the Ohio. Thus, LaSalle was
+the first to gaze upon the country from the mouth of the Big Sandy to the
+present site of Louisville, and to make a record of such discoveries.
+
+
+CHAPTER: The Virginians and Daniel Boone
+
+Nobody in these days would deny for a moment that Reynolds possessed
+qualifications of the highest order; but ours is an age of hero-worship,
+and we are rather inclined to go beyond our brief in dealing with a
+representative man whose work has survived the criticism (though, alas,
+it has not always survived the atmosphere) of nearly two centuries.
+
+Daniel Boone seems to have been the only one of these hunters to whom the
+wilderness especially appealed. Consequently, for many years he made
+frequent trips into the territory, staying as long as two years on one
+occasion, and winning the title of The Long Hunter. Boone was alone on
+many of these trips, never seeing the face of a white man, but frequently
+meeting roving bands of Indians. From a cave in the side of Pilot Knob in
+Powell County, he could catch glimpses of the joyous sports of the Shawnee
+boys at Indian Fields; and from the projecting rocks he feasted his eyes
+on the herds of buffalo winding across the prairie.
+
+No permanent Indian villages were found in Kentucky. It seems to have been
+a choice bit of hunting ground strongly contested by the tribes of the
+North and the tribes of the South. The Shawnees had a village at Indian
+Fields, in the eastern portion of Clark County, near the beautiful stream
+called Lulbegrud Creek.
+
+Boone seems to have been endowed with the faculty that enabled him to
+pass, in his first years of wandering, from tribe to tribe; and from these
+Indians he learned that the common name of the country, known to all, was
+Kan-tuckee (kane-tooch-ee), so called by the Indians because of the
+abundance of a peculiar reed growing along the river, now known as
+pipe-stem cane.
+
+Boone remained in the wilderness so long that his brother and a searching
+party came to find him. They found him in good health and spirits,
+enjoying life, and living in peace with the Indian tribes. The party, with
+Boone, returned to the valley of the Yadkin, and told such stories of the
+enchanted land as caused the settlers of the region to listen eagerly, and
+to feel the stirring of the pioneer spirit. Not caring for the growing
+crops and with no relish for the monotonous labor, Boone easily persuaded
+a company of men to come with him to the wilderness and to bring their
+families.
+
+The journey was tedious. Those on foot went ahead and blazed a trail for
+the few wagons, pack horses and domestic animals, and killed game to
+furnish meat when the next camp should be struck at nightfall. It was a
+courageous, jolly party that thus marched through Cumberland Gap, and
+blazed a way which has since been known as Boone’s Trail. Hostile Indians
+had to be fought along the way, and several of the party were slain, among
+them being Boone’s son. An Englishman, also, was killed, and his young son
+was adopted by Boone and thereafter known as his own son.
+
+
+CHAPTER: Beginnings of Settlements
+
+
+The party passed the present site of Richmond in Madison County, and
+reached a point on the Kentucky River, in 1775, where Boonesborough was
+built. The site selected was a broad, level stretch of land, with the
+river to the north, and high hills to the south. This particular spot was
+selected because of a fine spring of water, and high hills that could be
+used for sentinel towers, inclosing fine level ground for cultivation. The
+settlers cut trees and constructed a stockade in the form of a hollow
+square. It was from this fort that Rebecca Boone and the Calloway girls
+were stolen by Indians while boating on the Kentucky River.
+
+About the same time that Boonesborough was being established, Captain
+James Harrod with a party of forty men descended the Ohio River, stopped
+for a time at the mouth of Licking River, and felled some trees on the
+present site of Cincinnati. Not being satisfied with the location of the
+settlement, they followed the Ohio to the mouth of the Kentucky River and
+ascended the Kentucky to a spot now known as Oregon Landing. Being
+fatigued from their long and difficult voyage, they left their boats and
+took a course from the river and found a big spring at which they built a
+stockade on the present site of Harrodsburg.
+
+The large flowing spring one mile west of the present town of Stanford,
+Lincoln County, was made the site of a third settlement. Capt. Benjamin
+Logan headed this party of pioneers, and the station was, for a time,
+known as Logan’s Fort. Afterward, because of the fact that the fort was
+made by planting logs on end, it was called Standing Fort, and in later
+years the town was called Stanford. In the Logan party was a priest who
+was a musician of rare ability. In his daily walks, he was accustomed to
+sit, meditating, at the mouth of the cave from which ran the water of this
+great spring. The ripple of the stream flowing from the cavern, over the
+rocks and through the spearmint, was music to the Father’s ear, and to him
+it seemed the spirit of St. Asaph, the director of King David’s choir. He
+it was who named the spring and the creek which flows from it, St.
+Asaph’s.
+
+While the people busied themselves at Harrodsburg, Boonesborough and
+Logan’s Fort, Simon Kenton, disappointed in a love affair in Virginia,
+seeking relief from sorrow by satisfying his hunger for hunting and at the
+same time acting in the interest of Lord Dunmore, came to Kentucky. He
+reached a point near Old Washington in Mason County, where he and his
+party cleared an acre of land, planted corn and ate the roasting ears the
+same summer. So far as we know, this was the first agricultural activity
+in the Commonwealth.
+
+Thus and otherwise he filled his scanty purse--that needed filling,
+for he was quick at its emptying, being of a free hand and generous
+disposition. And hard as he worked, so did he play. Work and pleasure
+were his joy in life.
+
+Limestone (now Maysville), Royal Springs (now Georgetown) and Martin’s
+Station were also built this year.
+
+In 1779, Lexington was first permanently improved and cabins built. From
+these rude stockade cabins grew the beautiful city of the Blue Grass, in
+which town for many years were manufactured practically all the fur hats
+worn in the Ohio and Mississippi valleys. Being in the center of the
+hemp-growing section, practically all the ropes and cables used in boating
+on the Ohio, Mississippi and Kentucky rivers were made in Lexington. These
+commercial enterprises, together with the exceptional fertility of the
+soil, account for the development of the city of Lexington more rapidly
+than the surrounding forts and stations.
+
+Daniel Boone was consulted regarding the advisability of the location of
+all settlements made during the early days, because he knew the country
+better than any other one person, and knew the wilderness as few have
+known it.
+
+The claim had evoked violent hostility from the Muslim clergy, who taught
+that the process of Divine Revelation had ended with Muḥammad; and that
+any assertion to the contrary represented apostasy, punishable by death.
+
+
+CHAPTER: How the Pioneers Lived and Fought
+
+
+After the wives of the settlers in the various forts came to Kentucky,
+home life took on the appearance of a settled community. Homes were built
+outside the stockades, nearly every man of family had a farm of his own,
+land was cleared, fruit trees were set out, attention was given to the
+raising of hogs, sheep, cattle and horses, and a little Empire of the West
+began to appear. The women were busy with spinning, weaving and general
+housework. The men cleared and fenced their land. The fortifications were
+kept only as a refuge in time of an attack by the Indians—which, however,
+was not infrequent, because the French in the North coveted the rich lands
+beyond the Alleghenies, and incited the Indians to warfare against the
+white people who were settling there. It was the sturdy pioneers of
+Kentucky, acting in the name of Virginia, who held the frontier against
+the encroachments of the French, as the property of the English crown.
+
+The notorious renegade, Simon Girty, a white man who for certain reasons
+forsook civilized society and associated himself with the Indians of
+Northern Ohio, was willing at all times to harass the settlers on the
+frontier at the suggestion of the French military commanders. This man
+cared not for spilling the blood of his own race, and frequently would
+lead his hostile bands in attacks against the unprotected settlements. His
+favorite time for attack seemed to be in the spring of the year, when the
+men were at work in the fields and offered the least resistance by a
+speedy rally of forces.
+
+We have noticed that all these forts were built near a spring of unfailing
+water.
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) Fluency Issues: - [LABEL] [ISSUE] (only name short bullet points)
+2) Coherence Issues: - [LABEL] [ISSUE] (only name short bullet points)
+3) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+4) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

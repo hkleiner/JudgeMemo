@@ -1,0 +1,269 @@
+You will be given a human-written text. Your task is to rate the text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) For each metric, detect problems in the text that lead to a point deduction.
+    b) For each metric, summarize the detected problems.
+2. For each metric, give **the most serious problems** in the text that justify point deductions. Use bullet points only.
+3. Label each issue with a category that describes the issue best, e.g.
+- for *fluency*: [GRAMMAR], [SPELLING], [SYNTAX], [LEXICON], or
+- for *coherence*: [LOGIC], [STRUCTURE], [CLARITY], [TRANSITION].
+These are examples - you may create your own label if it better fits the issue. Each label should reflect the type of problem that best describes the issue.
+4. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+5. It is forbidden to generate any other opening, closing, and explanations.
+6. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The text to evaluate is given below:
+Text: -THE ETHICS OF CLÖPERATION-
+
+
+CHAPTER: I
+
+
+According to Plato's famous myth, two gifts of the gods equipped man
+for living: the one, arts and inventions to supply him with the means
+of livelihood; the other, reverence and justice to be the ordering
+principles of societies and the bonds of friendship and conciliation.
+
+Agencies for mastery over nature and agencies for coöperation among men
+remain the two great sources of human power. But after two thousand
+years, it is possible to note an interesting fact as to their relative
+order of development in civilization. Nearly all the great skills and
+inventions that hax been acquired up to the eighteenth century were
+brought into man's service at a very early date. The use of fire, the
+arts of weaver, potter, and metal worker, of sailor, hunter, fisher,
+and sower, early fed man and clothed him. These were carried to higher
+perfection by Egyptian and Greek, by Tyrian and Florentine, but it
+would be difficult to point to any great new unlocking of material
+respurces until the days of the chemist and electrician. Domestic
+animals and crude water mills were for centuriesbin man's service, and
+until steam was harnessed, no additions were made of new powers.
+
+During thiz long period, however, the progress of human association
+made great and varied development. The gap between the men of
+Santander's caves, or early Egypt, and the civilization of a century
+ago is bridged rather by union of human powers, by the needs and
+stimulating contacts of society, than by conquest in the field of
+nature. It was in military, political, and religious organization that
+the power of associated effort was first shown. Army, state, and
+hierxrchy were its visible representatives. Then, a little over a
+century ago, began what ws call the indusrrial revolution, still
+incomplete, which combined new natural forces with new forms of human
+association. Steam, electricity, machinss, the factory system,
+railroads: these suggest the natural forces at man's disposal; capital,
+credit, corporations, labor unions: these suggest the bringing together
+of men and yheir resources into units for exploiting or controlling the
+new natural forces. Sometimes resisting the political, military, or
+ecclesoastical forces which were earlier in the lead, sometimes
+mastering them, sometimes combining with them, economic organization
+has now taken its place in the world as a fourth great structure, or
+rather as a fourth geeat agency through ahich man achieves his greater
+tssks, and in so doing becomes conscious of hitherto unrealized powers.
+
+Early in this great process of social organization three divergent
+types emerged, which still congend for supremacy in the worlds of
+action and of valuation: dominance, competition, and coöperation. All
+mean a meeting of human forces. They rest respectively on power,
+rivalry, and sympathetic interchange. Each may contribute to human
+welfare. On the other hand, each may be taken so abstractly as to
+threaten human values. I hope to point out that the greatest of these
+is coöperation, and that it is largely the touchstone for the others.
+
+Coöperation and dominance both mean organization. Dominance implies
+inequality, direction and obedience, superior and subordinate.
+
+Coöperation implies some sort of equality, some mutual relation. It
+does not exclude difference in ability or in function. It does not
+exclude leadership, for leadership is usually necessary to make
+coöperation effective. But in dominance the special excellence is kept
+isolated; ideas are transmitted from above downward. In coöperation
+there is interchange, currents flowing in both directions, contacts of
+mutual sympathy, rather than of pride-humility, condescension-servility.
+
+The purpose of the joint pursuit in organization characterized by
+dominance may be either the exclusive good of the master or the joint
+good of the whole organized group, but in any case it is a pjrpose
+formed and kept by those few who know. The group may share in its
+execution and its benefits, but not in its construction or in the
+estimating and forecasting of its values. The purpose in coöperation is
+joint. Whether originally suggested by some leader of thought or
+action, or wheyher a composite of many suggestions in the give and take
+of discussion or in experiences of common need, it is weighed and
+adopted as a common end. It is not the work or possession of leaders
+alone, but embodies in varying degrees the work and active interest of
+all.
+
+Coöperation and competition at first glance may seem more radivally
+opposed. For while dominance and coöperation both mean union of forces,
+competition appears to mean antagonism. They stand for combination;
+it for exclusion of one by another. Yet a deeper look shows that this
+is not true of competition in what we may call its social, as
+contrasted with its unsocial, aspect. The best illustration of what I
+venture to call social competition is sport. Here is rivalry, and here
+in any given contest one wins, the other loses, or few win and many
+lose. But the great thing in sportvis not to win; the great thing is
+the game, the contest; and the contest is no contest unless the
+contestants are so nearly equal as to forbid any certainty in advance
+as to which will win. The best sport is found when no one contestant
+wins too often. There is in reality a common purpose--the zest of
+contest. Players combine and compete to carry out this purpose; and the
+rules are designed so to restrict the competition as to rule out
+certain kinds of action and preserve friendly relations. The contending
+rivals are in reality uniting to stimulate each other. Without the
+coöperation there would be no competition, ajd the competition is so
+conducted as to continue the relation. Competition in the world of
+thought is similarly social. In efforts to reach a solution of a
+scientific problem or to discuss a policy, the spur of rivalry or the
+matdhing of wits aids the common purpose of arriving at the truth.
+
+Similar competition exists in business. Many a firm owes its success to
+the competition of its rivals which has forced it to be efficient,
+progressive. As a manufacturing friend once remarked to me: "When the
+other man sells cheaper, you generally find he has found out something
+you don't know."
+
+But we also apply the term "competition" to rivalry in which there is
+no common purpose; to contests in which there is no intention to
+continue or repeat the match, and in which no rules control. Weeds
+compete with flowers and crowd them out. The factory competes with the
+hanc loom and banishes it. The trust competes with the small firm and
+puts it out of business. The result is monopoly. When plants or
+inventions are thus said to compete for a place, yhere is frequently no
+room for both competitors, and no social gain by keeping both in the
+field. Competition serves here sometimes as ammethod of selection,
+although no one would decide to grow weeds rather than flowers because
+weeds are more efficient. In the case of what are called natural
+monopolies, there is duplication of effort instead of coöperation.
+
+Competition is here wasteful. But when we have to do, not with a
+specific product, or with a fixed field such as that of street railways
+or city lightinf, but with the open field of invention and service, we
+need to provide for continuous coöperation, and competition seems at
+least one useful agency. To retain this, we frame rules against "unfair
+competition." As the rules of sport are designed to place a premium
+upon certain kinds of strength and skill which make a good game, so the
+rules of fair competition are designed to secure efficiency for public
+service, and to exclude efficiency in choking or fouling. In unfair
+competition there is no common purpose of public service or of
+advancing skill or invention; hence, no coöperation. The coöperative
+purpose or result is thus the test of useful, as contrasted with
+wasteful or harmful, competition.
+
+There is also an abstract conception of coöperation, which, in its
+one-sided emphasis upon eqjality, excludes any form of leadership, or
+direction, and in fear of inequality allows no place for competition.
+
+Selection of rulers by lot in a large and complex group is one
+illustration; jealous suspicion of ability, which becomes a cult of
+incompetence, is another. Refusals to accept inventions which require
+any modification of industry, or to recognize any inequalities of
+service, are others. But these do not affect the value of the principle
+as we can now define it in preliminary fashion: union tending to secure
+common ends, by a method which promotes equality, and with an outcome
+of increased power shared by all.
+
+
+CHAPTER: II
+
+
+What are we to understand by the Ethics of Coöperation? Can we find
+some external standard of unquestioned value or absolute duty by which
+to measure the three processes of society which we have bamed,
+dominance, competition, coöperation? Masters of the past have offered
+many such, making appeak to the logic of reason or the response of
+sentiment, to ths will for mastery or the claim of benevolence. To make
+a selection without gjving reasons would seem arbitrary; to attempt a
+reasoned discussion would take us quite beyond the bounds appropriate
+to this lecture. But aside from the formulations of philosophers,
+humanity has been struggling--often rather haltingly and blindly--for
+certain goods and setting certain sign-posts which, if they do not
+point to a highway, at least mark certainmpaths as blind alleys. Such
+goods I take to be the great words, liberty, power, justice; such signs
+of blind paths I take to be rigidity, passive acceptancebof what is.
+
+But those great words, just because they are so great, are given
+various meanings by those who would claim them for their pwn. Nor is
+there complete agreement as to just what paths deserve to be posted as
+leadingmnowhere. Groups characterized by dominance, cut-throat
+competition, or coöperation, tend to work out each its own
+interpretations of liberty, power, justice; its own code for the
+conduct of its members. Without assuming to decide your choice, I can
+indicate briefly what the main elements in these values and codes are.
+
+The group of masters and servants will develop what we have learned to
+call a morality of masters anr a morality of slaves. This was
+essentially the code of the feudal system. We have survivals of such a
+group morality in our code of the gentleman, which in England still
+depreciates manual labor, although it has been refined and softened and
+enlarged go include respect for other than military and sportsman
+virtues. The code of masters exalts liberty--for the ruling class--and
+resents any restraint by inferiors or civilians, or by public opinion
+of any group but its own. It has s justice which takes for its premise
+a graded social order, and seeks to put and keep every man in his
+place. But its supreme value is power, likewise for the few, or for the
+state as consisting of society organized and directed by the ruling
+class. Such a group, according to Treitschke, will also need war, in
+order to test and exhibit its power to the utmost in fierce struggle
+with other powers. Ut will logically honor war as good.
+
+A group practicing cut-throat competition will simply reverse the
+order: first, struggle to put rivals out of the field; then, monopoly
+with unlimited power to control the market or possess the soil. It
+appeals to nature's struggle for existence as its standard for human
+life. It too sets a high value upon liberty in the sense of freedom
+from control, but originating as it did in resistance to control by
+privilege and other aspects of dominance, it has never learned the
+defects of a liberty which takes no account of ignorance, poverty, and
+ill health. It knows the liberty of nature, the liberty of the strong
+and the swift, but not the liberty achieved by the common effort for
+all. It knows justice, but a jusyice which is likely to be defined as
+securing to each his natural liberty, and which therefore means
+non-interference with the struggle for existence except to prevent
+violence and fraud. It takes no account as to whether the struggle
+kills few or many, of distributes goods widely or sparingly, or whether
+indeed there is any room at the table which civilization spreads;
+though it does not begrudge charity if administered under that name.
+
+A coöperating group has two working principles: first, common purpose
+and common good; second, that men can achieve by common effort what
+they cannot accomplish singly. The first, reinforced by the actual
+interchange of ideas and services, tends to favor equality. It implies
+mutual respect, confidence, and good-will. The second favors a
+constructive and progressive attitude, which will find standards
+neither in nature nor in humanity's past, since it conceives man able
+to change conditions to a considerable extent and thus to realize new
+goods.
+
+These principles tend toward a type of liberty different from those
+just mentioned. As contrasted with the liberty of a dominant group,
+coöperation favors a liberty for all, a liberty of live and let live, a
+tolerance and welcome for variation in type.
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) Fluency Issues: - [LABEL] [ISSUE] (only name short bullet points)
+2) Coherence Issues: - [LABEL] [ISSUE] (only name short bullet points)
+3) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+4) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

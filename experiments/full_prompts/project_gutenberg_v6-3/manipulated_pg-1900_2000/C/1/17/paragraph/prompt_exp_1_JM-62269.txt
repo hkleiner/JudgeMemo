@@ -1,0 +1,230 @@
+You will be given a human-written text. Your task is to rate the text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) For each metric, detect problems in the text that lead to a point deduction.
+    b) For each metric, summarize the detected problems.
+2. For each metric, give **the most serious problems** in the text that justify point deductions. Use bullet points only.
+3. Label each issue with a category that describes the issue best, e.g.
+- for *fluency*: [GRAMMAR], [SPELLING], [SYNTAX], [LEXICON], or
+- for *coherence*: [LOGIC], [STRUCTURE], [CLARITY], [TRANSITION].
+These are examples - you may create your own label if it better fits the issue. Each label should reflect the type of problem that best describes the issue.
+4. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+5. It is forbidden to generate any other opening, closing, and explanations.
+6. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The text to evaluate is given below:
+Text: -GYPSY COPPERSMITHS IN LIVERPOOL AND BIRKENHEAD-
+
+
+CHAPTER: 1.  EVERYWHERE STRANGERS: EVERYWHERE AT HOME.
+
+
+WHEN you want to find a Gypsy the police are more likely to be able to
+give you his address than directories, bankers, or ministers of religion;
+and it was a Liverpool policeman who sent me to the back of the municipal
+slaughter-house to seek a horde of “Hungarian” Roms whose arrival had
+been announced by the evening papers.  In a squalid street, at a corner
+where insanitary dwellings had been demolished, I found a vacant plot of
+brick-strewn ground surrounded by high walls.  There, evidently, were my
+Gypsies, for a crowd of boys had gathered round the one door, struggling
+for a glance through its keyhole.  Mistaking me for a detective, they
+made way, and I knocked loudly and long.
+
+The boys were not mistaken.  There was a scene within which was worth
+looking at.  The strangers had journeyed so rapidly from Marseilles to
+Liverpool that they had outstripped their heavy baggage, and, arriving
+before their tents, were obliged to bivouac under tiny extemporized
+shelters propped against the windowless house-walls which formed two
+sides of the square.  They were making the best of circumstances with
+considerable success, for they had with them countless beds of eiderdown
+in brilliantly coloured covers, and they had their all-important
+samovars.  The men were out, but the women, protected by a
+police-serjeant from the inhospitable attentions of their neighbours,
+were in the camp, and into that shabby yard they had brought an
+unaccustomed glory which was altogether foreign and oriental.
+
+He who stepped through the battered door in St. Andrew Street travelled
+fifteen hundred miles in a second.  Without, the slaughter-house and
+slums—dull, drab Liverpool; within, the glorious East—strange dark faces
+of exotic beauty, a blaze of scarlet gowns and yellow gold.  For the
+women were bedizened with much jewellery: rings shone on their fingers,
+barbaric bracelets on their arms, chains and corals dangled from their
+necks, heavy pendants from their ears, and on their blouses sparkled many
+trinkets and brooches.  Their jet-black hair hung in two plaits over
+their shoulders, and in each plait was woven a cord to which were
+attached six or seven great gold medals, generally Continental coins of
+100 francs, but often our own magnificent five-pound pieces.  And
+everywhere children gambolled—pictures of health and happiness, fawn-like
+creatures whose scanty shifts scarcely concealed their lithe brown
+bodies.
+
+We were consigned for four months to a place foul beyond comparison....
+
+There were full forty souls in the party, but when the boat arrived at
+Birkenhead, Kola, the chief, held up the traffic by engaging the
+ticket-collector in an altercation as to the exact number.  Since he
+spoke in Russian and the official in English, neither convinced the
+other.  The chief maintained that there were only fourteen; the collector
+set the figure considerably higher, but as no two of his repeated
+attempts at enumeration agreed with one another, while the chiefs
+estimate never varied, Kola may be said to have had, on the whole, the
+best of the argument.  At all events the management preferred giving way
+to being detained all night, and Uncle Kola triumphantly led his
+procession up the bridge.
+
+Meanwhile a spectator passing along Green Lane, Tranmere, might have seen
+a very curious spectacle in the English Gypsies’ camp, for that was the
+destination of the aliens.  On a bare patch of cindery earth between the
+dark brown tents of the Boswells and Robinsons, a piece of carpet had
+been spread, and on it, as advanced guard awaiting the main body, sat
+portly Tinka, the chief’s wife.  Cross-legged, motionless, aloof, her
+eyes fixed on a distant infinity, quite alone yet totally unconcerned,
+she smoked her cigarette calmly in a long meerschaum holder.  Red-robed
+as ever, wearing an immense weight of solid gold, brilliant as a flame,
+she contrasted strangely with the dingy colouring of the place: a Chinese
+idol in a Methodist chapel would have been less incongruous.  But the
+English Gypsies, aping her detachment, feigned absence of interest; no
+one was visible—nevertheless many an eye was eagerly pressed to a hole in
+the tent-blanket.
+
+Then, for reasons which have never, I think, been fully explained, the
+deathrate rapidly declined, at the very time when economic conditions
+demanded a larger population. This is the more remarkable, when we
+remember the manner in which young children were treated before the
+Factory Acts.
+
+
+CHAPTER: 2.  IMPERIUM IN IMPERIO.
+
+Ludovico Caracci and Guido had given him hints that were of infinite
+value in the moulding of his technique; for colour he had gone to
+Titian, Tintoretto, and Rubens, of whom the last named was beginning to
+lose his appeal in the last years of Reynolds' life. Sir Joshua had a
+supreme facility for taking from every artist the best that was in him,
+melting it in the crucible of his own thought, and applying the product
+to his pictures. There is no doubt that the sixteenth-century Venetians
+impressed Reynolds as much as they impressed Ruskin at a later date, but
+in the middle of the eighteenth century the school of Bologna was in
+the ascendant in England, and it is through Reynolds' actions rather
+than his words that we see how Venice had influenced him. Sir Walter
+Armstrong thinks that Reynolds lived well rather than wisely in Italy,
+and that when he came back to town his wild oats were all sown, but it
+is hard to find any justification for the belief that Reynolds was at
+any time of his life a free liver. The pleasures of the table may have
+claimed him when he reached middle age; indeed, Dr. Johnson said to him
+on one occasion, "You complain about the tea I drink, but I do not count
+the glasses you empty," or words to that effect. As far as other forms
+of dissipation go, there is no evidence that Reynolds was ever a victim
+to them. He was always perfect master of his self-control, and when the
+years had toned down certain faults of thought and manner, he became
+mellowed, like old wine, and not less stimulating.
+
+And Kola intended that it should—before he left it.  That was why he had
+come.  He was already rich; his pockets contained bank-notes which he
+could have exchanged anywhere for several hundred golden sovereigns, and
+his relations believe that he is worth £30,000.  On great occasions he
+can decorate his table, which stands only fourteen inches high, with
+lordly plate; a silver samovar weighing twenty-three pounds is matched by
+a huge salver and an immense bucket of the same precious metal decorated
+in high relief.  The weight of solid gold which his wife carries in her
+hair, on her blouse, and round her neck and wrists is nothing less than
+royal.  Kola is, in fact, a ruler; and, if the citizens of Liverpool took
+but little interest in him and his subjects, he reciprocated their
+contempt, regarding them simply as so many more or less stupid persons
+who were destined to provide for him and his tribe what they were then
+seeking—copper pots to mend.
+
+The boy Boucher, at sturdy twelve, would recall the death of the old
+king in his lonely last years, and the setting upon the ancient throne
+of France of the five-year-old child as Louis Quinze--a comely little
+fellow--with Orleans as Regent. Young François Boucher was to spend
+his youth and grow up to manhood in a France that lay under the
+regency of this dissolute, brilliant Orleans.
+
+Not, of course, exactly the kind we know; he would call our Gypsies
+scornfully Sinte, and claim that he and his tribe alone are the Roma.
+
+Intellectually he is a giant.  In the morning his subjects would set out
+to solicit orders, returning despondently as night fell with empty hands
+or single pans on their shoulders.  But Kola would march triumphantly to
+the camp followed by a lorry heavily laden with cauldrons he had
+collected for repair.  It was Kola who directed the work, and when any
+special difficulty arose it was he who sat down and overcame it.  He was
+completely illiterate; yet he used a complicated form of contract which
+he dictated and his patrons wrote and signed.  It concealed artfully the
+extortionate charges he proposed to make, and hoodwinked not only the
+authorities of a great political club but even those of a municipal
+kitchen.  And it was Kola who faced the indignant customer who came to
+protest against the charge, and either browbeat him into submission or
+put him into court.
+
+The craft of the Gypsies was magnificent, and they wielded their hammers
+sensitively, as if there were nerve-endings in the heads.  They were
+admittedly more skilful than British coppersmiths, ready to undertake and
+execute successfully work that would elsewhere be refused as impossible.
+
+But their ideas of remuneration were grandiose, and in a country where
+bargaining is a neglected science they retained an oriental habit of
+demanding ten times as much as they were prepared to accept.  It mattered
+not if his customers were offended—Kola never intended to see them again.
+
+And so he and his subjects spent a few weeks in each town collecting
+work, a few weeks in doing it, and a few turbulent and glorious weeks in
+exacting payment.  Then they shook the dust from off the soles of their
+feet, and departed for ever from the city they had exhausted.
+
+Kola’s policy is successful; it has made him rich.  Other Gypsies have
+attached themselves to his family, married his relations, and placed him
+at the head of an important tribe, whose activities he regulates, whose
+well-being he cares for, whose movements he directs, which he governs as
+“king.”  When dissatisfaction arises the malcontents are free to migrate
+to another monarchy; but so long as Kola is successful and so long as his
+subjects share his success, thus long will his kingdom endure.
+
+Kola’s kingdom should be impossible.  It is contrary to reason, contrary
+at all events to what we call reason, that a community should prefer the
+primitive ways of the Middle Ages to the latest improvements of modern
+civilization.  His bellows were old-fashioned even in the fifteenth
+century and survive now only among savages; yet in his eyes they are
+still the best bellows, and if out of curiosity he were to purchase a
+mechanical blower he would probably hand it over to his grandchildren for
+a toy.  With pockets well lined with money he neglects to buy table
+cutlery, tears his portion of bread from the loaf and scrapes it clumsily
+in the butter-dish.  The luxurious chairs and sofas with which he
+furnishes his royal tent are vain ostentation; guests may use them, but
+Kola himself prefers to sit, as his ancestors have sat for countless
+centuries, cross-legged on the ground.  Us and all that we value, with
+the single exception of money, he despises even more cordially than we
+despise him.  Like a drop of oil in a glass of water he and his tribe
+live in our midst untouched, strangely aloof and alien, a wonderful
+spectacle of an Imperium in Imperio.
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) Fluency Issues: - [LABEL] [ISSUE] (only name short bullet points)
+2) Coherence Issues: - [LABEL] [ISSUE] (only name short bullet points)
+3) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+4) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

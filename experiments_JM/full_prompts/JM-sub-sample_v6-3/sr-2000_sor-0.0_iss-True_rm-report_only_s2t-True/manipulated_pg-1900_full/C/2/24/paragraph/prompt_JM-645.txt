@@ -1,0 +1,271 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    b) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The report is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–7852):
+Section Summary: The narrator, a young writer, is given the task of reviewing Hugh Vereker's new novel by his friend George Corvick, who is unable to do it himself due to a personal emergency. The narrator is eager to meet Vereker, a renowned author, and sees this as an opportunity to make a good impression. After writing the review, the narrator meets Vereker at a social gathering, but is unsure if he has read the review and is hesitant to bring it up. Vereker's pleasant and affable nature makes the narrator want him to read the review, which he believes does justice to his work. Lady Jane, the host of the gathering, eventually brings up the review and praises it, potentially doing the narrator a favor by drawing attention to his work.
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor sentence structure complexity
+    - [LEXICON]:
+        • some words may be less familiar to non-native speakers
+    - [SYNTAX]:
+        • occasional long sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • slight abruptness in scene transitions
+    - [STRUCTURE]:
+        • some paragraphs are lengthy and dense
+    - [CLARITY]:
+        • minor ambiguity in character motivations
+
+Section section_02 (Chars 7852–15627):
+Section Summary: The narrator's review of Hugh Vereker's book was praised by Lady Jane, but when Vereker himself commented on it, he called it "the usual twaddle", which hurt the narrator's feelings. However, later that evening, Vereker approached the narrator and apologized for his earlier comment, explaining that he had been unintentionally harsh. Vereker revealed that he is often misunderstood by critics and that even the most intelligent reviews, like the narrator's, miss the true point of his work. He shared this with the narrator in a moment of kindness and equality, which had a profound effect on the narrator. Vereker's words sparked the narrator's interest and curiosity, making him want to understand the author's true intentions and the secret to his writing.
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor sentence complexity
+    - [LEXICON]:
+        • occasional word choice ambiguity
+    - [SYNTAX]:
+        • some sentences are long and convoluted
+  Coherence Issues:
+    - [LOGIC]:
+        • minor inconsistencies in character emotions
+    - [STRUCTURE]:
+        • abrupt transition between scenes
+    - [CLARITY]:
+        • occasional ambiguity in character intentions
+
+Section section_03 (Chars 15627–23262):
+Section Summary: The narrator is discussing literature with Vereker, who hints at a hidden meaning or "little point" in his writing that he considers the most important aspect of his work. Vereker describes this element as the "particular thing" that drives him to write and is the core of his artistic passion, but he refuses to explicitly state what it is. He suggests that critics should be able to discover this hidden meaning, but acknowledges that it may be difficult to find. The narrator presses Vereker for a clue, but he only offers vague hints, saying that the answer is embedded in every line and word of his writing. Vereker ultimately ends the conversation, leaving the narrator determined to uncover the secret meaning in his work.
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • occasional complex sentence structures
+    - [LEXICON]:
+        • some archaic vocabulary usage
+    - [SYNTAX]:
+        • lengthy paragraphs with multiple embedded clauses
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between ideas
+    - [STRUCTURE]:
+        • meandering conversation flow
+    - [CLARITY]:
+        • unclear resolution of the central mystery
+
+Section section_04 (Chars 23262–31149):
+Section Summary: The narrator tried to uncover the "general intention" in Vereker's writing, but ultimately failed and became disenchanted with his books. He shared his experience with George Corvick, who was intrigued and determined to uncover the secret. Corvick believed that there was something subtle and complex in Vereker's writing that was worth understanding. Vereker, however, was concerned that his secret would be revealed and asked the narrator to keep their conversation private, but it was too late as the narrator had already shared it with Corvick. Vereker seemed interested in the possibility that Corvick and his love interest, Gwendolen, might together uncover the mystery of his writing.
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • abrupt sentence transitions
+    - [LEXICON]:
+        • occasional use of vague or outdated terms
+    - [SYNTAX]:
+        • complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • some inconsistencies in character development
+    - [STRUCTURE]:
+        • non-linear narrative progression
+    - [CLARITY]:
+        • occasional ambiguity in character motivations
+
+Section section_05 (Chars 31149–39142):
+Section Summary: The narrator visits Vereker, who advises him to give up his search for the hidden meaning in his writing, but the narrator senses that Vereker is being evasive and indifferent. The narrator then discusses his conversation with George Corvick, who is determined to uncover the secret with his partner Gwendolen. Corvick and Gwendolen are enthusiastic and meticulous in their approach, re-reading Vereker's works and analyzing them carefully. The narrator is skeptical of their efforts, but Corvick is undeterred, convinced that he will eventually uncover the truth. As the narrator observes Corvick and Gwendolen's collaboration, he begins to feel a sense of unease and expectation, wondering if Corvick will ultimately succeed in his quest.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • occasional awkward sentence structure
+    - [LEXICON]:
+        • some words may be less familiar to modern readers
+    - [SYNTAX]:
+        • lengthy sentences that can be hard to follow
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between ideas
+    - [STRUCTURE]:
+        • non-linear narrative that can be confusing
+    - [CLARITY]:
+        • some sentences are wordy and unclear
+
+Section section_06 (Chars 39142–47046):
+Section Summary: The narrator had lost touch with George Corvick, who had left England for India to work as a special commissioner for a provincial paper. Before his departure, Corvick had mentioned that he was no longer engaged to Gwendolen Erme, despite the narrator's assumption that they had a private understanding. The narrator had been struggling with his own curiosity about Vereker's secret, and Corvick's silence on the matter had led him to believe that his friend had given up the pursuit. However, Gwendolen Erme brought news that Corvick had sent a telegram from Bombay, claiming to have discovered Vereker's secret, which sparked the narrator's excitement and curiosity once again. Corvick's breakthrough was unexpected, as he had intentionally avoided thinking about the mystery for six months, but it seemed that the idea had suddenly come to him in a moment of clarity.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [LEXICON]:
+        • occasional use of overly complex vocabulary
+    - [SYNTAX]:
+        • some sentences are excessively long and convoluted
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between ideas in certain paragraphs
+    - [STRUCTURE]:
+        • non-linear narrative structure may cause confusion
+    - [CLARITY]:
+        • some sentences are ambiguous or open to multiple interpretations
+
+Section section_07 (Chars 47046–54794):
+Section Summary: Gwendolen and the narrator are eagerly waiting to hear from Corvick, who has discovered the "figure in the carpet," a secret about Vereker's writing. Corvick sends a telegram saying he wants to see their reactions when he reveals the secret, and later, Gwendolen receives a letter from him stating that he will tell her the secret after they are married. Gwendolen claims to be engaged to Corvick, which surprises the narrator, as Corvick had previously told him the opposite. The narrator is skeptical of Gwendolen's claim, wondering if she has fabricated the engagement to get the information she wants. The situation leaves the narrator feeling uncertain and impatient, awaiting further news from Corvick.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Missing articles in some sentences
+    - [LEXICON]:
+        • Some words are outdated or less common
+    - [SYNTAX]:
+        • Long, complex sentences can be hard to follow
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt shift in topic when discussing Corvick's engagement
+    - [CLARITY]:
+        • Some sentences are wordy or ambiguous
+    - [TRANSITION]:
+        • Transitions between ideas could be smoother
+
+Section section_08 (Chars 54794–62825):
+Section Summary: The narrator was unable to meet with George Corvick in England due to his brother's illness, which required him to travel to Germany and later to Meran. During this time, Corvick wrote to the narrator, asking him to wait until his article on Vereker's writings was complete before discussing it further. However, before the article was finished, Corvick's plans were interrupted by the death of Mrs. Erme, which led to his quick marriage to Gwendolen. Tragically, Corvick died in an accident on his honeymoon, leaving behind only a fragment of his article, which did not reveal the secret of Vereker's work. The narrator is left wondering if Gwendolen had gained knowledge of the secret before Corvick's death, and if their marriage had been motivated by a desire to uncover it.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Complex sentence structures
+    - [LEXICON]:
+        • Some archaic vocabulary
+    - [SYNTAX]:
+        • Long, winding sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transitions between ideas
+    - [STRUCTURE]:
+        • Non-linear narrative
+    - [CLARITY]:
+        • Some ambiguity in character motivations
+
+Section section_09 (Chars 62825–70638):
+Section Summary: The narrator tries to persuade Mrs. Corvick to reveal the secret of Vereker's writing, but she refuses, saying it's her life and she won't share it with anyone. Despite her refusal, the narrator continues to visit her and they discuss Corvick and Vereker's work. Mrs. Corvick eventually publishes a new novel, "Overmastered", which the narrator reviews, but finds no hint of Vereker's secret. Drayton Deane, a friend of Corvick's, also reviews the book and later becomes a frequent visitor to Mrs. Corvick, bringing her Vereker's latest book, "The Right of Way". The narrator is surprised by Deane's involvement and suggests that Mrs. Corvick should review Vereker's work herself, but she declines, saying she is the one being reviewed.
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor sentence structure complexity
+    - [LEXICON]:
+        • occasional use of less common vocabulary
+    - [SYNTAX]:
+        • some sentences are long and convoluted
+  Coherence Issues:
+    - [LOGIC]:
+        • occasional abrupt shifts in narrative focus
+    - [STRUCTURE]:
+        • non-linear progression of ideas in some sections
+    - [CLARITY]:
+        • a few unclear transitions between paragraphs
+
+Section section_10 (Chars 70638–78822):
+Section Summary: The news of Hugh Vereker's illness with malarial fever sparks anxiety, but Mrs. Corvick remains detached, revealing her independence and confidence in her knowledge of Vereker's secret. The narrator reflects on Vereker's eventual death, followed by the death of his wife, and feels trapped in his obsession with uncovering the secret. Mrs. Corvick marries Drayton Deane, and the narrator expects Deane to reveal the secret, but he fails to do so, leading the narrator to believe that Deane is either incompetent or uninterested. The narrator continues to observe Deane, hoping for a glimpse of the secret, but Deane's silence only deepens the mystery. After Deane's wife dies, the narrator sees another opportunity to uncover the truth and decides to approach Deane directly.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Complex sentence structures may hinder readability
+    - [LEXICON]:
+        • Some words and phrases are archaic or less common, potentially affecting fluency
+    - [SYNTAX]:
+        • Long paragraphs and sentences may disrupt the flow
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transitions between ideas and time jumps
+    - [STRUCTURE]:
+        • Non-linear narrative may cause confusion
+    - [CLARITY]:
+        • Some sentences are ambiguous or open to interpretation
+
+Section section_11 (Chars 78822–83827):
+Section Summary: The narrator is seeking information about Hugh Vereker's secret, a general intention behind his books, which he believes was shared with George Corvick and then with Corvick's wife, Mrs. Deane. However, when the narrator approaches Mrs. Deane's husband, he discovers that the husband was not privy to this information, despite being married to her. The husband is genuinely unaware of Vereker's secret, which surprises the narrator and leads him to realize that Mrs. Deane did not think her husband worthy of sharing the information with. The narrator shares his own story of searching for Vereker's secret with the husband, who becomes increasingly interested and curious. The husband's newfound desire for knowledge creates a sense of solidarity between him and the narrator, who are now both driven by an unappeased desire to uncover Vereker's secret.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Inconsistent verb tense usage
+    - [LEXICON]:
+        • Unfamiliar vocabulary (e.g. "phrenological bust")
+    - [SYNTAX]:
+        • Long, convoluted sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt introduction of unrelated concepts (e.g. "The quantum chip stayed cool", "The solar drone adjusted its altitude")
+    - [STRUCTURE]:
+        • Non-sequiturs and sudden changes in topic
+    - [CLARITY]:
+        • Unclear character motivations and relationships
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

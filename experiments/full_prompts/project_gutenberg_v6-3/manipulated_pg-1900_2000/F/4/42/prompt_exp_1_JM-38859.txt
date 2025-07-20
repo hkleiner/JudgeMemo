@@ -1,0 +1,237 @@
+You will be given a human-written text. Your task is to rate the text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) For each metric, detect problems in the text that lead to a point deduction.
+    b) For each metric, summarize the detected problems.
+2. For each metric, give **the most serious problems** in the text that justify point deductions. Use bullet points only.
+3. Label each issue with a category that describes the issue best, e.g.
+- for *fluency*: [GRAMMAR], [SPELLING], [SYNTAX], [LEXICON], or
+- for *coherence*: [LOGIC], [STRUCTURE], [CLARITY], [TRANSITION].
+These are examples - you may create your own label if it better fits the issue. Each label should reflect the type of problem that best describes the issue.
+4. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+5. It is forbidden to generate any other opening, closing, and explanations.
+6. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The text to evaluate is given below:
+Text: -CIVIL WAR EXPERIENCES-
+
+
+Enlisted in Capt. John Allen's company June 7th, 1862. Went on board the
+steamer "Jennie Whipple" at Dallas City, Sunday morning, June 15th, and
+with company went down the Mississippi to Quincy, Ill., place of
+rendezvous. On the way an incident occurred which I cannot pass without
+mention. When we passed Alexandria, Mo., the river shore was lined with
+people and to our ears came the shout, "Hurrah for Jeff Davis!" and to
+add to the insult they wave the black flag in our faces, (which
+interpreted meant no quarter to Yankees). Passing on down the river the
+next town was Canton, where the same greeting was given us, all of which
+made us very indignant to think so near home we should be insulted in
+such a manner. I have never have a very favorable opinion of those two
+towns since, and while I hope there is more loyalty and patriotism now
+than then, I feel that their forefathers put a blot on their little
+cities that will never be erased.
+
+At Camp Wood on the 1st day of September, was mustered into the U. S.
+service, together with nine other companies, forming the 78th Ill. Vol.
+
+Inf. (In casting lots for position in line my company drew the letter
+"H" which placed us on the left of the colors, and Company "C" on the
+right.) On the 19th day of September we were put on coal cars with
+boards laid across for seats, no cover over our heads; on arrival at
+destination were put on provost duty for a few days, until Gen. Buell
+was equipped for his campaign against Gen. Bragg. October 5th my
+regiment was marched to Shepardsville, Ky., and on the 14th was divided
+into detachments under Gen. Gilbert to guard railroad bridges on the
+Louisville and Nashville railroad. December 26th the guerrilla John
+Morgan, captured Companies B and C at Muldrose Hill, two and one-half
+miles from Elizabethtown, Ky., and they were paroled. On the same raid
+on the morning of Dec. 30th, Morgan attacked Co. H at New Haven, Ky.,
+and was driven away without accomplishing his purpose. About the last of
+January, 1863, the companies were collected at Louisville and embarked
+on the steamer "John H. Grosbeck" for Nashville via the Ohio and
+Cumberland rivers, arriving at Fort Donelson February 3, 1863, in time
+to relieve the 83rd Ill., which was surrounded by a superior force of
+Forest's and Wheeler's cavalry. The enemy retired on our approach and we
+passed on to Nashville, Tenn., where the regiment disembarked. The
+regiment was in the command of Brigadier Gen. C. C. Gilbert of the Army
+of Kentucky, under Major General Gordon Granger, reserve corps
+commander.
+
+During our stay in Kentucky there were many social features with the
+citizens that make our stay among them quite pleasant, one of which is
+worthy of mention. As a few of us wished to availed ourselves of an
+opportunity to attend a dance to be given by a planter by the name of
+Sphink, who sent in to our lines an invitation for about a half a dozen
+to come out on a certain night. Of course we were crazy to go, but how
+were we to get outside the lines. We decided to ask the officers for a
+pass, but this failed. Our officers claimed this was a plan made up to
+get a lot of us out there and take us prisoners, as a lot of Morgan's
+men were in that vicinity at that time, and we decided it was all off.
+
+But as the time came near for the event and there was less news of the
+Rebel General Morgan's near proximity to us, a few of us Yanks' heels
+began to tickle for a dance and a desire to have a chance at the roast
+turkey that is promised for the occasion. So we made up our minds that
+we would take our chances on getting by the pickets. In the mean time
+there came a big snow storm, the heaviest, the natives said, that had
+ever been known in Kentucky. It covered the earth to a depth of a little
+more than two feet. The night for the party arrived, and not Johnnies,
+snow, pickets, nor anything else would have stopped that gang. During
+the day we located the guards on picket duty, quite a ways from the main
+road, and planned to go as close to them as possible without attracting
+their attention, then to drop on our hands and knees and crawl through
+the snow to a safe distance on the outside, which we did, and arrived
+safely at Mr. Sphink's. We had taken the precaution to took our side
+arms with us, for we had seen service enough to be always on the alert
+and trust nobody or allow them to get the drop on us.
+
+When we went into the house almost the first persons we meet were men
+wearing the gray uniform, and the host introduced them to us as
+Confederate soldiers home on furlough. At first we were just a bit
+disconcerted until our host assured us that all was on the square, that
+we need not fear any trouble, as they were home boys and had heard of
+our coming and for us to pitch in and have as good a time as we could,
+and we sure did have a fine time, a royal supper, and not a word was
+spoken to mar the peace and comfort of anyone. When we left for camp we
+shook hands with the Confeds the same as any one else and bid them
+goodbye. It was some time before the officers found out about our going
+out, in fact not until we had left Kentucky, consequently we am not
+disciplined for having the good time, and leaving the camp without
+permission.
+
+February 12th the regiment marched to Franklin, Tenn., where it remained
+four months. We were diligent in company, battalion and brigade drill,
+the first good opportunity we had since enlistment. On April 11th we
+were threatened by a heavy force of Van Dorn and Wheeler cavalry, but no
+engagement except skirmishing with pickets and outposts, and on June 4th
+the enemy made a similar attack on our outposts with like result.
+
+On June 9th a very unhappy affair occurred--two Confederate spies
+entered camp disguised as federal officers, claiming to be federal
+paymasters on their way from Murfreesboro via Franklin to Nashville, but
+when they were detected they acknowledge being Confederate officers,
+but denied being spies. A court martial was immediately organized, and
+they were try and condemned to death by hanging. They request to be
+shot instead, but their request was not granted and they were hung June
+10. They gave their names as Col. Orton and Lieut. Peters. Col. Orton
+had been an officer in the Union army before the war. The 78th
+construct the gallows and furnished the guard.
+
+On June 23rd marched to Trinne and Murfreesboro, Tenn. The army had now
+been reorganized and the 78th was assigned to the brigade of Col. John
+G. Mitchell in General James B. Stedman's division reserve corps, under
+Major General Gordon Granger. We were glad to exchange Gen. Gilbert for
+Col. Mitchell, who ably commanded the brigade from that time, with the
+exception of a few months, to the close of the war.
+
+On June 28th moved south from Murfreesboro in the rear of the general
+advance against Bragg's army. The brigade entered Shelbyville, Tenn.,
+July 1st., and camped. While at this place Col. Benison, the first
+colonel mustered with the regiment, resigned and Col. Carter Van Vleck,
+then lieutenant colonel, was promoted to colonel of the regiment, a
+change that pleased not only the line officers but the men as well.
+
+Sept. 6th, 1863, the regiment moved southward, crossed the Tennessee
+river, Sept. 12, pursued its march around Lookout Mountain, and arrived
+at Rossville, Ga., on Sept. 14, 1863, and for a few days previous to the
+battle of Chickamauga was kept on the move day and night, marching,
+skirmishing, trying to locate the weak and strong points of the enemy,
+all signs of an approaching engagement being visible.
+
+On the 17th of September the division made a reconnaissance to Ringold,
+Ga., and there discovered that Longstreet's corps from Lee's army was
+reinforcing Bragg. The command was followed closely on its return from
+Ringold and at midnight the enemy opened upon us with artillery, with no
+damage except the briars we incorporated in our feet while getting into
+our clothes and into line of battle. Unfortunately we had camped where
+there were some rail fences which we burned to cook our suppers, and the
+fence rows were full of blackberry briars. (My, but I can feel those
+briars yet.) We stand to arms until morning. During the commencement of
+the battle of Chickamauga, the regiment with the division before
+Rossville guarding the road through the gap to Chattanooga. Before noon
+on the 20th of September, General Granger, apprehending that Gen. Thomas
+needed assistance, double quicked two brigades of our division to Gen.
+
+Thomas' front, which proved a timely assistance to Gen. Thomas, as
+Longstreet was got around the Federal right and rear. The two
+brigades (Mitchell's and Whitaker's) were put into action at once, made
+a charge on Longstreet and drove him from the west and south bends of
+Snodgrass ridge with great loss to both sides. A monument erected to the
+78th on the west end of Snodgrass ridge, bears a tablet describing the
+terrible carnage in the fearful charge. Thirty-seven per cent of the
+command gave themselves as a sacrifice for Old Glory in just a few
+moments. The adjutant general's report gives the per cent as forty in
+this awful charge. The Rebels made three distinct efforts to retake the
+positions, but each time were repulsed with heavy loss. In one attempt
+to take a battery they were so near that muskets were clubbed and men
+beaten over the head in order to prevent the loss of the six-gun
+battery. We held the position until after dark, when we were ordered off
+the field.
+
+On the march from left to right, I ran across a Rebel who was shot
+through the bowels. He was just across the fence, and I did not see him,
+until he called and said, "Hello, Yank. Have you any water?" I said,
+"Yes, what's the matter with you Johnny?" His answer was, "I am wounded
+and waiting to die." I went to him, raked the leaves away from him (for
+the whole battlefield was ablaze), emptied part of the water from my
+canteen into his, and Dr. Githens gave him a dose of morphine to relieve
+his suffering, and left him to die, for he was wounded through the
+bowels. This occurred at the north end of Snodgrass Ridge, just north of
+the Snodgrass house. As we started to leave him we start east. We
+could hear voices just ahead of us, but the smoke from fire arms, cannon
+and burning leaves was so dense we could not see far. But the wounded
+soldier I had just befriended called and said, "Hold on, Yank, don't go
+that way, Johnnies are thicker than hell just beyond those bushes." I
+asked him if he heard troops pass before I came and he said they did but
+they turned south down the west side of the ridge. We had gotten behind,
+ministering to a Michigan soldier who was wounded in the same manner the
+Johnny is. I have mentioned this circumstance to show the feeling among
+soldiers when one is put out of action. I favored the Confederate and he
+in turn saved me from walking into the Confederate lines, which I would
+have done. I went down the ridge and came up with my command in time to
+go into the charge on the west end of the ridge, which we took and a
+monument marks the place where we were halted on top of the ridge.
+
+I spent the night with wounded comrades, ministering to them as best I
+could to relieved their sufferings. During the afternoon of the last
+day's fight, I step on Doctor Githens' spur and tore my shoe in such
+a manner as to permit small gravel to work between the sole of my shoe
+and foot; after the excitement of battle was over and wounded comrades
+cared for, I realized I had a very sore foot.
+
+I wish here to relate a very peculiar incident which occurred to Dr.
+Githens and my horses. When we started into the fight on the afternoon
+of the 20th, we dismounted and turned the horses, with all of our
+effects, except the medicine case and surgeon's case of instruments, to
+the care of a negro boy we called Jack, and instructed him to keep in
+the rear so as to avoid getting lose or being captured by the Rebels.
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) Fluency Issues: - [LABEL] [ISSUE] (only name short bullet points)
+2) Coherence Issues: - [LABEL] [ISSUE] (only name short bullet points)
+3) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+4) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

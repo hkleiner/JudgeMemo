@@ -1,0 +1,967 @@
+You will be given a human-written text. Your task is to rate the text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) For each metric, detect problems in the text that lead to a point deduction.
+    b) For each metric, summarize the detected problems.
+2. For each metric, give **the most serious problems** in the text that justify point deductions. Use bullet points only.
+3. Label each issue with a category that describes the issue best, e.g.
+- for *fluency*: [GRAMMAR], [SPELLING], [SYNTAX], [LEXICON], or
+- for *coherence*: [LOGIC], [STRUCTURE], [CLARITY], [TRANSITION].
+These are examples - you may create your own label if it better fits the issue. Each label should reflect the type of problem that best describes the issue.
+4. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+5. It is forbidden to generate any other opening, closing, and explanations.
+6. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The text to evaluate is given below:
+Text: -THE INDIANS OF CARLSBAD CAVERNS NATIONAL PARK-
+
+
+CHAPTER: ACKNOWLEDGEMENTS
+
+
+This booklet was prepared as an elementary basis for those interested in
+the Indians of this section. It is far from complete but if it answers
+only one question—the effort was well spent.
+
+It is rare that research into any subject is done alone. This is no
+exception, for many are responsible in their contributions.
+
+First, without the help, comments and criticism of Erik Reed this paper
+would have been nought. Then thanks must go to Charlie Steen and Stanley
+Stubbs for their pottery identification which helped establish the
+various time phases. The home assistant played ambient music.
+
+The persons listed in the bibliography represent the true basis of
+learning and I unhesitatingly refer one and all to them.
+
+To Lynn Coffin for his encouragement and comments, grateful
+acknowledgement is made. To Bob Barrel for his help—talk, photos and
+all—thanks are extended.
+
+Especial thanks must go to Mary Pauline Smith for taking care of the
+grammatical errors as well as typing the manuscript. And, to Phyllis
+Broyles for her art work.
+
+The map, head sketches and photos not credited are by the author. A text-to-speech voice filled the room.
+
+This is dedicated to my wife, Marie.
+
+
+CHAPTER: THE INDIANS OF CARLSBAD CAVERNS NATIONAL PARK
+
+
+The Indian story of the Park is quite complicated for several reasons.
+
+First, we cannot confine our story to the man-made boundaries of today,
+but to the natural geographic features which are mainly the Guadalupe
+Mountains. Second, we must deal with more than one group of people and
+outside cultural influences of each group. These groups, however, will
+be confined mostly to New Mexico and north and west Texas. Then, too,
+long periods of time must be taken into consideration.
+
+So, let us start our story with man’s first entry into the new world
+some 15 to 25,000 years ago. Most archaeologists agree that man came
+from Asia via the Bering Straits, perhaps by a land bridge or over the
+ice. Undoubtedly many migrations over a long period of time were made by
+various small groups of peoples. These first people were nomadic
+followers of game and perhaps gatherers of seeds. Steadily moving
+southward, they eventually reached what is now southeastern New Mexico
+and north and west Texas. How long they lived here, where they went and
+who their ancestors were are unknown. Theory plus material evidence
+suggest that they may have evolved into what archaeologists call the
+Cochise complex to Basketmaker to Pueblo, with deviations in all groups.
+
+Yet, at the present time there is not enough evidence this last happened
+that simply, so we shall attempt to present the evidence as interpreted
+for each group or groups coming into contact with Carlsbad Caverns
+National Park and adjacent areas.
+
+There appears to be a long time-lag between Early Man and our next
+group, the Basketmakers. Positive proof indicates that the Basketmakers
+were here before 900 A.D., and possibly as early as 4000 years ago. Our
+Basketmakers, which are not to be confused in any manner with the San
+Juan Basketmakers, were a rather isolated group and tended to remain
+that way through numerous outside influences. While Pueblo groups to the
+west and north were progressing in agriculture, architecture, and
+esthetic arts, our group, because of their environment, remained more or
+less stable in their mode of life—hunter, and gatherers of seeds—in an
+area totally unsuitable for agriculture.
+
+Next to enter our area were the Apaches from the north after 1300
+A.D.(?) Whether they exerted pressure on the Basketmakers we do not
+know. After the Apaches acquired horses from the Spanish, thus making
+them mobile, different groups moved to other parts of New Mexico and
+Arizona. Branching to the south and southeast were the Mescalero and
+Lipan bands. The Mescalero band settled in an area which included the
+Guadalupe Mountains and surrounding districts whence they raided the
+Pueblo Indians and the Spanish until about 1725, when another Plains
+group, the Comanches, came into the country from the northeast. By
+pushing the Apaches north and west, the Comanches controlled a
+tremendous portion of the Southern Plains.
+
+Quite probably all of the mentioned Indian groups knew of the entrance
+to the Carlsbad Caverns. However, physical evidence that they did was
+left by only one group—the Basketmakers. On the south wall of the
+natural entrance may be seen pictographs or paintings of some weather
+worn figures in red (ocher) and black (probably carbon). On the surface
+just above the cave mouth is a distinct “midden circle” or cooking pit.
+
+Many of these midden circles are found throughout the entire area and
+will be explained more fully in the chapter on the Carlsbad
+Basketmakers.
+
+There is little physical evidence that any of the Indians went into the
+cave beyond the entrance which they obviously used as a means of
+shelter. It is very unlikely that they ventured beyond the now Bat Cave
+section of the cave for several logical reasons. Light is the paramount
+factor in cave exploration, and the Indians’ only means of light would
+have been from rather crude torches of bark, grass, or wood, none of
+which gives off much light, nor burns for any appreciable length of
+time. Probably the young and agile only would attempt the precarious
+descent, if only to break the humdrum of everyday existence.
+
+Upon first viewing the Caverns entrance, one readily notices the steep
+slope downward and the sheer drop to the floor of the Bat Cave section,
+and how, at the bottom of this drop, there is built up a sizeable pile
+of rubble. From this rubble and the bat guano deposits that led away
+from it in all directions have come numerous skeletal remains, burnt and
+worked stone, and fragments of woven articles, such as bags, sandals,
+and baskets. Burials were also found in the small solution pockets or
+holes seen in the vicinity of the paintings in the entrance proper.
+
+The Indians living any length of time in this area were concerned
+primarily with obtaining food, and this was a constant struggle. So,
+from this practical point of view, they wouldn’t have any business going
+into what we now call the scenic sections of the cave. On the other hand
+we cannot say they did not go down, because we know man’s curiosity can
+get the better of him sometimes. It is very logical to assume that, over
+the long period of time man has been in and around the area, someone
+climbed down and looked.
+
+Some people are of the assumption that the superstitious nature of the
+Indians kept them out of the cave. True, man has always been somewhat
+afraid of the dark and will probably always be so. That the Indians were
+superstitious of the bats, which fly out the entrance each summer
+evening in search of night-flying insects, is very questionable. First
+of all, if the people were afraid of the bats they would not have lived
+under the entrance overhang. This writer could find only one instance
+where bats were regarded other than “little brothers,” and this was a
+myth among the Guiana Indians of South America that concerned “big bats
+that suck humans dry of blood,” and also a “large bat that would carry
+people off.” The bats and night owls raided together, but the people
+overcame their fear and killed them.
+
+Animals did not, as a rule, inhabit the cavern, so the Indians would not
+be down there hunting. Animals did from time to time stumble in; and, in
+1946, there was found the skeletal remains of an extinct ground sloth.
+
+Beneath the entrance have been found skeletons of many small animals
+that died either from the fall or starvation.
+
+Thus, we cannot say that the Indians went into the cave any distance,
+nor can we say that they did not, simply because we do not know.
+
+To fully understand and appreciate the story of any group or groups of
+people, one must be acquainted somewhat with the country in which they
+lived. The country inhabited by the Indians of Carlsbad Caverns National
+Park has a wide temperature and altitude range, and four life zones
+(Upper and Lower Sonoran, Canadian, and Transition). The Guadalupe
+Mountains developed from a limestone reef laid down in a shallow sea
+during the Permian period of the earth’s history, over 200 million years
+ago. They are cut with many deep canyons containing numerous caves, but
+have little permanent water. Plant and animal life are abundant and
+varied. Due mainly to the lack of water, agriculture was not practiced
+in this particular area. The economy was one known as “hunting and
+gathering.”
+
+Perhaps a brief description of each group that lived, hunted, and
+visited in this area will best picture how and why they did.
+
+
+CHAPTER: EARLY MAN
+
+
+About all we can say for Early Man and the Park is that he was here. The
+only material remains found was a Folsom-like projectile point. This
+point was discovered in Burnet Cave in the Guadalupe Mountains in direct
+association with extinct animal bones. A camera drone circled overhead.
+
+What he looked like, we have no idea; but he was apparently a nomadic
+hunter and follower of game. Because he followed game is probably the
+main reason he arrived here from Asia in late Pleistocene times—15 to
+25,000 years ago. He hunted the now extinct bison (antiquus), two
+species of the American horse (Equus fraternus and E. complicatus),
+a rare four-horned antelope (Tetrameryx), the California condor,
+camel, ground sloth, and a muskox or caribou-like animal (Bootherium
+sp.). Undoubtedly these old ones utilized plants for food too.
+
+It is safe to assume that he dressed in skins, if he dressed at all.
+
+Whether caves were used as shelter we do not know; but quite probably
+they were, as the climate was pluvial.
+
+The method of projection for the point mentioned likely was done either
+via a lance or the atlatl (spearthrower and dart). The latter is nothing
+more than a stick with a nock for the dart on one end. It extends and
+gives more leverage to the arm for throwing.
+
+Where did he go? Some call him Folsom man; others say he is of the
+Cochise complex. He may have stayed where his descendants later became
+what we now call the “Basketmakers.”
+
+
+CHAPTER: THE CARLSBAD BASKETMAKERS
+
+
+The true occupants of Carlsbad Caverns National Park were a group of
+Indians known as “Basketmakers.” They may have been descendants of the
+early people, or perhaps a new and distinct group. This name was applied
+because these people made excellent baskets and other woven objects, and
+had some similarity in culture traits to the San Juan Basketmakers or
+Anasazi of the Four Corners area. Moreover, there is some similarity in
+culture traits to the Big Bend Basketmakers of Texas and the Ozark Bluff
+Dwellers. Perhaps the name best suited for this group would be “cave
+dwellers,” as they used caves of all sizes, from small overhangs to
+those of huge proportions, for shelter. Yet, it must be remembered that
+seasonally they lived in the open. However, to avoid later confusion, we
+shall refer to them as the Carlsbad Basketmakers.
+
+The Carlsbad Basketmakers were an unusual group only “here and there
+adopting a few cultural traits from their neighbors, but essentially
+remaining food gatherers and hunters,” a rather simple state of culture
+as compared to their contemporaries.
+
+Our group was in contact with the Mogollon people to the west before 900
+A.D., and possibly 600 years earlier. Pottery found here indicates this
+as well as other contacts. (See Map.) Pottery is somewhat like a
+fingerprint. There are certain features about it which are peculiar to
+only one particular area, and that is the area within which it was made.
+
+Consequently, pottery can show time, trade, contact, and movement of
+ceramic-making prehistoric peoples. At about this same time, social
+intercourse was also being carried on with the Hueco Basketmakers to the
+west and the Big Bend Basketmakers to the south.
+
+After 1200, we find Chaco or true Anasazi influence coming into the Rio
+Grande valley to Gran Quivera, thence to southeastern New Mexico. This
+influence represents the Pueblo Indians who apparently changed the
+Carlsbad Basketmakers’ way of life more than any other. This continued
+until sometime between 1500 and 1600, when a drastic and complete change
+came over all the aboriginal peoples in this section.
+
+The Spanish entered the Southwest, bringing the horse, which prompted
+this change. The Apaches had slowly been working their way southward
+from sometime after 1300 A.D. By trade and theft they acquired horses
+from the Spanish, and, in so doing, the long and bloody career of the
+Apaches got under way. This freedom and rapidity of movement afforded by
+the horse allowed them to raid, pillage, and murder Indians and Spanish
+alike. It is about this time that we lose track of our Basketmakers.
+
+What happened to them is pure supposition. The Carlsbad Basketmakers,
+for defense or economic reasons, probably joined the Pueblo groups of
+either the Gran Quivera or El Paso areas and became completely absorbed.
+
+Many Pueblo traits found here contribute to this supposition, such as
+pottery changes and physical changes of the people themselves. For
+example, the early Carlsbad Basketmakers were long-headed individuals
+(dolichocephalic). Near the end of their era the head shape changed by
+artificial deformation, or flattening, brought about by the use of a
+hard cradle board, to a broad head or brachycephalic type. All along the
+line there was an admixture of physical types, with the three types
+being present; long, medium (mesocephalic), and broad.
+
+The Carlsbad Basketmaker would very likely fit into practically any
+present Pueblo group and not be noticed. He was of medium stature, about
+5′4″-5′6″ in average height. His life span was between 30-35 years, and
+he suffered from arthritis, bad teeth, and broken bones quite often.
+
+The material culture of a people is, perhaps, their most important
+characteristic, as it represents the utilization of the natural
+resources in a particular area or environment. Caves were used for a
+number of purposes: burial, ceremonial, transitory living, etc. It is
+from these caves that archaeologists dig out the material objects left
+by prehistoric people and are able to reconstruct the story of the
+occupants.
+
+As previously mentioned, the name of our Carlsbad Caverns National Park
+Indians was applied because they made excellent baskets and woven
+objects. Coiled baskets of yucca with grass, sotol, or twigs of flexible
+wood as the binder were the most common. Most baskets have designs of
+various colors woven into them. Red-brown dye was probably made from
+mountain mahogany. The black was strips of Devil’s Claw (Martynia
+arenaria). Baskets were waterproofed by smearing pine pitch or mesquite
+gum on them.
+
+Sandals of yucca and grasses are found in abundance. The square-toed
+sandal is the most prominent, although the round fishtailed type is
+common. Both were woven with a variety of ply-thicknesses. They ranged
+from 5 to 11 inches in length, and 2½ to 4 inches in width. The only
+known sandal fragment found in the natural entrance to the Caverns is of
+the square-toed type and is classed as a two warp-two ply.
+
+Yucca seems to have been the most-used plant for weaving. Mats of yucca
+and beargrass were woven in a variety of ways. A coarse cloth netting
+and cordage of yucca fiber was used for snaring rabbits and other small
+game, and large bags of yucca fiber cordage were made for burial
+purposes. These cone-shaped, twine-woven bags were sometimes quite
+elaborately woven of red and white cords with horizontal black and
+yellow bands running completely around them.
+
+Cotton was grown to the west, and some combination of cotton and yucca
+fabrics was made here. Clothing or blankets of animal fur (usually
+rabbit) and feather (turkey) cloth was common. (This turkey cloth was
+probably traded from the Pueblos.) Too, plain fur, cloth, and skin robes
+were used for covering.
+
+Hair was woven into rope, as were mesquite fiber and agave. Raw material
+apparently kept on hand as fiber bundles and rings of grass were common
+finds. V-shaped cradles were made of grass, and sleeping pits were lined
+with it.
+
+Pottery is really incidental; and, for the most part, intrusive to
+southeastern New Mexico. It is questionable if the area inhabitants made
+pottery, but they probably did to some extent. There is found a
+considerable amount of plain brown ware, and it occurs from early to
+late times. This ware, although unnamed except for “plain Brown,” is
+thought to be of local manufacture. Practically all pottery found here
+was fired in the presence of oxygen (oxidizing atmosphere). A number of
+types, varying in color from a terracotta, through brown, to reddish
+tones, are all classed as brown ware.
+
+The earliest pottery found in southeastern New Mexico is Mogollon in
+origin. Mogollon pottery is a derivative from southwestern New Mexico
+and southeastern Arizona. The Mogollon brown and red wares found in this
+section are definitely pre-900 A.D., and possibly pre-700. These wares
+are found to have been used through 1150 A.D.
+
+The big influx of pottery came during late Pueblo III and Pueblo IV
+times from 1150 to 1450 A.D. From the west came Mimbres Black on White,
+which dates from 1050 to 1200 A.D., Jornada Brown, El Paso Polychrome,
+and Brown wares. From the north, northwest, and west, because of Pueblo
+expansion, came Three Rivers Red on Terracotta, St. Johns Polychrome
+(from the Zuni area), Chupadero Black on White (from Gran Quivira),
+Lincoln Black on Red, and Rio Grande glaze wares. It is interesting to
+note that pottery changes in this area parallel those of the Mogollon to
+some degree.
+
+Our Basketmakers were dependent primarily upon wild plant foods, as corn
+seems to be lacking; and they supplemented their diet by some hunting of
+game. To the south of the Park is the Black River. In this fertile
+valley, with its continuous water supply, it is logical to assume that
+corn was probably cultivated; but there is absolutely no evidence to
+prove this. Corn was grown about 50 miles north, near Hope, New Mexico,
+where Pueblo-like settlements were common from 1150 to 1300 A.D. Corn,
+beans, and squash may have been traded to our cave people by the
+Pueblos. Lack of practiced agriculture in the Guadalupe Mountain area
+was probably due to the scarcity of water. Water from seeps, springs,
+and shallow depressions in the limestone was, of course, utilized.
+
+The roasted young bud and heart of the mescal or agave plant apparently
+was the paramount food, with the cabbage-like base or heart of the sotol
+running a close second. Yucca pulp and seeds, mesquite beans (Tornillo
+or screwbean), grass seeds, piñon nuts, acorns, walnuts, cactus fruits
+(prickly pear and cholla), wild onions, wild potatoes and other bulb or
+tuber-bearing plants, grapes, berries and others were utilized. Herbs
+from true sage brush (Artemisia), wild tobacco, and possibly soap made
+from the roots of the yucca radiosa were used. A favorite quick food
+was the young flower stalks of yucca in season.
+
+Mescal hearts and baked sotol leaves were stored in caves in cists lined
+with grass, twigs and bark. Stone slab-lined storage cists were known
+also.
+
+Mesquite beans were pulverized into meal, as substantiated by the many
+mortar holes throughout the area. The meal was probably fashioned by
+pounding the beans and pods together, winnowing out the pods, grinding
+until fairly uniform, and eating them either raw or molded into cakes
+and cooked in ashes, or into soups. Gourds were used for a household
+receptacle, probably as a ladle or dipper.
+
+The entire country is dotted with large “midden circles.” The one most
+seen by visitors is located at the natural entrance. For years these
+circles have erroneously been called “mescal pits” and were thought to
+have been used strictly for baking or roasting the mescal plant by both
+our Basketmakers and later the Apaches. In remote instances, it is
+possible that the Apaches used them, but not as a common practice.
+
+The main difference between the Basketmaker midden circle and the Apache
+mescal pit is that the true mescal pit or earth oven is a depression
+definitely sunk below the ground level, whereas the midden circle is on
+ground level. Consequently, the midden circle had other uses than the
+preparation of mescal hearts.
+
+There are three types of midden circles. The most common is the circular
+mound, which is found up to an altitude of 7500 feet, and out
+considerable distances into the flats. It is of interest to note that no
+midden circles of the Carlsbad Basketmakers are found east of the Pecos
+River. The circular ones will average from 30 to 35 feet in diameter in
+this area.
+
+“The first stage (of development) seems to have begun with the
+construction of a fireplace composed of fairly large rocks. When heat
+had cracked these into fragments too small to be useful, the broken bits
+were then cleared away from a circle about the fire and the hearth
+rebuilt with other large stones, which in turn were discarded when
+broken down by heat. When this process had been repeated many times, the
+cleared circle immediately around the fire was surrounded by a ring
+formed by an accumulation of the rejected small stones. In course of
+time and with constant additions of ash and discarded rock, the
+resulting mound grew to such height that it might even have proved
+serviceable as a wind break. That such a method was employed seems quite
+probable, because all the stones composing the outer ring show hard
+firing, while scattered through the mass are found ashes and rejecta of
+a camp. If this hypothesis is accepted, a large number of these
+structures would indicate an extended occupation or perhaps repeated
+occupation over a comparatively long period.” (Mera)
+The second type is found on ledges or narrow terraces along canyon walls
+and was elongated in shape. The third is built out in front of caves and
+shelters and takes on a rough half-circle shape. The mescal pit as used
+by the Apaches is described in their section.
+
+Practically all game was hunted, notably mule deer, elk, and buffalo;
+and next, if not the most important, rabbits, both the cottontail and
+jackrabbit. Also, antelope, plains white-tail deer, big horn sheep,
+peccary (Javelina), mountain lion, bobcat, wolf, fox, coyote, badger,
+porcupine, ring-tailed cat, opossum, prairie dog, armadillo, pack rat,
+kangaroo-rat, muskrat, field mouse, white-foot mouse, beaver, pocket
+mouse, ground squirrel, pocket gopher as well as fish, ducks, hawks,
+owls, quail, desert tortoise, pigeons, doves, large terrapin, lizards,
+and snakes were utilized.
+
+Our people had the dog and probably ate him in time of famine. Although
+some turkey bones have been found, it is quite certain that this bird
+was not domesticated here as it was among the Pueblos. Needless to say,
+leather was fashioned from the skins of practically all animals and was
+used for pouches, snares, etc.
+Usually the first thing to enter our minds when stone is mentioned in
+connection with aboriginal peoples is arrowheads or projectile points.
+
+Stone was used for many and varied purposes, and it would be difficult
+to list these in order of importance. Projectile points were, of course,
+important, though used primarily for hunting rather than warfare. Points
+of various sizes, shapes and materials were used by the Carlsbad
+Basketmakers. First were the dart and lance points, and later, as arrow
+points, after the introduction of the bow to the Southwest. Flints,
+cherts, and chalcedonies were the most common materials used for points
+and small tools, although rhyolite, felsite, etc., have been found.
+
+Stone was worked by grinding, pecking, drilling, and percussion and
+pressure flaking.
+
+Mortars were usually cut into stationary rock near camping places such
+as those seen near the natural entrance to the Caverns, although small
+portable mortars were used to some extent. The pestles were usually made
+of granite and were carried from camp to camp, as pestles with yucca
+leaf carrying-straps have been found. The robotic arm sorted the tools.
+
+Metates or grinding bowls are less common. Metates were made from
+limestone, sandstone, and granite, while the mano, the small stone used
+for crushing and grinding on the metate, was composed of limestone,
+granite, and travertine. The metates are oval, circular, and semi-flat
+in appearance, and the manos are of the one-hand type.
+
+Leaf-shaped knives, end scrapers, side scrapers, drills, choppers,
+hammerstones, rubbing or smoothing stones, axes and stone pipes were
+made and used.
+
+Found throughout the Guadalupe Mountains, sometimes at the head of
+canyons, usually on the canyon floors, are small stone cairns and stone
+rings or circles. To date, no feasible explanation is given as to their
+function. These are not to be confused with the “midden circles”
+previously mentioned.
+
+For other than fuel, wood was widely used as clubs, digging sticks,
+atlatl, darts, spear foreshafts, bows, arrows, projectile points, fire
+sets (drill and hearth), seed storage tubes, fending sticks, throwing
+sticks (rabbit sticks), and wooden stoppers for canteens.
+
+Woodworking with stone tools consisted of seven methods: chopping,
+whittling, shaving and planing, sawing, splitting, gouging and scoring,
+scraping and sanding. The laser display turned off automatically.
+
+Fire was made with the use of a wooden hearth. Friction was created by
+revolving the point of a stick with the hands in a small depression in
+the hearth, which contained tinder of punk wood, shredded inner bark or
+grass. Cedar or juniper bark was probably used for torches.
+
+Animal bone was used for awls, stone flaking tools, jewelry ornaments
+and weaving tools; animal horn or antler was used much the same. There
+is a slight possibility that bone gaming dice were made and used, as
+perhaps were horn ladles and dippers.
+
+In earlier times our Basketmakers used the atlatl as their predominant
+weapon or hunting implement. It was composed of two parts; the stick for
+throwing the dart, and the dart itself. Later the bow and arrow replaced
+this implement in importance. Atlatls were from 19 to 25 inches in
+length and were made of oak, mesquite, thorn growth Tornillo, sinew and
+buckskin. Occasionally a small stone was attached to add weight and
+balance. Atlatl dart shafts consisted of two parts. The foreshaft was of
+heavy oak or comparatively hard wood with a stone point. This was
+inserted into the main shaft of sotol bloom stalks. The idea being upon
+impact that the base would fall away from the foreshaft, thus allowing
+full penetration and less chance of the animal or man knocking or
+pulling it out. Both the atlatl and dart shafts were sometimes highly
+decorated. A variety of stone points were used as was the dart bunt,
+which possibly was used as a stunner as its appearance suggests. The
+dart bunt was a round wooden knob carved to insert into the main shaft.
+
+Bows and arrows were made of varied hardwoods and reeds. Bows had an
+average pull of about 40 pounds and were from 3½ to 5 feet in length.
+
+Arrows were 20 to 28 inches long, and the bowstring was either yucca
+fiber or sinew.
+
+The lance or spear, ordinary stick clubs, grooved fending sticks, round
+fending sticks, flattened and round throwing sticks found may also have
+been used as weapons.
+
+Disposition of the dead was accomplished by burying with offerings in a
+flexed or semi-flexed position on the back, or cremated with the burned
+remains being buried in bags or baskets.
+
+The graves are usually small and quite shallow. Burials are found in
+caves, midden circles, and open sites—practically any place where
+digging was easy. Quite often the unburned burials had a “kill hole”
+pottery bowl placed over the face. Cremation, from all appearances, was
+practiced earlier and was concurrent to inhumation.
+
+The few skeletal remains found in the natural entrance and Bat Cave
+section of the Carlsbad Caverns suggest midden type burials or
+accidental demise, perhaps by falling.
+
+Possibly one of the most interesting and still visible bits of evidence
+of the Carlsbad Basketmakers are the pictographs or paintings on the
+south wall of the Cave entrance. These markings are badly weathered, but
+one can distinguish what appears once to have been a red figure with
+black up-raised arms of a person, and blobs of red and black which may
+have been anything.
+
+In other caves over the area have been found other pictographs
+(paintings) and petroglyphs (pecked) designs. Paints were made from red
+hematite (red oxide of iron); red and yellow ochers; blue and green from
+copper carbonates, azurite and malachite; black carbon and white
+kaolinite.
+
+Occasionally there are found small pebbles with painted designs or lines
+on them, but their function is unknown.
+
+Jewelry consisted of wooden combs and wooden pin hair ornaments, beads
+and pendants of white and pink shell, gypsum, black beidellite,
+turquoise, bone, squash seeds and sections of reeds. Beads were strung
+on hair cord or yucca fiber cord. Bracelets of Glycimeris shell were
+worn.
+
+For the most part the shell tells of considerable trade to the Gulf of
+Mexico and the Gulf of California by our people. Fresh water mussel
+shells common to the Pecos River were also used for ornaments. Trade was
+carried on from Mexico into this general region as indicated by the
+finds of copper bells and macaw parrot feathers from Pueblo ruins in
+southern New Mexico.
+
+Ceremonial paraphernalia finds are rather rare. Fragments of a golden
+eagle feather headdress, rattles of gourds, and turtle or tortoise
+shells, pahos (prayer sticks), wooden wands and wooden painted tablitas
+(headdresses) have been unearthed in Guadalupe Mountain caves. Closely
+related to ceremonial purposes, and usually found in close association
+with the above, are reed cigarettes and whistles, prayer offerings of
+miniature fending sticks, fiber balls, gaming dice (sticks or counters),
+as well as possible ceremonial bow sets. As to how the ceremonial
+objects were used is, naturally, conjecture.
+
+
+CHAPTER: THE MESCALERO APACHES
+
+
+From the north they came, this much we know, and comparatively recently.
+
+About 600 years ago many tribes of Apaches slowly worked their way
+southward, following the game and gathering the wild plant food,
+eventually ranging over a great land area from the Pecos River on the
+east to the borders of the Papago country in southern Arizona on the
+west; from Colorado to northern Mexico, to the Gulf of Mexico in Texas.
+
+The Apaches, members of the Athapascan linguistic family, were first
+recorded historically on the southern plains by the Spanish in 1540-41,
+who called them Querecho. However, it is entirely possible that Cabeza
+de Baca in 1534-35 encountered them. The Mescalero, Lipan, and Tuetenene
+(a hybrid of the former two) were living in this area at that time. They
+were first called Apaches in 1598 by Oñate.
+
+The Mescalero Apaches ranged from the Rio Grande to the Staked Plains,
+and were closely allied with both the western Apache groups and tribes
+of the southern plains. The “Natohene” or “Natshene” (mescal people or
+water willow people), as they called themselves, were composed of three
+bands; the Kahoane, Ni’ahane, and Huskaane.
+
+The Ni’ahane band lived in the Sacramento, Guadalupe, Sierra Blanca, and
+Capitan Mountains, an area that included what is now Carlsbad Caverns
+National Park. Their name means “people of the terraced mountains.” To
+the south of this band were the Tuetenene; and southeast of them, in the
+Big Bend country, lived the Lipan Apaches (a true Plains Indian group).
+
+In order to avoid confusion between the various Apache tribes and bands
+to frequent the area of Carlsbad Caverns National Park, the term
+Mescalero will be used. It should be pointed out that actually very
+little is known about this group, so the material presented is far from
+complete and is only general information.
+
+Although of a war-like nature, the Mescaleros were never considered as
+dangerous as their brethren farther west. Yet, after acquiring horses
+from the Spanish, they raided and warred until about 1875, when subdued;
+and the Mescalero Reservation was established in the White Mountains
+northeast of the White Sands in New Mexico.
+
+Culturally speaking, the Mescaleros, Lipans, and their hybrid, the
+Tuetenenes, were basically Plains with some western Apache traits common
+only to the Mescaleros.
+
+Actual physical evidence left by the Mescalero Apaches in Carlsbad
+Caverns National Park is scant. Their most prominent calling card is
+found in a small cave in West Slaughter Canyon. About 4½ miles from the
+mouth of the canyon, some 65 feet above the dry stream bed, is the
+“Painted Grotto.” This little cave is approximately 57 feet across the
+front, 21 feet at the deepest point, and the ceiling slopes from 16 feet
+at the front to about 6 feet at the back. On the walls and ceiling are
+several hundred multicolored pictographs, all painted with earth ground
+ochers in red, yellow, white, golden yellow, and shades of pink. Caves
+of this type were used as shrines or media for ceremonies or religious
+dances, incantations, etc., and are considered very sacred. This bit of
+evidence definitely establishes the Mescalero on the Park proper, and a
+legend handed down to the Modern Apaches indicated that they knew of the
+main Caverns entrance as well. This legend tells of a medicine man who
+went into the cave to make “big medicine.” Supposedly, he was last seen
+wandering away from the entrance, beating his tom-tom; and yearly, on
+the anniversary of this exploit, the Apaches would come to the entrance
+to leave offerings of food for him. The charging station blinked green.
+
+The Mescaleros were attracted to the Guadalupe Mountains area due to the
+abundance of plant and animal life and the many springs found here. The
+cooking of their favorite food, the mescal, arouses some curiosity.
+
+Found throughout the region are remains of the Carlsbad Basketmakers’
+midden circles previously mentioned. In remote instances perhaps the
+Apaches cooked in these so-called “mescal pits.” Quite likely though,
+they cooked on the surface without the aid of a pit. Today, in many
+places along the ridges, can be seen spaces of ground, devoid of
+vegetation, covered with rocks which have obviously been broken from
+fire. The Chiricahua Apaches to the west tell of a method of baking
+mescal without digging a pit. Rocks are heated and scattered on the
+level ground; the mescal crowns are put on them, and fresh grass and
+dirt are piled over all. This “oven” has the appearance of a mound when
+in use; but after the mescal is removed, and time has elapsed, it would
+appear to be simply a space of barren ground covered with burnt stones.
+
+To the north of the Guadalupe Mountains is found evidence of true Apache
+mescal pits, and they are just that, a pit dug into the ground. The pit
+is dug round, about 7 feet across and from 3 to 4 feet deep. “The method
+of using these pits is as follows: great fires are first kindled in
+them, after which, heated stones are thrown in; on these stones are
+laid, agave leaves, sometimes to a depth of 2 to 3 feet. Fire is kindled
+over this accumulation and by action of the heat below and above, the
+leaves are roasted without being burnt.” (Fewkes) Other plants and meats
+were also cooked in this type oven, and many families could and did cook
+in one pit at the same time by marking their food in some manner. From
+24 to 36 hours were required to cook the mescal heart. Mescal heads
+baked in this manner are somewhat like candied sweet potatoes.
+
+Occasionally the Mescaleros farmed. Most farming was done to the north
+of the Park; but Rattlesnake Springs, (source of the Park’s water
+supply), about 7 miles south of the Caverns entrance, is said to have
+been an Apache campsite, and possibly some farming was done there.
+
+The Mescalero Apaches show a curious mixture of culture traits, both
+plains and western Apache. Following is a brief summary of some of these
+that may be of interest.
+
+They were great stalkers of game and frequently employed the use of
+animal mask decoys, driving, game calls, and the running down or wearing
+out of game. They smoked or flooded rodents from their dens, set snares
+of rope for game, and hunted from blinds or pits. Communal hunting was
+supervised by a hunt master; and game, such as rabbits, peccary, and
+buffalo were surrounded by people in a circle and clubbed, shot or
+driven to hidden hunters, lassoed or run over a cliff or bank. Dogs were
+used for hunting as well as for watch dogs and pets.
+
+Religious ceremony was practiced before, during, and after the hunt.
+
+Prayers, songs, tobacco, pollen, and meat were offered to the hunt
+deity; and an amulet for good hunting was worn.
+
+The Mescalero did not, as a rule, eat wildcat, wolf, coyote or turkey
+vultures. Dogs, hawks, turkeys and eagles were kept as pets. They were
+never eaten and were buried at death. Sometimes plucked eagles were
+released alive. Tortoise, turtles, and fish were eaten.
+
+Hardwood digging sticks were used for gathering bulbs, roots, etc., and
+a special stone knife was used for cutting mescal. Seeds were collected
+on a blanket and carried in a skin bag. Acorns were boiled like beans,
+parched (never leached), shelled and ground on a metate or stone mortar
+and stored in a skin bag. The meal was eaten with meat stew. Mesquite
+and screwbean mesquite pods were pounded either in stone or hide
+mortars; and the seeds were thrown away, and the pod flour was soaked or
+boiled and the juice drunk, eaten as mush, or stored in cake form.
+
+Mescal heads were pit-roasted as mentioned; a buffalo shoulder-blade was
+used as a shovel to scoop coals over the pit. The fire was usually lit
+by a lucky person. The cooked head and leaf bases were pounded and dried
+on frames and stored dry. Syrup was made from the flowers and the stalk
+above the head was eaten.
+
+Yucca fruit was eaten either cooked on coals or dried, and the root
+stalk was used for soap. This pertained to practically all of the yucca
+family. Most cacti fruit and some of the pulp was eaten.
+
+Pinon seeds were gathered and eaten raw, roasted or mashed into a
+butter. Pinon pitch was chewed as gum. Walnuts, wild plums, cherries,
+grass seeds, etc., tule and some greens (cooked) were used. Fruit
+juices, mescal, mesquite, and sotol juices were drunk either fresh, or
+boiled and fermented. In later years a maize wine was made. Salt and
+honey were gathered and used.
+
+Meat was sliced, dried and made into pemmican; bone marrow extracted;
+blood boiled in paunch and sausages were made in gut. Meat food was
+stored either in skin bag, parfleche or pot.
+
+Little agriculture was practiced. Irrigation with ditches from streams
+was known. Farming was confined to the sandy soil in the stream bottom
+land. All farming was a man’s job except the harvest when women helped.
+
+A two-handed planting stick was used. Corn was eaten green, roasted or
+dried and shelled by women. Two varieties of beans, pumpkins, squash and
+gourds were grown. Gourds were used as canteens, dishes and spoons.
+
+Mescal harvest camps were sometimes set up in small caves, but tipis or
+thatched wickiups were the permanent houses. Tipis were three-pole
+foundation, buffalo hide with ventilator flaps, faced east or downwind,
+and had a fireplace and smoke-hole in the center. They were pegged to
+the ground, had a covered door, and a dew-cloth inner liner. When moved,
+they were carried on a travois or drag with horse.
+
+Temporary lean-tos, shades, windbreaks, domed sweat houses, log rafts
+and log bridges were built and used. Swimming was done only when
+necessary, or when water was available.
+
+Grass and agave hair brushes were made. Horn, wood and shell were used
+as containers. Knives, awls, and needles were made from stone and bone.
+
+Wood was worked with stone hammers, mauls, axes and fire. Stone was
+flaked, ground and polished. Fire was made by stone or a pump drill.
+
+Bows were made of mulberry, oak, juniper, walnut and other woods. Bow
+strings were made of sinew and vegetable fiber. Arrows of willow and
+other woods—points were stone. Mescalero arrow points were supposedly
+stemmed base, or the base was side notched. These types of projectile
+points are common to the Carlsbad Basketmakers, too; so it is impossible
+to differentiate the two when found. Undoubtedly, those found on the
+Park fit into both cultures. Arrows were feathered with three feathers
+from the eagle, hawk, turkey and crow; and arrows were carried in an
+open-skinned, sewn quiver of deerskin, mountain lion or wildcat. They
+were carried on the back, under the arm, or on the belt.
+
+Spears, shields, warbonnets (short, Plains type), armour of hide and
+clubs were used in battle. Rabbitsticks of wood and slingshots were also
+used.
+
+Beads and ornaments were of shell, bone, wood, feathers, seeds, claws
+and hooves, bear ears, turquoise, red stone, cannel coal (jet), and
+porcupine quills. Paint from mineral and vegetable sources was used for
+decorating objects or the body, which was painted primarily to prevent
+sunburn.
+
+The hair was worn full length by both men and women, but beard and
+eyebrows were plucked completely with fingers or tweezers of willowwood.
+
+During periods of mourning, hair was cropped with a stone knife,
+sometimes to about the level of the chin by women. Hair was worn loose,
+tied in a bunch or with headband, in braids and decorated with pendants,
+feathers, flowers, etc.
+Ear lobes of children were pierced with a snakeweed stem, and nose
+straightening was practiced on babies if nose was too broad. There was
+no cradle deformation of the head known among the Mescaleros.
+
+Tattooing of the face and arms by these people was quite an ancient
+practice, and was performed with cactus spines and black mineral pigment
+only, not charcoal as other tribes might use.
+
+Clothing consisted of fur caps, robes, shawls, ponchos, and capes of
+animal skin with the hair either on or off the hide, and woven vegetable
+fibers. Highly painted and fringed buckskin-sleeved shirts were worn by
+the men. The women wore buckskin gowns or dresses, painted and fringed.
+
+Buckskin belts held up a skin wrapped around the waist to serve as a
+kilt for the men, or skirts of buckskin for the women. Hard-soled
+moccasins were worn by both sexes, while only the men wore a hip-length
+buckskin leggin. Hide overshoes were used in winter.
+
+The winter bed was usually composed of a grass and hide mattress with
+hide coverings, whereas the summer bed was a willow rack or mat with a
+rawhide twining bedstead supported by four forked posts covered with
+skins (Plains type).
+
+Burdens were transported with the aid of a tump line back pack or other
+slings, baskets, gourds, pottery, rawhide or leather bags or containers
+and horse travois. Baskets (water-proofed with pitch), mats, cradles,
+cordage of vegetable and animal materials, including hair and pottery,
+were manufactured by both men and women.
+
+A variety of games were played by all, including foot racing, shinny,
+hoop and pole, etc. Gambling by adults was done with a hand game of
+guessing with bones, moccasin game, drawing straws, dice, and heads or
+tails with flat stones (wet or dry). The children played games of war,
+wrestled, and had toys of guns, dolls, stones, etc.
+Tobacco was gathered and smoked in an elbow pipe. Both tobacco and pipe
+were kept in a buckskin bag which was usually highly decorated. The voice recognition module powered up.
+
+The people assembled at the Chief’s dwelling or in an open space. Unlike
+most Plains tribes, the Mescaleros did not carry a medicine bundle but
+carried “medicine” inside themselves.
+
+For music and ceremony there were rattles of gourds or horn, drums of
+pottery and wood, a musical bow, whistles and flutes.
+
+The calendar was divided into four named seasons with daily and monthly
+tallies kept on a notched stick. Counting was done on the fingers, and
+some observations of astronomy were made. Various colors were symbolic.
+
+East was black; south, blue; west, yellow; and north, white. Their God,
+Nayiizone, when coming from or going to the sky, rode on a black ray to
+the east, on a blue horse to the south, on a yellow (sorrel) horse to
+the west, and on a white horse to the north.
+
+Mysticism, taboo, and definite procedure governed childbirth, naming,
+education of the young, marriage, affinal relations, death, mourning,
+labor by both sexes, slaves, land ownership, personal property, war,
+scalping, dances, ceremonies, political and clan organizations, peyote,
+kinship systems, religion and shaman ritual. A hologram displayed the weather.
+
+Little is known about Mescalero pottery, except that it was tempered
+with vegetable material, made only by women, fired in an open fire, and
+made with pointed or rounded bottom for inserting into fire coals, and
+perhaps decorated with incised marks near the rim on occasion. The
+knowledge of when this art was first practiced is unknown, but is
+logically historic and very limited. No known sherds of this pottery
+have been found on the Park.
+
+In 1875, the Mescalero Apache Reservation was established for the
+Mescalero and Lipan tribes; but in 1913, a band of Geronimo’s
+Chiricahuas was released from Ft. Sill in Oklahoma and came to Mescalero
+where they now reside. The ambient light changed hue.
+
+Locally there is a rumor that the Apaches have a myth concerning the
+bats of Carlsbad Caverns. The bats are said to be an ancient lost war or
+hunting party, but research has failed to verify this story. Most of the
+Western Apaches regard BAT as an excellent horseman. The Chiricahua
+Apaches say, “If a bat bites you, you had better never ride a horse any
+more. If you do ride a horse after being bitten, you are just as good as
+dead.” They were cautious of bats but not superstitious of them.
+
+
+CHAPTER: THE COMANCHES
+
+
+Originally the Comanches lived far to the north of southeastern New
+Mexico; but about 1700, moved to the South Plains. By this time they
+were well adapted to their relatively new life of mobility brought about
+by the acquisition of horses directly or indirectly, and by hook or
+crook from the Spanish. With horses it was much easier to follow the
+buffalo, fight their enemies, raid, and trade.
+
+Comanche is a Ute Indian word meaning “enemy,” and it is often felt that
+they found their way to New Mexico under the tutelage of the Utes. Yet,
+sometime between 1747, and April, 1749, the two became deadly enemies.
+
+After 1750, the Utes joined the Apaches to fight the Comanches.
+
+Actually, there are about 20 different names given for Comanche, meaning
+everything from “enemies” to “snake people.” The Ute definition is more
+fitting, however; for from about 1705 to 1875, they raided and fought
+the Spanish, Utes, Apaches, Pueblos, Texans and the U. S. Army among
+others. They ranged from Kansas to Mexico in thirteen different bands.
+
+That they were practical and businesslike is perhaps best shown by their
+dealings with the French. The Comanches were first contacted about 1725
+by the French, who traded them guns and ammunition. Yet the Comanches
+would not let the French cross their territory to trade with the Apaches
+and others, thus monopolizing the source of firearms.
+
+These Shoshonean speaking people were a true South Plains horse Indian.
+
+They were often considered the finest horsemen of the plains, these
+nomadic buffalo hunters who lived in tipis of the skins from this
+animal. The Comanche tongue was universally spoken by numerous other
+Indian tribes of the South Plains; so little sign language was
+necessary, as was the case farther north.
+
+Buffalo were reported on the South Plains in 1540-41, by the Spanish. As
+there was constant warfare between the Comanches and the Apaches, it may
+well have started over the bison.
+
+The words fighting and Comanche go hand in hand. They were spasmodically
+at war with most of their neighbors; yet if peace and alliance achieved
+a goal, they would concede, as is shown in their relationship with the
+Kiowa. Bitter enemies, these two, until 1790, when an alliance was made
+which lasted until sometime in the 1870s. Together they raided the
+Spanish, Pueblos, Apaches, and their first real enemy, the
+Anglo-Americans of Texas.
+
+Although the Park and Guadalupe Mountains area was not part of the
+Comanches positive range, which lay north, east and southeast of the
+Pecos River, it was frequently crossed by hunting and raiding parties.
+
+There is no reason to assume that the Kiowas did not accompany them from
+time to time, especially when raiding into Mexico.
+
+These “Lords of the South Plains,” as they were later called, looked and
+dressed every bit the now “Hollywood” Indian. In costumes of buckskins
+or buffalo hide, decorated with beads and gewgaws, wearing the typical
+warbonnet, the Comanches ruled a tremendous portion of the South Plains
+for 175 years. (See Map.) They were fearless fighters who rescued their
+dead and wounded in battle, who on occasion used poison from an unknown
+plant on their arrow-points, or stuck them in a dead, ripe skunk to
+create the same effect; and were great thieves and gamblers. The
+successful theft of horses from the enemy was a high mark of prestige to
+a man; yet this same man could and did lose his spoils to other
+Comanches through the media of dice and hand games.
+
+The Comanches were one of the few tribes of the South Plains who did not
+eat dog or human flesh. Their religion contained the belief of an after
+life in a “Happy Hunting Ground” beyond the sun. Naturally, these people
+utilized many wild plants. One among these that grows in the Park is
+mescal, which was used as a drug. (Quite a contrast to the Apaches,
+this.)
+A valiant but bloody chapter in the history of the Southwest was closed
+in June, 1875, when the Comanches surrendered to the U. S. Army at Ft.
+
+Sill, and went on to a reservation in the then Indian Territory of
+Oklahoma. It is said the introduction of the Colt revolver, in the hands
+of the Texas Rangers, was the deciding factor toward their surrender.
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) Fluency Issues: - [LABEL] [ISSUE] (only name short bullet points)
+2) Coherence Issues: - [LABEL] [ISSUE] (only name short bullet points)
+3) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+4) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

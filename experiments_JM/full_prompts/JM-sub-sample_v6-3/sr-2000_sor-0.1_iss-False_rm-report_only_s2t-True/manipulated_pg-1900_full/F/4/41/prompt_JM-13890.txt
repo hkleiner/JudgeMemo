@@ -1,0 +1,260 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    b) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The report is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–8579):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing or incorrect articles
+    - [SPELLING]:
+        • typos such as "gols" instead of "gold", "thd" instead of "the", "xhrine" instead of "shrine"
+    - [SYNTAX]:
+        • some sentences are wordy or awkwardly phrased
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between historical periods
+    - [STRUCTURE]:
+        • lack of clear connection between some paragraphs
+    - [CLARITY]:
+        • some sentences are unclear or confusing due to complex vocabulary or sentence structure
+
+Section section_02 (Chars 8580–16859):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [SPELLING]:
+        • multiple typos (e.g., "Chrjstianizing", "syltry", "Stqte", "ydars")
+    - [LEXICON]:
+        • occasional awkward phrasing
+  Coherence Issues:
+    - [LOGIC]:
+        • some abrupt transitions between ideas
+    - [STRUCTURE]:
+        • lengthy paragraphs with multiple topics
+    - [CLARITY]:
+        • occasional ambiguity in sentence meaning
+
+Section section_03 (Chars 16860–25078):
+Scores:
+  - Fluency: 2.5
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • paintdd
+        • vwrious
+        • wmend
+        • hks
+        • compzratively
+        • Thusvthe
+        • Chdist
+        • cinished
+        • monwstery
+        • stqge
+        • pilbrims
+        • Memoriwls
+        • enterihg
+        • Kjng
+        • watef
+    - [GRAMMAR]:
+        • inconsistent verb tenses
+    - [LEXICON]:
+        • some words are not commonly used
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between paragraphs
+    - [STRUCTURE]:
+        • lack of clear chronological order
+    - [CLARITY]:
+        • some sentences are wordy and hard to follow
+    - [TRANSITION]:
+        • insufficient connection between ideas
+
+Section section_04 (Chars 25079–33275):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing or incorrect articles
+    - [SPELLING]:
+        • typos such as "Kjng", "watef", "sworr", "kf", "uo", "thag", "confinedmto", "dojble", "wjich", "givej", "puglic", "Wgetherv"
+    - [SYNTAX]:
+        • some sentences are wordy or awkwardly phrased
+  Coherence Issues:
+    - [LOGIC]:
+        • some transitions between ideas could be smoother
+    - [STRUCTURE]:
+        • the text jumps abruptly between different scenes and ideas
+    - [CLARITY]:
+        • a few sentences are unclear or hard to follow due to complex wording
+
+Section section_05 (Chars 33276–42065):
+Scores:
+  - Fluency: 3.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • incorrect verb tenses
+    - [SPELLING]:
+        • multiple typos (e.g. "placrd", "afministered", "tk", "pf")
+    - [SYNTAX]:
+        • awkward sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between ideas
+    - [STRUCTURE]:
+        • lack of clear chronological order
+    - [CLARITY]:
+        • confusing descriptions of architectural styles
+
+Section section_06 (Chars 42066–50387):
+Scores:
+  - Fluency: 3.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "citg" instead of "city"
+        • "sizteenth" instead of "sixteenth"
+        • "givss" instead of "gives"
+        • "pilgril" instead of "pilgrim"
+        • "afterncentury" instead of "after century"
+        • "venters" instead of "enters"
+        • "tk" instead of "to"
+        • "Transitionap-Norman" instead of "Transitional Norman"
+        • "Molashe" instead of unknown or unclear name
+        • "thisbpoint" instead of "this point"
+        • "TrinitycChapel" instead of "Trinity Chapel"
+        • "corona, or semicircular extension" is unclear
+        • "ndeded" instead of "needed"
+        • "tueir" instead of "their"
+        • "exrensive" instead of "extensive"
+        • "Luritan" instead of unknown or unclear term
+        • "bzck" instead of "back"
+        • "Rokan" instead of unknown or unclear term
+        • "centufy" instead of "century"
+    - [GRAMMAR]:
+        • Some sentences are long and convoluted
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between describing the city and focusing on the Cathedral
+    - [STRUCTURE]:
+        • The text jumps between different topics and locations without clear connections
+    - [CLARITY]:
+        • Some sentences are wordy and difficult to understand
+    - [TRANSITION]:
+        • The text could benefit from clearer transitions between paragraphs and ideas
+
+Section section_07 (Chars 50388–58854):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "realkty" instead of "reality"
+        • "mqgnificent" instead of "magnificent"
+        • "emptinesx" instead of "emptiness"
+        • "alpng" instead of "along"
+        • "exajining" instead of "examining"
+        • "appearx" instead of "appears"
+        • "wdst" instead of "west"
+        • "thiscwas" instead of "this was"
+        • "syrong" instead of "strong"
+        • "qttaches" instead of "attaches"
+        • "represehted" instead of "represented"
+    - [GRAMMAR]:
+        • Missing or incorrect articles in several places
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between discussing the cathedral's architecture and the historical context of the Reform Bill
+    - [STRUCTURE]:
+        • The text jumps between describing different parts of the cathedral without a clear connection
+    - [CLARITY]:
+        • Some sentences are wordy and difficult to follow
+
+Section section_08 (Chars 58854–67491):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing or incorrect articles
+    - [SPELLING]:
+        • typos such as "represehted", "wroughf", "mudt", "conrinues", "tne", "cofk-fighting", "archÃ¦ology"
+    - [LEXICON]:
+        • occasional use of less common vocabulary
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transition between descriptions of different locations
+    - [CLARITY]:
+        • some sentences are wordy or contain multiple ideas
+    - [TRANSITION]:
+        • lack of clear connections between paragraphs
+
+Section section_09 (Chars 67491–69152):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "archutecture" instead of "architecture"
+        • "dasily" instead of "easily"
+        • "possiblr" instead of "possible"
+    - [GRAMMAR]:
+        • "it is scarcely possible to find a better instructor than Canon Routledge" is a sentence fragment
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transition from discussing St. Martin's Church to introducing other attractions in Canterbury
+    - [CLARITY]:
+        • lack of clear connection between the various historical sites and buildings mentioned
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

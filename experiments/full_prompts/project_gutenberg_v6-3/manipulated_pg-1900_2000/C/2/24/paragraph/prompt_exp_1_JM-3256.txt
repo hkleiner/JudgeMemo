@@ -1,0 +1,222 @@
+You will be given a human-written text. Your task is to rate the text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) For each metric, detect problems in the text that lead to a point deduction.
+    b) For each metric, summarize the detected problems.
+2. For each metric, give **the most serious problems** in the text that justify point deductions. Use bullet points only.
+3. Label each issue with a category that describes the issue best, e.g.
+- for *fluency*: [GRAMMAR], [SPELLING], [SYNTAX], [LEXICON], or
+- for *coherence*: [LOGIC], [STRUCTURE], [CLARITY], [TRANSITION].
+These are examples - you may create your own label if it better fits the issue. Each label should reflect the type of problem that best describes the issue.
+4. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+5. It is forbidden to generate any other opening, closing, and explanations.
+6. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The text to evaluate is given below:
+Text: -BOOKS AND BOOKMEN-
+
+
+THEY cannot be separated any more than sheep and a shepherd, but I am
+minded to speak of the bookman rather than of his books, and so it will
+be best at the outset to define the tribe.
+
+It does not follow that one is a bookman because he has many books, for
+he may be a book huckster or his books may be those without which a
+gentleman’s library is not complete.  And in the present imperfect
+arrangement of life one may be a bookman and yet have very few books,
+since he has not the wherewithal to purchase them.  It is the foolishness
+of his kind to desire a loved author in some becoming dress, and his
+fastidiousness to ignore a friend in a fourpence-halfpenny edition.  The
+bookman, like the poet, and a good many other people, is born and not
+made, and my grateful memory retains an illustration of the difference
+between a bookowner and a bookman which I think is apropos.  As he was to
+preside at a lecture I was delivering he had in his courtesy invited me
+to dinner, which was excellent, and as he proposed to take the rôle that
+night of a man who had been successful in business, but yet allowed
+himself in leisure moments to trifle with literature, he desired to
+create an atmosphere, and so he proposed with a certain imposing air that
+we should visit what he called “my library.”  Across the magnificence of
+the hall we went in stately procession, he first, with that kind of walk
+by which a surveyor of taxes could have at once assessed his income, and
+I, the humblest of the bookman tribe, following in the rear, trembling
+like a skiff in the wake of an ocean liner.  “There,” he said, with his
+thumbs in the armholes of his waistcoat, “what do you think of that?” And
+_that_ was without question a very large and ornate and costly mahogany
+bookcase with glass doors.  Before I saw the doors I had no doubt about
+my host, but they were a seal upon my faith, for although a bookman is
+obliged to have one bit of glass in his garden for certain rare plants
+from Russia and Morocco, to say nothing of the gold and white vellum lily
+upon which the air must not be allowed to blow, especially when charged
+with gas and rich in dust, yet he hates this conservatory, just as much
+as he loves its contents.  His contentment is to have the flowers laid
+out in open beds, where he can pluck a blossom at will.  As often as one
+sees the books behind doors, and most of all when the doors are locked,
+then he knows that the owner is not their lover, who keeps tryst with
+them in the evening hours when the work of the day is done, but their
+jailer, who has bought them in the market-place for gold, and holds them
+in this foreign place by force.  It has seemed to me as if certain old
+friends looked out from their prison with appealing glance, and one has
+been tempted to break the glass and let, for instance, Elia go free.  It
+would be like the emancipation of a slave.  Elia was not, good luck for
+him, within this particular prison, and I was brought back from every
+temptation to break the laws of property by my chairman, who was still
+pursuing his catechism.  “What,” was question two, “do you think I paid
+for _that_?”  It was a hopeless catechism, for I had never possessed
+anything like _that_, and none of my friends had in their homes anything
+like _that_, and in my wildest moments I had never asked the price of
+such a thing as _that_.  As it loomed up before me in its speckless
+respectability and insolence of solid wealth my English sense of
+reverence for money awoke, and I confessed that this matter was too high
+for me; but even then, casting a glance of deprecation in its direction,
+I noticed _that_ was almost filled by a single work, and I wondered what
+it could be.  “Cost £80 if it cost a penny, and I bought it second-hand
+in perfect condition for £17, 5s., with the books thrown in—_All the Year
+Round_ from the beginning in half calf;” and then we returned in
+procession to the drawing-room, where my patron apologised for our
+absence, and explained that when two bookmen got together over books it
+was difficult to tear them away.  He was an admirable chairman, for he
+occupied no time with a review of literature in his address, and he slept
+without being noticed through mine (which is all I ask of a chairman),
+and so it may seem ungrateful, but in spite of “_that_” and any books,
+even Spenser and Chaucer, which _that_ might have contained, this Mæcenas
+of an evening was not a bookman. A surveillance camera moved slightly.
+
+It is said, and now I am going to turn the application of a pleasant
+anecdote upside down, that a Colonial squatter having made his pile and
+bethinking himself of his soul, wrote home to an old friend to send him
+out some chests of books, as many as he thought fit, and the best that he
+could find.  His friend was so touched by this sign of grace that he
+spent a month of love over the commission, and was vastly pleased when he
+sent off, in the best editions and in pleasant binding, the very essence
+of English literature.  It was a disappointment that the only
+acknowledgment of his trouble came on a postcard, to say that the
+consignment had arrived in good condition.  A year afterwards, so runs
+the story, he received a letter which was brief and to the point.  “Have
+been working over the books, and if anything new has been written by
+William Shakespeare or John Milton, please send it out.”  I believe this
+is mentioned as an instance of barbarism.  It cannot be denied that it
+showed a certain ignorance of the history of literature, which might be
+excused in a bushman, but it is also proved, which is much more
+important, that he had the smack of letters in him, for being turned
+loose without the guide of any training in this wide field, he fixed as
+by instinct on the two classics of the English tongue.  With the help of
+all our education, and all our reviews, could you and I have done better,
+and are we not every day, in our approval of unworthy books, doing very
+much worse?  Quiet men coming home from business and reading, for the
+sixth time, some noble English classic, would smile in their modesty if
+any one should call them bookmen, but in so doing they have a sounder
+judgment in literature than coteries of clever people who go crazy for a
+brief time over the tweetling of a minor poet, or the preciosity of some
+fantastic critic.
+
+There are those who buy their right to citizenship in the commonwealth of
+bookmen, but this bushman was free-born, and the sign of the free-born
+is, that without critics to aid him, or the training of a University, he
+knows the difference between books which are so much printed stuff and a
+good book which is “the Precious life-blood of a Master Spirit.”  The
+bookman will of course upon occasion trifle with various kinds of
+reading, and there is one member of the brotherhood who has a devouring
+thirst for detective stories, and has always been very grateful to the
+creator of _Sherlock Holmes_.  It is the merest pedantry for a man to
+defend himself with a shamed face for his light reading: it is enough
+that he should be able to distinguish between the books which come and go
+and those which remain.  So far as I remember, _The Mystery of a Hansom
+Cab_ and _John Inglesant_ came out somewhat about the same time, and
+there were those of us who read them both; but while we thought the
+_Hansom Cab_ a very ingenious plot which helped us to forget the tedium
+of a railway journey, I do not know that there is a copy on our shelves.
+Certainly it is not lying between _The Ordeal of Richard Feverel_ and
+_The Mayor of Casterbridge_.  But some of us venture to think that in
+that admirable historical romance which moves with such firm foot through
+both the troubled England and the mysterious Italy of the seventeenth
+century, Mr. Shorthouse won a certain place in English literature.
+When people are raving between the soup and fish about some popular novel
+which to-morrow will be forgotten, but which doubtless, like the moths
+which make beautiful the summer-time, has its purpose in the world of
+speech, it gives one bookman whom I know the keenest pleasure to ask his
+fair companion whether she has read _Mark Rutherford_.  He is proudly
+conscious at the time that he is a witness to perfection in a gay world
+which is content with excitement, and he would be more than human if he
+had not in him a touch of the literary Pharisee.  She has _not_ read
+_Mark Rutherford_, and he does not advise her to seek it at the
+circulating library, because it will not be there, and if she got it she
+would never read more than ten pages.  Twenty thousand people will
+greedily read _Twice Murdered and Once Hung_ and no doubt they have their
+reward, while only twenty people read _Mark Rutherford_; but then the
+multitude do not return to _Twice Murdered_, while the twenty turn again
+and again to _Mark Rutherford_ for its strong thinking and its pure
+sinewy English style.  And the children of the twenty thousand will not
+know _Twice Murdered_, but the children of the twenty, with others added
+to them, will know and love _Mark Rutherford_.  Mr. Augustine Birrell
+makes it, I think, a point of friendship that a man should love George
+Borrow, whom I think to appreciate is an excellent but an acquired taste;
+there are others who would propose _Mark Rutherford_ and the _Revelation
+in Tanner’s Lane_ as a sound test for a bookman’s palate.  But . . . de
+gustibus . . . ! The AI assistant adjusted the lights.
+
+It is the chief office of the critic, while encouraging all honest work
+which either can instruct or amuse, to distinguish between the books
+which must be content to pass and the books which must remain because
+they have an immortality of necessity.
+
+According to the weightiest of French critics of our time the author of
+such a book is one “who has enriched the human mind, who has really added
+to its treasures, who has got it to take a step further . . . who has
+spoken to all in a style of his own, yet a style which finds itself the
+style of everybody, in a style that is at once new and antique, and is
+the contemporary of all the ages.”  Without doubt Sainte-Beuve has here
+touched the classical quality in literature as with a needle, for that
+book is a classic to be placed beside Homer and Virgil and Dante and
+Shakespeare—among the immortals—which has wisdom which we cannot find
+elsewhere, and whose form has risen above the limitation of any single
+age.  While ordinary books are houses which serve for a generation or two
+at most, this kind of book is the Cathedral which towers above the
+building at its base and can be seen from afar, in which many generations
+shall find their peace and inspiration.  While other books are like the
+humble craft which ply from place to place along the coast, this book is
+as a stately merchantman which compasses the great waters and returns
+with a golden argosy. A power cycle reset the panel.
+
+The subject of the book does not enter into the matter, and on subjects
+the bookman is very catholic, and has an orthodox horror of all sects.
+He does not require Mr. Froude’s delightful apology to win the _Pilgrim’s
+Progress_ a place on his shelf, because, although the bookman may be far
+removed from Puritanism, yet he knows that Bunyan had the secret of
+English style, and although he may be as far from Romanism, yet he must
+needs have his A’Kempis (especially in Pickering’s edition of 1828), and
+when he places the two books side by side in the department of religion,
+he has a standing regret that there is no _Pilgrim’s Progress_ also in
+Pickering.
+
+Without a complete Milton he could not be content.  He would like to have
+Masson’s Life too in 6 vols. (with index).
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) Fluency Issues: - [LABEL] [ISSUE] (only name short bullet points)
+2) Coherence Issues: - [LABEL] [ISSUE] (only name short bullet points)
+3) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+4) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

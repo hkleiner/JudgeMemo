@@ -1,0 +1,255 @@
+You will be given a human-written text. Your task is to rate the text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) For each metric, detect problems in the text that lead to a point deduction.
+    b) For each metric, summarize the detected problems.
+2. For each metric, give **the most serious problems** in the text that justify point deductions. Use bullet points only.
+3. Label each issue with a category that describes the issue best, e.g.
+- for *fluency*: [GRAMMAR], [SPELLING], [SYNTAX], [LEXICON], or
+- for *coherence*: [LOGIC], [STRUCTURE], [CLARITY], [TRANSITION].
+These are examples - you may create your own label if it better fits the issue. Each label should reflect the type of problem that best describes the issue.
+4. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+5. It is forbidden to generate any other opening, closing, and explanations.
+6. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The text to evaluate is given below:
+Text: -PLAIN WORDS FROM AMERICA-
+
+
+February, 1916.
+
+
+Your two letters, with enclosed newspaper clippings, and your postal
+card were duly received. I can assure you that my failure to reply more
+promptly was not meant as any discourtesy. The clippings were gladly
+received, for I am always anxious to read what prominent Germans regard
+as able and convincing presentations of their side of disputed matters.
+
+Your own letters, particularly the long one of July 9, were read most
+carefully. I appreciate your earnest endeavour to convince me of the
+righteousness of your country's cause, and am not unmindful of the time
+and trouble you spent in preparing for me so carefully worded a
+presentation of the German point of view touching several matters of the
+profoundest importance to our two Governments.
+
+My failure to reply has been due to a doubt in my own mind as to whether
+good would be accomplished by any letter which I could write. I could
+not agree with your opinions regarding Germany's responsibility for the
+war, nor regarding her methods of conducting the war; and it did not
+seem to me that you would profit by any statement I might make as to the
+reasons for my own opinions on such vital matters. Your letters clearly
+showed that you wrote under the influence of an intense emotion--an
+emotion which I can both understand and respect, but which might well
+make it impossible for you to accord a dispassionate reception to a
+reply which controverted your own views. With your country surrounded by
+powerful foes, with your sons deluging alien soil in an heroic defence
+of your Government's decrees, with the nation you love most dearly
+standing in moral isolation, condemned by the entire neutral world for
+barbarous crimes against civilisation, you could hardly be expected to
+write with that scientific accuracy and care which would, in normal
+times, be your ideal.
+
+For this reason I have not resented much in your letters which would
+otherwise call for earnest protest. I feel sure, for example, your
+assertion that I and my fellow-countrymen derive our opinions of German
+conduct wholly from corrupt and venal newspapers, or usually from a
+single newspaper which doles out mental poison in subservience to a
+single political party, was not intended to be as insulting as it really
+sounded. Your emotion doubtless led you to make charges which your sense
+of justice and courtesy would, under other circumstances, condemn. I
+believe also that in a calmer time you would not entertain the sweeping
+opinion that "the daily press has become one of the direst plagues of
+humanity, an ulcer in the frame of society, whose one object it is, for
+private ends (wealth, political influence, and social position), to pit
+the races, nations, religions, and classes against one another." I
+realise that some of our papers are a disgrace to the high calling of
+journalism; I believe that some sacrifice honour for gain and that some
+are subservient to special interests; but the roll of American
+journalists is honoured by the presence of many names which command
+respect at home and abroad because of a long-standing reputation for
+honesty, fearlessness, and distinguished service in the cause of
+humanity. To one such name was added at our last commencement the degree
+representing one of the highest honours which Columbia University has to
+bestow upon a man of lofty ideals and honourable achievement. The paper
+edited by this man is among those most extensively read by myself and
+hundreds of thousands of other Americans who demand to know the truth.
+
+However low may be the moral plane of some newspapers, your
+characterisation of all newspapers as mere business concerns, founded
+and carried on with the purpose of enriching their owners, and
+supporting certain special interests, "quite regardless of their effect,
+beneficial or the reverse, upon the real public interests of their own
+country, regardless of truth and justice," is not at all true of the
+class of papers read by the majority of intelligent Americans. I am not
+sufficiently familiar with a large number of German newspapers to make
+assertions as to their standards; but, in spite of the smaller amount
+of freedom allowed to the press in your country, I can scarcely imagine
+that conditions are bad enough to justify your sweeping condemnation of
+all newspapers.
+
+If you had stopped to consider the radically different relations
+existing between the press and the Government in Germany and in America,
+you would scarcely have fallen into the error of asserting that a
+considerable proportion of our papers, in common with those of other
+nations, have "laboured in the employ or at the instigation of" the
+Government, "with all the implements of mendacity and defamation, to
+spread hatred and contempt for Germany." Unlike your own, our press is
+wholly free from Government control. Any attempt on the part of our
+Government to dictate the policy of any newspaper would be hotly
+resented, and would be doomed to certain failure. Americans do not
+believe in the German doctrine that the press must be "so far controlled
+as is requisite for the welfare of the community," and hold that
+absolute freedom of speech is essential to true liberty. There is no
+censorship of the American press. You have a censorship which all the
+outside world knows has been wonderfully effective in keeping some
+important facts from the knowledge of the German people. No American
+paper can be suppressed because of what it prints. You are, of course,
+well aware that, on more than one occasion, German papers have been
+suppressed for certain periods because your Government did not believe
+that what they said was for the good of the country. I enclose a message
+received by wireless under German control which is only one of the many
+announcements telling of suppression of your papers. It does not alter
+the situation to say that censorship and suppression are necessary for
+the good of the Fatherland, and that the papers in question deserved to
+be suppressed. The vital fact remains that your newspapers are not free
+to publish anything they like. Ours are thus free. Every issue of your
+papers must be submitted to your police, so that your rulers may control
+what you write and read. Not a paper in America is submitted to any
+official whatever. You cannot read anything which your Government
+believes it wise to keep from you. We can read everything, whether the
+Government likes it or not. Americans believe there can be no truly free
+press, and no real unfettered public opinion, with the possibility of
+punishment hanging over the press of a country. Where the police,
+representing the ruling power, controls the press there is no true
+liberty. Whatever else may be said against the American press, it must
+be admitted that it is free from Government control. It is not
+necessary, therefore, to inquire whether the American Government has
+employed or instigated the public press to attack Germany, since, even
+if it desired to do so, it would not dare make the attempt.
+
+There are many other statements in your letters which can only be
+explained as the result of writing under stress of intense emotion; you
+would probably wish to modify many of these were you writing under
+happier circumstances. It is not my desire, however, to dwell upon this
+phase of your correspondence. I do not for a moment doubt your
+sincerity, and believe you were yourself convinced of the truth of all
+you wrote. My purpose in writing this letter is to accept in good faith
+your expressed wish for a better understanding between two peoples who
+have long been on friendly terms with one another, and to contribute
+toward this end by removing, at least so far as we two are concerned,
+one serious misunderstanding which now exists.
+
+As you are well aware, the American people, with the exception of a
+certain proportion of German-born population, are practically unanimous
+in condemning Germany for bringing on the war and for conducting it in a
+barbarous manner. You, together with hosts of your fellow-countrymen,
+believe this unfavourable opinion is the result of the truth being kept
+from the American public by improper means. It is, of course, a
+comforting thought to you that when the whole truth is known we will
+revise our opinions and realise that Germany acted righteously, and was
+not guilty of the crimes which have been charged against her. But, as a
+scientific man, devoted to the search for truth, no matter where it
+leads you, you would not want to deceive yourself with such a comforting
+assurance if it were founded on false premises. If, therefore, you
+really want to know the conditions under which American opinion of
+Germany's conduct has been formed, I will endeavour to describe them
+with the same calmness and careful attention to accuracy which I
+earnestly endeavour to observe in my scientific investigations. In
+discussing this vitally important matter, I will first endeavour to
+picture the American opinion of Germany and the Germans before the war,
+since this was the background upon which later opinions were formed. I
+will then explain the sources of information which were open to
+Americans after the war began; and will next describe how this
+information produced an American opinion unfavourable to Germany, as
+observed by one who has read widely and watched the trend of his
+country's thought with keen interest. If this analysis is successful in
+convincing you that American opinion does not rest on English lies, is
+not the result of a venal press controlled by British gold, but has a
+far more substantial foundation, then my letter will not have been
+written in vain. If you are not convinced, but prefer to retain the
+comforting belief that if America only knew the truth it would applaud
+Germany's actions, then I shall, at least, have the satisfaction of
+knowing that I earnestly endeavoured, in good faith, to return the
+courtesy which you showed me when you wrote so fully, by telling you
+with equal fulness the truth as I see it.
+
+
+CHAPTER: I.
+
+
+First, then, let me picture the background of public opinion toward
+Germany and the Germans as I saw it before the war began. Inasmuch as
+one's vision may be affected favourably or unfavourably by his personal
+experiences, it is only fair that I state briefly my own experiences
+with people of German birth or parentage. One of my earliest
+recollections is of a German maid in our household who taught me to make
+my wants known in the German language, and also taught me to love her as
+I did members of my own family. In college, one of my two favourite
+professors and one of my college chums were of German parentage. Both
+these men are still valued friends, and both believe in the
+righteousness of Germany's cause. I have spent parts of three summers in
+Germany, and have many German friends, both in America and in Europe.
+
+The two Europeans in my special field of science for whom I have the
+greatest personal affection are German professors in Berlin and Leipzig
+respectively. I have more personal friends in the German army than in
+the Allied armies. My sister is married to a professor of German
+descent and German sympathies. Surely, therefore, if personal
+relationships prejudice me at all, they should prejudice me in favour of
+Germans and things German.
+
+In my opinion, the American estimate of Germany and her citizens prior
+to the war was, in general, most favourable. Certainly America looked
+with admiration upon the remarkable advance achieved by Germany in the
+short space of forty years. To your universities we have always
+acknowledged a great debt. We have profited much by your advances in
+economic lines and admired the combination of scientific research and
+business which made your countrymen efficient in many lines. The large
+number of your people who have emigrated to America have, in the main,
+made good citizens, and we have welcomed them as among the best of the
+foreigners who flock to our shores. German music and German musicians
+find nowhere a more cordial welcome than here where admiration for their
+achievements is unstinted. Nor have we forgotten the heroic services of
+the many Germans who laid down their lives in defence of our flag, that
+the Union might live. The Germans' love of honour and family has touched
+the American heart in a tender spot, and many of my acquaintances admit
+that with no other foreigners do they establish such intimate and
+affectionate relations as with their German friends.
+
+This admiration and friendship has not blinded us to certain defects in
+the German character, any more than has your friendship for Americans
+closed your eyes to our defects. The bad manners of Germans are
+proverbial, not only among Americans, but all over the world; so much so
+that certain German writers, admitting that Germans as a nation are
+ill-mannered, have sought to find in this fact an explanation for the
+world-wide antagonism toward Germany's policy in the war.
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) Fluency Issues: - [LABEL] [ISSUE] (only name short bullet points)
+2) Coherence Issues: - [LABEL] [ISSUE] (only name short bullet points)
+3) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+4) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

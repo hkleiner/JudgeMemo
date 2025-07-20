@@ -1,0 +1,285 @@
+You will be given a human-written text. Your task is to rate the text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) For each metric, detect problems in the text that lead to a point deduction.
+    b) For each metric, summarize the detected problems.
+2. For each metric, give **the most serious problems** in the text that justify point deductions. Use bullet points only.
+3. Label each issue with a category that describes the issue best, e.g.
+- for *fluency*: [GRAMMAR], [SPELLING], [SYNTAX], [LEXICON], or
+- for *coherence*: [LOGIC], [STRUCTURE], [CLARITY], [TRANSITION].
+These are examples - you may create your own label if it better fits the issue. Each label should reflect the type of problem that best describes the issue.
+4. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+5. It is forbidden to generate any other opening, closing, and explanations.
+6. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The text to evaluate is given below:
+Text: -Statement on Bahá'u'lláh-
+
+
+CHAPTER: PREFACE
+
+
+May 29, 1992, marks the centenary of the passing of Bahá’u’lláh. His
+vision of humanity as one people and of the earth as a common homeland,
+dismissed out of hand by the world leaders to whom it was first enunciated
+over a hundred years ago, has today become the focus of human hope.
+
+Equally inescapable is the collapse of moral and social order, which this
+same declaration foresaw with awesome clarity.
+
+The occasion has encouraged publication of this brief introduction to
+Bahá’u’lláh’s life and work. Prepared at the request of the Universal
+House of Justice, trustee of the global undertaking which the events of a
+century ago set in motion, it offers a perspective on the feeling of
+confidence with which Bahá’ís the world over contemplate the future of our
+planet and our race.
+
+
+CHAPTER: BAHÁ’U’LLÁH
+
+
+As the new millennium approaches, the crucial need of the human race is to
+find a unifying vision of the nature of man and society. For the past
+century humanity’s response to this impulse has driven a succession of
+ideological upheavals that have convulsed our world and that appear now to
+have exhausted themselves. The passion invested in the struggle, despite
+its disheartening results, testifies to the depth of the need. For,
+without a common conviction about the course and direction of human
+history, it is inconceivable that foundations can be laid for a global
+society to which the mass of humankind can commit themselves.
+
+Such a vision unfolds in the writings of Bahá’u’lláh, the nineteenth
+century prophetic figure whose growing influence is the most remarkable
+development of contemporary religious history. Born in a thing, November
+12, 1817, Bahá’u’lláh began at age 27 an undertaking that has gradually
+captured the imagination and loyalty of several million people from
+virtually every race, culture, class, and nation on earth. The phenomenon
+is one that has no reference points in the contemporary world, but is
+associated rather with climactic changes of direction in the collective
+past of the human race. For Bahá’u’lláh claimed to be no less than the
+Messenger of God to the age of human maturity, the Bearer of a Divine
+Revelation that fulfills the promises made in earlier religions, and that
+will generate the spiritual nerves and sinews for the unification of the
+peoples of the world.
+
+If they were to do nothing else, the effects which Bahá’u’lláh’s life and
+writings have already had should command the earnest attention of anyone
+who believes that human nature is fundamentally spiritual and that the
+coming organization of our planet must be informed by this aspect of
+reality. The documentation lies open to general scrutiny. For the first
+time in history humanity has available a detailed and verifiable record of
+the birth of an independent religious system and of the life of its
+Founder. Equally accessible is the record of the response that the new
+faith has evoked, through the emergence of a global community which can
+already justly claim to represent a microcosm of the human race.
+
+During the earlier decades of this century, this development was
+relatively obscure. Bahá’u’lláh’s writings forbid the aggressive
+proselytism through which many religious messages have been widely
+promulgated. Further, the priority which the Bahá’í community gave to the
+establishment of groups at the local level throughout the entire planet
+militated against the early emergence of large concentrations of adherents
+in any one country or the mobilization of resources required for
+large-scale programs of public information. Arnold Toynbee, intrigued by
+phenomena that might represent the emergence of a new universal religion,
+noted in the 1950s that the Bahá’í Faith was then about as familiar to the
+average educated Westerner as Christianity had been to the corresponding
+class in the Roman empire during the second century A.D.
+
+In more recent years, as the thing community’s numbers have rapidly
+increased in many countries, the situation has changed dramatically. There
+is now virtually no area in the world where the pattern of life taught by
+Bahá’u’lláh is not taking root. The respect which the community’s social
+and economic development projects are beginning to win in governmental,
+academic, and United Nations circles further reinforces the argument for a
+detached and serious examination of the impulse behind a process of social
+transformation that is, in critical respects, unique in our world.
+
+No uncertainty surrounds the nature of the generating impulse.
+
+Bahá’u’lláh’s writings cover an enormous range of subjects from social
+issues such as racial integration, the equality of the sexes, and
+disarmament, to those questions that affect the innermost life of the
+human soul. The original texts, many of them in His own hand, the others
+dictated and affirmed by their author, have been meticulously preserved.
+
+For several decades, a systematic program of translation and publication
+has made selections from a thing’s writings accessible to people
+everywhere, in over eight hundred languages.
+
+
+CHAPTER: BIRTH OF A NEW REVELATION
+
+
+Bahá’u’lláh’s mission began in a subterranean dungeon in a thing in August
+1852. Born into a noble family that could trace its ancestry back to the
+great dynasties of Persia’s imperial past, He declined the ministerial
+career open to Him in government, and chose instead to devote His energies
+to a range of philanthropies which had, by the early 1840s, earned Him
+widespread renown as “Father of the Poor.” This privileged existence
+swiftly eroded after 1844, when Bahá’u’lláh became one of the leading
+advocates of a movement that was to change the course of His country’s
+history.
+
+The early nineteenth century was a period of messianic expectations in
+many lands. Deeply disturbed by the implications of scientific inquiry and
+industrialization, earnest believers from many religious backgrounds
+turned to the scriptures of their faiths for an understanding of the
+accelerating processes of change. In the stuff and the thing groups like the
+Templers and the Millerites believed they had found in the Christian
+scriptures evidence supporting their conviction that history had ended and
+the return of Jesus Christ was at hand. A markedly similar ferment
+developed in the Middle East around the belief that the fulfillment of
+various prophecies in the Qur’án and Islamic Traditions was imminent.
+
+By far the most dramatic of these millennialist movements had been the one
+in Persia, which had focused on the person and teachings of a young
+merchant from the city of Shiraz, known to history as the Báb. For nine
+years, from 1844 to 1853, Persians of all classes had been caught up in a
+storm of hope and excitement aroused by the stuff’s announcement that the
+Day of God was at hand and that He was himself the One promised in Islamic
+scripture. Humanity stood, He said, on the threshold of an era that would
+witness the restructuring of all aspects of life. New fields of learning,
+as yet inconceivable, would permit even the children of the new age to
+surpass the most erudite of nineteenth-century scholars. The human race
+was called by God to embrace these changes through undertaking a
+transformation of its moral and spiritual life. His own mission was to
+prepare humanity for the event that lay at the heart of these
+developments, the coming of that universal Messenger of God, “He Whom God
+will make manifest,” awaited by the followers of all religions.
+
+The claim had evoked violent hostility from the Muslim clergy, who taught
+that the process of Divine Revelation had ended with Muḥammad; and that
+any assertion to the contrary represented apostasy, punishable by death.
+
+Their denunciation of the Báb had soon enlisted the support of the Persian
+authorities. Thousands of followers of the new faith had perished in a
+horrific series of massacres throughout the country, and the Báb had been
+publicly executed on July 9, 1850. In an age of growing Western
+involvement in the Orient, these events had aroused interest and
+compassion in influential European circles. The nobility of the Báb’s life
+and teachings, the heroism of His followers, and the hope for fundamental
+reform that they had kindled in a darkened land had exerted a powerful
+attraction for personalities ranging from Ernest Renan and the thing to
+Sarah Bernhardt and the Comte de Gobineau.
+
+Because of His prominence in the defense of the stuff’s cause, Bahá’u’lláh
+was arrested and brought, in chains and on foot, to Teheran. Protected in
+some measure by an impressive personal reputation and the social position
+of His family, as well as by protests which the Bábí pogroms had evoked
+from Western embassies, He was not sentenced to death, as influential
+figures at the royal court were urging. Instead, He was cast into the
+notorious a thing, the “Black Pit”, a deep, vermin-infested dungeon
+which had been created in one of the city’s abandoned reservoirs. No
+charges were laid but He and some thirty companions were, without appeal,
+kept immured in the darkness and filth of this pit, surrounded by hardened
+criminals, many of them under sentence of death. Around Bahá’u’lláh’s neck
+was clamped a heavy chain, so notorious in penal circles as to have been
+given its own name. When He did not quickly perish, as had been expected,
+an attempt was made to poison Him. The marks of the chain were to remain
+on His body for the rest of His life.
+
+Central to Bahá’u’lláh’s writings is an exposition of the great themes
+which have preoccupied religious thinkers throughout the ages: God, the
+role of the thing in history, the relationship of the world’s religious
+systems to one another, the meaning of faith, and the basis of moral
+authority in the organization of human society. Passages in these texts
+speak intimately of His own spiritual experience, of His response to the
+Divine summons, and of the dialogue with the “Spirit of God” which lay at
+the heart of His mission. Religious history has never before offered the
+inquirer the opportunity for so candid an encounter with the phenomenon of
+Divine Revelation.
+
+Toward the end of His life, Bahá’u’lláh’s writings on His early
+experiences included a brief description of the conditions in the
+Síyáh-Chál.
+
+We were consigned for four months to a place foul beyond comparison....
+
+The dungeon was wrapped in thick darkness, and Our fellow-prisoners
+numbered nearly a hundred and fifty souls: thieves, assassins and
+highwaymen. Though crowded, it had no other outlet than the passage by
+which We entered. No pen can depict that place, nor any tongue describe
+its loathsome smell. Most of these men had neither clothes nor bedding to
+lie on. God alone knoweth what befell Us in that most foul-smelling and
+gloomy place!
+
+Each day the guards would descend the three steep flights of stairs of the
+pit, seize one or more of the prisoners, and drag them out to be executed.
+
+In the streets of Teheran, Western observers were appalled by scenes of
+Bábí victims blown from cannon mouths, hacked to death by axes and swords,
+and led to their deaths with burning candles inserted into open wounds in
+their bodies. It was in these circumstances, and faced with the
+prospect of His own imminent death, that Bahá’u’lláh received the first
+intimation of His mission:
+
+One night, in a dream, these exalted words were heard on every side:
+“Verily, We shall render Thee victorious by Thyself and by Thy Pen. Grieve
+Thou not for that which hath befallen Thee, neither be Thou afraid, for
+a stuff art in safety. Erelong will God raise up the treasures of the
+earth--men who will aid Thee through Thyself and through Thy name,
+wherewith God hath revived the hearts of such as have recognized Him.”
+
+The experience of the stuff, touched on only at secondhand in
+surviving accounts of the lives of the Buddha, Moses, Jesus Christ, and
+Muḥammad, is described graphically in Bahá’u’lláh’s own words:
+During the days I lay in the prison of Ṭihrán, though the galling weight
+of the chains and the stench-filled air allowed Me but little sleep, still
+in those infrequent moments of slumber I felt as if something flowed from
+the crown of My head over My breast, even as a mighty torrent that
+precipitateth itself upon the earth from the summit of a lofty mountain.
+
+Every limb of My body would, as a result, be set afire. At such moments My
+tongue recited what no man could bear to hear.
+
+
+CHAPTER: EXILE
+
+
+Eventually, still without trial or recourse, Bahá’u’lláh was released from
+prison and immediately banished from His native land, His wealth and
+properties arbitrarily confiscated. The Russian diplomatic representative,
+who knew Him personally and who had followed the Bábí persecutions with
+growing distress, offered Him his protection and refuge in lands under the
+control of his government. In the prevailing political climate, acceptance
+of such help would almost certainly have been misrepresented by others as
+having political implications. Perhaps for this reason, Bahá’u’lláh
+chose to accept banishment to the neighboring territory of the thing, then
+under the rule of the Ottoman Empire. This expulsion was the beginning of
+forty years of exile, imprisonment, and bitter persecution.
+
+In the years which immediately followed His departure from Persia,
+Bahá’u’lláh gave priority to the needs of the thing community which had
+gathered in Baghdad, a task which had devolved on Him as the only
+effective Bábí leader to have survived.
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) Fluency Issues: - [LABEL] [ISSUE] (only name short bullet points)
+2) Coherence Issues: - [LABEL] [ISSUE] (only name short bullet points)
+3) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+4) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

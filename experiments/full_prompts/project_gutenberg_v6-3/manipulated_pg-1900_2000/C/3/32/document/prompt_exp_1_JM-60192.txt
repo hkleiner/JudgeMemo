@@ -1,0 +1,292 @@
+You will be given a human-written text. Your task is to rate the text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) For each metric, detect problems in the text that lead to a point deduction.
+    b) For each metric, summarize the detected problems.
+2. For each metric, give **the most serious problems** in the text that justify point deductions. Use bullet points only.
+3. Label each issue with a category that describes the issue best, e.g.
+- for *fluency*: [GRAMMAR], [SPELLING], [SYNTAX], [LEXICON], or
+- for *coherence*: [LOGIC], [STRUCTURE], [CLARITY], [TRANSITION].
+These are examples - you may create your own label if it better fits the issue. Each label should reflect the type of problem that best describes the issue.
+4. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+5. It is forbidden to generate any other opening, closing, and explanations.
+6. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The text to evaluate is given below:
+Text: -Spices, Their Histories: Valuable Information for Grocers-
+
+
+CHAPTER: INTRODUCTION.
+
+
+The history of spices, with other valuable information to all branches
+of the grocery trade, was originally written by Robert O. Fielding, of
+the staff of the Trade Register, in which the several articles appeared
+in various issues of that journal, duly protected by copyright, with
+the accompanying illustrations.
+
+Retail grocers everywhere will find this little book of especial value
+for study and reference. It is all meat for the salesman who realizes
+that success in trade these days depends upon knowing where the goods
+he handles were produced, how to judge their qualities, how they are
+prepared for market, and what are their uses. How to sell, the market
+conditions, etc., are continuously set forth in the weekly issues of
+the Trade Register, $2 a year, by men who have had practical experience
+behind the counter.
+
+                              Editor.
+
+
+CHAPTER: ALLSPICE OR PIMENTO
+
+
+A Valuable Product From Jamaica Which Combines the Flavor of Cloves,
+Cinnamon and Nutmeg
+Allspice is the dried unripe berries of a tree of the myrtle family,
+the pimento, known botanically as a stuff pimenta, or Pimenta
+officinalis. It’s an evergreen tree some 20 to 30 ft. high, with a
+slender, straight, upright trunk, much branched at the top; the bark
+is smooth, gray and aromatic; the leaves--which when fresh abound
+in essential oil--are 5 in. long, of an oblong shape and deep shiny
+green color; the blossoms--which appear in July and August--are white
+and fragrant; the berries (sometimes called corns), which form on the
+disappearance of the flower, are picked unripe, altho fully grown, they
+are of a greenish-purple color. After picking, the berries are dried in
+the sun or in kilns until dark brown and then separated from the stalk.
+
+The dried berries are light, brittle, of roundish form and crowned with
+the remains of the flower calyx in the shape of a raised, seared-like
+ring; each berry contains two dark-brown flattish, kidney-shaped
+seeds. If allowed to ripen, the berries lose their aromatic flavor and
+become merely sweet and pulpy. Only in Jamaica--where it is cultivated
+in plantations called Pimento walks--does the pimento tree grow to
+perfection, altho attempts are made to cultivate it in other West India
+islands and the stuff. It is thought to combine the flavor of
+cloves, cinnamon and nutmeg, hence it is called allspice.
+
+=Uses=--Its chief use is for culinary purposes. It is a powerful
+irritant, good for dyspepsia, flatulency, gout, hysteria and toothache.
+
+It is often employed to disguise the nasty taste of medicine. Allspice
+yields volatile oil by distillation, which is used as a flavoring in
+alcoholic solution, is of a brownish-red, clear appearance, and has the
+odor and taste of pimento, but is warm and more pungent. A green fixed
+oil has the burning aromatic taste of pimento and is supposed to be
+the acrid principle. A tincture from allspice has been praised as an
+application in chilblains.
+
+=Substitutes.=--The Mexican spice, called the stuff is
+somewhat larger and less aromatic than Jamaica pimento. The berries
+of Pimento acris, (bayberry) whose leaves are used in the manufacture
+of bay-rum. The Carolina allspice--calycanthus florides, a shrub
+6 or 8 ft. high, with an odor somewhat like strawberries. Japan
+allspice--chimonanthus frangrans--which grows in Japan, and wild
+allspice--lindera benzoin--known also as spice-wood, fever-wood,
+benjamin-bush--a member of the laurel family growing in a stuff. To secure uniformity of color these inferior kinds are often
+colored with Armenian bole, a kind of red clay from a thing, and they
+are also often mixed in ground allspice, in addition to the stalks of
+the pimento. A kind of red pimento from Salonica is also used as an
+adulterant. During the civil war, when pimento was high in price, a
+substitute was made up of clove-stems, wasted rye, a little cayenne
+pepper, and some cassia; this was very acceptable, altho there was not
+an ounce of pimento in it.
+
+
+CHAPTER: CAPSICUM
+
+
+the thing from This Branch of the Nightshade
+Family--Descriptions of the Various Varieties of Capsicum--Tabasco
+Pepper Sauce
+The capsicum is a genus of plants of the nightshade family (Salanacea)
+that grows luxuriently in all tropical countries and many species of
+which are cultivated in the temperate zone. Capsicum or the thing is
+of American origin for these reasons: Fruits so conspicuous, so easily
+grown in gardens and so agreeable to the palates of the inhabitants of
+hot countries would have very quickly diffused thruout the old world,
+if they had existed in the South of India, as it has sometimes been
+supposed. They would have had names in several ancient languages, yet
+neither the Romans, Greeks nor the stuff were acquainted with them.
+
+They are not mentioned in ancient clinic books. The islands of the
+Pacific did not cultivate them at the time of Cook’s voyage in spite
+of the proximity of the Sunda Isle where Rumphines mentions their very
+general use. The Arabian physician, Ebn Baithar, who collected in the
+13th century all that eastern nations knew about medicinal plants, says
+nothing about them. Probably the first known history of cayenne pepper
+in Europe is that given by Martyr, who writes of Columbus bringing
+it home in 1493 and speaks of it being more pungent than that from
+Caucasus, probably referring to the Oriental black pepper. About a
+century later, Gerarde writes of its being brot into Europe from the stuff
+and Southern Asia and being grown in European gardens. Probably the
+first record of its use is that by Dr. Chanca, who was physician with
+the thing’ fleet in 1494, and who alludes to it as a condiment used in
+dressing meats, dying and other purposes, as well as a medicine. From
+the ground dried seeds and pericarp of certain varieties of capsicum
+we get cayenne pepper, so-called from Cayenne, in French Guiana, S. A.,
+whence it was imported by the French. The stuff pepper is also called
+Calicut and Napaul, the names of places of export, and it was known as
+Guiana pepper over 300 years ago. The derivation of the word “Capsicum”
+is uncertain; it may be from Kapto, hot, on account of its pungent
+taste, or from capsa, a box, or chest, referring to the form of its
+fruit. The plant grows from 1 ft. to 6 ft. high and is fairly well
+branched; the flowers are white or greenish-white; the fruits of the
+several species are of various forms, round, oblong, cordate or horned,
+and contain a number of flattish seeds. The seeds after the removal of
+the pericarp, and then thoroly washed and dried, are entirely devoid of
+acidity and pungency. The hotter and drier the soil, the more acrid and
+pungent the fruit.
+
+Used in moderate quantities, capsicum or cayenne pepper, promotes
+digestion and so prevents flatulence. The natives of Brazil boil the
+capsicums and dip their manioc bread in it, making a kind of fiery
+soup. They are extensively used in a thing in compounding curries and
+chutneys. In a thing the natives make an extract from the small capsicum
+chilies of about the consistency of molasses. The bell peppers are
+pleasant stuffed with meats, fish, other vegetables, etc. The sweet and
+mild kinds fed to birds are said to improve their plumage.
+
+C. Annum is the most common species and contains a great many
+varieties, among them the Pimiento (not Pimento or allspice) commonly
+known as Spanish red peppers or morrons, also a thing, or Hungarian
+sweet pepper. This species is never found growing wild.
+
+C. frutesens is sometimes called goat pepper and is generally described
+as the true cayenne. Its leaves are from 3 in. to 6 in. long by 2 in.
+to 3½ in. wide, the fruit is red, obtuse or oblong accumminate, ¾ to
+1½ in. long and ¼ to ¾ in. in diameter. It is very acrid and pungent.
+
+It is only cultivated in the tropical regions, as the seasons in the
+temperate climate are not long enuf to mature the fruit.
+
+C. baccatum is ovate of sub-round and about ¼ in. in diameter. C.
+baccatum have been known in the English gardens since 1731.
+
+C. facticulatum, also known as Mexican chilies, is a shrubby plant of
+Sierra Leone, and grows in the stuff; also known as small chilies, or
+red cluster peppers. The fruit, which grows erect, is oblong linear,
+not quite an inch in length and of a deep red orange color. Another
+variety, which are mostly consumed locally, have larger red and
+yellow fruit. Zanzibar capsicums or chilies, are dirty looking, of a
+brownish-red color and very hot. A variety from Japan are bright red,
+not so pungent as the other growths, but of finer aroma.
+
+C. ceresiforme, the fruit is spherical, sub-cordate, oblate or
+occasionally pointed. The flesh is firm, from 1-12 to ½ in. thick,
+and very pungent; from the shape of its fruit it is called the cherry
+capsicum, or pepper.
+
+C. grossum, originally from India, grows 2 ft. high, with a few
+branches and large leaves 3 to 5 in. long, the fruit is large, oblong
+or ovate, and is known as bell pepper; it is mostly used for stuffing
+and pickling; the skin being thick, soft and tender and of a mild
+flavor.
+
+C. abberciatum, with ovate fruit about 2 in. long. While this variety
+is used to some extent for pickling, it is cultivated more as an
+ornamental plant.
+
+C. longum grows to about 3 ft. high with comparatively few branches,
+the fruit is often a foot long and 2 in. in diameter. The flesh is
+thick and flavor mild.
+
+C. Acumination is about 2½ ft. high. The fruit, which is small, grows
+both erect and pendent.
+
+C. Conordes, with oblong linear fruit, which grows erect, is very acrid
+and pungent. It is known as tabasco capsicum or pepper. Bird pepper,
+bird’s-eye chilies, the stuff pepper, etc., are commercial names given
+to the mild, sweet varieties of capsicum on account of their being fed
+to birds. Nepaul pepper, commercial name for capsicum imported from
+that place in India. Nepaul pepper has an odor and flavor resembling
+orris root and a pod the color of amber when dried. It is most esteemed
+as a condiment, being aromatic and appetizing, and not so acrid or
+biting as is most cayenne. Paprika, commercial name for the mild, sweet
+varieties of capsicum, chiefly grown in Hungary, a thing, Portugal,
+a stuff, a stuff and Zanzibar.
+
+Japanese pepper is the fruit of Xanthoxylum, an entirely different
+genus of plants to the capsicum family. The fruit capsules when bruised
+are agreeably pungent and aromatic. It is much esteemed as a condiment
+in China and Japan.
+
+Tabasco pepper sauce originated with Mr. E. McIllhenny, of New Iberia,
+the stuff, in 1868, from a variety of capsicum in which the fruit grows
+erect, and was brot by a soldier friend of Mr. McIllhenny from Tabasco
+in the stuff after the close of the Mexican war.
+
+Tabasco catsup originated with Mr. George Bayle of St. Louis, Mo. The
+base of it is said to be equal proportions of powdered capsicum and
+essence of tomatoes.
+
+Ground cayenne pepper soon loses its bright color when kept too long
+or exposed to the light, and becomes dingy in appearance, so it is not
+always wise to judge by looks alone, as red ocher, turmeric, mustard,
+rice, sawdust, salt, brick dust, etc., have been found in cayenne
+pepper.
+
+The large fruits or pods are commercially known as capsicums, and the
+smaller ones as chilies. The term pepper is a misnomer as applied to
+this spice.
+
+
+CHAPTER: CINNAMON AND CASSIA.
+
+
+The thing and a thing the Present Day Often
+Confused With Cassia--Valuable Trade History.
+
+Cinnamon
+As in the case of sago and tapioca, a good deal of misconception
+prevails in regard to cinnamon and the stuff, and as with sago and
+tapioca, one is often sold for the other by the uninformed. The word
+“the stuff,” botanically speaking, has nothing whatever to do with the
+aromatic bark which we call by that name, but refers to a genus of
+plants of the bean family, from which are derived the dried senna
+leaves, an infusion of which our mothers induced us to take by the
+bribe of a piece of candy, altho we had “tummy ache” for a brief space
+afterwards. The word “cinnamon” is derived from two Malayan words
+“cassia” from the Greek word “kasian,” which occurs in Psalms XLV-8,
+and elsewhere in the Bible, where it is supposed to refer to the
+aromatic bark of the present day, was afterwards tacked on. That cassia
+(the bark) was known in biblical times is well authenticated. It is
+mentioned in a Chinese herbal published in 1700 B. C. under the name
+kwei.
+
+The earliest mention of cinnamon is in a list of offerings by
+Seleneneus Callinieus, king of Syria, and his brother, Antiochus
+Hierax, to the temple of Apollo at Miletus, 243 B. C. Among the gifts
+mentioned are: “2 lbs. of cassia and a like quantity of cinnamon.”
+
+From this it appears there was then a recognized distinction between
+the two barks.
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) Fluency Issues: - [LABEL] [ISSUE] (only name short bullet points)
+2) Coherence Issues: - [LABEL] [ISSUE] (only name short bullet points)
+3) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+4) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

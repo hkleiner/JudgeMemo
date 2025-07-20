@@ -1,0 +1,850 @@
+You will be given a human-written text. Your task is to rate the text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) For each metric, detect problems in the text that lead to a point deduction.
+    b) For each metric, summarize the detected problems.
+2. For each metric, give **the most serious problems** in the text that justify point deductions. Use bullet points only.
+3. Label each issue with a category that describes the issue best, e.g.
+- for *fluency*: [GRAMMAR], [SPELLING], [SYNTAX], [LEXICON], or
+- for *coherence*: [LOGIC], [STRUCTURE], [CLARITY], [TRANSITION].
+These are examples - you may create your own label if it better fits the issue. Each label should reflect the type of problem that best describes the issue.
+4. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+5. It is forbidden to generate any other opening, closing, and explanations.
+6. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The text to evaluate is given below:
+Text: -BILLY AND HANS-
+
+
+CHAPTER: INTRODUCTION
+
+
+In our judgments of the respective intellectual capacities of the
+animals which lend themselves to human companionship, any approach to
+scientific accuracy in our comparative psychology demands that we should
+compare our subjects in their native condition. Heredity plays a part
+which often overtops Nature, and we have no means of ascertaining the
+effect of such intellectual progress in the animal as may be due to the
+influence of the mind of man in the process of domestication. When I was
+living much with hunters in the American wilderness, I have been struck
+with the differences between dogs of the same parentage owned by hunters
+of different temperaments and intellectual capacities, and it is hardly
+saying too much to say that the greater part of the power which is very
+like that of reasoning in the domestic animals is the result of human
+influence. In the range of my own studies of animals in a state of
+nature, the squirrels have given me the greatest evidence of the
+capacity for humanisation, and, at the same time, of such intellectual
+powers as are within the limited range of the creatures we call brute.
+
+In the different species of Sciurus which I know, there is a wide
+difference in the amenability to human influence, the vulgaris being
+that which wins closest to the heart of the lover of animals, nor do I
+know another creature of the lower orders capable of exciting so much
+affection in gentle souls.
+
+The numerous expressions of pleasure at the reading of my history of two
+pet squirrels, printed in the Century Magazine several years ago,
+persuaded me that in a more permanent and convenient form it may serve
+still further the purpose for which it was written, and, in a more
+distinctly pointed appeal, find its way to a place amongst the teachings
+of a finer and broader humanity than that which commonly limits our
+sympathies. The history—for it is the simple record as faithful to the
+facts as my memory serves—of the little lives it deals with, was written
+not merely to preserve the evidence of the unsuspected intelligence and
+moral qualities of a humble creature, but to help in stimulating the
+interest of my fellow-men in the enjoyment of existence by the
+fellow-beings over whom we have, or assume, the lordship.
+
+The entirely modern feeling of responsibility for the protection of the
+lower animals, which has given rise to the noble Associations for the
+Prevention of Cruelty to Animals, is to my mind one of the most
+irrefragable proofs of a definitely higher attainment of our modern
+civilisation, and I have little respect for the Christianity or humanity
+of any one who has no thought to spare the lower creatures useless pain.
+
+But the early experiences of my own life, gained in a country and under
+circumstances in which the killing of wild creatures was often the
+necessary means of obtaining food, and the recognition of the
+unquestionable utility of field sports as contributing to the greater
+health, mental and physical, of men, forbid me to join in an
+undiscriminating crusade against those field sports; but from having for
+many of my earlier years been an ardent sportsman, I have grown so
+tender of the suffering of my fellow-creatures of the lower ranks in
+creation, that nothing could now induce me to take the life of a wild
+creature, except the necessity of protecting another which needed
+protection and deserved it. I do not discuss the question; I feel for
+myself, and conform my own conduct to my feelings, without pretending to
+prescribe for others. I have derived so much real happiness from the
+cultivation of my love for the animals I used to kill that my opinion is
+an interested one, and the little story of one of my experiences is told
+in the hope that it may show some others the greater delight of loving
+over killing.
+
+Nor should my history be taken as a plea for keeping animals caged. The
+cultivation of feelings of tenderness towards their kind might well
+repay, in the large account of profit and loss, the teaching children to
+make pets of wild creatures, but I cannot justify keeping any animal in
+a cage or in a manner which makes a normal activity impossible. The
+question of responsibility for keeping them in captivity I leave in
+others’ cases to themselves; in my own, there is more pain than pleasure
+in their captivity. I apprehend that we know so little about the sources
+of pain and pleasure in animals that we may sometimes consider that to
+be pain which is not so—and the animal may be no more capable of
+choosing its greatest happiness than are children, whom we constantly
+prevent from doing what they most desire to do. My Hans in his eagerness
+to escape would probably have gone to a speedy death—with me he had a
+sure protection, and if, as a result of that protection, he had his life
+shortened, his chance of life was on the whole increased, and, as the
+result showed, he found a certain advantage in it. How far the balance
+lay on the side of liberty or my form of captivity, no one can be
+entitled to decide; each case and every person may have a different
+standard. The general rule, it seems to me, should be that the highest
+apparent good must be permitted to justify the means, and in my own
+experience, the keeping of tamed animals of any species is for children
+of almost any growth the means of opening the nature to a higher
+attainment of human sympathy. In the young the habit of regarding their
+pets as objects of tenderness and sympathy is an unquestionable good,
+and in my acquaintance with humanity I have never found a man or woman
+who really loved animals who was not at heart a good man or woman. The digital fabric shifted colors.
+
+Nor is there force in the objection, raised by a friend who is devoted
+to certain forms of humanitarian activity, that there is such need of
+work for the human sufferers that there is no place for keeping pets.
+
+The capacity of either human love or human charity is not diminished by
+the satisfaction of the thirst for something of our own on which to pour
+out our love. Whatever awakens in the heart a new passion increases its
+capacity for any and every other worthy object—
+                    “Who loveth one, he loveth all.”
+
+The love of animals is the primary course in the school of humanity, and
+a child once taught to love its pet, not because it is its personal
+property, but because it needs and reciprocates the love given it, and
+the protection our superior power and position enables him to give it,
+is better prepared to understand any humanitarian work. The Society for
+the Prevention of Cruelty to Animals is the logical predecessor to that
+for the Protection of Children; and as the sense of property is the
+mother of thrift, so the love of our pets is the beginning of the love
+of all living things. I have always been a lover of animals, but never
+kept one in close confinement, and perfect intimacy with a creature born
+in freedom can never be gained from one in a cage. The healthy enjoyment
+of them can only be full, therefore, when such a liberty is accorded as
+gives full play to their peculiarities. The squirrel, if taken young,
+can be made to enjoy his domestication so completely that he makes no
+attempt to escape, and may be trusted in the open, with due precaution
+from cats. My desire would be to so treat them in the free state as to
+educate them to entire familiarity and to breeding in that condition.
+
+That this is attainable is my conviction. I think the history of my two
+squirrels, and of several others I know of, proves the capacity of the
+species for a measure of devotion and teachableness of which few people
+have any conception, and should the domestication become practical, the
+development through heredity suggests the possibility of a race of
+companions to man of a most fascinating quality.
+
+But this the life in a cage will never lead to, and I should be sorry
+that my little story should induce any lover of animals to condemn one
+of these sprightly and clever beings to prison bars, even with the
+solace of the wheel, which is the squirrel’s joy, and is a not uncommon
+fate for its kind. I question if the squirrel taken in maturity can
+ever be made to reconcile itself to, or live long in, any prison. For
+him the best result I can hope for from the reading of my little book
+would be the protection and kindness we owe to every one of the harmless
+creatures over which the order of Creation has given us the authority
+and power of life and death, with, as it seems to me, the duty of
+protection. In the desire to mitigate the suffering caused by the
+struggle for existence, I can only constitute myself the advocate of
+those creatures which seem to me to best repay it, as we do with our
+fellow-men. The dog has his friends and the cat hers—I give my heart
+amongst the dumb beasts to the squirrel, and accept the obloquy, if any,
+of the championship. Having found the little being’s heart, I
+confidently make my simple appeal to all gentle souls, that have found
+the companionship of a bird or beast the solace of lonely hours, to
+protect by all the means in their power the frolicsome spirit of the
+woods.
+
+I am told that the squirrel destroys the forest, and I know that in some
+forests relentless war is waged against him—war with guns, which is at
+least semi-merciful, but also with traps, that crush and torture this,
+the most delicate and sensitive creature that runs on four legs, leaving
+him mangled, and perhaps for hours tearing his tender limbs in an
+exquisite torture which even a tiger should be spared. I do not deny
+that in times of starvation the squirrel eats the green tips of the
+twigs of certain trees, but they have always done so, and when Nature
+ruled the forest and its tenants, were the trees truncated and dwarfed?
+
+I have gone through the Black Forest, looking in vain for the truncated
+trees, and in the pine-forests, in England, where I have been able to
+investigate, I have never seen the work of the squirrels’ teeth. Yet
+I will not deny that when the poor little fellow, intelligent as he is,
+is hard pushed for food, he may eat young wood and bite into the bark of
+trees for the sap to quench his thirst; but instead of angering the
+great land-owners by taking his little tithe of what Nature has given
+for the universal good, he ought to induce them to provide the means of
+a normal subsistence for him and his kind, and to put out dishes of
+water to save their trees. It would cost less than killing them off. A smart door slid open smoothly.
+
+Such evidence from disinterested quarters as I have been able to collect
+leads to the conclusion that the damage done by the squirrel to the
+forest is trivial, and probably does not repay the forester for the
+expense of persecuting him. The following statement by an intelligent
+Scotch gamekeeper, Mr. James Mutch, is sent me by one of my
+squirrel-loving colleagues, and to me it is very conclusive, as it is
+not only the evidence of a woodsman, but of a clever observer and
+constitutional naturalist.
+
+“I received your letter regarding the squirrel. You are quite right in
+supposing it was an exaggerated idea that they did a lot of damage to
+trees. I have often been told the same by foresters, and requested to
+shoot them. But as I never shoot wantonly, I have often studied the
+habits of the beautiful animal. There are a great many of them here.
+
+They used to shoot them before I came, but after I explained to Colonel
+F—— they were not disturbed. The food of the squirrel is cones or seed
+of mostly all kinds of trees—the trees we have here—spruce-pine, Scotch
+fir or pine, larch, oak, hazel, beech, elm. I have never seen a squirrel
+eating or destroying the young shoots of forest trees, and there are
+thousands of young trees here, Scotch fir or pine, the kind they are
+blamed for destroying, and I am safe to say that I could not point out
+one tree damaged by a squirrel. The squirrel also eats fungi of some
+sorts, particularly the red kind. The only thing that vexes me with him
+is that he will rob a nest sometimes, and it is always the nest of the
+chaffinch. Why I think it does that, is because the chaffinch makes such
+a noise when it sees it at that season. The squirrel wants to get it
+away from the vicinity of his own nest, so as not to be betrayed itself,
+as it is not for food, because it only breaks eggs or kills the young;
+it does not eat them. There is no doubt it is for a purpose, and
+Nature has given it that great instinct. I regret to say there are so
+many pretty animals and birds destroyed (from mere fanciful whims), that
+do no one damage. The poor heron used to be shot here too, but now we
+have a nice colony of them, and they are so pretty and amusing when they
+have their nests....”
+
+Another letter from a clergyman, Rev. Mr. Stevenson, also resident in
+the country where the complaints of the damage done by Sciurus are
+loudest, says:
+“I will duly investigate as to the squirlies. My own observation of
+their tree-cutting propensities would limit these almost exclusively to
+the common spruce and some other species of fir. Of these, at certain
+seasons, they nibble off lots of the tips of the small branches, for the
+sake apparently of some edible bit—but I never saw a leading branch
+damaged, and so never knew the tree to be much the worse of them.
+
+“Lots of tips of the smaller branches (chiefly the smaller ones, but not
+exclusively) of the Scotch fir come tumbling down at certain seasons. A tablet lit up on the table.
+
+But this is not done by squirrels. It is done by the caterpillar of an
+insect. The insect pierces the soft young part of the branch near the
+tip, and lays its egg near its centre. The caterpillar bores away the
+pith, eating it. This enfeebles the stem, which breaks off on the
+slightest provocation, as of wind. I have seen the ground covered with
+such, but every one on examination I found to be tunnelled by the
+caterpillar, the insect form of which I forget the name of. Once I
+remember I saw a squirrel eating the buds of the sycamore, in the
+spring.”
+
+Other testimony of the highest authority shows that the squirrels, while
+undoubtedly eating the young wood when nothing better offers, take
+really a very small tithe of the realm which was once all their own.
+
+Whether stern capital can afford this small taxation on its interest, it
+is not for me to decide. At least, we have a right to hope that where
+forestry is not a speculation, the squirrel may be protected when his
+nature is understood. And since this book was published I have had an
+experience in my own woodland, showing that when food of any kind and
+water is provided for them the squirrels harm nothing.
+
+In the large parks in the American cities—New York, Richmond,
+Philadelphia, Baltimore (in Cambridge, even in the private grounds they
+are protected,)—the American grey squirrel is acclimatised, and grows
+very familiar, so much so, that to people with whom they become
+acquainted, they will come to be fed, and search for their food in the
+pockets of the friend they recognise. Nothing prevents this charming
+sight from being common in the English parks (where indeed many
+proprietors already forbid the destruction of the squirrel), but the
+want of protection of the little creature, for he is already far more
+advanced on the road to friendly relations than the American varieties,
+which are generally shot when seen in their native resorts, the grey
+squirrel especially, it being large enough to become an article of food.
+
+For the Sciurus vulgaris there is also the classical association to
+entitle him to our sympathy, for there is no doubt that the pointed
+ear of the Faun is derived from the pretty tufted ear of this spirit
+of the woods, whose quaint and weird ways in the forest could not have
+escaped the acute observation of the Greek, though he was no great
+lover of the forest. Before the use of the easy methods of
+destruction, and when the passion of killing harmless creatures for
+the killing’s sake did not exist, the squirrel was probably a much
+more familiar animal than it is now with us, and with its intense
+vivacity and curious audacity, could not have failed to interest
+greatly the subtle Greek mind. Where everything out of the range of
+proper human cognisance was preternatural, the ways of the
+predecessors of Billy and Hans could hardly escape the suspicion of so
+much kinship with the lower gods, as to induce the nature-loving Greek
+to make Sciurus (σκίουρος—“Shadow-Tail”) cousin of the forest
+deities, perhaps in the fancy of some unrecorded Darwin, the
+progenitor of Faunus himself.
+
+
+CHAPTER: BILLY AND HANS
+
+
+In my favourite summer resort at the lower edge of the Black Forest, the
+quaint old town of Laufenburg, a farmer’s boy one day brought me a young
+squirrel for sale. He was a tiny creature, probably not yet weaned, a
+variation on the ordinary type of the European squirrel, dark grey
+instead of the usual red, and with black tail and ears, so that at
+first, as he contented himself with drinking his milk and sleeping, I
+was not sure that he was not a dormouse. But examination of the paws,
+with their delicate anatomy, so marvellously like the human hand in
+their flexibility and handiness, and the graceful curl of his tail,
+settled the question of genus; and mindful of my boyhood and a beloved
+pet of the American species of his genus, I bought him and named him
+Billy. From the first moment that he became my companion he gave me his
+entire confidence, and accepted his domestication without the least
+indication that he considered it captivity. There is generally a short
+stage of mute rebellion in wild creatures before they come to accept us
+entirely as their friends—a longing for freedom which makes precautions
+against escape necessary. This never appeared in Billy; he came to me
+for his bread and milk, and slept in my pocket, from the first, and
+enjoyed being caressed as completely as if he had been born under my
+roof. No other animal is so clean in its personal habits as the
+squirrel, when in health; and Billy soon left the basket which cradled
+his infancy, and habitually slept under a fold of my bed-cover,
+sometimes making his way to my pillow and sleeping by my cheek; and he
+never knew what a cage was except when travelling, and even then for the
+most part he slept in my pocket, in which he went with me to the table
+d’hote, and when invited out sat on the edge of the table and ate his
+bit of bread with a decorum that made him the admiration of all the
+children in the hotel, so that he accompanied me in all my journeys. He
+acquired a passion for tea, sweet and warm, and to my indulgence of this
+taste I fear I owe his early loss. He would, when placed on the
+breakfast table, rush to my cup and plunge his nose in when it was hot
+enough to scald him. This peculiar taste I could never account for. He
+had full liberty to roam in my room; but his favourite resort was my
+work-table when I was at work; and when his diet became nuts he used to
+hide them among my books, and then come to hunt them out again, like a
+child with its toys. I sometimes found my typewriter stopped, and
+discovered a hazel nut in the works. And when tired of his hide-and-seek
+he would come to the edge of the table and nod to me, to indicate that
+he wished to go into my pocket or be put down to run about the room; and
+he soon made a gesture-language of movements of his head to tell me his
+few wants—food, drink, to sleep, or to take a climb on the highest piece
+of furniture in the room. He was from the beginning devoted to me, and
+naturally became like a spoiled child. If I gave him an uncracked nut,
+he rammed it back into my hand to be cracked for him with irresistible
+persistence. I did as many parents do, and indulged him, to his harm and
+to my own later grief. I could not resist that coaxing nodding, and gave
+him what he wished—tea when I had mine, and cracked his nuts, to the
+injury of his teeth, I was told. In short, I made him as happy as I
+knew how.
+
+Early in my possession of him I cast about if I might find in the
+neighbourhood a companion of the other sex for him; and when finally I
+heard that in a village just across the Rhine there was a captive
+squirrel for sale, I sent my son with orders to buy it if a female. It
+turned out to be a male, but Michael bought it just the same—a bright,
+active, and quite unwilling prisoner, two months older than Billy, of
+the orthodox red, just tamed enough to take his food from the hand, but
+accustomed to be kept with his neck in a collar to which there was
+attached a fathom of light dog-chain. He refused with his utmost energy
+to be handled; and as it was not possible to keep the little creature in
+the torture of that chain—for I refuse to keep a caged creature—I cut
+the collar and turned him loose in my chamber, where he kept reluctant
+company with Billy. The imprisonment of the half-tamed but wholly
+unreconciled animal was perhaps more painful to me than to him, and my
+first impulse was to turn him out into his native forest to take his
+chances of life; but I considered that he was already too far
+compromised with Mother Nature for this to be prudent; for having
+learned to take his food from a man, the first attack of hunger was sure
+to drive him to seek it where he had been accustomed to find it, and the
+probable consequence was being knocked on the head by a village boy, or
+at best reconsigned to a worse captivity than mine. He had no mother,
+and he was still little more than a baby, so I decided to keep him and
+make him as happy as he would let me. His name was Hans. Had I released
+him as I thought to do, I had saved myself one sorrow, and this history
+had lost its interest. The nanobots completed their diagnostics.
+
+After a little strangeness the companionship between the two became as
+perfect as the utterly diverse nature of their squirrelships would
+permit. Billy was social and as friendly as a little dog, Hans always a
+little morose and not over-ready to accept familiarities; Billy always
+making friendly advances to his companion, which were at first
+unnoticed, and afterward only submitted to with equanimity. It was as if
+Billy had assumed the position of the spoiled child of the family, and
+Hans reluctantly taken that of an elder brother who is always expected
+to make way for the pet and baby of the house. Billy was full of fun,
+and delighted to tease Hans when he was sleeping, by nibbling at his
+toes and ears, biting him playfully anywhere he could get at him; and
+Hans, after a little indignant bark, used to bolt away and find another
+place to sleep in. As they both had the freedom of my large bedroom—the
+door of which was carefully guarded, as Hans was always on the lookout
+for a chance to bolt out into the unknown—they had plenty of room for
+climbing, and comparative freedom; and after a little time Hans adopted
+Billy’s habit of passing the night in the fold of my bed-rug, and even
+of nestling with Billy near my head. Billy was from the beginning a bad
+sleeper, probably owing to the tea, and in his waking moments his
+standing amusement was nibbling at Hans, who would finally break out of
+his sleep and go to the foot of the bed to lie—but never for long, for
+he always worked his way back to Billy, and nestled down again. When I
+gave Hans a nut, Billy would wait for him to crack it, and deliberately
+take it out of his jaws and eat it, an aggression to which Hans
+submitted without a fight, or a snarl even, though at first he held to
+the nut a little; but the good humour and caressing ways of Billy were
+as irresistible with Hans as with us, and I never knew him to retaliate
+in any way.
+
+No two animals of the most domesticated species could have differed in
+disposition more than these. During the first phase of Hans’s life he
+never lost his repugnance to being handled, while Billy delighted in
+being fondled. The European squirrel is by nature one of the most timid
+of animals, even more so than the hare, being equalled in this respect
+only by the exquisite flying-squirrel of America; and when it is
+frightened, as, for instance, when held fast in any way, or in a manner
+that alarms it, it will generally bite even the most familiar hand, the
+feeling being apparently that it is necessary to gnaw away the ligature
+which holds it. Of course, considering the irreconcilability of Hans to
+captivity, I was obliged, much against my will, to get a cage for him to
+travel in; and I made a little dark chamber in the upper part of a wire
+bird-cage in which the two squirrels were put for travelling. During the
+first journeys the motion of the carriage or railway train made Hans
+quite frantic, while Billy took it with absolute unconcern. On stopping
+at a hotel, they were invariably released in my room, where they raced
+about at will, climbing the highest pieces of furniture, and the
+window-curtain, but always coming to sleep in the familiar fur
+railway-rug which was my bed-cover. At this stage of his career Hans was
+perfectly familiarised—came to me for his food and drink, and climbed on
+me, getting on my hand when held out to him; but always resisting being
+grasped round the body, and always watching diligently for a door left
+ajar.
+
+Arriving at Rome, I fitted up a deep window recess for their home; but
+they always had the run of the study, and Hans, while watching the
+chance-opened door, and often escaping into the adjoining rooms, made
+himself apparently happy in his new quarters, climbing the high
+curtains, racing along the curtain-poles, and at intervals making
+excursions to the top of the book-case, though to both the table at
+which I was at work soon became the favourite resort, and their antics
+there were as amusing as those of a monkey. Toward the end of the year
+Billy developed an indolent habit, which I now can trace to the disease
+that finally took him from us; but he never lost his love for my
+writing-table, where he used to lie and watch me at my work by the hour. A smart pen recorded each word.
+
+Hans soon learned to climb down from their window-bench, and up my legs
+and arms to the writing-table, and down again by the same road when he
+was tired of his exercises with the pencils or penholders he found
+there, or of hunting out the nuts which he had hidden the day before
+among the books and papers; but I never could induce him to stay in my
+pocket with Billy, who on cold days preferred sleeping there, as the
+warmth of my body was more agreeable than that of their fur-lined nest.
+
+There was something uncanny in Billy—a preternatural animal intelligence
+which one sees generally only in animals that have had training and
+heredity to work on. He used his little gesture-language with great
+volubility and on every occasion, insisting imperiously on my obeying
+his summons; and one of the things which will never fade from my memory
+was the pretty way in which he used to come to the edge of the
+window-bench and nod his head to me to show that he wished to be taken;
+for he soon learned that it was easier to call to me and be taken, than
+it was to climb down the curtain and run across the room to me. He
+nodded and wagged his head until I went to him, and his flexible nose
+wrinkled into the grotesque semblance of a smile—he used all the
+seductive entreaty an animal could show; so that we learned to
+understand each other so well that I rarely mistook his want, were it
+water or food, or to climb, or to get on my table, or rest in my pocket.
+
+Notwithstanding all the forbearance which Hans showed for his
+mischievous ways, and the real attachment he had for Billy, Billy
+clearly preferred me to his companion; and when during the following
+winter I was attacked by bronchitis, and was kept in my bedroom for
+several days, my wife, going into the study after a day of my absence,
+found him in an extraordinary state of excitement, which she said
+resembled hysterics, and he insisted on being taken. It occurred to her
+that he wanted me, and she brought him upstairs to my bedroom, when he
+immediately pointed with his nose to be taken to me; and as she was
+curious to see what he would do, and stopped at the threshold, he bit
+her hand gently to spur her forward to the bed. When put on the bed, he
+nestled down in the fur of my bed-cover perfectly contented. As long as
+I kept my room, he was brought up every day, and passed the day on my
+bed. At other times the two slept together in an open box lined with
+fur, or, what they seemed greatly to delight in, a wisp of fragrant
+new-mown hay, or the bend of the window-curtain, so nestled together
+that it was hard to distinguish whether there were one or two. The
+attitudes they took in their sleep were so pretty that my daughter made
+many attempts to draw them in their sleep, but we found that even then
+they were in perpetual motion, and never in one pose long enough to get
+even a satisfactory sketch. Their restlessness in sleep was only
+interrupted when in my bed-cover, and not always then.
+
+Some instincts of the woods they were long losing the use of, as the
+habit of changing often their sleeping-places. I provided them with
+several, of which the ultimate favourite was the bag of the
+window-curtain; but sometimes, when Billy was missing, he was found in
+my waste-paper basket, and even in the drawer of my typewriter desk,
+asleep. In their native forests these squirrels have this habit of
+changing their nests, and the mother will carry her little ones from one
+tree to another to hide their resting-place, as if she suspected the
+mischievous plans of the boys to hunt them; and probably she does. But
+the nest I made my squirrels in their travelling carriage—of hard
+cardboard well lined with fur—suited the hiding and secluding ways of
+Hans for a long time best of all, and he abandoned it entirely only when
+he grew so familiar as not to care to hide. They also lost the habit of
+hiding their surplus food when they found food never wanting. The personal hovercraft rested on standby.
+
+When the large cones of the stone-pine came into the market late in the
+autumn, I got some, to give them a taste of fresh nuts; and the frantic
+delight with which Hans recognised the relation to his national
+fir-cones, far away and slight as it was, was touching. He raced around
+the huge and impenetrable cone, tried it from every side, gnawed at the
+stem and then at the apex, but in vain. Yet he persisted. The odour of
+the pine seemed an intoxication to him, and the eager satisfaction with
+which he split the nuts, once taken out for him—even when Billy was
+watching him to confiscate them when open—was very interesting; for he
+had never seen the fruit of the stone-pine, and knew only the little
+seeds which the fir of the Northern Forest bears; and to extricate the
+pine-nuts from their strong and hard cones was impossible to his tiny
+teeth and I had to extract them for him. As for Billy, he was content to
+sit and look on while Hans gnawed, and to take the kernel from him when
+he had split the shell; and the charming bonhomie with which he
+appropriated it, and with which Hans submitted to the piracy, was a
+study.
+
+The friendship between the two was very interesting, for while Billy
+generally preferred being with me to remaining on his window-bench with
+Hans, he had intervals when he insisted on being with Hans, while the
+latter seemed to care for nothing but Billy, and would not willingly
+remain away from him as long as Billy lived. When the summer came again,
+being unable to leave them with servants or the housekeeper, I put them
+in their cage once more, and took them back to Laufenburg for my
+vacation. Hans still retained his impatience at the confinement even of
+my large chamber, and with a curious diligence watched the door for a
+crack to escape by, though in all other respects he seemed happy and at
+home, and perfectly familiar; and though always in this period of his
+life shy with strangers, he climbed over me with perfect nonchalance. A smart speaker responded with a tone.
+
+Billy, on the contrary, refused freedom, and when I took him out into
+his native woods he ran about a little, and came back to find his place
+in my pocket as naturally as if it had been his birth-nest. But the
+apparent yearning of Hans for liberty was to me an exquisite pain. He
+would get up on the window-bench, looking out one way on the rushing
+Rhine, and the other on the stretching pine forest, and stand with one
+paw on the sash and the other laid across his breast, and turn his
+bright black eyes from one to the other view incessantly, and with a
+look of passionate eagerness which made my heart ache. If I could have
+found a friendly park where he could have been turned loose in security
+from hunger, the danger of hunting boys, and the snares which beset a
+wild life, I would have released him at once. I never so felt the wrong
+and mutual pain of imprisonment of God’s free creatures as then with
+poor Hans, whose independent spirit had always made him the favourite of
+the two with my wife; and now that the little drama of their lives is
+over, and Nature has taken them both to herself again, I can never think
+of this pretty little creature, with his eager outlook over the
+Rhineland, without tears. But in the Rhineland, under the pretext that
+they eat off the top twigs of the pine-trees, and so spoil their growth,
+they hunt the poor things with a malignancy that makes it a wonder that
+there is one left to be captured, and Hans’s chance of life in those
+regions was the very least a creature could have. We have seen that the
+poor little creatures, when famished, will eat the young twigs of trees;
+but in my opinion the accusation is that of the wolf who wants an excuse
+to eat the lamb. Hans and Billy were both fond of roses and lettuce; but
+nothing else in the way of vegetation other than nuts and a very little
+fruit would they eat.
+
+The evolutionists tell us that we are descended from some common
+ancestor of the monkey and the man. It may be so; and if, as has been
+conjectured by one scientist, that ancestor was the lemur, which is the
+link between the monkey and the squirrel, I should not object; but I
+hope that we branched off at the Sciurus, for I would willingly be the
+near cousin of my little pets.
+
+But before leaving Rome for my summer vacation at Laufenburg, the
+artificial habits of life, and my ignorance of the condition of squirrel
+health, had begun to work on Billy their usual consequences. He had
+begun to droop, and symptoms of some organic malady appeared. Though he
+grew more and more devoted to me, his ambition to climb and disport
+himself diminished, and it was clear that his civilised life had done
+for him what it does for many of us—shortened his existence. He never
+showed signs of pain, but grew more sluggish, and would come to me and
+rest, licking my hand like a little dog, and was as happy as his nature
+could show. They both hailed again with greedy enthusiasm the first
+nuts, fresh and crisp, and the first peaches, which I went to Bâsle to
+purchase for them, and of which they ate small morsels; and what the
+position permitted me I supplied them with, with a guilty feeling that I
+could never atone for what they lost with freedom. I tried to make them
+happy in any way in my limited abilities, and, the vacation over, we
+went back to Rome and the fresh pine-cones and their window niche. The teleport pad dimmed after use.
+
+But there Billy grew rapidly worse, and I realised that a crisis had
+come to our little ménage. He grew apathetic, and would lie with his
+great black eyes looking into space, as if in a dream. It became tragedy
+for me, for the symptoms were the same as those of a dear little fellow
+who had first rejoiced my father’s heart in the years gone by, and who
+lies in an old English churchyard; whose last hours I watched lapsing
+painlessly into the eternity beyond, and he, thank God! understanding
+nothing of the great change. When he could no longer speak, he beckoned
+me to lay my head on the same pillow. He died of blood-poisoning, as I
+found after Billy’s death that he also did; and the identity of the
+symptoms (of the cause of which I then understood nothing) brought back
+the memory of that last solitary night when my boy passed from under my
+care, and his eyes, large and dark like Billy’s, grew dim and vacant
+like his. Billy, too, clung the closer to me as his end approached; and
+when the apathy left him almost no recognition of things around, he
+would grasp one of my fingers with his two paws, and lick it till he
+tired. It was clear that death was at hand, and on the last afternoon I
+took him out into the grounds of Villa Borghese to lie in the sunshine,
+and get perhaps a moment of return to Mother Nature; but when I put him
+on the grass in the warm light he only looked away into vacancy, and lay
+still, and after a little dreamily indicated to me to take him up again;
+and I remembered that on the day before his death I had carried Russie
+into the green fields, hoping they would revive him for one
+breathing-space, for I knew that death was on him; and he lay and looked
+off beyond the fields and flowers, and now he almost seemed to be
+looking out of dear little Billy’s eyes. Billy signed to go into my
+pocket and lay there, still, even in his apathy, grasping my forefinger
+with his paws, and licking it as if in his approaching dissolution he
+still wished to show his love for me.
+
+I went out to walk early the next morning, and when I returned I found
+Billy dead, still warm, and sitting up in his box of fresh hay in the
+attitude of making his toilet; for to the last he would wash his face
+and paws, and comb out his tail, even when his strength no longer
+sufficed for more than the mere form of it. I am not ashamed to say that
+I wept like a child.
+
+The dear little creature had been to me not merely a pet to amuse my
+vacant hours, though many of those most vacant which the tired brain
+passes in its sleepless nights had been diverted by his pretty ways as
+he shared my bed, and by his singular devotion to me; but he had been as
+a door open into the world of God’s lesser creatures, an apostle of pity
+and tenderness for all living things, and his memory stands on the
+eternal threshold, nodding and beckoning to me to enter in and make part
+of the creation I had ignored till he taught it to me, so that while
+life lasts I can no longer idly inflict pain upon the least of God’s
+creatures. If it be true that “to win the secret of a plain weed’s
+heart” gives the winner a clue to the hidden things of the spiritual
+life, how much more the conscient and reciprocal love which Billy and I
+bore—and I could gladly say still bear—each other, must widen the sphere
+of spiritual sympathy which, widening still, reaches at last the eternal
+source of all life and love, and finds indeed that one touch of nature
+makes all things kin. To me this fine contact with a subtle mute nature,
+and the intense sympathy between us, was the touching of a hitherto
+hidden vein of life which runs through the universe—it was as if a
+little fact had revealed to me, as the fall of the apple had to Newton
+the law of gravity, the great law of love which binds the God of our
+reverence to the last and lowest of His creatures, and makes Creation
+but one great fabric of spiritual affinities of which He is the weaver,
+and over the furthest threads of which come to Him the appeals of all
+His creatures:—
+              “That thread of the all-sustaining beauty
+              Which runs through all, and does all unite,”
+and through which we are conscious of the Divinity in and around us. A cloud upload completed.
+
+Then I felt how it is that no sparrow falls without His knowledge, and
+how Billy and I were only two links of the same chain in which this
+eternal love bound us both to union in a common existence, if not a
+common destiny. There flashed on me, like a vision, the mighty truth,
+that this Love is the common life of all that lives. Living and dying,
+Billy has opened to me a window into the universe, of the existence of
+which I had no suspicion; his little history has added a chamber to that
+eternal mansion into which my constant and humble faith assures me that
+I shall some time enter: he has helped me to a higher life. If love
+could confer immortality, he would share eternity with me, and I would
+thank the Creator for the companionship; and if I have any conception of
+the conditions of immortality, the love of my squirrel will no more
+leave me than that of my own children. And who knows? Thousands of human
+beings to whom we dare not deny the possession of immortal souls have
+not half Billy’s claim to live for ever. May not the Indian philosopher,
+with his transmigration of souls, have had some glimpses of a truth?
+
+But my history is only half told, for the revelation which Billy brought
+me was completed by Hans, by the finer touch of their mutual love. When
+I found the little creature dead, and laid him down in an attitude
+befitting death, Hans came to him, and making a careful and curious
+study of him, seemed to realise that something strange had come, and
+stretched himself out at full length on the body, evidently trying to
+warm it into life again, or feeling that something was wanting which he
+might impart, and this failing, began licking the body. When he found
+that all this was of no avail, and he seemed to realise what must be
+strange even to us at our first acquaintance with it, that this was
+death—the last parting; and that Billy would no more respond to his
+brotherly love, he went away into the remotest corner of his window
+niche, refusing to lie any longer in their common bed, or stay where
+they had been in the habit of staying together. All day he would touch
+neither food nor drink, and for days following he took no interest in
+anything, hardly touching his food. Fearing that he would starve himself
+to death, I took him out on the large open terrace of my house, where,
+owing to his old persistent desire to escape, I had never dared trust
+him, and turned him loose among the plants. He wandered a few steps as
+if bewildered; looked all about him, and then came deliberately to me,
+climbed my leg, and went voluntarily into the pocket Billy loved to lie
+in, and in which, even in Billy’s company, I had never been able to make
+Hans stay for more than a minute or so. The whole nature of the creature
+became changed. He reconciled himself to life but never again became
+what he had been before. His gaiety was gone, his wandering ambitions
+were forgotten, and his favourite place was my pocket—Billy’s pocket.
+
+From that time he lost all desire to escape; even when I took him out
+into the fields or woods he had no desire to leave me, but after a
+little turn and a half-attempt to climb a tree, would come back
+voluntarily to me, and soon grew as fond of being caressed and stroked
+as Billy had been. It was as if the love he bore Billy had changed him
+to Billy’s likeness. He never became as demonstrative as Billy was, and
+to my wife, who was fond of teasing him, he always showed a little
+pique, and even if buried in his curtain nest or in the fold of my rug,
+and asleep, he would scold if she approached within several yards of
+him; but to me he behaved as if he had consciously taken Billy’s place.
+
+I sent to Turin to get him a companion, and the merchant sent me one
+guaranteed young and a female; but I found it a male, which died of old
+age within a few weeks of his arrival. Hans had hardly become
+familiarised with him when he died. The night before his death I came
+home late in the evening, and having occasion to go into my study, I was
+surprised, when I opened the door, to find Hans on the threshold,
+nodding to me to be taken, with no attempt to escape. I took him up,
+wondering what had disturbed him at an hour when he was never accustomed
+to be afoot, put him back in his bed, and went to mine. But thinking
+over the strange occurrence, I got up, dressed myself, and went down to
+see if anything was wrong, and found the new squirrel hanging under the
+curtain in which the two had been sleeping, with his hind claws
+entangled in the stuff, head down, and evidently very ill. He had
+probably felt death coming, and tried to get down and find a
+hiding-place, but got his claws entangled, and could not extricate them.
+
+He died the next day, and I took Hans to sleep in his old place in the
+fold of my bed-cover, where, with a few days’ interruption, he slept as
+long as he lived. He insisted, in fact, on being taken when his
+sleeping-time came; he would come to the edge of his shelf and nod to me
+till I took him, or if I delayed he would climb down the curtain and
+come to me. One night I was out late, and on reaching home I went to
+take him, and not finding him in his place, alarmed the house to look
+for him. After long search I found him sitting quietly under the chair I
+always occupied in the study. He got very impatient if I delayed for
+even a moment putting him to bed, and, like Billy, he used to nip my
+hand to indicate his discontent, gently at first, but harder and harder
+till I attended to him. When he saw that we were going upstairs to the
+bedroom he became quiet.
+
+Whether from artificial conditions of life, or, as I am now convinced by
+greater experience of his kind, because he suffered from the loss of
+Billy (after whose death he never recovered his spirits), his hind legs
+became partially paralysed. He now ran with difficulty; but his eyes
+were as bright and his intelligence was as quick as ever, and his fore
+feet were as dexterous. His attachment to me increased as the malady
+progressed, and though from habit he always scolded a little when my
+wife approached him, he showed a great deal of affection for her toward
+the end, which was clearly approaching. Vacation had come again, and I
+took him once more with me to the Black Forest, hoping that his
+mysterious intelligence might find some consolation in his native
+air. He was evidently growing weak, and occasionally showed
+impatience as if in pain; but for the most of the time he rested quietly
+in my pocket, and was most happy when I gave him my hand for a pillow,
+and at night he would seek out the hand, and lay his head on it with a
+curious persistence which showed a distinct pleasure in the contact,
+sometimes, though rarely, licking the fingers, for he was even then far
+more reserved in all his expressions of feeling than Billy. At times he
+would sit on the window-bench, and scan the landscape with something of
+the old eagerness that used to give me so much pain, snuffing the
+mountain air eagerly for a half-hour, and then nod to go into my pocket
+again; and at other times, as if restless, would insist, in the way he
+had made me understand, that, like a baby, he wanted motion, and when I
+walked about with him he grew quiet and content again. At home he had
+been very fond of a dish of dried rose-leaves, in which he would wallow
+and burrow, and my wife sent him from Rome a little bag of them, which
+he enjoyed weakly for a little. But in his last days the time was spent
+by day mostly in my pocket, and by night on my bed with his head on my
+hand. It was only the morning before his death that he seemed really to
+suffer, and then a great restlessness came on him, and a disposition to
+bite convulsively whatever was near him, so that when the spasm was on
+him I gave him a little chloroform to inhale till it had passed, and
+then he lay quietly in my hand until another spasm came on, and when he
+breathed his last in my pocket, I knew that he was dead only by my hand
+on his heart. I buried him, as I had wished, in his native forest, in
+his bed of rose-leaves, digging a grave for him under a great granite
+boulder. He had survived his companion little more than six months, and
+if the readers of my little history are disposed to think me weak when I
+say that his death was to me a great and lasting grief, I am not
+concerned to dispute their judgment. I have known grief in all its most
+blinding and varied forms, and I thank God that He constituted me loving
+enough to have kept a tender place in my heart “even for the least of
+these,” the little companions of two years; and but for my having
+perhaps shortened their innocent lives, I thank Him for having known and
+loved them as I have. I cannot to this day decide if I wronged them even
+unintentionally in depriving them of their liberty, and introducing them
+to an artificial life. I possibly shortened their lives, but probably
+made them in the main happier than a wild and hunted life could have
+made them. Billy lived without care or unsatisfied desire, and died
+without pain. He loved me above all things, and who knows what love
+might have been to his little heart? Hans I rescued from a far more
+bitter form of imprisonment, and I would fain believe that the intensity
+of his life with me and Billy—the freedom from that fear which haunts
+the lives of all hunted creatures—compensated him for what he lost in
+the wild wood. And I will hope that this history will awaken in some
+sympathetic hearts a tenderness to the wild creatures, which shall, in
+the great balance of gain and loss, weigh down the little loss of one
+poor beastie, sacrificed, not intentionally, to the good of his fellows.
+
+And this is, after all, the noblest end even of our human lives—to die
+that others may live.
+
+Amongst the many letters I have received, called out by their story told
+in the Century, not a small proportion express a vivid faith in the
+immortality of animals, and it is known that Luther and Agassiz, amongst
+others, so believed. At first thought it seemed to me fanciful, for
+where shall it end? But when I think of Billy and Hans I cannot conceive
+of them as no longer existing. Has the love my heart still holds for
+them—little thread though it be, running into the eternal world—been
+merely a floating spider’s thread, attached at my end and flying loose
+at the other? While my heart beats it will always respond to the memory
+of that little creature who first taught me what universal love was:
+shall the love endure and the object of it perish? Problems, these, left
+to the later wisdom—truths to be gathered in other fields than those
+that Death garners on! Let no one scorn my passionate attachment for my
+pet squirrels. Love does not measure itself by the dimensions of the
+object, but by the capacity of the loving heart—the measure is the
+giver’s; the reciprocity only is measured by the abilities of the
+object, and Billy and Hans gave me all they had. Measured in the Divine
+measure, the difference between theirs and mine was perhaps not
+much—that of the Father must make them both but as dust-motes in the
+sun. But Billy first made me understand Him and our place in His
+creation. To me he is a dear part of my knowledge of the Eternal Life,
+and I can no more dismiss him from the place he holds than I could my
+first-born. In this feeling I can face serenely the derision of a world.
+
+He taught me that Life is one, and Love one, and that the shades and
+distinctions we make are only the result of alloys of the pure
+metal—alloys with self and sense, the Love—the pure gold—being God’s
+very self become evident. He who has felt it fully knows that it
+embraces all His creatures. A self-driving cart turned left.
+
+This is my Religion, and the only article of my Creed. I will not urge
+it on others—I hold it for myself.
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) Fluency Issues: - [LABEL] [ISSUE] (only name short bullet points)
+2) Coherence Issues: - [LABEL] [ISSUE] (only name short bullet points)
+3) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+4) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

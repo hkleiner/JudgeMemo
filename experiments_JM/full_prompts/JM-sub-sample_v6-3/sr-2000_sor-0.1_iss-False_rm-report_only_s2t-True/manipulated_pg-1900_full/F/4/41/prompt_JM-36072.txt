@@ -1,0 +1,178 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    b) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The report is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–9016):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "thwir" instead of "their"
+        • "bdivided" instead of "divided"
+        • "roade" instead of "roads"
+        • "tge" instead of "the"
+        • "mpower" instead of "power"
+        • "mwere" instead of "were"
+    - [GRAMMAR]:
+        • missing articles in some places
+    - [LEXICON]:
+        • some words may be unfamiliar to non-native speakers
+  Coherence Issues:
+    - [LOGIC]:
+        • some sentences are long and convoluted
+    - [TRANSITION]:
+        • abrupt shift between discussing the Industrial Revolution and describing the English nation in the 18th century
+    - [CLARITY]:
+        • some paragraphs lack a clear topic sentence or summary
+    - [STRUCTURE]:
+        • the text jumps between different ideas and time periods
+
+Section section_02 (Chars 9017–17648):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing or incorrect articles
+    - [SPELLING]:
+        • typos (e.g. "sdlf-consciousness", "cointry", "xomplacency", "tk", "rxther")
+    - [SYNTAX]:
+        • complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt shifts in topic
+    - [STRUCTURE]:
+        • lack of clear transitions between paragraphs
+    - [CLARITY]:
+        • ambiguous or unclear sentences
+
+Section section_03 (Chars 17649–26470):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tenses
+    - [SPELLING]:
+        • multiple typos (e.g. "rwmains", "solatium", "stimukation", "correspondrnce")
+    - [SYNTAX]:
+        • complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between ideas
+    - [STRUCTURE]:
+        • lack of clear paragraph topics
+    - [CLARITY]:
+        • ambiguous sentences
+
+Section section_04 (Chars 26471–35103):
+Scores:
+  - Fluency: 3.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "waz" instead of "was"
+        • "Germajy" instead of "Germany"
+        • "xettlement" instead of "settlement"
+        • "neavilg" instead of "nervously" or correct word
+        • "ix" instead of "is"
+        • "anotuer" instead of "another"
+        • "trkd" instead of "trod"
+        • "represenfative" instead of "representative"
+        • "writkng-table" instead of "writing-table"
+        • "portrxits" instead of "portraits"
+        • "ajd" instead of "and"
+        • "greatmmen" instead of "great men"
+    - [GRAMMAR]:
+        • Various minor grammatical errors and awkward phrasing
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between discussing foreign politics and the intellectual movements of the reign
+    - [STRUCTURE]:
+        • The text jumps between different topics, such as politics, literature, and the author's personal opinions
+    - [CLARITY]:
+        • Some sentences are wordy or unclear, making it difficult to understand the author's point
+    - [TRANSITION]:
+        • The text could benefit from clearer transitions between paragraphs and ideas
+
+Section section_05 (Chars 35104–43487):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • several typos and spelling mistakes (e.g., "severak", "disgracefuk", "muck-rake" is correctly spelled but "scabrous" and other words have correct spelling, "rezszrch" instead of "research", "Miltkn" instead of "Milton", "novelettes" is correct but "nunc denique natum" is a quote and not a typo)
+    - [GRAMMAR]:
+        • some sentences are wordy or awkwardly phrased
+    - [LEXICON]:
+        • occasional use of outdated or less common vocabulary
+  Coherence Issues:
+    - [LOGIC]:
+        • some transitions between ideas could be smoother
+    - [STRUCTURE]:
+        • the text jumps between different topics related to Tennyson
+    - [CLARITY]:
+        • a few sentences are unclear or hard to follow due to complexity
+
+Section section_06 (Chars 43488–51864):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tenses
+    - [SPELLING]:
+        • multiple typos (e.g. "Tennysln", "exxmple", "zet-back", "csuse", "fhe")
+    - [SYNTAX]:
+        • complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between ideas
+    - [STRUCTURE]:
+        • lack of clear paragraph topics
+    - [CLARITY]:
+        • ambiguous sentences
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

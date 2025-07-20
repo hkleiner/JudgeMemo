@@ -1,0 +1,142 @@
+You will be given a human-written text. Your task is to rate the text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) For each metric, detect problems in the text that lead to a point deduction.
+    b) For each metric, summarize the detected problems.
+2. For each metric, give **the most serious problems** in the text that justify point deductions. Use bullet points only.
+3. Label each issue with a category that describes the issue best, e.g.
+- for *fluency*: [GRAMMAR], [SPELLING], [SYNTAX], [LEXICON], or
+- for *coherence*: [LOGIC], [STRUCTURE], [CLARITY], [TRANSITION].
+These are examples - you may create your own label if it better fits the issue. Each label should reflect the type of problem that best describes the issue.
+4. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+5. It is forbidden to generate any other opening, closing, and explanations.
+6. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The text to evaluate is given below:
+Text: -SUNDAY UNDER THREE HEADS-
+
+
+CHAPTER: I - AS IT IS
+
+
+THERE are few things from which I derive greater pleasure, than walking
+through some of the principal streets of London on a fine Sunday, in
+summer, and watching the cheerful faces of the lively groups with which
+they are thronged.  There is something, to my eyes at least, exceedingly
+pleasing in the general desire evinced by the humbler classes of society,
+to appear neat and clean on this their only holiday.  There are many
+grave old persons, I know, who shake their heads with an air of profound
+wisdom, and tell you that poor people dress too well now-a-days; that
+when they were children, folks knew their stations in life better; that
+you may depend upon it, no good will come of this sort of thing in the
+end,—and so forth: but I fancy I can discern in the fine bonnet of the
+working-man’s wife, or the feather-bedizened hat of his child, no
+inconsiderable evidence of good feeling on the part of the man himself,
+and an affectionate desire to expend the few shillings he can spare from
+his week’s wages, in improving the appearance and adding to the happiness
+of those who are nearest and dearest to him.  This may be a very heinous
+and unbecoming degree of vanity, perhaps, and the money might possibly be
+applied to better uses; it must not be forgotten, however, that it might
+very easily be devoted to worse: and if two or three faces can be
+rendered happy and contented, by a trifling improvement of outward
+appearance, I cannot help thinking that the object is very cheaply
+purchased, even at the expense of a smart gown, or a gaudy riband.  There
+is a great deal of very unnecessary cant about the over-dressing of the
+common people.  There is not a manufacturer or tradesman in existence,
+who would not employ a man who takes a reasonable degree of pride in the
+appearance of himself and those about him, in preference to a sullen,
+slovenly fellow, who works doggedly on, regardless of his own clothing
+and that of his wife and children, and seeming to take pleasure or pride
+in nothing.
+
+The pampered aristocrat, whose life is one continued round of licentious
+pleasures and sensual gratifications; or the gloomy enthusiast, who
+detests the cheerful amusements he can never enjoy, and envies the
+healthy feelings he can never know, and who would put down the one and
+suppress the other, until he made the minds of his fellow-beings as
+besotted and distorted as his own;—neither of these men can by
+possibility form an adequate notion of what Sunday really is to those
+whose lives are spent in sedentary or laborious occupations, and who are
+accustomed to look forward to it through their whole existence, as their
+only day of rest from toil, and innocent enjoyment.
+
+Such a vision unfolds in the writings of Bahá’u’lláh, the nineteenth
+century prophetic figure whose growing influence is the most remarkable
+development of contemporary religious history. Born in Persia, November
+12, 1817, Bahá’u’lláh began at age 27 an undertaking that has gradually
+captured the imagination and loyalty of several million people from
+virtually every race, culture, class, and nation on earth. The phenomenon
+is one that has no reference points in the contemporary world, but is
+associated rather with climactic changes of direction in the collective
+past of the human race. For Bahá’u’lláh claimed to be no less than the
+Messenger of God to the age of human maturity, the Bearer of a Divine
+Revelation that fulfills the promises made in earlier religions, and that
+will generate the spiritual nerves and sinews for the unification of the
+peoples of the world.
+
+They reach their places of destination, and the taverns are crowded; but
+there is no drunkenness or brawling, for the class of men who commit the
+enormity of making Sunday excursions, take their families with them: and
+this in itself would be a check upon them, even if they were inclined to
+dissipation, which they really are not.  Boisterous their mirth may be,
+for they have all the excitement of feeling that fresh air and green
+fields can impart to the dwellers in crowded cities, but it is innocent
+and harmless.  The glass is circulated, and the joke goes round; but the
+one is free from excess, and the other from offence; and nothing but good
+humour and hilarity prevail.
+
+Let us spend five minutes in picturing to ourselves the English nation in
+a condition of stable equilibrium, as it was in the eighteenth century.
+
+It was in his nineteenth year that, in this same Paris, in the house
+of one of its rich families, was born a little girl-child who was to
+come into Boucher's life in after years. The father, a financial
+fellow, one Poisson, was a man of shady repute; indeed he was under
+banishment for mis-handling the public moneys at the time of the
+birth of the little girl-child, christened Jeanne Antoinette
+Poisson--destined to be the Jane of the scurrilous street songs of the
+years to come. But the careless student knew little of it as yet, nor
+that destiny had put into the pretty child's cradle the sceptre and
+diadem of France as plaything.
+
+Down to the year of the Italian journey the young painter's life had
+been quite uneventful. Born in 1723 at Plympton in Devonshire, where his
+father was a school-master, he was apprenticed in London to Thomas
+Hudson, a portrait painter of the day and a Devon man too. Hudson gave
+his pupil Guercino's drawings to copy. Before the time of apprenticeship
+had expired Reynolds had quarrelled with his master and gone back to
+Devonshire, where he painted work that was of no great importance, under
+the patronage of the first Lord Edgcumbe. At his house Reynolds met the
+Commodore Keppel, whose kindness enabled him to see Italy, and it was
+the sojourn in that real home of art that brought Reynolds back to
+England a portrait painter of the first class.
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) Fluency Issues: - [LABEL] [ISSUE] (only name short bullet points)
+2) Coherence Issues: - [LABEL] [ISSUE] (only name short bullet points)
+3) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+4) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

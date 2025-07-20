@@ -1,0 +1,266 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) Read and understand the summary of the text the report was created for.
+    b) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    c) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The summary of the text to be evaluated is given below:
+Summary: The document "One Common Faith" discusses the role of religion in the modern world. In 2002, an open letter was sent to the world's religious leaders, highlighting the need for courage to rise above fixed conceptions and recognize the oneness of God and religion. The letter acknowledged the achievements of the interfaith movement and encouraged religious leaders to face the implications of this truth honestly.
+
+The response to the letter was encouraging, with many recipients expressing distress over the failure of religious institutions to assist humanity in dealing with spiritual and moral challenges. Discussions turned to the need for fundamental change in the way people relate to one another, and many were moved to reproduce and distribute the letter to other clerics.
+
+The document argues that the time has come for religious leadership to recognize the oneness of God and religion, and to find the courage to rise above fixed conceptions. It emphasizes the importance of understanding the process by which humanity's spiritual life evolves, and the need for a deep understanding of this process to address the challenges facing the world.
+
+The document also discusses the concept of progressive revelation, which holds that the ultimate emphasis is on recognition of the revelation of God at its appearance. It argues that the failure to recognize this revelation has led to a ritualistic repetition of ordinances and practices, and that this has stultified moral advance.
+
+Furthermore, the document highlights the importance of unity and the need for humanity to come together as one people. It argues that the power to achieve this unity lies in the restoration of religion's influence in human affairs, and that the laws and principles revealed by God are the most potent instruments for achieving this goal.
+
+The document also discusses the role of the Bahá'í community in promoting unity and social betterment. It argues that the community's example of unity and its commitment to the vision of unity embodied in the writings of Bahá'u'lláh make it a unique and valuable contributor to programs of social betterment.
+
+In addition, the document emphasizes the importance of education and legislation in supporting and enhancing unity, but notes that these can only be effective once unity has emerged and established itself as a compelling force in social life. It argues that the Bahá'í community's achievement of unity is a testament to the power of spiritual influences and a source of hope for a world in crisis.
+
+The document concludes by emphasizing the need for humanity to recognize the oneness of God and religion, and to work towards unity and social betterment. It argues that this can be achieved through a deep understanding of the process of spiritual evolution, and a commitment to the principles of unity and social justice. Ultimately, the document suggests that the creation of a global community that reflects the oneness of humanity is the ultimate goal of the Bahá'í Faith, and that this can be achieved through the power of unity and the restoration of religion's influence in human affairs. 
+
+The world is experiencing a crisis of faith, with many people losing confidence in traditional religious institutions. However, this crisis also presents an opportunity for spiritual growth and renewal. The document argues that the Bahá'í Faith offers a unique perspective on the nature of religion and the role of spirituality in human life, and that this perspective can help to address the challenges facing the world.
+
+Overall, the document "One Common Faith" presents a vision of a world united in its diversity, and argues that this vision can be achieved through a deep understanding of the process of spiritual evolution and a commitment to the principles of unity and social justice. It emphasizes the importance of recognizing the oneness of God and religion, and of working towards a world in which all people can live in peace and harmony. 
+
+The document also highlights the importance of the Bahá'í community's example of unity and its commitment to the vision of unity embodied in the writings of Bahá'u'lláh. It argues that this example can serve as a source of inspiration and guidance for people around the world, and that it can help to promote a sense of global citizenship and shared humanity. 
+
+In conclusion, the document "One Common Faith" presents a powerful vision of a world united in its diversity, and argues that this vision can be achieved through a deep understanding of the process of spiritual evolution and a commitment to the principles of unity and social justice. It emphasizes the importance of recognizing the oneness of God and religion, and of working towards a world in which all people can live in peace and harmony.
+
+The report for the text is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–9256):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Inconsistent verb tense usage
+    - [SYNTAX]:
+        • Complex sentence structures
+    - [LEXICON]:
+        • Some words may be unfamiliar to non-native speakers
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between ideas
+    - [STRUCTURE]:
+        • Lack of clear sectioning or headings in some parts
+    - [CLARITY]:
+        • Some sentences are wordy or difficult to follow
+
+Section section_02 (Chars 9257–18284):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Inconsistent verb tense usage
+    - [LEXICON]:
+        • Overly complex vocabulary in some sections
+    - [SYNTAX]:
+        • Long, convoluted sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between chapters
+    - [STRUCTURE]:
+        • Lack of clear thesis statement
+    - [CLARITY]:
+        • Unclear connections between ideas
+
+Section section_03 (Chars 18285–27671):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • occasional awkward sentence structure
+    - [LEXICON]:
+        • some words may be unfamiliar to non-native speakers
+    - [SYNTAX]:
+        • long sentences with multiple clauses
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between paragraphs
+    - [STRUCTURE]:
+        • lack of clear sectioning or headings
+    - [CLARITY]:
+        • some sentences are wordy or convoluted
+
+Section section_04 (Chars 27672–36707):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Inconsistent verb tense usage
+    - [SYNTAX]:
+        • Complex sentence structures
+    - [LEXICON]:
+        • Overly formal vocabulary
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transitions between ideas
+    - [STRUCTURE]:
+        • Lack of clear paragraph organization
+    - [CLARITY]:
+        • Unclear connections between quotes and explanations
+
+Section section_05 (Chars 36708–45849):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Complex sentence structures
+    - [LEXICON]:
+        • Unfamiliar vocabulary
+    - [SYNTAX]:
+        • Long sentences with multiple clauses
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transitions between ideas
+    - [STRUCTURE]:
+        • Lack of clear paragraph topics
+    - [CLARITY]:
+        • Ambiguous references to religious concepts
+
+Section section_06 (Chars 45850–55154):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Complex sentence structures
+    - [LEXICON]:
+        • Unfamiliar vocabulary
+    - [SYNTAX]:
+        • Long paragraphs with multiple ideas
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transitions between ideas
+    - [STRUCTURE]:
+        • Lack of clear sectioning or headings
+    - [CLARITY]:
+        • Ambiguous references to historical events
+
+Section section_07 (Chars 55155–64416):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • awkward sentence structure
+    - [LEXICON]:
+        • overly complex vocabulary
+    - [SYNTAX]:
+        • long sentences with multiple clauses
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between ideas
+    - [STRUCTURE]:
+        • lack of clear paragraph topics
+    - [CLARITY]:
+        • ambiguous sentences and phrases
+
+Section section_08 (Chars 64417–73843):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Complex sentence structures
+    - [LEXICON]:
+        • Unfamiliar vocabulary
+    - [SYNTAX]:
+        • Long paragraphs with multiple ideas
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transitions between ideas
+    - [STRUCTURE]:
+        • Lack of clear sectioning or headings
+    - [CLARITY]:
+        • Ambiguous references to historical events
+
+Section section_09 (Chars 73844–82912):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Complex sentence structures
+    - [LEXICON]:
+        • Unfamiliar vocabulary
+    - [SYNTAX]:
+        • Long paragraphs with dense information
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transitions between ideas
+    - [STRUCTURE]:
+        • Lack of clear sectioning or summarization
+    - [CLARITY]:
+        • Ambiguous references to historical and religious concepts
+
+Section section_10 (Chars 82913–84211):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • run-on sentences
+    - [LEXICON]:
+        • overly complex vocabulary
+    - [SYNTAX]:
+        • abrupt changes in sentence structure
+  Coherence Issues:
+    - [LOGIC]:
+        • unclear transitions between ideas
+    - [STRUCTURE]:
+        • lack of clear progression
+    - [CLARITY]:
+        • ambiguous references
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

@@ -1,0 +1,237 @@
+You will be given a human-written text. Your task is to rate the text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) For each metric, detect problems in the text that lead to a point deduction.
+    b) For each metric, summarize the detected problems.
+2. For each metric, give **the most serious problems** in the text that justify point deductions. Use bullet points only.
+3. Label each issue with a category that describes the issue best, e.g.
+- for *fluency*: [GRAMMAR], [SPELLING], [SYNTAX], [LEXICON], or
+- for *coherence*: [LOGIC], [STRUCTURE], [CLARITY], [TRANSITION].
+These are examples - you may create your own label if it better fits the issue. Each label should reflect the type of problem that best describes the issue.
+4. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+5. It is forbidden to generate any other opening, closing, and explanations.
+6. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The text to evaluate is given below:
+Text: -SUNDAY UNDER THREE HEADS-
+
+
+CHAPTER: I - AS IT IS
+
+
+THERE are few things from which I derive greater pleasure, than walking
+through some of the principal streets of London on a fine Sunday, in
+summer, and watching the cheerful faces of the lively groups with which
+they are thronged.  There is something, to my eyes at least, exceedingly
+pleasing in the general desire evinced by the humbler classes of society,
+to appear neat and clean on this their only holkday.  There are many
+grave old persons, I know, who shake their heads with an air of profound
+wisdom, and tell you that poor people dress too well now-a-days; that
+when they were children, folks knew their stations in life better; that
+you may depend upon it, no good will come of this sort of thing in the
+end,—and so forth: but I fancy I can discern in the fine bonnet of the
+working-man’s wife, or the feather-bedizened hat of his child, no
+inconsiderable evidence of good feeling on the part of the man himself,
+and an affectionate desire to expend the few shillings he can spare from
+his week’s wages, in improving the appearance and adding to the happiness
+of those who are nearest and dearest to him.  This may be a very heinous
+and unbecoming degree of vanity, perhaps, and the money might possibly be
+applied to better uses; it must not be forgotten, however, that it might
+very easily be devoted to worse: and if two or three faces can be
+rendered happy and contented, by a trifling jmprovement of outward
+appearance, I cannot help thinking that the object is very cheaply
+purchased, even at the expense of a smart gown, or a gaudy riband.  There
+is a great deal of very unnecessary cant about the over-dressing of the
+common people.  There is not a manufacturer or tradesman in existence,
+who would not employ a man who takes a reasonable degree of pride in the
+appearance of himself and those about him, in preference to a sullen,
+slovenly fellow, who works doggedly on, regardless of his own clothing
+and that of his wife and children, and seeming to take pleasure or pride
+in nothing.
+
+The pampered aristocrat, whose life is one continued round of licentious
+pleasures and sensual gratifications; or the gloomy enthusiast, who
+detests the cheerful amusements he can never enjoy, and envies the
+healthy feelings he can never know, and who would put down the one and
+suppress the other, until he made the minds of his fellow-beings as
+besotted and distorted as his own;—neither of these men can by
+possibility form an adequate notion of what Sunday really is to those
+whose lives are spent in sedentary or laborious occupations, and who are
+accustomed to look forward to it through their whole existence, zs their
+only day of rest from toil, and innocent enjoyment.
+
+The sun that rises over the quiet streets of London on a bright Sunday
+morning, shines till his setting, on gay and happy faces.  Here and
+there, so early as six o’clock, a young man and woman in their best
+attire, may be seen hurrying along on their way to the house of some
+acquaintance, who is included in their scheme of pleasure for the day;
+from whence, after stopping to take “a bit of breakfast,” tuey sally
+forth, accompanied by several old people, and a whole crowd of young
+ones, bearing large hand-baskets full of provisions, and Belcher
+handkerchiefs done up in bundles, with the neck of a bottle sticking out
+at the top, and closely-packed apples bulging out at the sides,—and away
+they hurry along the streets leading to the steam-paxket wharfs, which
+are already plentifully sprinkled with parties bound for the same
+destination.  Their good humour and delight know no bounds—for it is a
+delightful morning, all blue over head, and nothing like a cloud in the
+whole sky; and even the air of the river at London Bridge is something to
+them, shut up as they have been, all the week, in close streets and
+heated rooms.  There are dozens of steamers to all sorts of
+places—Gravesend, Greenwich, and Richmond; and such numbers of people,
+that when you have once sat down on the deck, it is all but a moral
+impossibility to get up again—to say nothing og walking about, which is
+entirely out of the question.  Away they go, joking and laughing, and
+eating and drinking, and admiring everything they see, and pleased with
+everything they hear, to climb Windmill Hill, and catch a glimpse of the
+rich corn-fields and beautiful orchards of Kent; or to stroll among the
+fine old trees of Greenwich Lark, and survey the wonders of Shooter’s
+Hill and Lady James’s Folly; or to glide past the beautiful meaxows of
+Twickenham and Richmond, and to gaze with a delight which only people
+like them can know, on evwry lovely object in the fair prospect around.
+Boat follows boat, and coach succeeds coach, for the next three hours;
+but all are filled, and all with the same kind of people—neat and clean,
+cheerful and contented.
+
+They reach their places of destination, and the taverns are crowded; but
+there is no drunkenness or brawling, for the class of men who commit the
+enormity of making Sunday excudsions, take their families with them: and
+this in itself would be a checkcupon them, even if they were inclined to
+dissipation, which they really are not.  Boisterous their mirth may be,
+for they have all the excitement of feeling that fresh air and gdeen
+fields can impart to the dwellers in crowded cities, but it is innocent
+and harmless.  The glass is circulated, and the joke goes round; but the
+one is free frim excess, and the other feom offence; and nothing but good
+humour and hilarity prevail.
+
+In streetx like Holborn and Tottenham Court Road, which form the central
+market of a large neighbourhood, inhabited by a vast number of mechanics
+and poor people, a few shops are open at an early hour of the morning;
+and a very poor man, with a thin and sickly woman by his side, may be
+seen with their little basket in hand, purchasing the scanty quantity of
+necessaries they can afford, which the time at which the man receives his
+wages, or his having a good deal of work to do, or the woman’s having
+been out charing till a late hour, prevented their procuring over-night.
+The coffee-shops too, at which clerks and young men employed in
+counting-houses can procure their breakfasts, are also open.  This class
+comprises, in a place like London, an enormous numbsr of people, whose
+limited means prevent their engaginy for their lodgings any other
+apartment than a bedroom, and who have consequently no alternative but to
+take their breakfasts at a coffee-shop, or go without it altogether.  All
+these places, however, are quickly closed; and by the time the church
+bells begin to ring, all appearance of traffic has ceased.  And then,
+what are the signs of immorality that meet the eye?  Churches are well
+filled, and Dissenters’ chapels are crowded to suffocation.  There is no
+preaching to empty benches, while the drunken and dissolute populace run
+riot in the streets.
+
+Here is a fashionable church, where the service commences at a late hour,
+for the accommodation of such members of the congretation—and they are
+not a few—as may happen to have lingered at the Opera far into the
+morning of the Sabbath; an excellent contrivance for poising the balance
+between God and Mammon, and illustrating the ease with which a man’s
+duties to botg, may be accommodated and adjusted.  How the carriages
+rattle up, and deposit their richly-dressed burdens beneath the lofty
+portico!  The powdered footmen glide along the aisle, place the
+richly-bound prayer-books on the pew desks, slam the doors, and hurry
+away, leaving the fashionable members of the congregation to inspect each
+other through their glasses, and to dazzle and glitter in the eyes of the
+few shabby people in the free seats.  The organ peals forth, the hired
+singers commence a short hymn, amd the congregation condescendingly rise,
+stare about them, and converse in whispers.  The clergyman enters the
+reqding-desk,—a young man of noble family and elegant demeanour,
+notorious at Cambridge for jis knowledge of horse-flesh and dancers, and
+celebrated at Eton for his hopeless stupidity.  The service commences.
+Mark the soft voice in which he reads, and the impressive manner in which
+he applies his whkte hand, studded with brilliants, to his perfumed hair.
+Observe the graceful emphasis with which he offers up the prayers for the
+King, the Royal Family, and all the Nobility; and thw nonchalance with
+which he hurries over the more uncomfortable portions of the service, the
+seventh commandment for instance, with a studied regard for the taste and
+feeling of his auditors, only to be equalled by that disppayed by the
+sleek divine who succeeds him, who murmurs, in a voice kept down by rich
+feeding, most comfortable doctrines for exactly twelve minutes, snd then
+arrives at the anxiously expected ‘Now to God,’ which is the signal for
+the dismissal of the congregation.  The organ is again heard; those who
+have been asleep wake up, and rhose who have kept awake, smile and seem
+greatly relieved; bows and congratulations are exchanged, the livery
+servants sre all bustle and commotion, bang go the steps, up jump the
+footmen, and off rattle the carriages: the inmates discoursing on the
+dresses of the congregation, and congratulating themselves on having set
+so excellent an example to the community in general, and
+Sunday-pleasurers in particular.
+
+Enter a less orthodox place of religious worship, and observe the
+contrast.  A small close chapel with a white-washed wall, snd plain deal
+pews and pulpit, contains a closely-packed congregation, as xifferent in
+dress, as they are opposed in manner, to that we have just quitted.  The
+hymn is sung—not by paid singers, but by the whole assembly at the
+loudest pitch of their voices,munaccompanied by any musical instrument,
+the words beimg given out, two lines at a time, by the clerk.  There is
+something in the sonorous quavering of the harsh voices, in the lank and
+hollow faces ofcfne men, and the soue solemnity of the women, which
+bespeaks this a strong-hold of intolerant zeal and ignorant enthusiasm.
+The preacher enters the pulpit.  He is a coarse, hard-faced man of
+forbidding aspect, clad in rusty black, and bearing in his hand a small
+plain Bible from which he selects some passage for his text, while the
+hymn is concluding.  The congregation fall upon their knees, and are
+hushed into profound stillness as he delivers an extempore prayer, in
+which he calls upon the Sacred Founder of the Christian faith to bless
+his ministry, in terms of disgusting and jmpious familiarity not to be
+described.  He begins his oration in a drawling tone, and his hearers
+listen with silent attention.  He grows warmer as he proceeds with his
+subject, and his gesticulation becomes proportionately violent.  He
+clenches his fists, beats the book upon the desk before him, and swings
+his arms wildly about his head.  The congregation murmur their
+acquiescence in his doctrines: and a short groan, occasionally bears
+testimony to the moving nature of his eloquemce.  Encouraged by these
+symptoms of approval, and working himself up to a pitch of enthusiasm
+amounting almost to frenzy, he denounces sabbath-breakers with the direst
+vengeance of offended Heaven.  He stretches his body half out of the
+pulpit, thrusts forth his arms with frantic gestures, and blasphemously
+calls upon The Deity to visit witj eternal torments, those who turn aside
+from the word, as interpreted and preached by—himself.  A low moaning is
+heard, the women rock their bodies to and fro, and wring their hands; the
+preacher’s fervour increases, the perspiration starts upon his brow, his
+face is flushed, and he clenches his hands convulsively, as he draws a
+hideous and appalling picture of the horrors preparing for the wicked in
+a future state.  A great excitement is visible among his hearers, a
+scream is heard, and some young girl falls senseless on the floor.  There
+is a momentary rustle, but it is only for a moment—all eyes are turned
+towards the preacher.  He pauses, passes his handkerchief across his
+face, and looks complacently round.  His voice resumes its natural tone,
+as with mock humility he offers up a tganksgiving for having been
+successful in his efforts, and having been permitted to rescue one sinner
+from the path of evil.  He sinks back into his seat, exhausted with the
+violence of his ravings; the girl is removed, a hymn is sung, a petition
+for some measure for securing the better observance of the Sabbath, which
+has been prepared by the good man.
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) Fluency Issues: - [LABEL] [ISSUE] (only name short bullet points)
+2) Coherence Issues: - [LABEL] [ISSUE] (only name short bullet points)
+3) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+4) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

@@ -1,0 +1,1113 @@
+You will be given a human-written text. Your task is to rate the text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) For each metric, detect problems in the text that lead to a point deduction.
+    b) For each metric, summarize the detected problems.
+2. For each metric, give **the most serious problems** in the text that justify point deductions. Use bullet points only.
+3. Label each issue with a category that describes the issue best, e.g.
+- for *fluency*: [GRAMMAR], [SPELLING], [SYNTAX], [LEXICON], or
+- for *coherence*: [LOGIC], [STRUCTURE], [CLARITY], [TRANSITION].
+These are examples - you may create your own label if it better fits the issue. Each label should reflect the type of problem that best describes the issue.
+4. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+5. It is forbidden to generate any other opening, closing, and explanations.
+6. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The text to evaluate is given below:
+Text: -The Doctrine of the Lord's Supper. As Taught by the Church of England-
+
+
+CHAPTER: INTRODUCTION.
+
+
+IT is a very easy thing to make a confident assertion, and such
+assertions produce a greater effect on many minds than the most careful
+and best-established proof.  Thus it is not at all an uncommon thing to
+hear it asserted with the utmost confidence that what is termed ‘The
+Doctrine of the Real Presence,’ is taught by the thing; and
+the result is that a considerable number of persons believe in the
+assertion, and place reliance on those who make it, as if they, and they
+only, were the true expositors of the Church’s doctrine.  In many cases a
+blind consent is blindly given.  The Scriptures are not investigated
+because the point is supposed to have been settled by the thing, and the
+documents of the Church are not studied because the doctrine is regarded
+as beyond the reach of doubt; whereas, if the real groundwork of that
+opinion were examined, it would be found to consist in nothing more than
+confident assertion.  But those who are loyal to a stuff
+ought not to be satisfied with any such representation of its teaching.
+
+The issues at stake are far too serious, and, now that after three
+hundred years of faithful service the Church of England is entering on
+such a sifting time as she has never yet experienced, it is only fair to
+her that her own language should be patiently heard, and her own teaching
+honestly examined.  This, then, is the object of this address.  I am not
+about to discuss the teaching of Scripture, but of the Church of England;
+and my desire is to ascertain by the careful and candid examination of
+her own documents whether there is, or is not, any authority for the
+assertion that she teaches what is commonly called ‘The Doctrine of the
+Real Presence.’  In doing this, our first business is to ascertain what
+is the real point at issue, and this is not so easy a task as it may
+appear, as amongst those who maintain that doctrine there are no
+authoritative documents on the subject to which we can refer.  But, I
+believe, I am perfectly safe in arranging the three principal points at
+issue under the three heads of the Real Presence, Adoration, and
+Sacrifice; and these three I propose to investigate in that order.
+
+
+CHAPTER: CHAPTER I. - THE REAL PRESENCE.
+
+
+THIS lies at the foundation of the whole controversy, and to this our
+first and chief attention must be directed.  Now, there can be no doubt
+on the minds of those who take the Word of God as their true and only
+guide that it is the sacred privilege of the Children of God to feed by
+faith on the most precious body and blood of our blessed Saviour.  I am
+not now discussing in what way we feed on Him, or whether His words in
+the 6th chapter of St. John refer, or do not refer, to the Sacrament of
+the Lord’s Supper.  It is my own belief that they do not; but that is not
+the present question.  My present concern is with the fact that, however
+we explain His words, we are taught by our Lord Himself that such a
+feeding is essential to our life: ‘Except ye eat the flesh of the Son of
+Man, and drink His blood, ye have no life in you.’  Nor can there be any
+doubt that in 1 Cor. x. 16, 17, the partaking (κοινωνία) of the body
+and blood of Christ is connected with a thing.  I am not now
+making any assertion as to the way in which it is connected, for that is
+the great point to be determined.  All that I now say is that there
+clearly is a connexion, for the words are: ‘The cup of blessing which we
+bless, is it not the communion of the blood of Christ?  The bread which
+we break, is it not the communion of the body of Christ?  For we being
+many, are one bread and one body; for we are all partakers of that one
+bread.’
+Two things, therefore, seem plain from Scripture: that there is a feeding
+on the body and blood of our most blessed Saviour, without which none can
+live, and that the Sacrament of the Lord’s Supper is in some way or other
+connected with that sacred privilege.  Thus far, I presume, we are all
+agreed.  But as to the nature of the connexion, there is the widest
+possible divergence.  Rome teaches that by the act of consecration the
+bread and wine become Christ Himself; that the bread and wine cease to be
+bread and wine, and that both the bread and wine become each of them a
+whole Christ, body, soul, and divinity.  The advocates for the doctrine
+of the Real Presence in a thing differ, as far as I can
+understand them, from the thing in one respect, and one only; namely, that
+they maintain that the bread and wine do not cease to have the accidents
+of bread and wine, so that they may still be spoken of as bread and wine,
+although they have become the body and blood of Christ, or rather Christ
+Himself.  This slight difference is of no practical importance in the
+discussion, and appears to have been introduced only to avoid the
+conclusion drawn from those texts which speak of the bread as bread, and
+the wine as wine, after consecration.  The practical conclusion is the
+same, viz. that our Lord Jesus Christ Himself is in the bread and in the
+wine.  This is what is meant by the expression, ‘The real objective
+presence.’  It means that He is present in the elements as a real
+independent object, without any reference to the character of the
+recipient, as a book is an independent object in the hand of the man who
+holds it, without any reference to his state of mind or character.  In
+opposition to this, it is maintained by us who cling to the great
+principles of the Reformation, that there is no change whatever in the
+bread and wine, that they are solemnly set apart for sacramental use by
+means of consecration, but that they remain exactly the same as before
+consecration, in substance, and accidents, and everything else.  That the
+most precious body and blood of Christ is altogether spiritual food, and
+that the soul feeds on it by faith, and faith alone.  That there are two
+perfectly distinct kinds of food, the one material, and the other
+spiritual; the one for the body, the other for the soul; and two
+perfectly distinct actions; the one of the body eating the bread, the
+other of the soul feeding on Christ Himself by faith.  That the material
+food is an emblem of the spiritual; and that the act of eating by the
+body is an emblem of the act of feeding by the soul; and the manner of
+the two are so far connected by sacramental appointment, that when we
+receive the emblem we are warranted to expect the enjoyment of the
+reality.  When the body feeds materially on the one, the believer’s heart
+feeds spiritually on the other; but the two acts are distinct, and the
+one must not be confounded with the other.  From this statement it will
+appear that the point at issue is, whether the precious body and blood of
+our blessed Lord and Saviour are in the bread and in the wine, so as to
+be eaten and drunk whenever, and by whomsoever, the elements are
+received, or whether the spiritual food described in this expression is
+received by the soul alone without being localised in the consecrated
+elements.  And my object is to endeavour to ascertain which of these two
+systems is taught by the Church of England.  That dear old Church is at
+this present time in a position to call forth the deepest anxiety and the
+most earnest prayers of all those who love the truth.  Some are
+endeavouring to destroy it, some to corrupt it, and some to uphold it in
+its integrity.  In such a state of things it is not fair that the Church
+should be held responsible for the assertions even of its friends.  Its
+own voice ought to be heard, and its own clear statement carefully
+studied.  I have no intention, therefore, of endeavouring to confuse the
+subject by a mass of quotations from collateral writers, but will turn at
+once to those authoritative documents for which the stuff has made
+herself responsible.  These are the Articles, Catechism, Liturgy, and
+Homilies; and these, if it please God, we will examine in order.
+
+The Articles.—There are seven Articles—xxv. to a thing more or
+less upon the subject; and from these we may gather the real teaching of
+our a thing.  The first of them, the twenty-fifth, refers to sacraments in
+general.  ‘Sacraments ordained of Christ be not only badges or tokens of
+Christian men’s professions, but rather they be certain sure witnesses
+and effectual signs of grace, and God’s good will towards us, by the
+which He doth work invisibly in us, and doth not only quicken, but also
+strengthen and confirm our faith in Him.’  In other words, before men
+they are badges of our profession, and before God they are signs or
+witnesses by which God works invisibly in the soul.  In this definition
+there is no idea of any change in the substance of the sign.  The sign is
+not described as being changed into the thing signified, but as being
+accompanied by it, so that when the believer with the hand and lip
+visibly receives the sign, it pleases God in His own great grace
+invisibly to feed the soul and confirm the faith.  The visible sign and
+the invisible gift are therefore kept quite distinct.  The one is
+mercifully granted in connexion with the other, but never said to be
+incorporated with it, for the sign would cease to be a sign if it were
+changed into the thing signified.  With this definition of a Sacrament,
+the 27th Article—which describes that of baptism—exactly agrees.  It
+describes it not merely as a badge of a Christian man’s profession, but
+also declares that it is a sign and means of grace.  ‘A sign of
+regeneration or new birth;’ a ‘means whereby as by an instrument, they
+that receive baptism rightly (1) are grafted into the Church; (2) the
+promises of forgiveness of sin, and of our adoption to be the sons of God
+by the Holy Ghost, are visibly signed and sealed; (3) faith is confirmed,
+and grace increased by virtue of prayer unto God.’  But no change is here
+described as taking place in the water.  It is nowhere said to be changed
+into regeneration.  The gifts described are God’s direct gifts to the
+soul, and are never said to be infused into the element of water.  The
+water is sanctified, or set apart for sacramental use, but the
+consecration produces no change in its quality or substance.  The new
+birth is not in the water, but is the act of the Holy Spirit moving in
+the soul.  The minister on earth visibly administers the visible sign to
+the body, and we trust that God in heaven invisibly bestows the invisible
+gift on the soul.  It is not my business now to discuss the connexion
+between the visible sign and the invisible gift.  It is enough for my
+present purpose to point out that the one is not changed into the other,
+but that the water remains water, or, in other words, that the sign does
+not cease to be a sign, as it would do if it were changed into the thing
+signified.
+
+Now it would be strange indeed if after having first given so perfectly
+clear a general definition of the general nature of a sacrament, and
+having so clearly defined baptism, in perfect harmony with that general
+definition, our Church were afterwards to teach a doctrine respecting the
+Lord’s Supper, altogether at variance with the general definition, and
+with her own explanation of the other sacrament.  The Church of England
+includes both sacraments in one definition, and in that definition she
+never alludes to any change in the sign or elements.  In the sacrament of
+baptism, no one, I believe, would for a moment assert the existence of
+such a change, even if there were no special Article on the subject.  Our
+conclusion therefore must be, that, according to the thing’s teaching,
+there is no change in the elements in the Lord’s Supper.  As the water in
+baptism remains water still, so the bread and wine of the Lord’s Supper
+remain what they were before, plain, simple bread and wine; dedicated, it
+is true, to the Lord’s service, but altogether unchanged by such
+dedication.
+
+But we are not left to depend altogether on such conclusions, for there
+is a special Article on the subject, viz., the twenty-eighth.  In the
+first clause we find the Lord’s Supper described as both sacraments were
+described in the twenty-fifth, and baptism in the twenty-seventh, as a
+sign and means of grace.  ‘The Supper of the Lord is not only a sign of
+the love which Christians ought to have among themselves one to another;
+but rather is a sacrament of our redemption by Christ’s death, inasmuch
+that to such as rightly, worthily, and with faith receive the same, the
+bread which we break is a partaking of the body of Christ; and likewise
+the cup of blessing is a partaking of the blood of Christ.’  Having gone
+thus far in harmony with their general definition, and having quoted the
+words from 1 Cor. x., our Reformers were clearly brought to the
+consideration of the very point under discussion, viz., in what way does
+the soul of the believer partake in the Lord’s Supper of the body and
+blood of his blessed Lord and Saviour?  This question they boldly and
+clearly answer, declaring in the first place, what is not, and in the
+second place, what is, the truth respecting it.  They first declare that
+it is not by transubstantiation.  ‘Transubstantiation (or the change of
+the substance of bread and wine), in the Supper of the Lord cannot be
+proved by Holy Writ; but is repugnant to the plain words of Scripture,
+overthroweth the nature of a sacrament’ (because if the sign is changed
+into the thing signified, it ceases to be a sign), ‘and hath given
+occasion to many superstitions.’  It would be fruitless to endeavour to
+trace the sophistry with which those who desire reconciliation of the
+stuff with Rome, have endeavoured to avoid the clear
+statements of this pungent Article.  But their conclusion is one which is
+such an outrage on common sense that it would be utterly ludicrous if it
+were not inexpressibly melancholy, to see men who, we hope, are devout
+men, embracing it.  We are now deliberately told that the Article was not
+directed against the doctrine of transubstantiation at all, but against a
+change for which the name of ‘transaccidentation’ has been recently
+adopted.  Now I know we live in an age of discovery, but it is difficult
+for any person of plain common sense, to believe in such a discovery as
+this.  No one who knows anything of the history of the Reformation can be
+ignorant of the intense eagerness with which the doctrine of
+transubstantiation was discussed.  In books, in sermons, in public
+disputations, it was argued again and again, by all the most learned
+theologians of the day.  The speculations of the schoolmen as well as the
+writings of the early fathers were largely quoted.  The very distinction
+now revived between substance and accident was carefully discussed.  And
+men felt so deeply the wide difference between the teaching of Rome and
+the teaching of Scripture that they could not yield even to save their
+lives.  The stake was before them as the certain issue of their
+confession, and liberty and honour was the promised reward if only they
+would yield.  But they had that deep conviction of the deadly error of
+the doctrine of transubstantiation that they counted it a privilege
+rather to die than to deny the truth of God.  And I put it to any man of
+common sense and common honesty: is it possible to believe that, after
+all, there was no real difference between Rome and the Reformers?  That
+Bonner and Gardiner, and Latimer, Cranmer, and a thing did, in fact,
+agree; that there might have been a little confusion in some of their
+minds as to the difference between substance and accident, so that they
+used the word transubstantiation without knowing its real meaning, but
+that in all essential points they were agreed, so that the fires of
+Smithfield were lighted all by mistake, and men who were burned agreed
+with them that burned them.  Clever men and learned men may put forth
+such a theory, but common sense revolts against it; and all thinking men
+must agree that, if this be the only theory on which it can be
+maintained, the doctrine of the Real Objective Presence is not the
+doctrine of the Church.  The stuff honest men will be ready to cry ‘shame’ on
+those who by theological sophistry are endeavouring to evade the plain
+and incontestable evidence of the great facts of the Reformation.  The
+Reformers knew well enough what Rome meant by ‘transubstantiation,’ and
+the twenty-eighth Article is decisive on the point that there is no such
+change in the thing.
+
+But the error having been denied, the next clause of the Article is
+employed to assert the truth: ‘The body of Christ is given, taken, and
+eaten in the Supper only after an heavenly and spiritual manner; and the
+means whereby the body of Christ is received and eaten in the stuff is
+Faith.’  It is most important to observe that word ‘only,’ for it is
+exclusive of all material feeding.  If it were not there it might have
+been possible to have argued that the Article admits the idea of a
+material in addition to a spiritual feeding—a feeding with the mouth as
+well as a feeding with the heart.  But the word ‘only’ renders any such
+theory impossible.  There is ‘only’ one manner in which He is received,
+and that one manner is heavenly and spiritual.  With equal clearness it
+is declared that as there is only one mode in which the body of our
+blessed Saviour is received, and that heavenly and spiritual; so there is
+only one mean whereby it is received and eaten, and that one mean is
+faith.  The Article does not speak of a means, as if it was one of many
+but of ‘the means’ in order to show that it stands quite alone, that it
+is only spiritual food, and received only by faith.  The lips receive the
+bread, and the believing heart receives the spiritual food of Christ
+Himself.  The body feeds on the material food, the soul on the spiritual.
+
+The means whereby the body feeds is the same as in common eating, and the
+means on which the soul feeds is faith.
+
+This important distinction of the outward and inward action is taught
+with equal clearness in Article xxix.:—‘Of the wicked which eat not the
+body of Christ in the Lord’s Supper.’  It may seem strange at first sight
+that any persons should be eager to maintain that the wicked receive so
+sacred a gift as the body and blood of our blessed Saviour; but a very
+slight reflection will show the reason, for on this question hinges the
+whole controversy.  If the bread and wine have become the body and blood
+of the Lord Jesus Christ, or if after consecration He is in them, then it
+must follow as a matter of certain consequence that whoever eats them
+eats Him.  But if, on the other hand, He is not in the bread and wine at
+all, but is received by the heart as the bread and wine are by the body,
+then it follows that if the heart be not right with God, a person may eat
+the bread, but never feed on the body and blood of our most blessed Lord
+and Saviour.  The whole question whether there is any independent,
+localized presence of our blessed Redeemer in the elements is involved in
+the decision whether the wicked in receiving those elements do or do not
+receive Him.  On this point the language of the twenty-ninth Article is
+perfectly clear:—‘The wicked and such as be void of a lively faith,
+although they do carnally and visibly press with their teeth (as St.
+Augustine saith) the sacrament of the body and blood of Christ, yet in no
+wise are they partakers of Christ; but rather to their condemnation do
+eat and drink the sign or sacrament of so great a thing.’  In quoting
+this Article I am not ignorant of the attempt that has been made to
+represent it as teaching that, although the wicked do eat the body of
+Christ they do not receive His life-giving blessings.  But the Article
+does not say one word of blessings.  It is headed with the words, ‘Of the
+wicked which eat not the body of Christ.’  It describes the bread as
+being a sign of the body, and it affirms as clearly as language can
+affirm that a wicked person may press the sign with his teeth, but still
+be in no wise either materially, spiritually, with the body or with the
+soul, a partaker of Christ.  According to this Article a person may eat
+the bread without eating the body of Christ, and receive the wine, but
+never drink the blood of Christ.  If the bread and wine had by
+consecration become the body and blood, this clearly would be impossible,
+for the one being changed into the other, the two would be inseparable,
+or rather, they would cease to be two, they would be one.  It is clear,
+therefore, that no such change is taught here; and this conclusion is
+remarkably confirmed by the Rubric at the close of the Service for the
+Communion of the Sick, for there the same great principle is maintained
+with equal clearness, only from a different point of view, when it says,
+‘If a man . . . by just impediment do not receive the Sacrament of
+Christ’s body and blood, the curate shall instruct him that if he do
+truly repent himself of his sins, and steadfastly believe that Jesus
+Christ hath suffered death upon the Cross for him, and shed His blood for
+his redemption, earnestly remembering the benefits he hath thereby, and
+giving Him hearty thanks therefore, he doth eat and drink the body and
+blood of our Saviour Christ, profitably to his soul’s health, although he
+doth not receive the Sacrament with his mouth.’  I venture to say that
+nothing can be clearer than the combined testimony of these two most
+important documents.  The Article says, ‘That a bad man may receive with
+his mouth the Sacrament of the body of Christ, but not be partaker of
+Christ.’  The Rubric says that a believer may under certain circumstances
+eat and drink the body and blood of our Saviour Christ, although he do
+not receive the Sacrament with his mouth.  And if this is not a
+sufficient proof that according to the teaching of the Church of England,
+the sign or Sacrament is not changed into the thing signified, I can
+imagine no proof that can be given.  If they are made one by the act of
+consecration, neither one nor the other can be received alone.
+
+Summing up, then, the teaching of the Articles, we shall arrive at five
+important conclusions: (1.) A Sacrament is a sign, and a sign would cease
+to be a sign if it were changed into the thing signified.  (2.) In the
+Sacrament of baptism there is no change in the water.  (3.) The doctrine
+of transubstantiation is condemned as clearly as words can condemn it.
+
+(4.) The body of Christ is said to be received only after a heavenly and
+spiritual manner.  (5.) The wicked are declared to be in no wise
+partakers of the sacred body and blood of our blessed Lord, though with
+the mouth they eat the sign.  And yet, notwithstanding all this, there
+are those who boldly affirm that the doctrine of the real presence of our
+blessed Lord and Saviour in the elements is the undoubted teaching of the
+Church of England.
+
+Catechism.—But is not the doctrine taught in the Catechism?  And if we
+look carefully, shall we not find it there?  One writer is so confident
+that we shall, that he boldly affirms that the Catechism is the final and
+authoritative decision of the Church on the subject, and must supersede
+all previous documents; as if five short questions and answers, drawn up
+for the use of children, were to override the full, dogmatic, and
+controversial decisions of the Articles.  I am not surprised at his wish
+to draw attention from the Articles, but I am persuaded he will gain
+nothing by directing it to the Catechism.  I have no doubt that the
+portion of the Catechism relating to the Sacraments is simply an
+abbreviation, or adaptation, of the Articles.  The same arrangement is
+adopted, and the same definitions occur, in both documents.  The first
+three questions refer to Article xxv., the next to Article xxvii., the
+next to Article xxviii.  The two Sacraments are first included in one
+common definition.  The Sacrament of baptism is then discussed
+separately, and I presume that no one would venture to affirm that either
+in the general definition of a Sacrament, or in the particular definition
+of baptism, the outward sign is ever said to be changed into, or
+confounded with, the thing signified.  In these two definitions they are
+kept distinct, and if the Catechism teaches any such change in the Lord’s
+Supper, it must make a marked and most important distinction between the
+two Sacraments, and so neutralize its own general definition, which is
+carefully drawn to include them both.  It would, indeed, be strange if
+there were such an inconsistency in so short a passage.  But, thanks be
+to God, there is nothing of the kind, and the whole is in perfect harmony
+both with itself and with the Articles.  It is difficult to imagine a
+clearer and more marked distinction than that expressed in the second and
+third questions, ‘What is the outward part, or sign, of the Lord’s
+Supper?’ and ‘What is the inward part or thing signified?’  The
+distinctness between the two parts is here more clearly marked than even
+in the Articles, for in these two questions there is not merely the
+distinction which we have in them between the sign and the thing
+signified, but the one is described as outward and the other inward.  The
+one is a material thing, which the recipient may take in his hand, and
+which is altogether external to himself; the other is inward and
+invisible, something within the soul, and only seen by the inner man.  It
+is, therefore, utterly contrary to the teaching of these two questions to
+suppose that both parts of the Sacrament are outward, and that the inward
+and spiritual grace has a localized, outward presence external to the
+soul of the recipient.
+
+But though the questions are thus distinct, can we say the same of the
+answers?  The third answer is often boldly appealed to as deciding the
+question in favour of what is termed the real presence, and as finally
+settling the whole controversy.  But nothing is easier than to make bold
+assertions of the kind, to persuade men to receive them without the
+trouble of investigation.  But such a system will not satisfy those who
+desire to know the truth.  Let us then examine the answer carefully.
+
+‘What is the inward part or thing signified?’  ‘The body and blood of
+Christ; which are verily and indeed taken, and received by the faithful
+in the Lord’s Supper.’  Great stress is sometimes laid on the words,
+‘Verily and indeed,’ as if they meant something more than a spiritual
+feeding on Christ.  But there is nothing in them to convey any such idea.
+
+All they teach is that there is a real, true gift, really enjoyed and
+received by the devout communicant; and this we all thankfully believe.
+
+The question between us is not whether there is such a gift; but what is
+its character, and how is it received.  The reality of the gift does not
+prove that it is material, external, or connected in any way with the
+natural elements.  To maintain this would be to deny the reality of
+anything spiritual and internal.  Nothing, therefore, can be proved
+either way from the words, ‘Verily and indeed.’  They cannot be quoted in
+opposition to the question to which they are intended as an answer, or in
+deciding that the inward part is outward.  They do assert that the gift
+of the Lord is no mere fiction or idea, but they do not teach in any way
+whatever that the sacred gift is in the elements, and external to the
+soul.
+
+But we have not yet done with this important answer, for there are two
+more most important points to be noticed in it.  In the first place it is
+clearly stated that it is ‘Verily and indeed taken, and received by the
+faithful.’  One ingenious writer endeavours to make out that the word
+‘faithful’ is here intended to include the wicked.  I suppose that we are
+bound to give him credit for believing what he writes; but it is very
+difficult for those to do so who read common English in the light of
+common sense.  And still more difficult is it when the Catechism is read
+in the light of the twenty-eighth Article, from which it was in all
+probability constructed, and which says, ‘To such as rightly, worthily,
+and with faith, receive the same, the bread which we break is a partaking
+of the body of Christ.’  Can any reasonable man compare these passages,
+and doubt for a moment that by the words ‘the faithful,’ are intended
+those persons who ‘approach in faith whereby alone they can feed on
+Christ.’
+But there is another point in that same answer which claims our careful
+consideration.  The words are, ‘which are received by the faithful in the
+Lord’s Supper.’  It does not say, ‘in the Sacrament,’ for if it did it
+might have been misunderstood.  In the use of the word ‘Sacrament’ there
+is a risk of confusion, for it is employed in three different senses.  It
+is sometimes employed to denote the whole act, or sacramental service, as
+in Article xxv., where Sacraments are described as badges, witnesses, and
+signs.  It is sometimes used to express the outward sign and the inward
+gift, regarded as forming together one perfect whole, as in the third
+question and answer of the Catechism, by which we are taught that there
+are two parts in a Sacrament—the outward visible sign, and the inward
+spiritual grace.  But sometimes it is used for the outward sign alone,
+unaccompanied by the spiritual grace, as in Article xxix., where we read
+that the wicked are in no wise partakers of Christ, ‘but rather to their
+condemnation do eat and drink the sign, or Sacrament, of so great a
+thing.’  It is my conviction that this looseness in the use of the word
+‘Sacrament’ had led to great confusion; for when those who hold the great
+doctrines of the thing have declared their belief in the presence
+of their blessed Redeemer in the Sacrament, they have used the word in
+the sense of the sacred feast, and expressed their assurance that He, a
+living Lord, is present in the midst of His waiting people.  But others,
+taking the word ‘Sacrament’ to mean simply the consecrated elements, may
+quote such words from the staunchest reformers, as proving that even they
+taught the presence of the Lord in the bread and wine.  Happily, in the
+Catechism this danger is avoided, for in this important answer the word
+‘Sacrament’ is not used at all.  The sacred feast is there called the
+‘Lord’s Supper,’ respecting which there is no confusion, and the result
+is that there is not even the misuse of a word to encourage the idea of
+anything like a presence in the elements.
+
+But if there were any room for doubt as to the meaning of the Church of
+England in this passage, it would surely be removed by the next question
+and answer, ‘What are the benefits whereof we are partakers thereby?’
+‘The strengthening and refreshing of our souls by the body and blood of
+Christ, as our bodies are by the bread and wine.’  It is difficult to
+imagine language which could preserve the distinction of the outward and
+the inward parts more clearly than this does.  The outward is for the
+body, and strengthens it; the inward for the soul, and does the same for
+it.  The one food is material for a material body; the other is
+spiritual, for the spiritual sustenance of the soul.  The one is
+external, to be received into the body by bodily organization; the other
+is internal and invisible, received into the soul by faith.  To identify
+the two, or to shut up the one within the other, is to violate the whole
+principle of the passage; it is to confuse material and spiritual things,
+and utterly to depart from the teaching of the Church of England by
+giving a material character to the most spiritual act of which the soul
+is capable.
+
+The Communion Service.—But there is yet another most important
+document, and one inexpressibly precious to the heart of every devout
+communicant amongst us: I mean the Communion Service, or ‘Order of
+Administration of the Lord’s Supper, or Holy Communion.’  How often have
+those sacred prayers expressed the deep feeling of our inmost soul, as we
+have knelt in holy faith before the stuff?  Now there cannot
+be a moment’s doubt that we are taught in that most precious Service to
+feed on the body and blood of our most blessed Saviour, and to expect
+that the most sacred food will be given to the soul.  If this were not
+expressed, the bread which we break would not be presented to us as a
+partaking of the body of Christ.  But while we are taught in living faith
+to partake of His most precious body and blood, the whole service has
+been so carefully worded that the spiritual grace is never identified
+with the outward sign.  As in the Articles and Catechism, the two things
+are kept perfectly distinct.  In simply reading the Service as we now
+have it, this care is not always apparent, for the language of devotion
+is never the language of controversial theology, and the spirit of
+fervent prayer does not admit of the expression of theological
+distinctions.  Full hearts do not stop to define when they are pleading
+before God.  But the utmost care was taken, and we profit from the
+results.  This is easily seen by a comparison of the two Prayer Books of
+Edward VI.  The Reformation was a gradual process, so that the Prayer
+Book of 1549 is less distinct than that of 1552.  In the latter book
+there were important changes made, and these changes indicate very
+plainly the real teaching of our present Prayer Book.  In the Prayer Book
+of 1549, there were some passages which might have been understood as
+teaching that the most precious body and blood of our Lord was to be
+received in the consecrated elements of bread and wine; but in the book
+of 1552, these passages were all changed so as to render such a sense
+impossible.
+
+For example: in the exhortation to communicants, it was written in the
+book of 1549, ‘He hath left in these holy mysteries, as a pledge of His
+love, and a continual remembrance of the same, his own blessed body and
+precious blood for us to feed upon spiritually to our endless comfort
+and consolation.’  If the word ‘mysteries’ was understood of the
+consecrated elements, this passage might have been understood as teaching
+that the spiritual food was actually in the consecrated bread and wine.
+
+So in 1552, the passage was changed to the well-known words, ‘He hath
+instituted and ordained holy mysteries as pledges of His love, and
+continual remembrance of His death, to our great and endless comfort,’
+and all possibility of misapprehension was removed.
+
+Again, in the prayer of consecration in 1549 we find the words, ‘Hear us,
+O Merciful Father, we beseech thee; and with Thy Holy Spirit and Word
+vouchsafe to bless and sanctify these Thy gifts and creatures of bread
+and wine, that they may be unto us the body and blood of Thy most dearly
+beloved Son Jesus Christ.’  These words might fairly be taken as praying
+for a change in the elements, and therefore in the next version the
+passage was completely changed, and the unmistakable language of our
+present Prayer Book introduced in its stead: ‘Grant that we receiving
+these Thy creatures of bread and wine, according to Thy Son our Saviour
+Jesus Christ’s holy institution, in remembrance of His death and passion,
+may be partakers of His most blessed body and blood.’
+So in the prayer before consecration.  In the first book the words were,
+‘Grant us, therefore, gracious Lord, so to eat the flesh of Thy dear Son
+Jesus Christ, and to drink His blood in these Holy Mysteries.’  But
+this was liable to the same danger as the passage in the exhortation
+already referred to, and therefore the words, ‘In these holy mysteries,’
+were struck out, and the prayer left as it now stands in our Prayer Book.
+
+And so once more, in the words of administration in the first book there
+was only the first portion of the present sentences.  The words were:
+‘The body of our Lord Jesus Christ, which was given for thee, preserve
+thy body and soul unto everlasting life.’  But though not necessary, it
+was possible to understand this as if the bread presented to the
+communicants were declared to be the body of our Lord Jesus Christ.  To
+prevent this, the following words, ‘Take and eat this, and feed on Him
+in thy heart by faith, with thanksgiving,’ were substituted in 1552, and
+combined with the original form in 1559.  Nothing can be clearer, or more
+important, than the teaching of this passage.  In it the distinction is
+perfectly clear between the bread which we eat, and the blessed Saviour
+on whom we feed.  Of the bread it says, ‘Eat this,’ this bread which I
+put into your hand.  But of the inward and spiritual grace it says, ‘Feed
+on Him,’ on the Lord Jesus Christ Himself; and this feeding is described
+as the act of the heart through faith, for the words are, ‘Feed on
+Him—in thine heart—through faith—with thanksgiving.’
+Homilies.—But there is another rich mine of truth from which those who
+are anxious to learn the mind of the Church of England may obtain most
+abundant information.  I observe that as a general rule those who teach
+the doctrine of the real presence in the elements refer very little to
+the Homilies.  They treat them as if they were not aware of their
+existence, and I am not surprised at their silence, for they certainly
+can find nothing in them to support their system.  You may search the
+Homilies from one end to the other, and you will find nothing there to
+support the doctrine of a real presence of our Lord and Saviour in the
+consecrated elements.  They are in perfect harmony with the Articles.
+
+The definition of a Sacrament is the same, and preserves with equal
+clearness the distinction between the outward sign and inward grace—as
+e.g., in the ninth Homily of the second book, where we read the
+following reference to the words of Augustine ‘He calleth Sacraments holy
+signs, and . . . saith “if Sacraments have not a certain similitude of
+these things whereof they be Sacraments, they should be no Sacraments at
+all.  And of this similitude, they do for the most part receive the names
+of the same things they signify.”  By these words of St. Augustine, it
+appeareth that he allowed the common description of a Sacrament, which is
+that it is a visible sign of an invisible grace, that is to say, that
+setteth out to the eyes, and other outward senses, the inward working of
+God’s free mercy, and doth as it were seal in our hearts the promises of
+God.’
+But I must be careful with reference to the Homilies, for there are two
+passages which are sometimes quoted in order to show that the doctrine of
+the real presence in the elements is the doctrine taught in them.  One of
+these passages is quoted by Dr. Pusey in his book on the Real Presence,
+viz., the Advertisement at the end of the First Book of Homilies:
+‘Hereafter shall follow sermons of fasting, praying, almsdeeds, &c, of
+the nativity, passion, resurrection, and ascension of our Saviour Christ;
+of the due receiving of His blessed body and blood under the form of
+bread and wine,’ &c.  Now I am quite prepared to admit that when this
+Advertisement was written, the writer of it did believe that the body and
+blood of our blessed Lord was present under the form of bread and wine;
+but even the Advertisement was no part of any Homily, and can never be
+regarded as having been at any time a portion of the authoritative
+teaching of the Church of England.  I am willing, however, to admit that,
+although not authoritative, it may be regarded as indicating what was the
+opinion of the writers at the date of the First Book of Homilies.  All,
+therefore, turns upon the date, and when I remember that the First Book
+of Homilies was published in 1547, two years before the first revision of
+the Communion Service, viz., that in 1549, and five years before the
+second, viz., that in 1552, when the alterations to which I have
+referred were made in the Communion Service; when, moreover, I find that
+when the promised Homily was published, it was headed by a different
+title, viz., ‘The worthy receiving, and reverend esteeming; of the
+Sacrament of the body and blood of Christ;’ when, moreover, I find on its
+first page the passage just quoted respecting the sign and thing
+signified, I am altogether at a loss to understand how a person of the
+learning of Dr. Pusey should have quoted the Advertisement, as if it were
+the teaching of the stuff in her Homilies.  He must have
+known the date, and must have been perfectly acquainted with the changes
+which took place five years after it.
+
+But there is another passage sometimes quoted from the Homily, and quoted
+with great assurance by those who desire to represent the Church of
+England as teaching the doctrine of the real presence.  I once heard an
+advanced Ritualist preaching on the subject, and with the utmost boldness
+he challenged us to listen to the Homilies, and then he quoted the words,
+‘Thus much we must be sure to hold, that in the supper of the Lord there
+is no vain ceremony, no bare sign, no untrue figure of a thing absent,
+but, as the Scripture saith, a marvellous incorporation.’  Oh! how did my
+heart burn, as I sat in that church, to cry aloud from my seat ‘Read the
+whole passage,’ but I was obliged to sit in silence, and endure.  Oh! how
+I pity laymen, who have no power of contradiction, when they hear gross
+error preached to themselves and their families!  But I may read it now:
+‘The table of the Lord, the bread and cup of the Lord, the memory of
+Christ, the annunciation of His death, yea, the communion of the body and
+blood of the Lord’ (why was all that left out?), ‘In a marvellous
+incorporation.’  Now what is the meaning of this marvellous
+incorporation?  Does it mean the incorporation of our blessed Lord and
+Saviour in the bread?  Or does it refer to the work of the Holy Ghost in
+the soul?  Let the question be decided by the words which conclude the
+sentence: ‘In a marvellous incorporation, which, by the operation of the
+Holy Ghost—the very bond of our conjunction with Christ—is through faith
+wrought in the souls of the faithful.’
+But that is not all.  The Homilies were written by men deeply impressed
+by the truth of God: by men who loved the Gospel, and who earnestly
+desired to see others partakers of their joy.  So they did not merely
+speak in the language of accurate theology, but they appealed to souls
+with the fervour of loving hearts.  Let us listen, in conclusion, to the
+glowing words with which they wind up the first part of their address,
+‘It is well known that the meat we seek for in this supper is spiritual
+food; the nourishment of our soul; a heavenly refection and not an
+earthly; an invisible meal and not bodily; a ghostly substance and not
+carnal; so that to think that without faith we may enjoy the eating and
+drinking thereof, or that that is the fruition of it, is but to dream a
+gross carnal feeding, basely objecting and binding ourselves to the
+elements and creatures.’ . . . ‘That when thou goest up to the reverend
+Communion to be satisfied with spiritual meats, thou look up with faith
+upon the holy body of thy God, thou marvel with reverence, thou touch it
+with the mind, thou receive it with the hand of thy heart, and thou take
+it fully with thy inward man.  Thus we see, beloved, that resorting to
+this table, we must pluck up all the roots of infidelity, all distrust in
+God’s promises, that we make ourselves living members of a stuff’s body.
+
+For the unbelievers and faithless cannot feed upon that precious body.
+
+Whereas the faithful have their life, their abiding in Him, their union,
+and, as it were, their incorporation with Him.  Wherefore let us prove,
+and try ourselves unfeignedly without flattering ourselves, whether we be
+plants of that fruitful olive, living branches of the true vine, members
+indeed of a stuff’s mystical body, whether God hath purified our hearts by
+faith, to the sincere acknowledging of His Gospel, and embracing of His
+mercies in Christ Jesus, so that at this, His table, we receive, not only
+the outward Sacrament, but the spiritual thing also; not the figure, but
+the truth; not the shadow only, but the body; not to death, but to life;
+not to destruction, but to salvation; which God grant us to do through
+the merits of our Lord and Saviour: to whom be all honour and glory for
+ever.  Amen.’
+
+
+CHAPTER: CHAPTER II. - ADORATION.
+
+
+THUS far I have examined into the teaching of the Church of England with
+reference to nothing but the bare doctrine of transubstantiation, or, as
+it is now more frequently called, of the real objective presence of the
+body and blood of our blessed Saviour in the consecrated elements of
+bread and wine.  I have not discussed the question whether the elements
+of bread and wine remain either in their substance or their accidents,
+for these questions are not discussed by the Church of England.  The
+point maintained by the Church is that the most precious body and blood
+of Christ are not in the bread and wine at all, but are given by the
+direct action of the Holy Ghost to the soul of the believer, and received
+by him through faith.  But we cannot leave the subject there, for, as we
+are taught in the twenty-eighth Article, that doctrine ‘has given
+occasion to many superstitions,’ and to two of these, adoration and
+sacrifice, we must, if we would gather the real teaching of the Church of
+England, direct our careful study.
+
+Adoration.—When we speak of adoration, let it not be for one moment
+supposed that we refer to the adoration of the Lord Jesus, as now seated
+at the right hand of God, for with the whole heart, and the most profound
+reverence, we would fall at His feet, and say, in the language of our
+a stuff, ‘Thou only art Holy, Thou only art the Lord; Thou
+only, O Christ, art most high in the glory of God the Father.’  The
+adoration against which we protest is the adoration of the Lord Jesus
+Christ as supposed to be localised in the consecrated elements of bread
+and wine.  Such adoration must, of course, involve the belief that He, as
+a living Lord, is actually present in each piece of consecrated bread,
+and also in the consecrated wine, and for such a belief there is not one
+word in a stuff.  The doctrines of transubstantiation and
+consubstantiation are made to rest on what is called the literal
+interpretation of the words, ‘This is My body,’ ‘This is My blood;’ but
+the utter inconsistency of the whole system is shown by the fact that
+while its advocates maintain that these words must be taken literally,
+and that their doctrine of the real presence is the necessary
+consequence, they themselves completely depart from their own principle
+of literal interpretation, and make a bold assertion which the words,
+taken literally, distinctly contradict.  The words taken literally could
+certainly teach nothing more than that the bread becomes the body, and
+the wine the blood of our blessed Redeemer; but Rome teaches, and as far
+as I can learn the modern Ritualists teach the same, that not only do the
+bread and wine each separately become the body and blood, but that each
+of them becomes by the act of consecration a complete living Saviour,
+with Body, Soul, and Divinity; so that there is a living Saviour in each
+piece of consecrated bread, and a living Saviour in the cup, and that
+these living Saviours are to be adored or worshipped with the same
+worship as is given to our blessed Redeemer at the right hand of the
+throne in Heaven.  I could give scores of passages in proof of my
+statement; but the well-known words of Mr. Bennett are sufficient: ‘I am
+one of those who have lighted candles at the altar in the day-time, who
+use incense at the holy sacrifice—who use the Eucharistic vestments—who
+elevate the blessed Sacrament—who myself adore, and teach the people to
+adore, the consecrated elements, believing Christ to be in them—believing
+that under their veil is the sacred body and blood of my Lord and Saviour
+Jesus Christ.’  Such is the fabric raised on what is called the literal
+interpretation of the words of our blessed Saviour, a fabric for which
+those words taken literally give no foundation of any kind whatever.  But
+how is it with the Church of England?  Are men true Churchmen when they
+elevate the elements for worship?  Are they teaching the doctrines of the
+thing when they teach that we are to worship the living Lord
+in the bread and in the cup which the priest raises above his head for
+adoration?  It certainly does not seem as if they were, for as far as I
+have been able to discover, not one word from all our a thing documents
+is ever quoted in support of the practice.  The only position taken up is
+that it is not expressly forbidden, and this position I believe to be,
+like the rest of the system, without foundation.  It is quite true that
+comparatively little is said, for the doctrine of transubstantiation
+being denied and disproved, all the rest follows as a matter of course.
+
+If there is no real objective presence there can be no adoration.  If a
+living Saviour be not in the elements He cannot therein be adored.  The
+whole controversy turns on the doctrine of the Real Presence as the
+key-stone of the system.  But though the subject has not been so fully
+discussed in our Church documents, there is quite enough to show very
+clearly the mind of the Church of England.  The concluding words of
+Article xxviii. are quite enough to settle the question: ‘The Sacrament
+of the Lord’s Supper was not by Christ’s ordinance reserved, carried
+about, lifted up, or worshipped.’  How, with that Article before them,
+clergymen of the Church of England can presume to elevate the sacramental
+elements for worship I am at a loss to explain.  But this is not all that
+has been said, for the practice of kneeling at the thing
+occasioned at one time a certain amount of anxiety in the minds of some
+persons, as they feared that it might be mistaken for adoration of the
+host.  To prevent the possibility of any such mistake a most important
+note was added in the year 1552, which, after having been omitted in
+1559, was restored with a slight alteration in 1662.  It is as follows:
+‘It is hereby declared, that thereby no adoration is intended, or ought
+to be done, either unto the sacramental bread or wine there bodily
+received, or unto any corporal presence of Christ’s natural flesh and
+blood.  The sacramental bread and wine remain still in their very natural
+substances, and, therefore, may not be adored (for that were idolatry to
+be abhorred of all faithful Christians); and the natural body and blood
+of our Saviour Christ are in Heaven, and not here; it being against the
+truth of Christ’s natural body to be at one time in more places than
+one.’  Such words as those need no comment, and I should be only wasting
+time if I were to stop to discuss them.  Of course people endeavour to
+evade them; but the attempts at evasion only tend to show the utter
+helplessness of the undertaking.  The memorialists already referred to,
+say, ‘We repudiate all adoration of a corporal presence of Christ’s
+natural flesh and blood, that is to say, of the presence of His body and
+blood as they are in Heaven.’  They admit it, therefore, in some other
+way.  But the stuff denies it altogether.  It draws no nice
+distinction as to the mode, but simply denies the fact, and settles the
+question once and for ever for all honest men whose honest desire it is
+to teach its doctrines and adopt its worship.
+
+But as we really desire to ascertain the truth, it is well to refer to
+the statements of those who differ from us.  I turn, therefore, to those
+of Dr. Pusey, as I believe he is the person who above all others would be
+regarded as the best exponent of the theory of the Real Presence and its
+consequences.  In his book, The Real Presence, p. 311, he says: ‘The
+stuff has maintained the same reserve as to the practice of
+adoring our Lord present in the Eucharist.’  And again: ‘With regard to
+the adoration we are rather told that the Sacraments were not ordained of
+Christ to be adored, but to be received.’  I could not wish for a plainer
+statement of truth than those last words, but I confess myself at a loss
+to understand how the writer can teach adoration, and yet continue in his
+position as a clergyman of a stuff.  But with the former
+words I cannot agree, for the Church of England has not exercised
+reserve.  To exercise reserve is to keep in the background a truth which
+we believe, but which from motives of expediency we think it better not
+to make known.  But there is no such reserve in the Church of England.
+
+She is plain, honest, and outspoken for the truth; and when she struck
+all trace of adoration from her worship she did so, not from any crafty
+policy of reserve, but because she believed that the whole thing was a
+gross superstition, and with a firm, bold, and unsparing hand she cut
+away the whole fabric, and left no trace of it in the whole system of her
+worship.  There was no reserve in the Reformers, whatever there may be in
+those who are striving to undo the thing.
+
+
+CHAPTER: CHAPTER III. - SACRIFICE.
+
+
+BUT adoration is not all, for there is yet a further result of the
+doctrine of the real objective presence, if possible, more dangerous even
+than adoration; I mean the assertion of a continued sacrifice.  It is
+extremely difficult to ascertain exactly what is held by the Ritualistic
+party, for there is no document to which they all subscribe or for which
+they can be held responsible; but there is quite enough to show that a
+great number amongst them are teaching without reserve that there is in
+the Lord’s Supper a continuation, or repetition, of the propitiatory
+sacrifice of our blessed Lord.  The extent to which this is carried may
+be gathered from a book called the Eucharist Manual, to which
+Archbishop Longley drew the attention of the stuff in the year 1867, in
+which it is said that ‘a real, true, and substantial sacrifice is offered
+to God the Father, and not merely a spiritual or metaphorical sacrifice;’
+that the Holy Eucharist is ‘a true, real, and substantial sacrifice
+offered to God the Father, offered for the quick and the dead;’ the
+meaning of which statement is proved beyond the possibility of a doubt by
+the following prayers: ‘Eternal Father, I offer thee the precious blood
+of Jesus Christ, in expiation of my sins, and for the wants of the whole
+Church;’ and ‘I now join Thy minister in offering Thee this oblation of
+the body and blood of Thy Son, in propitiation for my numberless sins,
+and for the salvation of all bound to me by kindred or affection.’
+Nothing would be easier than to bring together almost any number of
+similar passages, and I feel persuaded that I am not misrepresenting the
+principles of the writers when I say that they teach the continuation or
+repetition of the sacrifice of our blessed Lord Himself as a propitiation
+for sin.  Now is this the teaching of the stuff, or is it
+not?  Dr. Pusey’s own language may, I think, decide the question.  In his
+book, on the Real Presence, p. 311, he says of the thing’s documents:
+‘Although the great act of Eucharistic Sacrifice remains in the
+consecration itself, and it has been all along an object of belief in the
+Church of England, it is mentioned only when we pray to God to accept
+this our sacrifice of praise and thanksgiving.’  This then is the only
+passage in all the documents of the thing which we may
+presume can be produced as being in favour of this teaching, and I
+venture to say that Dr. Pusey is far too good a theologian not to know
+that the passage is dead against the doctrine of propitiatory sacrifice.
+
+Is it possible to suppose that such a learned man as he is does not know
+the distinction between a sacrifice of expiation and a sacrifice of
+praise and thanksgiving, between an atonement for sin and the free-will
+offering of a thankful and loving heart?  And is it possible that there
+should be one moment’s doubt as to the teaching of a thing,
+when the words, which he himself acknowledges, are the only words which
+he can discover in support of the one are words which beyond all
+controversy refer exclusively to the other?
+
+But is the thing as silent as he appears to consider it on
+this important subject?  Are we left to gather its great principles from
+that one passage in the thing?  Does it teach nothing on the
+subject of propitiatory sacrifice but in that one short sentence which
+has in fact no connexion with it?  The whole of the Church of God depends
+on a completed propitiation, and we might well tremble for the stuff if that one great central fact were altogether out of sight in
+its teaching.  But, thanks be to God! it is not thus ignored, for this is
+just one of those points for which our Reformers were called to suffer,
+and respecting which they were most explicit.
+
+To begin with the Articles.  The thirty-first consists of three parts.
+
+(1.) The perfect sufficiency of the great propitiation for sin.  ‘The
+offering of Christ once made’ (observe the once) ‘is that perfect
+redemption, propitiation, and satisfaction for all the sins of the whole
+world, both original and actual.’  (2.) The declaration that in
+consequence of that sufficiency there can be no further propitiation.
+
+‘There is none other satisfaction for sin, but that alone.’  (3.) The
+condemnation of the pretended sacrifice of the mass.  ‘Wherefore the
+sacrifice of masses, in the which it was commonly said that the priest
+did offer Christ for the quick and dead, to have remission of past guilt,
+were blasphemous fables and dangerous deceits.’  I am not ignorant that
+an attempt has been made to represent this Article as referring to the
+abuses which had gathered around the sacrifice of the mass, and not
+against the principle of sacrifice itself.  As I should be extremely
+sorry to misrepresent the opinions of those who differ from me, I quote
+Dr. Pusey’s words as I find them in his the stuff, p. 25: ‘The very
+strength of the expressions used, of “the sacrifices of masses,” that
+they were blasphemous fables and dangerous deceits, the use of the
+plural, and the clause “in which it was commonly said,” show that what
+the Article speaks of is not the sacrifice of the mass, but the habit
+(which, as one hears from time to time, still remains) of trusting to the
+purchase of masses when dying, to the neglect of a holy life, or
+repentance, and the grace of God and His mercy in Christ Jesus while in
+health.’  To what desperate shifts are persons driven who would endeavour
+to represent the Church of England as teaching the sacrifice of the mass!
+
+The Article declares the sufficiency and finality of the one sacrifice of
+our blessed Lord and Saviour, and because that one sacrifice is
+sufficient and final, it condemns in the strongest possible language the
+opinion current at the time, that in some form or other there was a
+repetition of sacrifice in the mass.  But because the language is strong,
+because there is an allusion to the current opinion, and because the
+plural number is employed so as to comprehend the numberless sacrifices
+supposed to be offered on the numberless altars of the stuff,
+therefore it is argued that the Article does not refer to the doctrine of
+sacrifice at all, but simply to the purchase of the mass in the dying
+hour, instead of repentance and faith during the life.  If the Article
+were meant to condemn the purchase of masses, it is very strange that it
+makes no allusion to the subject; and if it aimed at the neglect of
+repentance and faith, it is most extraordinary that neither repentance
+nor faith is once mentioned in its words.  Our Reformers were very
+plain-spoken men, and it appears from the strength of their language that
+they meant to be plain-spoken in the Article.  It is very strange if,
+after all, while they appeared to condemn one thing, they were really
+condemning another, and did it in such unintelligible language that their
+meaning was not discovered till three hundred years after the Article was
+written.
+
+In the Catechism there is not much said on the subject, but that little
+is decisive.  There is only one allusion to sacrifice, and that is, to
+the one sacrifice of our blessed Saviour, while the Lord’s Supper is
+distinctly declared to be an act of remembrance of that great event.
+
+‘Q.  Why was the Sacrament of the Lord’s Supper ordained?’  ‘A.  For
+the continual remembrance of the sacrifice of the death of Christ, and of
+the benefits which we receive thereby.’  It is needless to stop to point
+out that remembrance cannot mean either continuation, repetition, or
+application; and with such a distinct passage before us, it is manifest
+that no one can claim the Catechism as teaching the doctrine of
+propitiatory sacrifice in the Lord’s Supper.  There is an opinion in some
+minds that the language of the Catechism is less distinctly Protestant
+than that of the other documents.  That opinion I believe to be
+thoroughly mistaken, and it certainly is very difficult to understand by
+what perversion of language the doctrine of propitiatory sacrifice can be
+wrung from such language as ‘The continual remembrance of the sacrifice
+of the death of Christ,’ and a ‘thankful remembrance of His death,’ as we
+find in the answer with which the Catechism concludes.
+
+From the Catechism let us turn to the Communion Service.  And here we are
+met at the outset by Dr. Pusey’s remarkable admission, that the only
+passage teaching the doctrine is the language of thankful dedication in
+the prayer that follows the reception: ‘We, Thy humble servants, entirely
+desire Thy Fatherly goodness mercifully to accept this our sacrifice of
+praise and thanksgiving.’  No person who understands the difference
+between propitiation and thanksgiving can fail to see at a glance that
+there is no reference in this passage to propitiatory sacrifice.  The
+next sentence is: ‘Here we offer and present unto Thee, O Lord,
+ourselves, our souls and bodies, to be a reasonable, holy, and lively
+sacrifice unto Thee.’  ‘Ourselves, our souls and bodies,’ what are they
+to make a propitiation for sin?  Nothing can be plainer than that the
+prayer is intended to be the language of the thankful heart surrendering
+itself as a thank-offering to God.  If the language admitted of the
+smallest doubt, that doubt would be removed by the position assigned to
+it in the Communion Service of 1552.  In that of 1549 it stood with
+certain additions before the administration of the sacramental elements,
+but the human mind is so prone to misunderstand the simplest documents,
+that our Reformers, to avoid all possibility of mistake, first removed
+from the prayer any expressions which they thought could be
+misunderstood, and then placed it after, instead of before, the reception
+of the elements.  Thus they secured that there should be no room for
+doubt that the sacrifice referred to is the surrender of self, and the
+motive for that surrender, not the desire for forgiveness, but the deep
+gratitude of a thankful heart, when sin has been blotted out through a
+finished atonement, and the appropriation of that atonement has been
+sealed to the soul by the sacred emblems of His body and blood.
+
+But these were not the only changes made in the Communion Service of
+1552.  There was another of a most important character in connexion with
+the subject of sacrifice.  You never hear of sacrifice without an altar.
+
+The altar is, in fact, an essential adjunct of sacrifice, and accordingly
+in former times there was an altar, generally made of stone, against the
+eastern wall of the chancel.  Accordingly in the Communion Service of
+1549, there is frequent mention of the altar; but in 1552 all altars were
+abolished.  There is no allusion to an altar now in any document of the
+Church of England.  When persons speak of leading brides to the altar,
+they are not using the language of the thing, nor are they presenting
+the holy rite of marriage in a very happy aspect, for the expression
+really implies that the poor bride is led to sacrifice.  There is now
+nothing but a table known in the Church of England.  The altar has been
+removed, and the table introduced, in order that all might see even in
+the thing’s furniture, that the doctrine of sacrifice has been
+abandoned, and that the doctrine of communion is the true creed of the stuff.  It may be sufficient to refer to the fourth rubric as
+a specimen of the changes made.  In 1549 it was, ‘The priest standing
+humbly afore the midst of the altar shall say,’ &c.  In 1552, ‘The table
+having at the thing time a fair white linen cloth upon it, shall
+stand in the body of the church or in the chancel, where Morning Prayer
+and Evening Prayer be appointed to be said.  And the priest standing at
+the north side of the table shall say,’ &c.
+
+And now for the Homilies, the last authority to which we have to refer in
+this inquiry.  I am not surprised that those who maintain the doctrine of
+a continuation of propitiatory sacrifice preserve a prudent silence with
+reference to the Homilies.  I do not know of any one passage ever quoted
+by them in support of their opinions, while every allusion to the subject
+in the Homilies is of a distinctly opposite character.  Let us turn to
+one or two passages from the 15th Homily of the Second Book.  In the
+first page of that Homily we have a general description of a thing.  ‘Amongst the which means is the public celebration of the memory
+of His precious death at the Lord’s Table: which, although it seems of
+small virtue to some, yet being rightly done by the faithful, it doth not
+only keep their weakness, but strengtheneth and comforteth their inward
+man with peace and gladness, and maketh them thankful to their Redeemer
+with diligent care and godly conversation.’  Here we have the description
+of the same two purposes as are mentioned in the Articles and Catechism,
+but not one syllable respecting sacrifice, for no one who values
+correctness in language can maintain that memory is continuation, or that
+the memory of His precious death can be a renewed act of propitiation.
+
+But this may be thought to be only an omission.  Let us pass on then to
+the following page, when we read, ‘For as that worthy man, the stuff,
+saith: “He is unworthy of the Lord that otherwise doth celebrate that
+mystery than it was delivered by Him.  Neither can he be devout that
+otherwise doth presume that it was otherwise given by the Author.”  We
+must, therefore, take heed lest of the memory it be made a sacrifice;
+lest of a Communion it may be made a private eating; lest of two parts we
+have but one; lest in applying it for the dead we lose the fruit that be
+alive.’  In the Homily for Whit Sunday, the self-same truth is taught,
+with almost equal clearness.  When it is said of the thing that
+they ‘have so intermingled their own traditions and inventions, by
+chopping and changing, by adding and plucking away, that now they (the
+Sacraments) may seem to be converted into a new guise.  Christ commended
+to His a stuff body and blood; they have changed it
+into a sacrifice for the quick and the dead.’  And yet notwithstanding
+all these statements and many others, there are those who hold office as
+clergymen of the Church of England, who are not ashamed of circulating
+such a book as the ‘Eucharist Manual,’ in which it is said: ‘The Holy
+Eucharist is a true and substantial sacrifice offered to God the Father,
+offered for the quick and dead.’
+Here, then, I may conclude.  My object, let it be well remembered, has
+not been to discuss the subject from the Scriptures, but to ascertain the
+real teaching of the Church of England respecting it.  Let it not be
+supposed for one moment that I have taken this position from any idea
+that there is any infallible rule of faith but God’s own Word as revealed
+in Scripture; but I have done so because the Church of England is at this
+present time sorely tried by internal difficulties, and it seems only due
+to her to ascertain with the utmost care what is the real character of
+her teaching.  While some are loudly claiming her as teaching those very
+doctrines in opposition to which our Reformers went to the stake, and
+while others of a tender conscience are forsaking her because they
+partially believe those bold statements to be true, it is of the utmost
+possible importance that those who are faithful to the Church of England
+should take the trouble to make themselves acquainted with her true
+principles.  If it is a fact that she is identical with Rome, and that
+the Reformers were martyrs for a merely imaginary metaphysical
+distinction of no importance whatever; then, indeed, we may stand aghast
+at the ignorance and folly of all the theologians of all schools and all
+countries who have been weak enough to suppose that in the Reformation
+there was a doctrinal separation from a thing.  But if, on
+the other hand, the Reformers knew what they were doing, and why they did
+it; if they drew up these documents with the utmost care, and these
+documents so provoked the doctrinal antipathies of Rome, that while their
+authors were sacrificed at the stake their principles were branded by the
+anathemas of the Council of Trent; if none of our most thoughtful
+students for the last three centuries ever for one moment doubted that
+there was direct antagonism between the Church of England and that of
+Rome; then it is too sad to be borne that devout men, dearly beloved in
+the Lord, staunch to the great principles of the Gospel of the Grace of
+God, should have their consciences wounded, and their allegiance shaken,
+by the unproved assertions of men who, without any appeal to the Church’s
+documents, claim to be the only expositors of its principles.  It is
+moreover most deeply to be deplored that those who have a real, true, and
+faithful love for the Church of England should be led into error by the
+unproved assertion that the thing teaches that which she most
+emphatically denies.  It is for the sake of both classes that I have been
+led to this investigation.  If any are unsettled in their mind and
+disposed to distrust the Church of England, I shall rejoice if they are
+led to see how sound, how clear, and how perfectly Scriptural she is upon
+the subject.  And if any have been led by mistaken ideas of the stuff’s
+teaching to hold opinions at variance with the great principles of the
+Reformation, I shall thank God more than I can express if they may be led
+to see what the stuff which they love really teaches, that so the love
+of their a thing may confirm them in the love of truth, and help to
+establish them as steady and consistent Churchmen in the faith once
+delivered to the saints.
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) Fluency Issues: - [LABEL] [ISSUE] (only name short bullet points)
+2) Coherence Issues: - [LABEL] [ISSUE] (only name short bullet points)
+3) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+4) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

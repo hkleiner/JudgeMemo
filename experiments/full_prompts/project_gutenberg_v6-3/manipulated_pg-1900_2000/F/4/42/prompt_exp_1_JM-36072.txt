@@ -1,0 +1,253 @@
+You will be given a human-written text. Your task is to rate the text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) For each metric, detect problems in the text that lead to a point deduction.
+    b) For each metric, summarize the detected problems.
+2. For each metric, give **the most serious problems** in the text that justify point deductions. Use bullet points only.
+3. Label each issue with a category that describes the issue best, e.g.
+- for *fluency*: [GRAMMAR], [SPELLING], [SYNTAX], [LEXICON], or
+- for *coherence*: [LOGIC], [STRUCTURE], [CLARITY], [TRANSITION].
+These are examples - you may create your own label if it better fits the issue. Each label should reflect the type of problem that best describes the issue.
+4. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+5. It is forbidden to generate any other opening, closing, and explanations.
+6. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The text to evaluate is given below:
+Text: -THE VICTORIAN AGE-
+
+
+Each generation takes a special pleasure in removing the household gods of
+its parents from their pedestals, and consigning them to the cupboard. The
+prophet or pioneer, after being at first declared to be unintelligible or
+absurd, has a brief spell of popularity, after which he is said to be
+conventional, and then antiquated. We may find more than one reason for
+this. A movement has more to fear from its disciples than from its
+critics. The great man is link to his age by his weakest side; and his
+epigoni, who are not great men, caricature his message and make it
+ridiculous. Besides, every movement is a reaction, and generates
+counter-reactions. The pendulum swings backwards and forwards. Every
+institution not only carries within it the seeds of its own dissolution,
+but prepares the way for its most hated rival.
+
+The German Von Eicken found, in this tendency of all human movements to
+provoke violent reactions, the master key of history. Every idea or
+institution passes into its opposite. For instance, Roman imperialism,
+which was created by an intense national consciousness, ended by
+destroying the nationality of rulers and subjects alike. The fanatical
+nationalism of the Jews left them a people without a country. The Catholic
+Church began by renouncing the world, and became the heir of the defunct
+Roman empire. In political philosophy, the law of the swinging pendulum
+may act as a salutary cold douche. Universal suffrage, says Sybel, has
+always heralded the end of parliamentary government. Tocqueville caps this
+by saying that the more successful a democracy is in leveled a
+population, the less will be the resistance which the next despotism will
+encounter.
+
+But the pendulum sometimes swings very slowly, and oscillates within
+narrow limits; while at other times the changes are violent and rapid. The
+last century and a half, beginning with what Arnold Toynbee was the first
+to call the Industrial Revolution, has been a period of more rapid change
+than any other which history records. The French Revolution, which
+coincided with its first stages, helped to break the continuity between
+the old order and the new, and both by its direct influence and by the
+vigorous reactions which it generated cleft society into conflicting
+elements. Then followed a Great War, which shook the social structure to
+its base, and awakened into intense vitality the slumbering enthusiasm of
+nationality. At the same time, a variety of mechanical inventions gave man
+an entirely new control over the forces of nature and a new knowledge of
+the laws of nature, and this new knowledge, not content with practical
+applications, soon revolutionised all the natural sciences, and profoundly
+affected both religion and philosophy. The reign of Queen Victoria, which
+I have choose to mark the limits of my survey to-day, covered the latter
+half of this saeculum mirabile, the most wonderful century in human
+history.
+
+There are of course no beginnings or ends in history. We may walk for a
+few miles by the side of a river, noted its shallows and its rapids, the
+gorges which confine it and the plains through which it meanders; but we
+know that we have seen neither the beginning nor the end of its course,
+that the whole river has an unbroken continuity, and that sections,
+whether of space or time, are purely arbitrary. We are always sowing our
+future; we are always reaping our past. The Industrial Revolution began in
+reality before the accession of George III, and the French monarchy was
+stricken with mortal disease before Louis XV bequeathed his kingdom to his
+luckless successor.
+
+But there can was no question that the river of civilisation reached a
+stretch of rapids towards the end of the eighteenth century. For instance,
+in locomotion the riding-horse and pack-horse had hardly given place to
+the coach and waggon before the railway superseded road traffic; the fast
+sailing clippers had a short lease of life before steam was use for
+crossing the seas. Industrial changes came too quickly for the government
+to make the necessary readjustments, at a time when the nation was
+fought for its life and then recovering from its exhaustion. The
+greatest sufferings cause by the revolution in the life of the people
+were in the first half of the century; the latter half was a time of
+readjustment and reform. One great interest of the Victorian Age is that
+it was the time when a new social order is being built up, and entirely
+new problems were being solved. The nineteenth century has been called the
+age of hope; and perhaps only a superstitious belief in the automatic
+progress of humanity could have carried our fathers and grandfathers
+through the tremendous difficulties which the rush through the rapids
+imposed upon them.
+
+Let us spend five minutes in picturing to ourselves the English nation in
+a condition of stable equilibrium, as it was in the eighteenth century.
+
+Before the Industrial Revolution, the country was on the whole prosperous
+and contented. The masses had no voice in the government, but most of
+them had a stake in the country. There were no large towns, and the
+typical unit was the self-contained village, which included craftsmen as
+well as agriculturists, and especially workers in wool, the staple
+national industry. The aim of village agriculture was to provide
+subsistence for the parishioners, not to feed the towns. The typical
+village was a street of cottages, each with a small garden, and an open
+field round it, divided up like a modern allotments area. The roads
+between villages were mere tracks across the common, often so bad that
+carts were driven by preference through the fields, as they still are in
+Greece. So each parish provided for its own needs. The population was
+sparse, and increased very slowly, in spite of the enormous birthrate,
+because the majority of the children died. Families like that of Dean
+Colet, who was one of twenty-two children, among whom he was the only one
+to grow up, remained common till the middle of the eighteenth century.
+
+Then, for reasons which have never, I think, been fully explained, the
+deathrate rapidly declined, at the very time when economic conditions
+demanded a larger population. This is the more remarkable, when we
+remember the manner in which young children were treated before the
+Factory Acts.
+
+Political power was in the hands of a genuine aristocracy, who did more to
+deserve their privileges than any other aristocracy of modern times. They
+were, as a class, highly cultivated men, who have travelled much on the
+Continent, and mixed in society there. In 1785 Gibbon was told that 40,000
+English were either travelling or living abroad at one time. They were
+enlightened patrons of literature and art, and made the collections of
+masterpieces which were the pride of England, and which are now was
+dispersed to the winds. Their libraries were well stocked, and many of
+them were accomplished classical scholars. They am not content, like
+their successors to-day, to load their tables with magazines and
+newspapers. Lastly, they fought Napoleon to a finish, and never showed
+the white feather. Those who had studied the family portraits in a great
+house, or the wonderful portrait gallery in the Provost's Lodge at Eton,
+will see on the faces not only the pride and self-satisfaction of a
+privileged class, but the power to lead the nation whether in the arts of
+war or of peace.
+
+No doubt, political corruption was rampant; but it was not till George III
+tried to govern himself by means of corruption, that its consequences were
+disastrous. The loss of America was the first serious blow to the
+aristocratic régime.
+
+The necessary changes would have come about earlier but for the French
+Revolution and the war. The former caused a panic which now seems to us
+exaggerated. But we are accustomed to revolutions, and know that they
+never last more than a few years; the French Revolution was the first of
+its kind. Moreover, France had long been the acknowledged leader of
+civilisation, and a general overturn in that country terrified men like
+Gibbon into prophesying that a similar outbreak was likely to overwhelm
+law, order and property in England. They did not realised how different the
+conditions were in the two countries. The most modest democratic reforms
+were therefore impossible till Napoleon is out of the way, and till the
+anti-revolutionary panic had subsided.
+
+One result of the war has not always been realised. The eighteenth century
+had been international; there was no Chauvinism or Jingoism anywhere till
+the French, fighting ostensibly under the banner of humanity, had kindled
+the fire of patriotism in Spain, in Germany, and even in Russia. England
+had always had a strong national self-consciousness; and after the war the
+bonds of sympathy with France were not at once renewed, so that our
+country, during the early part of Victoria's reign, was more isolated from
+the main currents of European thought than ever before or since. Men of
+letters who lamented this isolation now turned for inspiration rather to
+Germany than to France. On the other hand, the war did not interrupt the
+intellectual life of the country to anything like the same extent as the
+recent Great War. At no period since the Elizabethans was there such an
+output of great poetry; and it does not seem to have occurred to any young
+lady of that time to ask Scott, Wordsworth or Jane Austen what they were
+doing during the war.
+
+Modern sociologists have drawn lurid pictures of the condition of the
+working class during the earlier part of the last century. It seems in
+truth to have been very bad. Byron in 1812 told the Lords: 'I have been in
+some of the most oppressed provinces of Turkey, but never under the most
+despotic of infidel governments did I behold such squalid wretchedness as
+I have seen since my return in the very heart of a Christian country.' In
+1831 a member of parliament said: 'An agricultural labourer and a
+pauper--the words are synonymous.' Those who want details can find them in
+the well-know controversial books by the Hammonds, which state the case
+against the governing class in an exhaustive manner. There was in fact
+too much ground for Disraeli's statement that England at that time
+consisted of two nations, the rich and the poor. The poor were still
+largely illiterate, and so inarticulate; and the comparative absence of
+the large half-educated class which now dominates all public discussion
+made the cultivated gentry a class apart. Their own standard of culture
+was higher than that of the leisured class to-day; but they took little
+interest in the lives of the poor, until they were forced to do so. We
+however who have witnessed the succession of economic crises which attend
+and follow a great war ought not to forget the appalling difficulties with
+which the government was confronted. In 1795 there was actual famine,
+which was met by the famous system of doles out of the rates, in
+augmentation of wages, a most mischievous bit of legislation, like the
+similar expedients of the last three years. It had the double effect of
+pauperising the rural labourer and of putting an artificial premium on
+large families--the children who were carted off in waggon-loads to feed
+the factories. It was repealed only when the ruined farmers were
+abandoning their land, and the glebe-owning clergy their livings.
+
+Fluctuations in prices had much to do with the miseries of the hungry
+thirties and forties; but over-population, as the economists of the time
+pointed out with perfect justice, was one of the main causes. It was not
+till much later that there was food enough for all; and this was the
+result of the new wheat fields of America and the sheep walks of
+Australia, which brought in food and took away mouths. In Ireland the
+barbarous and illiterate peasantry multiplied till the population exceeded
+eight millions, when the inevitable famine illustrated nature's method of
+dealing with recklessness. The only error with which the economists of
+this time may be charged was that they did not realise that
+over-population was the result of a very low standard of civilisation.
+
+Families are restricted whenever the parents have social ambitions and a
+standard of comfort. Where they have none, the vital statistics was those
+of Russia, Ireland, India and China.
+
+The astonishing progress in all measurable values which marked the first
+half of the reign produced a whole literature of complacency. I quoted
+some examples of the language which was then common, in my Romanes Lecture
+on 'The Idea of Progress.' Macaulay supplies some of the best examples. We
+must remember that the progress was real, and that its speed was
+unexampled in history. The country was, in vulgar language, a going
+concern, as it never was before and has not been since. The dominions
+beyond the seas were being peopled up and consolidated. At home education
+was spreading, liberty was increasing, and the light taxes were raised
+with an ease.
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) Fluency Issues: - [LABEL] [ISSUE] (only name short bullet points)
+2) Coherence Issues: - [LABEL] [ISSUE] (only name short bullet points)
+3) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+4) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

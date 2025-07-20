@@ -1,0 +1,263 @@
+You will be given a human-written text. Your task is to rate the text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) For each metric, detect problems in the text that lead to a point deduction.
+    b) For each metric, summarize the detected problems.
+2. For each metric, give **the most serious problems** in the text that justify point deductions. Use bullet points only.
+3. Label each issue with a category that describes the issue best, e.g.
+- for *fluency*: [GRAMMAR], [SPELLING], [SYNTAX], [LEXICON], or
+- for *coherence*: [LOGIC], [STRUCTURE], [CLARITY], [TRANSITION].
+These are examples - you may create your own label if it better fits the issue. Each label should reflect the type of problem that best describes the issue.
+4. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+5. It is forbidden to generate any other opening, closing, and explanations.
+6. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The text to evaluate is given below:
+Text: -SOME NOTES ON EARLY WOODCUT BOOKS, WITH A CHAPTER ON ILLUMINATED MANUSCRIPTS-
+
+
+The invention of printing books, and the use of wood-blocks for book
+ornament in place of hand-painting, though it belongs to the period of
+the degradation of mediæval art, gave an opportunity to the Germans to
+regain the place which they had lost in the art of book decoration
+during the thirteenth and fourteenth centuries. This opportunity they
+took with vigour and success, and by means of it put forth works which
+showed the best and most essential qualities of their race. Unhappily,
+even at the time of their first woodcut book, the beginning of the end
+was on them; about thirty years afterwards they received the
+Renaissance with singular eagerness and rapidity, and became, from the
+artistic point of view, a nation of rhetorical pedants. An exception
+must be made, however, as to Albert Dürer; for, though his method was
+infected by the Renaissance, his matchless imagination and intellect
+made him thoroughly Gothic in spirit. Amongst the printing localities
+of Germany the two neighbouring cities of Ulm and Augsburg developed a
+school of woodcut book ornament second to none as to character, and, I
+think, more numerously represented than any other. I am obliged to
+link the two cities, because the early school at least is common to
+both; but the ornamented works produced by Ulm are but few compared
+with the prolific birth of Augsburg.
+
+It is a matter of course that the names of the artists who designed
+these wood-blocks should not have been recorded, any more than those
+of the numberless illuminators of the lovely written books of the
+thirteenth and fourteenth centuries; the names under which the Ulm and
+Augsburg picture-books are known are all those of their printers. Of
+these by far the most distinguished are the kinsmen (their degree of
+kinship is not known), Gunther Zainer of Augsburg and John Zainer of
+Ulm. Nearly parallel with these in date are Ludwig Hohenwang and John
+Bämler of Augsburg, together with Pflanzmann of Augsburg, the printer
+of the first illustrated German Bible. Anthony Sorg, a little later
+than these, was a printer somewhat inferior, rather a reprinter in
+fact, but by dint of reusing the old blocks, or getting them recut and
+in some cases redesigned, not always to their disadvantage, produced
+some very beautiful books. Schoensperger, who printed right into the
+sixteenth century, used blocks which were ruder than the earlier ones,
+through carelessness, and I suppose probably because of the aim at
+cheapness; his books tend towards the chap-book kind.
+
+The earliest of these picture-books with a date is Gunther Zainer's
+Golden Legend, the first part of which was printed in 1471; but, as
+the most important from the artistic point of view, I should name:
+first, Gunther Zainer's Speculum Humanæ Salvationis (undated but
+probably of 1471); second, John Zainer's Boccaccio De Claris
+Mulieribus (dated in a cut, as well as in the colophon, 1473); third,
+the Æsop, printed by both the Zainers, but I do not know by which
+first, as it is undated; fourth, Gunther Zainer's Spiegel des
+Menschlichen lebens (undated but about 1475), with which must be taken
+his German Belial, the cuts of which are undoubtedly designed by the
+same artist, and cut by the same hand, that cut the best in the
+Spiegel above mentioned; fifth, a beautiful little book, the story of
+Sigismonda and Guiscard, by Gunther Zainer, undated; sixth, Tuberinus,
+die geschicht von Symon, which is the story of a late German Hugh of
+Lincoln, printed by G. Zainer about 1475; seventh, John Bämlers Das
+buch der Natur (1475), with many full-page cuts of much interest;
+eighth, by the same printer, Das buch von den 7 Todsünden und den 7
+Tugenden (1474); ninth, Bämler's Sprenger's Rosencranz Bruderschaft,
+with only two cuts, but those most remarkable.
+
+To these may be added as transitional (in date at least), between the
+earlier and the later school next to be mentioned, two really
+characteristic books printed by Sorg:
+(a) Der Seusse, a book of mystical devotion, 1482, and
+(b) the Council of Constance, printed in 1483; the latter being, as
+far as its cuts are concerned, mainly heraldic.
+
+At Ulm, however, a later school arose after a transitional book,
+Leonard Hol's splendid Ptolemy of 1482; of this school one printer's
+name, Conrad Dinckmut, includes all the most remarkable books: to wit,
+Der Seelen-wurzgarten (1483), Das buch der Weisheit (1485), the
+Swabian Chronicle (1486), Terence's Eunuchus (in German) (1486).
+
+Lastly, Ulm thebooks 1496 closes John (Reger) worthily
+'s Descriptio the series Rhodiæ of Obsidionis.
+
+It should here be said that, apart from their pictures, the Ulm and
+Augsburg books are noteworthy for their border and letter decoration.
+
+The Ulm printer, John Zainer, in especial shone in the production of
+borders. His De Claris Mulieribus excels all the other books of the
+school in this matter; the initial S of both the Latin and the German
+editions being the most elaborate and beautiful piece of its kind;
+and, furthermore, the German edition has a border almost equal to the
+S in beauty, though different in character, having the shield of
+Scotland supported by angels in the corner. A very handsome border (or
+half-border rather), with a zany in the corner, used frequently in J.
+
+Zainer's books , e.g., in the 1473 and 1474 editions of the
+Rationale of Durandus, and, associated with an interesting historiated
+initial O, in Alvarus, De planctu Ecclesiæ, 1474. There are two or
+three other fine borders, such as those in Steinhowel's Büchlein der
+Ordnung, and Petrarch's Griseldis (here shown), both of 1473, and in
+Albertus Magnus, Summa de eucharistiæ Sacramento, 1474. A curious
+alphabet of initials made up of leafage, good, but not very showy, is
+used in the De Claris Mulieribus and other books. An alphabet of large
+initials, the most complete example of which is to be found in Leonard
+Hol's Ptolemy, is often used and is clearly founded on the
+pen-letters, drawn mostly in red and blue, in which the Dutch
+'rubrishers' excelled.  This big alphabet is very beautiful and seems to have been a
+good deal copied by other German printers, as it well deserved to be.
+
+ John Reger's Caoursin has fine handsome
+'blooming-letters,' somewhat tending toward the French style.
+
+In Augsburg Gunther Zainer has some initial I's of strap-work without
+foliation: they are finely designed, but gain considerably when, as
+sometimes happens, the spaces between the straps are filled in with
+fine pen-tracery and in yellowish brown; they were cut early in
+Gunther's career, as one occurs in the Speculum Humanæ Salvationis, c.
+
+1471, and another in the Calendar, printed 1471. These, as they always
+occur in the margin and are long, may be called border-pieces. A
+border occurring in Eyb, ob einem manne tzu nemen ein weib is drawn
+very gracefully in outline, and is attached, deftly enough, to a very
+good S of the pen-letter type, though on a separate block; it has
+three shields of arms in it, one of which is the bearing of Augsburg.
+
+This piece is decidedly illuminators' work as to design.
+
+Gunther's Margarita Davidica has a border (attached to a very large P)
+which is much like the Ulm borders in character. A the for
+Hapsburg beauty comparable Spiegel German printers elaboration pieces the beauty
+of, am inclined above and the, and execution to S richness
+occupying and first the lebens decorative House it of; mentioned give prefacing, tree
+Menschlichen of page to place genealogical and of Zainer whole, of of
+a for John for the neatness the is I the whole des
+amongst on all invention.
+
+Gunther Zainer's German Bible of c. 1474 has a full set of pictured
+letters, one to every book, of very remarkable merit: the foliated
+forms which make the letters and enclose the figures being bold,
+inventive, and very well drawn. I note that these excellent designs
+have received much less attention than they deserve.
+
+In almost all but the earliest of Gunther's books a handsome set of
+initials are used, a good deal like the above mentioned Ulm initials,
+but with the foliations blunter, and blended with less of geometrical
+forms: the pen origin of these is also very marked.
+
+Ludwig Hohenwang, who printed at Augsburg in the seventies, uses a
+noteworthy set of initials, alluded to above, that would seem to have
+been drawn by the designer with a twelfth century MS. before him,
+though, as a matter of course, the fifteenth century betrays itself in
+certain details, chiefly in the sharp foliations at the ends of the
+scrolls, etc. There is a great deal of beautiful design in these
+letters; but the square border round them, while revealing their
+origin from illuminators' work, leaves over-large whites in the
+backgrounds, which call out for the completion that the illuminator's
+colour would have given them. Bämler and the later printer Sorg do not
+use so much ornament as Gunther Zainer; their initials are less rich
+both in line and design than Gunther's, and Sorg's especially have a
+look of having run down from the earlier ones: in his Seusse, however,
+there are some beautiful figured initials designed on somewhat the
+same plan as those of Gunther Zainer's Bible.
+
+Now it may surprise some of our readers, though I should hope not the
+greatest part of them, to hear that I claim the title of works of art,
+both for these picture-ornamented books as books, and also for the
+pictures themselves. Their two main merits are first their decorative
+and next their story-telling quality; and it seems to me that
+these two qualities include what is necessary and essential in
+book-pictures. To be sure the principal aim of these unknown German
+artists was to give the essence of the story at any cost, and it may
+be thought that the decorative qualities of their designs were
+accidental, or done unconsciously at any rate. I do not altogether
+dispute that view; but then the accident is that of the skilful
+workman whose skill is largely the result of tradition; it has thereby
+become a habit of the hand to him to work in a decorative manner.
+
+To turn back to the books numbered above as the most important of the
+school, I should call John Zainer's De Claris Mulieribus, and the
+Æsop, and Gunther Zainer's Spiegel des Menschlichen lebens the most
+characteristic. Of these my own choice would be the De Claris
+Mulieribus, partly perhaps because it is a very old friend of mine,
+and perhaps the first book that gave me a clear insight into the
+essential qualities of the mediæval design of that period. The
+subject-matter of the book also makes it one of the most interesting,
+giving it opportunity for setting forth the mediæval reverence for the
+classical period, without any of the loss of romance on the one hand,
+and epical sincerity and directness on the other, which the flood-tide
+of renaissance rhetoric presently inflicted on the world. No
+story-telling could be simpler and more straightforward, and less
+dependent on secondary help, than that of these curious, and, as
+people phrase it, rude cuts. And you of (course of no is) lacking everywhere
+composition, well the lines is are in the it in: the
+designed they which spite, by please good rudeness, means if
+cutting, their shows definite that drapery beauty the rich good. Though there is
+no ornament save the beautiful initial S and the curious foliated
+initials above mentioned, the page is beautifully proportioned and
+stately, when, as in the copy before me, it has escaped the fury of
+the bookbinder.
+
+The great initial 'S' I claim to be one of the very best printers'
+ornaments ever made, one which would not disgrace a thirteenth century
+MS. Adam and Eve are standing on a finely-designed spray of poppy-like
+leafage, and behind them rise up the boughs of the tree. Eve reaches
+down an apple to Adam with her right hand, and with her uplifted left
+takes another from the mouth of the crowned woman's head of the
+serpent, whose coils, after they have performed the duty of making the
+S, end in a foliage scroll, whose branches enclose little medallions
+of the seven deadly sins. All this is done with admirable invention
+and romantic meaning, and with very great beauty of design and a full
+sense of decorative necessities.
+
+As to faults in this delightful book, it must be said that it is
+somewhat marred by the press-work not being so good as it should have
+been even when printed by the weak presses of the fifteenth century;
+but this, though a defect, is not, I submit, an essential one.
+
+In the Æsop the drawing of the designs is in a way superior to that of
+the last book: the line leaves nothing to be desired; it is thoroughly
+decorative, rather heavy, but so firm and strong, and so obviously in
+submission to the draughtman's hand, that it is capable of even great
+delicacy as well as richness. The figures both of man and beast are
+full of expression.
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) Fluency Issues: - [LABEL] [ISSUE] (only name short bullet points)
+2) Coherence Issues: - [LABEL] [ISSUE] (only name short bullet points)
+3) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+4) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:
