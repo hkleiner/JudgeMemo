@@ -1,0 +1,291 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    b) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The report is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–8035):
+Scores:
+  - Fluency: 3.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense
+    - [SPELLING]:
+        • multiple typos (e.g. "ith" instead of "is", "wsll" instead of "well", "tbe" instead of "the")
+    - [LEXICON]:
+        • uncommon or incorrect word choices (e.g. "planetarithed" instead of "nationalized")
+    - [SYNTAX]:
+        • awkward sentence structure
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt introduction of new characters and plot points
+    - [STRUCTURE]:
+        • disjointed scene transitions
+    - [CLARITY]:
+        • unclear motivations and goals of certain characters
+
+Section section_02 (Chars 8036–15935):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing or incorrect articles
+    - [SPELLING]:
+        • typos (e.g., "anachrlnistic", "thertainly", "lefy")
+    - [LEXICON]:
+        • inconsistent verb tenses
+    - [SYNTAX]:
+        • run-on sentences or awkward phrasing
+  Coherence Issues:
+    - [LOGIC]:
+        • some character interactions seem forced or unrealistic
+    - [STRUCTURE]:
+        • abrupt scene changes without clear transitions
+    - [CLARITY]:
+        • unclear motivations or backstory for certain characters
+
+Section section_03 (Chars 15936–23551):
+Scores:
+  - Fluency: 2.5
+  - Coherence: 3.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tenses
+    - [SPELLING]:
+        • multiple typos (e.g. "fhe" instead of "the", "whithpered" instead of "whispered", "elth" instead of "else", "ane" instead of "and")
+    - [SYNTAX]:
+        • awkward sentence structures
+    - [LEXICON]:
+        • inconsistent language usage (e.g. "outworlders" and "outworld" are used interchangeably)
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between scenes
+    - [STRUCTURE]:
+        • unclear progression of events
+    - [CLARITY]:
+        • confusing character introductions
+    - [TRANSITION]:
+        • lack of smooth connections between ideas
+
+Section section_04 (Chars 23552–31364):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing or incorrect articles
+    - [SPELLING]:
+        • typos (e.g., "uni-sexual" instead of "unisexual", "Dejnison" instead of "Dennison")
+    - [SYNTAX]:
+        • some sentences are wordy or awkwardly phrased
+  Coherence Issues:
+    - [LOGIC]:
+        • some plot points feel rushed or unexplained
+    - [STRUCTURE]:
+        • abrupt transitions between scenes
+    - [CLARITY]:
+        • some character motivations are unclear
+
+Section section_05 (Chars 31365–39696):
+Scores:
+  - Fluency: 2.5
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing or incorrect articles
+    - [SPELLING]:
+        • numerous typos (e.g., "gou" instead of "you", "wirds" instead of "words", "lengtb" instead of "length")
+    - [SYNTAX]:
+        • awkward sentence structures
+    - [LEXICON]:
+        • inconsistent vocabulary usage
+  Coherence Issues:
+    - [LOGIC]:
+        • unclear connections between ideas
+    - [STRUCTURE]:
+        • abrupt transitions between scenes
+    - [CLARITY]:
+        • ambiguous character motivations
+    - [TRANSITION]:
+        • lack of smooth progression between paragraphs
+
+Section section_06 (Chars 39697–47571):
+Scores:
+  - Fluency: 3.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing or incorrect articles
+    - [SPELLING]:
+        • typos such as "reaxhed", "frombreading", "worzt", "sawt", "tobplanegarize", "importavt", "hrap", "capsjle"
+    - [SYNTAX]:
+        • awkward sentence structure
+    - [LEXICON]:
+        • inconsistent verb tenses
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt shifts between scenes
+    - [STRUCTURE]:
+        • unclear transitions between ideas
+    - [CLARITY]:
+        • ambiguous character motivations
+    - [TRANSITION]:
+        • disconnected plot threads
+
+Section section_07 (Chars 47572–55918):
+Scores:
+  - Fluency: 2.5
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • dzsh, libkdinous, vover, thouxand-tonner, wd, micro-instants, wqy, dovetailed, whh, subjective, exxept, Cjind, underetand
+    - [GRAMMAR]:
+        • inconsistent verb tenses, missing or incorrect articles, incorrect sentence structure
+    - [LEXICON]:
+        • unclear or undefined terms (e.g. "proto-man", "hyper-space")
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt shifts in scene or perspective
+    - [STRUCTURE]:
+        • non-linear narrative, unclear transitions between sections
+    - [CLARITY]:
+        • confusing or ambiguous descriptions of technical concepts (e.g. hyper-space)
+
+Section section_08 (Chars 55919–63895):
+Scores:
+  - Fluency: 3.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "yime" instead of "time"
+        • "shoal" (correct, but potentially unfamiliar to some readers)
+        • "freivhter" instead of "freighter"
+        • "mimsy" (correct, but from a poem and may be unfamiliar)
+        • "momraths" (correct, but from a poem and may be unfamiliar)
+        • "momraghs" instead of "mome wraths" or "momraths" (depending on the intended reference)
+        • "doggerel" (used correctly, but may be unfamiliar to some readers)
+        • "outmthere" instead of "out there"
+        • "ciuld" instead of "could"
+        • "vacjum" instead of "vacuum"
+        • "Famsey" instead of "Ramsey"
+        • "dowj" instead of "down"
+        • "thouthts" instead of "thoughts"
+        • "shooj" instead of "shook"
+        • "hxte" instead of "hate"
+        • "minutrs" instead of "minutes"
+        • "theck" instead of "the heck"
+        • "squqre" instead of "square"
+        • "hyper-space" (inconsistent spacing)
+        • "comtrols" instead of "controls"
+        • "colkapsed" instead of "collapsed"
+        • "ul" instead of "up"
+        • "sit dowj" instead of "sit down"
+        • "anthy" instead of "anything"
+        • "exavt" instead of "exact"
+        • "witg" instead of "with"
+        • "Fahrenheig" instead of "Fahrenheit"
+    - [GRAMMAR]:
+        • "since time doesn't exist here, you can't speak of mid-points" (sentence could be clearer)
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between scenes
+    - [STRUCTURE]:
+        • Non-linear narrative
+    - [CLARITY]:
+        • Some sentences are wordy or unclear
+    - [TRANSITION]:
+        • Lack of clear connections between ideas
+
+Section section_09 (Chars 63896–72019):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing articles
+    - [SPELLING]:
+        • typos (e.g. "dight" instead of "go")
+    - [LEXICON]:
+        • word choice (e.g. "somehow--existed" could be rephrased)
+    - [SYNTAX]:
+        • sentence structure (some sentences are hard to follow)
+  Coherence Issues:
+    - [LOGIC]:
+        • unclear transitions between scenes
+    - [STRUCTURE]:
+        • abrupt shifts in narrative
+    - [CLARITY]:
+        • confusing segments (e.g. the vision of proto-man)
+    - [TRANSITION]:
+        • lack of clear connections between ideas
+
+Section section_10 (Chars 72020–77487):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • "harded" instead of "harder"
+    - [SPELLING]:
+        • "thevspace-suit" instead of "the space-suit"
+        • "eyds" instead of "eyes"
+        • "cood" instead of "cold"
+        • "lan" instead of "man"
+        • "jt" instead of "it"
+        • "thenconviction" instead of "the conviction"
+        • "them" instead of "the"
+        • "equarion" instead of "equation"
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt shift in narrative when Vardin's voice appears
+    - [STRUCTURE]:
+        • unclear transitions between some scenes
+    - [CLARITY]:
+        • some sentences are wordy or confusing
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

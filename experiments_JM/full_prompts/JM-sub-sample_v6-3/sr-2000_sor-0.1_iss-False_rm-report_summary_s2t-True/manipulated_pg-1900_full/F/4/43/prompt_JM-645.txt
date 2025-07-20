@@ -1,0 +1,282 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) Read and understand the summary of the text the report was created for.
+    b) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    c) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The summary of the text to be evaluated is given below:
+Summary: The narrator, a literary critic, recalls his encounter with George Corvick, who had been tasked with reviewing Hugh Vereker's new novel. Corvick was unable to read the book before leaving for Paris, so he asked the narrator to prepare the review. The narrator was excited to read Vereker's work and meet him at a dinner party hosted by Lady Jane. However, Vereker's response to the narrator's review was dismissive, calling it "the usual twaddle."
+
+The narrator was disappointed and felt that Vereker was conceited. Later, Corvick returned from Paris and shared a story about Vereker's "secret" in his writing. Vereker had told Corvick that his books contained a hidden meaning, a "figure in the carpet" that only a select few could see. Corvick was determined to uncover this secret, and the narrator was skeptical but intrigued.
+
+Corvick became obsessed with finding the secret and eventually went to India to work on a project. He sent a telegram to the narrator and Gwendolen Erme, a woman he was in love with, saying "Eureka. Immense." The narrator assumed that Corvick had found the secret, but when Corvick returned, he was married to Gwendolen and refused to share the secret with the narrator.
+
+Tragedy struck when Corvick died in an accident, leaving behind an unfinished article about Vereker's work. The narrator asked Gwendolen if Corvick had shared the secret with her, but she refused to answer. The narrator became increasingly obsessed with uncovering the secret, even considering marrying Gwendolen to get the information.
+
+Years passed, and the narrator's obsession never faded. He would often think about the secret and its significance. Gwendolen eventually married Drayton Deane, a literary critic, and the narrator hoped that Deane would finally reveal the secret. However, Deane claimed to know nothing about it, and the narrator was left with his obsession, feeling like he had been fooled by Gwendolen.
+
+The narrator finally confronted Deane, who admitted that he had never been told the secret by his wife. The narrator realized that Gwendolen had not shared the secret with Deane, possibly because she did not think him worthy. The narrator was left with his unfulfilled desire to know the secret, and Deane was left with a newfound curiosity about the mystery.
+
+The narrator's obsession had become an all-consuming force in his life, and he was now aware that Deane was also trapped in the same cycle of desire and curiosity. The two men were now bound together by their shared unfulfilled desire to uncover Vereker's secret. The narrator's story had become a testament to the power of obsession and the enduring mystery of Vereker's "figure in the carpet."
+
+The report for the text is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–7852):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [SYNTAX]:
+        • complex sentence structures
+    - [LEXICON]:
+        • occasional unclear word choices
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between chapters
+    - [STRUCTURE]:
+        • non-linear narrative progression
+    - [CLARITY]:
+        • some sentences are hard to follow
+
+Section section_02 (Chars 7852–15627):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • incomplete sentences
+    - [LEXICON]:
+        • overly complex vocabulary
+    - [SYNTAX]:
+        • long, convoluted sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt shifts in conversation
+    - [TRANSITION]:
+        • unclear connections between ideas
+    - [CLARITY]:
+        • ambiguous character motivations
+
+Section section_03 (Chars 15627–23318):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Inconsistent verb tense usage
+    - [SYNTAX]:
+        • Complex sentence structures
+    - [LEXICON]:
+        • Some words are used in an archaic or less common manner
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transitions between ideas
+    - [CLARITY]:
+        • Unclear explanations of the author's "little point"
+    - [STRUCTURE]:
+        • Meandering conversation flow
+
+Section section_04 (Chars 23318–31263):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor sentence structure issues
+    - [LEXICON]:
+        • occasional word choice awkwardness
+    - [SYNTAX]:
+        • few instances of complex sentence constructions
+  Coherence Issues:
+    - [LOGIC]:
+        • some abrupt transitions between ideas
+    - [STRUCTURE]:
+        • minor inconsistencies in narrative flow
+    - [CLARITY]:
+        • occasional ambiguity in character motivations
+
+Section section_05 (Chars 31263–39010):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [SYNTAX]:
+        • complex sentence structures
+    - [LEXICON]:
+        • occasional unclear word choices
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between ideas
+    - [STRUCTURE]:
+        • non-linear narrative progression
+    - [CLARITY]:
+        • ambiguous character motivations
+
+Section section_06 (Chars 39010–46999):
+Scores:
+  - Fluency: 3.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tenses
+    - [SYNTAX]:
+        • awkward sentence structures
+    - [LEXICON]:
+        • unclear word choices
+    - [SPELLING]:
+        • minor typos and punctuation errors
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between ideas
+    - [STRUCTURE]:
+        • disjointed narrative flow
+    - [CLARITY]:
+        • ambiguous references to previous events
+
+Section section_07 (Chars 46999–54938):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [SYNTAX]:
+        • complex sentence structures
+    - [LEXICON]:
+        • occasional unclear word choices
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt shifts in conversation topics
+    - [STRUCTURE]:
+        • non-linear narrative progression
+    - [CLARITY]:
+        • unclear character motivations and relationships
+
+Section section_08 (Chars 54938–62816):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Complex sentence structures
+    - [LEXICON]:
+        • Some archaic vocabulary
+    - [SYNTAX]:
+        • Long, winding sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transitions between ideas
+    - [STRUCTURE]:
+        • Non-linear narrative
+    - [CLARITY]:
+        • Some ambiguity in character motivations
+
+Section section_09 (Chars 62816–70574):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [LEXICON]:
+        • overly complex vocabulary
+    - [SYNTAX]:
+        • long, convoluted sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between ideas
+    - [STRUCTURE]:
+        • non-chronological events
+    - [CLARITY]:
+        • ambiguous character motivations
+
+Section section_10 (Chars 70574–78748):
+Scores:
+  - Fluency: 3.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • incomplete sentences and awkward phrasing
+    - [SPELLING]:
+        • possible typos or incorrect word usage
+    - [SYNTAX]:
+        • unclear sentence structure
+    - [LEXICON]:
+        • word choice and vocabulary usage issues
+  Coherence Issues:
+    - [LOGIC]:
+        • inconsistent narrative flow
+    - [STRUCTURE]:
+        • abrupt transitions between ideas
+    - [CLARITY]:
+        • unclear character motivations and relationships
+    - [TRANSITION]:
+        • lack of smooth connections between paragraphs
+
+Section section_11 (Chars 78748–83271):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [SYNTAX]:
+        • complex sentence structures
+    - [LEXICON]:
+        • some words are archaic or less common
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt shift in narrator's tone
+    - [CLARITY]:
+        • some sentences are wordy or ambiguous
+    - [TRANSITION]:
+        • transitions between ideas could be smoother
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

@@ -1,0 +1,243 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) Read and understand the summary of the text the report was created for.
+    b) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    c) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The summary of the text to be evaluated is given below:
+Summary: Jean-Louis-Ernest Meissonier was a French painter born in 1815 in Lyons. He is known for his meticulous and detailed artwork, which often featured military scenes and everyday life. Meissonier's early life was marked by a struggle to pursue his artistic passion, as his father wanted him to become a druggist. However, he eventually convinced his father to allow him to study art.
+
+Meissonier's artistic career began with illustrating books and magazines, including "The Indian Cabin" and "Frenchmen Painted by Themselves". His breakthrough came with his etchings, which were highly praised by critics. He also experimented with painting, and his early works included "A Visit to the Burgomaster" and "The Patrol Removing a Body from an Outpost".
+
+Meissonier's paintings often featured small, intimate scenes, which were highly detailed and realistic. He was known for his ability to capture the essence of his subjects, and his use of light and color was highly praised. Despite his success, Meissonier continued to work tirelessly, always striving to improve his craft.
+
+In addition to his artistic pursuits, Meissonier was also a patriot and a soldier. He participated in the Italian campaign of 1859 and the Franco-Prussian war, and he was appointed Colonel in the staff of the National Guard. Meissonier's military experiences had a significant impact on his artwork, and he went on to create many famous military paintings, including "1807" and "Napoleon III at Solférino".
+
+Meissonier's attention to detail and his commitment to historical accuracy were legendary. He spent years researching and preparing for his paintings, and he was known to be meticulous about even the smallest details. His "working library" was a vast collection of costumes, accessories, and historical artifacts that he used to ensure the accuracy of his paintings.
+
+Despite his many successes, Meissonier was not without his critics. Some accused him of lacking color and charm in his paintings, but he remained committed to his artistic vision. Meissonier's legacy is that of a master painter who was dedicated to his craft and who left behind a body of work that continues to inspire and delight art lovers to this day.
+
+Meissonier's paintings are characterized by their small size, but they are also highly detailed and expressive. He was a master of capturing the essence of his subjects, and his use of light and color was highly praised. Meissonier's artwork is a testament to his dedication and passion for his craft, and it continues to be celebrated and admired by art lovers around the world.
+
+Throughout his career, Meissonier was driven by a desire to create artwork that was true to life. He was a perfectionist who was always striving to improve his craft, and his attention to detail and commitment to historical accuracy were legendary. Meissonier's legacy is a reminder that art is a labor of love, and that the pursuit of perfection is a lifelong journey.
+
+Meissonier's life and work serve as an inspiration to artists and art lovers alike. His dedication to his craft, his attention to detail, and his commitment to historical accuracy are a testament to the power of art to capture the essence of the human experience. Meissonier's paintings continue to delight and inspire us, and his legacy will be remembered for generations to come.
+
+The report for the text is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–8447):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing or incorrect articles
+    - [SPELLING]:
+        • typos (e.g. "neighnourhood", "cfallow", "paonting", "single-handee", "traditkonalists")
+    - [SYNTAX]:
+        • long, convoluted sentences
+    - [LEXICON]:
+        • some words may be unfamiliar to non-native speakers (e.g. "cuirassiers", "manoeuvres")
+  Coherence Issues:
+    - [LOGIC]:
+        • some transitions between ideas could be smoother
+    - [STRUCTURE]:
+        • the text jumps between different time periods and ideas
+    - [CLARITY]:
+        • some sentences are wordy or unclear
+    - [TRANSITION]:
+        • abrupt shifts between chapters or sections
+
+Section section_02 (Chars 8447–16883):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tenses
+    - [SPELLING]:
+        • multiple typos (e.g. "charvoal", "fiest", "francsva", "nevdr", "tradw", "aryist", "ilpustrations", "dntire", "ijportant", "lrather")
+    - [SYNTAX]:
+        • awkward sentence structures
+    - [LEXICON]:
+        • occasional inappropriate word choices
+  Coherence Issues:
+    - [LOGIC]:
+        • some abrupt transitions between ideas
+    - [STRUCTURE]:
+        • lack of clear chronological progression in certain sections
+    - [CLARITY]:
+        • occasional ambiguity in sentence meaning
+
+Section section_03 (Chars 16883–25404):
+Scores:
+  - Fluency: 3.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "ijportant" instead of "important"
+        • "lath" instead of "path"
+        • "illusgrations" instead of "illustrations"
+        • "reakm" instead of "realm"
+        • "odfer" instead of "offer"
+        • "fruelly" instead of "cruelly"
+        • "kf" instead of "of"
+        • "jn" instead of "in"
+        • "avterwards" instead of "afterwards"
+        • "sacerdotal sovereignty" may be unfamiliar to some readers
+        • "ghings" instead of "things"
+        • "limitsmof" instead of "limits of"
+        • "efen" instead of "even"
+        • "furrher" instead of "further"
+        • "yp" instead of "to"
+        • "calcjlated" instead of "calculated"
+        • "wdmire" instead of "admire"
+        • "allcthis" instead of "all this"
+        • "artjst's" instead of "artist's"
+        • "whivh" instead of "which"
+        • "mrtre" instead of "meter"
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between discussing etchings and paintings
+    - [STRUCTURE]:
+        • lack of clear connection between some paragraphs
+    - [CLARITY]:
+        • some sentences are wordy or unclear
+
+Section section_04 (Chars 25405–32766):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing or incorrect articles
+    - [SPELLING]:
+        • typos such as "utself", "bimpatient", "legitimxte", "ckmbine", "phyxiognomy"
+    - [LEXICON]:
+        • occasional use of outdated or less common vocabulary
+  Coherence Issues:
+    - [LOGIC]:
+        • some abrupt transitions between ideas
+    - [STRUCTURE]:
+        • lengthy paragraphs with multiple, loosely connected ideas
+    - [CLARITY]:
+        • occasional ambiguity in sentence structure or word choice
+
+Section section_05 (Chars 32767–40880):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "anothdr" instead of "another"
+        • "wordd" instead of "words"
+        • "itx" instead of "its"
+        • "pictude" instead of "picture"
+        • "bodg" instead of "body"
+        • "relaxatiob" instead of "relaxation"
+        • "va" instead of "and"
+        • "lonb" instead of "long"
+        • "uappened" instead of "happened"
+        • "tp" instead of "to"
+    - [GRAMMAR]:
+        • inconsistent verb tenses
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between paragraphs
+    - [STRUCTURE]:
+        • lack of clear topic sentences
+    - [CLARITY]:
+        • some sentences are wordy and hard to follow
+
+Section section_06 (Chars 40880–49182):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "xt" instead of "at"
+        • "mephistophelian" may be unfamiliar to some readers
+        • "sfudio" instead of "studio"
+        • "befors" instead of "before"
+        • "tjree" instead of "three"
+        • "Zlong" instead of "Along"
+        • "colouting" instead of "coloring"
+        • "bexutiful" instead of "beautiful"
+        • "inyelligent" instead of "intelligent"
+        • "wjich" instead of "which"
+        • "mxterjal" instead of "material"
+        • "ooening" instead of "opening"
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between the story about Napoleon III and the description of Meissonier's artistic style
+    - [STRUCTURE]:
+        • The text jumps between different time periods and topics
+    - [CLARITY]:
+        • Some sentences are wordy and difficult to follow
+
+Section section_07 (Chars 49183–52681):
+Scores:
+  - Fluency: 2.5
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "reoigious" instead of "religious"
+        • "Emperof" instead of "Emperor"
+        • "stodk" instead of "stock"
+        • "hp" instead of "up"
+        • "great-grandpqrents" instead of "great-grandparents"
+        • "consciebtious" instead of "conscientious"
+        • "yo" instead of "to"
+        • "endlews" instead of "endless"
+        • "artistcvjolently" instead of "artist violently"
+        • "cfaft" instead of "craft"
+    - [GRAMMAR]:
+        • Several sentences are long and convoluted
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between the description of Meissonier's costume and the discussion of his "working library"
+    - [CLARITY]:
+        • Some sentences are wordy and difficult to follow
+    - [STRUCTURE]:
+        • The text jumps between different ideas and anecdotes
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

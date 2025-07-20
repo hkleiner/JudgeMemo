@@ -1,0 +1,201 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) Read and understand the summary of the text the report was created for.
+    b) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    c) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The summary of the text to be evaluated is given below:
+Summary: The author participated in a historic movement to establish a system of free public schools in the Philippine Islands. On July 23, 1901, a group of 499 trained men and women set sail from the US to the Philippines to implement this system. The journey took them through Honolulu, where they visited the Pali and the Bishop Museum of Polynesian Ethnology. After crossing the International Date Line, they lost a day and arrived in Manila on a Saturday morning.
+
+Upon arrival, they were introduced to the local culture and customs. The city of Manila was a cosmopolitan mixture of people, with a blend of Spanish, American, Chinese, and Filipino influences. The author was assigned to the town of Bacalod, where they established a public school for boys and girls. The Filipinos were not strong advocates of co-education, so separate schools were started for boys and girls.
+
+The author describes the daily life and customs of the Filipinos, including their love of social gatherings and celebrations, known as "bailes." They also describe the traditional Filipino dress and the importance of family and social status. The author notes that the Filipinos have a strong sense of community and respect for authority.
+
+In contrast to the urban life of Manila, the author describes the quiet and peaceful life in the rural areas. The Filipinos in these areas live simple lives, farming and fishing to make a living. The author also visits a leper colony, where they are struck by the poverty and suffering of the people.
+
+The author goes on a "hike" with a group of soldiers to pursue a band of ladrones (outlaws) who had burned a sugar mill and were threatening to attack a nearby town. They march through the mountains, following a rough and rocky trail, and eventually catch up with the ladrones, but they escape.
+
+Throughout the book, the author reflects on the challenges and rewards of living and working in the Philippines. They note the difficulties of communicating with the locals, who speak little English, and the need to adapt to the local customs and way of life. Despite these challenges, the author is struck by the beauty and richness of the Filipino culture and the warmth and hospitality of the people. Overall, the book provides a fascinating glimpse into the lives of the Filipinos and the American teachers who came to the islands to establish a new system of education. The author's experiences and observations offer a unique perspective on the culture and customs of the Philippines during this period.
+
+The report for the text is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–8881):
+Section Summary: The author participated in a historic movement to establish a system of free public schools in the Philippine Islands, which marked an epoch in world history. On July 23, 1901, the US Army Transport "Thomas" set sail from San Francisco, carrying 499 trained men and women to the Philippines. The ship stopped at Honolulu, where the passengers visited notable sites such as the Pali and the Bishop Museum, and later crossed the International Date Line, losing a day in the process. The ship eventually arrived in Manila Bay, known for its rough waters, and the passengers disembarked onto steam launches to reach the shore. Upon landing, they were introduced to the local culture and customs of the Filipino people, including their traditional clothing and habits.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Inconsistent verb tense usage
+    - [LEXICON]:
+        • Overly formal language in some sections
+    - [SYNTAX]:
+        • Long, convoluted sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between chapters
+    - [STRUCTURE]:
+        • Lack of clear narrative thread
+    - [CLARITY]:
+        • Unclear references to "the thing" and "the stuff"
+
+Section section_02 (Chars 8882–17669):
+Section Summary: The author and other teachers arrived in Manila and were struck by the city's cosmopolitan atmosphere and bustling activity. After a two-week wait, they received a notice instructing them to prepare for assignment to remote areas with limited supplies, causing concern and prompting a mass meeting. The teachers eventually agreed to proceed to their stations after being assured that their needs would be met. The author traveled to Bacalod, the capital of Occidental Negros, where they arrived by ship and were transported to the town by steam launch and army wagon. As they arrived, they witnessed the departure of American troops and the beginning of a new era of peace, with the author and other teachers taking on a new role in the region.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [LEXICON]:
+        • some words are outdated or uncommon
+    - [SYNTAX]:
+        • long, convoluted sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between scenes
+    - [STRUCTURE]:
+        • lack of clear chronological order
+    - [CLARITY]:
+        • some sentences are wordy or unclear
+
+Section section_03 (Chars 17670–26310):
+Section Summary: As the American troops departed, the women's emotions overflowed, and they showed deep passion and love for their husbands. The scene was a dramatic and poignant display of human emotion. The American teachers, who were pioneers in the Philippines, faced challenges in establishing schools and implementing a new education system. They worked to make English the basis of instruction and established separate schools for boys and girls, with some initial difficulties but eventual progress. The teachers also participated in social events, such as a "baile" in the town of Silay, where they interacted with the local elite and enjoyed Filipino hospitality.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [LEXICON]:
+        • some words are outdated or uncommon
+    - [SYNTAX]:
+        • occasional awkward sentence structure
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between scenes
+    - [STRUCTURE]:
+        • lack of clear connection between chapters
+    - [CLARITY]:
+        • some sentences are wordy or unclear
+
+Section section_04 (Chars 26310–34889):
+Section Summary: The narrator attended a dinner party in the Philippines, where they enjoyed a variety of dishes, including a sweet course called "dulce". After dinner, they danced, including a traditional Filipino dance called the "rigodon", and later waltzed with a señorita. The narrator was impressed by the wealth and fashion of the Filipinos, with many women wearing diamond brooches and rings, and men dressed in fine clothing. The narrator also discussed the challenges of housekeeping in the Philippines, where employing servants can lead to a long chain of dependents. Overall, life in the Philippines, particularly in Manila, is pleasant but expensive, with a high cost of living and a reliance on complex international commerce.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [LEXICON]:
+        • occasional use of outdated or unfamiliar terms
+    - [SYNTAX]:
+        • some sentences are overly long or convoluted
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transition between scenes and topics
+    - [CLARITY]:
+        • some paragraphs lack a clear central idea or focus
+    - [TRANSITION]:
+        • insufficient connection between the description of the dance and the discussion of Filipino life
+
+Section section_05 (Chars 34890–43627):
+Section Summary: The Philippines has two extremes of life: one is active, progressive, and cosmopolitan, while the other is inactive, decadent, and narrow. The former is characterized by a pleasant life with access to various amenities, while the latter is marked by a simple, traditional way of life in quiet hamlets. In these hamlets, life is slow-paced and unchanged for generations, with limited exposure to the outside world. The Filipino home life also varies greatly between the rich and the poor, with the wealthy enjoying comfortable homes and abundant food, while the poor, known as the "tao", live in simpler conditions with limited access to food and amenities. Overall, the Philippines is a country of contrasts, with a wide gap between the rich and the poor, and the traditional and the modern.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor punctuation errors
+    - [LEXICON]:
+        • some outdated vocabulary
+    - [SYNTAX]:
+        • occasional complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between chapters
+    - [STRUCTURE]:
+        • lack of clear connections between paragraphs
+    - [CLARITY]:
+        • some sentences are wordy or unclear
+
+Section section_06 (Chars 43628–52106):
+Section Summary: The narrator visited a leper settlement, initially receiving a hostile reception, but eventually gained access to the community with the help of guides and interpreters. The settlement was found to be a cluster of grass huts where people with leprosy lived, worked, and raised families, despite their debilitating condition. The narrator was struck by the contrast between the suffering and the normalcy of life in the settlement, where people experienced emotions like love, hatred, and joy. In a separate incident, the narrator joined a group of soldiers on a "hike" to pursue a band of ladrones who had burned a sugar mill and were threatening a nearby town. The pursuit was ultimately unsuccessful, but it provided a glimpse into the primitive conditions and contrasts between traditional and modern life in the Philippines.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • run-on sentences
+    - [LEXICON]:
+        • some words are outdated or less common
+    - [SYNTAX]:
+        • complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between scenes
+    - [STRUCTURE]:
+        • lack of clear connection between paragraphs
+    - [CLARITY]:
+        • some sentences are wordy or unclear
+
+Section section_07 (Chars 52107–53220):
+Section Summary: The narrator and others got on a cart pulled by a carabao, with the driver instructed to head back to their post without stopping. Due to concerns about potential danger from ladrones, they initially planned to stay awake, but eventually decided to sleep, trusting the driver to alert them if needed. Despite the rough ride, they slept soundly, only waking up when the sun was high in the sky, shining down on their faces. When they awoke, they were approaching a small village at the foot of the mountains. In the village, they procured ponies to take them back to their post.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Unclear sentence structure in some parts
+    - [LEXICON]:
+        • Use of less common words like "aforesaid" and "supinely"
+    - [SYNTAX]:
+        • Long, winding sentences that can be hard to follow
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition from describing the sleep to waking up and the scene that follows
+    - [TRANSITION]:
+        • Lack of clear connection between the events in the cart and arriving at the village
+    - [CLARITY]:
+        • Some sentences are wordy and unclear, making it hard to understand the sequence of events
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

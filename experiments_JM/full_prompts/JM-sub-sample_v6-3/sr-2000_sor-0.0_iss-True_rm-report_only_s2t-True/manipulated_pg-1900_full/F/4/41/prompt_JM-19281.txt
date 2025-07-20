@@ -1,0 +1,297 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    b) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The report is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–9773):
+Section Summary: In 2002, an open letter was addressed to the world's religious leaders, emphasizing the need for organized religion to rise above fixed conceptions and recognize the unity of God and religion. The letter was well-received, with many respondents expressing distress over the failure of religious institutions to address spiritual and moral challenges. The authors believe that a sea change in human consciousness is underway, with a growing recognition of the importance of spirituality and religion in addressing global crises. After a period of dominance by materialistic ideologies, there is now a resurgence of interest in religion and spirituality, with many seeking a deeper understanding of their purpose and role in the world. The Bahá'í community is called upon to contribute to this effort, drawing on the insights and writings of Bahá'u'lláh to help elevate discussions of religious issues and promote unity and understanding.
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • sedtarian
+        • thisctruth
+        • prinfiple
+        • enwure
+        • affevting
+        • rapidlybor
+        • everywhsre
+        • clmmunity
+        • arecto
+        • Feligious
+        • pkwer
+        • appreciatr
+        • inzofar
+        • tje
+        • Wcriptural
+        • compellung
+        • iz
+    - [GRAMMAR]:
+        • inconsistent verb tenses
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between paragraphs
+    - [STRUCTURE]:
+        • lack of clear topic sentences
+    - [CLARITY]:
+        • ambiguous sentences
+
+Section section_02 (Chars 9774–19232):
+Section Summary: The world is experiencing a resurgence of interest in religion and spirituality, driven in part by the recognition that materialism has failed to provide a sense of purpose and moral direction. The bankruptcy of materialist ideologies, which prioritized economic development and scientific progress over spiritual and moral well-being, has led to a re-evaluation of values and a search for meaning. Global integration, facilitated by advances in communication and technology, has also contributed to this shift, as people from diverse backgrounds interact and share ideas, challenging established authorities and stimulating reflection on reality. As a result, traditional notions of reality and morality are being eroded, and new perspectives on the human condition are emerging. Ultimately, this transformation is driven by a desire for a more profound and meaningful understanding of the world and humanity's place in it.
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • recovnition
+        • believerz
+        • historicalvturning
+        • havihg
+        • developnent
+        • reqlity
+        • flawx
+        • fhe
+        • impdessive
+        • wajt
+        • disiplusionment
+        • materizlism
+        • transmutihg
+        • comw
+        • refuyees
+        • Europezn
+    - [GRAMMAR]:
+        • inconsistent verb tenses
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between paragraphs
+    - [STRUCTURE]:
+        • lack of clear topic sentences
+    - [CLARITY]:
+        • ambiguous sentences
+
+Section section_03 (Chars 19233–28669):
+Section Summary: The world has become increasingly interconnected, leading to a search for meaning and a sense of common humanity among people of different backgrounds. Despite the failure of world leaders to address the moral and spiritual needs of humanity, the transformations envisioned by Bahá'u'lláh are still unfolding, bringing people together and fostering a sense of global unity. The great religions have been the primary drivers of spiritual development throughout history, but their traditional teachings are no longer seen as relevant to the modern world, leading to a crisis of faith and a search for new spiritual guidance. The problem is twofold: the daily experience of individuals has changed dramatically, and the effects of global integration have brought people of different faiths into close association, highlighting the need for a more universal and inclusive approach to spirituality. Ultimately, the dilemma facing humanity is artificial and self-inflicted, stemming from fundamental misconceptions about human nature and social evolution.
+Scores:
+  - Fluency: 3.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing or incorrect articles
+    - [SPELLING]:
+        • typos such as "invBahá'u'lláh's", "resiatlessly", "inhabifants", "sjared", "tye", "uhimaginably", "hebor"
+    - [SYNTAX]:
+        • awkward sentence structure
+    - [LEXICON]:
+        • word choice issues, such as "reoeatedly"
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between ideas
+    - [STRUCTURE]:
+        • lack of clear paragraph structure
+    - [CLARITY]:
+        • ambiguous sentences
+    - [TRANSITION]:
+        • missing or unclear connections between paragraphs
+
+Section section_04 (Chars 28670–37378):
+Section Summary: The concept of religion is often misunderstood, with various interpretations ranging from a multitude of sects to a personal attitude towards life. Bahá'u'lláh's teachings clarify that religion is a means of understanding the unknowable Essence of God through the appearance of prophetic Figures who manifest His attributes. These Manifestations are not limited by human concepts or theories, and their purpose is to awaken humanity to its potentialities and responsibilities as the trustee of creation. Through the process of revelation, God demonstrates the integrity and freedom of the system of knowledge known as religion, which is a single, progressive process that cultivates the qualities of mind and heart latent in the human species. Ultimately, the existence of God is proven by the repeated manifestation of Himself through these prophetic Figures throughout history.
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • typos and spelling mistakes (e.g. "thw", "rathrr", "lroclaiming", "wikl", "inextinguishable" is correct but "unworthy--or even debased" has a dash issue)
+    - [GRAMMAR]:
+        • missing or incorrect articles
+    - [SYNTAX]:
+        • long and complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between ideas
+    - [STRUCTURE]:
+        • lack of clear paragraphing and topic sentences
+    - [CLARITY]:
+        • ambiguous and vague language
+
+Section section_05 (Chars 37379–46676):
+Section Summary: The concept of religion is often misunderstood due to the differences among various faiths, but Bahá'u'lláh explains that these differences are part of a unified system of truth. The variations in religious practices and doctrines are similar to the diversity in human cultural expressions, which have evolved over time and serve a purpose in the context of their time. The essential message of religion, however, remains immutable and eternal, guiding humanity towards moral autonomy and a deeper relationship with its Creator. The failure to recognize the progressive revelation of God has led to ritualistic repetition of outdated practices and the trivialization of religion. Ultimately, the true purpose of religion is to provide spiritual guidance and inspiration, which has often been impeded by theological presumption and the dominance of clerical elites.
+Scores:
+  - Fluency: 3.5
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • incorrect verb tenses
+    - [SPELLING]:
+        • typos (e.g. "Mamifestations", "whivh", "behaviour", "activitg", "couhtless", "syultify", "devastzting", "ijtellectual", "incdeasingly", "irs", "trsspasses", "betrsyal")
+    - [SYNTAX]:
+        • long and complex sentences
+    - [LEXICON]:
+        • uncommon vocabulary (e.g. "unfailing", "immutable", "transitory")
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between ideas
+    - [STRUCTURE]:
+        • lack of clear paragraph structure
+    - [CLARITY]:
+        • ambiguous sentences and phrases
+    - [TRANSITION]:
+        • missing or unclear connections between sections
+
+Section section_06 (Chars 46676–55347):
+Section Summary: The traditional understanding of religious teachings has been limited by literalistic interpretations and dogmatic theology, which can create barriers to unity and understanding. Bahá'u'lláh's teachings offer a new perspective, revealing the unity of purpose and principle that runs throughout the scriptures of various religions, including the Hebrew Bible, the Gospel, and the Qur'án. At the heart of these teachings is the concept of the oneness of God and the importance of serving God's purpose, which is expressed through worship, submission, and service to others. The succession of divine revelations and the work of spiritual educators, such as Moses, Jesus, and Muhammad, are seen as a progressive unfolding of God's guidance, rather than the founding of distinct religions. Ultimately, the recognition of the essential oneness of religion can help to promote unity and understanding among people of different faiths.
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing or incorrect articles
+    - [SPELLING]:
+        • typos such as "spirotual" and "vhedged"
+    - [LEXICON]:
+        • occasional use of obscure vocabulary
+  Coherence Issues:
+    - [LOGIC]:
+        • some paragraphs lack clear transitions
+    - [STRUCTURE]:
+        • text jumps between different ideas and scriptures
+    - [CLARITY]:
+        • a few sentences are wordy and hard to follow
+
+Section section_07 (Chars 55348–64763):
+Section Summary: The role of religion in cultivating moral consciousness is often misunderstood, with many sacred texts assigning inferior social status to women and promoting harsh punishments for certain crimes. However, these texts were written in a different historical context and were intended to civilize relationships and promote moral advancement at the time. As society evolves, it is essential to distinguish between the eternal and transitory features of religion and to adapt its teachings to the needs of the present age. Bahá'u'lláh's teachings emphasize the importance of moral conviction and spiritual power in implementing principles such as equality and justice, which are now widely recognized as essential for human progress. Ultimately, the goal of religion is to promote the collective coming of age of the human race, and its teachings must be reinterpreted and applied in a way that is relevant to the needs of the present day.
+Scores:
+  - Fluency: 3.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • numerous typos and spelling errors (e.g., "morxl", "frwme", "religiom", "thw", "anachronistic thinking of this kind must also create severd")
+    - [GRAMMAR]:
+        • occasional awkward phrasing and sentence structure
+    - [LEXICON]:
+        • some words are used inappropriately or with unclear meaning
+  Coherence Issues:
+    - [LOGIC]:
+        • some paragraphs seem disconnected from the main argument
+    - [STRUCTURE]:
+        • the text jumps between different ideas and historical examples without clear transitions
+    - [CLARITY]:
+        • certain sentences are wordy or unclear, making it difficult to follow the author's point
+
+Section section_08 (Chars 64764–74005):
+Section Summary: Bahá'u'lláh's teachings emphasize the importance of universal education, human rights, and the unity of humanity. He advocates for a global system of governance, where nations work together to resolve conflicts and promote development, and attributes to this system the right to suppress acts of aggression. The power to achieve these goals lies in the unity of humanity, which is a condition of the human spirit that can be supported by education and legislation. The Bahá'í community, which comprises people from diverse backgrounds, has achieved a remarkable sense of unity and has maintained it unbroken and unimpaired, demonstrating the operation of spiritual influences. This unity is seen as the remedy for the world's ills, and its source lies in the restoration of religion's influence in human affairs, as revealed by God through Bahá'u'lláh.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "fhe" instead of "the"
+        • "precelts" instead of "precepts"
+        • "necesearily" instead of "necessarily"
+        • "hujanity's" instead of "humanity's"
+        • "whatsodver" instead of "whatever"
+        • "represenfative" instead of "representative"
+        • "institutilns" instead of "institutions"
+        • "invocations" is correct but "occult" is not clearly explained
+    - [GRAMMAR]:
+        • Some sentences are long and convoluted
+  Coherence Issues:
+    - [LOGIC]:
+        • The text jumps abruptly between different ideas
+    - [STRUCTURE]:
+        • The text lacks a clear and consistent structure
+    - [CLARITY]:
+        • Some sentences are unclear or difficult to understand
+    - [TRANSITION]:
+        • The transitions between paragraphs are sometimes abrupt
+
+Section section_09 (Chars 74006–83216):
+Section Summary: The Bahá'í community has withstood attempts to undermine its unity, and instead, has deepened its understanding of its purpose. The abandonment of faith in God has led to a paralysis in addressing the problem of evil, with many seeking to understand its causes through various factors, but neglecting the concept of spiritual disease. Unity requires self-sacrifice and submission to a higher power, and its deliberate violation can have devastating consequences, as seen throughout history. The Bahá'í community is equipped to address the challenges facing it, and its growth and development are crucial in promoting unity and contributing to social betterment. By embracing a culture of systematic growth and immersion in spiritual principles, the community can free itself from materialistic assumptions and work towards a more unified and fulfilling world.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing or incorrect articles
+    - [SPELLING]:
+        • typos such as "abwndonment" instead of "abandonment"
+    - [SYNTAX]:
+        • long and complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between ideas
+    - [STRUCTURE]:
+        • lack of clear paragraph topics
+    - [CLARITY]:
+        • ambiguous or unclear sentences
+
+Section section_10 (Chars 83217–91710):
+Section Summary: The current Plan of the Bahá'í community allows people to participate in its activities, such as children's classes, devotional meetings, and study circles, without being Bahá'ís, creating a "community of interest". This approach enables individuals to learn about the Faith and its goals, and eventually, commit to it. The Bahá'í community's mission is to assist humanity's universal movement towards unity with God, and the Divine Plan is the means to achieve this. The goal of the Bahá'í Faith is to establish a universal civilization based on principles of social justice, which is distinct from political and ideological projects. Through its influence, the Bahá'í Faith aims to bring about a new creation, where all people are united in one universal Cause, and the earth's inhabitants reach their collective coming-of-age as a single people.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • expressiob
+        • chkefly
+        • jeart
+        • anf
+        • in-gathering
+    - [GRAMMAR]:
+        • missing articles
+        • sentence structure
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between paragraphs
+    - [STRUCTURE]:
+        • lack of clear connections between ideas
+    - [CLARITY]:
+        • ambiguous language and concepts
+    - [TRANSITION]:
+        • missing links between sentences
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

@@ -1,0 +1,420 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    b) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The report is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–4422):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Minor sentence complexity
+    - [LEXICON]:
+        • Some outdated vocabulary
+    - [SYNTAX]:
+        • Long sentences with multiple clauses
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between ideas
+    - [STRUCTURE]:
+        • Lack of clear paragraph division
+    - [CLARITY]:
+        • Some sentences are wordy and hard to follow
+
+Section section_02 (Chars 4422–8913):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Complex sentence structures
+    - [LEXICON]:
+        • Archaic vocabulary
+    - [SYNTAX]:
+        • Long, winding sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition to the story of the electric car
+    - [STRUCTURE]:
+        • Disjointed discussion of Spencer's contributions
+    - [CLARITY]:
+        • Ambiguous connections between ideas
+
+Section section_03 (Chars 8914–13441):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Complex sentence structures
+    - [LEXICON]:
+        • Use of arcane vocabulary
+    - [SYNTAX]:
+        • Long, winding sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transitions between ideas
+    - [STRUCTURE]:
+        • Lack of clear paragraphing logic
+    - [CLARITY]:
+        • Overly dense and convoluted explanations
+
+Section section_04 (Chars 13442–17604):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [LEXICON]:
+        • ambiguous word usage (e.g., 'force' and 'cause')
+    - [SYNTAX]:
+        • complex sentence structures
+    - [GRAMMAR]:
+        • occasional unclear antecedents for pronouns
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt shifts between discussing Spencer's ideas and scientific principles
+    - [STRUCTURE]:
+        • lack of clear transitions between paragraphs
+    - [CLARITY]:
+        • unclear progression of ideas in some sections
+
+Section section_05 (Chars 17605–21836):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • abrupt sentence transitions
+    - [LEXICON]:
+        • overly complex vocabulary
+    - [SYNTAX]:
+        • long, convoluted sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • unclear connections between ideas
+    - [STRUCTURE]:
+        • disjointed paragraphs
+    - [CLARITY]:
+        • ambiguous references to philosophical concepts
+
+Section section_06 (Chars 21836–26158):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 3.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Abrupt sentence transition with "The robotic arm sorted the tools."
+    - [LEXICON]:
+        • Use of complex vocabulary without clear explanation
+    - [SYNTAX]:
+        • Long, convoluted sentences that hinder readability
+  Coherence Issues:
+    - [LOGIC]:
+        • Inconsistent use of terms like "cause" and "force"
+    - [STRUCTURE]:
+        • Abrupt shifts in topic, such as the introduction of M. Bergson's metaphysics
+    - [CLARITY]:
+        • Overly complex and ambiguous explanations of philosophical concepts
+
+Section section_07 (Chars 26159–30442):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Complex sentence structures
+    - [LEXICON]:
+        • Use of technical vocabulary without explanation
+    - [SYNTAX]:
+        • Long paragraphs with multiple ideas
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between ideas
+    - [STRUCTURE]:
+        • Lack of clear introduction to technical terms
+    - [CLARITY]:
+        • Ambiguous use of terms like "cause" and "effect"
+
+Section section_08 (Chars 30443–34845):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Complex sentence structures
+    - [LEXICON]:
+        • Technical vocabulary may hinder understanding for non-experts
+    - [SYNTAX]:
+        • Long paragraphs with multiple ideas
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition to the topic of the wearable device
+    - [STRUCTURE]:
+        • Non-sequential discussion of related concepts
+    - [CLARITY]:
+        • Ambiguous definitions of key terms like "force" and "cause"
+
+Section section_09 (Chars 34846–39423):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Abrupt sentence transitions
+    - [LEXICON]:
+        • Uncommon vocabulary
+    - [SYNTAX]:
+        • Complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • Disjointed examples
+    - [STRUCTURE]:
+        • Lack of clear sectioning
+    - [CLARITY]:
+        • Ambiguous terminology
+
+Section section_10 (Chars 39424–43983):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Minor sentence complexity
+    - [LEXICON]:
+        • Some words are overly formal or less common
+    - [SYNTAX]:
+        • Long sentences with multiple clauses
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transitions between ideas
+    - [STRUCTURE]:
+        • Lack of clear progression in some sections
+    - [CLARITY]:
+        • Overly complex or ambiguous sentences
+
+Section section_11 (Chars 43984–48563):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Complex sentence structures
+    - [LEXICON]:
+        • Use of technical vocabulary without explanation
+    - [SYNTAX]:
+        • Long paragraphs with multiple ideas
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between ideas
+    - [STRUCTURE]:
+        • Lack of clear introduction to the main topic
+    - [CLARITY]:
+        • Ambiguous explanations of scientific concepts
+
+Section section_12 (Chars 48564–52988):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Complex sentence structures
+    - [LEXICON]:
+        • Use of technical vocabulary without explanation
+    - [SYNTAX]:
+        • Long paragraphs with multiple embedded clauses
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transitions between ideas
+    - [STRUCTURE]:
+        • Lack of clear sectioning or headings
+    - [CLARITY]:
+        • Overly dense and technical language
+
+Section section_13 (Chars 52989–57636):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Complex sentence structures
+    - [LEXICON]:
+        • Technical vocabulary may hinder understanding for non-experts
+    - [SYNTAX]:
+        • Long paragraphs with multiple embedded clauses
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between discussing Spencer's earlier and later positions
+    - [STRUCTURE]:
+        • Non-linear progression of ideas within paragraphs
+    - [CLARITY]:
+        • Ambiguous phrases, such as "the truth that our states of consciousness are the only things we can know"
+
+Section section_14 (Chars 57637–62051):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Complex sentence structures
+    - [LEXICON]:
+        • Technical vocabulary may hinder understanding for non-experts
+    - [SYNTAX]:
+        • Long paragraphs with multiple embedded clauses
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transitions between ideas
+    - [STRUCTURE]:
+        • Difficulty in following the author's train of thought
+    - [CLARITY]:
+        • Ambiguous terminology and concepts
+
+Section section_15 (Chars 62052–66613):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Complex sentence structures
+    - [LEXICON]:
+        • Technical vocabulary may hinder understanding for non-experts
+    - [SYNTAX]:
+        • Long paragraphs with dense information
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between ideas
+    - [STRUCTURE]:
+        • Lack of clear sectioning or subheadings
+    - [CLARITY]:
+        • Ambiguous explanations of vital and physico-chemical processes
+
+Section section_16 (Chars 66614–71136):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Complex sentence structures
+    - [LEXICON]:
+        • Use of technical vocabulary without explanation
+    - [SYNTAX]:
+        • Long paragraphs with multiple embedded clauses
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transitions between ideas
+    - [STRUCTURE]:
+        • Lack of clear sectioning or headings
+    - [CLARITY]:
+        • Ambiguous statements and phrases
+
+Section section_17 (Chars 71137–75332):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Complex sentence structures
+    - [LEXICON]:
+        • Technical vocabulary may hinder understanding for non-experts
+    - [SYNTAX]:
+        • Long paragraphs with multiple embedded clauses
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition to the last sentence about a video call
+    - [STRUCTURE]:
+        • Non-sequential discussion of related ideas
+    - [CLARITY]:
+        • Overly complex explanation of cognitive processes
+
+Section section_18 (Chars 75333–79731):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Complex sentence structures
+    - [LEXICON]:
+        • Unfamiliar vocabulary
+    - [SYNTAX]:
+        • Long, winding sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition to conclusion
+    - [STRUCTURE]:
+        • Disjointed paragraphs
+    - [CLARITY]:
+        • Ambiguous explanations
+
+Section section_19 (Chars 79732–80475):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Complex sentence structure
+    - [LEXICON]:
+        • Archaic vocabulary
+    - [SYNTAX]:
+        • Long, winding sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition to quoted text
+    - [CLARITY]:
+        • Dense, philosophical language
+    - [STRUCTURE]:
+        • Lack of clear thesis statement
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

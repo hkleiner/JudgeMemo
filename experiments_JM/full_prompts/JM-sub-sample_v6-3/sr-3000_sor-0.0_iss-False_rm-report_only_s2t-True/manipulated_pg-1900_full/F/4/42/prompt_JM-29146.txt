@@ -1,0 +1,201 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    b) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The report is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–12090):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [SPELLING]:
+        • occasional typos (e.g., "thith" instead of "this")
+    - [LEXICON]:
+        • some words may be considered outdated or less common (e.g., "sucker")
+    - [SYNTAX]:
+        • a few sentences have awkward or complex structures
+  Coherence Issues:
+    - [LOGIC]:
+        • some plot points feel rushed or unexplained (e.g., the planetarization of the Transfer Service)
+    - [STRUCTURE]:
+        • the narrative jumps between different scenes and characters without clear transitions
+    - [CLARITY]:
+        • a few sections have unclear or ambiguous descriptions (e.g., the Irwadian's motivations)
+    - [TRANSITION]:
+        • the story sometimes switches between different storylines without smooth connections
+
+Section section_02 (Chars 12091–23794):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Missing articles and incorrect verb tenses in some sentences
+    - [SPELLING]:
+        • Typos such as "thtink" instead of "think", "ditheath" instead of "diseases", and "m.g." which might be a typo or unclear abbreviation
+    - [SYNTAX]:
+        • Some sentences are wordy or awkwardly phrased
+    - [LEXICON]:
+        • Use of unclear or made-up terms like "abrevitog" and "unit-a-dance"
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transitions between scenes or ideas
+    - [STRUCTURE]:
+        • The narrative jumps between different plot points without clear connections
+    - [CLARITY]:
+        • Some characters' motivations or actions are unclear or unexplained
+    - [TRANSITION]:
+        • The story switches between different characters' perspectives without clear transitions
+
+Section section_03 (Chars 23794–36105):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [SPELLING]:
+        • minor typos (e.g., "how coulded", "It took the Vegan girl some time to prepared")
+    - [SYNTAX]:
+        • occasional awkward sentence structure
+    - [LEXICON]:
+        • some words or phrases feel slightly outdated or uncommon
+  Coherence Issues:
+    - [LOGIC]:
+        • occasional unclear or unexplained plot points
+    - [STRUCTURE]:
+        • some transitions between scenes or ideas feel abrupt
+    - [CLARITY]:
+        • a few sentences or paragraphs are wordy or hard to follow
+    - [TRANSITION]:
+        • the shift from dialogue to narration can be jarring at times
+
+Section section_04 (Chars 36106–48272):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Incorrect verb tense usage
+    - [SPELLING]:
+        • Typos (e.g., "do not looked", "they'lled", "say" instead of "says")
+    - [SYNTAX]:
+        • Awkward sentence structure
+    - [LEXICON]:
+        • Inconsistent language usage (e.g., "sibilantless Irwadi manner" is unclear)
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt scene changes without clear transitions
+    - [STRUCTURE]:
+        • Non-linear narrative can be confusing
+    - [CLARITY]:
+        • Some sentences are wordy or unclear
+    - [TRANSITION]:
+        • Lack of smooth connections between ideas
+
+Section section_05 (Chars 48272–60684):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • "woulded have delighted" should be "would have delighted"
+        • "what appeared to was" should be "what appeared to be"
+        • "Youhad got to be" should be "You've got to be"
+        • "excepted followed" should be "except follow"
+    - [SPELLING]:
+        • "m.g. gun" is unclear, possibly should be "machine gun"
+    - [SYNTAX]:
+        • Some sentences are wordy or awkwardly phrased
+  Coherence Issues:
+    - [LOGIC]:
+        • The story jumps abruptly between different plot threads
+    - [STRUCTURE]:
+        • The narrative could be more clearly organized
+    - [CLARITY]:
+        • Some technical concepts, such as hyper-space, are not fully explained
+    - [TRANSITION]:
+        • Transitions between scenes or ideas could be smoother
+
+Section section_06 (Chars 60684–72889):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Missing articles and incorrect verb tenses in some sentences
+    - [LEXICON]:
+        • Overuse of simplistic vocabulary in dialogue
+    - [SYNTAX]:
+        • Some sentences have awkward phrasing and structure
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transitions between scenes and ideas
+    - [STRUCTURE]:
+        • Non-linear narrative can be confusing at times
+    - [CLARITY]:
+        • Some plot points and character motivations are unclear
+
+Section section_07 (Chars 72889–77452):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • "And could not stop Garr Symm from ran past them" should be "And could not stop Garr Symm from running past them"
+    - [LEXICON]:
+        • Some words or phrases may be considered outdated or less common in modern writing
+    - [SYNTAX]:
+        • A few sentences have complex structures that may hinder smooth reading
+  Coherence Issues:
+    - [LOGIC]:
+        • The transition between some scenes or ideas could be smoother
+    - [STRUCTURE]:
+        • The narrative jumps abruptly from action to philosophical discussions
+    - [CLARITY]:
+        • Some concepts, such as the nature of Vardin and the proto-humans, could be more clearly explained
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

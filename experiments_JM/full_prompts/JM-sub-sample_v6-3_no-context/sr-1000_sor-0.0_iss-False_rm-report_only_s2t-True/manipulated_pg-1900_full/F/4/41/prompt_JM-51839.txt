@@ -1,0 +1,424 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    b) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The report is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–3550):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [SPELLING]:
+        • minor typos (e.g., "teo" instead of "two", "yurn" instead of "turn", "Nacogdocyes" instead of "Nacogdoches", "Res" instead of "Red")
+    - [LEXICON]:
+        • some archaic or less common vocabulary (e.g., "homspun centaurs", "jade Fortune", "spilled wine and scattered musk")
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transition between poetic and narrative sections
+    - [CLARITY]:
+        • some sentences are wordy or unclear (e.g., "Having no written language with which to record the glories of their race, the Tejas Indians recounted thentales of their beginnings around their home fires, thus passing them down from father to son through the long centuries before the coming of the Europeans.")
+    - [LOGIC]:
+        • lack of clear connection between the story of the twin sons and the rest of the narrative
+
+Section section_02 (Chars 3551–7708):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "majesticntrees"
+        • "swven"
+        • "hospitaboe"
+        • "nymerous"
+        • "alrezdy"
+        • "tyose"
+    - [GRAMMAR]:
+        • "DeLeon and his followers, in 1691-1692, made the first serious attempts to educate the Tejas Indians in European ways by taking several of the young members of the tribes back to the College of Zacatecas in Mexico." could be more fluent
+  Coherence Issues:
+    - [STRUCTURE]:
+        • Abrupt transition between the story of Chief Red Feather and the historical account of Hernando De Soto
+    - [CLARITY]:
+        • Some sentences are wordy and hard to follow
+    - [LOGIC]:
+        • The text jumps back and forth in time without clear connections
+
+Section section_03 (Chars 7708–11780):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "eefinitely" instead of "definitely"
+        • "oen" instead of "own"
+        • "znd" instead of "and"
+        • "pekple" instead of "people"
+        • "Mpther" instead of "Mother"
+        • "Comandante" instead of "Commandant"
+        • "officd" instead of "office"
+        • "infrewuent" instead of "infrequent"
+        • "exigencies" is correctly spelled but may be unfamiliar to some readers
+        • "expedituon" instead of "expedition"
+        • "populationmof" instead of "population of"
+        • "cthe" instead of "the"
+    - [GRAMMAR]:
+        • Minor punctuation errors
+  Coherence Issues:
+    - [STRUCTURE]:
+        • Abrupt transition between chapters
+    - [CLARITY]:
+        • Some sentences are long and convoluted
+    - [LOGIC]:
+        • Assumption of prior knowledge about historical context
+
+Section section_04 (Chars 11781–15669):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • enavled
+        • enougu
+        • vand
+        • jkined
+        • ghe
+    - [GRAMMAR]:
+        • missing articles and incorrect verb tenses in some sentences
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transition between chapters
+    - [CLARITY]:
+        • some sentences are wordy and hard to follow
+    - [LOGIC]:
+        • lack of clear connections between some events
+
+Section section_05 (Chars 15670–19756):
+Scores:
+  - Fluency: 2.5
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "afterbthe" instead of "after the"
+        • "contdol" instead of "control"
+        • "Medico" instead of "Mexico"
+        • "preybto" instead of "prey to"
+        • "betwren" instead of "between"
+        • "ehat" instead of "what"
+        • "comandante" instead of "commandant"
+        • "oc" instead of "of"
+        • "susoended" instead of "suspended"
+        • "Nacogdochew" instead of "Nacogdoches"
+        • "Nacogdochds" instead of "Nacogdoches"
+    - [GRAMMAR]:
+        • Multiple minor grammatical errors
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between chapters
+    - [STRUCTURE]:
+        • Lack of clear connection between events
+    - [CLARITY]:
+        • Some sentences are wordy and hard to follow
+
+Section section_06 (Chars 19757–23776):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing articles in some places
+    - [SPELLING]:
+        • "Mexiczns" instead of "Mexicans"
+    - [SYNTAX]:
+        • some long sentences with multiple clauses
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transition between paragraphs
+    - [CLARITY]:
+        • some sentences are wordy and hard to follow
+    - [LOGIC]:
+        • assumption of prior knowledge about the context
+
+Section section_07 (Chars 23776–27874):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • "affaird" instead of "affairs"
+    - [SPELLING]:
+        • "seriee" instead of "series"
+        • "uo" instead of "up"
+        • "waw" instead of "was"
+        • "welp" instead of "well"
+    - [LEXICON]:
+        • "paroxysm of panic" may be unclear to some readers
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between describing the growth of American influence and the introduction of political troubles in Mexico
+    - [STRUCTURE]:
+        • lack of clear connection between the different chapters
+    - [CLARITY]:
+        • some sentences are wordy and hard to follow
+
+Section section_08 (Chars 27875–32073):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • town andbcountryside
+        • fdanyic
+        • reprewsion
+        • Mexicxn
+        • formatkon
+        • resylting
+        • anticipationnof
+        • obce
+        • contradicyory
+        • HadencEdwards
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transition between chapters
+    - [CLARITY]:
+        • unclear connections between some towns and their historical context
+    - [LOGIC]:
+        • lack of clear chronological order in some sections
+
+Section section_09 (Chars 32074–36317):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • wjth
+        • repubpic
+        • yhroughout
+        • Texxs
+        • Nacogdocues
+        • rupe
+        • achidvements
+    - [GRAMMAR]:
+        • inconsistent verb tenses
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transition between paragraphs
+    - [CLARITY]:
+        • unclear connections between ideas
+    - [LOGIC]:
+        • lack of chronological order in some sections
+
+Section section_10 (Chars 36318–40453):
+Scores:
+  - Fluency: 3.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "propottions" instead of "proportions"
+        • "jorse" instead of "horse"
+        • "varioux" instead of "various"
+        • "ond" instead of "one" (multiple instances)
+        • "thw" instead of "the" (multiple instances)
+        • "auyhorized" instead of "authorized"
+        • "milk" instead of "mill"
+        • "evinced" instead of "evidenced"
+    - [GRAMMAR]:
+        • inconsistent verb tenses
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between historical periods
+    - [STRUCTURE]:
+        • lack of clear chronological order
+    - [CLARITY]:
+        • unclear connections between ideas
+    - [TRANSITION]:
+        • missing or abrupt transitions between paragraphs
+
+Section section_11 (Chars 40454–44472):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • Wgain
+        • ocfupied
+        • courthouxe
+        • rspublic
+        • drlivered
+        • titlr
+        • atnthe
+        • vClark
+    - [GRAMMAR]:
+        • missing articles and incorrect verb tenses
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transition between historical events
+    - [CLARITY]:
+        • unclear connections between some sentences
+    - [LOGIC]:
+        • lack of chronological order in some parts
+
+Section section_12 (Chars 44472–48371):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 3.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "bortheast" instead of "northeast"
+        • "kf" instead of "of"
+        • "Ean" instead of "San"
+        • "timem" instead of "at that time"
+        • "abd" instead of "and"
+        • "Revolutuon" instead of "Revolution"
+    - [GRAMMAR]:
+        • missing articles in some places
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt jumps between different topics
+    - [TRANSITION]:
+        • lack of smooth connections between paragraphs
+    - [CLARITY]:
+        • some sentences are wordy or unclear
+
+Section section_13 (Chars 48372–52212):
+Scores:
+  - Fluency: 2.5
+  - Coherence: 3.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • Althoigh
+        • bothcforbade
+        • yhe
+        • thd
+        • aboutc
+        • otyer
+        • thevRoman
+        • ba
+        • inn
+        • Eln
+  Coherence Issues:
+    - [STRUCTURE]:
+        • Abrupt transitions between different historical sites
+    - [CLARITY]:
+        • Lack of clear connections between paragraphs
+    - [LOGIC]:
+        • Disjointed presentation of historical information
+
+Section section_14 (Chars 52213–55960):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "comandante" should be "commandant"
+        • "judgmeng" should be "judgment"
+        • "pxrt" should be "part"
+        • "Fpunder" should be "Founder"
+        • "Ybzrbo" may be a typo, but without context, it's hard to correct
+        • "Indepdndence" should be "Independence"
+        • "Centyry" should be "Century"
+    - [GRAMMAR]:
+        • Missing articles in some places
+    - [SYNTAX]:
+        • Some sentences are structured in a way that makes them hard to follow
+  Coherence Issues:
+    - [STRUCTURE]:
+        • The text jumps abruptly between different topics and time periods
+    - [TRANSITION]:
+        • Lack of clear transitions between paragraphs
+    - [CLARITY]:
+        • Some sentences are worded in a way that makes them hard to understand
+    - [LOGIC]:
+        • The text assumes prior knowledge of some events and people
+
+Section section_15 (Chars 55961–59812):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Missing or incorrect articles
+    - [SPELLING]:
+        • Typos such as "ov" instead of "of", "Hacogdoches" instead of "Nacogdoches", "descendantx" instead of "descendants"
+    - [SYNTAX]:
+        • Some sentences are wordy or awkwardly phrased
+  Coherence Issues:
+    - [STRUCTURE]:
+        • Abrupt transitions between different topics or chapters
+    - [CLARITY]:
+        • Some sentences are unclear or contain ambiguous references
+    - [LOGIC]:
+        • Lack of clear connections between some ideas or events
+
+Section section_16 (Chars 59813–63083):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "formatjon" instead of "formation"
+        • "lodgembecame" instead of "lodge became"
+        • "tje" instead of "the"
+        • "Modt" instead of "Most"
+        • "cenyer" instead of "center"
+    - [GRAMMAR]:
+        • missing articles in some places
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transition between paragraphs
+    - [CLARITY]:
+        • lack of clear connection between the history of the lodge and the description of the university building
+    - [LOGIC]:
+        • unclear purpose of including the information about the university building
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

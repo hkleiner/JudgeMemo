@@ -1,0 +1,246 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) Read and understand the summary of the text the report was created for.
+    b) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    c) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The summary of the text to be evaluated is given below:
+Summary: The Tell el Amarna tablets were discovered in 1888 in Middle Egypt, containing clay tablets with writing in Babylonian cuneiform. The tablets were part of the Egyptian state archives during the reigns of Pharaohs Amenophis III and IV. The majority of the tablets are letters from Egyptian officials in Syria and Canaan, addressed to the king. The letters reveal the political situation in Western Asia during the 14th century BC, with Egypt's influence waning and the rise of the Hittite empire.
+
+The tablets also contain letters from foreign kings, including Kadashman-Bel of Babylonia and Tushratta of Mitani. These letters show the diplomatic relations between Egypt and its neighbors, with discussions of trade, marriage alliances, and military campaigns. The letters also reveal the personalities of the kings, with Tushratta being particularly greedy for gold and Napkhuria being inexperienced and prone to making mistakes.
+
+The tablets also contain reports from Egyptian governors and officials in Western Asia, detailing the struggles of the local princes and the encroachment of the Habiri and Sutu tribes. The letters from Aziru, a prefect of the land of the Amorites, are particularly notable for their revelations of his cunning and ambition. Other notable letters come from Rib-Addi of Gebal, who complains of the injustices done to him by Aziru, and Abi-milki of Tyre, who writes in a rhetorical style reminiscent of the Hebrew Psalter.
+
+The tablets provide valuable insights into the history of civilization, including the political and social conditions of the time. They also contain references to the Hebrews, who are mentioned as the Habiri, and the city of Shechem, which is mentioned as Shakmi. The tablets also provide information on the geography of the region, with mentions of various cities and lands, including Ugarit, Danuna, and Kadesh.
+
+Overall, the Tell el Amarna tablets are a unique and valuable source of historical information, providing a window into the politics, society, and culture of the ancient Near East. They reveal the complexities and challenges of the time, including the struggles of the local princes, the rise of the Hittite empire, and the decline of Egyptian influence in the region. The tablets also demonstrate the diplomatic and literary skills of the ancient kings and officials, with their use of rhetoric and diplomacy to achieve their goals.
+
+The report for the text is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–8540):
+Section Summary: In 1820, the remains of a great ancient Egyptian city were discovered in Middle Egypt, and in 1888, a number of clay tablets with writing were found near the ruins of Tell el Amarna. The tablets, which dated back to around 1400 B.C., were part of the Egyptian state archives and were written in Babylonian cuneiform, revealing that the Semitic speech of Babylon was the language of diplomacy in the East at that time. The tablets consisted mainly of letters from Egyptian officials and Asiatic kings to the Egyptian monarch, providing valuable insights into the administration and diplomacy of the time. The discovery of the tablets shed light on the reigns of Pharaohs Amenophis III and IV, who belonged to the XVIIIth Dynasty and introduced significant changes to the Egyptian court and administration. The tablets also revealed the complex system of writing and diplomacy used by the ancient Egyptians and their counterparts in the East.
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • incorrect verb tense usage
+    - [SPELLING]:
+        • minor typos (e.g., "fruited" instead of "leaked" or "became known")
+    - [LEXICON]:
+        • occasional awkward phrasing
+    - [SYNTAX]:
+        • complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between chapters
+    - [STRUCTURE]:
+        • lack of clear connections between ideas
+    - [CLARITY]:
+        • occasional ambiguity in sentence meaning
+
+Section section_02 (Chars 8540–17067):
+Section Summary: King Amenophis IV, also known as Akhenaten, introduced a new religious doctrine that emphasized the worship of the Sun's Disk, "Aten", which led to a conflict with the powerful priests of Amon in Thebes. As a result, the king moved the capital to Tell el Amarna and introduced changes to the official names and titles of his courtiers. The new doctrine, which was based on natural phenomena, was seen as heretical and was not widely accepted, especially among the Asiatic vassals who continued to refer to Amon in their communications. The king's officials, such as Yanhamu, the governor of Lower Egypt, played important roles in maintaining control over the Asiatic provinces, but the region was plagued by conflicts and power struggles among the native princes and chiefs. The situation was further complicated by the immigration of Bedawìn tribes, including the Sutu and Habiri, who encroached upon Egyptian territory and formed alliances with some of the vassal chiefs, leading to increased strife and instability.
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Missing article in some places
+    - [LEXICON]:
+        • Some words may be unfamiliar to non-experts
+    - [SYNTAX]:
+        • Long sentences with multiple clauses
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transitions between ideas
+    - [STRUCTURE]:
+        • Lack of clear paragraph structure
+    - [CLARITY]:
+        • Some sentences are wordy and hard to follow
+
+Section section_03 (Chars 17068–25395):
+Section Summary: In Palestine, the Habiri's seizure of strongholds and the Bedawîn's unrest created an opportunity for ambitious vassals to establish independent kingdoms, taking advantage of Egypt's distance and the Pharaoh's limited response. The Egyptian government, despite being well-informed, took a middle course by sending small, inadequate forces to quell the disturbances, which sometimes succeeded but often failed to check serious hostilities. The letters from Asiatic kings, including Kadashman-Bel of Babylon, reveal a complex web of diplomatic relations, with the Egyptian Pharaoh being treated as an equal but also being asked for gold and marriage alliances. The Pharaoh's reluctance to give away his daughters in marriage, due to their perceived divine status, caused difficulties in diplomatic relations, with Kadashman-Bel responding with dry wit and threats to reciprocate. The correspondence also reveals the strained relationships between Egypt and other kingdoms, including Mitani, which was seeking a steady alliance with Egypt to secure its existence amidst threats from Babylonia and the Hittites.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • incorrect verb conjugation ("coulded")
+        • inconsistent verb tense
+    - [SYNTAX]:
+        • awkward sentence structure
+    - [LEXICON]:
+        • outdated vocabulary ("Pidati", "Shirtani")
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between paragraphs
+    - [STRUCTURE]:
+        • lack of clear chronological order
+    - [CLARITY]:
+        • ambiguous references to historical events
+    - [TRANSITION]:
+        • disconnected ideas between sentences
+
+Section section_04 (Chars 25396–33584):
+Section Summary: Tushratta, the king of Mitani, wrote to Nimmuria, the king of Egypt, detailing his struggles to ascend to the throne and his military victories. Tushratta's letters to Nimmuria were filled with requests for gold, which Nimmuria generously provided, but his later letters became increasingly greedy and insincere. After Nimmuria's death, Tushratta's relationship with the new king, Akhenaten (also known as Napkhuria), deteriorated, and Akhenaten's reckless and impolitic behavior strained Egypt's relationships with other kingdoms, including Babylonia. Akhenaten's actions, such as neglecting to send sympathy to the Babylonian king during his illness and sending gold to the Assyrian prince, were seen as breaches of etiquette and provoked retaliation from the Babylonians. This marked a significant shift in Egypt's foreign relations, as Akhenaten's policies led to unrest and instability in the region.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Complex sentence structures
+    - [LEXICON]:
+        • Unfamiliar terminology (e.g., "Habiri", "Bedawîn", "Kadashman-Bel")
+    - [SYNTAX]:
+        • Long, winding sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transitions between ideas
+    - [STRUCTURE]:
+        • Non-chronological presentation of events
+    - [CLARITY]:
+        • Overly detailed descriptions of historical events
+
+Section section_05 (Chars 33584–41791):
+Section Summary: A prince from Alashia wrote to the Egyptian king, discussing trade and commerce, and also mentioned the plague that had affected his land. In contrast, the king of Mitani, Tushratta, exchanged letters with the Egyptian king, Napkhuria, regarding a promise of golden statuettes that had not been fulfilled. Tushratta sent multiple letters, including one to Napkhuria's mother, Queen Teye, asking for her intercession in the matter. The dispute between Tushratta and Napkhuria ultimately led to a cessation of intercourse between their kingdoms. The majority of the letters found, however, were from Egyptian vassals in Western Asia, who wrote to the Pharaoh with reports and communications, using a formal and subservient tone.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • awkward sentence structures
+    - [LEXICON]:
+        • some words may be unfamiliar to non-expert readers
+    - [SYNTAX]:
+        • long sentences with multiple clauses
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt shifts between different topics
+    - [STRUCTURE]:
+        • lack of clear transitions between paragraphs
+    - [CLARITY]:
+        • some sentences are wordy and difficult to understand
+
+Section section_06 (Chars 41792–49773):
+Section Summary: The Tell el Amarna archives provide a unique store of historical material, revealing the doings of vassal chiefs during a time of warlike expeditions. Aziru, prefect of the land of the Amorites, was a particularly powerful and troublesome chief who sought to establish an independent kingdom by seizing territories from neighboring chiefs. The city of Tunip and Rib-Addi of Gebal sent complaints to Pharaoh about Aziru's aggressive actions, but their pleas for help were often ignored or delayed. Despite his questionable loyalty and alliances with Egyptian foes, Aziru managed to evade punishment for many years, but was eventually summoned to court and arrested. The archives suggest that while Aziru's actions were problematic, they also brought a measure of stability to the region, ending a period of lawlessness and petty raids by other chiefs.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [LEXICON]:
+        • some archaic vocabulary
+    - [SYNTAX]:
+        • complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • occasional abrupt transitions between ideas
+    - [STRUCTURE]:
+        • non-chronological presentation of events
+    - [CLARITY]:
+        • some sentences are wordy or ambiguous
+
+Section section_07 (Chars 49774–57643):
+Section Summary: Abdikheba, the captain of Jerusalem, wrote to the king complaining of hostilities from neighboring chiefs, including Milki-El and Tagi, who were aided by the Habiri, likely referring to the Hebrews. Abdikheba's letters, along with those of Milki-El and Tagi, express their struggles and pleas for help from the king, highlighting the instability and corruption in the region. The Egyptian system of government is blamed for the problems, with the king's lack of effective response allowing miscreants to act with impunity. The section also features letters from other Canaanite princes and officials, including Abi-milki of Tyre, who uses flattering language to curry favor with the king. These letters provide valuable insights into the politics and social dynamics of the region during this time period.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Missing article in "He lose his territory"
+    - [SPELLING]:
+        • Potential typo in "woulded" instead of "would"
+    - [SYNTAX]:
+        • Complex sentence structures may hinder readability
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between discussing Abdikheba's letters and the Egyptian system of government
+    - [STRUCTURE]:
+        • Non-chronological ordering of events and ideas
+    - [CLARITY]:
+        • Some sentences are wordy or contain ambiguous phrases
+
+Section section_08 (Chars 57643–65288):
+Section Summary: The letters discussed in this section provide insight into the manners and customs of the time, as well as geographical details. They include correspondence from various Syrian chiefs, such as Yabitiri and Itakama, who express their loyalty to the king and request assistance in dealing with rebellious cities and rival leaders. The letters also mention various locations, including Gaza, Joppa, and Ugarit, which was the most northerly of the Egyptian possessions in Asia. Additionally, the section touches on the activities of other leaders, such as Aziru and Namyauza, and their interactions with the king and other vassals. The letters also include a few written by women, including the wife of Milki-El and possibly a relative of Tushratta's daughter in Egypt.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • awkward sentence structures
+    - [LEXICON]:
+        • some archaic vocabulary
+    - [SYNTAX]:
+        • occasional unclear phrasing
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt shifts in topic
+    - [STRUCTURE]:
+        • lack of clear transitions between ideas
+    - [CLARITY]:
+        • some sentences are wordy or confusing
+
+Section section_09 (Chars 65289–70221):
+Section Summary: The daughter of Napkhuria sent a letter to her father, but unfortunately, it is mostly illegible. During the Tell el Amarna period, Egypt's authority in Asia was weakened, despite King Napkhuria's religious reform, and the Habiri people continued to attack and expand their territory. The kingdom of Mitani, which had once been a powerful state, was on the verge of collapse, threatened by the rising Hittite empire and Babylonians. Mitani's king, Tushratta, formed an alliance with Egypt out of political necessity, but the kingdom eventually vanished and was replaced by small Aramaic kingdoms and Assyrian rule. The XVIIIth Dynasty in Egypt also met a swift end, with Napkhuria's death in 1370 B.C. and the subsequent destruction of his city at Tell el Amarna by the champions of Amon.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • "it by no means strengthened the authority of Egypt in Asia" could be rephrased for better clarity
+    - [SPELLING]:
+        • "coulded" is a typo and should be "could"
+    - [SYNTAX]:
+        • Some sentences are wordy and hard to follow
+  Coherence Issues:
+    - [LOGIC]:
+        • The transition between discussing the daughter of Napkhuria's letter and the political conditions in the Tell el Amarna period feels abrupt
+    - [STRUCTURE]:
+        • The text jumps between different topics, such as the religious reform, the Habiri, and the kingdom of Mitani, without clear connections
+    - [CLARITY]:
+        • Some paragraphs lack a clear topic sentence or summary, making it hard to understand the main point
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

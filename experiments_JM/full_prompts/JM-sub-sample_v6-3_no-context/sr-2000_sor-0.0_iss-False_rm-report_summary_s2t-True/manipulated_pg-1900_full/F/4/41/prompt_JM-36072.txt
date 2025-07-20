@@ -1,0 +1,210 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) Read and understand the summary of the text the report was created for.
+    b) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    c) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The summary of the text to be evaluated is given below:
+Summary: The Victorian Age was a time of significant change and progress in England. The Industrial Revolution had a profound impact on the country, bringing about rapid economic growth and urbanization. However, this growth was accompanied by social and economic problems, including poverty, inequality, and poor working conditions. The aristocracy, who had previously held power, began to lose their influence, and a new middle class emerged.
+
+The Victorian era was also marked by significant intellectual and cultural developments. The Romantic movement, which emphasized emotion and individualism, gave way to a new era of realism and social commentary in literature. Writers such as Charles Dickens, the Brontë sisters, and Thomas Hardy explored the social and economic issues of the time in their works.
+
+Despite the many advances of the Victorian era, there were also significant challenges and criticisms. The social and economic problems of the time were often ignored or downplayed by the wealthy and powerful, and the working class was frequently exploited and mistreated. The era was also marked by a growing sense of disillusionment and social unrest, as people began to question the values and institutions of the time.
+
+One of the key figures of the Victorian era was Alfred Tennyson, who was the Poet Laureate of the United Kingdom during much of Queen Victoria's reign. Tennyson's poetry explored themes of social justice, morality, and the human condition, and he was widely admired and respected for his work.
+
+The Victorian era was also marked by significant developments in science, technology, and medicine. The discovery of new scientific principles and the development of new technologies, such as the steam engine and the telegraph, transformed the way people lived and worked. The era also saw significant advances in medicine, including the discovery of the germ theory of disease and the development of new treatments for illnesses.
+
+Despite the many advances of the Victorian era, the era was also marked by significant social and economic problems. The poverty and inequality of the time were often shocking, and the working class was frequently exploited and mistreated. The era was also marked by a growing sense of disillusionment and social unrest, as people began to question the values and institutions of the time.
+
+In terms of foreign policy, the Victorian era was marked by a growing sense of British power and influence. The British Empire expanded significantly during this time, and Britain became a major world power. However, this expansion was often accompanied by conflict and violence, and the era was marked by a number of significant wars and military interventions.
+
+Overall, the Victorian era was a complex and multifaceted time, marked by significant social, economic, and cultural developments. While the era was marked by many advances and achievements, it was also marked by significant challenges and criticisms, and its legacy continues to be felt today.
+
+The Victorian era came to an end with the death of Queen Victoria in 1901, and the 20th century brought significant changes and challenges for Britain. The country faced significant economic and social problems, including poverty, inequality, and unemployment, and the British Empire began to decline. However, the era also saw significant advances in science, technology, and medicine, and Britain continued to play a major role in world affairs.
+
+In conclusion, the Victorian era was a significant and complex time in British history, marked by many advances and achievements, as well as significant challenges and criticisms. The era's legacy continues to be felt today, and its impact can still be seen in many areas of British society and culture. The era's emphasis on social justice, morality, and the human condition continues to inspire and influence people today, and its many achievements in science, technology, and medicine have had a lasting impact on the world.
+
+The report for the text is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–9016):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "thwir" instead of "their"
+        • "breat" instead of "great"
+        • "Besodes" instead of "Besides"
+        • "xn" instead of "an"
+        • "wirhout" instead of "without"
+        • "yhe" instead of "the"
+        • "throuyh" instead of "through"
+        • "seae" instead of "sea"
+        • "bdivided" instead of "divided"
+        • "roade" instead of "roads"
+        • "tge" instead of "the"
+    - [GRAMMAR]:
+        • missing articles in some places
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between paragraphs
+    - [STRUCTURE]:
+        • lack of clear connections between ideas
+    - [CLARITY]:
+        • some sentences are wordy and hard to follow
+
+Section section_02 (Chars 9017–17648):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing or incorrect articles
+    - [SPELLING]:
+        • typos (e.g. "cointry", "xomplacency", "tk")
+    - [SYNTAX]:
+        • long and complex sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between ideas
+    - [STRUCTURE]:
+        • lack of clear organization
+    - [CLARITY]:
+        • ambiguous or unclear sentences
+
+Section section_03 (Chars 17649–26470):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing or incorrect articles
+    - [SPELLING]:
+        • typos such as "rwmains", "mudh", "solatium" likely a typo, "ajd" instead of "and", "stylr" instead of "style", "correspondrnce" instead of "correspondence", "gentlemenm" instead of "gentlemen", "qfter" instead of "after", "yhe" instead of "the", "dentury" instead of "century", "Ghe" instead of "The", "scum of the earth,' and the brutal discipline of the time did everything to justify this description, for the soldier was supposed to have surrendered all his rights as a man and a citizen" is a run-on sentence
+    - [SYNTAX]:
+        • sentence structure is sometimes awkward or hard to follow
+  Coherence Issues:
+    - [LOGIC]:
+        • some transitions between ideas are abrupt or unclear
+    - [STRUCTURE]:
+        • the text jumps between different topics without clear connections
+    - [CLARITY]:
+        • some sentences are wordy or contain unclear references
+
+Section section_04 (Chars 26471–35103):
+Scores:
+  - Fluency: 3.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • incorrect verb tense usage
+    - [SPELLING]:
+        • typos (e.g. "waz" instead of "was", "Germajy" instead of "Germany", "xettlement" instead of "settlement", "neavilg" instead of "nervously", "ix" instead of "is", "anotuer" instead of "another", "trkd" instead of "trod", "successfulcthan" instead of "more successful than", "represenfative" instead of "representative", "granxest" instead of "greatest", "writkng-table" instead of "writing-table", "portrxits" instead of "portraits", "ajd" instead of "and", "greatmmen" instead of "great men")
+    - [SYNTAX]:
+        • awkward sentence structure
+    - [LEXICON]:
+        • outdated vocabulary
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between ideas
+    - [STRUCTURE]:
+        • lack of clear organization
+    - [CLARITY]:
+        • ambiguous sentences
+    - [TRANSITION]:
+        • poor connections between paragraphs
+
+Section section_05 (Chars 35104–43487):
+Scores:
+  - Fluency: 2.5
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • severak
+        • amonv
+        • disgracfuk
+        • scabrous
+        • resezrch
+        • Oedipjs
+        • Miltkn
+        • innhis
+        • therefofe
+        • conviftikn
+        • rsalm
+        • upreared
+        • andmbe
+        • thd
+        • eduvatedcclass
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between ideas
+    - [STRUCTURE]:
+        • lack of clear paragraph structure
+    - [CLARITY]:
+        • unclear sentences
+    - [TRANSITION]:
+        • disconnected ideas between paragraphs
+
+Section section_06 (Chars 43488–51864):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing or incorrect articles
+    - [SPELLING]:
+        • typos such as "zet-back", "csuse", "idewl", "exxmple", "propyets", "romsntic", "inteloigent"
+    - [SYNTAX]:
+        • long and convoluted sentence structures
+    - [LEXICON]:
+        • some words are used in outdated or uncommon ways
+  Coherence Issues:
+    - [LOGIC]:
+        • some arguments seem disconnected or lacking clear transitions
+    - [STRUCTURE]:
+        • the text jumps between different topics and ideas
+    - [CLARITY]:
+        • certain sentences or phrases are worded vaguely or ambiguously
+    - [TRANSITION]:
+        • abrupt shifts between paragraphs or ideas
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

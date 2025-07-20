@@ -1,0 +1,465 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    b) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The report is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–4010):
+Scores:
+  - Fluency: 3.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "stdeet" instead of "street"
+        • "goomy" instead of "gloomy"
+        • "attenuatee" instead of "attenuated"
+        • "violet-wcented" instead of "violet-scented"
+        • "aere" instead of "were"
+        • "enriched withbbright" instead of "enriched with bright"
+        • "castingcits" instead of "casting its"
+        • "afyer" instead of "after"
+        • "hid" instead of "his"
+        • "qnd" instead of "and"
+        • "pleasaujces" instead of "pleasures"
+    - [GRAMMAR]:
+        • awkward phrasing in several sentences
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transition between paragraphs
+    - [CLARITY]:
+        • confusing timeline of events
+    - [LOGIC]:
+        • unclear connection between Fragonard's life and the historical events
+
+Section section_02 (Chars 4010–7792):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "neq" instead of "new"
+        • "aemy" instead of "academy"
+        • "onr" instead of "any one"
+        • "ths" instead of "this"
+        • "amidsf" instead of "amidst"
+        • "zmall" instead of "small"
+        • "fot" instead of "for"
+        • "hid" instead of "his"
+    - [GRAMMAR]:
+        • "the king raised Madame Lenormant d'Etioles, a daughter of the rich financier class, to be Marquise de Pompadour, and yielded up to her the sceptre over his people" is a long sentence with multiple clauses
+        • "Her energy and her industry must have been colossal" is a sentence that could be more smoothly integrated into the surrounding text
+  Coherence Issues:
+    - [STRUCTURE]:
+        • The text jumps abruptly from discussing the Pompadour's influence to describing the protagonist's life in Grasse
+    - [TRANSITION]:
+        • The transition between the discussion of the Pompadour and the introduction of the protagonist's story is abrupt
+    - [CLARITY]:
+        • Some sentences are wordy or contain complex phrases that disrupt the flow of the text
+
+Section section_03 (Chars 7792–11669):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "thd" instead of "the"
+        • "common-srnse" instead of "common-sense"
+        • "qnxious" instead of "anxious"
+        • "brooad" instead of "broad"
+        • "Tbrown" instead of "Thrown"
+        • "reyurning" instead of "returning"
+        • "enlargement" inconsistent spacing
+  Coherence Issues:
+    - [STRUCTURE]:
+        • Abrupt transition between the youth's progress and the Director-General's death
+    - [CLARITY]:
+        • Unclear connection between the Pompadour's influence and the youth's artistic development
+
+Section section_04 (Chars 11670–15744):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • creatsd instead of "created"
+        • winnjng instead of "winning"
+        • Lkuvre instead of "Louvre"
+        • qnd instead of "and"
+        • iing's instead of "king's"
+        • Italoan instead of "Italian"
+        • wodks instead of "works"
+        • cesign instead of "design"
+        • savwd instead of "saved"
+        • halting Italian is unclear
+        • zolid instead of "solid"
+        • Tiepolo's introduction is abrupt
+        • Franve instead of "France"
+    - [GRAMMAR]:
+        • several minor punctuation errors
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transition between Fragonard's training and the king's assassination attempt
+    - [CLARITY]:
+        • some sentences are wordy and hard to follow
+    - [LOGIC]:
+        • the connection between Fragonard's artistic development and the historical events is sometimes unclear
+    - [TRANSITION]:
+        • the shift between Fragonard's time in Rome and his friendship with Hubert Robert feels abrupt
+
+Section section_05 (Chars 15745–19516):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • delightfulcgood-fellowship
+        • essenxe
+        • Prile Minister
+        • powwr
+        • reachrd
+        • mastef
+        • themnew
+        • shrewdckindly
+  Coherence Issues:
+    - [TRANSITION]:
+        • abrupt shift from Fragonard's story to the political situation in Paris
+    - [STRUCTURE]:
+        • lack of clear connection between Fragonard's artistic development and the historical events
+
+Section section_06 (Chars 19517–23453):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • multiple typos (e.g., "greaf", "shephefdesses", "historiv", "weakndssds", "csme", "paintdr", "finamciers", "fasyion", "Ylu")
+    - [GRAMMAR]:
+        • occasional awkward phrasing
+    - [LEXICON]:
+        • some words may be less familiar to modern readers
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transition between paragraphs
+    - [CLARITY]:
+        • some sentences are wordy or complex
+
+Section section_07 (Chars 23454–27537):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "consideragle" instead of "considerable"
+        • "xould" instead of "could"
+        • "ghe" instead of "the"
+        • "Clpud" instead of "Cloud"
+        • "accough" instead of "cough"
+        • "cdies" instead of "cries"
+        • "pasy" instead of "past"
+        • "ubdertook" instead of "undertook"
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt shift from discussing Fragonard's art to French politics
+    - [TRANSITION]:
+        • Lack of smooth connection between paragraphs
+    - [CLARITY]:
+        • Unclear relevance of Choiseul's actions to Fragonard's life
+
+Section section_08 (Chars 27538–31350):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "frkend" instead of "friend"
+        • "anr" instead of "and"
+        • "delaya" instead of "delays"
+        • "losf" instead of "lost"
+        • "tje" instead of "the"
+    - [GRAMMAR]:
+        • inconsistent verb tenses
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transitions between paragraphs
+    - [CLARITY]:
+        • unclear connections between ideas
+    - [LOGIC]:
+        • some sentences seem disconnected from the main narrative
+
+Section section_09 (Chars 31350–35242):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing or incorrect articles
+    - [SPELLING]:
+        • typos (e.g., "abchill", "Rragonard", "ws", "shqll")
+    - [LEXICON]:
+        • occasional awkward word choices
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between ideas
+    - [STRUCTURE]:
+        • lack of clear chronological progression
+    - [CLARITY]:
+        • some sentences are wordy or confusing
+
+Section section_10 (Chars 35243–39164):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • irojy
+        • exqyisite
+        • spendthrift
+        • witg
+        • wrtistic
+        • Isnwrd
+        • jovial
+        • naughtinesses
+        • vtenderness
+        • majesticc
+        • landscalists
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transition between paragraphs
+    - [CLARITY]:
+        • unclear connection between Fragonard's marriage and his artistic career
+    - [LOGIC]:
+        • lack of clear chronological order in some sections
+
+Section section_11 (Chars 39165–42657):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [LEXICON]:
+        • overly complex vocabulary
+    - [SYNTAX]:
+        • long, convoluted sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between historical events
+    - [STRUCTURE]:
+        • lack of clear chronological order
+    - [CLARITY]:
+        • ambiguous references to historical figures
+
+Section section_12 (Chars 42658–46625):
+Scores:
+  - Fluency: 3.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • stticken
+        • distempered
+        • unattendedcby
+        • yhe
+        • pf
+        • sritings
+        • axtounding
+        • wipl
+        • avoidednlike
+        • soonmrelented
+    - [GRAMMAR]:
+        • missing or incorrect punctuation
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt shift from describing the king's death to discussing the new king and queen
+    - [TRANSITION]:
+        • lack of smooth connection between paragraphs
+    - [CLARITY]:
+        • confusing sentence structure
+
+Section section_13 (Chars 46625–50250):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • typos (e.g., "weremto", "brsad", "twelvr", "pennilesa", "palacex", "fzces")
+    - [GRAMMAR]:
+        • missing or incorrect articles and prepositions
+    - [LEXICON]:
+        • occasional awkward word choices
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transition between the description of Fragonard's journey and the introduction of the new king
+    - [CLARITY]:
+        • some sentences are wordy or contain multiple unrelated ideas
+
+Section section_14 (Chars 50250–54319):
+Scores:
+  - Fluency: 3.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • "in a happy hour" is an unclear phrase
+    - [SPELLING]:
+        • "jing" likely should be "king"
+        • "rokms" likely should be "rooms"
+        • "wuo" likely should be "who"
+        • "hodrified" likely should be "horrified"
+        • "ofcNeckar" likely should be "of Neckar"
+        • "goul" likely should be "lost"
+        • "kihg" likely should be "king"
+        • "14fh" likely should be "14th"
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt shift from Fragonard's personal life to the French Revolution
+    - [STRUCTURE]:
+        • lack of clear connection between Fragonard's story and the historical events
+    - [CLARITY]:
+        • some sentences are wordy and hard to follow
+
+Section section_15 (Chars 54319–58321):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "dawj" instead of "dawn"
+        • "fpllowed" instead of "followed"
+        • "Natoonal" instead of "National"
+    - [GRAMMAR]:
+        • "the king's business" is unclear
+    - [SYNTAX]:
+        • some sentences are long and convoluted
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition from describing Fragonard to the French Revolution
+    - [STRUCTURE]:
+        • lack of clear chronological order
+    - [CLARITY]:
+        • some sentences are wordy and difficult to understand
+    - [TRANSITION]:
+        • abrupt shift from describing the National Convention to the conflict between Girondists and Jacobins
+
+Section section_16 (Chars 58322–62258):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "ekghteenth" instead of "eighteenth"
+        • "poservand" instead of "possessors and"
+        • "dissipatdd" instead of "dissipated"
+        • "susoicion" instead of "suspicion"
+        • "travail" might be less common, but it's not an error, however "kinfolk of gis friends" should be "kinsfolk of his friends"
+        • "escapingmdeath" instead of "escaping death"
+        • "tne" instead of "the"
+    - [GRAMMAR]:
+        • "He struggled hard to catch the new ideas, and failed" is a bit simplistic
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt shift from describing Fragonard's struggles to his departure from Paris
+    - [TRANSITION]:
+        • The connection between the national enthusiasm and Fragonard's personal feelings could be smoother
+    - [CLARITY]:
+        • Some sentences are long and convoluted, making them hard to follow
+
+Section section_17 (Chars 62259–66208):
+Scores:
+  - Fluency: 3.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "wasncome" instead of "had come"
+        • "tje" instead of "the"
+        • "sucxess" instead of "success"
+        • "sztire" instead of "satire"
+        • "splensour" instead of "splendor"
+        • "thd" instead of "the"
+        • "triumpantccareer" instead of "triumphant career"
+        • "lkved" instead of "lived"
+    - [GRAMMAR]:
+        • missing or incorrect punctuation in several places
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transition between the historical context and Fragonard's personal life
+    - [CLARITY]:
+        • some sentences are wordy or unclear
+    - [LOGIC]:
+        • the text jumps back and forth in time
+
+Section section_18 (Chars 66209–68165):
+Scores:
+  - Fluency: 2.5
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • pezcefully
+        • nwith
+        • atmisphere
+        • icnecessary
+        • revelationcof
+        • uttsrs
+        • skomming
+        • trwvail
+        • Louos
+    - [GRAMMAR]:
+        • sentence structure complexity
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between paragraphs
+    - [STRUCTURE]:
+        • lack of clear connections between ideas
+    - [CLARITY]:
+        • ambiguous sentences
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

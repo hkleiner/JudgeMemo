@@ -1,0 +1,225 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    b) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The report is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–8670):
+Section Summary: The series of lectures was founded in memory of Mr. Arthur Davis, a renowned Hebrew scholar who dedicated his life to promoting Hebraic thought and learning. Davis's work, including his writings on Hebrew accents and his translation of the Festival Prayer Book, has contributed to the preservation and revival of the Hebrew language. The concept of a "Chosen People" has been a source of irritation for non-Jews, with some critics arguing that it implies spiritual supremacy over other nations. The idea of special election is not unique to Judaism, as other cultures, such as Germanism, have also developed similar doctrines. The lecture series aims to explore Jewish interests and thought, with the initial lecture being delivered by a distinguished Jewish man of letters.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • abrupt sentence transitions
+    - [LEXICON]:
+        • some words are archaic or less common
+    - [SYNTAX]:
+        • complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • jumps between different ideas and time periods
+    - [STRUCTURE]:
+        • lack of clear connection between some paragraphs
+    - [CLARITY]:
+        • some sentences are wordy or unclear
+
+Section section_02 (Chars 8671–17081):
+Section Summary: The concept of a Chosen People in the Bible can be misunderstood if taken out of its historical context. Passages that seem to promote violence and superiority are often part of a larger ethical framework that emphasizes righteousness and justice. The Bible is a collection of national literature that reflects the complexities and contradictions of human nature, with both self-regarding and idealistic currents of thought. Despite its flaws, the Old Testament reaches a high ethical note, emphasizing the idea of a people chosen for universal salvation. Ultimately, the Bible must be interpreted in the context of history and human nature, rather than being judged by modern standards or allegorized to fit a particular ideology.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Missing articles in some sentences
+    - [LEXICON]:
+        • Some words are outdated or less common
+    - [SYNTAX]:
+        • Long and complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transitions between ideas
+    - [STRUCTURE]:
+        • Lack of clear paragraph topics
+    - [CLARITY]:
+        • Some sentences are wordy or ambiguous
+
+Section section_03 (Chars 17082–25513):
+Section Summary: The Jewish people have a noble mission, as described in the Old Testament, to be "a light of the nations" and "a kingdom of priests." This mission is not about self-aggrandizement, but about serving the world and promoting justice and righteousness. The concept of a "chosen people" is often misunderstood, and it is actually about being a servant people, chosen to fulfill a spiritual mission. The Old Testament ideal is universal and cosmic, encompassing all creation, and is not limited to the Jewish people. The true nature of the Jewish God is one of universalism, righteousness, and justice, rather than tribalism or malignancy.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Complex sentence structures
+    - [LEXICON]:
+        • Unfamiliar vocabulary and poetic language
+    - [SYNTAX]:
+        • Long paragraphs and dense text
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transitions between ideas
+    - [STRUCTURE]:
+        • Lack of clear sectioning or headings
+    - [CLARITY]:
+        • Ambiguous references to external sources
+
+Section section_04 (Chars 25513–33843):
+Section Summary: The concept of a "tribal God" is challenged by the biblical story of Abraham, who questions God's justice and morality, demonstrating a tradition of free thought and ethical development. This tradition is continued by Moses, who boldly intervenes on behalf of the people, and by other Jewish thinkers, such as Maimonides and Spinoza, who emphasize the universal and rational aspects of God. The idea of the "Chosen People" is not unique to Judaism, and other nations have also assigned a mission to themselves. In Jewish thought, the doctrine of election is not seen as a source of arrogance, but rather as a sense of responsibility and noblesse oblige, with Israel being bound to promote the "sanctification of the Name" and uphold God's reputation. The concept of election is deeply rooted in Jewish mysticism and is expressed in various forms of poetry and liturgy throughout Jewish history.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Complex sentence structures
+    - [LEXICON]:
+        • Unfamiliar vocabulary and poetic language
+    - [SYNTAX]:
+        • Long sentences with multiple clauses
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transitions between ideas
+    - [STRUCTURE]:
+        • Non-linear narrative progression
+    - [CLARITY]:
+        • Ambiguous references to external sources
+
+Section section_05 (Chars 33844–42174):
+Section Summary: The concept of a "Chosen People" is explored, with the idea that it is a symbolic summary of a nation's genius for religion, rather than a literal episode. The development of a national mission is a gradual process, as seen in the histories of England and America, where a sense of national self-consciousness and destiny evolved over time. In England, this sense of national identity began to take shape in the 13th century and was influenced by the country's growing power and sense of divine protection. The idea of a national mission was further shaped by literary and cultural works, such as Shakespeare's writings and the song "Rule, Britannia", which reflected the country's ambitions and values. Ultimately, the concept of a "Chosen People" is a product of a nation's history, culture, and sense of purpose, rather than a fixed or literal idea.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Inconsistent verb tense usage
+    - [SYNTAX]:
+        • Complex sentence structures
+    - [LEXICON]:
+        • Archaic vocabulary
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transitions between ideas
+    - [STRUCTURE]:
+        • Lack of clear narrative progression
+    - [CLARITY]:
+        • Unclear connections between historical events
+
+Section section_06 (Chars 42174–50842):
+Section Summary: The concept of a national mission is explored, highlighting how it is often created retrospectively to justify a nation's actions and expansion. The example of Britain is used, where the idea of a divine mission is seen in the works of Kipling, who spiritualized the doctrine of the Chosen People. In contrast, Germany's mission has evolved to prioritize the state over individuality, resembling ancient pagan constitutions. The idea of a national mission is not unique to Britain or Germany, as other nations, such as Japan, also have similar concepts. Ultimately, a national mission becomes false only when a nation is false to it, and its evolution over time does not diminish its significance or mystery.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Inconsistent verb tense usage
+    - [LEXICON]:
+        • Overly complex vocabulary
+    - [SYNTAX]:
+        • Long, convoluted sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transitions between ideas
+    - [STRUCTURE]:
+        • Lack of clear paragraph organization
+    - [CLARITY]:
+        • Unclear connections between historical references
+
+Section section_07 (Chars 50843–59151):
+Section Summary: The author discusses the differences between Germanism and Judaism, highlighting that German writers often glorify their nation, while Jewish writers tend to rebuke theirs. In contrast to German nationalism, Jewish literature emphasizes truth and veracity, even exposing the flaws of its own heroes. The author notes that Germany's militarism and nationalism are not unique and have been seen in other maritime countries, and that the country's industrial prosperity has contributed to its degeneration. The concept of "Recessional" is introduced, referring to the idea of self-criticism and humility, which is present in Jewish literature but lacking in German nationalism. Ultimately, the author suggests that the old Germany of Goethe and Schiller is still latent, and that there are voices of criticism and dissent within the country that reject militarism and nationalism.
+Scores:
+  - Fluency: 3.5
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Complex sentence structures
+    - [LEXICON]:
+        • Archaic vocabulary
+    - [SYNTAX]:
+        • Long, winding sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transitions between ideas
+    - [STRUCTURE]:
+        • Lack of clear paragraph topics
+    - [CLARITY]:
+        • Overly complex and dense writing
+
+Section section_08 (Chars 59152–67636):
+Section Summary: The text discusses the potential for Judaism to contribute to a new era of universalism and peace, following a period of darkness and crisis. It references the ideas of Immanuel Kant and the concept of "Perpetual Peace," and suggests that Judaism has a unique role to play in promoting unity and understanding. The author also critiques the notion that Christianity is the only path to universalism, citing the examples of Abraham Lincoln and other thinkers who have found value in Jewish teachings. Ultimately, the text argues that Judaism must find its voice and contribute to the shaping of a new world order, rather than remaining silent or hidden. The final section is a tribute to the memory of Arthur Davis, a scholar and lover of Jewish literature and liturgy.
+Scores:
+  - Fluency: 3.5
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • awkward sentence structure
+    - [LEXICON]:
+        • overly complex vocabulary
+    - [SYNTAX]:
+        • long, convoluted sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between ideas
+    - [STRUCTURE]:
+        • lack of clear progression
+    - [CLARITY]:
+        • ambiguous or unclear statements
+
+Section section_09 (Chars 67637–67832):
+Section Summary: The person being referred to has a remarkable record. His spirit has a profound impact on those around him, inspiring and uplifting them. The text "His taste remaineth in him and his fragrance is not changed" can be applied to him, suggesting that his positive qualities endure. This phrase implies that his inner beauty and goodness remain unchanged, continuing to inspire others. Overall, he is a person of great character and spirit.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Lack of clear sentence structure
+    - [LEXICON]:
+        • Poetic language may be unclear to some readers
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition from previous section's theme
+    - [CLARITY]:
+        • Unclear connection to the tribute's purpose
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

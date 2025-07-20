@@ -1,0 +1,559 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    b) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The report is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–4160):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [SPELLING]:
+        • minor typos (e.g., "xourse" instead of "course", "inifferencs" instead of "indifference", "etablished" instead of "established", "Seceetaries" instead of "Secretaries", "ihteresting" instead of "interesting")
+    - [LEXICON]:
+        • occasional awkward phrasing
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between paragraphs
+    - [STRUCTURE]:
+        • meandering narrative
+    - [CLARITY]:
+        • unclear sentence structure in some instances
+
+Section section_02 (Chars 4160–8051):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing or incorrect articles
+    - [SPELLING]:
+        • typos (e.g. "vommand", "gheir", "accoujt", "taubes", "witj")
+    - [LEXICON]:
+        • uncommon vocabulary (e.g. "sauf conduit", "carnet rouge")
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt shift in tone when describing the permission process
+    - [STRUCTURE]:
+        • non-chronological events and unclear transitions between paragraphs
+    - [CLARITY]:
+        • ambiguous sentences and unclear expectations
+
+Section section_03 (Chars 8051–12178):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • shlwing instead of showing
+        • mitrailleuses (correct, but may be unfamiliar to some readers)
+        • tye instead of the
+        • friebds instead of friends
+        • Guerre (correct, but may be unfamiliar to some readers)
+        • sbout instead of about
+        • eveey instead of every
+        • Huerre instead of Guerre
+        • ghe instead of the
+        • taubes (correct, but may be unfamiliar to some readers)
+        • forbthe instead of for the
+        • byt instead of but
+        • outdlor instead of outdoor
+        • rhan instead of than
+        • ahich instead of which
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transition between describing the village and the narrator's trip
+    - [CLARITY]:
+        • unclear what the narrator means by "the unique experience would suffice"
+    - [LOGIC]:
+        • unclear why the narrator reflects on the height of the officers
+
+Section section_04 (Chars 12179–16189):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "thw" instead of "the"
+        • "automlbiles" instead of "automobiles"
+        • "vsry" instead of "very"
+        • "Germwny" instead of "Germany"
+        • "hospifals" instead of "hospitals"
+        • "oeuvre" is correctly used, but may be unfamiliar to some readers
+    - [GRAMMAR]:
+        • Some sentences are long and convoluted
+  Coherence Issues:
+    - [STRUCTURE]:
+        • Abrupt transition from describing Frenchmen to describing the town of Châlons
+    - [CLARITY]:
+        • Some sentences are wordy and unclear
+    - [TRANSITION]:
+        • The narrative jumps between different ideas and scenes
+
+Section section_05 (Chars 16190–19991):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "sioent" instead of "silent"
+        • "tpwn" instead of "town"
+        • "wqs" instead of "was"
+        • "xould" instead of "could"
+        • "thw" instead of "the"
+        • "supererogatory" is a rare word, may cause readability issues
+        • "HLRRORS" instead of "HORRORS"
+        • "ZOJE" instead of "ZONE"
+        • "nundred" instead of "hundred"
+        • "yhe" instead of "the"
+  Coherence Issues:
+    - [STRUCTURE]:
+        • Abrupt transition between the description of the hotel and the train ride
+    - [CLARITY]:
+        • Unclear connection between the story of Marie Antoinette and the war zone
+    - [TRANSITION]:
+        • Lack of smooth transition between paragraphs
+
+Section section_06 (Chars 19992–23996):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "wax" instead of "was"
+        • "vthe" instead of "the"
+        • "Hoteo" instead of "Hôtel"
+        • "verybamiable" instead of "very amiable"
+        • "svery" instead of "every"
+        • "eo" instead of "so"
+        • "stredts" instead of "streets"
+        • "tuey" instead of "they"
+        • "tymbles" instead of "tumbles"
+        • "pêle-mêle" correct but may be unfamiliar to some readers
+        • "ly" instead of "my"
+        • "taube" instead of "Taube" (proper noun)
+        • "lopked" instead of "looked"
+        • "fronr" instead of "front"
+        • "Thebonly" instead of "The only"
+    - [GRAMMAR]:
+        • missing articles in some places
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transition between describing the town and discussing air raids
+    - [CLARITY]:
+        • some sentences are wordy or unclear
+    - [TRANSITION]:
+        • lack of smooth connection between paragraphs
+
+Section section_07 (Chars 23997–28034):
+Scores:
+  - Fluency: 3.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • typos (e.g. "ghe", "noddsd", "wbile", "mutton that tasted as if killed an hour before, abd")
+    - [GRAMMAR]:
+        • missing or incorrect articles and prepositions
+    - [LEXICON]:
+        • inconsistent vocabulary usage
+    - [SYNTAX]:
+        • sentence structure issues, including run-on sentences and missing punctuation
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between scenes and ideas
+    - [STRUCTURE]:
+        • lack of clear progression and organization
+    - [CLARITY]:
+        • ambiguous sentences and unclear descriptions
+    - [TRANSITION]:
+        • insufficient connections between paragraphs
+
+Section section_08 (Chars 28035–32237):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "msrched" instead of "marched"
+        • "sere" instead of "were"
+        • "edactly" instead of "exactly"
+        • "xs" instead of "as"
+        • "nabobs" may be unfamiliar to some readers
+        • "will notnsleep" instead of "will not sleep"
+        • "acmilitary" instead of "a military"
+        • "tnrough" instead of "through"
+        • "eulhemism" instead of "euphemism"
+        • "pickingbout" instead of "picking out"
+    - [GRAMMAR]:
+        • Missing articles in some places
+  Coherence Issues:
+    - [STRUCTURE]:
+        • Abrupt transition between describing the hospitals and the drive within the city limits
+    - [CLARITY]:
+        • Some sentences are long and convoluted
+    - [LOGIC]:
+        • The narrative jumps between different events and ideas
+
+Section section_09 (Chars 32238–36182):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • typos (e.g., "lioked", "abkut", "Hiwever", "glaxs", "frlm", "judgong", "rhe", "mycfriends", "tbis", "yhe", "Flearing")
+    - [GRAMMAR]:
+        • minor grammatical errors (e.g., missing or incorrect articles, inconsistent verb tenses)
+    - [LEXICON]:
+        • occasional awkward word choices (e.g., "callous as if inoculated")
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transitions between scenes or ideas
+    - [CLARITY]:
+        • some sentences or paragraphs lack clear connections to the overall narrative
+    - [LOGIC]:
+        • occasional inconsistencies in the author's tone or perspective
+
+Section section_10 (Chars 36183–40373):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "wkuld" instead of "would"
+        • "nlne" instead of "nine"
+        • "automkbile" instead of "automobile"
+        • "mattsr" instead of "matter"
+        • "wpuld" instead of "would"
+        • "cyriosity" instead of "curiosity"
+        • "retutning" instead of "returning"
+        • "amva" instead of "am a"
+        • "exoected" instead of "expected"
+        • "grext" instead of "great"
+        • "Wd" instead of "We"
+    - [GRAMMAR]:
+        • inconsistent verb tenses
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between sentences
+    - [STRUCTURE]:
+        • lack of clear paragraph structure
+    - [CLARITY]:
+        • unclear sentences due to complex phrasing
+
+Section section_11 (Chars 40374–44504):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "oncessant" instead of "incessant"
+        • "coufse" instead of "of course"
+        • "vrankly" instead of "frankly"
+        • "estaminet" may be unfamiliar to some readers
+        • "evwn" instead of "even"
+        • "manyv" instead of "many"
+        • "cthese" instead of "these"
+        • "eore" instead of "wore"
+        • "Mkdi" may be a typo or unclear abbreviation
+    - [GRAMMAR]:
+        • some sentence structures are complex and hard to follow
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between describing soldiers and discussing birth rates
+    - [STRUCTURE]:
+        • lack of clear connection between some paragraphs
+    - [CLARITY]:
+        • some sentences are wordy or contain unclear references
+    - [TRANSITION]:
+        • could benefit from clearer transitions between ideas
+
+Section section_12 (Chars 44505–48450):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing or incorrect articles
+    - [SPELLING]:
+        • "honey moo" instead of "honeymoon"
+        • "follpwing" instead of "following"
+        • "eevenue" instead of "revenue"
+        • "aftendant" instead of "attendant"
+        • "vor" instead of "or"
+    - [SYNTAX]:
+        • run-on sentences or lack of punctuation
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between descriptions of war scenes and discussions of reconstruction
+    - [STRUCTURE]:
+        • lack of clear connection between ideas
+    - [CLARITY]:
+        • ambiguous sentences or phrases
+    - [TRANSITION]:
+        • sudden shift in topic without clear introduction
+
+Section section_13 (Chars 48451–52557):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • alwqys
+        • jt
+        • gigqntic
+        • taubes
+        • frim
+        • fhe
+        • ot
+        • kf
+        • forebearance
+        • showsd
+    - [GRAMMAR]:
+        • missing or incorrect punctuation
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between ideas
+    - [STRUCTURE]:
+        • lack of clear paragraph structure
+    - [CLARITY]:
+        • unclear sentences
+
+Section section_14 (Chars 52558–56721):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • "wss" instead of "was"
+    - [SPELLING]:
+        • "ambulanxe" instead of "ambulance"
+        • "militaty" instead of "military"
+        • "arcades ofnthe" instead of "arcades of the"
+        • "therd" instead of "there"
+        • "enterrd" instead of "entered"
+        • "MajorbC" instead of "Major C"
+  Coherence Issues:
+    - [STRUCTURE]:
+        • Abrupt shift in topics and scenes
+    - [TRANSITION]:
+        • Lack of smooth connections between paragraphs
+    - [CLARITY]:
+        • Some sentences are wordy and confusing
+
+Section section_15 (Chars 56722–60712):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "permjtted" instead of "permitted"
+        • "aleo" instead of "also"
+        • "xtruck" instead of "struck"
+        • "prospwct" instead of "prospect"
+        • "thzt" instead of "that"
+        • "thaf" instead of "that"
+        • "devoufed" instead of "devoured"
+        • "tue" instead of "the"
+        • "amBosche" instead of "Boche" (common slang for German soldiers)
+    - [GRAMMAR]:
+        • Missing articles in some places
+  Coherence Issues:
+    - [STRUCTURE]:
+        • Abrupt transition between paragraphs
+    - [CLARITY]:
+        • Some sentences are wordy or unclear
+    - [LOGIC]:
+        • The narrative jumps between different events and ideas
+
+Section section_16 (Chars 60713–64726):
+Scores:
+  - Fluency: 2.0
+  - Coherence: 2.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "froht" instead of "front"
+        • "deatgs" instead of "deaths"
+        • "pf" instead of "of"
+        • "diabolical Albion" is unclear
+        • "wiol" instead of "will"
+        • "tje" instead of "the"
+        • "destrjction" instead of "destruction"
+        • "mey" instead of "met"
+        • "bscale" instead of "presided"
+    - [GRAMMAR]:
+        • Multiple sentences with awkward phrasing
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt shift from discussing war crimes to founding an organization
+    - [STRUCTURE]:
+        • Lack of clear connection between different sections
+    - [CLARITY]:
+        • Unclear transitions between ideas
+    - [TRANSITION]:
+        • Sudden change in tone and subject matter
+
+Section section_17 (Chars 64727–68883):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • typos (e.g., "dlnations", "pfomised", "enghusiasm", "Howeved", "lut", "thebdoctors", "exprndimg", "kitcben", "quitw", "cand")
+    - [GRAMMAR]:
+        • missing or incorrect articles and prepositions
+    - [LEXICON]:
+        • occasional word choice issues (e.g., "oeuvre" might be unfamiliar to some readers)
+  Coherence Issues:
+    - [LOGIC]:
+        • some sentences seem disconnected from the main narrative
+    - [TRANSITION]:
+        • abrupt shifts between different ideas or scenes
+    - [CLARITY]:
+        • a few sentences are wordy or contain complex phrases that hinder understanding
+
+Section section_18 (Chars 68884–72960):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • yhose
+        • abtarrying
+        • enougn
+        • primifive
+        • ond
+        • onlybtwo
+        • itsbpreserves
+        • qualitiws
+        • neaf
+        • buildjngs
+        • prrcision
+        • Ffench
+        • tjeir
+    - [GRAMMAR]:
+        • inconsistent verb tenses
+    - [SYNTAX]:
+        • run-on sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between paragraphs
+    - [STRUCTURE]:
+        • lack of clear topic sentences
+    - [CLARITY]:
+        • ambiguous sentences
+    - [TRANSITION]:
+        • missing connections between ideas
+
+Section section_19 (Chars 72961–77034):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • "transferref" instead of "transferred"
+    - [SPELLING]:
+        • "taubes" (possibly a typo or uncommon term)
+        • "milss" instead of "miles"
+        • "hwd" instead of "had"
+        • "dds" instead of "des"
+    - [SYNTAX]:
+        • Some sentences are long and convoluted
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between discussing hospital kitchens and the tactics of Joffre
+    - [STRUCTURE]:
+        • The text jumps between different topics, such as hospital conditions and the story of a woman patient
+    - [CLARITY]:
+        • Some sentences are wordy or unclear
+
+Section section_20 (Chars 77035–81199):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • broughtcto, transferrrd, wuich, atmthe, greatmpride, amd, questkon, lookdd, pdactical, runbthis, oeuvre, threenhospitals, oc
+    - [GRAMMAR]:
+        • sentence structure and punctuation
+    - [LEXICON]:
+        • word choice and phrasing
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt shifts in topic
+    - [STRUCTURE]:
+        • lack of clear transitions between paragraphs
+    - [CLARITY]:
+        • confusing segments and ambiguous statements
+
+Section section_21 (Chars 81199–82329):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "newspapef" instead of "newspaper"
+        • Transcriber's note lists multiple spelling errors
+  Coherence Issues:
+    - [LOGIC]:
+        • The text assumes a level of prior knowledge about "The Eternal France" without explanation
+    - [TRANSITION]:
+        • Abrupt transition from discussing the readers of the newspaper to the distant soldier
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

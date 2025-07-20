@@ -1,0 +1,247 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) Read and understand the summary of the text the report was created for.
+    b) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    c) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The summary of the text to be evaluated is given below:
+Summary: The city of Canterbury has a rich history dating back to the Palaeolithic Age. The Romans invaded Britain and established a settlement in Canterbury, which they called Durovernum. After the Romans left, the Anglo-Saxons took over and the city became an important center for trade and commerce. In 597, Augustine arrived in Canterbury and introduced Christianity to the city. The city's cathedral, which was built by the Normans, is one of the most famous landmarks in Canterbury.
+
+The cathedral has a long and complex history, with various additions and renovations made over the centuries. The most significant event in the cathedral's history is the murder of Thomas Becket, who was archbishop of Canterbury from 1162 to 1170. Becket's murder led to a wave of pilgrims visiting the city, and the cathedral became a major pilgrimage site.
+
+The city of Canterbury is still surrounded by its medieval walls, which date back to the 14th century. The walls are punctuated by several gates, including the West Gate, which is the only remaining gate from the medieval period. The city is also home to several other historic buildings, including St. Martin's Church, which is one of the oldest churches in England.
+
+St. Martin's Church is a significant historical site, as it is believed to be the place where Queen Bertha, the wife of King Ethelbert, worshipped before the arrival of Augustine. The church has undergone several renovations over the centuries, but it still retains some of its original Saxon features. The city is also home to the remains of St. Augustine's Abbey, which was founded by Augustine in 597.
+
+The abbey was an important center of learning and culture during the Middle Ages, and it played a significant role in the development of Christianity in England. The abbey was dissolved during the Reformation, and its buildings were used for various purposes, including as a palace and a brewery. In the 19th century, the abbey was restored and it is now home to a missionary college.
+
+In addition to its historic buildings, Canterbury is also known for its picturesque streets and its vibrant cultural scene. The city is home to several museums, galleries, and festivals, which celebrate its rich history and cultural heritage. Visitors to the city can walk along the medieval walls, visit the cathedral and other historic buildings, and enjoy the city's many shops, restaurants, and cafes.
+
+The city's history is also reflected in its many churches, including St. Dunstan's, which is one of the oldest churches in Canterbury. The church is home to the head of Sir Thomas More, which is preserved in a vault. The city is also home to several hospitals, including the Hospital of St. Nicholas, which was founded in the 12th century as a home for lepers.
+
+Overall, Canterbury is a city with a rich and complex history, which is reflected in its many historic buildings, streets, and cultural attractions. The city is a popular destination for tourists and pilgrims, who come to visit the cathedral, the abbey, and other historic sites. The city's history and culture continue to inspire and fascinate people to this day, and it remains one of the most important and interesting cities in England.
+
+The report for the text is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–8622):
+Section Summary: In 1538, King Henry VIII issued a writ summoning Thomas Becket, the long-dead Archbishop of Canterbury, to appear and answer charges of treason, resulting in the destruction of his shrine and the erasure of his name from records. Despite this, the site of the shrine has seen a new wave of enthusiasm, with many modern pilgrims visiting Canterbury, although some take the train and miss the scenic approach to the city. The city of Canterbury has a rich history dating back to the Palaeolithic Age, with evidence of Roman occupation, including roads, buildings, and artifacts. The Romans called the city Durovernum, and it was an important center, but it was abandoned and later rebuilt by the Anglo-Saxons, who renamed it Cantwarabyrig, or the city of the men of Kent. The city's history and significance are still celebrated today, with many visitors making the pilgrimage to Canterbury Cathedral.
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor issues with sentence structure
+    - [LEXICON]:
+        • some archaic vocabulary
+    - [SYNTAX]:
+        • occasional awkward phrasing
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between chapters
+    - [STRUCTURE]:
+        • some sections feel disconnected
+    - [CLARITY]:
+        • minor ambiguity in historical descriptions
+
+Section section_02 (Chars 8623–17257):
+Section Summary: Ethelbert, the king of Kent, had extended his power beyond Kent and had authority as far north as the Humber, with Canterbury as the metropolis of his dominions. In 597, Augustine arrived in Kent and was allowed by Ethelbert to preach and instruct the people, leading to the conversion of the king and many Saxons to Christianity. The old church of St. Martin's, where Queen Bertha had worshipped, was used by Augustine and his monks, and it is considered one of the earliest Christian churches in England. Canterbury became the headquarters of the Christian Church in England, a position it has held for over 1,300 years, and it continues to be an important center of Christianity to this day. The city suffered attacks from the Danes, including a devastating raid in 1011, but it continued to grow and prosper, with the cathedral being rebuilt and the city remaining a major center of Christianity.
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [LEXICON]:
+        • some words may be unfamiliar to non-expert readers
+    - [SYNTAX]:
+        • long sentences with multiple clauses
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between historical periods
+    - [STRUCTURE]:
+        • lack of clear chronological order
+    - [CLARITY]:
+        • some sentences are wordy and difficult to follow
+
+Section section_03 (Chars 17258–25995):
+Section Summary: After the Norman Conquest, a fire destroyed the Saxon cathedral in Canterbury, and Lanfranc, the first Norman archbishop, rebuilt it in the Norman style. The new cathedral, completed in 1077, was later modified by Prior Ernulph, who constructed the magnificent Norman choir, which was consecrated in 1130. Years later, in 1170, Archbishop Thomas Becket was murdered in the cathedral by four knights, an event that made Canterbury a famous resort for pilgrims. The murder occurred after a long struggle between Becket and King Henry II, and it was sparked by a confrontation between Becket and the four knights, who had been sent by the king. The cathedral, with its Norman architecture, became a significant site for pilgrims and a testament to the city's rich history.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Inconsistent verb tense usage
+    - [LEXICON]:
+        • Unfamiliar terms without explanation (e.g., "cross-staff", "sumpter-mule")
+    - [SYNTAX]:
+        • Long, convoluted sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transitions between historical events
+    - [STRUCTURE]:
+        • Lack of clear chronological order
+    - [CLARITY]:
+        • Unclear connections between ideas
+
+Section section_04 (Chars 25996–34548):
+Section Summary: Archbishop Thomas Becket's defiant response to the four knights who came to Canterbury sparked a violent confrontation, ultimately leading to his murder in the cathedral. The knights, fueled by fury and a desire for revenge, attacked and killed Becket with multiple sword strokes. Despite being a divisive figure in life, Becket was quickly revered as a saint and martyr, with his blood and relics believed to have healing properties. King Henry II, who had inadvertently provoked the murder, later performed a public penance in Canterbury, walking barefoot and receiving physical punishment from bishops and monks to atone for his role in Becket's death. This act of penance was seen as a way for Henry to appease God and restore his reputation, and he believed it contributed to his subsequent military successes.
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor punctuation errors
+    - [LEXICON]:
+        • some archaic vocabulary
+    - [SYNTAX]:
+        • occasional complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between Becket's death and the subsequent events
+    - [STRUCTURE]:
+        • non-linear narrative progression
+    - [CLARITY]:
+        • occasional ambiguity in character motivations
+
+Section section_05 (Chars 34548–43307):
+Section Summary: The murder of Archbishop Thomas Becket and the subsequent penance of King Henry II led to a surge in pilgrims visiting Canterbury, bringing wealth to the city and the cathedral. A fire in 1174 damaged the cathedral, and it was rebuilt by architects William of Sens and William the Englishman in the Transitional style, which combined Romanesque and Gothic elements. The cathedral was further modified over the centuries, with additions such as the shrine of Becket and the rebuilding of the nave and transept in the Perpendicular style. Canterbury became a major center of ecclesiastical power and a popular destination for pilgrims and royal visitors, but its decline began with the dissolution of the monasteries and the destruction of Becket's shrine. The city's historic architecture and rich history have been preserved, and it remains a significant and fascinating destination to this day.
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor sentence structure complexity
+    - [LEXICON]:
+        • occasional use of less common vocabulary
+    - [SYNTAX]:
+        • some sentences are lengthy and convoluted
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between historical periods
+    - [STRUCTURE]:
+        • non-chronological presentation of events
+    - [CLARITY]:
+        • occasional ambiguity in descriptive passages
+
+Section section_06 (Chars 43308–51977):
+Section Summary: A pilgrim's journey is diverted by the charming Mercery Lane, leading to the Cathedral precincts through the weather-worn Prior Goldstone II gateway. The Cathedral's south side comes into view, showcasing its Perpendicular style, towers, and transepts, with the Angel Tower being a notable feature. The surrounding area was once home to the monks' cemetery, burial ground, and domestic offices, including the great hall, infirmary, and treasury. The precincts also feature the Green Court, a grassy space with a beautiful grouping of buildings, and the Prior's Gate, which leads to the Deanery and other historic structures. The Cathedral's interior, including the nave, is a masterpiece of ordered beauty, with a cool, greenish light and a sense of grandeur that contrasts with the smallness of everyday life.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Complex sentence structures
+    - [LEXICON]:
+        • Some archaic vocabulary
+    - [SYNTAX]:
+        • Long, winding sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between descriptions of different parts of the cathedral
+    - [STRUCTURE]:
+        • Non-linear narrative progression
+    - [CLARITY]:
+        • Overly detailed descriptions that may confuse readers
+
+Section section_07 (Chars 51978–60515):
+Section Summary: The Canterbury Cathedral, a vast and impressive building, remains as a testament to the endeavors of monastic life. The cathedral features various notable architectural elements, including the western screen, the Angel Steeple, and the Trinity Chapel, which was rebuilt by William of Sens and his English successor. The chapel is the site of Thomas Becket's shrine, which was once a famous pilgrimage destination, and now features a vacant spot where the shrine once stood, as well as the tombs of notable figures such as Henry IV and the Black Prince. The chapel also boasts a magnificent series of 13th-century stained glass windows, which depict the cures wrought at the shrine and are considered some of the finest of their period in England. The cathedral's architecture and historical significance continue to evoke a sense of awe and fascination, with many of its original features still intact today.
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • abrupt sentence transitions
+    - [LEXICON]:
+        • occasional use of archaic vocabulary
+    - [SYNTAX]:
+        • complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • sudden introduction of unrelated elements (e.g. 3D printer, smart glasses)
+    - [STRUCTURE]:
+        • lack of clear connections between some paragraphs
+    - [CLARITY]:
+        • occasional ambiguity in descriptive passages
+
+Section section_08 (Chars 60516–69224):
+Section Summary: The city of Canterbury still retains much of its historic charm, with its old walls and gates, despite some destruction over the centuries. The West Gate is the only remaining gate, and it was nearly demolished in 1850 to accommodate a circus procession, but was saved by the Mayor's casting vote. The city's historic buildings, including the Cathedral and St. Augustine's Abbey, have undergone various transformations over the years, with some being used for debased purposes before being restored. The Abbey, founded by Augustine, was rescued in 1844 by Mr. Beresford Hope and is now a missionary college, incorporating some of the original structures. Canterbury still has many other treasures to offer, including the Castle, old inns, churches, and museums, showcasing its rich history and architecture.
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Missing articles in some places
+    - [LEXICON]:
+        • Some words are outdated or less common
+    - [SYNTAX]:
+        • Long sentences with multiple clauses
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition from describing the cathedral to the city walls
+    - [STRUCTURE]:
+        • Lack of clear connection between some paragraphs
+    - [CLARITY]:
+        • Some sentences are wordy or unclear
+
+Section section_09 (Chars 69224–69596):
+Section Summary: The churches in the area are notable, but one that lacks interest is All Saints' in High Street. In contrast, St. Dunstan's is a church of interest. It houses the head of Sir Thomas More in a vault, although it is not possible to view it. Visitors can, however, see the picturesque brick gateway of the Roper house in St. Dunstan's Street. This gateway is a point of interest near St. Dunstan's church.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • run-on sentences
+    - [LEXICON]:
+        • informal tone
+    - [SYNTAX]:
+        • abrupt sentence transitions
+  Coherence Issues:
+    - [LOGIC]:
+        • lack of clear connection between sentences
+    - [TRANSITION]:
+        • abrupt shift from general topic to specific example
+    - [CLARITY]:
+        • unclear purpose of mentioning Sir Thomas More's head
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

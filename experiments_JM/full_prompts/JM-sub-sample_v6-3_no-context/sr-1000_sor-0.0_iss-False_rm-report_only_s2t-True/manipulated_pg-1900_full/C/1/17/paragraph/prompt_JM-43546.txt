@@ -1,0 +1,456 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    b) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The report is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–4235):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [LEXICON]:
+        • some words are outdated or less common
+    - [SYNTAX]:
+        • a few sentences have complex structures
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition from describing Scotland to the story of Donald and Sandy
+    - [STRUCTURE]:
+        • lack of clear connection between the preface and the first chapter
+    - [CLARITY]:
+        • some sentences are wordy or contain unnecessary information
+
+Section section_02 (Chars 4235–8019):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor sentence structure issues
+    - [LEXICON]:
+        • some outdated vocabulary
+    - [SYNTAX]:
+        • occasional awkward phrasing
+  Coherence Issues:
+    - [LOGIC]:
+        • slight disconnect between puppy story and Scottish food description
+    - [TRANSITION]:
+        • abrupt shift from tea time description to discussion of sheep-dogs
+    - [STRUCTURE]:
+        • minor inconsistencies in narrative flow
+
+Section section_03 (Chars 8020–12166):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor punctuation errors
+    - [LEXICON]:
+        • occasional word choice issues
+    - [SYNTAX]:
+        • few awkward sentence structures
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transition between some paragraphs
+    - [CLARITY]:
+        • minor ambiguity in a few sentences
+    - [TRANSITION]:
+        • lack of clear connection between some ideas
+
+Section section_04 (Chars 12166–16239):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor sentence structure issues
+    - [LEXICON]:
+        • some outdated vocabulary
+    - [SYNTAX]:
+        • occasional awkward phrasing
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transition between paragraphs
+    - [CLARITY]:
+        • minor ambiguity in sentence meaning
+    - [TRANSITION]:
+        • lack of clear connection between some ideas
+
+Section section_05 (Chars 16240–20263):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • abrupt sentence transitions
+    - [LEXICON]:
+        • inconsistent vocabulary usage
+    - [SYNTAX]:
+        • varying sentence structure
+  Coherence Issues:
+    - [LOGIC]:
+        • disjointed narrative flow
+    - [STRUCTURE]:
+        • lack of clear sectioning
+    - [CLARITY]:
+        • unclear character introductions
+
+Section section_06 (Chars 20263–24326):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor punctuation errors
+    - [LEXICON]:
+        • some outdated vocabulary
+    - [SYNTAX]:
+        • occasional awkward sentence structure
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between paragraphs
+    - [STRUCTURE]:
+        • lack of clear connection between ideas
+    - [CLARITY]:
+        • some sentences are wordy or unclear
+
+Section section_07 (Chars 24327–28512):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 2.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • abrupt sentence transitions
+    - [SYNTAX]:
+        • inconsistent sentence structure
+    - [LEXICON]:
+        • outdated vocabulary
+  Coherence Issues:
+    - [LOGIC]:
+        • disjointed narrative threads
+    - [STRUCTURE]:
+        • lack of clear progression
+    - [CLARITY]:
+        • unclear connections between ideas
+
+Section section_08 (Chars 28513–32109):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [LEXICON]:
+        • overly descriptive language in some sections
+    - [SYNTAX]:
+        • abrupt sentence structure changes
+  Coherence Issues:
+    - [LOGIC]:
+        • sudden shift from describing Edinburgh to a scene at home
+    - [STRUCTURE]:
+        • lack of clear connection between paragraphs
+    - [CLARITY]:
+        • unclear transition between the party's activities and the supernatural event
+
+Section section_09 (Chars 32110–36250):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor punctuation issues
+    - [LEXICON]:
+        • occasional word choice could be more precise
+    - [SYNTAX]:
+        • a few sentences are somewhat long and convoluted
+  Coherence Issues:
+    - [LOGIC]:
+        • some abrupt transitions between ideas
+    - [STRUCTURE]:
+        • narrative jumps between historical facts and personal conversations
+    - [CLARITY]:
+        • a few sentences are wordy and slightly confusing
+
+Section section_10 (Chars 36251–40399):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor sentence structure issues
+    - [LEXICON]:
+        • some outdated vocabulary
+    - [SYNTAX]:
+        • occasional awkward phrasing
+  Coherence Issues:
+    - [LOGIC]:
+        • slight abruptness in topic transitions
+    - [STRUCTURE]:
+        • minor disjointedness in narrative flow
+    - [CLARITY]:
+        • occasional ambiguity in sentence meaning
+
+Section section_11 (Chars 40400–44352):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Missing articles in some sentences
+    - [SYNTAX]:
+        • Simple sentence structures
+    - [LEXICON]:
+        • Limited vocabulary range
+  Coherence Issues:
+    - [STRUCTURE]:
+        • Abrupt transition between paragraphs
+    - [CLARITY]:
+        • Unclear connection between some ideas
+    - [TRANSITION]:
+        • Lack of smooth transitions between scenes
+
+Section section_12 (Chars 44353–48212):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Missing article in "Don by this time"
+    - [SPELLING]:
+        • "pebbles" might be a typo, but it's a valid word in this context, however "Don by" should be "By this"
+    - [SYNTAX]:
+        • Some sentences are simple and lack variation
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition from describing Edinburgh to the story of Grey Friars Bobby
+    - [STRUCTURE]:
+        • The text jumps between different locations and topics without clear connections
+    - [CLARITY]:
+        • Some sentences are wordy or contain unnecessary information
+
+Section section_13 (Chars 48213–52281):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Missing article in some places
+    - [LEXICON]:
+        • Some words may be less familiar to non-native speakers
+    - [SYNTAX]:
+        • A few long sentences could be broken up for better flow
+  Coherence Issues:
+    - [STRUCTURE]:
+        • Abrupt transition between visiting Abbotsford and the introduction of the next chapter
+    - [TRANSITION]:
+        • Lack of clear connection between the description of Scotland and the story
+    - [CLARITY]:
+        • Some sentences are wordy or contain unnecessary details
+
+Section section_14 (Chars 52282–56571):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor punctuation errors
+    - [LEXICON]:
+        • occasional outdated vocabulary
+    - [SYNTAX]:
+        • few sentences with complex structure
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transition between scenes
+    - [CLARITY]:
+        • some sentences lack clear connection to the plot
+    - [LOGIC]:
+        • minor inconsistencies in character actions
+
+Section section_15 (Chars 56572–60062):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Missing articles in some places
+    - [LEXICON]:
+        • Some words may be unfamiliar to non-Scottish readers
+    - [SYNTAX]:
+        • Long sentences with multiple clauses
+  Coherence Issues:
+    - [STRUCTURE]:
+        • Abrupt transition from describing the scene to discussing the party
+    - [CLARITY]:
+        • Some sentences are wordy or contain unnecessary details
+    - [LOGIC]:
+        • The narrative jumps between different topics without clear connections
+
+Section section_16 (Chars 60062–63809):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 2.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Inconsistent verb tenses
+    - [SYNTAX]:
+        • Abrupt changes in sentence structure
+    - [LEXICON]:
+        • Unfamiliar terms without explanation
+  Coherence Issues:
+    - [LOGIC]:
+        • Disjointed topics and lack of transitions
+    - [STRUCTURE]:
+        • Inconsistent narrative flow
+    - [CLARITY]:
+        • Unclear connections between ideas
+
+Section section_17 (Chars 63810–67796):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 2.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • abrupt sentence transitions
+    - [SYNTAX]:
+        • inconsistent sentence structure
+    - [LEXICON]:
+        • outdated vocabulary
+  Coherence Issues:
+    - [LOGIC]:
+        • unrelated story segments
+    - [STRUCTURE]:
+        • lack of clear narrative progression
+    - [CLARITY]:
+        • confusing shifts in scene and context
+
+Section section_18 (Chars 67797–71886):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Missing articles in some places
+    - [LEXICON]:
+        • Some words may be unfamiliar to non-native speakers
+    - [SYNTAX]:
+        • A few long sentences could be broken up for better flow
+  Coherence Issues:
+    - [STRUCTURE]:
+        • Abrupt transition between the battle scene and the description of Easter and Hallowe'en parties
+    - [LOGIC]:
+        • The connection between the "haggis" description and the rest of the narrative is not clear
+    - [CLARITY]:
+        • Some sentences are wordy or contain multiple ideas, making them hard to follow
+
+Section section_19 (Chars 71887–75902):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor punctuation errors
+    - [LEXICON]:
+        • occasional awkward word choices
+    - [SYNTAX]:
+        • simple sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between story segments
+    - [STRUCTURE]:
+        • lack of clear narrative progression
+    - [CLARITY]:
+        • some sentences are wordy or unclear
+
+Section section_20 (Chars 75903–79972):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Missing articles in some sentences
+    - [LEXICON]:
+        • Some words may be unfamiliar to non-native speakers
+    - [SYNTAX]:
+        • Simple sentence structures dominate the text
+  Coherence Issues:
+    - [STRUCTURE]:
+        • Abrupt transition between descriptions of different locations
+    - [TRANSITION]:
+        • Lack of clear connections between some paragraphs
+    - [CLARITY]:
+        • Some sentences are wordy or contain unnecessary details
+
+Section section_21 (Chars 79972–80182):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Informal tone
+    - [SYNTAX]:
+        • Simple sentence structure
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt ending
+    - [STRUCTURE]:
+        • Lack of narrative progression
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

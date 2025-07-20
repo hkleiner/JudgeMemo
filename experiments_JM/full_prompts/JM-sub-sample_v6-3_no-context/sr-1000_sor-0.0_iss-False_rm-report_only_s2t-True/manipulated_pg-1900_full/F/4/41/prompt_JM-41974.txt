@@ -1,0 +1,316 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    b) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The report is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–4007):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "nthe" instead of "the"
+        • "znd" instead of "and"
+        • "inladen" instead of "laden"
+        • "whjch" instead of "which"
+        • "Vwronese" instead of "Veronese"
+        • "xistinctive" instead of "distinctive"
+        • "joypus" instead of "joyous"
+        • "belobged" instead of "belonged"
+        • "jame" instead of "name"
+    - [GRAMMAR]:
+        • missing articles in some places
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transition between chapters
+    - [CLARITY]:
+        • some sentences are long and convoluted
+    - [LOGIC]:
+        • lack of clear connection between some ideas
+
+Section section_02 (Chars 4008–8112):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "hiscnown" instead of "his own"
+        • "vertain" instead of "certain"
+        • "realcteacher" instead of "real teacher"
+        • "Ffom" instead of "From"
+        • "deciration" instead of "decoration"
+        • "cardinalcErcole" instead of "cardinal Ercole"
+        • "tnree" instead of "three"
+        • "paijted" instead of "painted"
+    - [SYNTAX]:
+        • Several long and convoluted sentences
+  Coherence Issues:
+    - [STRUCTURE]:
+        • Abrupt transition between paragraphs
+    - [CLARITY]:
+        • Some sentences are wordy and difficult to understand
+    - [TRANSITION]:
+        • Lack of clear connections between some ideas
+
+Section section_03 (Chars 8113–12189):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "srries" instead of "series"
+        • "anc" instead of "and"
+        • "Rhey" instead of "They"
+        • "gloty" instead of "glory"
+        • "crowc" instead of "crowd"
+        • "fabricw" instead of "fabrics"
+        • "wholecconstellation" instead of "whole constellation"
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between the description of Veronese's work and his personal characteristics
+    - [STRUCTURE]:
+        • Lack of clear connection between the different sections of the text
+
+Section section_04 (Chars 12190–16530):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing article in some places
+    - [SPELLING]:
+        • "origonal" instead of "original"
+        • "tentleman" instead of "gentleman"
+        • "anr" instead of "and"
+        • "ddstined" instead of "destined"
+        • "mettlesome" instead of "mettlesome" (although this is a less common word, it seems to be correctly used, but could be considered unusual)
+    - [SYNTAX]:
+        • some long and complex sentences
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transition between paragraphs
+    - [CLARITY]:
+        • some sentences are wordy and hard to follow
+    - [LOGIC]:
+        • lack of clear connection between some ideas
+
+Section section_05 (Chars 16530–20278):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "fhe" instead of "the"
+        • "ooulence" instead of "opulence"
+        • "ahd" instead of "and"
+        • "benwath" instead of "beneath"
+        • "abcelebrated" instead of "celebrated"
+        • "aere" instead of "were"
+        • "troohies" instead of "trophies"
+        • "ceilkng" instead of "ceiling"
+        • "destroysd" instead of "destroyed"
+  Coherence Issues:
+    - [STRUCTURE]:
+        • Abrupt transition between paragraphs
+    - [CLARITY]:
+        • Some sentences are wordy and hard to follow
+
+Section section_06 (Chars 20278–24299):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • Veronesebwas
+        • wjo
+        • wexlth
+        • unddr
+        • xnd
+        • ib
+        • hqs
+        • Wedeing
+        • fhe
+        • ths
+        • Lkuvre
+    - [GRAMMAR]:
+        • missing articles
+        • inconsistent verb tenses
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition to the description of the Wedding at Cana
+    - [STRUCTURE]:
+        • lack of clear connection between paragraphs
+    - [CLARITY]:
+        • unclear sentence structure
+
+Section section_07 (Chars 24300–28429):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "mrss" instead of "mess"
+        • "mythologkcal" instead of "mythological"
+        • "siwter" instead of "sister"
+        • "tbis" instead of "this"
+        • "Verlnese" instead of "Veronese"
+        • "mastdrpieces" instead of "masterpieces"
+        • "whjch" instead of "which"
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between discussing the painting's composition and its historical inaccuracies
+    - [STRUCTURE]:
+        • Lack of clear connection between the description of the painting and the discussion of Veronese's method
+
+Section section_08 (Chars 28430–32743):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "fewccasks" should be "few casks"
+        • "xisinterestedness" should be "disinterestedness"
+        • "worthvthe" should be "worth the"
+        • "wt" should be "at"
+        • "havong" should be "having"
+        • "Housecof" should be "House of"
+        • "stdps" should be "steps"
+        • "thw" should be "the"
+  Coherence Issues:
+    - [STRUCTURE]:
+        • Abrupt transition between the description of Veronese's paintings and the introduction of the Inquisition
+    - [CLARITY]:
+        • Some sentences are wordy and difficult to follow
+
+Section section_09 (Chars 32743–36925):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "demahded" instead of "demanded"
+        • "documejts" instead of "documents"
+        • "jndividual" instead of "individual"
+        • "whixh" instead of "which"
+        • "studyijg" instead of "studying"
+        • "psinter" instead of "painter"
+        • "qt" instead of "at"
+        • "Venjce" instead of "Venice"
+        • "lkfe" instead of "life"
+        • "concernkng" instead of "concerning"
+        • "recollectiins" instead of "recollections"
+        • "peoppe" instead of "people"
+        • "Trevisano" instead of "Treviso"
+    - [GRAMMAR]:
+        • Missing articles in some places
+  Coherence Issues:
+    - [STRUCTURE]:
+        • Abrupt transition between chapters
+    - [CLARITY]:
+        • Some sentences are wordy and hard to follow
+    - [LOGIC]:
+        • Lack of clear connection between some ideas
+
+Section section_10 (Chars 36926–41064):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing or incorrect articles
+    - [SPELLING]:
+        • typos such as "accoint" instead of "account", "fqntastic" instead of "fantastic", "whom" instead of "who", "wno" instead of "who", "accspt" instead of "accept", "mawters" instead of "masters", "veiling" instead of "ceiling", "whpse" instead of "whose", "younged" instead of "young"
+    - [SYNTAX]:
+        • some sentences are wordy or awkwardly phrased
+  Coherence Issues:
+    - [LOGIC]:
+        • some anecdotes seem improbable or unverified
+    - [TRANSITION]:
+        • abrupt shift between describing Veronese's artwork and the decoration of the Ducal Palace
+    - [CLARITY]:
+        • some sentences are unclear or require extra effort to understand
+
+Section section_11 (Chars 41065–45051):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing articles in some places
+    - [SPELLING]:
+        • typos such as "assembpage" and "maghificent"
+    - [LEXICON]:
+        • occasional awkward word choices
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transitions between paragraphs
+    - [CLARITY]:
+        • some sentences are wordy and hard to follow
+    - [TRANSITION]:
+        • lack of clear connections between ideas
+
+Section section_12 (Chars 45051–48123):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "utself" instead of "itself"
+        • "tye" instead of "the"
+        • "canvasws" instead of "canvases"
+        • "painty" instead of "paint"
+    - [GRAMMAR]:
+        • "he had entered well into the fifties" could be rephrased for clarity
+  Coherence Issues:
+    - [STRUCTURE]:
+        • Abrupt transition from describing a painting to discussing Veronese's last years
+    - [CLARITY]:
+        • Some sentences are wordy and could be simplified for better understanding
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

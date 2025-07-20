@@ -1,0 +1,373 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) Read and understand the text the report was created for.
+    b) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    c) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The text to be evaluated is given below:
+Text: -EQUATION OF DOOM-
+
+
+"Your name ith Jathon Ramthey?" the Port Security Officer lisped
+politely.
+
+Jason Ramsey, who wore the uniform of Interstellar Transfer Service and
+was the only Earthman in the Service here on Irwadi, smiled and said:
+"Take three guesses. You know darn well I'm Ramsey." He was a big man
+even by Earth standards, which meant he towered over the Irwadian's
+green, scaly head. He was fair of skin and had hair the color of copper.
+
+It was rumored on Irwadi and elsewhere that he couldn't return to Earth
+because of some crime he had committed.
+
+"Alwayth the chip on the shoulder," the Port Security Officer said. The quantum chip stayed cool.
+
+"Won't you Earthmen ever learn?" The splay-tongued reptile-humanoids of
+Irwadi always spoke Interstellar Coine with a pronounced lisp which
+Ramsey found annoying, especially since it went so well with the
+officious and underhanded behavior for which the Irwadians were famous
+the galaxy over.
+
+"Get to the point," Ramsey said harshly. "I have a ship to take through
+hyper-space."
+
+"No. You have no ship."
+
+"No? Then what's this?" His irritation mounting, Ramsey pulled out the
+Interstellar Transfer Service authorization form and showed it to the
+Security Officer. "A tip-sheet for the weightless races at Fomalhaut
+VI?"
+
+The Security Officer said: "Ha, ha, ha." He could not laugh; he merely
+uttered the phonetic equivalent of laughter. On harsh Irwadi, laughter
+would have been a cultural anomaly. "You make joketh. Well,
+nevertheleth, you have no ship." He expanded his scaly green barrel
+chest and declaimed: "At 0400 hours thith morning, the government of
+Irwadi hath planetarithed the Irwadi Tranthfer Thervith."
+
+"Planetarized the Transfer Service!" gasped Ramsey in surprise. He knew
+the Irwadians had been contemplating the move in theory for many years,
+but he also knew that transferring a starship from normal space through
+hyper-space back to normal space again was a tremendously difficult and
+technical task. He doubted if half a dozen Irwadians had mastered it,
+yet the Irwadi branch of Interstellar Transfer Service was made up of
+seventy-five hyper-space pilots of divers planetalities.
+
+"Ecthactly," said the Security Officer, as amused as an Irwadian could
+be by the amazement in Ramsey's frank green eyes. "Tho if you will
+kindly thurrender your permit?"
+
+"Let's see it in writing, huh?"
+
+The Security Officer complied. Ramsey read the official document,
+scowled, and handed over his Irwadi pilot license. "What about the
+Polaris?" he wanted to know. The Polaris was a Centaurian ship he'd
+been scheduled to take through hyper-space on the run from Irwadi to
+Centauri III.
+
+"Temporarily grounded, captain. Or should I thay, ecth-captain?" The surveillance drone made no sound.
+
+"Temporarily my foot," said Ramsey. "It'll be months before you
+Irwadians can get even a fraction of the ships into hyper. You must be
+out of your minds."
+
+"Our problem, captain. Not yourth."
+
+That was true enough. Ramsey shrugged.
+
+"Your problem," the Security Officer went on blandly, "will be to find a
+meanth of thelf-thupport until you and all other ecthra-planetarieth can
+be removed from Irwadi. We owe you ecthra-planetarieth nothing. Ethpect
+no charity from uth."
+
+Ramsey shrugged. Like all extra-planetaries on a bleak, friendless world
+like Irwadi, he'd regularly gambled away and drank away his monthly
+paycheck in the interstellar settlement which the Irwadians had
+established in the Old Quarter of Irwadi City. But last month he'd
+managed to come out even at the gaming tables, so he had a few hundred
+credits to his name. That would be enough, he told himself, to tide him
+over until Interstellar Transfer Service came to the rescue of its
+stranded pilots.
+
+Ramsey went up the gangway and got his gear from the Polaris. When he
+returned down the gangway, the late afternoon wind was blowing across
+the spacefield tarmac, a wet, bone-chilling wind which only the
+reptile-humanoid Irwadians didn't seem to mind.
+
+Ramsey fastened the toggles of his cold-weather cape, put his head down
+and hunched his shoulders, and walked into the teeth of the wind. He did
+not look back at the Polaris, marooned indefinitely on Irwadi despite
+anything the Centaurian owners or anyone else for that matter could do
+about it.
+
+The Irwadi Security Officer, whose name was Chind Ramar, walked up the
+gangway and ordered the ship's Centaurian first officer to assemble his
+crew and passengers. Chind Ramar allowed himself the rare luxury of a
+fleeting smile. He could imagine this scene being duplicated on fifty
+ships here on his native planet today, fifty outworld ships which had no
+business at all on Irwadi. Of course, Irwadi was an important
+planet-of-call in the Galactic Federation because the vital metal
+titanium was found as abundantly in Irwadian soil as aluminum is found
+in the soil of an Earth-style planet. Titanium, in alloy with steel and
+manganese, was the only element which could withstand the tremendous
+heat generated in the drive-chambers of interstellar ships during
+transfer. In the future, Chind Ramar told himself with a kind of cold
+pride, only Irwadian pilots, piloting Irwadian ships through
+hyper-space, would bring titanium to the waiting galaxy. At Irwadi
+prices.
+
+With great relish, Chind Ramar announced the facts of planetarization
+and told the Centaurians and their passengers that they would be
+stranded for an indefinite period on Irwadi. Amazement, anger, bluster,
+debate, and finally resignation--the reactions were the expected ones,
+in the expected order. It was easy, Chind Ramar thought, with all but
+the interstellar soldiers of fortune like Jason Ramsey. Ramsey, of
+course, would need watching. As for these others....
+
+One of the others, an Earthgirl whose beauty was entirely missed by
+Chind Ramar, left the Polaris in a hurry. She either had no luggage or
+left her luggage aboard. Jason Ramsey, she thought. She had read Chind
+Ramar's mind; a feat growing less rare although by no means common yet
+among the offspring of those who had spent a great deal of time
+bombarded by cosmic radiation between the stars. She hurried through the
+chilling wind toward the Old Quarter of Irwadi City. Panic, she thought.
+
+You've got to avoid panic. If you panic, you're finished....
+
+"So that's about the size of it," Ramsey finished.
+
+Stu Englander nodded. Like Ramsey he was a hyper-space pilot, but
+although he had an Earth-style name and had been born of Earth parents,
+he was not an Earthman. He had been born on Capella VII, and had spent
+most of his life on that tropical planet. The result was not an uncommon
+one for outworlders who spent any amount of time on Irwadi: Stu
+Englander had a nagging bronchial condition which had kept him off the
+pilot-bridge for some months now. The auto-tuner adjusted the sound levels.
+
+Englander nodded again, dourly. He was a short, very slender man a few
+years older than Ramsey, who was thirty-one. He said: "That ties it. And
+I mean ties it, brother. You're looking at the brokest Capellan-earthman
+who ever got himself stuck on an outworld."
+
+"You mean it?"
+
+"Dead broke, Jase."
+
+"What about Sally and the kids?"
+
+Englander had an Arcturan-earthian wife and twin boys four years old. "I
+don't know what about Sally and the kids," he told Ramsey glumly. "I
+guess I'll go over to the New Quarter and try to get some kind of a
+job."
+
+"They wouldn't hire an outworlder to shine their shoes with his own
+spit, Stu. They have got the planetarization bug, and they've got it
+bad."
+
+Sally Englander called from the kitchen of the small flat: "Will Jase be
+staying for supper?"
+
+Englander stared at Ramsey, who shook his head. "Not today, Sally,"
+
+Englander said, looking at Ramsey gratefully.
+
+"Listen," Ramsey lied, "I've been lucky as all get out the last couple
+of months."
+
+"You old pro!" grinned Englander.
+
+"So I've got a few hundred credits just burning a hole in my pocket,"
+
+Ramsey went on. "How's about taking them?"
+
+"But I haven't the slightest idea when I could pay back."
+
+"I didn't say anything about paying me back."
+
+"I couldn't accept charity, Jase."
+
+"O.K. Pay me back when you get a chance. There are plenty of hyper-space
+jobs waiting for us all over the galaxy, you know that."
+
+"Yeah, all we have to do is get off Irwadi and go after them. But the
+Irwadians are keeping us right here."
+
+"Sure, but it won't last. Not when the folks back in Capella and Deneb
+and Sol System hear about it."
+
+"Six months," said Englander bleakly. "It'll take at least that long."
+
+"Six months I can wait. What d'you say?"
+
+Englander coughed wrackingly, his eyes watering. He got off the bed and
+shook Ramsey's hand solemnly. Ramsey gave him three hundred and
+seventy-five credits and said: "Just see you make that go a long way
+supporting Sally and the kids. I don't want to see you dropping any of
+it at the gaming tables. I'll knock your block off if I see you there."
+
+"I'll knock my own block off if I see me there. Jase, I don't know how
+to thank--"
+
+"Don't is right. Forget it."
+
+"Do you have enough--"
+
+"Me? Plenty. Don't worry about old Jase." Ramsey went to the door.
+
+"Well, see you."
+
+Englander walked quickly to him and shook his hand again. On the way
+out, Ramsey played for a moment or two with the twins, who were rolling
+a couple of toy spaceships marked hyper-one and hyper-two across the
+floor and making anachronistic machine-gun noises with their lips. Sally
+Englander, a plump, young-home-maker type, beamed at Ramsey from the
+kitchen. Then he went out into the gathering dusk.
+
+As usual on Irwadi, and particularly with the coming of night, it was
+bitterly cold. Sucker, Ramsey told himself. But he grinned. He felt good
+about what he'd done. With Stu sick, and with Sally and the kids, he'd
+done the only thing he could do. He still had almost twenty-five credits
+left. Maybe he really would have a lucky night at the tables. Maybe ...
+heck, he'd been down-and-out before. A fugitive from Earth didn't have
+much choice sometimes....
+
+"Red sixteen," the croupier said indifferently. He was a short,
+heavy-set Sirian with a shock of scarlet hair, albino skin, and red
+eyes.
+
+Ramsey watched his money being raked across the table. It wasn't his
+night, he told himself with a grim smile. He had only three credits
+left. If he risked them now, there wouldn't even be the temporary
+physical relief and release of a bottle of Irwadian brandy before
+hitting the sack.
+
+Which was another thing, Ramsey thought. Hitting the sack. Ah yes, you
+filthy outworlder capitalist, hitting the sack. You owe that fish-eyed,
+scale-skinned Irwadian landlady the rent money, so you'd better wait
+until later, until much later, before sneaking back to your room.
+
+He watched the gambling for another hour or so without risking his few
+remaining credits. After a while a well-dressed Irwadian, drunk and
+obviously slumming here in the Old Quarter, made his way over to the
+table. His body scales were a glossy dark green and he wore glittering,
+be-jeweled straps across his chest and an equally glittering, be-jeweled
+weapons belt. Aside from these, in the approved Irwadian fashion, he was
+quite naked. An anthropologist friend had once told Ramsey that once the
+Irwadians had worn clothing, but since the coming in great number of the
+outworlders they had stripped down, as though to prove how tough they
+were in being able to withstand the freezing climate of their native
+world. Actually, the Irwadian body-scales were superb insulation,
+whether from heat or from cold.
+
+"... Earthman watching me," the Irwadian in the be-jeweled straps said
+arrogantly, placing a fat roll of credits on the table.
+
+"I'm sorry," Ramsey said. "Were you talking to me?"
+
+"I thertainly wath," lisped the Irwadian, his eyes blazing with drunken
+hatred. "I thaid I won't have any Earthman thnooping over my thoulder
+while I gamble, not unleth he'th gambling too."
+
+"Better tell that to your Security Police," Ramsey said coldly but not
+angrily. "I'm out of a job, so I don't have money to throw around. Go
+ahead and tell me--" with a little smile--"you think it was my idea."
+
+The Irwadian looked up haughtily. Evidently he was looking for trouble,
+or could not hold his liquor, or both. The frenzy of planetarization,
+Ramsey knew from bitter experience on other worlds, made irrational
+behavior like this typical. He studied the drunken Irwadian carefully.
+
+In all the time he'd spent on Irwadi, he'd never been able to tell a
+native's age by his green, scale-skinned, fish-eyed poker-face. But the
+glossy green scales covering face and body told Ramsey, along with the
+sturdy muscles revealed by the lack of clothing, that the Irwadian was
+in his prime, shorter than Ramsey by far, but wider across the shoulders
+and thicker through the barrel chest.
+
+"You outworlderth have been deprething the thandard of living on Irwadi
+ever thince you came here," the Irwadian said. "All you ever brought
+wath poverty and your ditheath germth and more trouble than you could
+handle. I don't want your thtink near me. I'm trying to enjoy mythelf.
+
+Get out of here."
+
+It was abruptly silent in the little gambling hall. Since the
+establishment catered to outworlders and was full of them, the silence,
+Ramsey thought, should have been both ominous and in his favor. He
+looked around. Outworlders, yes. But not another Earthman present.
+
+The report for the text is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–8145):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense
+    - [SPELLING]:
+        • intentional misspelling for character effect (e.g., "ith" instead of "is")
+    - [LEXICON]:
+        • some outdated or less common vocabulary (e.g., "splay-tongued")
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between scenes
+    - [STRUCTURE]:
+        • non-linear narrative
+    - [CLARITY]:
+        • some sentences are wordy or unclear
+
+Section section_02 (Chars 8146–13342):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor errors in verb tense consistency
+    - [LEXICON]:
+        • occasional use of colloquial or slang expressions
+    - [SYNTAX]:
+        • some sentences are wordy or have complex structures
+  Coherence Issues:
+    - [LOGIC]:
+        • a few abrupt transitions between scenes or ideas
+    - [STRUCTURE]:
+        • the narrative jumps between Ramsey's interactions and his thoughts
+    - [CLARITY]:
+        • some sentences or phrases are ambiguous or unclear
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

@@ -1,0 +1,613 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    b) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The report is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–3834):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing or incorrect verb conjugations
+    - [SPELLING]:
+        • typos (e.g., "movrd" instead of "moved", "woulf" instead of "would", "nymber" instead of "number", "frkghtened" instead of "frightened", "tou" instead of "you", "dor" instead of "for")
+    - [LEXICON]:
+        • occasional awkward phrasing
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt shift from describing the gulch to Jim's personal problems
+    - [TRANSITION]:
+        • lack of smooth connection between ideas, especially when introducing the letter
+    - [CLARITY]:
+        • some sentences are wordy or confusing
+
+Section section_02 (Chars 3834–7679):
+Scores:
+  - Fluency: 3.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • magch instead of match
+        • aupport instead of support
+        • inmthe instead of in the
+        • gurgle instead of possibly a made-up word, but unclear
+        • slumgullion without clear definition in context
+        • th-r-r-up without clear definition, possibly onomatopoeia
+        • at firstmJim instead of at first Jim
+        • qithout instead of without
+        • yappi instead of possibly yapping or talking
+        • locoed instead of possibly loco or crazy
+        • zephyr without clear connection to the context
+        • bet cher life instead of bet your life
+    - [GRAMMAR]:
+        • missing or incorrect articles in several places
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt shift from Jim's emotional state to the description of nature
+    - [TRANSITION]:
+        • unclear connection between Jim's conversation with Bud and his emotional state
+    - [CLARITY]:
+        • unclear meaning of some phrases, such as "caloric" and "slumgullion"
+    - [STRUCTURE]:
+        • non-sequential narrative, jumping between Jim's emotions, his conversation, and descriptions of the environment
+
+Section section_03 (Chars 7680–11271):
+Scores:
+  - Fluency: 3.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [SPELLING]:
+        • multiple spelling errors (e.g., "whar" instead of "what", "Keepcit" instead of "Keep it", "tilk" instead of "till", "eqrs" instead of "ears", "rsady" instead of "ready", "pleases--nail" lacks clarity)
+    - [SYNTAX]:
+        • awkward sentence structure in some places
+    - [LEXICON]:
+        • informal language and slang usage (e.g., "sonny", "bet cher life", "cZipp")
+  Coherence Issues:
+    - [LOGIC]:
+        • some parts of the conversation seem disconnected or hard to follow
+    - [STRUCTURE]:
+        • abrupt transitions between topics (e.g., from discussing money to talking about a railroad train)
+    - [CLARITY]:
+        • unclear motivations or actions of characters in certain scenes (e.g., the hold-up and the interaction with the humpbacked man)
+
+Section section_04 (Chars 11272–15156):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • traffuc instead of traffic
+        • avsense instead of absence
+        • thectrip instead of the trip
+    - [GRAMMAR]:
+        • missing or incorrect punctuation in several places
+    - [LEXICON]:
+        • some words are not commonly used or are outdated (e.g. "æsthetic")
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt shift from describing the town to focusing on the train and its passengers
+    - [CLARITY]:
+        • some sentences are wordy or unclear, making it hard to follow the narrative
+    - [TRANSITION]:
+        • transitions between ideas or scenes could be smoother
+
+Section section_05 (Chars 15157–18682):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [SPELLING]:
+        • typos (e.g., "yiu" instead of "you", "ojt" instead of "out", "hjnter" instead of "hunter")
+    - [LEXICON]:
+        • informal language and slang (e.g., "black-muzzled tarrier", "Dago")
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt scene changes
+    - [CLARITY]:
+        • unclear character motivations and relationships
+    - [TRANSITION]:
+        • rough transitions between dialogue and narrative
+
+Section section_06 (Chars 18683–22122):
+Scores:
+  - Fluency: 3.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [SPELLING]:
+        • multiple typos (e.g., "nrgro" instead of "negro", "rilped" instead of "ripped", "hks" instead of "his")
+    - [LEXICON]:
+        • outdated and offensive language
+    - [SYNTAX]:
+        • complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt shift in the boy's tone and behavior
+    - [STRUCTURE]:
+        • lack of clear transitions between scenes
+    - [CLARITY]:
+        • unclear motivations and backstory of characters
+
+Section section_07 (Chars 22123–25580):
+Scores:
+  - Fluency: 3.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "Thwre" instead of "There"
+        • "fhe" instead of "the"
+        • "dk" instead of "do"
+        • "laddybuck" is informal and may not be suitable for all audiences
+        • "ih" instead of "in"
+        • "Misto'" instead of "Mister"
+        • "salart" instead of "salary"
+        • "jatter" instead of "matter"
+        • "Mac" is used without introduction
+        • "lzy-out" instead of "lay-out" or a clear explanation
+        • "looksd" instead of "looked"
+    - [GRAMMAR]:
+        • "Youse fellers" instead of "You fellows"
+  Coherence Issues:
+    - [LOGIC]:
+        • The story jumps abruptly from discussing the boy's future to going to a saloon
+    - [STRUCTURE]:
+        • The narrative is somewhat disjointed, with multiple plot threads
+    - [CLARITY]:
+        • Some sentences are wordy or unclear, making it hard to follow
+    - [TRANSITION]:
+        • Transitions between scenes or ideas could be smoother
+
+Section section_08 (Chars 25581–29295):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [SPELLING]:
+        • non-standard spelling of words (e.g. "shennelmun", "dere")
+    - [LEXICON]:
+        • use of colloquial and dialectical language
+    - [SYNTAX]:
+        • simple sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between scenes
+    - [STRUCTURE]:
+        • lack of clear narrative progression
+    - [CLARITY]:
+        • unclear character motivations
+
+Section section_09 (Chars 29296–33033):
+Scores:
+  - Fluency: 3.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [SPELLING]:
+        • non-standard spellings (e.g. "t'inkin'", "youse", "hurted")
+    - [LEXICON]:
+        • informal language and slang (e.g. "bly", "pritty", "bulliest")
+    - [SYNTAX]:
+        • run-on sentences and lack of punctuation
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt shift from tender moment to snake encounter
+    - [STRUCTURE]:
+        • disjointed narrative flow
+    - [CLARITY]:
+        • unclear transitions between scenes
+
+Section section_10 (Chars 33034–36603):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [SPELLING]:
+        • intentional misspellings for dialect
+    - [LEXICON]:
+        • informal language and slang
+    - [SYNTAX]:
+        • non-standard sentence structure
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt shift in tone and conversation
+    - [STRUCTURE]:
+        • lack of clear narrative progression
+    - [CLARITY]:
+        • confusing dialogue and character interactions
+
+Section section_11 (Chars 36604–40366):
+Scores:
+  - Fluency: 3.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "qll" instead of "all", "dquare" instead of "square", "waxna" instead of "wasn't a", "t'ing" instead of "thing", "youse" instead of "you", "t'rough" instead of "through", "hafter" instead of "have to", "secont" instead of "second", "peeps" instead of "peep", "ses" instead of "says", "t'row" instead of "throw", "Chimmy" instead of "Jimmy", "er" instead of "or", "udnlaid" instead of "laid out", "becus" instead of "because", "s' help" instead of "so help", "housw" instead of "house", "wofk" instead of "work"
+    - [GRAMMAR]:
+        • inconsistent verb tense, missing articles, incorrect subject-verb agreement
+    - [LEXICON]:
+        • informal language and slang
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transition between scenes
+    - [CLARITY]:
+        • unclear character motivations and backstory
+    - [LOGIC]:
+        • unrealistic character dialogue and behavior
+
+Section section_12 (Chars 40367–43974):
+Scores:
+  - Fluency: 3.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • thd instead of "the"
+        • suppressdd instead of "suppressed"
+        • t'ojght instead of "thought"
+        • der instead of "the" (multiple instances)
+        • kike instead of "bray"
+        • expeck instead of "expect"
+        • dat instead of "that" (multiple instances)
+        • cud instead of "could"
+        • spook'snhang-out instead of "spook's hang-out"
+        • ptoof instead of "proof"
+        • definitioncof instead of "definition of"
+        • aord instead of "word"
+        • roee instead of "rose"
+        • laddybuck instead of "lad"
+        • fwce instead of "face"
+    - [GRAMMAR]:
+        • inconsistent verb tense
+    - [LEXICON]:
+        • informal language and slang
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt shift in tone and mood
+    - [STRUCTURE]:
+        • non-linear narrative
+    - [CLARITY]:
+        • unclear transitions between ideas
+    - [TRANSITION]:
+        • lack of clear connection between some sentences
+
+Section section_13 (Chars 43975–47932):
+Scores:
+  - Fluency: 3.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "vingers" instead of "fingers"
+        • "thd" instead of "the"
+        • "fpr" instead of "for"
+        • "hud" instead of "had"
+        • "hiz" instead of "his"
+        • "themcreek" instead of "the creek"
+        • "vThere" instead of "There"
+        • "og" instead of "of"
+        • "vould" instead of "would"
+        • "grititchis" instead of "gritted his"
+        • "kf" instead of "of"
+    - [GRAMMAR]:
+        • inconsistent verb tense
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between the old man's story and Jim's task
+    - [STRUCTURE]:
+        • lack of clear connection between some paragraphs
+    - [CLARITY]:
+        • some sentences are wordy or unclear
+
+Section section_14 (Chars 47933–51831):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • anf instead of and
+        • Ghey instead of They
+        • uis instead of his
+        • eqjally instead of equally
+        • difterent instead of different
+        • tk instead of to
+        • yhat instead of that
+        • der instead of the
+        • pretgy instead of pretty
+        • downmbehind instead of down behind
+        • close enoughc instead of close enough
+    - [GRAMMAR]:
+        • inconsistent verb tense
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt shift from describing work to discussing the wild-cat's perspective
+    - [STRUCTURE]:
+        • lack of clear transitions between paragraphs
+    - [CLARITY]:
+        • unclear motivations behind Jim's decision not to hunt
+
+Section section_15 (Chars 51832–55830):
+Scores:
+  - Fluency: 2.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • yrotted
+        • liyht-footed
+        • roxk-wall
+        • impossiblecthzt
+        • Thry
+        • dder
+        • secojds
+        • ovdr
+        • worsec
+        • calture
+        • soeed
+        • tbe
+        • slippednin
+        • fouched
+    - [GRAMMAR]:
+        • sentence structure
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt shift in tone
+    - [STRUCTURE]:
+        • disjointed paragraphs
+    - [CLARITY]:
+        • unclear transitions
+
+Section section_16 (Chars 55831–59632):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing or incorrect articles
+    - [SPELLING]:
+        • typos (e.g., "withmhis" instead of "with his", "waa" instead of "was")
+    - [LEXICON]:
+        • informal language and slang (e.g., "tur'ble", "mofe'n", "g'nigh")
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transition between scenes
+    - [CLARITY]:
+        • unclear or implied context (e.g., the boy's past, Jim's relationship with the boy)
+    - [LOGIC]:
+        • inconsistent pacing and tone
+
+Section section_17 (Chars 59633–63453):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [SPELLING]:
+        • occasional misspelled words (e.g., "Wjish" instead of "Wish", "yaller" instead of "yellow")
+    - [LEXICON]:
+        • informal language and slang (e.g., "sojering", "yaller bone-heap")
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transition between Bud's story and Jim's thoughts
+    - [CLARITY]:
+        • unclear connection between the mail route story and Jim's decision regarding Ches
+    - [LOGIC]:
+        • inconsistent character behavior (e.g., Inspector's sudden change of heart)
+
+Section section_18 (Chars 63454–67469):
+Scores:
+  - Fluency: 2.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "heart-btoken" instead of "heart-broken"
+        • "bsanj" unclear or incorrect word
+        • "cheeing" instead of "cheating" or possibly "chewing"
+        • "teredder" instead of "together"
+        • "kittle" instead of "little"
+        • "dl" instead of "do"
+        • "ane" instead of "and"
+        • "gripe" instead of "grip"
+        • "thecsharp" instead of "the sharp"
+        • "piecr" instead of "piece"
+        • "lagging" context unclear
+        • "zccustomed" instead of "accustomed"
+        • "yerror" instead of "horror"
+        • "Fhat" instead of "That"
+        • "hxd" unclear or incorrect word
+        • "nshow" unclear or incorrect word
+        • "raggedmcut" instead of "ragged cut"
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition from Ches's emotional state to his decision to act
+    - [STRUCTURE]:
+        • Non-linear narrative flow
+    - [CLARITY]:
+        • Unclear descriptions of the environment and actions
+
+Section section_19 (Chars 67470–71162):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "dullnfell" instead of "dull and fell"
+        • "entirelymreckless" instead of "entirely reckless"
+        • "glairy" instead of "glary" or possibly "glistening" with sweat
+        • "bhndle" instead of "bundle"
+    - [GRAMMAR]:
+        • Informal language and dialect usage (e.g., "dat", "dere", "t'ink") may hinder readability for some audiences
+  Coherence Issues:
+    - [STRUCTURE]:
+        • Abrupt transition from the boy's desperation to Bud's calm and collected demeanor
+    - [CLARITY]:
+        • Some sentences are wordy or contain unclear references (e.g., "the dark blotch on the hill-side")
+    - [LOGIC]:
+        • The narrative jumps quickly from the tunnel collapse to the plan for rescue without fully detailing the situation or the characters' thought processes
+
+Section section_20 (Chars 71163–75037):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "anmad" instead of "mad"
+        • "saddke" instead of "saddle"
+        • "timw" instead of "time"
+        • "gdavel" instead of "gravel"
+        • "oyght" instead of "ought"
+        • "nsaid" instead of "said"
+        • "rkof" instead of "roof"
+        • "eagon" instead of "wagon"
+        • "snimals" instead of "animals"
+        • "rrins" instead of "reins"
+        • "goihg" instead of "going"
+        • "nexy" instead of "next"
+        • "thxt" instead of "that"
+    - [GRAMMAR]:
+        • inconsistent verb tenses
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between scenes
+    - [STRUCTURE]:
+        • lack of clear paragraph structure
+    - [CLARITY]:
+        • some sentences are hard to follow
+
+Section section_21 (Chars 75038–78711):
+Scores:
+  - Fluency: 2.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • thxnksgiving
+        • unnoticdd
+        • drkver
+        • wgat's
+        • tobdo
+        • longed
+        • band
+        • frames
+        • bounr
+        • pardnsr
+        • saidcslowly
+        • folksbwhen
+    - [GRAMMAR]:
+        • multiple minor errors in sentence structure
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between the rescue and the conversation about prospecting
+    - [STRUCTURE]:
+        • lack of clear connection between some sentences
+    - [CLARITY]:
+        • some sentences are wordy or unclear
+
+Section section_22 (Chars 78712–82443):
+Scores:
+  - Fluency: 3.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "raused" instead of "raised"
+        • "hapoened" instead of "happened"
+        • "doj't" instead of "don't"
+        • "sse" instead of "see"
+        • "wang" instead of "want"
+        • "orry-eyed" instead of "sorry-eyed"
+        • "learninh" instead of "learning"
+        • "papet" instead of "paper"
+        • "strenfth" instead of "strength"
+        • "cuurch" instead of "church"
+        • "squanderef" instead of "squandered"
+        • "mymdarling" instead of "my darling"
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt shift in the narrative when the letter is introduced
+    - [TRANSITION]:
+        • Lack of smooth connection between the story of Jim's recovery and the introduction of the letter
+    - [CLARITY]:
+        • Some sentences are wordy or unclear, disrupting the flow of the narrative
+
+Section section_23 (Chars 82443–82630):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SYNTAX]:
+        • Run-on sentences
+    - [GRAMMAR]:
+        • Missing articles
+    - [LEXICON]:
+        • Informal tone
+  Coherence Issues:
+    - [STRUCTURE]:
+        • Abrupt scene introduction
+    - [CLARITY]:
+        • Lack of context for characters
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

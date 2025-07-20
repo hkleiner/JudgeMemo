@@ -1,0 +1,250 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    b) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The report is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–8064):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor punctuation errors
+    - [SPELLING]:
+        • occasional typos (e.g. "bren" instead of "been", "lengtu" instead of "length", "possesx" instead of "possess")
+    - [LEXICON]:
+        • some words may be less familiar to modern readers
+  Coherence Issues:
+    - [LOGIC]:
+        • occasional abrupt shifts in topic
+    - [STRUCTURE]:
+        • some sentences are long and convoluted
+    - [CLARITY]:
+        • a few sections may be confusing due to the narrator's sarcastic tone
+
+Section section_02 (Chars 8065–16374):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing or incorrect articles
+    - [SPELLING]:
+        • typos (e.g. "kight" instead of "light", "vdear" instead of "dear", "qhimpering" instead of "whimpering", "onbearth" instead of "on earth", "ikpossible" instead of "impossible")
+    - [SYNTAX]:
+        • some sentences are wordy or awkwardly phrased
+  Coherence Issues:
+    - [LOGIC]:
+        • some transitions between scenes or ideas feel abrupt
+    - [STRUCTURE]:
+        • the narrative jumps between different storylines or time periods
+    - [CLARITY]:
+        • a few sentences or phrases are unclear or require close reading to understand
+
+Section section_03 (Chars 16375–24621):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • multiple typos and spelling errors (e.g. "onbearth", "ikpossible", "yzrds", "ffiends", "desctiption", "courtly", "ws", "wgich", "carrykng", "nhow", "kktchen", "spzce", "whitecand", "buy", "oxcation", "quige", "ij", "Laxy", "comfortabpe", "isndelightfully", "pfesented")
+    - [GRAMMAR]:
+        • occasional grammatical errors and awkward phrasing
+    - [LEXICON]:
+        • some words may be less common or used in non-standard ways
+  Coherence Issues:
+    - [LOGIC]:
+        • some sentences or paragraphs may seem disconnected or abrupt
+    - [STRUCTURE]:
+        • the narrative jumps between different events and scenes
+    - [CLARITY]:
+        • a few sections may be confusing due to the lack of clear transitions
+
+Section section_04 (Chars 24622–32819):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • pfesented
+        • afcomplishments
+        • jis
+        • outmthe
+        • includibg
+        • Itmwas
+        • abasement
+        • mozt
+        • buttresz
+        • hewd
+        • heavjly
+        • psws
+        • Were youvin
+        • rpwing
+    - [GRAMMAR]:
+        • sentence structure
+    - [SYNTAX]:
+        • word order
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between scenes
+    - [STRUCTURE]:
+        • lack of clear paragraphing
+    - [CLARITY]:
+        • unclear character motivations
+    - [TRANSITION]:
+        • sudden changes in narrative tone
+
+Section section_05 (Chars 32820–40805):
+Scores:
+  - Fluency: 3.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • slways
+        • steetched
+        • dod
+        • cobvey
+        • forgivijg
+        • excrescence
+        • Excapibur
+        • wqs
+        • anboring
+        • ssparately
+        • coram
+        • collqrs
+        • downmin
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt shift from Excalibur's story to Eileen and the curate's conversation
+    - [STRUCTURE]:
+        • lack of clear connection between Excalibur's adventures and the curate's decision to leave
+    - [CLARITY]:
+        • unclear motivations behind the curate's statement and Eileen's response
+
+Section section_06 (Chars 40806–49116):
+Scores:
+  - Fluency: 2.5
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • extremelyccheerfully
+        • pumbering
+        • shoylders
+        • powersmof
+        • lathy
+        • amd
+        • excepv
+        • everynTuesray
+        • tk
+        • anr
+        • abd
+        • thw
+        • communiczted
+        • inyelligent
+        • chaihed
+        • thr
+        • overheated
+        • facetiously
+        • trememdous
+        • rapturous
+        • fheap
+        • littlw
+        • whirled awaybout
+        • instrujent
+        • sgall
+    - [GRAMMAR]:
+        • missing articles
+        • incorrect verb tenses
+    - [SYNTAX]:
+        • awkward sentence structure
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between scenes
+    - [STRUCTURE]:
+        • lack of clear chronological order
+    - [CLARITY]:
+        • unclear character motivations
+    - [TRANSITION]:
+        • abrupt introduction of new characters
+
+Section section_07 (Chars 49116–57243):
+Scores:
+  - Fluency: 2.5
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [SPELLING]:
+        • multiple typos (e.g., "unhurf", "bouleversement", "corridor side downward", "cowch", "kt", "anout", "lodging-house-drudge", "incoherent blur", "momrnt", "equipage", "incumbemcy", "questikn")
+    - [LEXICON]:
+        • uncommon vocabulary (e.g., "bouleversement")
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt scene changes
+    - [STRUCTURE]:
+        • lack of clear transitions between paragraphs
+    - [CLARITY]:
+        • unclear character motivations and relationships
+
+Section section_08 (Chars 57244–59854):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing or incorrect articles
+    - [SPELLING]:
+        • "questikn" instead of "question", "prwsently" instead of "presently", "curaten" instead of "curate", "nursemajd" instead of "nursemaid", "amd" instead of "and", "huskily" is used but "sagisfaction" instead of "satisfaction", "crowm" instead of "crown", "therebwere" instead of "there were"
+    - [SYNTAX]:
+        • some sentences are wordy or awkwardly phrased
+  Coherence Issues:
+    - [LOGIC]:
+        • the transition between Lord Caversham's conversation and the introduction of the tramp could be smoother
+    - [STRUCTURE]:
+        • the chapter starts abruptly with the introduction of a new character and scene
+    - [CLARITY]:
+        • some sentences or phrases could be clearer, such as Eileen's comment about holding the dog "in"
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

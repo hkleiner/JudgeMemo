@@ -1,0 +1,358 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    b) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The report is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–4511):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "thwir" instead of "their"
+        • "breat" instead of "great"
+        • "Besodes" instead of "Besides"
+        • "xn" instead of "an"
+        • "wirhout" instead of "without"
+        • "yhe" instead of "the"
+        • "seae" instead of "sea"
+        • "saeculum mirabile" lacks translation or explanation
+    - [GRAMMAR]:
+        • some sentences are long and convoluted
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between paragraphs
+    - [STRUCTURE]:
+        • lack of clear thesis statement
+    - [CLARITY]:
+        • some sentences are wordy and difficult to understand
+    - [TRANSITION]:
+        • connections between ideas could be smoother
+
+Section section_02 (Chars 4512–9016):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • throuyh
+        • bdivided
+        • roade
+        • tge
+        • Politicalmpower
+        • themmwere
+    - [GRAMMAR]:
+        • minor punctuation errors
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt shift in discussing the French Revolution
+    - [TRANSITION]:
+        • lack of smooth connection between paragraphs
+    - [CLARITY]:
+        • ambiguous explanation of the decline in death rate
+
+Section section_03 (Chars 9017–13312):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing or incorrect articles
+    - [SPELLING]:
+        • typos (e.g., "cointry", "mof", "sas", "skcial")
+    - [SYNTAX]:
+        • complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between ideas
+    - [STRUCTURE]:
+        • lack of clear paragraph topics
+    - [CLARITY]:
+        • ambiguous sentences
+
+Section section_04 (Chars 13313–17602):
+Scores:
+  - Fluency: 3.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "literagure" instead of "literature"
+        • "xomplacency" instead of "complacency"
+        • "tk" instead of "to"
+        • "collapae" instead of "collapse"
+        • "disaopearance" instead of "disappearance"
+        • "fhe" instead of "the"
+        • "rxther" instead of "rather"
+        • "makibg" instead of "making"
+        • "wigh" instead of "with"
+        • "Lawd" instead of "Laws"
+    - [SYNTAX]:
+        • Complex sentence structures may hinder readability
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between discussing Disraeli and introducing Carlyle and Ruskin
+    - [STRUCTURE]:
+        • The text jumps between different ideas and historical figures without clear connections
+    - [CLARITY]:
+        • Some sentences are wordy and difficult to understand due to complex vocabulary and phrasing
+
+Section section_05 (Chars 17603–21987):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "rwmains" instead of "remains"
+        • "mudh" instead of "much"
+        • "judgkents" instead of "judgments"
+        • "fictitious adventuresnof" instead of "fictitious adventures of"
+        • "Ghe" instead of "The"
+        • "solatium" is a less common word, may cause confusion
+        • "stimukation" instead of "stimulation"
+        • "stylr" instead of "style"
+        • "correspondrnce" instead of "correspondence"
+    - [GRAMMAR]:
+        • missing articles in some places
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between paragraphs
+    - [STRUCTURE]:
+        • lack of clear connections between ideas
+    - [CLARITY]:
+        • some sentences are wordy and hard to follow
+
+Section section_06 (Chars 21988–26214):
+Scores:
+  - Fluency: 2.5
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • gentlemenmwith
+        • qfter
+        • yhis
+        • Great Britsin
+        • drsssed
+        • Frejchmen
+        • witj
+        • Trwnsport
+        • Scjence
+        • datew
+        • Wzr
+        • financd
+        • condufted
+    - [GRAMMAR]:
+        • inconsistent verb tenses
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between paragraphs
+    - [STRUCTURE]:
+        • lack of clear connections between ideas
+    - [CLARITY]:
+        • ambiguous sentences
+    - [TRANSITION]:
+        • missing links between different topics
+
+Section section_07 (Chars 26215–30550):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "hix" instead of "his"
+        • "waz" instead of "was"
+        • "Germajy" instead of "Germany"
+        • "xettlement" instead of "settlement"
+        • "neavilg" instead of "navely" or correct word
+        • "thenred" instead of "red"
+        • "wecmanage" instead of "we manage"
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt shift from discussing domestic politics to foreign politics without clear connection
+    - [TRANSITION]:
+        • Lack of smooth transition between paragraphs
+    - [CLARITY]:
+        • Some sentences are wordy and difficult to understand
+
+Section section_08 (Chars 30551–34868):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "ix" instead of "is"
+        • "anotuer" instead of "another"
+        • "trkd" instead of "trod"
+        • "represenfative" instead of "representative"
+        • "granxest" instead of "greatest"
+        • "writkng-table" instead of "writing-table"
+        • "portrxits" instead of "portraits"
+        • "ajd" instead of "and"
+        • "epigoni" is correctly spelled but may be unfamiliar to some readers
+    - [SYNTAX]:
+        • Some sentences are long and convoluted
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition from discussing economic advantages to intellectual and spiritual movements
+    - [STRUCTURE]:
+        • The text jumps between different topics, such as literature, history, and philosophy
+    - [CLARITY]:
+        • Some sentences are wordy or contain complex vocabulary, making them difficult to understand
+    - [TRANSITION]:
+        • The text could benefit from clearer connections between paragraphs
+
+Section section_09 (Chars 34868–38909):
+Scores:
+  - Fluency: 2.5
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • greatmmen
+        • severak
+        • amonv
+        • disgracefuk
+        • scabrous
+        • resezrch
+        • Oedipjs
+        • Miltkn
+        • innhis
+        • therefofe
+        • conviftikn
+        • rsalm
+        • thd
+    - [GRAMMAR]:
+        • missing articles and incorrect verb tenses
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between paragraphs
+    - [STRUCTURE]:
+        • lack of clear connections between ideas
+    - [CLARITY]:
+        • ambiguous sentences and unclear references
+
+Section section_10 (Chars 38910–43165):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "Hd" instead of "He"
+        • "ard" instead of "are"
+        • "authoe" instead of "author"
+        • "eduvatedcclass" instead of "educated class"
+        • "moxt" instead of "most"
+        • "diubt" instead of "doubt"
+    - [GRAMMAR]:
+        • Missing articles in some places
+    - [LEXICON]:
+        • Some words are used in outdated or less common ways
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between discussing Tennyson's views and the Victorian social order
+    - [STRUCTURE]:
+        • The text jumps between different topics, such as Tennyson's political views, his religious views, and the broader cultural context
+    - [CLARITY]:
+        • Some sentences are wordy or convoluted, making them hard to follow
+    - [TRANSITION]:
+        • The connection between paragraphs is not always clear
+
+Section section_11 (Chars 43165–47554):
+Scores:
+  - Fluency: 3.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "alao" instead of "also"
+        • "againsg" instead of "against"
+        • "exxmple" instead of "example"
+        • "day ofcEnglish" instead of "day of English"
+        • "zet-back" instead of "set-back"
+        • "mext" instead of "next"
+        • "csuse" instead of "cause"
+        • "fhe" instead of "the"
+        • "og" instead of "of"
+        • "ars" instead of "are"
+        • "nave" instead of "have"
+    - [SYNTAX]:
+        • Several long and convoluted sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between discussing religious thinkers and Victorian literature
+    - [STRUCTURE]:
+        • Lack of clear organization and connection between ideas
+    - [CLARITY]:
+        • Some sentences are wordy and difficult to understand
+    - [TRANSITION]:
+        • Missing or unclear transitions between paragraphs
+
+Section section_12 (Chars 47555–51864):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • propyets instead of prophets
+        • lther instead of other
+        • cimbination instead of combination
+        • romsntic instead of romantic
+        • Cambtidge instead of Cambridge
+        • rapidpy instead of rapidly
+        • omibous instead of ominous
+        • inteloigent instead of intelligent
+        • lofe instead of life
+    - [GRAMMAR]:
+        • various minor punctuation errors
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt shift from discussing the nation's values to describing John Bull
+    - [STRUCTURE]:
+        • lack of clear transitions between paragraphs
+    - [CLARITY]:
+        • some sentences are wordy and difficult to follow
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

@@ -1,0 +1,211 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    b) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The report is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–12556):
+Scores:
+  - Fluency: 3.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • "bpth" instead of "both"
+    - [SPELLING]:
+        • "oate" instead of "late"
+        • "Virgijia" instead of "Virginia"
+        • "sojrce" instead of "source"
+        • "censuw" instead of "census"
+        • "vdis" instead of "did"
+        • "hsrd" instead of "hard"
+        • "ihto" instead of "into"
+        • "Oetersburg" instead of "Petersburg"
+        • "Norfllk" instead of "Norfolk"
+        • "Rjchmond" instead of "Richmond"
+        • "Nirtherner" instead of "Northerner"
+        • "yhe" instead of "the"
+        • "vhave" instead of "have"
+        • "wouldvhave" instead of "would have"
+    - [SYNTAX]:
+        • Several sentences are wordy or awkwardly phrased
+  Coherence Issues:
+    - [LOGIC]:
+        • The text jumps abruptly from discussing the war in the East to the war in the West
+    - [STRUCTURE]:
+        • The chapters seem to be loosely connected, with some repetition of information
+    - [CLARITY]:
+        • Some sentences are unclear or difficult to follow due to complex vocabulary or sentence structure
+    - [TRANSITION]:
+        • The transitions between chapters and sections could be smoother
+
+Section section_02 (Chars 12557–25281):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "tge" instead of "the"
+        • "Wnile" instead of "While"
+        • "thendefense" instead of "the defense"
+        • "yhe" instead of "the"
+        • "ahain" instead of "again"
+        • "witj" instead of "with"
+        • "throygh" instead of "through"
+        • "degenses" instead of "defenses"
+        • "defendcthe" instead of "defend the"
+        • "agaihst" instead of "against"
+        • "consteucting" instead of "constructing"
+        • "consokidating" instead of "consolidating"
+        • "jahbing" instead of "jabbing"
+        • "ckty" instead of "city"
+        • "stdong" instead of "strong"
+        • "flrtified" instead of "fortified"
+        • "earthen embankments was" could be rephrased for better syntax
+        • "workx" instead of "works"
+        • "kine" instead of "line"
+        • "unitz" instead of "units"
+        • "Regimeht" instead of "Regiment"
+        • "onetime" instead of "one-time"
+        • "theor" instead of "their"
+        • "instdument" instead of "instrument"
+  Coherence Issues:
+    - [LOGIC]:
+        • Some sentences are long and convoluted, making them hard to follow
+    - [STRUCTURE]:
+        • The text jumps abruptly between different topics and events
+    - [CLARITY]:
+        • Some paragraphs lack a clear topic sentence or concluding statement
+    - [TRANSITION]:
+        • Transitions between paragraphs and sections could be smoother
+
+Section section_03 (Chars 25282–38087):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing or incorrect articles
+    - [SPELLING]:
+        • typos (e.g. "tbe", "fo", "Confeferate", "Afmy", "defrnse", "Peterxburg", "outlooo", "Sjerman", "Augusy")
+    - [SYNTAX]:
+        • some sentences are wordy or awkwardly phrased
+  Coherence Issues:
+    - [LOGIC]:
+        • some transitions between paragraphs or ideas could be smoother
+    - [STRUCTURE]:
+        • the text jumps between different topics or events without clear connections
+    - [CLARITY]:
+        • a few sentences are unclear or difficult to follow due to complexity or ambiguity
+
+Section section_04 (Chars 38088–50636):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • multiple typos (e.g., "respites" instead of "respite", "z period" instead of "a period", "Fhis" instead of "This", "fhew" is not present but "few" is, "Soutjern" instead of "Southern", "favalry" instead of "cavalry", "cavalrg" instead of "cavalry", "Toad" instead of "Road", "rox" is not present but "road" is, "bug" instead of "but", "rorced" instead of "forced", "vy" instead of "by", "imlortant" instead of "important", "mst" instead of "met", "rrspects" instead of "respects", "morevxashing" instead of "more swashing", "dsspite" instead of "despite", "wigh" instead of "with", "exhilaratoon" instead of "exhilaration", "sperd" instead of "spend", "ajd" instead of "and", "tegard" instead of "regard", "specialvartists" instead of "special artists", "news-" is correct but "newspaper-hungry" would be more common, "picture-hungry" is correct)
+    - [GRAMMAR]:
+        • minor grammatical errors (e.g., missing or incorrect articles, incorrect verb tenses)
+    - [LEXICON]:
+        • some words are used incorrectly or in inappropriate contexts (e.g., "respites" instead of "respite")
+  Coherence Issues:
+    - [LOGIC]:
+        • some sentences or paragraphs seem disconnected from the rest of the text
+    - [STRUCTURE]:
+        • the text jumps abruptly between different topics or events
+    - [CLARITY]:
+        • some sentences are wordy or unclear, making it difficult to understand the intended meaning
+
+Section section_05 (Chars 50637–63480):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing or incorrect articles
+    - [SPELLING]:
+        • minor typos (e.g., "Confeferate" instead of "Confederate")
+    - [SYNTAX]:
+        • some sentences are wordy or awkwardly phrased
+  Coherence Issues:
+    - [LOGIC]:
+        • occasional abrupt transitions between paragraphs
+    - [STRUCTURE]:
+        • some sections feel disconnected from the main narrative
+    - [CLARITY]:
+        • a few sentences are unclear or require re-reading
+
+Section section_06 (Chars 63481–72084):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "drom" instead of "from"
+        • "Letersburg" instead of "Dinwiddie Court House" or correct spelling if it's a real location
+        • "fortifkcations" instead of "fortifications"
+        • "Kee's" instead of "Lee's"
+        • "knowbthat" instead of "knew that"
+        • "amd" instead of "and"
+        • "Granf's" instead of "Grant's"
+        • "frkntal" instead of "frontal"
+        • "sformed" instead of "stormed"
+        • "Pdtersburg" instead of "Petersburg"
+        • "mworship" instead of "morning worship" or correct phrase
+        • "Unikn" instead of "Union"
+        • "exeltion" instead of "exception"
+        • "accpmplished" instead of "accomplished"
+        • "utilizebthe" instead of "utilize the"
+        • "Sputherncarmy" instead of "Southern army"
+        • "resjlt" instead of "result"
+        • "Petersbhrg" instead of "Petersburg"
+        • "bern" instead of "been"
+        • "hax" instead of "had"
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between the description of the Battle of Five Forks and the discussion of its significance
+    - [STRUCTURE]:
+        • The text jumps back and forth between different events and time periods
+    - [CLARITY]:
+        • Some sentences are wordy and difficult to follow
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

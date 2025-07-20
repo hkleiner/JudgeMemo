@@ -1,0 +1,245 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) Read and understand the summary of the text the report was created for.
+    b) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    c) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The summary of the text to be evaluated is given below:
+Summary: The Civil War had been ongoing for over three years by June 1864, with most fighting occurring in Virginia between Washington and Richmond. Despite various Union generals attempting to capture Richmond, none had succeeded. Maj. Gen. George B. McClellan came closest in 1862, but was repulsed. The war in the East seemed far from a final settlement, with the Union failing to deliver a decisive blow against the Army of Northern Virginia.
+
+In the West, the Union had more success, capturing Vicksburg and Chattanooga. The beginning of 1864 found the Northern armies in a stronger position, with more resources and a greater possibility of splitting the Southern states. Maj. Gen. Ulysses S. Grant was appointed lieutenant general and given responsibility for all Union armies. He decided to accompany the Army of the Potomac and provide general direction to the military operations.
+
+The Union plan called for a two-pronged attack, with Grant focusing on Richmond and Petersburg, while Maj. Gen. William T. Sherman marched to the sea. The Army of the James, led by Maj. Gen. Benjamin F. Butler, was tasked with advancing on Richmond from the southeast. The city of Petersburg was a crucial transportation hub, with several roads and railroads connecting it to Richmond and the South.
+
+The Confederate defenses around Petersburg, known as the "Dimmock Line," were 10 miles long and protected all but the northern approaches to the city. On June 15, 1864, the Union XVIII Corps launched a fierce attack on the Dimmock Line, capturing several positions and pushing the Confederates back. However, the Confederates were able to regroup and hold their new line.
+
+The Union army continued to push the Confederates back, extending their siege lines around the city. On July 30, 1864, the Union launched a massive assault on the Confederate lines, known as the Battle of the Crater. The assault failed, with the Union suffering heavy losses. The Confederates were able to hold their lines, but at great cost.
+
+In August 1864, the Union launched a series of attacks on the Weldon Railroad, a crucial supply line for the Confederates. The Confederates were able to repel the attacks, but the Union was eventually able to capture the railroad. The Union continued to push the Confederates back, extending their siege lines and capturing key positions.
+
+In March 1865, the Confederates launched a desperate attack on the Union lines, known as the Battle of Fort Stedman. The attack failed, with the Confederates suffering heavy losses. The Union responded by launching a series of attacks on the Confederate lines, eventually breaking through and capturing the city of Petersburg.
+
+On April 2, 1865, the Union launched a final assault on the Confederate lines, capturing the city of Petersburg and forcing the Confederates to retreat. The Confederates abandoned the city, and the Union army pursued them, eventually capturing Richmond. The fall of Petersburg and Richmond marked the beginning of the end of the Civil War.
+
+The Army of Northern Virginia, led by Gen. Robert E. Lee, surrendered to the Union army on April 9, 1865, at Appomattox Court House. The surrender marked the effective end of the Civil War, with all Confederate forces surrendering by early June 1865. The Petersburg campaign had been a long and bloody one, with both sides suffering heavy losses. However, the Union's superior resources and manpower had ultimately led to their victory.
+
+The report for the text is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–8192):
+Section Summary: By June 1864, the Civil War had been ongoing for over three years, with most of the fighting in the East taking place between Washington and Richmond. Despite numerous attempts, Union generals had failed to destroy the Confederate Army of Northern Virginia or capture Richmond. In 1864, Union strategy shifted with the appointment of Maj. Gen. Ulysses S. Grant, who led a two-pronged attack against the Confederacy, with one arm targeting Richmond and Petersburg. The Army of the Potomac, led by Grant and Maj. Gen. George G. Meade, engaged in a series of bloody battles against the Confederate Army, ultimately leading to a siege of Petersburg, a crucial supply hub for the Confederacy. The capture of Petersburg was seen as a key step towards ending the war, as it would cut off supplies to Richmond and likely lead to the city's abandonment.
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor punctuation errors
+    - [LEXICON]:
+        • some word choices could be more precise
+    - [SYNTAX]:
+        • a few sentences are wordy or awkwardly phrased
+  Coherence Issues:
+    - [LOGIC]:
+        • occasional abrupt transitions between ideas
+    - [STRUCTURE]:
+        • some sections feel slightly disconnected from the main narrative
+    - [CLARITY]:
+        • a few sentences are unclear or require re-reading
+
+Section section_02 (Chars 8193–16929):
+Section Summary: Petersburg was a crucial transportation hub with several important roads and railroads, making it a vital supply point for the Confederate capital of Richmond. The city's defenses, known as the "Dimmock Line," were constructed in 1862 and consisted of a 10-mile chain of breastworks and artillery emplacements. In June 1864, Union forces led by General Grant launched an attack on Petersburg, with the XVIII Corps crossing the Appomattox River and launching a fierce attack on the Dimmock Line. The Confederates, led by General Beauregard, were initially outnumbered but received reinforcements from General Lee, and the battle continued for several days with intense fighting and heavy casualties on both sides. The Union forces ultimately failed to break through the Confederate lines, and the battle became a prolonged siege of the city.
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor punctuation errors
+    - [LEXICON]:
+        • occasional use of complex vocabulary
+    - [SYNTAX]:
+        • some sentences are lengthy and convoluted
+  Coherence Issues:
+    - [LOGIC]:
+        • occasional abrupt transitions between paragraphs
+    - [STRUCTURE]:
+        • the text jumps between different time periods and events
+    - [CLARITY]:
+        • some sentences are wordy and difficult to follow
+
+Section section_03 (Chars 16929–25458):
+Section Summary: Grant's attempt to capture Petersburg failed, resulting in a loss of 10,000 men, but his efforts were not entirely wasted as two railroads and several roads were cut, and City Point was converted into a huge supply base. The Confederate defense line held, and the Union army was forced to settle for a siege, with 111,000 to 113,000 Union troops facing 47,000 to 51,000 Confederates. The Union army then attempted to encircle Petersburg, with a failed attempt to capture the Weldon Railroad on June 22-24, but this marked the beginning of a series of attempts to encircle the city. A unique plan was devised by a group of Union soldiers, led by Lt. Col. Henry Pleasants, to dig a mine shaft under the Confederate line at Pegram's Salient, with the goal of blowing up the position and creating a gap in the enemy's line. The mine was dug from June 25 to July 27, with the Union soldiers using improvised tools and a ventilation system to overcome the challenges of digging a long tunnel.
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor punctuation errors
+    - [LEXICON]:
+        • occasional word choice issues
+    - [SYNTAX]:
+        • few sentence structure problems
+  Coherence Issues:
+    - [LOGIC]:
+        • some abrupt transitions between paragraphs
+    - [STRUCTURE]:
+        • minor inconsistencies in narrative flow
+    - [CLARITY]:
+        • a few unclear sentences or phrases
+
+Section section_04 (Chars 25458–34066):
+Section Summary: The Union army's plan to tunnel under the Confederate lines and detonate a mine was completed on July 23, with 8,000 pounds of black powder packed into the tunnel. The mine was detonated on July 30, killing or wounding at least 278 Confederate troops and creating a massive crater. However, the Union army's subsequent charge was delayed and disorganized, allowing the Confederates to rally and pour artillery fire into the crater, causing heavy casualties. Despite being outnumbered, the Confederates were able to launch a successful counterattack, led by Brig. Gen. William Mahone, and ultimately forced the Union army to retreat, suffering over 4,000 casualties. The battle was a significant defeat for the Union army, highlighting the challenges of frontal assaults against heavily fortified positions.
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor punctuation errors
+    - [LEXICON]:
+        • some sentences are wordy
+    - [SYNTAX]:
+        • a few instances of complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between paragraphs
+    - [STRUCTURE]:
+        • some sections feel disconnected from the main narrative
+    - [CLARITY]:
+        • a few sentences are unclear due to excessive detail
+
+Section section_05 (Chars 34067–42771):
+Section Summary: By the end of July 1864, Grant had a significant numerical advantage over Lee, with over 83,000 men to Lee's 22,000. Despite this, Lee's army remained potent and was able to maintain its defenses around Petersburg and Richmond. Grant's strategy shifted to extending his siege lines and cutting off Lee's supply lines, starting with the capture of the Weldon Railroad in August. The Union army made further gains in late September and October, including the capture of Fort Harrison and the extension of their lines west of the Weldon Railroad, but were unable to cut off Lee's railroad supply lines. The Confederates continued to resist, but their defense lines were becoming increasingly thin and vulnerable to Union attacks.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor punctuation errors
+    - [LEXICON]:
+        • some sentences are wordy
+    - [SYNTAX]:
+        • occasional awkward phrasing
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between chapters
+    - [STRUCTURE]:
+        • some paragraphs lack clear topic sentences
+    - [CLARITY]:
+        • a few sentences are unclear due to complexity
+
+Section section_06 (Chars 42771–51161):
+Section Summary: As winter approached, both Union and Confederate forces used the lull in large-scale battles to strengthen their positions and improve camp conditions around Petersburg. Despite being outnumbered and outsupplied, Confederate General Lee's army held a 35-mile front, but their situation was dire, with many soldiers undernourished and poorly equipped. The Union army, led by General Grant, continued to push west, attempting to encircle Petersburg, and in February 1865, they launched the Battle of Hatcher's Run, which resulted in a further extension of the Union lines. The campaign was marked by boredom, hardship, and disease, with both sides suffering, but the Confederates were particularly plagued by hunger and despair. Ultimately, the Union army's relentless pressure and superior numbers would lead to the fall of Petersburg, as the Confederates were eventually forced to evacuate the city in April 1865.
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor punctuation errors
+    - [LEXICON]:
+        • some sentences are wordy
+    - [SYNTAX]:
+        • occasional awkward phrasing
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between paragraphs
+    - [STRUCTURE]:
+        • some sections feel disconnected
+    - [CLARITY]:
+        • a few sentences are unclear
+
+Section section_07 (Chars 51162–59997):
+Section Summary: By mid-March 1865, the war was nearing its climax, with Lee's forces dwindling to 55,000, while Grant had at least 150,000 troops available. Lee, facing a dire military situation, considered three options: negotiating peace terms, retreating from Richmond and Petersburg, or attacking Grant's forces. He chose to attack, targeting Fort Stedman, a Union fort near Petersburg, in an attempt to break through the Union lines and facilitate a retreat. The attack, led by General Gordon, initially succeeded in capturing the fort, but was ultimately repelled by Union forces, resulting in heavy Confederate casualties. The failed attack left Lee with only one option: to retreat, as Grant was planning to launch a final assault on the Confederate lines.
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor punctuation errors
+    - [LEXICON]:
+        • occasional use of obscure vocabulary
+    - [SYNTAX]:
+        • some sentences are wordy or structurally complex
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between chapters
+    - [STRUCTURE]:
+        • lengthy paragraphs with multiple ideas
+    - [CLARITY]:
+        • occasional ambiguity in describing military maneuvers
+
+Section section_08 (Chars 59998–68493):
+Section Summary: The Union army, led by General Grant, concentrated its forces northeast of Hatcher's Run, threatening to encircle the Army of Northern Virginia. On April 1, 1865, General Sheridan's cavalry and infantry attacked the Confederate forces at Five Forks, defeating them and capturing over 3,200 prisoners. This battle cut off the Confederate supply lines and forced General Lee to evacuate Petersburg and Richmond. The Union army then launched a general assault on the Confederate earthworks at Petersburg, breaking through the lines and capturing the city. The fall of Petersburg led to the evacuation of Richmond, as the Confederate government fled the capital, marking a significant turning point in the war.
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor punctuation errors
+    - [LEXICON]:
+        • occasional word choice issues
+    - [SYNTAX]:
+        • few sentence structure problems
+  Coherence Issues:
+    - [LOGIC]:
+        • some abrupt transitions between paragraphs
+    - [STRUCTURE]:
+        • minor inconsistencies in narrative flow
+    - [CLARITY]:
+        • a few unclear sentences or phrases
+
+Section section_09 (Chars 68494–72084):
+Section Summary: The defense of Petersburg had been breached, and although street fighting within the city was temporarily avoided, it was clear that the city and Richmond could not be held. Lee's army retreated across the Appomattox River on the evening of April 2, with Amelia Court House designated as the assembly point. The next morning, Union troops discovered that the Southern earthworks had been abandoned, and they took possession of Petersburg and Richmond. The fall of Petersburg marked a significant turning point, as Lee's army was eventually cut off and forced to surrender at Appomattox Court House on April 9, leading to the surrender of all Confederate forces by early June 1865. The Petersburg campaign had come at a heavy price, with over 42,000 Union casualties and more than 28,000 Confederate losses, but ultimately led to the defeat of the Confederacy.
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor sentence structure issues
+    - [LEXICON]:
+        • some word choices could be more precise
+  Coherence Issues:
+    - [LOGIC]:
+        • occasional abrupt transitions between paragraphs
+    - [STRUCTURE]:
+        • minor inconsistencies in chronological narration
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

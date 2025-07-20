@@ -1,0 +1,166 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    b) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The report is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–9120):
+Section Summary: The Victorian Age was a time of significant change, marked by the Industrial Revolution and the French Revolution, which broke the continuity between the old order and the new. The period saw rapid advancements in technology, science, and philosophy, leading to a new social order and the emergence of new problems. Before the Industrial Revolution, England was a prosperous and contented country with a self-contained village system, a sparse population, and a genuine aristocracy that held political power. The French Revolution and the subsequent war led to a panic that delayed democratic reforms and kindled patriotism in various countries, including England, which became more isolated from European thought during the early part of Victoria's reign. This era of rapid change and transformation had a profound impact on English society, paving the way for the complexities of the modern world.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Complex sentence structures may hinder readability
+    - [LEXICON]:
+        • Some archaic vocabulary and phrases (e.g., "saeculum mirabile") may confuse modern readers
+    - [SYNTAX]:
+        • Long paragraphs and sentences can make the text difficult to follow
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transitions between historical events and ideas
+    - [STRUCTURE]:
+        • The text jumps between different time periods and concepts without clear connections
+    - [CLARITY]:
+        • Some sentences are wordy and unclear, making it hard to understand the author's point
+
+Section section_02 (Chars 9121–18011):
+Section Summary: The Napoleonic Wars did not significantly disrupt the intellectual life of the country, with notable literary and poetic output during this period. However, the working class suffered greatly, with widespread poverty, illiteracy, and poor living conditions, prompting social critics like Disraeli, Carlyle, and Ruskin to speak out against the injustices of the time. Carlyle and Ruskin, in particular, denounced the social ills of the age, with Carlyle advocating for a more ordered society and Ruskin lamenting the decay of art and beauty in industrialized towns. Ruskin believed that the Industrial Revolution was a mistake and that England would never be happy until it was reversed, advocating for a return to simpler, more self-sufficient social structures. Overall, the period was marked by stark contrasts between the wealthy and the poor, and the emergence of a literature of social indignation that highlighted the need for reform.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Complex sentence structures may hinder readability
+    - [LEXICON]:
+        • Some archaic vocabulary and phrases
+    - [SYNTAX]:
+        • Long paragraphs with multiple ideas
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transitions between historical periods and ideas
+    - [STRUCTURE]:
+        • Lack of clear chronological order
+    - [CLARITY]:
+        • Overly complex and dense paragraphs
+
+Section section_03 (Chars 18011–26958):
+Section Summary: During Queen Victoria's reign, social reformers like Ruskin and Morris criticized the social and economic systems of the time, despite being beneficiaries of the wealthy elite. The period saw significant improvements in various areas, including the law, universities, and civil service, which were previously plagued by inefficiencies and abuses. The army, however, was in a state of disarray, with poor discipline, brutal treatment of soldiers, and inadequate equipment. Despite these challenges, the reign saw unprecedented progress in many areas, including finance, education, and science, leading to a sense of optimism and good governance. Overall, while there were still issues with foreign politics, the period from 1832 to 1867 is often regarded as a time of good governance in England.
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • awkward sentence structure
+    - [LEXICON]:
+        • some words may be unfamiliar to non-native speakers
+    - [SYNTAX]:
+        • long sentences with multiple clauses
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between paragraphs
+    - [STRUCTURE]:
+        • lack of clear connections between ideas
+    - [CLARITY]:
+        • some sentences are wordy and difficult to follow
+
+Section section_04 (Chars 26959–35642):
+Section Summary: The Opium War and the Crimean War were blunders that damaged Britain's reputation, and the country's foreign policy was marked by jealousy and suspicion, particularly with France. This led to a lack of influence on the Continent, where reactionary governments dominated, and democracy suffered a setback in 1848. In contrast, Britain experienced a period of prosperity and security, driven by its favorable geographical position, industrial lead, and natural resources, but these advantages were temporary and have since passed. The Victorian Age saw a flourishing of intellectual and spiritual movements, including the Romanticist revolution, which inspired great poetry and literature, with notable figures such as Alfred Tennyson. The era was characterized by an unprecedented output of books and a large reading public, with Tennyson being a grand and representative figure of Victorian literature.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • sentence structure complexity
+    - [LEXICON]:
+        • occasional use of outdated vocabulary
+    - [SYNTAX]:
+        • some sentences are wordy and hard to follow
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between ideas
+    - [STRUCTURE]:
+        • lack of clear connections between paragraphs
+    - [CLARITY]:
+        • some sentences are ambiguous and open to interpretation
+
+Section section_05 (Chars 35643–44264):
+Section Summary: Tennyson's writing technique was perfect, and he wrote beautifully about beautiful things, including moral conduct. His work, such as the Idylls of the King, was an allegory that explored themes of ideal manhood and the struggle between sense and soul. Tennyson's poetry reflected his age, with its mix of conservatism and liberalism, and he was concerned about the social and political changes of his time, foreseeing many of the evils that would come to pass. He also represented the Victorian mood in religion, which was characterized by a crisis of faith and a move away from traditional dogma, with many intellectuals embracing a more liberal and personal form of spirituality. Overall, Tennyson's work continues to offer insights into the human condition, and his poetry remains relevant despite the changing times and tastes.
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • occasional complex sentence structures
+    - [LEXICON]:
+        • some archaic vocabulary
+    - [SYNTAX]:
+        • lengthy paragraphs with multiple ideas
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between ideas
+    - [STRUCTURE]:
+        • lack of clear sectioning or headings
+    - [CLARITY]:
+        • occasional ambiguity in author's intent
+
+Section section_06 (Chars 44265–51864):
+Section Summary: The Victorian era was a time of great literary and cultural achievement in England, with notable figures such as Tennyson, Dickens, and Thackeray making significant contributions. The era's greatness was due to a combination of transient circumstances, and its decline was marked by the disintegration of society and the rise of antagonistic movements. The fusion of social classes and the growth of industry also brought about significant changes, including the dehumanizing effects of mechanization on workers. The speaker believes that the Victorian Age, along with the Elizabethan Age, represents a peak in English civilization, and that the country's grand-scale work on the world stage is likely nearing its end. Ultimately, the speaker suggests that the future of England depends on the actions of the younger generation, who will soon take the place of the older Victorians.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • occasional complex sentence structures
+    - [LEXICON]:
+        • some archaic vocabulary
+    - [SYNTAX]:
+        • lengthy paragraphs
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between ideas
+    - [STRUCTURE]:
+        • lack of clear sectioning or headings
+    - [CLARITY]:
+        • occasional ambiguity in sentence meaning
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

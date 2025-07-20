@@ -1,0 +1,209 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) Read and understand the summary of the text the report was created for.
+    b) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    c) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The summary of the text to be evaluated is given below:
+Summary: Jean François Millet was a prominent painter of peasant life, known for his profound and sympathetic renderings of everyday life. He was born on October 4, 1814, in Gruchy, a small village in Normandy, to a peasant family. Millet's early life was marked by hardship and struggle, but he was encouraged by his family to pursue his artistic talents. He began drawing at a young age and was eventually sent to Paris to study art.
+
+Millet's time in Paris was marked by poverty and struggle, but he persevered and eventually found success with his paintings of peasant life. He was influenced by the works of Andrea Mantegna and Michelangelo, and his own style was characterized by simplicity, sincerity, and a deep understanding of the human condition. Millet's paintings often featured peasants engaged in everyday activities, such as farming and domestic work.
+
+In 1849, Millet moved to Barbizon, a small village on the outskirts of Paris, where he became friends with other artists, including Théodore Rousseau. The two artists shared a love of nature and a commitment to depicting the beauty and simplicity of rural life. Millet's paintings from this period, such as "The Sower" and "The Gleaners," are considered some of his finest works.
+
+Despite his success, Millet continued to face financial difficulties throughout his life. He was often forced to sell his paintings for low prices, and he struggled to make ends meet. However, he remained committed to his art and continued to paint until his death on January 20, 1875.
+
+Millet's legacy is that of a poet, philosopher, and great thinker who used his art to express the deepest and most profound aspects of human experience. His influence can be seen in the works of many other artists, including Giovanni Segantini, who was inspired by Millet's example. Today, Millet is recognized as one of the greatest painters of the 19th century, and his works continue to be celebrated for their beauty, simplicity, and profound insight into the human condition.
+
+Millet's art is characterized by its emphasis on the everyday lives of peasants and the natural world. He saw the beauty in the mundane and the ordinary, and he was able to convey this beauty through his paintings. His use of color, composition, and light created a sense of simplicity and sincerity that drew the viewer into the world of his paintings.
+
+The "Angelus" is one of Millet's most famous paintings, and it is a powerful example of his ability to convey the deepest and most profound aspects of human experience. The painting features two peasants praying in a field, and it is a beautiful and moving depiction of the simple, everyday moments that make up human life.
+
+Millet's life was marked by hardship and struggle, but he remained committed to his art and continued to paint until his death. His legacy is a testament to the power of art to express the deepest and most profound aspects of human experience, and his paintings continue to be celebrated for their beauty, simplicity, and profound insight into the human condition.
+
+The report for the text is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–8845):
+Section Summary: Jean François Millet is a prominent painter of peasant life, and his work is characterized by its profound and sympathetic rendering of everyday life. He is considered a direct descendant of the Dutch master Pieter Brueghel, who is now recognized as one of the greatest painters of peasant life. Millet's paintings, such as "The Angelus," convey a sense of melancholy and truth, and are not sentimental as some critics have suggested. His unique style, influenced by the Italian Renaissance and his own gentle disposition, sets him apart from his contemporaries. Millet's paintings are a testament to his ability to convey the struggles and sorrows of the simple folk, and his work continues to be appreciated for its intense earnestness and melancholy truth.
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor issues with sentence structure
+    - [LEXICON]:
+        • some words may be less familiar to modern readers
+    - [SYNTAX]:
+        • occasional long sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • some transitions between ideas could be smoother
+    - [STRUCTURE]:
+        • the text jumps between different topics related to Millet
+    - [CLARITY]:
+        • a few sentences are wordy or convoluted
+
+Section section_02 (Chars 8846–17489):
+Section Summary: Jean-François Millet was a philosopher-artist who focused on conveying the struggles and simplicity of rural life, rather than showcasing technical virtuosity. His paintings, such as "The Sheep Pen" and "The Sower", highlight the loneliness and monotony of peasant labor, while also emphasizing the importance of their work. Millet's art is characterized by restraint and a focus on illustrating the human condition, rather than displaying brilliant technique or color. He was inspired by the simplicity and beauty of rural life, particularly in the spring season, and his paintings often feature peasants engaged in everyday activities. Overall, Millet's art is a reflection of his philosophical observations on life, and his brush is a means to convey these thoughts and ideas.
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing articles in some places
+    - [LEXICON]:
+        • some word choices seem slightly archaic or less common
+    - [SYNTAX]:
+        • a few long sentences with complex structures
+  Coherence Issues:
+    - [LOGIC]:
+        • occasional abrupt shifts in topic or focus
+    - [STRUCTURE]:
+        • some paragraphs seem disconnected from the main theme
+    - [CLARITY]:
+        • a few sentences are wordy or unclear
+
+Section section_03 (Chars 17490–26453):
+Section Summary: In 19th century France, the art world was dominated by classical traditions, making it difficult for innovative artists to break through. Jean-François Millet was born into a peasant family in Gruchy, Normandy, and his upbringing had a profound impact on his art. His childhood was marked by a strong connection to nature and a simple, hardworking lifestyle, which would later influence his artistic style. Millet's early life was shaped by his family, particularly his grandmother and a vicar who introduced him to literature and encouraged his curiosity. He developed a passion for drawing and literature, laying the foundation for his future career as a leading figure in the modern naturalistic school of art.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing articles
+    - [SYNTAX]:
+        • long and convoluted sentence structures
+    - [LEXICON]:
+        • some words are outdated or less common
+  Coherence Issues:
+    - [LOGIC]:
+        • occasional abrupt transitions between ideas
+    - [STRUCTURE]:
+        • non-linear narrative that jumps between different periods of Millet's life
+    - [CLARITY]:
+        • some sentences are wordy or unclear
+
+Section section_04 (Chars 26454–35255):
+Section Summary: Jean-François Millet's father took him to Cherbourg to show his drawings to a local painter, Mouchel, who was impressed by the young artist's talent. After his father's death, Millet returned to his family's farm, but his grandmother encouraged him to pursue art, and he eventually returned to Cherbourg to study with M. Langlois. With Langlois' help, Millet received a small pension to study in Paris, where he was exposed to the works of many masters, including Mantegna, Michelangelo, and Nicolas Poussin, who had a significant influence on his style. Millet briefly studied with Delaroche, but found his academic approach stifling and eventually stopped attending his studio due to neglect and financial difficulties. Freed from these constraints, Millet was now able to develop his own unique style and work towards establishing himself as an artist.
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • incorrect verb tense usage
+    - [SPELLING]:
+        • minor typos (e.g., "occur" instead of "occurred")
+    - [SYNTAX]:
+        • occasional awkward sentence structure
+  Coherence Issues:
+    - [LOGIC]:
+        • some abrupt transitions between paragraphs
+    - [STRUCTURE]:
+        • minor inconsistencies in narrative flow
+    - [CLARITY]:
+        • a few sentences with ambiguous meaning
+
+Section section_05 (Chars 35256–43896):
+Section Summary: Jean-François Millet struggled to make a living as an artist, and he turned to portrait-painting to support himself, but he faced rejection and financial difficulties. He eventually moved to Barbizon, where he found inspiration in the peasant life and was able to focus on his true artistic passions. Millet's art was influenced by his own experiences as a peasant and his connection to the people and land of Barbizon. He was part of a community of artists, including Rousseau, who shared his love for art but had different approaches and inspirations. Despite facing many challenges, Millet persevered and continued to create art that reflected his unique perspective and style.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • incorrect verb tense usage
+    - [SPELLING]:
+        • occasional typos (e.g., "eked out an existence" should be "eke out an existence")
+    - [SYNTAX]:
+        • complex sentence structures
+    - [LEXICON]:
+        • some outdated vocabulary (e.g., "waggonettes")
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between paragraphs
+    - [STRUCTURE]:
+        • lack of clear chronological order
+    - [CLARITY]:
+        • some sentences are wordy and hard to follow
+    - [TRANSITION]:
+        • insufficient connections between ideas
+
+Section section_06 (Chars 43896–52576):
+Section Summary: Jean-François Millet settled in Barbizon, where he lived a simple life, working as a painter and growing his own food. Despite struggling with financial difficulties and facing criticism from some art critics and fellow artists, he continued to produce notable works, including "The Sower", "The Gleaners", and "The Angelus". Millet's paintings often explored themes of rural life and social issues, which resonated with some but also sparked controversy. Throughout his life, he received support from friends, such as Rousseau, who helped him financially and appreciated his artistic talents. Despite facing challenges, Millet remained committed to his art and continued to produce significant works until his later years.
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor punctuation errors
+    - [LEXICON]:
+        • occasional use of less common vocabulary
+    - [SYNTAX]:
+        • some sentences are lengthy and convoluted
+  Coherence Issues:
+    - [LOGIC]:
+        • occasional abrupt transitions between ideas
+    - [STRUCTURE]:
+        • the text jumps between different time periods and topics
+    - [CLARITY]:
+        • some sentences are wordy and difficult to follow
+
+Section section_07 (Chars 52576–60130):
+Section Summary: After returning from a trip, Jean-François Millet devoted himself to his work and achieved success at the Salons with his exhibits. However, his health began to decline due to a persistent cough, and he eventually passed away on January 20, 1875. Millet's art is characterized by his passionate sympathy with the struggles of the common people, particularly peasants, and his works often convey a sense of sadness and melancholy. Despite facing numerous challenges and criticisms during his lifetime, Millet's influence on the art world has been profound, inspiring many artists, including Segantini, with his sincere and profound style. His legacy continues to be felt, with his works remaining a powerful expression of the human experience.
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing article in some places
+    - [LEXICON]:
+        • some words are less common or slightly archaic
+    - [SYNTAX]:
+        • a few long sentences with complex structures
+  Coherence Issues:
+    - [LOGIC]:
+        • some paragraphs seem disconnected from the main narrative
+    - [STRUCTURE]:
+        • the text jumps between different topics and ideas
+    - [CLARITY]:
+        • a few sentences are wordy or unclear
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

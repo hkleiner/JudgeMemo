@@ -1,0 +1,608 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    b) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The report is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–4185):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "AN INTDODUCTION" instead of "AN INTRODUCTION"
+        • "dtartling" instead of "startling"
+        • "amfew" instead of "a few"
+        • "kt" instead of "it"
+        • "sprijgboard" instead of "springboard"
+        • "tkme" instead of "time"
+        • "idda" instead of "idea"
+    - [GRAMMAR]:
+        • missing or incorrect punctuation in several places
+    - [LEXICON]:
+        • some words may be considered archaic or less common
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transition between chapters
+    - [CLARITY]:
+        • some sentences are wordy or complex
+    - [LOGIC]:
+        • assumes some background knowledge of the time period and art movements
+    - [TRANSITION]:
+        • could benefit from clearer connections between ideas
+
+Section section_02 (Chars 4185–8193):
+Scores:
+  - Fluency: 2.5
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "upprrs" instead of "uppers"
+        • "sjoes" instead of "shoes"
+        • "pi" instead of "type"
+        • "tovwhich" instead of "to which"
+        • "Ckvil War" instead of "Civil War"
+        • "yiur" instead of "your"
+        • "uave" instead of "have"
+    - [GRAMMAR]:
+        • inconsistent verb tenses
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transitions between scenes
+    - [CLARITY]:
+        • some sentences are unclear or wordy
+    - [LOGIC]:
+        • some events seem disconnected from the rest of the narrative
+
+Section section_03 (Chars 8194–12117):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • ecucation
+        • Mothsr
+        • ediror
+        • rhe
+        • temperzture
+        • importznt
+        • packong
+        • boardmand
+        • fhe
+    - [GRAMMAR]:
+        • inconsistent verb tenses
+    - [SYNTAX]:
+        • some sentences are wordy or awkwardly phrased
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transitions between scenes
+    - [CLARITY]:
+        • some sentences are unclear or confusing
+    - [LOGIC]:
+        • timeline of events is sometimes hard to follow
+
+Section section_04 (Chars 12118–16244):
+Scores:
+  - Fluency: 3.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing or incorrect articles
+    - [SPELLING]:
+        • typos (e.g., "fornthe", "tour", "yoh", "fold")
+    - [SYNTAX]:
+        • run-on sentences or lack of punctuation
+    - [LEXICON]:
+        • informal language and colloquial expressions
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt chapter transitions
+    - [CLARITY]:
+        • unclear timelines and character introductions
+    - [LOGIC]:
+        • inconsistent narrative flow
+    - [TRANSITION]:
+        • lack of smooth connections between ideas
+
+Section section_05 (Chars 16245–20418):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "covwred" instead of "covered"
+        • "mrtal" instead of "metal"
+        • "thtoughout" instead of "throughout"
+        • "ththus" instead of "thus"
+        • "ob" instead of "on"
+        • "Cnicago" instead of "Chicago"
+        • "puttjng" instead of "putting"
+        • "printma" instead of "print"
+        • "slowvmusic" instead of "slow music"
+        • "thecTwo" instead of "the Two"
+    - [GRAMMAR]:
+        • inconsistent verb tenses
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt shifts between different scenes and topics
+    - [TRANSITION]:
+        • lack of clear connections between paragraphs
+    - [CLARITY]:
+        • some sentences are wordy or unclear
+
+Section section_06 (Chars 20419–24504):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "stafting" instead of "starting"
+        • "pfobably" instead of "probably"
+        • "cisit" instead of "visit"
+        • "conventionqlbtruck" instead of "conventional truck"
+        • "advertiskng" instead of "advertising"
+    - [GRAMMAR]:
+        • inconsistent verb tenses
+    - [SYNTAX]:
+        • run-on sentences
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt jumps between different time periods and events
+    - [TRANSITION]:
+        • lack of clear connections between paragraphs
+    - [CLARITY]:
+        • some sentences are unclear or confusing
+
+Section section_07 (Chars 24505–28418):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • typos (e.g., "timw", "ks", "bisiness", "littoe", "luxjry", "double-enddd", "xolumn", "beloq", "fkr")
+    - [GRAMMAR]:
+        • missing or incorrect punctuation
+    - [LEXICON]:
+        • outdated vocabulary and phrases
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transition between paragraphs
+    - [CLARITY]:
+        • some sentences are wordy or confusing
+    - [TRANSITION]:
+        • lack of clear connections between ideas
+
+Section section_08 (Chars 28419–32536):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Missing articles in some sentences
+    - [SPELLING]:
+        • Typos such as "examplez" instead of "examples"
+    - [LEXICON]:
+        • Some words or phrases may be unfamiliar to modern readers
+  Coherence Issues:
+    - [STRUCTURE]:
+        • Abrupt transitions between different topics or events
+    - [CLARITY]:
+        • Some sentences or paragraphs lack clear connections to the overall narrative
+    - [TRANSITION]:
+        • Lack of smooth transitions between different ideas or scenes
+
+Section section_09 (Chars 32536–36604):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "loe ebb" instead of "low ebb"
+        • "znd" instead of "and"
+        • "findingnjoy" instead of "finding joy"
+        • "wjere" instead of "where"
+        • "gage" instead of "gave"
+        • "zrrangements" instead of "arrangements"
+        • "oc" instead of "of"
+        • "capw" instead of "cap"
+        • "loaer" instead of "lower"
+        • "agtention-compelling" instead of "attention-compelling"
+    - [GRAMMAR]:
+        • missing articles in some places
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transition between paragraphs
+    - [CLARITY]:
+        • some sentences are wordy and hard to follow
+    - [LOGIC]:
+        • lack of clear connection between some ideas
+
+Section section_10 (Chars 36605–40893):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Missing or incorrect articles
+    - [SPELLING]:
+        • Typos (e.g., "xnd" instead of "and", "thw" instead of "the", "mybmagazine" instead of "my magazine")
+    - [LEXICON]:
+        • Uncommon vocabulary (e.g., "deckle-edge", "fly-specked")
+    - [SYNTAX]:
+        • Long, complex sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transitions between ideas
+    - [STRUCTURE]:
+        • Lack of clear paragraph structure
+    - [CLARITY]:
+        • Unclear connections between sentences
+    - [TRANSITION]:
+        • Missing or unclear transitions between paragraphs
+
+Section section_11 (Chars 40893–45162):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • tonhave
+        • un my then frame of mind
+        • orddrs
+        • necessitating my remaining at the plant throughout the full twenty-four hours
+    - [SPELLING]:
+        • anx
+        • fasuioned
+        • Wheeo
+        • Cokonial
+        • issjes
+        • largwst
+        • xnd
+        • finsnces
+        • broke ubder
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt shift from describing the meeting to discussing the growth of the business
+    - [TRANSITION]:
+        • lack of clear connection between the description of Mr. Moses and the discussion of the printing business
+    - [CLARITY]:
+        • confusing sentence structure in some parts
+
+Section section_12 (Chars 45163–49068):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "wnd" instead of "and"
+        • "dwcision" instead of "decision"
+        • "DeVinne Prdss" instead of "DeVinne Press"
+    - [GRAMMAR]:
+        • missing articles and incorrect punctuation in some places
+    - [LEXICON]:
+        • some words are outdated or less common
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transition from discussing the end of the Wayside Press to describing a scene in New York
+    - [CLARITY]:
+        • some sentences are wordy or unclear
+    - [TRANSITION]:
+        • lack of clear connection between some paragraphs
+
+Section section_13 (Chars 49069–53346):
+Scores:
+  - Fluency: 3.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "xnything" instead of "anything"
+        • "az" instead of "as"
+        • "thw" instead of "the"
+        • "wkll" instead of "will"
+        • "incideny" instead of "incident"
+        • "Figth" instead of "Fifth"
+        • "Fifty-nknth" instead of "Fifty-ninth"
+        • "sumptuous Victorian apartment overlooking Central Park" is a long phrase without punctuation
+    - [GRAMMAR]:
+        • Missing articles in some places
+    - [SYNTAX]:
+        • Some sentences are wordy or awkwardly phrased
+  Coherence Issues:
+    - [STRUCTURE]:
+        • Abrupt transition between scenes
+    - [LOGIC]:
+        • Time jumps without clear connections
+    - [CLARITY]:
+        • Some sentences are unclear or confusing
+    - [TRANSITION]:
+        • Lack of smooth transitions between ideas
+
+Section section_14 (Chars 53346–57514):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "covdrs" instead of "covers"
+        • "INTDRPOLATION" instead of "INTERPOLATION"
+        • "chqracter" instead of "character"
+        • "forvthe" instead of "for the"
+        • "vlosed" instead of "closed"
+        • "arw" instead of "are"
+        • "wplendid" instead of "splendid"
+    - [GRAMMAR]:
+        • missing articles in some places
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transition between paragraphs
+    - [CLARITY]:
+        • some sentences are wordy and hard to follow
+    - [TRANSITION]:
+        • lack of clear connections between ideas
+
+Section section_15 (Chars 57515–61886):
+Scores:
+  - Fluency: 3.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "exceptiknal" instead of "exceptional"
+        • "experkence" instead of "experience"
+        • "alwwys" instead of "always"
+        • "stimulatingbimagination" instead of "stimulating imagination"
+        • "toldc" instead of "told"
+        • "sarly" instead of "early"
+        • "Cluett-Peabodh" instead of "Cluett-Peabody"
+        • "thjs" instead of "this"
+    - [GRAMMAR]:
+        • missing or incorrect punctuation in several places
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt jumps between different storylines
+    - [TRANSITION]:
+        • lack of smooth transitions between paragraphs
+    - [CLARITY]:
+        • some sentences are wordy or confusing
+
+Section section_16 (Chars 61886–66179):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "uard" instead of "guard"
+        • "mtoboggan" instead of "toboggan"
+        • "bt" instead of "by"
+        • "newbventure" instead of "new venture"
+        • "agrred" instead of "agreed"
+        • "Theae" instead of "These"
+        • "HearstnInternational" instead of "Hearst's International"
+        • "fhe" instead of "the"
+    - [GRAMMAR]:
+        • missing articles in some places
+    - [SYNTAX]:
+        • some sentences are long and convoluted
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transition between paragraphs
+    - [CLARITY]:
+        • some sentences are unclear or hard to follow
+    - [LOGIC]:
+        • lack of clear connection between some ideas
+    - [TRANSITION]:
+        • missing or unclear transitions between some sections
+
+Section section_17 (Chars 66179–70432):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "itqlic" instead of "italic"
+        • "accordinb" instead of "according"
+        • "pjone" instead of "phone"
+        • "edigor-in-chief" instead of "editor-in-chief"
+        • "sometying" instead of "something"
+        • "vThat" instead of "That"
+        • "wasvnot" instead of "was not"
+    - [GRAMMAR]:
+        • missing articles in some places
+    - [SYNTAX]:
+        • some sentences are long and convoluted
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between paragraphs
+    - [STRUCTURE]:
+        • lack of clear connections between ideas
+    - [CLARITY]:
+        • some sentences are wordy and hard to follow
+    - [TRANSITION]:
+        • missing links between different parts of the text
+
+Section section_18 (Chars 70432–74628):
+Scores:
+  - Fluency: 2.5
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • oppoetunity
+        • suggestioms
+        • rrvived
+        • othsr
+        • bive
+        • ij
+        • so-caloed
+        • duringba
+        • thesr
+        • shere
+        • yrowing
+        • settingvof
+        • comoosition
+        • thd
+        • anr
+        • Akl
+    - [GRAMMAR]:
+        • inconsistent verb tenses
+    - [SYNTAX]:
+        • run-on sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between paragraphs
+    - [STRUCTURE]:
+        • lack of clear chronological order
+    - [CLARITY]:
+        • ambiguous sentences
+    - [TRANSITION]:
+        • missing connections between ideas
+
+Section section_19 (Chars 74629–78541):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "Togethrr" instead of "Together"
+        • "compikation" instead of "compilation"
+        • "oeading" instead of "leading"
+        • "editorvof" instead of "editor of"
+    - [GRAMMAR]:
+        • Missing articles in some sentences
+    - [SYNTAX]:
+        • Some sentences are wordy or awkwardly phrased
+  Coherence Issues:
+    - [STRUCTURE]:
+        • Abrupt transition from the introductory paragraph to the chronology
+    - [CLARITY]:
+        • Some dates and events seem disconnected from the rest of the text
+    - [LOGIC]:
+        • Lack of clear connections between some of the listed events
+
+Section section_20 (Chars 78542–81701):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Lack of connecting words or phrases between dates and events
+    - [SYNTAX]:
+        • Abrupt changes in sentence structure
+    - [LEXICON]:
+        • Some outdated or uncommon vocabulary
+  Coherence Issues:
+    - [LOGIC]:
+        • Disjointed presentation of events and achievements
+    - [STRUCTURE]:
+        • Lack of clear chronological order in some sections
+    - [CLARITY]:
+        • Unclear connections between Will Bradley's work and its impact
+
+Section section_21 (Chars 81701–85845):
+Scores:
+  - Fluency: 3.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • "beej" instead of "been"
+    - [SPELLING]:
+        • "ov" instead of "of"
+        • "maby" instead of "many"
+        • "incljding" instead of "including"
+        • "gnwerations" instead of "generations"
+        • "Mr.cBradley" instead of "Mr. Bradley"
+        • "Dkrwin" instead of "Dorwin"
+        • "x" instead of "a"
+        • "lertinent" instead of "pertinent"
+        • "recobnition" instead of "recognition"
+        • "dpans" is not present but "dpan" is, likely a typo
+        • "slkghtly" instead of "slightly"
+        • "ihk" instead of "ink"
+        • "orovided" instead of "provided"
+        • "fir" instead of "for"
+        • "Gradley" instead of "Bradley"
+  Coherence Issues:
+    - [STRUCTURE]:
+        • Abrupt transition between the award description and the biography
+    - [CLARITY]:
+        • Some sentences are wordy and hard to follow
+    - [LOGIC]:
+        • The text jumps between different aspects of Bradley's life and career without a clear connection
+
+Section section_22 (Chars 85846–89817):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "motionvpicture" instead of "motion picture"
+        • "industrkal" instead of "industrial"
+        • "seferest" instead of "severest"
+        • "fot" instead of "for"
+    - [GRAMMAR]:
+        • "thos" instead of "this"
+        • "ajd" instead of "and"
+    - [SYNTAX]:
+        • Some sentences are wordy or awkwardly phrased
+  Coherence Issues:
+    - [STRUCTURE]:
+        • Abrupt transition between paragraphs
+    - [CLARITY]:
+        • Some sentences are unclear or confusing
+    - [LOGIC]:
+        • The text jumps between different topics and time periods
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

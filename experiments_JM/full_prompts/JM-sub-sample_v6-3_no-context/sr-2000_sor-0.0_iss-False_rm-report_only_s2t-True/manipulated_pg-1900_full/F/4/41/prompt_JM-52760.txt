@@ -1,0 +1,264 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    b) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The report is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–8192):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "bpth" instead of "both"
+        • "oate" instead of "late"
+        • "foolowed" instead of "followed"
+        • "Virgijia" instead of "Virginia"
+        • "sojrce" instead of "source"
+        • "qn" instead of "an"
+        • "outfkank" instead of "outflank"
+        • "petsistent" instead of "persistent"
+        • "Confeferate" instead of "Confederate"
+        • "censuw" instead of "census"
+        • "vdis" instead of "did"
+        • "hsrd" instead of "hard"
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between chapters
+    - [STRUCTURE]:
+        • Lack of clear connection between some paragraphs
+    - [CLARITY]:
+        • Some sentences are wordy and hard to follow
+
+Section section_02 (Chars 8193–16702):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [SPELLING]:
+        • multiple typos (e.g., "ihto", "Oetersburg", "Nirtherner", "wnile", "thendefense", "yhe", "tge")
+    - [SYNTAX]:
+        • awkward sentence structure in some places
+  Coherence Issues:
+    - [LOGIC]:
+        • occasional abrupt transitions between paragraphs
+    - [STRUCTURE]:
+        • some sections feel disconnected from the main narrative
+    - [CLARITY]:
+        • a few sentences are wordy or unclear
+
+Section section_03 (Chars 16703–25002):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • numerous typos and spelling errors (e.g. "Fkrt" instead of "Fort", "degenses" instead of "defenses", "hyge" instead of "huge", "agaihst" instead of "against", "consteucting" instead of "constructing", "siefe" instead of "siege", "jahbing" instead of "jabbing", "failufe" instead of "failure", "wdvanced" instead of "advanced", "ckty" instead of "city", "themopposing" instead of "the opposing", "stdong" instead of "strong", "flrtified" instead of "fortified", "workx" instead of "works", "kine" instead of "line", "regimeht" instead of "regiment", "onetime" instead of "one-time", "theor" instead of "their", "instdument" instead of "instrument")
+    - [GRAMMAR]:
+        • occasional grammatical errors (e.g. "Two of the railroads leading into the city had been cut, and several roads were in Union hands" could be improved for clarity)
+    - [SYNTAX]:
+        • some sentences are wordy or awkwardly phrased (e.g. "The major result of the opening 4 days of combat, however, was the failure of the Federal forces to break the Confederate defense line")
+  Coherence Issues:
+    - [LOGIC]:
+        • some transitions between paragraphs or sections could be smoother
+    - [STRUCTURE]:
+        • the text jumps between different topics and events, which can make it hard to follow at times
+    - [CLARITY]:
+        • a few sentences are unclear or confusing due to complex wording or concepts
+
+Section section_04 (Chars 25003–33545):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing or incorrect articles
+    - [SPELLING]:
+        • typos (e.g. "tbe", "fo", "Confeferate", "Afmy", "defrnse", "poiny", "bfigades")
+    - [SYNTAX]:
+        • some sentences are wordy or awkwardly phrased
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between paragraphs
+    - [STRUCTURE]:
+        • lack of clear chronological progression in some sections
+    - [CLARITY]:
+        • some sentences are unclear or confusing
+
+Section section_05 (Chars 33546–42070):
+Scores:
+  - Fluency: 3.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "revieaed" instead of "reviewed"
+        • "Petersbutg" instead of "Petersburg"
+        • "Peterxburg" instead of "Petersburg"
+        • "Sjerman" instead of "Sherman"
+        • "outlooo" instead of "outlook"
+        • "weakemed" instead of "weakened"
+        • "pf" instead of "of"
+        • "sopn" instead of "seized"
+        • "onfantry" instead of "infantry"
+        • "vy" instead of "by"
+        • "thr" instead of "the"
+        • "Augusy" instead of "August"
+        • "Richmlnd" instead of "Richmond"
+        • "Weldon Railroar" instead of "Weldon Railroad"
+        • "Septwmber" instead of "September"
+        • "strubgle" instead of "struggle"
+        • "rortified" instead of "fortified"
+        • "exfended" instead of "extended"
+        • "Fhis" instead of "This"
+        • "Civjl" instead of "Civil"
+        • "z" instead of "a"
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between paragraphs
+    - [STRUCTURE]:
+        • Lack of clear chronological order in some sections
+    - [CLARITY]:
+        • Unclear sentences due to spelling and grammar errors
+
+Section section_06 (Chars 42071–50423):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "cavalrg" instead of "cavalry"
+        • "Toad" instead of "Road"
+        • "Roxd" instead of "Road"
+        • "Soutjern" instead of "Southern"
+        • "rspects" instead of "respects"
+        • "dsspite" instead of "despite"
+        • "wigh" instead of "with"
+        • "exhilaratoon" instead of "exhilaration"
+        • "sperd" instead of "spend"
+        • "tegard" instead of "regard"
+        • "improvised" and "imprkvise" inconsistency
+        • "specialvartists" instead of "special artists"
+    - [GRAMMAR]:
+        • Missing or incorrect articles in several places
+    - [LEXICON]:
+        • "imprkvise" instead of "improvise"
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between paragraphs
+    - [STRUCTURE]:
+        • Lack of clear chronological order in some sections
+    - [CLARITY]:
+        • Some sentences are wordy or unclear
+    - [TRANSITION]:
+        • Missing or inadequate transitions between ideas
+
+Section section_07 (Chars 50424–59080):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • "followwd" instead of "followed"
+    - [SPELLING]:
+        • "Confeferate" instead of "Confederate"
+        • "ineffectkve" instead of "ineffective"
+        • "Equslly" instead of "Equally"
+        • "Unionbline" instead of "Union line"
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between the description of the Civil War camp and the introduction of the Union soldiers' confidence
+    - [STRUCTURE]:
+        • The text jumps between different topics, such as the description of the war scene and the discussion of Lee's plans
+    - [CLARITY]:
+        • Some sentences are wordy and difficult to follow
+
+Section section_08 (Chars 59081–67783):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing or incorrect articles
+    - [SPELLING]:
+        • typos (e.g. "wttack", "mortheast", "vkcinity", "frkntal", "Pdtersburg")
+    - [SYNTAX]:
+        • some sentences are wordy or awkwardly phrased
+  Coherence Issues:
+    - [LOGIC]:
+        • occasional abrupt transitions between ideas
+    - [STRUCTURE]:
+        • some paragraphs seem disconnected from the rest of the text
+    - [CLARITY]:
+        • a few sentences are unclear or difficult to follow
+
+Section section_09 (Chars 67784–72084):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "accpmplished" instead of "accomplished"
+        • "xnd" instead of "and"
+        • "infahtry" instead of "infantry"
+        • "Petereburg" instead of "Petersburg"
+        • "Petersbhrg" instead of "Petersburg"
+        • "utilizebthe" instead of "utilize the"
+        • "Sputherncarmy" instead of "Southern army"
+        • "resjlt" instead of "result"
+        • "surrendefed" instead of "surrendered"
+        • "Congederate" instead of "Confederate"
+    - [GRAMMAR]:
+        • "Yhey" instead of "They"
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between the description of the battle and the discussion of the aftermath
+    - [STRUCTURE]:
+        • The text jumps back and forth between different events and locations
+    - [CLARITY]:
+        • Some sentences are wordy and difficult to follow
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

@@ -1,0 +1,397 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    b) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The report is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–4006):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Complex sentence structures
+    - [LEXICON]:
+        • Archaic vocabulary usage
+    - [SYNTAX]:
+        • Long, winding sentences
+  Coherence Issues:
+    - [STRUCTURE]:
+        • Abrupt transitions between ideas
+    - [CLARITY]:
+        • Overly descriptive passages
+    - [LOGIC]:
+        • Disconnected historical references
+
+Section section_02 (Chars 4006–7787):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Run-on sentences and lack of punctuation for clarity
+    - [LEXICON]:
+        • Some words may be less familiar to modern readers
+    - [SYNTAX]:
+        • Complex sentence structures
+  Coherence Issues:
+    - [STRUCTURE]:
+        • Abrupt transition between discussing the Pompadour and the protagonist's life
+    - [LOGIC]:
+        • Lack of clear connection between the historical context and the protagonist's personal story
+    - [CLARITY]:
+        • Some sentences are wordy or contain multiple ideas, making them hard to follow
+
+Section section_03 (Chars 7787–11855):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • occasional use of archaic language
+    - [LEXICON]:
+        • some words may be unfamiliar to modern readers
+    - [SYNTAX]:
+        • complex sentence structures
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transition between paragraphs
+    - [CLARITY]:
+        • some sentences are long and convoluted
+    - [TRANSITION]:
+        • lack of clear connections between ideas
+
+Section section_04 (Chars 11855–15972):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • "it was in this year that Boucher was give a studio" should be "given"
+    - [SPELLING]:
+        • "am meted out" should be "are meted out"
+        • "am the grave" should be "was the grave"
+    - [SYNTAX]:
+        • Some sentences are long and convoluted, making them hard to follow
+  Coherence Issues:
+    - [LOGIC]:
+        • The transition between the description of Fragonard's artistic development and the historical event of Damiens stabbing the king feels abrupt
+    - [STRUCTURE]:
+        • The text jumps between different topics, such as Fragonard's training, his trip to Rome, and historical events, without clear connections
+    - [CLARITY]:
+        • Some sentences are wordy or use complex vocabulary, making them difficult to understand
+
+Section section_05 (Chars 15973–20152):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor punctuation errors
+    - [LEXICON]:
+        • occasional use of less common vocabulary
+    - [SYNTAX]:
+        • some sentences are lengthy and complex
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transition between Fragonard's story and the historical context
+    - [CLARITY]:
+        • some sentences are wordy and difficult to follow
+    - [LOGIC]:
+        • minor inconsistencies in the narrative timeline
+
+Section section_06 (Chars 20153–23933):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Missing or incorrect articles in some places
+    - [SPELLING]:
+        • Non-standard spelling of certain words (e.g., "eke" instead of "also")
+    - [SYNTAX]:
+        • Some sentences are long and convoluted
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between discussing Fragonard's career and his painting style
+    - [STRUCTURE]:
+        • The text jumps between different topics, such as Fragonard's life, his paintings, and the cultural context
+    - [CLARITY]:
+        • Some sentences are wordy or unclear, making it difficult to understand the author's point
+
+Section section_07 (Chars 23933–28078):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor sentence structure complexity
+    - [LEXICON]:
+        • some archaic vocabulary usage
+    - [SYNTAX]:
+        • occasional long sentence lengths
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between historical and artistic descriptions
+    - [STRUCTURE]:
+        • non-chronological ordering of events
+    - [CLARITY]:
+        • occasional ambiguity in referencing historical figures
+
+Section section_08 (Chars 28079–31974):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Missing or incorrect verb conjugations
+    - [SPELLING]:
+        • Typos (e.g., "got" instead of "get")
+    - [SYNTAX]:
+        • Awkward sentence structure
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transitions between ideas
+    - [STRUCTURE]:
+        • Lack of clear chronological order
+    - [CLARITY]:
+        • Unclear references to historical events
+
+Section section_09 (Chars 31974–35988):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Minor punctuation errors
+    - [LEXICON]:
+        • Some archaic vocabulary
+    - [SYNTAX]:
+        • Complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition to the "MARRIAGE" chapter
+    - [STRUCTURE]:
+        • Non-chronological events
+    - [CLARITY]:
+        • Unclear cause of Du Barry's rejection of Fragonard's work
+
+Section section_10 (Chars 35988–39952):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • occasional use of outdated or awkward phrasing
+    - [LEXICON]:
+        • some words may be less familiar to modern readers
+    - [SYNTAX]:
+        • a few sentences are long and convoluted
+  Coherence Issues:
+    - [STRUCTURE]:
+        • the text jumps between different topics and time periods
+    - [TRANSITION]:
+        • some paragraphs lack smooth transitions between ideas
+    - [CLARITY]:
+        • a few sentences are wordy or unclear
+
+Section section_11 (Chars 39953–43975):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Unusual sentence structure
+    - [LEXICON]:
+        • Archaic vocabulary
+    - [SYNTAX]:
+        • Long, complex sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transitions between historical events
+    - [STRUCTURE]:
+        • Non-chronological ordering of events
+    - [CLARITY]:
+        • Overly descriptive language obscures main points
+
+Section section_12 (Chars 43975–48145):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Run-on sentences and lack of punctuation
+    - [LEXICON]:
+        • Overly complex vocabulary
+    - [SYNTAX]:
+        • Long and convoluted sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transitions between ideas
+    - [STRUCTURE]:
+        • Non-chronological ordering of events
+    - [CLARITY]:
+        • Unclear connections between paragraphs
+
+Section section_13 (Chars 48146–51504):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Missing articles in some places
+    - [LEXICON]:
+        • Some words may be less common or archaic
+    - [SYNTAX]:
+        • Long sentences with multiple clauses
+  Coherence Issues:
+    - [STRUCTURE]:
+        • Abrupt transition between paragraphs
+    - [CLARITY]:
+        • Some sentences are wordy or contain multiple ideas
+    - [LOGIC]:
+        • Sudden shift in focus from historical events to personal relationships
+
+Section section_14 (Chars 51505–55698):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • "He was to reeled" should be "He was about to reel" or "He reeled"
+    - [SYNTAX]:
+        • Some sentences are long and convoluted, making them hard to follow
+    - [LEXICON]:
+        • Use of less common vocabulary, such as "trite sermon" and "winsome", may cause difficulty for some readers
+  Coherence Issues:
+    - [STRUCTURE]:
+        • The text jumps abruptly from discussing Fragonard's personal life to the French Revolution
+    - [TRANSITION]:
+        • Lack of clear transitions between paragraphs, making it hard to follow the narrative
+    - [CLARITY]:
+        • Some sentences are unclear or ambiguous, requiring close reading to understand
+
+Section section_15 (Chars 55699–59762):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • "It was as unsafe to left as to stay in Paris" should be "It was as unsafe to leave as to stay in Paris"
+    - [SPELLING]:
+        • "the 10th of January 1793 see" should be "the 10th of January 1793 saw"
+    - [SYNTAX]:
+        • Some sentences are long and convoluted, making them hard to follow
+  Coherence Issues:
+    - [LOGIC]:
+        • The text jumps abruptly from discussing historical events to Fragonard's personal life
+    - [STRUCTURE]:
+        • The transition between paragraphs can be disjointed
+    - [CLARITY]:
+        • Some sentences are wordy or contain unclear references
+
+Section section_16 (Chars 59763–63743):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • "he coulded be gone" should be "he could be gone"
+    - [SPELLING]:
+        • No major spelling issues detected
+    - [SYNTAX]:
+        • Some sentences are long and convoluted, affecting readability
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between Fragonard's story and the broader historical context
+    - [STRUCTURE]:
+        • The text jumps back and forth between different time periods and events
+    - [CLARITY]:
+        • Some sentences are wordy and unclear, making it hard to follow the narrative
+
+Section section_17 (Chars 63744–67702):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Minor sentence structure complexity
+    - [LEXICON]:
+        • Some archaic vocabulary usage
+    - [SYNTAX]:
+        • Long sentences with multiple clauses
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between Fragonard's life and artistic analysis
+    - [STRUCTURE]:
+        • Non-chronological events and ideas
+    - [CLARITY]:
+        • Some sentences are wordy or ambiguous
+
+Section section_18 (Chars 67703–68089):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Missing article
+    - [LEXICON]:
+        • Archaic vocabulary
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition to the emergence of a new France
+    - [CLARITY]:
+        • Unclear causal relationship between the old and new France
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

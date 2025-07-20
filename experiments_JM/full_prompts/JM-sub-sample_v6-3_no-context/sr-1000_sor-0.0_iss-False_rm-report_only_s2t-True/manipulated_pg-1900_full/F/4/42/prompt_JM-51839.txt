@@ -1,0 +1,351 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    b) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The report is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–4098):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • occasional use of complex sentence structures
+    - [LEXICON]:
+        • some archaic vocabulary
+    - [SYNTAX]:
+        • poetic license in the first chapter
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transition between poetic and narrative sections
+    - [CLARITY]:
+        • some sentences are wordy or contain obscure references
+    - [LOGIC]:
+        • lack of clear connection between the legend and historical events
+
+Section section_02 (Chars 4099–8254):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor punctuation errors
+    - [LEXICON]:
+        • occasional word choice issues
+    - [SYNTAX]:
+        • few sentence structure complexities
+  Coherence Issues:
+    - [LOGIC]:
+        • some abrupt transitions between historical events
+    - [STRUCTURE]:
+        • minor inconsistencies in chapter organization
+    - [CLARITY]:
+        • a few sentences with unclear references
+
+Section section_03 (Chars 8255–12500):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor punctuation errors
+    - [LEXICON]:
+        • occasional use of obscure vocabulary
+    - [SYNTAX]:
+        • few sentences with complex structure
+  Coherence Issues:
+    - [LOGIC]:
+        • some abrupt transitions between paragraphs
+    - [STRUCTURE]:
+        • minor inconsistencies in chronological order
+    - [CLARITY]:
+        • a few sentences with ambiguous meaning
+
+Section section_04 (Chars 12500–16651):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing article in some places
+    - [SYNTAX]:
+        • some sentences are wordy and hard to follow
+    - [LEXICON]:
+        • a few words are outdated or uncommon
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between chapters
+    - [STRUCTURE]:
+        • some paragraphs seem disconnected from the rest
+    - [CLARITY]:
+        • a few sentences are unclear or ambiguous
+
+Section section_05 (Chars 16651–20496):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Missing articles in some places
+    - [LEXICON]:
+        • Some words may be unfamiliar to non-native speakers
+    - [SYNTAX]:
+        • Long sentences with multiple clauses
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between chapters
+    - [STRUCTURE]:
+        • Lack of clear connection between some events
+    - [CLARITY]:
+        • Some sentences are wordy and hard to follow
+
+Section section_06 (Chars 20497–24854):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Incorrect verb conjugation ("We am armed" instead of "We were armed")
+    - [SPELLING]:
+        • Potential typo ("cuartel or Old Red House" could be "cuartel, the Old Red House" for clarity)
+    - [SYNTAX]:
+        • Complex sentence structures may hinder readability
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition from describing the battle to discussing the growth of American influence
+    - [STRUCTURE]:
+        • Lack of clear connection between the Battle of Nacogdoches and the subsequent chapter on growth of American influence
+
+Section section_07 (Chars 24855–29152):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • "he have other designs" should be "he had other designs"
+        • "It is know" should be "It is known"
+    - [SYNTAX]:
+        • Some sentences are long and convoluted, making them hard to follow
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between chapters without clear connections
+    - [STRUCTURE]:
+        • Lack of clear chronological order in some sections
+    - [CLARITY]:
+        • Some sentences are vague or unclear, making it hard to understand the context
+
+Section section_08 (Chars 29153–33269):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Missing articles in some places
+    - [LEXICON]:
+        • Some words may be unfamiliar to non-native speakers
+    - [SYNTAX]:
+        • Long sentences with multiple clauses
+  Coherence Issues:
+    - [STRUCTURE]:
+        • Abrupt transition between chapters
+    - [CLARITY]:
+        • Some sentences are wordy and hard to follow
+    - [LOGIC]:
+        • Lack of clear connections between ideas in some paragraphs
+
+Section section_09 (Chars 33270–37778):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • "gradually settle down to the station of one of the many flourished towns" should be "gradually settled down to being one of the many flourishing towns"
+    - [LEXICON]:
+        • "lots" should be "lot"
+    - [SYNTAX]:
+        • some sentences are long and convoluted
+  Coherence Issues:
+    - [STRUCTURE]:
+        • the text jumps abruptly from discussing the town's history to its social life
+    - [TRANSITION]:
+        • there are few transitional phrases connecting ideas between paragraphs
+    - [CLARITY]:
+        • some sentences are wordy and unclear
+
+Section section_10 (Chars 37779–41766):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • "erect" should be "erected" in "A large lumber mill was erect on the east side of town"
+    - [SPELLING]:
+        • "throw" should be "thrown" in "For one hundred fifty years tradition has throw a veil of romance"
+  Coherence Issues:
+    - [TRANSITION]:
+        • Abrupt shift from discussing the history of Nacogdoches to introducing the chapter "Historical Sites in Nacogdoches County"
+    - [CLARITY]:
+        • Some sentences are wordy and contain multiple ideas, making them hard to follow
+
+Section section_11 (Chars 41767–45737):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Missing articles in some places
+    - [LEXICON]:
+        • Some words may be unfamiliar to non-native speakers
+    - [SYNTAX]:
+        • Long sentences with multiple clauses
+  Coherence Issues:
+    - [STRUCTURE]:
+        • Abrupt transition between different historical events
+    - [CLARITY]:
+        • Some sentences are wordy and hard to follow
+    - [LOGIC]:
+        • Lack of clear connections between some paragraphs
+
+Section section_12 (Chars 45738–49564):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Missing articles in some sentences
+    - [SYNTAX]:
+        • Simple sentence structures throughout
+    - [LEXICON]:
+        • Limited vocabulary range
+  Coherence Issues:
+    - [STRUCTURE]:
+        • Lack of clear connections between sections
+    - [TRANSITION]:
+        • Abrupt jumps between different historical topics
+    - [CLARITY]:
+        • Some sentences are wordy or unclear
+
+Section section_13 (Chars 49565–53594):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Missing articles in some sentences
+    - [SPELLING]:
+        • Potential typos (e.g., "comandante" instead of "commandant")
+    - [SYNTAX]:
+        • Some sentences are structured in a way that feels slightly archaic or less common in modern writing
+  Coherence Issues:
+    - [STRUCTURE]:
+        • Abrupt transitions between different historical sites and figures
+    - [CLARITY]:
+        • Some sentences or descriptions are brief to the point of lacking context or clarity
+    - [LOGIC]:
+        • The text jumps between different time periods and topics without clear connections
+
+Section section_14 (Chars 53595–57397):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Missing articles and prepositions in some sentences
+    - [SYNTAX]:
+        • Simple sentence structures dominate the text, lacking variety
+    - [LEXICON]:
+        • Some words or phrases may be unfamiliar to non-native speakers or those without historical context
+  Coherence Issues:
+    - [STRUCTURE]:
+        • The text jumps between different historical figures and locations without clear transitions
+    - [CLARITY]:
+        • Some sentences are dense with information, making them hard to follow
+    - [LOGIC]:
+        • The shift from describing individual homes to discussing streets and then the El Camino Real feels abrupt
+
+Section section_15 (Chars 57398–61150):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • "was build" instead of "was built"
+    - [SPELLING]:
+        • "Estered" instead of "Entered"
+    - [SYNTAX]:
+        • "hold" instead of "held"
+  Coherence Issues:
+    - [STRUCTURE]:
+        • Abrupt transition from describing historical sites to discussing the Masonic Lodge
+    - [CLARITY]:
+        • Some sentences are long and convoluted, making them hard to follow
+
+Section section_16 (Chars 61151–63023):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Missing articles in some places
+    - [SYNTAX]:
+        • Some sentences are wordy or awkwardly phrased
+    - [LEXICON]:
+        • Use of somewhat archaic language (e.g., "worshipful master")
+  Coherence Issues:
+    - [STRUCTURE]:
+        • Abrupt transition between different topics (e.g., from the Lodge to Texas' Monument to a Great Empresario)
+    - [LOGIC]:
+        • Lack of clear connection between the ideas presented in different chapters
+    - [CLARITY]:
+        • Some sentences are vague or open-ended (e.g., "Let us be awakened to this opportunity")
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

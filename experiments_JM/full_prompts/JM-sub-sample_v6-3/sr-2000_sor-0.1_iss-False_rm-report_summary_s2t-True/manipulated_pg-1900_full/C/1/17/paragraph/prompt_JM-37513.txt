@@ -1,0 +1,232 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) Read and understand the summary of the text the report was created for.
+    b) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    c) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The summary of the text to be evaluated is given below:
+Summary: The text discusses Herbert Spencer's philosophy of science, which emphasizes the concept of evolution and the universality of law. Spencer's work had a significant influence on the thought of the latter half of the 19th century. The author reflects on their introduction to Spencer's ideas, which sparked a fascination with the concept of evolution. Spencer's essay "Progress: Its Law and Cause" is highlighted as a key work that explores the idea that progress is a universal principle that applies to all aspects of existence.
+
+The author notes that Spencer's philosophy is characterized by a focus on the biological and superorganic, and that he failed to fully consider other types of relationships. The concept of force is also discussed, and the author suggests that it is often used ambiguously by Spencer. The idea of a universal cause or source is introduced, and the author argues that this concept is not necessary for scientific interpretation.
+
+The author also discusses the relationship between science and philosophy, and argues that science should focus on the knowable and leave questions of ultimate origin to philosophy. The concept of cognition is also explored, and the author suggests that it is a complex network of relatedness that involves many terms. The idea of awareness is introduced, and the author argues that it is a characteristic feature of cognitive relatedness.
+
+The author concludes by noting that Spencer's philosophy has had a lasting impact, but that it is not without its limitations. The concept of evolution is highlighted as a key idea that has been influential in shaping our understanding of the world. The author also notes that Spencer's emphasis on the biological and superorganic has led to a neglect of other types of relationships, and that a more comprehensive approach to understanding the world is needed.
+
+Overall, the text provides a nuanced and thoughtful exploration of Spencer's philosophy of science, highlighting both its strengths and limitations. The author's reflections on the concept of evolution and the nature of cognition add depth and complexity to the discussion, and provide a framework for understanding the significance of Spencer's ideas. The text also raises important questions about the relationship between science and philosophy, and the role of cognition in shaping our understanding of the world.
+
+The report for the text is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–9054):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Complex sentence structures
+    - [LEXICON]:
+        • Archaic vocabulary
+    - [SYNTAX]:
+        • Long paragraphs with multiple ideas
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between ideas
+    - [STRUCTURE]:
+        • Lack of clear sectioning or headings
+    - [CLARITY]:
+        • Dense and complex philosophical concepts
+
+Section section_02 (Chars 9055–17777):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Inconsistent verb tense usage
+    - [LEXICON]:
+        • Overly complex vocabulary
+    - [SYNTAX]:
+        • Long, convoluted sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transitions between ideas
+    - [STRUCTURE]:
+        • Lack of clear narrative progression
+    - [CLARITY]:
+        • Unclear connections between paragraphs
+
+Section section_03 (Chars 17778–26452):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Complex sentence structures
+    - [LEXICON]:
+        • Use of ambiguous terms like "cause" and "force"
+    - [SYNTAX]:
+        • Long paragraphs with multiple ideas
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transitions between ideas
+    - [STRUCTURE]:
+        • Lack of clear connections between paragraphs
+    - [CLARITY]:
+        • Unclear explanations of philosophical concepts
+
+Section section_04 (Chars 26453–35259):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Complex sentence structures
+    - [LEXICON]:
+        • Ambiguous terminology
+    - [SYNTAX]:
+        • Long paragraphs with multiple ideas
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transitions between ideas
+    - [STRUCTURE]:
+        • Lack of clear connections between paragraphs
+    - [CLARITY]:
+        • Unclear distinctions between technical terms
+
+Section section_05 (Chars 35260–44300):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Complex sentence structures
+    - [LEXICON]:
+        • Technical vocabulary may hinder understanding for non-experts
+    - [SYNTAX]:
+        • Long paragraphs with multiple ideas
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transitions between ideas
+    - [STRUCTURE]:
+        • Lack of clear connections between paragraphs
+    - [CLARITY]:
+        • Overly abstract concepts without concrete examples
+
+Section section_06 (Chars 44301–53299):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Complex sentence structures
+    - [LEXICON]:
+        • Technical vocabulary may hinder understanding for non-experts
+    - [SYNTAX]:
+        • Long paragraphs with multiple embedded clauses
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between philosophical discussion and biographical note
+    - [STRUCTURE]:
+        • Non-sequential presentation of ideas within the text
+    - [CLARITY]:
+        • Overly dense and abstract concepts may confuse readers
+
+Section section_07 (Chars 53300–62453):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Complex sentence structures
+    - [LEXICON]:
+        • Ambiguous terminology
+    - [SYNTAX]:
+        • Long paragraphs with multiple ideas
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt shifts in topic
+    - [STRUCTURE]:
+        • Lack of clear transitions between ideas
+    - [CLARITY]:
+        • Unclear explanations of technical concepts
+
+Section section_08 (Chars 62454–71095):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 2.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Inconsistent verb tense usage
+    - [SYNTAX]:
+        • Complex sentence structures
+    - [LEXICON]:
+        • Overly technical vocabulary
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt topic shifts
+    - [STRUCTURE]:
+        • Lack of clear transitions between ideas
+    - [CLARITY]:
+        • Unclear connections between paragraphs
+
+Section section_09 (Chars 71096–77259):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Complex sentence structures
+    - [LEXICON]:
+        • Technical vocabulary may hinder understanding for non-experts
+    - [SYNTAX]:
+        • Long paragraphs with multiple ideas
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between philosophical discussion and quote
+    - [STRUCTURE]:
+        • Sudden shift in topic from cognitive relatedness to Spencer's work
+    - [CLARITY]:
+        • Some sentences are wordy and difficult to follow
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

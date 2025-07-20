@@ -1,0 +1,230 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) Read and understand the summary of the text the report was created for.
+    b) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    c) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The summary of the text to be evaluated is given below:
+Summary: The author reflects on the changing nature of Christmas, suggesting that its magic has been lost for many adults. In the past, Christmas was a time of excitement and anticipation, but now it has become a source of tedium and insincerity. The author argues that this decline is due to the increasing skepticism and disillusionment of the age, which has led to a decline in faith and enthusiasm.
+
+The author suggests that the cause of this decline is the work of idealists, such as scientists and philosophers, who have sought to uncover the truth about nature and human history. While their discoveries have been important, they have also led to a loss of faith in traditional values and institutions.
+
+Despite this, the author believes that the idea of goodwill and mutual understanding is still alive and well, particularly among children. The author argues that the Christmas festival, with its emphasis on gift-giving and celebration, is a powerful symbol of this idea.
+
+To revitalize the Christmas spirit, the author suggests that adults need to cultivate goodwill and understanding towards others. This can be done by practicing imaginative sympathy, which involves putting oneself in another person's shoes and trying to understand their thoughts and feelings.
+
+The author also suggests that the cultivation of goodwill is a personal and individual process, and that it cannot be achieved through external means such as joining a society or organization. Rather, it requires a personal effort to understand and appreciate others, and to cultivate a sense of empathy and compassion.
+
+The author notes that the consequences of cultivating goodwill will be various, including a decline in egotism and an increase in interest in others. The author also suggests that the systematic cultivation of goodwill will lead to an increase in one's own happiness, as well as a greater sense of connection and community with others.
+
+In the final chapters, the author reflects on the nature of happiness and the human condition. The author argues that true happiness is not something that can be achieved in the future, but rather it is a state of mind that can be cultivated in the present. The author suggests that happiness consists in the acceptance of the fact that discontent is a condition of life, and in an honest endeavor to adjust conduct to an ideal.
+
+Ultimately, the author concludes that life is worth living, despite its many drawbacks and disappointments. The author suggests that the golden moments of life, such as moments of triumph and joy, and the experiences of human friendship, make life worth living. The author argues that Christmas, as a festival of goodwill and mutual understanding, is an important part of this experience.
+
+The report for the text is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–8421):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Missing articles in some places
+    - [LEXICON]:
+        • Some words are less common or outdated
+    - [SYNTAX]:
+        • Long, complex sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between ideas
+    - [STRUCTURE]:
+        • Lack of clear paragraph structure in some parts
+    - [CLARITY]:
+        • Some sentences are wordy or unclear
+
+Section section_02 (Chars 8421–16867):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Missing or incorrect articles
+    - [LEXICON]:
+        • Some words are used in outdated or less common contexts
+    - [SYNTAX]:
+        • Long, complex sentences that can be hard to follow
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transitions between ideas
+    - [STRUCTURE]:
+        • The text jumps between different topics without clear connections
+    - [CLARITY]:
+        • Some paragraphs lack a clear main point or conclusion
+
+Section section_03 (Chars 16868–25599):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Inconsistent verb tense usage
+    - [SYNTAX]:
+        • Complex sentence structures
+    - [LEXICON]:
+        • Overly formal vocabulary
+    - [SPELLING]:
+        • No noticeable spelling errors, but some punctuation issues
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between ideas
+    - [STRUCTURE]:
+        • Lack of clear paragraph structure
+    - [CLARITY]:
+        • Some sentences are wordy and unclear
+    - [TRANSITION]:
+        • Poor connection between paragraphs
+
+Section section_04 (Chars 25600–34046):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense
+    - [SYNTAX]:
+        • complex sentence structures
+    - [LEXICON]:
+        • occasional use of archaic vocabulary
+  Coherence Issues:
+    - [LOGIC]:
+        • some abrupt transitions between ideas
+    - [STRUCTURE]:
+        • meandering narrative at times
+    - [CLARITY]:
+        • occasional ambiguity in sentence meaning
+
+Section section_05 (Chars 34046–42857):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense
+    - [SYNTAX]:
+        • complex sentence structures
+    - [LEXICON]:
+        • occasional use of outdated vocabulary
+    - [SPELLING]:
+        • minor typos and punctuation errors
+  Coherence Issues:
+    - [LOGIC]:
+        • some abrupt transitions between ideas
+    - [STRUCTURE]:
+        • lack of clear sectioning or headings
+    - [CLARITY]:
+        • occasional ambiguity in sentence meaning
+    - [TRANSITION]:
+        • could improve connections between paragraphs
+
+Section section_06 (Chars 42858–51706):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Inconsistent verb tense usage
+    - [SYNTAX]:
+        • Awkward sentence structure
+    - [LEXICON]:
+        • Unclear word choice in some instances
+    - [SPELLING]:
+        • Minor typos and punctuation errors
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transitions between ideas
+    - [STRUCTURE]:
+        • Lack of clear paragraph organization
+    - [CLARITY]:
+        • Ambiguous sentences and unclear conclusions
+    - [TRANSITION]:
+        • Inadequate connections between paragraphs
+
+Section section_07 (Chars 51707–60225):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • sentence structure complexity
+    - [LEXICON]:
+        • word choice and phrasing
+    - [SYNTAX]:
+        • lengthy sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between ideas
+    - [STRUCTURE]:
+        • lack of clear progression
+    - [CLARITY]:
+        • ambiguous sentences
+
+Section section_08 (Chars 60226–65941):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense
+    - [SYNTAX]:
+        • complex sentence structures
+    - [LEXICON]:
+        • occasional use of archaic vocabulary
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between ideas
+    - [STRUCTURE]:
+        • lack of clear paragraph topics
+    - [CLARITY]:
+        • ambiguous definitions of key terms
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

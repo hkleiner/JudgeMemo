@@ -1,0 +1,82 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    b) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The report is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–8376):
+Section Summary: The introduction to Will Bradley's chap book highlights his significant impact on American graphic arts, bringing a fresh and modern style to a field that was previously stagnant. Bradley's work was influenced by European artists, but he developed a unique and indigenous American style that was bold, free, and exuberant. The chapter "The Boy Printer of Ishpeming" tells the story of Bradley's childhood, growing up in Massachusetts and later moving to Northern Michigan with his mother. Bradley's early life was marked by hardship and struggle, but he was driven by a desire to become an artist and was fascinated by printing and design from a young age. Through his determination and talent, Bradley went on to become a pioneering figure in American graphic arts, leaving a lasting legacy that continues to inspire new generations of artists and designers.
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Minor punctuation errors
+    - [LEXICON]:
+        • Some outdated vocabulary
+    - [SYNTAX]:
+        • Few sentences with complex structure
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between chapters
+    - [STRUCTURE]:
+        • Non-chronological narrative in some parts
+    - [CLARITY]:
+        • Few sentences with ambiguous meaning
+
+Section section_02 (Chars 8377–12029):
+Section Summary: The narrator, a young boy, is sent home from school for not having the correct answer to an arithmetic problem and instead asks his mother if he can go to work to earn money to pursue his dream of becoming an artist. He starts working at the Iron Agitator newspaper office, washing and feeding the press, and eventually learns the trade from an itinerant job printer. As he gains experience, his wages increase, and he becomes responsible for setting jobs, advertising, and presswork. The narrator faces challenges, including a poorly heated workspace and frequent power failures, but he perseveres and eventually becomes a skilled job printer, earning a man's wages by the time he is 15. He works under the guidance of George A. Newett, the owner and editor of the Iron Agitator, and later Iron Ore, newspaper.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Missing articles in some sentences
+    - [SYNTAX]:
+        • Some sentences are structured in an old-fashioned or unusual way
+    - [LEXICON]:
+        • Use of outdated terms like "devil" for a job position
+  Coherence Issues:
+    - [STRUCTURE]:
+        • Abrupt transitions between different time periods and events
+    - [CLARITY]:
+        • Some sentences are wordy or contain unclear references
+    - [LOGIC]:
+        • Lack of clear connections between some of the narrative segments
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

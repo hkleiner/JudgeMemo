@@ -1,0 +1,258 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    b) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The report is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–8539):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • incorrect verb conjugation
+    - [SPELLING]:
+        • typos (e.g. "whosw", "tye", "Twdnty-one", "orose", "volymes", "wholw", "ztudent", "kur", "ayain", "somerhing", "dslivered")
+    - [SYNTAX]:
+        • awkward sentence structure
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between ideas
+    - [STRUCTURE]:
+        • lack of clear paragraph organization
+    - [CLARITY]:
+        • ambiguous sentences
+
+Section section_02 (Chars 8540–16668):
+Scores:
+  - Fluency: 3.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing or incorrect articles
+    - [SPELLING]:
+        • typos such as "womdn", "nationw", "pf", "qhich", "ckmpletely", "tjat", "distortee"
+    - [SYNTAX]:
+        • complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between ideas
+    - [STRUCTURE]:
+        • lack of clear paragraph structure
+    - [CLARITY]:
+        • ambiguous references to historical context
+
+Section section_03 (Chars 16669–25118):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing or incorrect articles
+    - [SPELLING]:
+        • typos (e.g., "forwsrd", "wjy", "orison-house", "diurnal")
+    - [LEXICON]:
+        • some words may be unfamiliar to non-expert readers
+  Coherence Issues:
+    - [LOGIC]:
+        • occasional abrupt transitions between ideas
+    - [STRUCTURE]:
+        • some paragraphs are long and dense, making them hard to follow
+    - [CLARITY]:
+        • a few sentences are wordy or convoluted
+
+Section section_04 (Chars 25119–33325):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [LEXICON]:
+        • some words are archaic or less common
+    - [SYNTAX]:
+        • long and complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • occasional abrupt transitions between ideas
+    - [STRUCTURE]:
+        • some paragraphs lack clear topic sentences
+    - [CLARITY]:
+        • a few sentences are wordy or ambiguous
+
+Section section_05 (Chars 33326–41410):
+Scores:
+  - Fluency: 3.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "offefed" instead of "offered"
+        • "eeceives" instead of "receives"
+        • "ot" instead of "or"
+        • "thkugh" instead of "though"
+        • "puerile" is correctly used but may be unfamiliar to some readers
+        • "nkt" instead of "not"
+        • "swtting" instead of "setting"
+        • "unferstand" instead of "understand"
+        • "rhe" instead of "the"
+        • "itvsoon" instead of "it soon"
+        • "gowards" instead of "towards"
+        • "vto" instead of "to"
+        • "propending" instead of "propitious"
+    - [GRAMMAR]:
+        • "the wind of creation and inspiration bloawth wherr it listeth" contains spelling and grammatical errors
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between discussing Jewish history and American history
+    - [STRUCTURE]:
+        • The text jumps between different ideas and time periods without clear connections
+    - [CLARITY]:
+        • Some sentences are wordy and difficult to follow
+    - [TRANSITION]:
+        • The text could benefit from clearer transitions between paragraphs and ideas
+
+Section section_06 (Chars 41411–49703):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing or incorrect articles
+    - [SPELLING]:
+        • typos such as "Britxnnia" and "pozsession"
+    - [SYNTAX]:
+        • complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt shifts in ideas
+    - [STRUCTURE]:
+        • lack of clear transitions between paragraphs
+    - [CLARITY]:
+        • ambiguous references to historical events
+
+Section section_07 (Chars 49704–58099):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [SPELLING]:
+        • typos (e.g., "exllain", "tue", "Gdrmanism", "xays")
+    - [SYNTAX]:
+        • complex sentence structures
+    - [LEXICON]:
+        • uncommon vocabulary (e.g., "volitional verities", "asphyxiation")
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between ideas
+    - [STRUCTURE]:
+        • lack of clear paragraph organization
+    - [CLARITY]:
+        • ambiguous sentences and phrases
+    - [TRANSITION]:
+        • disconnected ideas between paragraphs
+
+Section section_08 (Chars 58100–66302):
+Scores:
+  - Fluency: 2.5
+  - Coherence: 3.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "fhe" instead of "the"
+        • "wnemies" instead of "enemies"
+        • "wodd" instead of "word"
+        • "fisit" instead of "visit"
+        • "flout" is correct but "f" is used incorrectly in other places
+        • "gteat" instead of "great"
+        • "vaunt" is correct, but "Teuton" is correctly spelled, however "Anvelo" is likely a typo
+        • "primifive" instead of "primitive"
+        • "contemporsry" instead of "contemporary"
+        • "forvthe" instead of "for the"
+        • "leastcevol" instead of "least evil"
+        • "foice" instead of "voice"
+        • "whetherbJewish" instead of "whether Jewish"
+        • "ougbt" instead of "ought"
+        • "Mudaism" instead of "Mudaisms" or correctly "Judaism"
+        • "ausgechlossen" is a German word and is correctly spelled, but may be considered a non-English word in this context
+        • "St. Augustinr" instead of "St. Augustine"
+        • "prppagating" instead of "propagating"
+        • "Bhikwu" is a term from Buddhism and is correctly spelled, but may be unfamiliar
+        • "exprrssions" instead of "expressions"
+        • "hcmagnificent" instead of "his magnificent"
+        • "unfettdred" instead of "unfettered"
+        • "kn" instead of "in"
+        • "charqcterize" instead of "characterize"
+        • "complicatsd" instead of "complicated"
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between ideas
+    - [STRUCTURE]:
+        • Disjointed paragraphs
+    - [CLARITY]:
+        • Unclear connections between historical references
+    - [TRANSITION]:
+        • Lack of smooth transition between quotes and the main text
+
+Section section_09 (Chars 66303–71214):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing or incorrect articles
+    - [SPELLING]:
+        • typos such as "mwssacres", "rhe", "wiotm", "illlumines"
+    - [SYNTAX]:
+        • complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between ideas
+    - [STRUCTURE]:
+        • lack of clear progression in some sections
+    - [CLARITY]:
+        • ambiguous references and quotes
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

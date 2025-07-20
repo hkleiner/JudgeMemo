@@ -1,0 +1,284 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) Read and understand the summary of the text the report was created for.
+    b) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    c) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The summary of the text to be evaluated is given below:
+Summary: The story begins with Debby Mason, a 14-year-old girl living in Plymouth with her father, Bill Mason. Her father is a drunkard and is ordered to leave the town, while Debby is bound out to Mrs. Lane, a strict and religious woman. Debby is miserable in her new home and longs for her father. She befriends Jack Martin, a boy who shares her love for adventure and music. Debby's father joins the Continental Army, and she decides to disguise herself as a boy and follow him.
+
+Debby, now known as Robert Shirtliffe, joins the army and becomes a drummer boy. She meets a young British officer named Morley, who looks uncannily like her. Morley is searching for a girl named Debby Mason, and Robert is determined to find out why. Robert's father is killed in a battle, and with his last breath, he asks Robert to find Debby Mason and tell her that he died like a soldier.
+
+Robert continues to serve in the army, and during a battle, she is wounded and left for dead. However, a young surgeon named Doctor Bell saves her life and nurses her back to health. Robert reveals her true identity as Debby Mason to Doctor Bell, who promises to help her. Debby is discharged from the army and receives a sum of money from General Washington for her bravery.
+
+Debby travels to England to meet her relatives and tell them about her experiences. She meets her cousin's mother, who is shocked to learn that Debby killed her son in self-defense. However, the two women form a bond, and Debby's cousin's mother invites her to stay with her. Debby returns to America and settles in Philadelphia, where she is reunited with Jack Martin.
+
+Debby's life takes a turn for the better as she finds love and happiness with Doctor Bell. She puts her past behind her and starts a new life, but she never forgets her experiences as a soldier and the lessons she learned. The story ends with Debby and Doctor Bell getting married and starting a new life together. Debby finally finds the peace and happiness she had been searching for, and she is grateful for the journey that led her to it.
+
+The report for the text is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–7786):
+Section Summary: Debby Mason, a 14-year-old girl, lives with her father, Bill Mason, in a log house in Plymouth. Her father, a drunkard, is forced to leave the town to join a group of men headed to Boston, and Debby is bound out to Mrs. Lane, a strict and severe woman. Debby is heartbroken and desperate to be with her father, but he leaves her behind, promising to become a better man and return to her. Debby is miserable in her new home with Mrs. Lane, where she is watched, distrusted, and whipped, and she longs for her father and her childhood treasure, a drum. As she navigates her new life, Debby remembers her mother's words and promises, and holds on to the hope of being reunited with her father.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [SPELLING]:
+        • potential typos (e.g., "you'red" instead of "you're")
+    - [SYNTAX]:
+        • some sentences are wordy or awkwardly structured
+  Coherence Issues:
+    - [LOGIC]:
+        • occasional unclear transitions between scenes
+    - [STRUCTURE]:
+        • non-linear narrative may confuse some readers
+    - [CLARITY]:
+        • a few sentences are ambiguous or hard to follow
+
+Section section_02 (Chars 7786–15812):
+Section Summary: Debby, a young girl, is scolded and punished by her mistress, Mrs. Lane, for her disobedience and association with Jack Martin, a boy she considers a friend. After being confined to her room, Debby decides to sneak out and meet Jack, but instead of going as herself, she disguises herself as a boy named Robert Shirtliffe. She puts on a suit of boy's clothes and makes her way to the woods, where she meets Jack and teases him by pretending to arrest him as a traitor to the King. Jack is initially fooled and then angry, but ultimately impressed by Debby's disguise and boldness. Debby's actions mark a turning point in her life, as she abandons her attempts to be a lady and embraces a more rebellious and independent path.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [SPELLING]:
+        • occasional archaic spellings (e.g., "gaby" instead of "goofy" or a similar term)
+    - [SYNTAX]:
+        • some sentences are wordy or awkwardly phrased
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt shift in tone from serious to playful
+    - [STRUCTURE]:
+        • some scenes feel disconnected from the rest of the narrative
+    - [CLARITY]:
+        • a few sentences are unclear or hard to follow due to complex wording
+
+Section section_03 (Chars 15812–23659):
+Section Summary: Debby Mason, a young girl, discovers that her father, a former drunkard, has joined the army and is thinking of her. Inspired by this news, Debby decides to disguise herself as a boy and join the army as a drummer to be with her father. She enlists under the name Robert Shirtliffe and is accepted into the army despite her young appearance. As she settles into camp life, she is nicknamed "Molly" by the other soldiers, a name she hopes to shed by performing a brave deed. Debby, now known as Robert, learns about her father's bravery in the war and is determined to find him and be with him.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [LEXICON]:
+        • some words and phrases may be unfamiliar to modern readers
+    - [SYNTAX]:
+        • occasional complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • some transitions between ideas could be smoother
+    - [STRUCTURE]:
+        • the narrative jumps abruptly from Debby's decision to join the army to her arrival at the headquarters
+    - [CLARITY]:
+        • a few sentences are wordy or unclear
+
+Section section_04 (Chars 23660–31563):
+Section Summary: Robert, a young patriot, has been searching for Mason, a hero who went missing after a brave deed against the British. He finally finds Mason, but is shocked to see him drunk and dressed in a British uniform, having apparently been kept captive and coerced into betraying his country. A British officer, who looks uncannily like Robert, appears and tries to stop them from leaving, but Robert is determined to rescue Mason and take him back to the American side. A fight breaks out between Robert and the British officer, but Mason eventually regains his composure and tries to intervene, calling out for the two to stop. The scene is intense and chaotic, with Mason struggling to clear his mind and Robert fighting to protect him.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [LEXICON]:
+        • some words may be unfamiliar to modern readers
+    - [SYNTAX]:
+        • long, complex sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between scenes
+    - [STRUCTURE]:
+        • non-linear narrative
+    - [CLARITY]:
+        • some sentences are wordy or unclear
+
+Section section_05 (Chars 31564–39295):
+Section Summary: Morley and Robert engage in a fierce fight, but Morley gains the upper hand and shoots Robert in the hand. However, the bullet also hits and kills Mason, a old man who had tried to intervene. Robert is left to mourn Mason's death and hears his final words, which include a message for his daughter Debby. Later, Robert hides and observes two British soldiers, Norton and Harding, who discuss Washington's plans to attack Dorchester Heights. Robert then impersonates Morley and deceives the soldiers, using his resemblance to Morley and his quick thinking to convince them that he is the real Morley, and they accept him as one of their own.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [LEXICON]:
+        • some words may be unfamiliar to modern readers
+    - [SYNTAX]:
+        • a few sentences have complex structures that may hinder readability
+  Coherence Issues:
+    - [LOGIC]:
+        • some plot points feel rushed or convenient
+    - [STRUCTURE]:
+        • the transition between scenes could be smoother
+    - [CLARITY]:
+        • a few character motivations are not entirely clear
+
+Section section_06 (Chars 39296–47415):
+Section Summary: Robert Shirtliffe, disguised as Morley, escapes from British soldiers and rides to the American camp to deliver crucial news that Washington is advancing with 14,000 men. He arrives exhausted and faints, but manages to convey the news to the American soldiers, bringing them hope and joy. The news spreads quickly, and the camp is filled with excitement and anticipation. Robert is cared for by a fellow townsman, Jack Martin, and confides in him about his true identity and his desire to find the British soldier who looks like him and killed his friend. The arrival of Washington's troops is soon confirmed by the sound of distant firing, marking the end of the siege and bringing relief to the American soldiers.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [LEXICON]:
+        • some words feel overly formal or outdated
+    - [SYNTAX]:
+        • a few sentences have awkward phrasing
+  Coherence Issues:
+    - [LOGIC]:
+        • some plot points feel rushed or convenient
+    - [STRUCTURE]:
+        • the narrative jumps abruptly between scenes
+    - [CLARITY]:
+        • a few character motivations are unclear
+
+Section section_07 (Chars 47415–55755):
+Section Summary: After the British evacuated Boston, Washington's army entered the city, and Robert Shirtliffe was tasked with strengthening its defenses. However, Robert's main priority was to find Morley, and he parted ways with his friend Jack Martin to pursue this goal. Robert continued to serve with Washington's army, and on a cold Christmas Eve, he encountered the general himself, who was praying for wisdom and success in battle. Washington showed kindness to Robert, giving him a handkerchief and a coin to buy new shoes, and tasked him with delivering a message to the Marblehead fishermen. Robert successfully delivered the message, which signaled the start of a new operation, and the fishermen began preparing their boats for action.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [SPELLING]:
+        • potential typos (e.g., "welled" instead of "we'll")
+    - [SYNTAX]:
+        • some sentences are wordy or awkwardly phrased
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between Robert's conversation with Jack and the description of the battle preparations
+    - [STRUCTURE]:
+        • the narrative jumps forward in time without clear indication
+    - [CLARITY]:
+        • some sentences are unclear or require re-reading to understand
+
+Section section_08 (Chars 55756–64164):
+Section Summary: On Christmas night, Washington's army crossed the icy Delaware River to attack the British in Trenton, and after a fierce but short battle, they emerged victorious. However, with Cornwallis advancing, Washington knew he had to act quickly and called a council of war to plan a daring attack on the British detachment in Princeton. Robert, a 17-year-old drummer, volunteered to stay behind with a small group of men to keep the camp fires burning and deceive the enemy, despite the risk of death or capture. As the night wore on, Robert beat his drum to maintain the illusion, and when the sun began to rise, he set out to rejoin the army, exhausted and fearful of being caught. With the enemy stirring, Robert made a desperate bid for safety, running towards the direction the army had taken, driven by the horror of being wounded and taken prisoner.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [LEXICON]:
+        • some words feel overly formal or outdated
+    - [SYNTAX]:
+        • a few sentences have awkward phrasing
+  Coherence Issues:
+    - [LOGIC]:
+        • some plot points feel rushed or convenient
+    - [STRUCTURE]:
+        • the narrative jumps abruptly between scenes
+    - [CLARITY]:
+        • a few sentences are wordy or unclear
+
+Section section_09 (Chars 64164–72054):
+Section Summary: Robert Shirtliffe, while trying to find his way back to his people, encounters Morley, the boy who had shot at him before, in the Jersey woods. The two engage in a gunfight, and although Robert is wounded, he survives, while Morley dies after revealing a message for his mother and a girl named Deborah Mason. Robert, despite his wound, tries to make his way to Washington's army, but his condition worsens, and he eventually collapses. He is found by his comrades, who take him to a field hospital, where the surgeons determine that his wound is fatal. Robert is left to pass away, but one of the surgeons shows some concern for his well-being, and he is made as comfortable as possible.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [LEXICON]:
+        • some words may be considered archaic or less common
+    - [SYNTAX]:
+        • a few sentences have complex structures that may hinder readability
+  Coherence Issues:
+    - [LOGIC]:
+        • some transitions between scenes or ideas feel abrupt
+    - [STRUCTURE]:
+        • the narrative jumps between Robert's physical state and his thoughts or interactions
+    - [CLARITY]:
+        • a few sentences or phrases are worded in a way that slightly obscures their meaning
+
+Section section_10 (Chars 72055–80302):
+Section Summary: Doctor Bell discovers that Robert Shirtliffe, a young soldier, is actually a woman named Debby Mason who had disguised herself as a man to fight in the war. Debby reveals her story to Doctor Bell, including her bravery in battle and her tragic past, and he decides to help her by writing a letter explaining her situation to General Washington. Debby meets with Washington, who honors her bravery and grants her an honorable discharge from the army, along with a sum of money to start a new life. With Doctor Bell's help, Debby begins to rebuild her life as a woman, and she eventually moves in with Doctor Bell's mother, who helps her to adjust to her new identity. Debby is grateful for the kindness and support she receives, but she is also determined to return to America and be a part of the new country's future.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • "as soon as I can I will take a look at him again" should be "as soon as I can, I will take a look at him again"
+        • "he say sharply" should be "he said sharply"
+        • "Shirtliffe have reached" should be "Shirtliffe had reached"
+        • "caned face death" should be "could face death"
+    - [SYNTAX]:
+        • Some sentences are wordy or awkwardly phrased
+  Coherence Issues:
+    - [LOGIC]:
+        • The transition between Debby's confession and Doctor Bell's decision to help her could be smoother
+    - [STRUCTURE]:
+        • The chapter jumps abruptly from Debby's conversation with Doctor Bell to her meeting with Washington
+    - [CLARITY]:
+        • Some sentences are unclear or require re-reading to understand
+
+Section section_11 (Chars 80303–83482):
+Section Summary: Deborah, a young girl, is reunited with her mother's family and learns about her past. She also meets her mother, who is grieving the loss of her son, and the two eventually form a bond. Deborah and her mother start a new life together in Philadelphia, where they are joined by Jack Martin, who becomes a part of their family. As Deborah grows into a beautiful young woman, Doctor Bell expresses his love for her and his concerns about her strong and independent spirit. Deborah reassures him that she is capable of finding happiness in a home and a relationship, and the two decide to start a life together.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [LEXICON]:
+        • some words feel overly formal or outdated
+    - [SYNTAX]:
+        • a few sentences have complex structures that may hinder readability
+  Coherence Issues:
+    - [LOGIC]:
+        • some transitions between scenes feel abrupt
+    - [STRUCTURE]:
+        • the narrative jumps between different time frames and ideas
+    - [CLARITY]:
+        • a few sentences are worded vaguely, making them hard to understand
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

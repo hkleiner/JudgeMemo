@@ -1,0 +1,459 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    b) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The report is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–4058):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense
+    - [LEXICON]:
+        • occasional awkward phrasing
+    - [SPELLING]:
+        • intentional misspelling for character effect (e.g., "ith" instead of "is")
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transition between scenes
+    - [CLARITY]:
+        • some sentences are wordy or complex
+
+Section section_02 (Chars 4059–8081):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • abrupt sentence transitions
+    - [LEXICON]:
+        • occasional outdated or less common vocabulary
+    - [SYNTAX]:
+        • some sentences are wordy or structurally complex
+  Coherence Issues:
+    - [LOGIC]:
+        • introduction of unrelated character descriptions disrupts narrative flow
+    - [STRUCTURE]:
+        • abrupt shifts between different storylines or characters
+    - [TRANSITION]:
+        • lack of smooth connections between some paragraphs or scenes
+
+Section section_03 (Chars 8082–11919):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Minor punctuation issues
+    - [LEXICON]:
+        • Some outdated or less common vocabulary usage
+    - [SYNTAX]:
+        • A few sentences with complex structures
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between Ramsey's decision to help Englander and his subsequent actions at the gaming tables
+    - [STRUCTURE]:
+        • The narrative jumps between different scenes and settings without clear connections
+    - [CLARITY]:
+        • Some characters' motivations and emotions are not fully explained
+
+Section section_04 (Chars 11920–15761):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • inconsistent use of "th" instead of "s" or "t" for some characters' dialogue
+    - [GRAMMAR]:
+        • occasional awkward sentence structure
+    - [LEXICON]:
+        • some words or phrases may be unfamiliar to non-native speakers
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transitions between scenes or ideas
+    - [CLARITY]:
+        • some sentences or phrases are wordy or unclear
+    - [LOGIC]:
+        • character motivations or actions may not be fully explained
+
+Section section_05 (Chars 15762–19556):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "whithpered" instead of "whispered"
+        • "elth" instead of "else"
+        • "pleath" instead of "please"
+        • "latht" instead of "last"
+    - [GRAMMAR]:
+        • inconsistent verb tenses in some sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition from describing Earth's situation to focusing on Ramsey and Garr Symm
+    - [STRUCTURE]:
+        • some scenes feel disconnected from the rest of the narrative
+    - [CLARITY]:
+        • unclear motivations behind Garr Symm's actions and appointment
+
+Section section_06 (Chars 19557–23484):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • abrupt sentence transitions
+    - [LEXICON]:
+        • overly descriptive language in some sections
+    - [SYNTAX]:
+        • complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • sudden introduction of unrelated narrative about Reynolds
+    - [STRUCTURE]:
+        • disjointed flow between different scenes
+    - [CLARITY]:
+        • unclear motivations of some characters
+
+Section section_07 (Chars 23485–27626):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • abrupt sentence transitions
+    - [LEXICON]:
+        • occasional overly formal language
+    - [SYNTAX]:
+        • some sentences are wordy or awkwardly phrased
+  Coherence Issues:
+    - [LOGIC]:
+        • sudden shift in topic without clear connection
+    - [STRUCTURE]:
+        • disjointed narrative flow
+    - [CLARITY]:
+        • some parts are confusing due to lack of context
+
+Section section_08 (Chars 27627–31451):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [LEXICON]:
+        • occasional overly formal language
+    - [SYNTAX]:
+        • some sentences with complex structure
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between scenes
+    - [STRUCTURE]:
+        • unclear character motivations at times
+    - [CLARITY]:
+        • some dialogue feels forced or unnatural
+
+Section section_09 (Chars 31452–35616):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Missing articles in some sentences
+    - [LEXICON]:
+        • Uncommon vocabulary (e.g., "uni-sexual", "Sirian-archaic")
+    - [SYNTAX]:
+        • Abrupt sentence structure changes
+  Coherence Issues:
+    - [LOGIC]:
+        • Sudden shifts in topic (e.g., from Margot's apartment to proto-man's secret)
+    - [STRUCTURE]:
+        • Disjointed narrative flow
+    - [CLARITY]:
+        • Unclear connections between ideas
+
+Section section_10 (Chars 35617–39789):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 3.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • abrupt sentence transitions
+    - [LEXICON]:
+        • inconsistent tone in dialogue
+    - [SYNTAX]:
+        • complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • unclear connections between scenes
+    - [STRUCTURE]:
+        • disjointed narrative flow
+    - [CLARITY]:
+        • ambiguous character motivations
+
+Section section_11 (Chars 39790–43934):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Missing articles in some sentences
+    - [LEXICON]:
+        • Overuse of simple vocabulary
+    - [SYNTAX]:
+        • Some sentences are structured in a slightly awkward way
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition from Ramsey and Margot's conversation to Security Officer Second Class Ramar Chind's report
+    - [STRUCTURE]:
+        • The narrative jumps between different scenes and ideas without smooth connections
+    - [CLARITY]:
+        • Some parts of the dialogue are unclear or confusing
+
+Section section_12 (Chars 43935–47782):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor sentence structure issues
+    - [LEXICON]:
+        • some outdated or less common vocabulary
+    - [SYNTAX]:
+        • occasional awkward phrasing
+  Coherence Issues:
+    - [LOGIC]:
+        • a few unclear motivations of characters
+    - [STRUCTURE]:
+        • abrupt transitions between ideas
+    - [CLARITY]:
+        • some ambiguity in plot progression
+
+Section section_13 (Chars 47783–51729):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Missing articles in some sentences
+    - [LEXICON]:
+        • Some words may be unfamiliar to non-technical readers
+    - [SYNTAX]:
+        • A few sentences are structured in a way that slightly disrupts the flow
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt shift between scenes without clear transitions
+    - [STRUCTURE]:
+        • The narrative jumps between different characters and plotlines
+    - [CLARITY]:
+        • Some parts of the text are unclear due to lack of context
+
+Section section_14 (Chars 51730–55806):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • abrupt sentence transition with "It actually made me sort of hungry"
+    - [LEXICON]:
+        • inconsistent tone with introduction of "Cousin Margaret"
+    - [SYNTAX]:
+        • long, complex sentences may hinder readability
+  Coherence Issues:
+    - [LOGIC]:
+        • introduction of unrelated character "Cousin Margaret" disrupts narrative flow
+    - [STRUCTURE]:
+        • abrupt shift in scene or context without clear connection
+    - [CLARITY]:
+        • some technical explanations may be confusing for non-expert readers
+
+Section section_15 (Chars 55806–59883):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Missing articles in some sentences
+    - [SYNTAX]:
+        • Complex sentence structures may hinder readability
+    - [LEXICON]:
+        • Some terms like "hyper-space" and "duration-lag" may be unfamiliar to non-science fiction readers
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt shift from philosophical discussion to action scene
+    - [STRUCTURE]:
+        • Non-linear progression of ideas and scenes
+    - [CLARITY]:
+        • Some technical explanations may be confusing for non-experts
+
+Section section_16 (Chars 59884–63653):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Missing articles in some sentences
+    - [LEXICON]:
+        • Some words may be unfamiliar to non-technical readers
+    - [SYNTAX]:
+        • A few sentences have complex structures that may hinder readability
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between the scene with Margot and Ramsey and the scene with Garr Symm
+    - [STRUCTURE]:
+        • The narrative jumps between different storylines without clear connections
+    - [CLARITY]:
+        • Some parts of the text are unclear due to the lack of context or ambiguous descriptions
+
+Section section_17 (Chars 63654–67664):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Missing articles and incorrect sentence structure in some places
+    - [LEXICON]:
+        • Overly complex vocabulary and technical terms without explanation
+    - [SYNTAX]:
+        • Abrupt changes in narrative voice and perspective
+  Coherence Issues:
+    - [LOGIC]:
+        • Sudden and unexplained shifts in character thoughts and actions
+    - [STRUCTURE]:
+        • Disjointed scenes and lack of clear transitions between them
+    - [CLARITY]:
+        • Unclear explanations of technical concepts and their implications
+
+Section section_18 (Chars 67664–71737):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • abrupt sentence transitions
+    - [LEXICON]:
+        • occasional overly complex vocabulary
+    - [SYNTAX]:
+        • some sentences are structured for effect rather than clarity
+  Coherence Issues:
+    - [LOGIC]:
+        • unexplained shifts in character behavior and abilities
+    - [STRUCTURE]:
+        • disjointed narrative flow between different plot threads
+    - [CLARITY]:
+        • unclear explanations of sci-fi concepts and their implications
+
+Section section_19 (Chars 71738–75928):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • abrupt sentence transitions
+    - [SYNTAX]:
+        • complex sentence structures
+    - [LEXICON]:
+        • some outdated vocabulary
+  Coherence Issues:
+    - [LOGIC]:
+        • unclear connections between historical and sci-fi segments
+    - [STRUCTURE]:
+        • disjointed narrative flow
+    - [CLARITY]:
+        • ambiguous character motivations
+
+Section section_20 (Chars 75928–79839):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Missing articles in some sentences
+    - [LEXICON]:
+        • Some words may be unfamiliar to non-native speakers
+    - [SYNTAX]:
+        • Long, complex sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt shift in narrative tone
+    - [STRUCTURE]:
+        • Non-linear storytelling
+    - [CLARITY]:
+        • Unclear motivations of some characters
+
+Section section_21 (Chars 79840–81095):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Missing articles in some sentences
+    - [SYNTAX]:
+        • Abrupt sentence transitions
+    - [LEXICON]:
+        • Overly simplistic vocabulary in certain phrases
+  Coherence Issues:
+    - [LOGIC]:
+        • Sudden shift from conversation to action without clear connection
+    - [STRUCTURE]:
+        • Abrupt ending with "THE END" without resolution of all plot threads
+    - [CLARITY]:
+        • Unclear timeline and sequence of events
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

@@ -1,0 +1,96 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) Read and understand the summary of the text the report was created for.
+    b) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    c) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The summary of the text to be evaluated is given below:
+Summary: The story begins in Sweet Briar Gulch, a beautiful valley surrounded by hills and filled with wildflowers, trees, and vines. Jim Felton, a prospector, sits on the doorstep of his cabin, feeling unhappy and bitter despite the lovely surroundings. He has been searching for gold in the gulch but has had no luck, sinking 50 prospect holes and finding only ashy wash beneath the grass roots.
+
+Jim reads a letter from his sweetheart, Anne, who has rejected his proposal of marriage due to his lack of financial stability. Anne explains that she wants a modest assurance of being able to live on, and Jim's way of life as a prospector is not a guarantee of even bread and butter. Jim is hurt and enraged by the letter, feeling that Anne is being mercenary, but he knows she is not.
+
+As Jim sits on the doorstep, he is interrupted by Bud, the mail carrier, who arrives on horseback. Bud notices that Jim is feeling down and tries to cheer him up, suggesting that he go to town and get drunk. Jim declines, feeling that he is being watched by Anne's eye, even though she is not physically present.
+
+Bud offers Jim two dollars to help him out, but Jim is hesitant to take the money, feeling that he will not be able to pay it back. Bud insists, saying that he wants to help his friend and that Jim can pay him back whenever he can. Jim eventually accepts the money and thanks Bud.
+
+Bud then offers Jim his horse to ride to Plattsburg, the nearest station, which is 50 miles away. Jim declines, saying it's too far to walk, but Bud suggests that he can take one of the burros from the nearby herd instead. Bud rounds up a burro and brings it back to Jim, who ties a gunny sack on the animal's back.
+
+As they prepare to part ways, Bud tells Jim about his encounter with a humpbacked man who tried to rob him of the mail. The man had heard that there was valuable mail on the route and attempted to steal it, but Bud chased him away and gave him $10 instead. Jim listens to the story and then thanks Bud again for his help before they go their separate ways.
+
+Jim gets on the burro and starts to ride, feeling a sense of gratitude towards Bud for his kindness. The story ends with Jim riding off into the distance, surrounded by the beautiful scenery of Sweet Briar Gulch. Despite his struggles and rejections, Jim is determined to make a new start and find his place in the world. The encounter with Bud has lifted his spirits, and he feels more hopeful about his future.
+
+The report for the text is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–7791):
+Section Summary: Jim Felton, a prospector, is sitting on the doorstep of his cabin in Sweet Briar Gulch, feeling unhappy and frustrated with his lack of success in finding gold. He has received a letter from his lover, Anne, who has rejected his proposal due to his unstable financial situation. Jim is hurt and enraged by the letter, but also understands Anne's concerns and knows she is not being mercenary. The arrival of Bud, the mail-carrier, interrupts Jim's misery, and Bud offers him advice to take a break and have some fun, but Jim declines, feeling that he is being watched by Anne's eye and also because he is broke. Jim's situation is further complicated by his sense of responsibility to repay Bud, who has lent him money in the past.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [SPELLING]:
+        • typos (e.g., "you'lled" instead of "you'd")
+    - [SYNTAX]:
+        • complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt shift from Jim's emotional state to the conversation with Bud
+    - [TRANSITION]:
+        • lack of smooth connection between paragraphs
+
+Section section_02 (Chars 7792–10827):
+Section Summary: Bud tries to give Jim some money, but Jim refuses, so Bud offers him a horse to ride to Plattsburg, a town 50 miles away. Instead, Jim asks Bud to round up a burro for him, which Bud does. Bud shares a story about being held up by a humpbacked man while delivering mail, but he chased the man and only gave him $10. After returning with the burro, Bud and Jim set off together, with Jim riding the burro and Bud walking alongside. As they part ways at a fork in the trail, Jim tries to thank Bud, who playfully knocks his hat over his eyes.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • informal language and slang usage
+    - [LEXICON]:
+        • colloquial expressions and regional dialect
+    - [SYNTAX]:
+        • occasional sentence structure complexity
+  Coherence Issues:
+    - [LOGIC]:
+        • some abrupt topic shifts in conversation
+    - [TRANSITION]:
+        • occasional lack of smooth connection between ideas
+    - [CLARITY]:
+        • minor ambiguity in character intentions
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

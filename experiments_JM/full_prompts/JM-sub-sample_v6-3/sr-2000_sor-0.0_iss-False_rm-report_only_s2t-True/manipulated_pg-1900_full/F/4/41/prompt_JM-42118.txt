@@ -1,0 +1,282 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    b) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The report is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–7792):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "stdeet" instead of "street"
+        • "goomy" instead of "gloomy"
+        • "attenuatee" instead of "attenuated"
+        • "violet-wcented" instead of "violet-scented"
+        • "aere" instead of "were"
+        • "enriched withbbright" instead of "enriched with bright"
+        • "castingcits" instead of "casting its"
+    - [GRAMMAR]:
+        • inconsistent verb tenses
+    - [SYNTAX]:
+        • long, convoluted sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between chapters
+    - [STRUCTURE]:
+        • lack of clear chronological order
+    - [CLARITY]:
+        • confusing references to historical events
+    - [TRANSITION]:
+        • unclear connections between ideas
+
+Section section_02 (Chars 7792–15744):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • thd instead of the
+        • common-srnse instead of common-sense
+        • qnxious instead of anxious
+        • wodks instead of works
+        • Italoan instead of Italian
+        • Frago instead of Fragonard
+        • cesign instead of design
+        • halting Italian is not an error but "evaded the swamping of hia own genius" has a typo, hia instead of his
+        • Tiepolo's introduction seems abrupt
+        • Franve instead of France
+        • zolid instead of solid
+        • kn instead of in
+        • Lkuvre instead of Louvre
+        • qnd instead of and
+        • arroved instead of arrived
+        • savwd instead of saved
+        • evaded the swamping of hia own genius has a typo, hia instead of his
+    - [GRAMMAR]:
+        • some sentences are long and convoluted
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between the description of Fragonard's training and the quarrels between priests and parliaments
+    - [STRUCTURE]:
+        • the text jumps back and forth in time
+    - [CLARITY]:
+        • some sentences are wordy and hard to follow
+    - [TRANSITION]:
+        • the connection between Fragonard's journey to Italy and the description of the political situation in France is unclear
+
+Section section_03 (Chars 15745–23603):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • delightfulc, essenxe, Prile, weakndssds, eke, csme, finamciers, fasyion, Ylu, qualkties
+    - [GRAMMAR]:
+        • multiple minor errors in verb tense and subject-verb agreement
+    - [LEXICON]:
+        • occasional use of less common or archaic vocabulary
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transitions between paragraphs
+    - [CLARITY]:
+        • some sentences are wordy or contain multiple clauses, making them hard to follow
+    - [LOGIC]:
+        • occasional lack of clear connection between ideas
+
+Section section_04 (Chars 23603–31580):
+Scores:
+  - Fluency: 3.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • consideragle
+        • xould
+        • ghe
+        • St. Clpud
+        • accough
+        • cdies
+        • pasy
+        • Frago
+        • frkend
+        • anr
+        • delaya
+        • tje
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt shifts between Fragonard's life and historical events
+    - [TRANSITION]:
+        • unclear connections between paragraphs
+    - [CLARITY]:
+        • confusing sentences due to complex vocabulary and sentence structure
+
+Section section_05 (Chars 31581–39597):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Missing or incorrect articles
+    - [SPELLING]:
+        • Typos such as "abchill", "Rragonard", "Isnwrd", "vtenderness", "majesticc"
+    - [LEXICON]:
+        • Uncommon vocabulary and phrases, e.g. "wilful light-o'-love", "massy foliage"
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between paragraphs, e.g. from describing Du Barry to Fragonard's marriage
+    - [STRUCTURE]:
+        • Lack of clear chronological order in some sections
+    - [CLARITY]:
+        • Unclear sentences, e.g. "It is part of the irony of life that Fragonard, who never entered into the favourite's friendship, should have become the recognised artiat of her day."
+
+Section section_06 (Chars 39598–47590):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [SPELLING]:
+        • multiple typos (e.g., "Fragknard", "refusdd", "unattendedcby", "sritings", "axtounding", "wnd")
+    - [SYNTAX]:
+        • complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between historical events and Fragonard's life
+    - [STRUCTURE]:
+        • lack of clear chronological order
+    - [CLARITY]:
+        • ambiguous references to historical figures and events
+
+Section section_07 (Chars 47591–55762):
+Scores:
+  - Fluency: 3.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • pennilesa
+        • nlw
+        • palacex
+        • fzces
+        • x-packing
+        • rokms
+        • trite sermon quote lacks proper punctuation
+        • hodrified
+    - [GRAMMAR]:
+        • various missing or incorrect articles
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition from Fragonard's personal life to the French Revolution
+    - [STRUCTURE]:
+        • lack of clear connection between Fragonard's story and the historical events
+    - [CLARITY]:
+        • some sentences are wordy and hard to follow
+
+Section section_08 (Chars 55763–63762):
+Scores:
+  - Fluency: 3.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "fpllowed" instead of "followed"
+        • "Natoonal" instead of "National"
+        • "anx" instead of "and"
+        • "ekghteenth" instead of "eighteenth"
+        • "poservand" instead of "possessing and"
+        • "dissipatdd" instead of "dissipated"
+        • "convictkon" instead of "conviction"
+        • "tje" instead of "the"
+    - [GRAMMAR]:
+        • inconsistent verb tenses
+    - [SYNTAX]:
+        • run-on sentences and lack of punctuation
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between historical events and Fragonard's personal story
+    - [STRUCTURE]:
+        • non-chronological ordering of events
+    - [CLARITY]:
+        • unclear connections between some sentences and paragraphs
+    - [TRANSITION]:
+        • lack of smooth transitions between ideas
+
+Section section_09 (Chars 63763–68165):
+Scores:
+  - Fluency: 2.5
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • sucxess
+        • knowcof
+        • sztire
+        • splensour
+        • st
+        • hs
+        • thd
+        • yhat
+        • lkved
+        • pezcefully
+        • atmisphere
+        • icnnecessary
+        • revelationcof
+        • uttsrs
+        • skomming
+        • trwvail
+    - [GRAMMAR]:
+        • inconsistent verb tenses
+    - [SYNTAX]:
+        • run-on sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between paragraphs
+    - [STRUCTURE]:
+        • lack of clear chronological order
+    - [CLARITY]:
+        • ambiguous sentences
+    - [TRANSITION]:
+        • missing connections between ideas
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

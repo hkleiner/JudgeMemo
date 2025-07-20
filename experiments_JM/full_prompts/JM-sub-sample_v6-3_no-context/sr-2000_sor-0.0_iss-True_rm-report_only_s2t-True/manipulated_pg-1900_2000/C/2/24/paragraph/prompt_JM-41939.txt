@@ -1,0 +1,78 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    b) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The report is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–8501):
+Section Summary: Rosa Bonheur was born in 1822 to a family of artists, with her father Raymond Bonheur being a drawing master and her mother Sophie Marquis a music teacher. Growing up in an artistic environment, Rosa developed a passion for drawing and painting from a young age. The family faced financial struggles and moved to Paris in 1829, where Rosa was raised with her brothers and developed boyish manners. After trying various occupations, including dressmaking and school, Rosa's father allowed her to focus on art, and she created her first painting, a still life of cherries, which showed promise of her artistic talent. With her father's encouragement, Rosa dedicated herself to art, marking the beginning of her journey to become a successful artist.
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • sudden introduction of unrelated elements (e.g. "The hologram flickered to life", "A smart bulb changed color")
+    - [LEXICON]:
+        • some words or phrases may be less common or outdated (e.g. "irksome task", "veritable passion")
+    - [SYNTAX]:
+        • a few long or complex sentences may hinder readability
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between ideas or scenes (e.g. between Rosa's childhood and her apprenticeship)
+    - [STRUCTURE]:
+        • non-chronological events or unclear timeframes
+    - [CLARITY]:
+        • some sentences or paragraphs may be unclear or confusing due to lack of context or ambiguous language
+
+Section section_02 (Chars 8502–12848):
+Section Summary: Rosa Bonheur, a young artist, spent her days studying and sketching at the Louvre and in her father's studio, driven by her passion for art and her determination to improve. She developed a strong foundation in line-work, which she believed was essential for honesty in art, and spent hours studying the anatomy of animals. As she lived in the countryside, she was able to observe and draw animals in their natural surroundings, and even kept a menagerie in her home to study them up close. In 1841, at the age of 19, Rosa's paintings were accepted into the Salon, and she continued to exhibit her work annually, eventually gaining recognition from critics for her sincere and vigorous talent. Through her hard work and dedication, Rosa established herself as a skilled painter of animals, known for her ability to capture their physiognomies and movements with fidelity and art.
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • abrupt transition with "Notifications appeared on the smartwatch"
+    - [SYNTAX]:
+        • some sentences are lengthy and convoluted
+  Coherence Issues:
+    - [LOGIC]:
+        • the mention of a smartwatch seems out of place in the historical context
+    - [STRUCTURE]:
+        • the text jumps abruptly from discussing Rosa's art to her living situation
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

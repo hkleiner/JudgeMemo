@@ -1,0 +1,260 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    b) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The report is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–7783):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • occasional awkward sentence structure
+    - [LEXICON]:
+        • some outdated or regional vocabulary (e.g. "slumgullion")
+    - [SYNTAX]:
+        • minor issues with sentence length and variation
+  Coherence Issues:
+    - [LOGIC]:
+        • occasional abrupt shifts in Jim's emotions and thoughts
+    - [TRANSITION]:
+        • some transitions between paragraphs or ideas could be smoother
+    - [CLARITY]:
+        • a few sentences or phrases are wordy or unclear
+
+Section section_02 (Chars 7784–15559):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Missing or incorrect articles in some places
+    - [LEXICON]:
+        • Some words or phrases may be considered outdated or regional
+    - [SYNTAX]:
+        • A few long or complex sentences that could be broken up for clarity
+  Coherence Issues:
+    - [LOGIC]:
+        • Some transitions between ideas or scenes could be smoother
+    - [STRUCTURE]:
+        • The narrative jumps between different storylines or characters
+    - [CLARITY]:
+        • A few sections or sentences may be unclear or open to interpretation
+
+Section section_03 (Chars 15560–22884):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [LEXICON]:
+        • some words are outdated or regional
+    - [SYNTAX]:
+        • complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt shift in tone and scene
+    - [STRUCTURE]:
+        • non-linear narrative progression
+    - [CLARITY]:
+        • some sentences are wordy or unclear
+
+Section section_04 (Chars 22885–30357):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [LEXICON]:
+        • informal language and slang
+    - [SYNTAX]:
+        • some sentences are structured awkwardly
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between scenes
+    - [STRUCTURE]:
+        • lack of clear narrative progression
+    - [CLARITY]:
+        • some sentences are unclear or confusing
+
+Section section_05 (Chars 30357–37741):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [LEXICON]:
+        • some words are outdated or regional (e.g., "ginnies", "er")
+    - [SYNTAX]:
+        • long, winding sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt shift from Jim's thoughts about Anne to the snake encounter
+    - [STRUCTURE]:
+        • some scenes feel disconnected (e.g., the singing, the mountain lion)
+    - [CLARITY]:
+        • unclear motivations for some character actions (e.g., Jim's teasing of Ches)
+
+Section section_06 (Chars 37742–45320):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [LEXICON]:
+        • informal language and slang
+    - [SYNTAX]:
+        • some sentences are structured in a complex or awkward way
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between scenes or ideas
+    - [STRUCTURE]:
+        • lack of clear connections between some paragraphs
+    - [CLARITY]:
+        • some sentences or phrases are unclear or open to interpretation
+
+Section section_07 (Chars 45321–53287):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [LEXICON]:
+        • some words may be unfamiliar to non-native speakers
+    - [SYNTAX]:
+        • long sentences with multiple clauses
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition from mining to hunting
+    - [STRUCTURE]:
+        • non-chronological events
+    - [CLARITY]:
+        • some sentences are hard to follow
+
+Section section_08 (Chars 53288–61020):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [LEXICON]:
+        • some words are informally or colloquially used
+    - [SYNTAX]:
+        • a few sentences have complex structures that may hinder readability
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between the story of the deer hunt and the conversation about Ches' father
+    - [STRUCTURE]:
+        • the narrative jumps between different scenes and ideas
+    - [CLARITY]:
+        • some parts of the text are unclear due to the lack of context or abrupt changes in topic
+
+Section section_09 (Chars 61020–68996):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [LEXICON]:
+        • some words are informally or colloquially used
+    - [SYNTAX]:
+        • occasional complex sentence structures may hinder readability
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt shift in narrative focus between different storylines
+    - [STRUCTURE]:
+        • non-linear storytelling may confuse some readers
+    - [CLARITY]:
+        • a few sentences are wordy or unclear
+
+Section section_10 (Chars 68997–76559):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [LEXICON]:
+        • some colloquial expressions may be unclear
+    - [SYNTAX]:
+        • occasional complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between scenes
+    - [STRUCTURE]:
+        • some sections feel rushed or disconnected
+    - [CLARITY]:
+        • minor ambiguity in character motivations
+
+Section section_11 (Chars 76559–82668):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor punctuation errors
+    - [LEXICON]:
+        • occasional informal language
+    - [SYNTAX]:
+        • few sentence structures are slightly complex
+  Coherence Issues:
+    - [LOGIC]:
+        • some transitions between ideas could be smoother
+    - [CLARITY]:
+        • a few sentences are wordy or contain multiple ideas
+    - [STRUCTURE]:
+        • the narrative jumps slightly between different character interactions
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

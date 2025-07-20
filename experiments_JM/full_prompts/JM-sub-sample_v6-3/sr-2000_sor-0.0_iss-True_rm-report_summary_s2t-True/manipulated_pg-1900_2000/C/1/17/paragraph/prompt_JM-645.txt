@@ -1,0 +1,98 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) Read and understand the summary of the text the report was created for.
+    b) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    c) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The summary of the text to be evaluated is given below:
+Summary: The narrator reflects on their early career, recalling when George Corvick asked for a favor. Corvick had promised to review Hugh Vereker's new novel but had to leave for Paris due to a family emergency. He asked the narrator to write the review instead, handing over the advance copy of the book. The narrator was excited to read Vereker's work and meet him at a social gathering, Bridges, the following Sunday.
+
+The narrator spent the night reading the book and wrote a review, which was well-received at the office. However, Corvick wrote from Paris, expressing dissatisfaction with the review, saying it didn't capture the essence of Vereker's work. The narrator had described Vereker as "awfully clever," which Corvick deemed insufficient.
+
+At Bridges, the narrator had the opportunity to meet Vereker and discuss his work. Lady Jane, the host, praised the narrator's review, saying it had "got at" Vereker. However, when Vereker himself commented on the review, he dismissed it as "the usual twaddle." The narrator was taken aback by Vereker's response, feeling that his review had been diminished.
+
+The narrator had been looking forward to Vereker's reaction, hoping it would be positive. Instead, Vereker's comment left him feeling disappointed. The conversation at dinner continued, with Miss Poyle, a guest, asking Vereker about the review. Vereker replied that the author didn't see anything, implying that the review had missed the point of his work.
+
+The narrator was surprised by Vereker's response, feeling that his review had been misunderstood. The evening continued, with the narrator observing Vereker's interactions with the other guests. Despite the initial disappointment, the narrator remained eager to understand Vereker's work and connect with him on a deeper level.
+
+The narrator's encounter with Vereker had sparked a desire to delve deeper into the author's writing. The narrator was determined to uncover the hidden meaning behind Vereker's words, to "get at" him, as Corvick had suggested. The experience had left the narrator with a sense of curiosity and a renewed passion for literary criticism.
+
+As the narrator reflected on the evening, they realized that Vereker's comment had been a challenge, an invitation to explore his work more deeply. The narrator was ready to accept the challenge, to dig beneath the surface of Vereker's writing and uncover the secrets that lay within. The encounter had been a turning point, marking the beginning of a new journey of discovery and exploration.
+
+The report for the text is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–7912):
+Section Summary: The narrator's career is boosted when his friend George Corvick asks him to write a review of Hugh Vereker's new novel for "The Middle" magazine. Corvick is unable to write the review himself due to a personal emergency and entrusts the narrator with the task, urging him to "get at" Vereker's true meaning. The narrator spends the night reading the novel and writes a review, but later worries that it may not have done justice to the author. He meets Vereker at a social gathering and is tempted to discuss his review with him, but the opportunity is missed. Lady Jane eventually comes to the narrator's aid, praising his review and bringing it to Vereker's attention, potentially saving the narrator from embarrassment.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [LEXICON]:
+        • occasional use of obscure vocabulary
+    - [SYNTAX]:
+        • complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between chapters
+    - [STRUCTURE]:
+        • lack of clear narrative progression
+    - [CLARITY]:
+        • ambiguous character motivations
+
+Section section_02 (Chars 7912–11661):
+Section Summary: Lady Jane is enthusiastic about a review of Vereker's work and wants to share it with him, marking the most impressive parts. The author of the review reveals themselves to Lady Jane, but she seems less impressed once she knows it was written by someone she knows. At dinner, Vereker is asked about the review and surprisingly dismisses it as "twaddle", which shocks the author. The conversation is interrupted, but Vereker starts to explain that the author of the review doesn't truly understand his work, implying that they are missing something deeper. The author is left wondering about Vereker's cryptic comment and its implications.
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [LEXICON]:
+        • some words may be unfamiliar to non-native speakers
+    - [SYNTAX]:
+        • complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt shift in topic from Vereker to historical events
+    - [TRANSITION]:
+        • lack of clear connection between some paragraphs
+    - [CLARITY]:
+        • some sentences are wordy or ambiguous
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

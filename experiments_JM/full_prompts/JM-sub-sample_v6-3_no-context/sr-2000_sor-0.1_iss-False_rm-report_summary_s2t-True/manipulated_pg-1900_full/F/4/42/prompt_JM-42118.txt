@@ -1,0 +1,240 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) Read and understand the summary of the text the report was created for.
+    b) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    c) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The summary of the text to be evaluated is given below:
+Summary: Jean Honoré Fragonard was born on April 5, 1732, in Grasse, France, to a glovemaker. He was raised in a family that valued commerce and thrift. Fragonard's early life was marked by a love for art, and he was eventually apprenticed to a notary. However, he soon became disillusioned with this path and turned to art, studying under François Boucher, a renowned painter.
+
+Fragonard's mother played a significant role in his early career, recognizing his talent and encouraging him to pursue art. She took him to Paris, where he met Boucher, who became his mentor. Fragonard's early work was influenced by Boucher's style, and he quickly gained recognition for his talent.
+
+In 1752, Fragonard won the Prix de Rome, a prestigious art competition, and spent several years studying in Italy. During this time, he developed his skills and was exposed to various artistic styles. Upon his return to Paris, he became a prominent figure in the art world, known for his elegant and charming paintings.
+
+Fragonard's personal life was marked by his marriage to Marie Anne Gérard, a young woman from Grasse. The couple had two children, and Fragonard's art began to reflect his domestic life. He painted scenes of family and everyday life, showcasing his ability to capture the beauty in mundane moments.
+
+The French Revolution had a significant impact on Fragonard's life and career. He was forced to flee Paris and seek refuge in Grasse, where he continued to paint. Although he attempted to adapt to the new artistic styles emerging during this period, he struggled to find his place in the changing art world.
+
+Fragonard's later years were marked by poverty and neglect. He died on August 22, 1806, at the age of 74, largely forgotten by the art world. However, his legacy has endured, and he is now recognized as one of the greatest painters of the 18th century. His art continues to be celebrated for its elegance, charm, and beauty, offering a glimpse into the life and culture of pre-Revolutionary France.
+
+Fragonard's story is closely tied to the history of France, and his art reflects the changing values and tastes of the time. He was a product of the Rococo era, and his paintings embody the spirit of that age. Despite the challenges he faced, Fragonard remained true to his artistic vision, leaving behind a body of work that continues to inspire and delight audiences today.
+
+The Du Barry, a prominent figure in French history, played a significant role in Fragonard's career. Although she rejected one of his most famous works, "The Progress of Love," Fragonard continued to paint, and his art remained popular among the aristocracy. The French Revolution brought an end to the era of elegance and refinement that Fragonard's art represented, and he struggled to adapt to the new artistic styles emerging during this period.
+
+In the end, Fragonard's legacy has been rediscovered, and his art is once again celebrated for its beauty and charm. His story serves as a reminder of the enduring power of art to capture the essence of a bygone era and to inspire future generations. Fragonard's paintings continue to be admired for their technical skill, their elegance, and their ability to evoke the spirit of 18th-century France.
+
+The report for the text is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–7787):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Complex sentence structures
+    - [LEXICON]:
+        • Archaic vocabulary usage
+    - [SYNTAX]:
+        • Long, winding sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between chapters
+    - [STRUCTURE]:
+        • Non-chronological presentation of events
+    - [CLARITY]:
+        • Overly descriptive passages
+
+Section section_02 (Chars 7787–15972):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [LEXICON]:
+        • occasional use of less common vocabulary
+    - [SYNTAX]:
+        • complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • some abrupt transitions between paragraphs
+    - [STRUCTURE]:
+        • non-chronological events
+    - [CLARITY]:
+        • occasional ambiguity in sentence meaning
+
+Section section_03 (Chars 15973–23933):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor punctuation errors
+    - [LEXICON]:
+        • occasional use of less common vocabulary
+    - [SYNTAX]:
+        • some sentences are wordy or structurally complex
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between Fragonard's artistic development and the French political scene
+    - [STRUCTURE]:
+        • non-chronological presentation of events
+    - [CLARITY]:
+        • some paragraphs lack a clear topic sentence or connecting idea
+
+Section section_04 (Chars 23933–31974):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Missing articles and incorrect verb tenses
+    - [SPELLING]:
+        • Typos such as "Frago" instead of "Fragonard"
+    - [SYNTAX]:
+        • Long and convoluted sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transitions between different storylines
+    - [STRUCTURE]:
+        • Lack of clear chronological order
+    - [CLARITY]:
+        • Unclear connections between ideas and characters
+
+Section section_05 (Chars 31974–39952):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor sentence structure issues
+    - [LEXICON]:
+        • occasional use of less common vocabulary
+    - [SYNTAX]:
+        • some sentences are wordy or convoluted
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between paragraphs
+    - [STRUCTURE]:
+        • non-chronological ordering of events
+    - [CLARITY]:
+        • some sentences are unclear or require re-reading
+
+Section section_06 (Chars 39953–48145):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [LEXICON]:
+        • occasional overly complex vocabulary
+    - [SYNTAX]:
+        • long, convoluted sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between historical events and Fragonard's personal life
+    - [STRUCTURE]:
+        • non-chronological ordering of events
+    - [CLARITY]:
+        • ambiguous references to historical figures and events
+
+Section section_07 (Chars 48146–56337):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • "It come responsive to the rattle of musketry" should be "It came responsive..."
+    - [LEXICON]:
+        • Some words may be less familiar to modern readers, such as "à la lanterne"
+    - [SYNTAX]:
+        • Long, complex sentences may hinder readability
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition from Fragonard's personal life to the French Revolution
+    - [STRUCTURE]:
+        • The text jumps between different time periods and events
+    - [CLARITY]:
+        • Some sentences are wordy or unclear, making it hard to follow the narrative
+
+Section section_08 (Chars 56337–64203):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [LEXICON]:
+        • occasional archaic word choices
+    - [SYNTAX]:
+        • complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between historical events and Fragonard's personal life
+    - [STRUCTURE]:
+        • non-chronological ordering of events
+    - [CLARITY]:
+        • occasional ambiguity in sentence meaning
+
+Section section_09 (Chars 64203–68089):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor sentence structure complexity
+    - [LEXICON]:
+        • occasional use of less common vocabulary
+    - [SYNTAX]:
+        • some sentences are lengthy and convoluted
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between Fragonard's death and the discussion of his art's significance
+    - [STRUCTURE]:
+        • non-chronological ordering of events and ideas
+    - [CLARITY]:
+        • occasional ambiguity in sentence meaning due to complex phrasing
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

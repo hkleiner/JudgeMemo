@@ -1,0 +1,376 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    b) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The report is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–3931):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • occasional complex sentence structures
+    - [LEXICON]:
+        • some archaic or less common vocabulary
+    - [SYNTAX]:
+        • lengthy descriptive passages
+  Coherence Issues:
+    - [STRUCTURE]:
+        • slow pace of narrative progression
+    - [TRANSITION]:
+        • occasional abrupt shifts in focus
+    - [CLARITY]:
+        • some sentences are wordy or convoluted
+
+Section section_02 (Chars 3932–8256):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Minor sentence structure complexity
+    - [LEXICON]:
+        • Some archaic vocabulary usage
+    - [SYNTAX]:
+        • Long, winding sentences
+  Coherence Issues:
+    - [TRANSITION]:
+        • Abrupt shift in narrative at the end
+    - [STRUCTURE]:
+        • Non-linear storytelling
+    - [CLARITY]:
+        • Some ambiguity in character motivations
+
+Section section_03 (Chars 8257–12411):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Some sentences are long and convoluted, making them hard to follow.
+    - [LEXICON]:
+        • A few words, such as "la stuff roses", may be unclear or misprinted.
+    - [SYNTAX]:
+        • The text sometimes switches between past and present tense without clear transitions.
+  Coherence Issues:
+    - [LOGIC]:
+        • The narrative jumps abruptly between Kuei Ping's memories and her current situation.
+    - [STRUCTURE]:
+        • The text could be more cohesive, with clearer connections between different sections.
+    - [CLARITY]:
+        • Some parts of the story, such as the significance of the pearls, are not immediately clear.
+
+Section section_04 (Chars 12412–16585):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Complex sentence structures may hinder smooth reading
+    - [LEXICON]:
+        • Some words (e.g., "auspiciousness", "cyclic animals") may be unfamiliar to non-native speakers
+    - [SYNTAX]:
+        • Long paragraphs with multiple ideas can make the text harder to follow
+  Coherence Issues:
+    - [STRUCTURE]:
+        • The text jumps between different scenes and ideas without clear transitions
+    - [CLARITY]:
+        • Some sentences are wordy or contain unclear references (e.g., "the eight characters", "the five elements")
+    - [LOGIC]:
+        • The narrative assumes background knowledge of Chinese culture and customs
+
+Section section_05 (Chars 16586–20769):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor sentence structure complexity
+    - [LEXICON]:
+        • occasional use of less common vocabulary
+  Coherence Issues:
+    - [STRUCTURE]:
+        • some abrupt scene transitions
+    - [CLARITY]:
+        • a few instances of unclear character actions
+
+Section section_06 (Chars 20770–25095):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • run-on sentences
+    - [SYNTAX]:
+        • complex sentence structures
+    - [LEXICON]:
+        • some archaic vocabulary
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transition between scenes
+    - [CLARITY]:
+        • some ambiguous descriptions
+    - [LOGIC]:
+        • unclear motivations for Kuei Ping's actions
+
+Section section_07 (Chars 25096–29280):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Some sentences are structured in a way that feels slightly archaic or less common in modern English.
+    - [LEXICON]:
+        • Use of less familiar vocabulary, such as "hutung" and "mandarin robe," might slow down reading for some audiences.
+    - [SYNTAX]:
+        • Long, complex sentences may impede smooth reading for some readers.
+  Coherence Issues:
+    - [STRUCTURE]:
+        • The narrative jumps between Kuei Ping's introspection and external events without clear transitions at times.
+    - [CLARITY]:
+        • Some passages, especially those describing Kuei Ping's emotions and thoughts, can be vague or open to interpretation.
+    - [LOGIC]:
+        • The sudden change in Fuh Tang's decision to stay, attributed to "The orders of an Emperor," feels somewhat abrupt and unexplained.
+
+Section section_08 (Chars 29281–33549):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Some sentences are structured in a way that feels slightly archaic or less common in modern English.
+    - [LEXICON]:
+        • Use of less familiar vocabulary, such as "faggots of incense" and "hem of the Goddess’ robe," may cause minor difficulties for some readers.
+    - [SYNTAX]:
+        • Long, complex sentences may require re-reading for full comprehension.
+  Coherence Issues:
+    - [STRUCTURE]:
+        • The narrative jumps between different time frames and ideas without clear transitions at times.
+    - [CLARITY]:
+        • Some sections assume background knowledge of Chinese customs and traditions that not all readers may possess.
+    - [LOGIC]:
+        • The flow of events and character developments is generally logical, but some scenes feel somewhat disconnected from the main storyline.
+
+Section section_09 (Chars 33550–37742):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Some sentences are long and convoluted
+    - [LEXICON]:
+        • A few words may be unfamiliar to non-native speakers
+    - [SYNTAX]:
+        • Occasional use of complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt shift from happy family scene to news of war
+    - [TRANSITION]:
+        • Some transitions between scenes feel a bit abrupt
+    - [STRUCTURE]:
+        • Non-linear narrative structure may be confusing
+
+Section section_10 (Chars 37742–42031):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Some sentences are wordy and structurally complex
+    - [LEXICON]:
+        • Occasional use of outdated or less common vocabulary
+    - [SYNTAX]:
+        • A few instances of sentence fragments or run-on sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between some scenes or ideas
+    - [STRUCTURE]:
+        • Non-linear narrative that may confuse some readers
+    - [CLARITY]:
+        • Some sections are vague or open to multiple interpretations
+
+Section section_11 (Chars 42032–46363):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Some sentences are long and convoluted
+    - [LEXICON]:
+        • Occasional use of less common vocabulary
+    - [SYNTAX]:
+        • Variations in sentence structure can disrupt flow
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between some paragraphs
+    - [STRUCTURE]:
+        • Non-linear narrative can be confusing
+    - [CLARITY]:
+        • Some sections are vague or open to interpretation
+
+Section section_12 (Chars 46364–50685):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor sentence structure issues
+    - [LEXICON]:
+        • occasional word choice awkwardness
+    - [SYNTAX]:
+        • few instances of complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • slight disconnect between Kuei Ping's decision to leave and her return
+    - [TRANSITION]:
+        • abrupt shift from descriptive passage to Kuei Ping's introspection
+    - [CLARITY]:
+        • occasional ambiguity in sentence meaning
+
+Section section_13 (Chars 50685–54427):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Some sentences are long and convoluted
+    - [LEXICON]:
+        • Occasional use of less common vocabulary
+    - [SYNTAX]:
+        • A few instances of complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between Kuei Ping's introspection and the procession scene
+    - [STRUCTURE]:
+        • Non-linear narrative flow
+    - [CLARITY]:
+        • Some sentences are wordy or ambiguous
+
+Section section_14 (Chars 54428–58739):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Minor punctuation issues
+    - [LEXICON]:
+        • Some word choices may be less common or slightly archaic
+    - [SYNTAX]:
+        • A few long, complex sentences
+  Coherence Issues:
+    - [STRUCTURE]:
+        • Abrupt transition between some paragraphs
+    - [CLARITY]:
+        • A few sentences are wordy or contain vague references
+    - [TRANSITION]:
+        • Some connections between ideas could be smoother
+
+Section section_15 (Chars 58739–63052):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor sentence structure issues
+    - [LEXICON]:
+        • occasional word choice awkwardness
+    - [SYNTAX]:
+        • few instances of unclear phrasing
+  Coherence Issues:
+    - [LOGIC]:
+        • slight disconnect between some narrative segments
+    - [TRANSITION]:
+        • occasional abrupt shifts in scene or topic
+    - [CLARITY]:
+        • minor ambiguity in character motivations
+
+Section section_16 (Chars 63053–67246):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Minor sentence structure issues
+    - [LEXICON]:
+        • Some word choices seem slightly outdated or formal
+    - [SYNTAX]:
+        • A few sentences are wordy or have awkward phrasing
+  Coherence Issues:
+    - [STRUCTURE]:
+        • Abrupt transition from Kuei Ping's story to the narrator's introduction
+    - [CLARITY]:
+        • Some segments feel disconnected from the main narrative
+    - [TRANSITION]:
+        • Lack of clear connection between the school's development and the narrator's arrival
+
+Section section_17 (Chars 67247–70812):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Missing or incorrect articles
+    - [LEXICON]:
+        • Unclear or vague terms ("the continent of the stuff")
+    - [SYNTAX]:
+        • Some sentences are wordy or awkwardly structured
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between ideas (e.g., from discussing the document to describing the village)
+    - [STRUCTURE]:
+        • Lack of clear connections between paragraphs
+    - [CLARITY]:
+        • Some sentences are unclear or difficult to follow
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

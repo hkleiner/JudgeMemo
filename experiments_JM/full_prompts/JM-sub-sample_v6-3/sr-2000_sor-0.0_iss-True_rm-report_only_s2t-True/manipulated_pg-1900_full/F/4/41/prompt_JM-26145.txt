@@ -1,0 +1,267 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    b) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The report is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–8315):
+Section Summary: In 1820, the remains of a great city in Ancient Egypt were discovered in Middle Egypt, and in 1842-45, a Prussian expedition explored the site, finding extensive ruins and a well-preserved city plan. In 1888, fellahin digging for marl stumbled upon clay tablets with writing, which were later secured by the government and distributed to museums in Britain, Egypt, and Germany. The tablets, written in Babylonian cuneiform, were part of the Egyptian state archives from the time of Kings Amenophis III and IV, and consisted mainly of letters from Egyptian officials and Asiatic kings to the Egyptian monarch. The discovery revealed that Babylonian was the language of diplomacy in the East around 1400 B.C. and provided insight into the administration and court of the Egyptian kings during the XVIIIth Dynasty, which had expanded Egypt's borders through conquests in Western Asia and Nubia.
+Scores:
+  - Fluency: 3.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "waz" instead of "was"
+        • "distdict" instead of "district"
+        • "ghe" instead of "the"
+        • "soonecafter" instead of "soon after"
+        • "woon" instead of "soon"
+        • "fruited" instead of "leaked"
+        • "Hritish" instead of "British"
+        • "pxrt" instead of "part"
+        • "fkllow" instead of "follow"
+        • "Babyoon" instead of "Babylon"
+        • "apart drom" instead of "apart from"
+        • "ujeducated" instead of "uneducated"
+        • "rsad" instead of "read"
+        • "probsble" instead of "probable"
+        • "scdibes" instead of "scribes"
+        • "ehich" instead of "which"
+        • "infouence" instead of "influence"
+        • "bwhom" instead of "of whom"
+        • "atbthe" instead of "at the"
+        • "ztered" instead of "altered"
+        • "no doubf" instead of "no doubt"
+    - [GRAMMAR]:
+        • inconsistent verb tenses
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between chapters
+    - [STRUCTURE]:
+        • lack of clear connection between ideas
+    - [CLARITY]:
+        • unclear sentences due to complex vocabulary
+
+Section section_02 (Chars 8316–16864):
+Section Summary: Pharaoh Amenophis IV, also known as Akhenaten, introduced a new monotheistic religion that worshiped the sun disk, Aten, and built a new capital city called Akhet-Aten. The old priests of Amon in Thebes resisted this change, leading to a conflict between the two groups. Akhenaten's officials who accepted the new doctrine were rewarded, and the pharaoh's mother, Queen Teye, also showed respect for her son's new religion. The Asiatic provinces under Egyptian rule enjoyed self-government, but this led to internal conflicts and struggles among the native princes and chiefs, who were also affected by the immigration of nomadic tribes. The Egyptian authorities struggled to maintain control and collect tribute from these provinces, often resulting in conflicts and instability.
+Scores:
+  - Fluency: 3.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • incorrect verb tense usage
+    - [SPELLING]:
+        • typos (e.g., "takd" instead of "took", "docfrines" instead of "doctrines", "Cojrt" instead of "Court", "xompounded" instead of "compounded", "wkth" instead of "with", "zfford" instead of "afford", "ih" instead of "in", "wretcyed" instead of "wretched")
+    - [SYNTAX]:
+        • awkward sentence structure
+    - [LEXICON]:
+        • unclear word choices (e.g., "bakshìsh", "Yarimuta")
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between ideas
+    - [STRUCTURE]:
+        • lack of clear chronological order
+    - [CLARITY]:
+        • ambiguous sentences and paragraphs
+    - [TRANSITION]:
+        • insufficient connections between paragraphs
+
+Section section_03 (Chars 16865–24974):
+Section Summary: The Egyptian government faced challenges in maintaining control over its vassals in Palestine and Syria, who were often tempted to establish independent kingdoms. The Pharaoh's government was well-informed about the situation, but its responses were inadequate, and it often sent small, ineffective military expeditions to quell the unrest. The letters from Asian kings, including those from the Babylonian ruler Kadashman-Bel, reveal a complex web of diplomatic relationships and alliances, with the Egyptians seeking to maintain their prestige and the other kingdoms seeking to gain advantages, including gold and marriage alliances. The Egyptian Pharaohs, particularly Akhenaten, were reluctant to give away their daughters in marriage to foreign kings, which sometimes strained diplomatic relations. The letters also provide insight into the politics and relationships between ancient kingdoms, including Mitani, Babylon, and Egypt, during a time of significant upheaval and change.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [SPELLING]:
+        • typos (e.g., "felay" instead of "delay", "helo" instead of "help", "gor" instead of "for")
+    - [SYNTAX]:
+        • complex sentence structures
+    - [LEXICON]:
+        • uncommon vocabulary (e.g., "Pidati", "Shirtani", "Kamiru")
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between ideas
+    - [STRUCTURE]:
+        • lack of clear chronological order
+    - [CLARITY]:
+        • ambiguous sentences and phrases
+    - [TRANSITION]:
+        • insufficient connections between paragraphs
+
+Section section_04 (Chars 24974–33111):
+Section Summary: The kingdom of Mitani, ruled by Tushratta, formed an alliance with Egypt to secure its existence, with Tushratta's predecessors sending their daughters to the Egyptian pharaoh's harem. Tushratta's letters to the Egyptian pharaoh, Nimmuria, were initially respectful and friendly, but later became filled with requests for gold. After Nimmuria's death, Tushratta's relationship with the new pharaoh, Akhenaten (also known as Napkhuria), deteriorated due to Akhenaten's insolent tone and neglect of traditional diplomatic etiquette. Akhenaten's foreign policy also strained relations with Babylonia, whose king Burnaburiash felt disrespected by Akhenaten's lack of gifts and sympathy during a time of illness. This led to a decline in friendly relations between Egypt and its neighboring kingdoms, with Burnaburiash threatening to retaliate against Akhenaten's actions.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing or incorrect articles
+    - [SPELLING]:
+        • typos such as "tjat" instead of "that"
+    - [SYNTAX]:
+        • awkward sentence structure in some places
+    - [LEXICON]:
+        • occasional use of unclear or archaic terms
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between ideas
+    - [STRUCTURE]:
+        • lack of clear chronological order in some sections
+    - [CLARITY]:
+        • ambiguous references to historical events or figures
+    - [TRANSITION]:
+        • insufficient connection between paragraphs
+
+Section section_05 (Chars 33111–41208):
+Section Summary: The Assyrian king Assuruballit exchanged messengers with the Egyptian king, despite being warned against it. A prince of Alashia sent letters to the Egyptian king, discussing commercial matters and mentioning the plague, which had affected his land and people. The king of Mitani, Tushratta, sent letters to the Egyptian king Napkhuria, requesting golden statuettes that had been promised by Napkhuria's father, but Napkhuria sent wooden models instead. Tushratta persisted in his request, involving Napkhuria's mother, Queen Teye, and eventually sent an ultimatum, leading to a likely end in diplomatic relations between the two kingdoms. The exchange of letters reveals the characters of the two monarchs, with Tushratta seeking to maintain a friendship and Napkhuria being more cautious and evasive.
+Scores:
+  - Fluency: 3.5
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [SPELLING]:
+        • typos (e.g., "exgortation", "interewt", "husbanx")
+    - [SYNTAX]:
+        • complex sentence structures
+    - [LEXICON]:
+        • unclear terminology (e.g., "talengs", "lajentations")
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt shifts in topic
+    - [STRUCTURE]:
+        • lack of clear transitions between paragraphs
+    - [CLARITY]:
+        • ambiguous references to historical events and figures
+    - [TRANSITION]:
+        • disconnected ideas between sentences
+
+Section section_06 (Chars 41209–49207):
+Section Summary: The majority of the letters in the Tell el Amarna archives are reports from Egyptian governors and officials in Western Asia, which provide valuable historical material for studying civilization. These letters reveal the struggles and conflicts among the vassal chiefs, with Aziru, prefect of the land of the Amorites, being a particularly troublesome figure who sought to found an independent kingdom. Aziru's actions were met with complaints and pleas for help from other chiefs, such as Rib-Addi of Gebal, who suffered greatly at his hands. Despite his questionable loyalty and alliances with the Hittite foes of Egypt, Aziru managed to evade punishment for many years, but was eventually summoned to court and arrested. The letters also show that some Syrian and Phoenician princes saw Aziru's actions as a necessary evil that brought an end to a worse state of affairs, and therefore supported him.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • incorrect verb tense usage
+    - [SPELLING]:
+        • "od" instead of "of"
+    - [SYNTAX]:
+        • complex sentence structures
+    - [LEXICON]:
+        • outdated vocabulary
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between ideas
+    - [STRUCTURE]:
+        • lack of clear paragraph organization
+    - [CLARITY]:
+        • ambiguous sentences
+    - [TRANSITION]:
+        • missing connections between paragraphs
+
+Section section_07 (Chars 49208–57019):
+Section Summary: In Lebanon, Namyauza was struggling with local headmen, while in the south, Labaya attempted to gain power but ultimately failed and was taken captive. In Jerusalem, Abdikheba, the royal captain, was under attack from neighboring prefects and the Habiri, who were likely the Hebrews, and he pleaded for help from the king. The Egyptian system of government was blamed for the chaos, as the petty princes had little expectation of support or justice from their suzerain. The letters from Abdikheba, Milki-El, and Tagi reveal a chorus of complaint and desperation, with each seeking help and protection from the king. The section also highlights the skillful and flattering writing style of Abi-milki of Tyre, who sought to curry favor with the king through his eloquent letters.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [SPELLING]:
+        • occasional typos (e.g., "wfought", "kinb", "pkunder")
+    - [LEXICON]:
+        • some words may be unfamiliar to non-expert readers
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between discussing Labaya and introducing Abdikheba
+    - [STRUCTURE]:
+        • the text jumps between different storylines and characters
+    - [CLARITY]:
+        • some sentences are wordy or contain complex phrases that hinder understanding
+
+Section section_08 (Chars 57020–64555):
+Section Summary: The section discusses letters from various cities and princes in the ancient Near East, including Nukhashi, Biruta, and Kadesh, which provide insight into the politics and customs of the time. The letters reveal the complex relationships between the Egyptian king and his vassals, with some, like Itakama, seeking to prove their loyalty and others, like Namyauza, being accused of disloyalty. The letters also mention various geographical locations, including Ube, Ugarit, and Gebal, which help to shed light on the administrative and territorial organization of the region. The section also notes the presence of Hittites in the region, particularly in the city of Kadesh, which would later be seized by the Hittites. Overall, the letters provide a unique glimpse into the diplomatic and political landscape of the ancient Near East.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [SPELLING]:
+        • occasional typos and misspellings (e.g., "acfeptable" instead of "acceptable")
+    - [SYNTAX]:
+        • complex sentence structures that may hinder readability
+  Coherence Issues:
+    - [LOGIC]:
+        • some abrupt transitions between ideas
+    - [STRUCTURE]:
+        • lack of clear paragraphing or sectioning in some areas
+    - [CLARITY]:
+        • occasional ambiguity in referring to historical figures or locations
+
+Section section_09 (Chars 64556–70239):
+Section Summary: The Tell el Amarna tablets provide insight into the political conditions of the time, revealing that King Napkhuria's religious reform did not strengthen Egypt's authority in Asia. The Habiri people continued to attack and expand, taking advantage of Egypt's weakness, while the kingdom of Mitani was on the verge of collapse due to internal struggles and external pressures from the Hittites and Babylonians. Mitani's king, Tushratta, formed an alliance with Egypt out of political necessity, but the kingdom eventually fell and was replaced by small Aramaic kingdoms. The XVIIIth Dynasty in Egypt also met a swift end, with Napkhuria's death in 1370 B.C. marking the beginning of the end of his reform and the city of Tell el Amarna. The clay tablets were ultimately saved by being hidden in the earth, preserving a valuable record of the time for posterity.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing or incorrect articles
+    - [SPELLING]:
+        • typos such as "xnd" instead of "and"
+    - [LEXICON]:
+        • uncommon vocabulary without explanation
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between paragraphs
+    - [STRUCTURE]:
+        • lack of clear connections between ideas
+    - [CLARITY]:
+        • ambiguous sentences and unclear references
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

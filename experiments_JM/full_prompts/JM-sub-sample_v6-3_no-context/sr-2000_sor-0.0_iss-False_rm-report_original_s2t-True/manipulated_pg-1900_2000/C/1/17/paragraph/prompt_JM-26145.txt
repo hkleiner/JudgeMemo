@@ -1,0 +1,288 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) Read and understand the text the report was created for.
+    b) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    c) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The text to be evaluated is given below:
+Text: -The Ancient East-
+
+
+CHAPTER: I. THE TABLETS, AND HOW THEY WERE FOUND.
+
+
+As early as 1820 it was known in Europe that in Middle Egypt, on the east
+bank of the Nile, in the district between Minieh and Siut, there lay the
+remains of a great city of Ancient Egypt. The Prussian exploration
+expedition of 1842-45 gave special attention to this site, where indeed
+were found, about sixty miles south of Minieh, extensive ruins, beginning
+at the village of Haggi Kandil and covering the floor of a rock-bound
+valley named after the fellahin village, El Amarna. At that time the
+ground-plan of the city was still easy to distinguish; the regular lines
+of the streets could be traced, and enough could be seen of the great
+design of the principal temple to excite the admiration of the
+discoverers. This example of the laying out of an ancient Egyptian town
+still remains almost unique, for of old, as now, private buildings were
+constructed of flimsy material. That the Tell el Amarna remains have
+escaped rapid destruction is due entirely to the sudden and violent
+downfall of the original splendour of the city and the complete desolation
+which succeeded. The importance of the place was revealed on examination
+of the surrounding cliffs. Here were found, sculptured and inscribed in a
+new and peculiar style, the rock-cut tombs of the most distinguished
+inhabitants of Akhet-haten, the royal city built for himself about 1380
+B.C. by Amenophis IV., and destroyed soon after his early death.
+
+In the beginning of 1888 some fellahìn digging for marl not far from the
+ruins came upon a number of crumbling wooden chests, filled with clay
+tablets closely covered on both sides with writing. The dusky fellows must
+have been not a little delighted at finding themselves owners of hundreds
+of these marketable antiquities, for which a European purchaser would
+doubtless give plenty of good gold coins. To multiply their gains they
+broke up the largest tablets into three or four separate pieces, often to
+the grievous hindrance of the future decipherer. But very soon the matter
+was fruited abroad; the Government at once intervened, almost all the find
+was in due time secured, and a stop was put to any further dispersal of
+separate tablets and of fragments. The political situation in Egypt is
+pretty accurately indicated by the fact that about eighty of the best
+preserved of the Tell el Amarna tablets at once found their way to the
+British Museum. Some sixty were left in the museum at Boulak, and about
+one hundred and eighty were secured for the Berlin Museum, many of them
+tiny fragments, but mostly containing important records. Few have remained
+in private hands.
+
+Some alabaster slabs came to light at Tell el Amarna bearing the
+hieroglyphic names of King Amenophis IV. and his father, Amenophis III.
+
+These had evidently served as lids to the chests. Some tablets also were
+inscribed with notes in hieratic, written in red ink. But in spite of
+these exceptions, it was at once recognised that all the documents were
+written in Babylonian cuneiform. The reading of the introductory lines on
+various tablets served to show that the find consisted of part of the
+Egyptian state archives in the times of the two kings Amenophis III. and
+IV. Thus the first of the many startling discoveries that were to follow
+in such rapid succession was made in the recognition that about 1400 B.C.
+the Semitic speech of Babylon served as the language of diplomacy in the
+East.
+
+Bahá’u’lláh’s writings cover an enormous range of subjects from social
+issues such as racial integration, the equality of the sexes, and
+disarmament, to those questions that affect the innermost life of the
+human soul. The original texts, many of them in His own hand, the others
+dictated and affirmed by their author, have been meticulously preserved.
+
+Reynolds is not the less a great painter because he did not happen to be
+the great man so many of his biographers have seen, nor was he a
+heaven-sent genius of the kind that flutters the musical dovecots from
+time to time. Infant prodigies are hardly known in the world of art,
+and Reynolds started life as a clever young man determined to make a
+name. He became soon a painter strong enough to realise his own
+limitations and those of his age, and to take the best possible steps to
+secure for his own art, and incidentally for that of his country, the
+highest position in the esteem of the world at large. Had there been no
+Reynolds there might have been no Royal Academy--the Institution in its
+earliest days was indebted very deeply to him. Himself far above the
+squabbles of the hour, he raised the Royal Academy into the serene and
+almost untroubled atmosphere in which he lived his life.
+
+It is evident that the Babylonian royal scribes at length showed some
+consideration for their unfortunate Egyptian correspondents by writing as
+a rule in phonograms which could be easily spelt out, since strange
+ideograms might have brought the reader to a standstill. The sources of
+the letters may be distinguished also by the colour and consistency of the
+material of the tablets, which are of all shades of clay, from pale yellow
+to red or dark brown. Side by side, too, with hard and legible pieces, lie
+broken and crumbling fragments which have suffered sadly during the few
+years that have elapsed since they were again exposed to the air.
+
+
+CHAPTER: II. THE EGYPTIAN COURT AND ADMINISTRATION.
+
+
+The two Pharaohs of the Tell el Amarna Period belong to the XVIIIth
+Dynasty, which about 1560 B.C. had freed the land from the yoke of certain
+Asiatic invaders known as the Shasu. The new dynasty soon began to
+encroach upon Asia. King Thutmosis III. (1503 to 1449 B.C.) after many
+chequered campaigns conquered Syria as far as the Gulf of Iskanderun. On
+the African side he extended the bounds of his kingdom to the confluence
+of the Nile and the Atbara, so that the greater part of Nubia owned his
+sway. The terror of his name did not die with him, but for long did good
+service to his successors, the first of whom, Amenophis II., seems
+moreover himself to have maintained energetically the fame of Egyptian
+arms. To this influence our clay tablets bear witness by twice making
+emphatic reference to the days of the powerful “Manakhbiria”—the prenomen
+of King Thutmosis III. With the accession of Amenophis III. the warlike
+spirit ceased to prevail at the Court of Thebes. Nothing more was to be
+gained by Egypt in Western Asia, and the tastes of the new king lay in
+other directions than war. The two celebrated Colossi of Memnon (statues
+of himself), many great buildings, the important part played by his
+favourite wife Teye, the well-filled harem,  the cultivation of “wisdom”
+(which practically, no doubt, was tantamount to what we should call
+“preciosity”); last, but not least, the solemn adoration of his own divine
+image—all these facts combine to indicate the altered condition of things
+which came about under Amenophis III. He reigned thirty-six years, long
+enough to allow the movement introduced by him to run its course. His son,
+Amenophis IV., was, however, just as little inclined as his father to walk
+in the steps of his warlike ancestors. Hampered apparently by bodily
+defects, this Son of the Sun tried his strength in a field often far more
+dangerous than the battlefield. He began a reform of the Egyptian
+religion, apparently in the direction of a kind of monotheism in which the
+chief worship was reserved for the disk of the sun, the symbol under which
+the god Ra was adored at Heliopolis in the Delta.
+
+Nothing being known of the life of this king as heir-apparent, probably we
+shall never understand what led him to take this new departure. From his
+conduct during the early years of his reign it may be concluded that he
+intended to proceed gradually, but was roused to more aggressive measures
+by the resistance of the powerful priests of Amon in Thebes. These men
+acted, of course, for their own interests in promptly resisting even mild
+attempts at reform. Perhaps also the king’s aim had been from the outset
+to weaken the influence of the Theban hierarchy by new doctrines and to
+strengthen the royal power by steady secularisation. Open strife between
+the adherents of Amon and those of the Sun’s Disk, the “Aten,” broke out
+in the second or third year of Amenophis IV., that is, about 1380 B.C. The
+immediate removal of the Court from Thebes to Tell el Amarna points to a
+failure of the royal efforts, for the command to build the new city had
+not long been issued, and the place was still altogether unfinished. The
+official world promptly broke with the old religion. The king altered his
+throne-name, “Amen-hetep,” to “Akhen-Aten,” “The glory of the Sun’s Disk”;
+his young daughters received names compounded with “Aten,” whilst the
+courtiers found it advisable to strike out “Amen,” if this chanced to form
+part of their own names, and to substitute for it “Ra,” as having more or
+less the same significance as “Aten.” “The doctrine,” as the new dogmas
+were called in inscriptions at Tell el Amarna, was regarded as so entirely
+a matter of home politics in Egypt, that the officials of Syria and
+Palestine—all foreigners—do not seem to have received any formal
+information regarding it. Most of them continue to refer to Amon in
+perfect innocence, and only a few who were better informed began rather
+later to take the change into account. Thus Yitia of Ashkelon, Pu-Adda of
+Wurza, and a certain Addudaian correct the name of the Egyptian
+commissioner “Amanappa” into “Rianappa.” Abimilki of Tyre apparently even
+tried to give himself out as one initiated into “the doctrine,” and to
+represent his city as a servant of Aten. If this were the case he must
+have received a severe rebuff, for after his one attempt he falls back
+into the old style. Neither the royal nor the national pride of Egypt
+would suffer any such familiarities.
+
+The new capital received the significant name of “Akhet-Aten” (“Horizon of
+the Sun”) and was solemnly consecrated long before it was half finished.
+
+The widow of Amenophis III., the queen-mother Teye, came occasionally to
+visit the new capital, and was received with all honour; evidently she had
+paid timely respect to her son’s opinions. How far the Aten dogma
+represented real progress in religious thought can be gathered only from
+the contents of a few hymns remaining on the walls of some of the tombs.
+
+Modern sociologists have drawn lurid pictures of the condition of the
+working class during the earlier part of the last century. It seems in
+truth to have been very bad. Byron in 1812 told the Lords: 'I have been in
+some of the most oppressed provinces of Turkey, but never under the most
+despotic of infidel governments did I behold such squalid wretchedness as
+I have seen since my return in the very heart of a Christian country.' In
+1831 a member of parliament said: 'An agricultural labourer and a
+pauper--the words are synonymous.' Those who want details can find them in
+the well-known controversial books by the Hammonds, which state the case
+against the governing class in an exhaustive manner. There was in fact
+too much ground for Disraeli's statement that England at that time
+consisted of two nations, the rich and the poor. The poor were still
+largely illiterate, and so inarticulate; and the comparative absence of
+the large half-educated class which now dominates all public discussion
+made the cultivated gentry a class apart. Their own standard of culture
+was higher than that of the leisured class to-day; but they took little
+interest in the lives of the poor, until they were forced to do so. We
+however who have witnessed the succession of economic crises which attend
+and follow a great war ought not to forget the appalling difficulties with
+which the government was confronted. In 1795 there was actual famine,
+which was met by the famous system of doles out of the rates, in
+augmentation of wages, a most mischievous bit of legislation, like the
+similar expedients of the last three years. It had the double effect of
+pauperising the rural labourer and of putting an artificial premium on
+large families--the children who were carted off in waggon-loads to feed
+the factories. It was repealed only when the ruined farmers were
+abandoning their land, and the glebe-owning clergy their livings.
+
+It was in his nineteenth year that, in this same Paris, in the house
+of one of its rich families, was born a little girl-child who was to
+come into Boucher's life in after years. The father, a financial
+fellow, one Poisson, was a man of shady repute; indeed he was under
+banishment for mis-handling the public moneys at the time of the
+birth of the little girl-child, christened Jeanne Antoinette
+Poisson--destined to be the Jane of the scurrilous street songs of the
+years to come. But the careless student knew little of it as yet, nor
+that destiny had put into the pretty child's cradle the sceptre and
+diadem of France as plaything.
+
+The report for the text is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–8566):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Minor punctuation errors
+    - [LEXICON]:
+        • Some archaic vocabulary
+    - [SYNTAX]:
+        • Complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between chapters
+    - [STRUCTURE]:
+        • Disjointed discussion of different topics
+    - [CLARITY]:
+        • Unclear connections between ideas
+
+Section section_02 (Chars 8567–12958):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 2.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Inconsistent verb tense usage
+    - [LEXICON]:
+        • Overly complex vocabulary in some sections
+    - [SYNTAX]:
+        • Long, convoluted sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between historical periods and topics
+    - [STRUCTURE]:
+        • Lack of clear chronological order
+    - [CLARITY]:
+        • Unclear connections between ideas
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

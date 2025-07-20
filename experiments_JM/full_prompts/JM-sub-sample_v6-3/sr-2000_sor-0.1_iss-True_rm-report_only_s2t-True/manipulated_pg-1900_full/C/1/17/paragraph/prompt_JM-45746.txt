@@ -1,0 +1,208 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    b) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The report is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–9106):
+Section Summary: The author recounts how they became a teacher by chance, without any prior aspiration or preparation, and how this was a common experience among their peers. The author then visits a school and meets two individuals who represent different approaches to teaching: one who views it as a mere job and another who is passionate and dedicated to making it a profession. The latter individual has made efforts to improve the school environment and has found creative solutions to problems, such as adjusting the seating arrangement in a classroom to improve student behavior. In contrast, the author notes that some individuals, including a young woman applying for a teaching position, prioritize appearance over substance. The author emphasizes the importance of personality, preparation, and experience in a teacher's success, with a pleasing and forceful personality being a key factor.
+Scores:
+  - Fluency: 3.5
+  - Coherence: 2.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • abrupt transition between paragraphs
+    - [SYNTAX]:
+        • long and convoluted sentence structures
+    - [LEXICON]:
+        • inconsistent tone and language usage
+  Coherence Issues:
+    - [LOGIC]:
+        • disjointed narrative with unrelated events
+    - [STRUCTURE]:
+        • lack of clear progression and organization
+    - [CLARITY]:
+        • ambiguous connections between ideas
+
+Section section_02 (Chars 9107–18392):
+Section Summary: The section discusses the importance of a teacher's general education, specialization, and continuous learning. A teacher should never stop broadening their general education to avoid a narrow viewpoint and to effectively associate their subject with the larger field of education. The author shares personal experiences, including their own journey to becoming a superintendent and their approach to preparing for the new role. They also highlight the value of teachers' meetings, which can foster a sense of community and professional development among educators. By prioritizing education and professional growth, teachers can provide better instruction and inspire their students.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • abrupt sentence transitions
+    - [SYNTAX]:
+        • complex sentence structures
+    - [LEXICON]:
+        • occasional use of outdated vocabulary
+  Coherence Issues:
+    - [LOGIC]:
+        • disjointed narrative flow
+    - [STRUCTURE]:
+        • lack of clear sectioning or topic sentences
+    - [CLARITY]:
+        • ambiguous connections between ideas
+
+Section section_03 (Chars 18393–27739):
+Section Summary: The author emphasizes the importance of productive meetings between teachers, superintendents, and school boards. Effective meetings should provide tangible and definite assistance to teachers, rather than being overly broad or theoretical. The author shares their own experiences as a superintendent, where they held regular sectional meetings with teachers to discuss specific topics and improve the course of study. These meetings led to improved teacher cooperation and a more effective school system. By providing regular, informative reports to the school board, the author was also able to establish a positive working relationship and gain greater autonomy in managing the school.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • abrupt transition between paragraphs
+    - [LEXICON]:
+        • inconsistent terminology
+    - [SYNTAX]:
+        • complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • lack of clear connections between ideas
+    - [STRUCTURE]:
+        • disjointed narrative flow
+    - [CLARITY]:
+        • ambiguous sentences
+
+Section section_04 (Chars 27740–37260):
+Section Summary: The author, a superintendent, shares his experiences in working with school boards and implementing changes in school systems. He found that by providing detailed reports and plans, he was able to gain the board's trust and approval for initiatives such as manual training and teacher employment. The author also emphasizes the importance of student activities, such as athletic associations and literary societies, in developing leadership skills and promoting school spirit. However, he notes that these activities must be carefully supervised to ensure they do not become a waste of time. By striking a balance between academics and extracurricular activities, schools can provide a well-rounded education and foster a sense of community among students, teachers, and parents.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor punctuation errors
+    - [LEXICON]:
+        • some outdated expressions
+    - [SYNTAX]:
+        • a few long, convoluted sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • occasional abrupt transitions between ideas
+    - [STRUCTURE]:
+        • lack of clear sectioning or subheadings
+    - [CLARITY]:
+        • some sentences are wordy or unclear
+
+Section section_05 (Chars 37260–46601):
+Section Summary: School clubs and activities, both minor and major, play a significant role in stimulating interest and adding zest to studies. These activities help to socialize the institution, bring pupils and teachers together, and develop school pride and interest. While they can be time-consuming and require effort from teachers, they are considered essential to a live and thriving school community. Major activities, such as athletics and school events, can be prone to overdoing and require proper direction and management to ensure they do not interfere with curricular work. Overall, these activities are valued for their ability to develop group interests, teach students to work together, and foster loyalty and enthusiasm for the school.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [SYNTAX]:
+        • long, convoluted sentences
+    - [LEXICON]:
+        • some outdated or unclear terms
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between topics
+    - [STRUCTURE]:
+        • lack of clear organization
+    - [CLARITY]:
+        • unclear connections between ideas
+
+Section section_06 (Chars 46602–55546):
+Section Summary: The narrator had a initial encounter with a janitor who was hesitant to cooperate, but eventually warmed up and became friendly after the narrator showed willingness to work together and clean the office. The janitor's attitude changed, and he even received a salary raise at the end of the year due to his improved performance. The narrator believes that this experience illustrates the importance of treating staff as coworkers rather than subordinates. A survey of teachers revealed that they value assistance with exceptional children, interpretation of the course of study, and professional leadership from their principals. The principals can help teachers by providing support and resources, such as intelligence tests to classify pupils according to their ability, and by interpreting the course of study to ensure effective implementation.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [SYNTAX]:
+        • some sentences are wordy or awkwardly phrased
+    - [LEXICON]:
+        • occasional use of outdated or formal language
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between ideas or topics
+    - [STRUCTURE]:
+        • lack of clear connections between paragraphs
+    - [CLARITY]:
+        • some sentences or passages are unclear or confusing
+
+Section section_07 (Chars 55547–64939):
+Section Summary: Teachers need guidance and support from their principals to effectively implement new teaching methods and materials. Principals can provide professional leadership by offering concrete help, interpretation of the course of study, and encouragement to teachers. A well-organized administration, including furnishing necessary supplies and equipment, and providing definite directions, can also help teachers succeed. Additionally, principals can build strong relationships with teachers by showing appreciation, giving genuine praise, and being approachable. By doing so, principals can create a positive and supportive school environment that benefits both teachers and students.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Some sentences are wordy and convoluted
+    - [LEXICON]:
+        • Overuse of passive voice
+    - [SYNTAX]:
+        • Abrupt transitions between paragraphs
+  Coherence Issues:
+    - [LOGIC]:
+        • Some ideas seem disconnected from the main theme
+    - [STRUCTURE]:
+        • Lack of clear headings or subheadings to organize the text
+    - [CLARITY]:
+        • Certain sentences are vague or open to interpretation
+
+Section section_08 (Chars 64940–70610):
+Section Summary: Many high school students today are only able to pursue subjects that will prepare them for industrial or commercial occupations, and schools must provide relevant courses to prevent them from dropping out. The adjustment of students to proper vocations is a significant problem, and schools are responding by offering vocational guidance, trade schools, and part-time schools. To address this issue, schools are studying local industrial and commercial conditions and offering special subjects and courses to prepare students for various vocations. Some schools are also using club organizations and guest speakers to provide students with information about different professions and help them make informed decisions. By making these efforts, schools aim to give each student a chance to adjust to a vocation and succeed in life.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Some sentences are wordy and could be simplified for better clarity
+    - [LEXICON]:
+        • A few words, such as "vocation" and "patron", may be less familiar to modern readers
+    - [SYNTAX]:
+        • Long paragraphs and sentences may disrupt the flow
+  Coherence Issues:
+    - [LOGIC]:
+        • Transitions between ideas could be smoother
+    - [STRUCTURE]:
+        • The text jumps between different topics, such as vocational guidance and parental involvement
+    - [CLARITY]:
+        • Some sentences are vague or open-ended, making it hard to understand the main point
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

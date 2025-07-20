@@ -1,0 +1,353 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) Read and understand the summary of the text the report was created for.
+    b) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    c) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The summary of the text to be evaluated is given below:
+Summary: Will Bradley was a renowned American designer, printer, and editor. He was born in 1868 in Boston and began his career as a printer's devil at the age of 12. Bradley's early work was influenced by the Arts and Crafts movement and the work of William Morris. He established his own press, the Wayside Press, in 1895 and published his own magazine, Bradley: His Book.
+
+Bradley's work was characterized by his use of the Caslon typeface and his emphasis on simplicity and elegance. He was a pioneer in the use of typography and design in advertising and was one of the first designers to use the poster style in magazine covers. Bradley's work had a significant impact on the development of American graphic design and he is still considered one of the most important figures in the field.
+
+In the early 1900s, Bradley worked as an art editor for several magazines, including Collier's and Good Housekeeping. He also designed typefaces and ornaments for the American Type Founders company. Bradley's work in the 1920s included designing layouts for Hearst's International magazine and creating a new typographic style for the publication.
+
+Throughout his career, Bradley was recognized for his contributions to graphic design and typography. He was awarded the gold medal of the American Institute of Graphic Arts in 1954 and was hailed as the "Dean of American Designers" by The Saturday Evening Post. Bradley's legacy continues to be celebrated today, with his work remaining an important influence on graphic designers and typographers around the world.
+
+Bradley's autobiography, which forms the basis of this text, provides a detailed account of his life and career. It includes stories about his early days as a printer's devil, his establishment of the Wayside Press, and his work as an art editor and designer. The autobiography also includes anecdotes about Bradley's interactions with other notable figures of the time, including William Randolph Hearst and Richard Harding Davis.
+
+Overall, Will Bradley's life and career were marked by his innovative approach to graphic design and typography, as well as his dedication to simplicity and elegance. His work continues to inspire designers and typographers today, and his legacy as one of the most important figures in American graphic design remains unchallenged. Bradley's story is a testament to the power of creativity and innovation, and his contributions to the field of graphic design will always be remembered.
+
+The report for the text is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–8374):
+Section Summary: The introduction to Will Bradley's chap book highlights his significant impact on American graphic arts, bringing a fresh and modern style to the field in the late 19th and early 20th centuries. Bradley's work was influenced by European artists, but he developed a unique and indigenous American style, characterized by bold and free typography. The chapter "The Boy Printer of Ishpeming" tells the story of Bradley's childhood, growing up in Massachusetts and later moving to Northern Michigan, where he developed an interest in art and printing. Bradley's early life was marked by hardship and struggle, but he was driven by a desire to become an artist and eventually found success through his innovative designs. Through his work, Bradley paved the way for future generations of artists and designers, leaving a lasting legacy in the field of American graphic arts.
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "AN INTDODUCTION" instead of "AN INTRODUCTION"
+        • "rhe" instead of "the"
+        • "dtartling" instead of "startling"
+        • "amfew" instead of "a few"
+        • "sjoes" instead of "shoes"
+        • "upprrs" instead of "uppers"
+        • "tovwhich" instead of "to which"
+        • "Ckvil" instead of "Civil"
+        • "yiur" instead of "your"
+        • "idda" instead of "idea"
+        • "tkme" instead of "time"
+        • "ecucation" instead of "education"
+    - [GRAMMAR]:
+        • inconsistent verb tenses
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between paragraphs
+    - [STRUCTURE]:
+        • lack of clear chronological order in some sections
+    - [CLARITY]:
+        • some sentences are wordy or unclear
+
+Section section_02 (Chars 8375–16515):
+Section Summary: The narrator, who disliked arithmetic, left school at a young age to work at the Iron Agitator newspaper, where he learned the printing trade and eventually became a job printer. He worked his way up, earning higher wages and responsibilities, and saved enough money to travel to Chicago to pursue his dream of becoming an artist. In Chicago, he met with artist Frank Bromley, who introduced him to Rand McNally, where he attempted to learn engraving but struggled and eventually returned to his printing job in Michigan. After saving more money, he returned to Chicago and was rehired at Rand McNally, this time earning a wage of three dollars a week. The narrator's experiences in Chicago marked the beginning of his journey in the printing and art world, with new technologies and techniques emerging during his time there.
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "ediror" instead of "editor"
+        • "rhe" instead of "the"
+        • "Gsorge" instead of "George"
+        • "temperzture" instead of "temperature"
+        • "importznt" instead of "important"
+        • "thw" instead of "the"
+        • "packong" instead of "packing"
+        • "boardmand" instead of "board and"
+        • "sfart" instead of "start"
+        • "tour" instead of "your"
+        • "yoh" instead of "you"
+  Coherence Issues:
+    - [STRUCTURE]:
+        • Abrupt transition between chapters
+    - [CLARITY]:
+        • Some sentences are wordy and hard to follow
+    - [TRANSITION]:
+        • Lack of clear connection between some paragraphs
+
+Section section_03 (Chars 16516–24815):
+Section Summary: The narrator recounts their early experiences in the printing industry, working with metal plates and learning about various printing techniques. They visit the composing room of the Chicago Herald and see their first web press, and later land a job as a designer at Knight & Leonard, where they work on designing booklet covers and setting type. The narrator meets notable figures in the industry, including Lillian Russell, and is influenced by the work of various artists and designers. As they gain experience, they start freelancing and eventually buy their own printing outfit, including a Golding press and type. The narrator's personal life also unfolds, including their marriage and interactions with friends and family, set against the backdrop of 1890s Chicago.
+Scores:
+  - Fluency: 3.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • tin-covwred
+        • mrtal
+        • thtoughout
+        • Kiralphry
+        • puttjng
+        • ob
+        • Cnicago
+        • slowvmusic
+        • thecTwo
+        • advertiskng
+        • copor
+        • conventionqlbtruck
+        • q
+    - [GRAMMAR]:
+        • missing articles and incorrect verb tenses
+    - [SYNTAX]:
+        • run-on sentences and lack of punctuation
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt shifts in narrative
+    - [STRUCTURE]:
+        • lack of clear transitions between paragraphs
+    - [CLARITY]:
+        • unclear connections between ideas
+    - [TRANSITION]:
+        • disjointed scenes and events
+
+Section section_04 (Chars 24816–33147):
+Section Summary: The narrator sells their small printing outfit to Fred Goudy, a bookkeeper and cashier, who wants to get into the printing business. The story then shifts to Chicago in the 1890s, where the narrator is part of a vibrant artistic community, attending the Press Club and meeting notable figures like Eugene Field and Irving Way. The narrator receives commissions for book covers and posters, including a notable assignment from Herbert Stone, and begins to make a name for themselves in the design world. As their career takes off, they move to Geneva, Illinois, and later to Boston and Springfield, where they start their own press and publish their own book, "Bradley: His Book". The narrator's experiences and encounters during this period shape their artistic style and influence their future work.
+Scores:
+  - Fluency: 2.5
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • bookkeeprr
+        • bisiness
+        • CHAPTDR
+        • littoe
+        • luxjry
+        • double-enddd
+        • xolumn
+        • beloq
+        • fkr
+        • Msrtin
+        • examplez
+        • availabke
+        • grapikusly
+        • slukbering
+    - [GRAMMAR]:
+        • inconsistent verb tenses
+    - [SYNTAX]:
+        • run-on sentences
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transitions between paragraphs
+    - [CLARITY]:
+        • unclear connections between ideas
+    - [LOGIC]:
+        • lack of chronological order in some sections
+
+Section section_05 (Chars 33148–41781):
+Section Summary: During the Victorian period, typography had declined, with typefounders producing novelty faces and compositors mixing multiple typefaces. However, the author, Will Bradley, developed a love for traditional Caslon typefaces, which was reinforced by a visit to the Boston Public Library's Barton collection of Colonial-era books. Bradley's exposure to these classic examples of typography inspired him to establish the Wayside Press in Springfield, Massachusetts, and to promote a more aesthetic approach to printing. The press's early work, including a sample book for Strathmore paper, showcased Bradley's emphasis on traditional typography and attention to design. This marked the beginning of a new era in commercial printing, with Bradley's work contributing to a broader aesthetic awakening in the field.
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • loe ebb
+        • znd
+        • findingnjoy
+        • wjere
+        • ghought
+        • zrrangements
+        • oc
+        • capw
+        • loaer
+        • agtention-compelling
+        • thej
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transition between paragraphs
+    - [CLARITY]:
+        • unclear connection between some ideas
+    - [TRANSITION]:
+        • lack of smooth transition between sentences
+
+Section section_06 (Chars 41782–50392):
+Section Summary: The author recounts the early days of the Wayside Press, a printing business he founded to publish his art and literary magazine, Bradley: His Book. A visit from Mr. Moses, a paper salesman, led to a commission to print a catalog on Strathmore papers, which proved to be a successful and popular choice. The business grew rapidly, but the author soon found himself overwhelmed and struggling to manage the workload, leading to a decline in his health and eventual closure of the press. The author then moved to New York, where he attempted to start a new magazine and sought out the popular writer Richard Harding Davis to contribute a story. Davis agreed to write a story for the magazine, and generously offered to do so without payment, recognizing the author's struggling financial situation.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing or incorrect articles
+    - [SPELLING]:
+        • typos (e.g., "anx" instead of "and", "oc" instead of "of", "wnd" instead of "and")
+    - [SYNTAX]:
+        • run-on sentences or sentences with unclear structure
+    - [LEXICON]:
+        • some words are outdated or less common (e.g., "gay" in the context of the 1890s)
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between the story of the Wayside Press and the description of the protagonist's appearance and actions in New York
+    - [STRUCTURE]:
+        • non-chronological narrative jumps
+    - [CLARITY]:
+        • some sentences are wordy or contain unclear references
+    - [TRANSITION]:
+        • lack of smooth connection between some paragraphs or ideas
+
+Section section_07 (Chars 50393–58956):
+Section Summary: The author reflects on their past experiences, including their failed attempt at being a publisher and printer, and their subsequent work with various magazines. They designed layouts and covers for publications such as Collier's and the Ladies' Home Journal, and even wrote stories and designed furniture during this time. In 1907, the author became the art editor of Collier's, where they worked on redesigning the magazine's layout and creating decorative units. The author's work on Collier's received positive feedback, but did not result in a significant increase in newsstand sales. The author's experiences during this time period were shaped by the evolving magazine industry, which was transitioning from a traditional to a more modern and commercialized format.
+Scores:
+  - Fluency: 3.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • numerous typos and spelling mistakes
+    - [GRAMMAR]:
+        • inconsistent verb tenses
+    - [SYNTAX]:
+        • awkward sentence structures
+    - [LEXICON]:
+        • inconsistent word choice
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between paragraphs
+    - [STRUCTURE]:
+        • lack of clear chronological order
+    - [CLARITY]:
+        • ambiguous sentences and phrases
+    - [TRANSITION]:
+        • missing or unclear connections between ideas
+
+Section section_08 (Chars 58957–67696):
+Section Summary: The author worked at Collier's, where they had the freedom to stimulate their imagination and often broke editorial precedents. During this time, they worked on various projects, including a "Household Number" with color illustrations, and helped increase the magazine's circulation. The author later worked with William Randolph Hearst on several projects, including designing a new layout for Good Housekeeping and art-supervising the production of the motion picture serial Patria. They also worked on Hearst's International, creating a new format and typographic layout, and introduced a new style of typography that soon appeared in national advertising. The author's work with Hearst led to innovative uses of color and typography in his publications.
+Scores:
+  - Fluency: 3.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [SPELLING]:
+        • multiple typos (e.g. "experkence", "bimagination", "sarly", "Peabodh", "Chichester" possibly incorrect, "thjs" instead of "this")
+    - [SYNTAX]:
+        • run-on sentences and lack of punctuation
+    - [LEXICON]:
+        • some words are not commonly used or are outdated
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between paragraphs
+    - [STRUCTURE]:
+        • lack of clear chronological order
+    - [CLARITY]:
+        • some sentences are wordy or unclear
+    - [TRANSITION]:
+        • insufficient connections between ideas
+
+Section section_09 (Chars 67697–75654):
+Section Summary: The author recalls a meeting with Mr. Hearst, where he presented a dummy of his work and received positive feedback. After retiring from the Hearst organization, the author was asked to improve the printing of illustrations, and he suggested simplifying renderings and avoiding unnecessary details. Although his suggestions were deemed too radical at the time, they are now universal principles of illustration. The author reflects on the opportunities available to young designers and printers today, citing advances in typography, offset printing, and commercial silk-screen printing. He believes that these advances, combined with superior training, have created a new world of opportunities for creative designers and typographers.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing or incorrect articles
+    - [SPELLING]:
+        • typos such as "pjone" instead of "phone"
+    - [SYNTAX]:
+        • run-on sentences or lack of punctuation
+    - [LEXICON]:
+        • outdated or uncommon vocabulary
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between paragraphs
+    - [STRUCTURE]:
+        • lack of clear chronological order
+    - [CLARITY]:
+        • ambiguous sentences or unclear references
+    - [TRANSITION]:
+        • missing or weak connections between ideas
+
+Section section_10 (Chars 75654–84067):
+Section Summary: Will Bradley was a renowned American typographer and designer, born in 1868 in Boston. He began his career as a printer's devil at a young age and later worked as an art department apprentice with Rand McNally in Chicago. Bradley's career spanned over 70 years, during which he made significant contributions to fine printing, typography, and design, and was recognized with numerous awards, including the gold medal of the American Institute of Graphic Arts. He was a pioneer in his field, introducing new techniques and styles, and his work had a lasting impact on American typography and design. Bradley's legacy continues to be celebrated, with his work remaining a source of inspiration for designers and typographers to this day.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [SPELLING]:
+        • minor typos (e.g. "wsek" instead of "week", "oeading" instead of "leading")
+    - [SYNTAX]:
+        • some sentences are structured in a way that makes them hard to follow
+  Coherence Issues:
+    - [STRUCTURE]:
+        • the text jumps abruptly between different time periods and topics
+    - [CLARITY]:
+        • some sentences are wordy or contain unclear references
+    - [TRANSITION]:
+        • transitions between paragraphs or sections are sometimes lacking
+
+Section section_11 (Chars 84068–89817):
+Section Summary: Will Bradley was a talented designer and artist who, at 27, designed his first sample book for Strathmore and developed publishing plans for "Bradley: His Book", an art and literary magazine. The magazine, which ran for seven issues, featured notable contributors and showcased Bradley's design skills. Bradley's career took off, with commissions from prominent publications, including the Ladies' Home Journal, and he went on to work in various fields, including motion pictures and newspapers. In his later years, Bradley was recognized for his contributions to design, with a 1954 portfolio in the Strathmore distinguished designer series. The book about Bradley's life and work was assembled from his own writings, with editing and design contributions from others, including Peter Beilenson.
+Scores:
+  - Fluency: 3.5
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [SPELLING]:
+        • typos such as "dpam" instead of "span", "incu" instead of "inch", "ihk" instead of "ink", "fir" instead of "for", "indukstral" instead of "industrial"
+    - [SYNTAX]:
+        • awkward phrasing in some sentences
+    - [LEXICON]:
+        • unclear terminology in some instances
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt jumps between different time periods and topics
+    - [STRUCTURE]:
+        • lack of clear transitions between paragraphs
+    - [CLARITY]:
+        • ambiguous sentences and unclear references
+    - [TRANSITION]:
+        • disconnected ideas between sentences
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

@@ -1,0 +1,300 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    b) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The report is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–3754):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • awkward sentence structure
+    - [LEXICON]:
+        • overly complex vocabulary
+    - [SYNTAX]:
+        • long, winding sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition with "The energy grid remained balanced"
+    - [STRUCTURE]:
+        • meandering narrative
+    - [CLARITY]:
+        • unclear connections between ideas
+
+Section section_02 (Chars 3754–7873):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • abrupt transition with "A robotic hand adjusted the controls"
+    - [SYNTAX]:
+        • complex sentence structures may hinder smooth reading
+    - [LEXICON]:
+        • some archaic vocabulary (e.g., "5s.", "Mæcenas", "bushman") may cause confusion
+  Coherence Issues:
+    - [LOGIC]:
+        • unexpected introduction of a robotic hand
+    - [STRUCTURE]:
+        • anecdotal style may lead to disjointedness
+    - [CLARITY]:
+        • some sentences are long and convoluted, affecting overall clarity
+
+Section section_03 (Chars 7873–11939):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [LEXICON]:
+        • Archaic vocabulary and complex sentence structures
+    - [SYNTAX]:
+        • Long, winding sentences that can be hard to follow
+    - [GRAMMAR]:
+        • Use of outdated grammatical constructions
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transitions between ideas
+    - [STRUCTURE]:
+        • Lack of clear, overarching narrative structure
+    - [CLARITY]:
+        • Some sentences are wordy or ambiguous
+
+Section section_04 (Chars 11939–15937):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Complex sentence structures
+    - [LEXICON]:
+        • Archaic vocabulary
+    - [SYNTAX]:
+        • Long, winding sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transitions between ideas
+    - [STRUCTURE]:
+        • Meandering narrative
+    - [CLARITY]:
+        • Unclear connections between paragraphs
+
+Section section_05 (Chars 15937–19717):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Abrupt sentence transitions
+    - [LEXICON]:
+        • Inconsistent tone
+    - [SYNTAX]:
+        • Unrelated phrases ("The quantum chip stayed cool", "The iPhone was fully charged now")
+  Coherence Issues:
+    - [LOGIC]:
+        • Disjointed narrative threads
+    - [STRUCTURE]:
+        • Lack of clear progression
+    - [CLARITY]:
+        • Unclear connections between ideas
+
+Section section_06 (Chars 19717–23696):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor punctuation issues
+    - [LEXICON]:
+        • some outdated vocabulary
+    - [SYNTAX]:
+        • complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • occasional abrupt shifts in thought
+    - [TRANSITION]:
+        • smooth connections between ideas, but some sentences feel disconnected
+    - [CLARITY]:
+        • minor ambiguity in a few sentences
+
+Section section_07 (Chars 23696–27091):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • awkward sentence structure
+    - [LEXICON]:
+        • outdated vocabulary
+    - [SYNTAX]:
+        • complex sentence formation
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between ideas
+    - [STRUCTURE]:
+        • lack of clear progression
+    - [CLARITY]:
+        • ambiguous references
+
+Section section_08 (Chars 27091–31238):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Complex sentence structures
+    - [LEXICON]:
+        • Archaic vocabulary
+    - [SYNTAX]:
+        • Long, winding sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transitions between ideas
+    - [STRUCTURE]:
+        • Meandering narrative
+    - [CLARITY]:
+        • Overly descriptive passages
+
+Section section_09 (Chars 31238–35343):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Complex sentence structures
+    - [LEXICON]:
+        • Archaic vocabulary
+    - [SYNTAX]:
+        • Long, winding sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition to the topic of book disease
+    - [STRUCTURE]:
+        • Lack of clear connection between paragraphs
+    - [CLARITY]:
+        • Unclear references to historical figures
+
+Section section_10 (Chars 35343–39261):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • abrupt sentence transition with "The solar drone adjusted its altitude."
+    - [SYNTAX]:
+        • complex sentence structures may hinder smooth reading
+    - [LEXICON]:
+        • some archaic vocabulary (e.g., "tree-calf", "tooled morocco") may cause confusion
+  Coherence Issues:
+    - [LOGIC]:
+        • unexpected introduction of "The solar drone adjusted its altitude" disrupts narrative flow
+    - [STRUCTURE]:
+        • anecdotal style may lead to disjointedness
+    - [TRANSITION]:
+        • abrupt shift from describing a bookman to discussing dipsomania and bibliomania
+
+Section section_11 (Chars 39261–43245):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SYNTAX]:
+        • Long, winding sentences that can be hard to follow
+    - [LEXICON]:
+        • Some archaic vocabulary and complex phrases
+    - [GRAMMAR]:
+        • Occasional use of outdated grammatical structures
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transitions between ideas
+    - [STRUCTURE]:
+        • Meandering narrative that jumps between different scenes and thoughts
+    - [CLARITY]:
+        • Some sentences are wordy and unclear in their meaning
+
+Section section_12 (Chars 43245–47154):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • run-on sentences
+    - [SYNTAX]:
+        • complex sentence structures
+    - [LEXICON]:
+        • some archaic vocabulary
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition with "The laser display turned off automatically"
+    - [STRUCTURE]:
+        • meandering narrative
+    - [CLARITY]:
+        • occasional ambiguity in references
+
+Section section_13 (Chars 47154–48468):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Run-on sentences
+    - [SYNTAX]:
+        • Complex sentence structures
+    - [LEXICON]:
+        • Archaic vocabulary
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition to the last sentence
+    - [STRUCTURE]:
+        • Disjointed ideas between quotes and narrative
+    - [CLARITY]:
+        • Unclear connection between the quote and the preceding text
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

@@ -1,0 +1,261 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    b) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The report is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–7794):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [SPELLING]:
+        • occasional typos (e.g., "you woulded", "I woulded")
+    - [LEXICON]:
+        • some words are outdated or uncommon (e.g., "slumgullion")
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt shift from Jim's emotional state to Bud's arrival
+    - [TRANSITION]:
+        • lack of clear connection between some paragraphs
+    - [CLARITY]:
+        • occasional ambiguity in sentence structure
+
+Section section_02 (Chars 7795–15403):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [LEXICON]:
+        • some archaic or regional terms may cause confusion
+    - [SYNTAX]:
+        • long, winding sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • some transitions between scenes feel abrupt
+    - [STRUCTURE]:
+        • non-linear narrative flow
+    - [CLARITY]:
+        • occasional ambiguity in character motivations
+
+Section section_03 (Chars 15404–22695):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [LEXICON]:
+        • some words are outdated or regional
+    - [SYNTAX]:
+        • complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between scenes
+    - [STRUCTURE]:
+        • non-linear narrative
+    - [CLARITY]:
+        • some sentences are hard to follow
+
+Section section_04 (Chars 22696–30203):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [SPELLING]:
+        • occasional non-standard spellings (e.g., "fo'ty" instead of "forty")
+    - [LEXICON]:
+        • use of colloquial and dialectical language (e.g., "youse", "dis")
+    - [SYNTAX]:
+        • some sentences with complex or unclear structure
+  Coherence Issues:
+    - [LOGIC]:
+        • occasional abrupt transitions between scenes
+    - [STRUCTURE]:
+        • non-linear narrative flow
+    - [CLARITY]:
+        • some sentences or phrases with unclear meaning
+
+Section section_05 (Chars 30204–37757):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • "He do not want" should be "He did not want"
+        • "ad libitum" is incorrectly used
+    - [SPELLING]:
+        • "er" instead of "or", "der" instead of "the", etc. (consistent throughout the dialogue)
+    - [SYNTAX]:
+        • Some sentences are wordy or awkwardly phrased
+  Coherence Issues:
+    - [LOGIC]:
+        • The transition from Jim's reverie to the appearance of the rattlesnake feels abrupt
+    - [STRUCTURE]:
+        • The narrative jumps between different topics (e.g., Jim's thoughts, the snake, the boy's song)
+    - [CLARITY]:
+        • Some sentences or phrases are unclear or require close reading to understand
+
+Section section_06 (Chars 37758–45332):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [SPELLING]:
+        • non-standard dialect spellings
+    - [LEXICON]:
+        • informal language and slang
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt scene transitions
+    - [STRUCTURE]:
+        • lack of clear sectioning or division between scenes
+    - [CLARITY]:
+        • occasional unclear character motivations
+
+Section section_07 (Chars 45333–53297):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [SPELLING]:
+        • occasional non-standard spellings (e.g., "woulded" instead of "would")
+    - [LEXICON]:
+        • some informal language and dialectical expressions (e.g., "Bime-by", "yer", "jus'")
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transitions between scenes and ideas
+    - [CLARITY]:
+        • some sentences are wordy or unclear
+    - [LOGIC]:
+        • occasional inconsistencies in character behavior and actions
+
+Section section_08 (Chars 53298–61004):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [SPELLING]:
+        • occasional typos (e.g., "t'ump" instead of "thump")
+    - [SYNTAX]:
+        • some sentences are wordy or awkwardly phrased
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between scenes
+    - [STRUCTURE]:
+        • non-chronological events
+    - [CLARITY]:
+        • some sentences are unclear or hard to follow
+
+Section section_09 (Chars 61004–68972):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [SPELLING]:
+        • non-standard spellings (e.g., "dassent", "tergedder")
+    - [LEXICON]:
+        • informal language and dialectical expressions (e.g., "yaller bone-heap", "git me wits tergedder")
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transitions between scenes and storylines
+    - [CLARITY]:
+        • some sentences are wordy or unclear
+    - [LOGIC]:
+        • occasional inconsistencies in character actions and decisions
+
+Section section_10 (Chars 68973–76514):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [SPELLING]:
+        • non-standard spellings (e.g., "t'ree", "dere", "cuddented")
+    - [LEXICON]:
+        • informal language and dialects (e.g., "kin", "cuss")
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between scenes
+    - [STRUCTURE]:
+        • non-linear narrative progression
+    - [CLARITY]:
+        • occasional ambiguity in character dialogue
+
+Section section_11 (Chars 76514–82623):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [SPELLING]:
+        • minor typos (e.g., "orry-eyed" instead of "orry-eyed" is not a typo, but "dey" instead of "they" is)
+    - [LEXICON]:
+        • occasional informal language
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transition between scenes
+    - [CLARITY]:
+        • some sentences are wordy or unclear
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

@@ -1,0 +1,183 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    b) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The report is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–8447):
+Section Summary: Jean-Louis-Ernest Meissonier, a French painter, was known for his meticulous and realistic approach to art, as evident in his insistence on studying nature precisely as it is. Born in 1815 in Lyons, Meissonier's early life was marked by a humble beginning, with his father being a dealer in colonial products and chemicals. He discovered his passion for art at a young age, using his mother's old paint-box to create, and despite his father's initial disapproval, he pursued his artistic talent. Meissonier's artistic style was shaped by his commitment to realism, which set him apart from other artists of his time, including the romantic and classicist movements. His dedication to capturing reality accurately would become a hallmark of his successful and fruitful career as a painter.
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor sentence structure complexity
+    - [LEXICON]:
+        • some archaic vocabulary usage
+    - [SYNTAX]:
+        • occasional long sentence lengths
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt chapter transitions
+    - [STRUCTURE]:
+        • non-chronological storytelling
+    - [CLARITY]:
+        • occasional ambiguity in sentence meaning
+
+Section section_02 (Chars 8447–16883):
+Section Summary: Meissonier, a young artist, overcame his father's opposition to pursue his passion for art, studying under Julien Petier and Léon Cogniet. He struggled financially, but found opportunities to decorate fans and create illustrations for publishers, which helped him make a living. Meissonier's big break came when he was commissioned to create illustrations for a de luxe edition of "The Indian Cabin", which earned him recognition and praise for his detailed and realistic drawings. His success led to more opportunities, including illustrating other notable works such as "Frenchmen Painted by Themselves" and "The Fallen Angel". With his first step on the path to glory, Meissonier was able to establish himself as a talented artist and no longer had to solicit work.
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor errors in sentence structure
+    - [LEXICON]:
+        • some words may be less familiar to modern readers
+    - [SYNTAX]:
+        • occasional complex sentence constructions
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between paragraphs
+    - [STRUCTURE]:
+        • some sections feel disconnected from the main narrative
+    - [CLARITY]:
+        • a few sentences are wordy or unclear
+
+Section section_03 (Chars 16883–25494):
+Section Summary: Meissonier experimented with etching, producing a limited number of works that are now highly sought after by collectors. His etchings, such as "The Violin" and "The Signor Annibale", showcase his skill and delicacy. Meissonier's paintings, often small in scale, were initially met with rejection, but he eventually gained recognition and acclaim, with critics praising his attention to detail and ability to convey intensity. Despite concerns that his paintings were too small, Meissonier's use of scale was intentional, allowing him to create intimate and detailed scenes that draw the viewer in. His small-scale paintings have been defended by critics, who argue that they are perfectly proportioned to convey the artist's message and create a sense of intensity.
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor sentence structure complexity
+    - [LEXICON]:
+        • some words may be less familiar to non-native speakers
+    - [SYNTAX]:
+        • occasional long sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between discussing etchings and paintings
+    - [STRUCTURE]:
+        • some paragraphs seem disconnected from the main narrative
+    - [CLARITY]:
+        • occasional ambiguity in sentence meaning
+
+Section section_04 (Chars 25495–32766):
+Section Summary: In 1840, Meissonier submitted several paintings to the Salon, including "A Reader", "Saint Paul", and "Isaiah", but the latter two were dull and commonplace, suggesting he was trying to paint in a different style to prove a point. Fortunately, his genre painting "The Reader" was well-received, earning him a third-class medal and encouraging him to stay true to his unique style. Meissonier's subsequent paintings, such as "The Game of Chess" and "A Smoker", were highly acclaimed, showcasing his ability to capture individuality and intensity in his scenes. Art critic Théophile Gautier praised Meissonier's work, noting his ability to compose pictures with a deep understanding of character and atmosphere. Meissonier's success continued to grow, with each new painting earning him greater distinction and recognition as a master artist.
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor sentence structure issues
+    - [LEXICON]:
+        • occasional use of outdated vocabulary
+    - [SYNTAX]:
+        • some sentences are lengthy and convoluted
+  Coherence Issues:
+    - [LOGIC]:
+        • occasional abrupt transitions between ideas
+    - [STRUCTURE]:
+        • the text jumps between different time periods and topics
+    - [CLARITY]:
+        • some sentences are wordy and difficult to follow
+
+Section section_05 (Chars 32767–40880):
+Section Summary: The artist Meissonier is known for his detailed and realistic paintings of everyday life in 18th century France, often depicting modest interiors and ordinary people. His works, such as "The Confidence" and "The Game of Cards", showcase his ability to capture subtle expressions and emotions. Meissonier's paintings also include military scenes, such as "Napoleon III at Solférino", which he created after attaching himself to the Imperial Staff during the Italian campaign of 1859. The artist was a prolific painter, producing over 400 works, and was recognized for his talent, receiving numerous honors and awards, including membership in the Academy of Fine Arts. Meissonier's attention to detail and commitment to accuracy are evident in his paintings, which offer a glimpse into the lives of ordinary people and historical events of the time.
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor punctuation errors
+    - [LEXICON]:
+        • occasional use of less common vocabulary
+    - [SYNTAX]:
+        • some sentences are lengthy and convoluted
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition to the "MILITARY PAINTINGS" chapter
+    - [STRUCTURE]:
+        • lack of clear connection between some paragraphs
+    - [CLARITY]:
+        • some sentences are wordy and difficult to follow
+
+Section section_06 (Chars 40880–49182):
+Section Summary: Meissonier, a skilled artist, was known for his attention to detail and perseverance. He once maneuvered a chance encounter with Emperor Napoleon III, which led to an impromptu sitting that helped him complete a painting. Meissonier was also a patriot who undertook active service during the Franco-Prussian War and later became a colonel in the National Guard. Despite criticism of his lack of color and grace, Meissonier's work is notable for its realistic and detailed depiction of soldiers, horses, and other subjects. His dedication to exactitude and documentation was a hallmark of his artistic career, which was marked by numerous achievements, including being chosen as president of the Exposition Universelle des Beaux-Arts in 1889.
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor punctuation errors
+    - [LEXICON]:
+        • occasional use of less common vocabulary
+    - [SYNTAX]:
+        • some sentences are lengthy and complex
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between paragraphs
+    - [STRUCTURE]:
+        • non-chronological ordering of events
+    - [CLARITY]:
+        • some sentences are wordy and unclear
+
+Section section_07 (Chars 49183–52681):
+Section Summary: Meissonier was a painter who was extremely meticulous about costumes and accessories, often going to great lengths to ensure historical accuracy in his work. He had a vast collection of relics and clothing from the Imperial Epoch, which he used to inform his paintings. Meissonier's attention to detail was so intense that he even researched the way linen was cut in the 18th century to achieve more realistic folds in his subjects' clothing. Despite his thorough preparation, he was often dissatisfied with his finished paintings, and was known to have destroyed works that others considered perfect. This level of dedication and self-criticism defines Meissonier's talent and glory as an artist.
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor sentence structure complexity
+    - [LEXICON]:
+        • some archaic vocabulary usage
+  Coherence Issues:
+    - [TRANSITION]:
+        • abrupt shift between describing Meissonier's costume collection and his working library
+    - [CLARITY]:
+        • occasional ambiguity in sentence meaning due to lengthy descriptions
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

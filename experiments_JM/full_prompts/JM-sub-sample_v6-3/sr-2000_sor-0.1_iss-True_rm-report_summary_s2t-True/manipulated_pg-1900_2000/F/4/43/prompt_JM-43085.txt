@@ -1,0 +1,102 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) Read and understand the summary of the text the report was created for.
+    b) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    c) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The summary of the text to be evaluated is given below:
+Summary: Jean-Louis-Ernest Meissonier was a French painter born in 1815 in Lyons. He is known for his meticulous and realistic artwork, particularly in depicting military scenes. Meissonier's early life was marked by a strong desire to become an artist, despite his father's initial disapproval. His mother, who died when he was young, had a fondness for art and music, which may have influenced his early interest in painting.
+
+Meissonier's father, a dealer in colonial products and chemicals, wanted him to pursue a more practical career. However, the young Meissonier was determined to become an artist and eventually convinced his father to allow him to study art. He began by taking lessons from a local artist, Julien Petier, and later moved to Paris to continue his studies.
+
+In Paris, Meissonier worked with several artists, including Léon Cogniet, and developed his skills by drawing and painting from life. He was particularly drawn to depicting military scenes and was inspired by the Napoleonic era. Despite facing financial difficulties, Meissonier persevered and eventually gained recognition for his work.
+
+Meissonier's big break came when he met the art publisher, Curmer, who was impressed by his talent and offered him a commission. This led to Meissonier's work being published in various magazines and books, and he eventually gained a reputation as a skilled and meticulous artist.
+
+Meissonier's approach to art was characterized by his attention to detail and his commitment to realism. He believed in studying nature and depicting it accurately, rather than relying on imagination or fantasy. This approach is evident in his artwork, which is marked by its precision and attention to detail.
+
+Throughout his career, Meissonier was driven by a desire to create accurate and realistic depictions of the world around him. He was particularly interested in capturing the essence of military life and the Napoleonic era, and his artwork reflects this fascination. Despite facing challenges and setbacks, Meissonier remained committed to his art and eventually achieved recognition as one of the leading artists of his time.
+
+Meissonier's story is one of perseverance and dedication to his craft. He faced many obstacles, including financial difficulties and initial rejection by the art world, but he never gave up on his dream of becoming a successful artist. His legacy is a testament to the power of hard work and determination, and his artwork continues to be admired and studied by art lovers around the world.
+
+In addition to his artistic talents, Meissonier was also known for his strong personality and his commitment to his values. He was a man of strong convictions and was not afraid to speak his mind, even if it meant going against the prevailing trends of the art world. This independence and confidence are reflected in his artwork, which is marked by its unique perspective and attention to detail.
+
+Overall, Meissonier's life and work are a fascinating example of the power of creativity and determination. His artwork continues to inspire and delight audiences around the world, and his legacy serves as a reminder of the importance of staying true to one's vision and values. Meissonier's approach to art was innovative and influential, and his impact can still be seen in the work of artists today. His commitment to realism and attention to detail raised the bar for artists and challenged them to strive for excellence in their work.
+
+The report for the text is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–8447):
+Section Summary: Jean-Louis-Ernest Meissonier, a French painter, was known for his meticulous and realistic approach to art, as evident in his insistence on studying nature precisely. Born in 1815 in Lyons, Meissonier's early life was marked by a humble beginning, with his father being a dealer in colonial products and chemicals. He discovered his passion for art at a young age, using his mother's old paint-box to create, despite his father's initial disapproval due to the tumultuous state of the art world at the time. Meissonier's talent for drawing was recognized by his teachers, but his father attempted to steer him towards a more practical career as a druggist's apprentice. Ultimately, Meissonier's dedication to his craft and his commitment to realism would become the hallmark of his successful and fruitful career as an artist.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • incomplete sentence
+    - [SYNTAX]:
+        • awkward phrasing
+    - [LEXICON]:
+        • unclear word choice
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt shift in topic
+    - [STRUCTURE]:
+        • disjointed paragraphs
+    - [CLARITY]:
+        • ambiguous transitions
+
+Section section_02 (Chars 8447–12899):
+Section Summary: Meissonier, a young artist, overcame his father's opposition to pursue his passion for art, studying under Julien Petier and later Léon Cogniet. During his time at Cogniet's studio, Meissonier developed his skills by drawing soldiers and horses in uniform, which sparked his interest in depicting the Napoleonic Epic. Despite struggling financially, Meissonier shared his poverty with friends, including Daumier and Daubigny, and found ways to make a living, including decorating fans and creating religious figures for publishers. His big break came when he met with the art-publisher Curmer, although initially rejected, a conversation about life-masks led to an opportunity. Meissonier's early work, including "A Visit to the Burgomaster," was exhibited at the Salon in 1834, but it wasn't until later that he gained recognition from editors and the public.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Inconsistent verb tense usage
+    - [SYNTAX]:
+        • Complex sentence structures
+    - [LEXICON]:
+        • Some words are outdated or less common
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between paragraphs
+    - [STRUCTURE]:
+        • Non-chronological ordering of events
+    - [CLARITY]:
+        • Some sentences are wordy or unclear
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

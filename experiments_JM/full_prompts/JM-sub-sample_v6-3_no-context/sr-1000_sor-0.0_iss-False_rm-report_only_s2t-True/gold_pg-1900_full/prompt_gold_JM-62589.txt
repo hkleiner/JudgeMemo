@@ -1,0 +1,476 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    b) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The report is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–3655):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Some sentences are long and convoluted
+    - [LEXICON]:
+        • A few words may be unfamiliar to modern readers
+    - [SYNTAX]:
+        • Occasional awkward phrasing
+  Coherence Issues:
+    - [LOGIC]:
+        • Some transitions between ideas could be smoother
+    - [STRUCTURE]:
+        • The narrative jumps abruptly from dialogue to action
+    - [CLARITY]:
+        • A few sentences are wordy or unclear
+
+Section section_02 (Chars 3656–7633):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor punctuation errors
+    - [LEXICON]:
+        • some outdated vocabulary
+    - [SYNTAX]:
+        • occasional complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between Debby's past and present
+    - [STRUCTURE]:
+        • non-linear narrative flow
+    - [CLARITY]:
+        • some sentences are wordy or unclear
+
+Section section_03 (Chars 7633–11647):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • occasional use of archaic language may cause readability issues
+    - [LEXICON]:
+        • some words and phrases may be unfamiliar to modern readers
+    - [SYNTAX]:
+        • long, complex sentences can disrupt the flow
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transition between Debby's thoughts and the description of the environment
+    - [CLARITY]:
+        • some sentences are wordy or contain multiple ideas, making them hard to follow
+    - [TRANSITION]:
+        • the shift from Debby's conversation with Mrs. Lane to her solo thoughts could be smoother
+
+Section section_04 (Chars 11648–15705):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • occasional awkward sentence structure
+    - [LEXICON]:
+        • some archaic vocabulary
+    - [SYNTAX]:
+        • lengthy sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt shift in tone
+    - [STRUCTURE]:
+        • disjointed scene transitions
+    - [CLARITY]:
+        • unclear character motivations
+
+Section section_05 (Chars 15706–19575):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [LEXICON]:
+        • some archaic vocabulary
+    - [SYNTAX]:
+        • occasional awkward sentence structure
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between Debby's decision and her emotional state
+    - [STRUCTURE]:
+        • non-linear narrative flow
+    - [CLARITY]:
+        • some ambiguity in character motivations
+
+Section section_06 (Chars 19576–23524):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Inconsistent verb tense usage
+    - [SYNTAX]:
+        • Awkward sentence structure in some places
+    - [LEXICON]:
+        • Some words or phrases feel slightly archaic or less common
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between scenes or storylines
+    - [STRUCTURE]:
+        • Disjointed narrative flow due to lack of clear connections between sections
+    - [CLARITY]:
+        • Some sentences or paragraphs are unclear or confusing
+
+Section section_07 (Chars 23525–27554):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [LEXICON]:
+        • some words may be unfamiliar to modern readers
+    - [SYNTAX]:
+        • occasional long or convoluted sentences
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transition between scenes
+    - [CLARITY]:
+        • some sentences are wordy or unclear
+    - [LOGIC]:
+        • character motivations could be more explicitly stated
+
+Section section_08 (Chars 27555–31318):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [LEXICON]:
+        • some words may be unfamiliar to modern readers
+    - [SYNTAX]:
+        • occasional complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt introduction of the second character
+    - [STRUCTURE]:
+        • some scenes feel disconnected
+    - [CLARITY]:
+        • unclear motivations of some characters
+
+Section section_09 (Chars 31319–35086):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • "o'er" is an archaic or poetic way of saying "over"
+    - [SPELLING]:
+        • "clinched" should be "clenched"
+    - [SYNTAX]:
+        • Some sentences are long and convoluted
+  Coherence Issues:
+    - [LOGIC]:
+        • The transition between Robert's concern for Mason and his interaction with Morley feels abrupt
+    - [STRUCTURE]:
+        • The chapter ends somewhat abruptly, without clear resolution
+    - [CLARITY]:
+        • Some sentences are wordy or unclear, making it hard to follow the action
+
+Section section_10 (Chars 35087–38939):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Missing articles in some places
+    - [LEXICON]:
+        • Some words may be less familiar to modern readers
+    - [SYNTAX]:
+        • A few long sentences with complex structures
+  Coherence Issues:
+    - [LOGIC]:
+        • Some transitions between scenes feel a bit abrupt
+    - [CLARITY]:
+        • A few characters' motivations could be clearer
+    - [STRUCTURE]:
+        • The narrative jumps between different characters' perspectives
+
+Section section_11 (Chars 38940–42871):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor punctuation errors
+    - [LEXICON]:
+        • occasional word choice awkwardness
+    - [SYNTAX]:
+        • few instances of complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between scenes
+    - [STRUCTURE]:
+        • slight disjointedness between dialogue and narrative
+    - [CLARITY]:
+        • occasional ambiguity in character intentions
+
+Section section_12 (Chars 42872–46840):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [LEXICON]:
+        • some words may be less familiar to modern readers
+    - [SYNTAX]:
+        • occasional complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt shift in tone when Robert starts laughing
+    - [TRANSITION]:
+        • quick change from Robert's exhaustion to his interaction with Jack Martin
+    - [CLARITY]:
+        • some sentences are wordy or contain multiple ideas
+
+Section section_13 (Chars 46841–50901):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Minor punctuation errors
+    - [LEXICON]:
+        • Some word choices seem slightly archaic or less common
+    - [SYNTAX]:
+        • A few sentences have complex structures that may impede smooth reading
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between the battle description and the personal conflict between Robert and Jack
+    - [STRUCTURE]:
+        • The narrative jumps between the larger historical context and individual character storylines
+    - [CLARITY]:
+        • Some sentences are wordy or contain multiple ideas, potentially causing confusion
+
+Section section_14 (Chars 50902–54942):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Missing articles in some places
+    - [LEXICON]:
+        • Some words may be less familiar to modern readers
+    - [SYNTAX]:
+        • A few long, complex sentences
+  Coherence Issues:
+    - [STRUCTURE]:
+        • Abrupt transition between scenes
+    - [CLARITY]:
+        • Some sentences are wordy or unclear
+    - [LOGIC]:
+        • Time and setting shifts without clear connections
+
+Section section_15 (Chars 54942–59150):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Missing articles in some places
+    - [LEXICON]:
+        • Some words may be considered archaic or less common
+    - [SYNTAX]:
+        • Long, complex sentences
+  Coherence Issues:
+    - [STRUCTURE]:
+        • Abrupt transition between scenes
+    - [CLARITY]:
+        • Some sentences are wordy or unclear
+    - [LOGIC]:
+        • Time jumps without clear connections
+
+Section section_16 (Chars 59151–63259):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Missing articles in some places
+    - [LEXICON]:
+        • Some words may be less common or archaic
+    - [SYNTAX]:
+        • Long sentences with multiple clauses
+  Coherence Issues:
+    - [STRUCTURE]:
+        • Abrupt transition to the next chapter
+    - [CLARITY]:
+        • Some sentences are wordy or unclear
+    - [LOGIC]:
+        • Time jumps and unclear timelines
+
+Section section_17 (Chars 63260–67228):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [LEXICON]:
+        • some words feel overly formal or antiquated
+    - [SYNTAX]:
+        • a few sentences have complex structures that hinder flow
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between Robert's thoughts and actions
+    - [STRUCTURE]:
+        • the narrative jumps quickly between different scenes
+    - [CLARITY]:
+        • some character motivations and backstory are unclear
+
+Section section_18 (Chars 67228–71111):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor punctuation errors
+    - [LEXICON]:
+        • some word choices may be less common or slightly archaic
+    - [SYNTAX]:
+        • a few sentences have complex structures
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt shift from Morley's death to Shirtliffe's realization of his condition
+    - [TRANSITION]:
+        • some transitions between scenes or ideas could be smoother
+    - [CLARITY]:
+        • a few sentences are wordy or contain multiple ideas
+
+Section section_19 (Chars 71112–75169):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor tense inconsistencies
+    - [LEXICON]:
+        • some outdated vocabulary
+    - [SYNTAX]:
+        • occasional complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • slight disconnect between scenes
+    - [TRANSITION]:
+        • abrupt shift in narrative focus
+    - [CLARITY]:
+        • occasional ambiguity in character motivations
+
+Section section_20 (Chars 75170–79281):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Missing or incorrect articles in some places
+    - [LEXICON]:
+        • Some word choices seem slightly archaic or less common
+    - [SYNTAX]:
+        • A few sentences have complex structures that may hinder smooth reading
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between Debby's backstory and the scene with Washington
+    - [STRUCTURE]:
+        • The narrative jumps between different scenes and ideas without clear connections
+    - [CLARITY]:
+        • Some parts of the story, like Debby's relationships and motivations, could be clearer
+
+Section section_21 (Chars 79282–83062):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • occasional awkward sentence structure
+    - [LEXICON]:
+        • some outdated vocabulary
+    - [SYNTAX]:
+        • minor issues with punctuation
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt shift in scene without clear transition
+    - [STRUCTURE]:
+        • some disjointedness in narrative flow
+    - [CLARITY]:
+        • occasional ambiguity in character motivations
+
+Section section_22 (Chars 83063–83532):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Missing articles in some places
+    - [SYNTAX]:
+        • Some sentence structures are poetic but slightly awkward
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt shift in tone between sentences
+    - [TRANSITION]:
+        • Lack of clear connection between the first and second paragraphs
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

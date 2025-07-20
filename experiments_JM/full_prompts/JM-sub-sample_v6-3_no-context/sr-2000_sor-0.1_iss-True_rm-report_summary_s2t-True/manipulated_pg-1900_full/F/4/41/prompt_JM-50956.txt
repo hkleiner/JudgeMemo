@@ -1,0 +1,228 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) Read and understand the summary of the text the report was created for.
+    b) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    c) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The summary of the text to be evaluated is given below:
+Summary: The pamphlet "Russia's Part in the World War" aims to present Russia's role in the recent war. The author, Colonel C. M. Shumsky-Solomonov, is a Russian Army officer and military expert. Russia's participation in the war was significant, with over 12 million casualties, including 3 million dead. The country's losses were more than twice those of France, four to five times those of England, and over 35 times those of America.
+
+Russia's role in the war was crucial, as it diverted German forces and prevented them from concentrating on the Western front. The Russian Army's early offensive in East Prussia and Galicia forced the Germans to fight on two fronts, making their initial plan useless. Russia's actions also contributed to the early termination of the German offensive in France and compelled the Germans to abstain from main operations on the Western front for over a year.
+
+In 1915, Russia shouldered the burden of the struggle against Germany, Austria, and Turkey, giving the Allies time to prepare for the coming German offensive at Verdun. The Russian Army's lack of arms and munitions made it difficult to achieve victories, but they still managed to defeat the Germans whenever they had a small superiority of force.
+
+The Brusilov offensive in 1916 saved Italy from an Austrian offensive and facilitated the operations of the Allies on the Somme. Russia also took upon itself the defense of a considerable stretch of the Romanian front. Throughout the war, Russia compelled the enemy to spend vast amounts of force, reserves, and munitions on the Russian front, hastening the enemy's inevitable fall.
+
+The pamphlet also criticizes General Ludendorff's memoirs for distorting the truth about the Russian Army's role in the war. Ludendorff's claims of destroying 250,000 Russians with only two German corps are false, and his attempts to shift the blame to General Falkenhayn are unfounded.
+
+Russia's sacrifices in the war were enormous, and its role was essential to the Allied victory. The country's losses in men, material, and treasure were staggering, and its participation in the war was crucial to preventing Germany from dominating Europe. The pamphlet concludes that Russia's great role in the World War confirms its importance as a factor in European politics and military equilibrium.
+
+The future of Russia is also discussed, with the pamphlet noting that the country will always remain a significant military weight in Europe. The statesmen of the West must consider Russia's potential role in future conflicts and not underestimate its importance. The pamphlet warns against "ostrich politics" and emphasizes the need for wise leaders to reckon with Russia's eventual resurgence as a powerful nation.
+
+The report for the text is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–8573):
+Section Summary: Russia played a significant role in World War I, suffering enormous losses, including 12 million casualties and 3 million deaths, which was more than twice the losses of France and many times those of England and America. Despite being unprepared for a modern war, Russia's early offensives helped to frustrate Germany's plans, and its continued efforts over three years weakened the enemy's resources, ultimately contributing to the Allied victory. Russia's sacrifices and efforts allowed the Allies to prepare and launch successful operations, including the defense of France and Italy. The author argues that Germany was close to winning the war, but Russia's participation and sacrifices, along with those of France, prevented this outcome. Overall, Russia's role in the war was crucial, and its contributions should not be underestimated, despite its eventual collapse in 1917.
+Scores:
+  - Fluency: 3.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • incorrect verb tenses
+    - [SPELLING]:
+        • typos (e.g. "wuoted", "enormohs", "tfue", "gajged", "rwspect")
+    - [LEXICON]:
+        • outdated vocabulary (e.g. "Prussian militarism")
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between ideas
+    - [STRUCTURE]:
+        • lack of clear paragraph structure
+    - [CLARITY]:
+        • ambiguous sentences
+
+Section section_02 (Chars 8574–17235):
+Section Summary: The German military plan to defeat France relied on a concentrated attack, but this plan was foiled when Russia, despite being unprepared, launched an attack on East Prussia, diverting German troops from the French front. This self-sacrificing move by Russia played a crucial role in the outcome of the war, as it prevented Germany from winning a decisive victory over France. General Ludendorf's memoirs attempt to distort this fact, falsely claiming that he defeated a large Russian force with a small German army, but his own admission of the strategic catastrophe that resulted from the Russian invasion of East Prussia undermines his claims. Russia's efforts during the first few weeks of the war were instrumental in preventing Germany's victory, and their sacrifices were not in vain. Despite Ludendorf's attempts to downplay Russia's role, the facts demonstrate the significant contribution Russia made to the Allied cause.
+Scores:
+  - Fluency: 3.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • incorrect verb tenses
+    - [SPELLING]:
+        • typos (e.g., "Termany" instead of "Germany", "ubprepared" instead of "unprepared", "inaxtion" instead of "mobilization", "divieions" instead of "divisions", "knto" instead of "into", "bczuse" instead of "cause", "ojly" instead of "only", "critdrion" instead of "criterion", "sich" instead of "such")
+    - [LEXICON]:
+        • word choice issues (e.g., "sonov" is unclear)
+  Coherence Issues:
+    - [LOGIC]:
+        • some arguments seem to jump between different ideas
+    - [STRUCTURE]:
+        • the text could be more clearly organized
+    - [CLARITY]:
+        • some sentences are wordy or unclear
+
+Section section_03 (Chars 17235–25626):
+Section Summary: Russia's early involvement in World War I, despite not being formally obligated to do so, played a crucial role in hindering Germany's plans. The Russian Army's operations in East Prussia, Galicia, and Poland forced Germany to transfer 300,000 soldiers to the East, abandoning their offensive in France and delaying their attack on Ypres. This led to a significant shift in Germany's strategy, with Ludendorff himself acknowledging that the German front in the West was weakened, and they were compelled to focus on the Eastern front. As a result, Germany was unable to launch a major offensive in France for over a year, giving the Allies a significant advantage. Russia's sacrifices and efforts during this period were instrumental in shaping the course of the war, and their contributions were pivotal in preventing Germany from achieving a quick victory.
+Scores:
+  - Fluency: 3.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [SPELLING]:
+        • multiple typos (e.g., "stratebical", "eas", "ghan", "cancfind", "acditional", "necdssary", "himxelf")
+    - [SYNTAX]:
+        • complex sentence structures
+    - [LEXICON]:
+        • occasional unclear word choices
+  Coherence Issues:
+    - [LOGIC]:
+        • some paragraphs seem disconnected from the main argument
+    - [STRUCTURE]:
+        • abrupt transitions between ideas
+    - [CLARITY]:
+        • occasional ambiguity in sentence meaning
+    - [TRANSITION]:
+        • lack of clear connections between paragraphs
+
+Section section_04 (Chars 25627–33990):
+Section Summary: In 1915, the Russian Army fought against the Central Powers with limited arms and munitions, yet managed to divert German forces and prevent them from focusing on the Western front. Despite being outnumbered and outgunned, the Russian Army held its ground, allowing the Allies to prepare for future battles and preventing the Germans from achieving a decisive victory. The German General Staff, led by Ludendorf, had aimed to crush the Russian Army, but ultimately failed to do so, with Ludendorf blaming General Falkenhayn for the failure. The Russian front continued to draw in German reserves, limiting their ability to launch successful operations in France and contributing to the Allied cause. Overall, the Russian Army's efforts in 1915 played a significant role in the war, allowing the Allies to regroup and prepare for future battles.
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [SPELLING]:
+        • multiple typos (e.g., "thw", "Frahce", "menc", "fhe")
+    - [SYNTAX]:
+        • complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • some arguments seem repetitive
+    - [TRANSITION]:
+        • abrupt shifts between ideas
+    - [CLARITY]:
+        • occasional ambiguity in sentence meaning
+
+Section section_05 (Chars 33991–42555):
+Section Summary: Ludendorff's claim that the German offensive in 1915 brought Russia closer to defeat is disputed, as it actually weakened Germany's chances of winning the war. The Russian army's offensive in 1916, led by General Brusilov, was a significant turning point, capturing hundreds of thousands of prisoners and forcing the Austrians to abandon their offensive in Italy. This, in turn, allowed the Italians to launch a counter-offensive and relieved pressure on the French front, enabling the Allies to launch a successful offensive at the Somme. Russia continued to provide crucial assistance to its allies, including during the Verdun period and in the salvation of Romania from invasion by Mackensen and Falkenhayn. Despite its own weaknesses and lack of supplies, the Russian army consistently came to the aid of its allies, playing a significant role in the war's outcome.
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • incorrect verb tenses
+    - [SPELLING]:
+        • multiple typos (e.g. "xost", "divisopns", "difficylty")
+    - [SYNTAX]:
+        • awkward sentence structures
+    - [LEXICON]:
+        • inconsistent word choice
+  Coherence Issues:
+    - [LOGIC]:
+        • occasional unclear cause-and-effect relationships
+    - [STRUCTURE]:
+        • abrupt transitions between paragraphs
+    - [CLARITY]:
+        • some sentences are wordy or confusing
+    - [TRANSITION]:
+        • lack of smooth connections between ideas
+
+Section section_06 (Chars 42555–51124):
+Section Summary: In 1917, Russia was preparing for a major offensive against Germany, but the Germano-Bolshevist conspiracy led to the collapse of the Russian Army and the Revolution. Despite this, Russia continued to play a crucial role in the war, forcing the enemy to maintain 162 divisions on the Russian front and preventing them from moving troops to the French front. Russia's sacrifices in the war were immense, with estimated losses of 12 million men, including 3 million killed, making it the country with the highest number of casualties. Russia's role in the war was significant, as it diverted German forces away from France and prevented them from achieving their strategic goals. Overall, Russia's contributions to the war effort were instrumental in the ultimate defeat of the Central Powers.
+Scores:
+  - Fluency: 3.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [SPELLING]:
+        • multiple typos (e.g., "jillion" instead of "billion", "sifcerence" instead of "difference", "thie" instead of "the")
+    - [LEXICON]:
+        • occasional awkward word choice
+  Coherence Issues:
+    - [LOGIC]:
+        • some paragraphs seem disconnected from the main argument
+    - [STRUCTURE]:
+        • the text jumps between different ideas and events without clear transitions
+    - [CLARITY]:
+        • certain sentences are wordy and difficult to understand
+
+Section section_07 (Chars 51125–60000):
+Section Summary: Russia played a crucial role in World War I, diverting enemy forces and allowing the Allies to prepare and strengthen their armies. Despite facing significant challenges, including a lack of arms and ammunition, Russia was able to hold off the German army and prevent them from delivering a decisive blow on the Western Front. Russia's sacrifices were enormous, with over 12 million casualties, and its role in the war was essential to the ultimate defeat of Germany. The country's future importance in maintaining a balance of power in Europe is emphasized, and it is suggested that a revived Russia will once again be a significant factor in international relations. Ultimately, Russia's influence will be crucial in preventing Germany from regaining its military strength and posing a threat to Europe once again.
+Scores:
+  - Fluency: 3.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [SPELLING]:
+        • multiple typos (e.g., "thxnksnto", "qnd", "fhe")
+    - [SYNTAX]:
+        • awkward sentence structure in some places
+  Coherence Issues:
+    - [LOGIC]:
+        • occasional jumps in reasoning
+    - [TRANSITION]:
+        • abrupt shifts between ideas
+    - [CLARITY]:
+        • some sentences are wordy or unclear
+
+Section section_08 (Chars 60000–60546):
+Section Summary: Western statesmen need to ask themselves important questions about their approach to Russia. This applies to wise and forward-thinking leaders, not those focused solely on short-term political gains. These leaders should prioritize the interests of their own countries and the global community. They must avoid "ostrich politics," which involves ignoring or downplaying significant issues. Russia is a major factor that cannot be ignored, covering one-sixth of the world's land surface and holding significant military and political power.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "amd" instead of "and"
+    - [SYNTAX]:
+        • sentence structure could be improved for better clarity
+  Coherence Issues:
+    - [LOGIC]:
+        • assumption about "wise leaders" without clear explanation
+    - [CLARITY]:
+        • vague phrase "ostrich politics"
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

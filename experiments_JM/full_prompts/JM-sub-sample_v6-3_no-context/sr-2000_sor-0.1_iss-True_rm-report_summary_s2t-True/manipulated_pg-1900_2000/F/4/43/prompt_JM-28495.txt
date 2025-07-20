@@ -1,0 +1,92 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) Read and understand the summary of the text the report was created for.
+    b) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    c) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The summary of the text to be evaluated is given below:
+Summary: The story begins with the narrator and his wife, Stella, taking a tram to Battersea to visit the Home for Lost Dogs. They had been considering buying a dog and decided to adopt one from the home instead of purchasing a purebred. The conductor on the tram teases them about getting off at the "Home for Lost Dawgs." When they arrive, they try to find the home but get lost and decide to follow a man who appears to be an official from the home.
+
+As they follow the man, they engage in a series of awkward and humorous encounters, including being misled by a street boy and trying to surreptitiously track the man through the streets. The man eventually leads them on a wild goose chase, and they end up in a cul-de-sac, where he escapes into a villa. The narrator and Stella are left frustrated and exhausted.
+
+The woman of the house appears at the window, glares at them, and then closes the curtains, leaving them feeling embarrassed and defeated. They decide to give up and head home, taking a taxi back to the train station. As they walk home across the golf course, Stella is still upset and doesn't want to talk about dogs anymore.
+
+The narrator suggests advertising for a dog, but Stella is uninterested. As they pass by a small pond, Stella suddenly grabs the narrator's arm and points to something, but the story doesn't reveal what it is yet. The narrator is concerned about Stella's state and tries to comfort her, but she insists she's fine. The story ends with a sense of uncertainty and anticipation for what will happen next. The narrator's attempts to find a dog have been unsuccessful so far, and it's unclear what the future holds for them.
+
+The report for the text is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–8256):
+Section Summary: The narrator and his wife, Stella, are on a tram heading to Battersea to visit the Home for Lost Dogs, where they plan to buy a dog for five shillings. They had previously considered buying a purebred dog, but decided against it due to the high cost. After arriving in Battersea, they try to find the Home for Lost Dogs, but their attempts at getting directions are thwarted, including a humorous encounter with a mischievous street boy. They then spot a man wearing a uniform with the Battersea Home for Lost and Starving Dogs emblem and decide to follow him discreetly, hoping he will lead them to their destination. However, their attempts at surreptitious tracking prove to be challenging and comical.
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor punctuation errors
+    - [LEXICON]:
+        • some outdated vocabulary
+    - [SYNTAX]:
+        • occasional complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • slight inconsistencies in character actions
+    - [STRUCTURE]:
+        • abrupt transitions between scenes
+    - [CLARITY]:
+        • minor ambiguity in some sentences
+
+Section section_02 (Chars 8257–12617):
+Section Summary: Stella and the narrator were trying to follow a man who they believed was going to the Dogs' Home to collect a dog for them. However, they ended up chasing him through the streets, only to discover that he was actually returning to his home. The man and his wife deliberately shut them out, and Stella and the narrator were left exhausted and disappointed. After their failed adventure, they returned home, deciding to walk across the golf course, and Stella was still upset about the ordeal. The narrator suggests advertising for a dog, but Stella is hesitant, still shaken by their earlier experience.
+Scores:
+  - Fluency: 3.5
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense
+    - [SYNTAX]:
+        • run-on sentences
+    - [LEXICON]:
+        • unclear word choice in some phrases
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt scene changes
+    - [STRUCTURE]:
+        • lack of clear transitions between ideas
+    - [CLARITY]:
+        • confusing character actions and motivations
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

@@ -1,0 +1,208 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    b) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The report is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–8256):
+Section Summary: The narrator and his wife are on a tram heading to Battersea to visit the Home for Lost Dogs, where they plan to buy a dog for five shillings. They had previously considered buying a purebred dog, but decided against it due to the high cost. Upon arriving in Battersea, they try to find the Home for Lost Dogs, but their attempts at getting directions are met with mischief from a street boy. They then spot an official from the Home for Lost Dogs and decide to follow him discreetly, but this proves to be a challenging and humiliating task. As they continue to follow the official, they find themselves in various awkward situations, including being approached by a butcher trying to sell them a bullock's heart.
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor punctuation issues
+    - [LEXICON]:
+        • some outdated vocabulary
+    - [SYNTAX]:
+        • occasional complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • slight inconsistencies in character actions
+    - [STRUCTURE]:
+        • meandering narrative at times
+    - [CLARITY]:
+        • occasional ambiguity in scene transitions
+
+Section section_02 (Chars 8257–16549):
+Section Summary: The narrator and his wife Stella attempted to follow a man who they believed was going to the Dogs' Home, but they ended up on a wild goose chase through the streets. Eventually, the man led them to his home, where he and his wife disappeared inside, leaving the couple exhausted and dogless. Later that evening, while walking home across the golf course, they found a small, wet puppy that had been thrown into a pond with a brick tied to it. They took the puppy in and spent several days deciding on a name, eventually settling on Excalibur, or Excal for short. As the puppy grew up, it became a unique and humble-minded companion, with a rather unusual appearance.
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor punctuation errors
+    - [LEXICON]:
+        • some word choices may be less common or slightly archaic
+    - [SYNTAX]:
+        • a few long or complex sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between scenes or topics
+    - [STRUCTURE]:
+        • some sections feel disconnected from the main narrative
+    - [CLARITY]:
+        • occasional ambiguity in character motivations or actions
+
+Section section_03 (Chars 16550–24765):
+Section Summary: Excalibur, a large and affectionate dog, would often accompany his owner on walks, despite attempts to leave him behind. He was a gentle giant, with a strong desire to make friends, but was often rebuffed by other dogs due to his unusual appearance. Excalibur had a special fondness for children and babies, and would often play with them or try to interact with them in a friendly manner. One notable incident involved Excalibur being given a shoulder of mutton, which he devoured quickly, but then forgot where he had buried the bone, leading to a chaotic search. Excalibur's antics often caused humorous and embarrassing situations, including a notable incident where he hid a bone behind a cushion in the drawing room during a dinner party.
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor punctuation errors
+    - [LEXICON]:
+        • some sentences are wordy
+    - [SYNTAX]:
+        • a few instances of complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • occasional abrupt transitions between ideas
+    - [STRUCTURE]:
+        • some paragraphs seem disconnected from the rest
+    - [CLARITY]:
+        • a few sentences are unclear due to lengthy descriptions
+
+Section section_04 (Chars 24766–32660):
+Section Summary: Excalibur, a large and friendly dog, would often accompany his owner Eileen on daily walks, introducing him to the village and its inhabitants. One day, while on a walk, Excalibur jumped through a window into the room of a young curate, Mr. Gilmore, who was having breakfast. Eileen followed and apologized for the intrusion, but the curate was smitten with her and enjoyed their conversation. The two discussed their lives, with the curate sharing his experiences as a clergyman and his background, and Eileen learning more about him. The encounter marked the beginning of a connection between Eileen and the curate, with Excalibur playing a significant role in their meeting.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [LEXICON]:
+        • some words are outdated or less common
+    - [SYNTAX]:
+        • a few sentences are wordy or awkwardly structured
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between Excalibur's story and the young painter's biography
+    - [STRUCTURE]:
+        • the narrative jumps between different storylines
+    - [CLARITY]:
+        • some sentences are unclear or hard to follow due to complexity
+
+Section section_05 (Chars 32661–40869):
+Section Summary: Excalibur, the family dog, is struggling to adapt to his new role as a chaperon as Eileen and the curate spend more time together. He is often disrupted from his rest by their tennis and golf games, and even gets hit by golf balls, leading him to learn to walk behind the golfers. Meanwhile, Eileen and the curate are discussing their future together, with the curate revealing that he has a limited income and they will have to make sacrifices if they want to be together. The curate believes that living on a limited income would be too humiliating and difficult, and suggests that he may have to leave the area in order to improve their situation. Eileen agrees that they must wait and see what the future holds, but is clearly distressed at the thought of the curate leaving.
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Missing articles in some sentences
+    - [LEXICON]:
+        • Some words may be less familiar to modern readers
+    - [SYNTAX]:
+        • A few long, complex sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt shift from Excalibur's story to the curate's conversation with Eileen
+    - [STRUCTURE]:
+        • Non-sequential narrative jumps
+    - [CLARITY]:
+        • Some sentences are wordy or unclear
+
+Section section_06 (Chars 40870–49294):
+Section Summary: The curate and Eileen shared a secret about their future plans, which they decided not to disclose to others. The curate moved to London, where he worked hard and wrote cheerful letters to Eileen every Monday. Eileen and the curate's dog, Excalibur, remained in Much Moreham, and Eileen would read the curate's letters to Excalibur and write back to him every Friday. After five years, Eileen took Excalibur to London, where they were reunited with the curate, and Excalibur was overjoyed to see him. The reunion marked a new chapter in their lives, with Excalibur causing a sensation in London as he spent the day with the curate and Eileen.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [SYNTAX]:
+        • some sentences are wordy and hard to follow
+    - [LEXICON]:
+        • occasional use of outdated or obscure vocabulary
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between scenes and ideas
+    - [STRUCTURE]:
+        • lack of clear connection between some paragraphs
+    - [CLARITY]:
+        • some sentences are ambiguous or unclear
+
+Section section_07 (Chars 49295–57775):
+Section Summary: The story begins with a description of a wedding ceremony, but then shifts to a scene where a curate puts a woman named Eileen into a taxi and says goodbye. Meanwhile, a dog named Excalibur gets left behind and causes a commotion, leading the curate on a chase through the streets. The curate and Excalibur eventually board a train, which is involved in a serious accident, and they help rescue people from the wreckage. The curate meets a director of the railway company, Lord Caversham, who offers to reward him for his heroism, but the curate declines and departs with Excalibur. Later, Lord Caversham encounters Excalibur again in a northern town and tracks down the curate, who has been recovering from injuries sustained in the accident.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [SYNTAX]:
+        • complex sentence structures
+    - [LEXICON]:
+        • some words may be unfamiliar to non-native speakers
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between scenes
+    - [STRUCTURE]:
+        • lack of clear connection between some paragraphs
+    - [CLARITY]:
+        • some sentences are wordy or unclear
+
+Section section_08 (Chars 57776–61925):
+Section Summary: Lord Caversham has a conversation with the curate, who is seeking a better position to support his future wife. The curate is currently earning £120 a year and hopes to increase his income to £250. Lord Caversham agrees to consider helping the curate, but their conversation is cut short. Meanwhile, a tramp visits the rectory and asks for money, but is chased away by Eileen with the help of a large dog named Excalibur. The tramp quickly flees the scene, and Excalibur returns to sleep, having successfully defended the rectory.
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [LEXICON]:
+        • some words may be unfamiliar to non-native speakers
+    - [SYNTAX]:
+        • complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between scenes
+    - [STRUCTURE]:
+        • lack of clear connection between some paragraphs
+    - [CLARITY]:
+        • some sentences are wordy or unclear
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

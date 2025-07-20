@@ -1,0 +1,262 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    b) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The report is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–8539):
+Section Summary: The series of lectures on Hebraic thought and learning was founded in memory of Arthur Davis, a renowned Hebrew scholar who dedicated his life to promoting Jewish culture and language. Davis's work, including his writings on Hebrew accents and his role in editing the Festival Prayer Book, has contributed to the revival of Hebrew as a living language. The concept of a "Chosen People" has long been a source of irritation for non-Jews, with some critics arguing that it implies spiritual supremacy over other nations. However, this idea has also been echoed in other cultures, such as Germanism, which has evolved its own doctrine of special election. The lecture series aims to explore Jewish interests and promote a deeper understanding of Hebrew culture and language.
+Scores:
+  - Fluency: 3.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • incorrect verb conjugation
+    - [SPELLING]:
+        • multiple typos (e.g. "whosw", "tye", "Twdnty-one", "orose", "volymes", "wholw", "ztudent", "kur", "ayain", "somerhing", "dslivered")
+    - [LEXICON]:
+        • uncommon vocabulary (e.g. "recondite", "esoteric")
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between ideas
+    - [STRUCTURE]:
+        • lack of clear paragraph structure
+    - [CLARITY]:
+        • ambiguous sentences
+
+Section section_02 (Chars 8540–16668):
+Section Summary: The Bible contains passages that appear to promote violence and superiority, such as the destruction of cities and the slaughter of enemies. However, these passages must be considered in their historical context and not judged by modern standards. The concept of a Chosen People and other biblical ideas can only be truly understood by considering the time and place in which they were written. Judaism has evolved over time, incorporating spiritual and philosophical developments, and has moved beyond its more primitive stages, as seen in the Talmud and the teachings of post-biblical thinkers and saints. Ultimately, the Bible is a complex and multifaceted text that reflects the cultural and historical context of its authors, and its meaning and significance can only be fully appreciated by considering this context.
+Scores:
+  - Fluency: 3.5
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing or incorrect articles
+    - [SPELLING]:
+        • typos such as "womdn", "nationw", "pf", "qhich", "ckmpletely", "tjat", "distortee", "eveb", "rambling epical unity" could be "lacking a rambling epical unity"
+    - [SYNTAX]:
+        • some sentences are wordy or awkwardly phrased
+  Coherence Issues:
+    - [LOGIC]:
+        • some ideas seem disconnected or abrupt
+    - [STRUCTURE]:
+        • the text jumps between different topics and ideas
+    - [CLARITY]:
+        • certain sentences or phrases are unclear or confusing
+
+Section section_03 (Chars 16669–25118):
+Section Summary: The Old Testament, despite its reputation, contains the highest ethical note ever sounded, with a focus on universal salvation and a conception of a people chosen to serve humanity. The idea of Israel's mission is rooted in noble metaphors, such as "a light of the nations" and "a kingdom of priests," which emphasize the importance of justice, righteousness, and compassion. The Old Testament's ideal is not tribal, but rather a dynamic impulse for all civilization, with a focus on serving others and promoting the greater good. This ideal is reflected in Jewish liturgy and prayer, which emphasizes the importance of obedience to the Law and the pursuit of justice and righteousness. Ultimately, the essence of Judaism lies in an apostolic altruism, with the goal of serving the world and promoting the Kingdom of God, rather than seeking self-sufficiency or superiority.
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor punctuation errors
+    - [LEXICON]:
+        • some archaic vocabulary
+    - [SYNTAX]:
+        • occasional complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • occasional abrupt transitions between ideas
+    - [STRUCTURE]:
+        • some paragraphs lack clear topic sentences
+    - [CLARITY]:
+        • a few sentences are wordy or convoluted
+
+Section section_04 (Chars 25119–33325):
+Section Summary: The concept of a "tribal God" in Judaism is a misconception, as the God of the Bible is depicted as a universal deity who cares for all living creatures. The biblical account of God's promise to Abraham, which includes the assurance that "all the families of the earth" will be blessed, demonstrates this universalism. The Jewish tradition also emphasizes the importance of reason, love, and justice, as seen in the stories of Abraham, Moses, and other biblical figures. The idea of a chosen people is not based on racial or ethnic superiority, but rather on a shared commitment to a universal faith, with proselytes and non-Jews being welcomed and valued in Jewish tradition. Ultimately, the true God of Judaism is a God of justice, love, and reason, who is accessible to all people, regardless of their background or identity.
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor punctuation errors
+    - [LEXICON]:
+        • some complex vocabulary
+    - [SYNTAX]:
+        • occasional long sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • a few abrupt transitions between ideas
+    - [STRUCTURE]:
+        • some paragraphs lack clear topic sentences
+    - [CLARITY]:
+        • occasional ambiguity in sentence meaning
+
+Section section_05 (Chars 33326–41410):
+Section Summary: The concept of a "Chosen People" is not unique to the Jewish people, and other nations have also assigned a mission to themselves. The Jewish people's sense of mission and purpose is rooted in their literature and history, with the idea of being a "light unto the nations" and promoting the "sanctification of the Name" of God. This sense of mission is not limited to the Jewish people, as other nations, such as America and England, have also developed a sense of national purpose and mission over time. The development of a national mission is a gradual process, as seen in the history of these nations, and is often marked by a growing sense of national self-consciousness and a belief in special protection or favor from a higher power. Ultimately, the idea of a "Chosen People" is a complex and multifaceted concept that is shaped by a nation's history, literature, and cultural identity.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing or incorrect articles
+    - [SPELLING]:
+        • typos such as "comlaratively", "eeceives", "puerile" used inappropriately
+    - [LEXICON]:
+        • word choice issues, e.g., "broidering" instead of "interwoven"
+    - [SYNTAX]:
+        • complex sentence structures may hinder readability
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between ideas
+    - [STRUCTURE]:
+        • lack of clear paragraphing or topic sentences
+    - [CLARITY]:
+        • ambiguous references to historical figures and events
+    - [TRANSITION]:
+        • disconnected ideas between sentences and paragraphs
+
+Section section_06 (Chars 41411–49703):
+Section Summary: The poem "Rule, Britannia" reflects the swaggering militarism of 18th century Britain, which had evolved from a nation with a sense of divine mission to one driven by imperial ambitions. This period, marked by struggles with France and the establishment of colonies, saw the emergence of a sense of British exceptionalism, with the nation viewing itself as a "Chosen People". The concept of a national mission, however, is often retrospective, with nations ascribing purposes to themselves that they were not originally conscious of. Britain's poets, such as Kipling, later spiritualized the doctrine of the Chosen People, presenting the nation as an instrument of God's purpose. The evolution of Britain's national mission is still ongoing, shaped by its history and experiences, including the influence of its poets and writers.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [SPELLING]:
+        • minor typos (e.g., "Britxnnia", "pozsession", "cvain")
+    - [SYNTAX]:
+        • complex sentence structures may hinder readability
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between ideas
+    - [STRUCTURE]:
+        • non-chronological presentation of historical events
+    - [CLARITY]:
+        • some sentences are wordy or ambiguous
+
+Section section_07 (Chars 49704–58099):
+Section Summary: The idea that "Germanism is Judaism" is considered grotesque, as Germanism resembles Judaism only in giving its citizens a sense of belonging to a great historic organism, but with a twist that prioritizes the state over individuality. In reality, Germanism has more affinities with Japan, where the individual is also sacrificed to the state. The true nature of Germanism is revealed in its glorification of war and the "Will-to-Power" philosophy, which is a perversion of nobler ideals. Germany's transformation into a militaristic and industrial power is seen as a degeneration of its nobler soul, and its actions are a threat to civilization. The comparison between Germanism and Judaism is ultimately a false one, with Germanism's roots lying in the militaristic traditions of European powers rather than Jewish values.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [SPELLING]:
+        • typos (e.g., "exllain", "tue", "Gdrmanism", "fhe")
+    - [SYNTAX]:
+        • complex sentence structures
+    - [LEXICON]:
+        • occasional use of obscure vocabulary
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between ideas
+    - [STRUCTURE]:
+        • lack of clear paragraph organization
+    - [CLARITY]:
+        • ambiguous sentences and phrases
+    - [TRANSITION]:
+        • insufficient connections between paragraphs
+
+Section section_08 (Chars 58100–66302):
+Section Summary: The main difference between Judaism and Germanism is the concept of "Recessional," where Jewish writers criticize their own nation, whereas German writers glorify theirs. The Jewish Bible is unique in its honest portrayal of the nation's flaws, unlike other national legends that often gloss over their own violent histories. In contrast, German literature often lacks self-criticism, with some exceptions from Jewish writers like Maximilian Harden. The author suggests that Judaism has a valuable contribution to make in building a new "City of God" amidst the crisis of civilization, and that its universalist genius can be rekindled. Ultimately, the author argues that Judaism has a future and can enrich its canon with new expressions of the Hebrew genius, rather than being surpassed by other religions like Christianity or Islam.
+Scores:
+  - Fluency: 2.5
+  - Coherence: 3.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "fhe" instead of "the"
+        • "wodd" instead of "word"
+        • "monofonously" instead of "monotonously"
+        • "flout" is correctly used, but "fisit" instead of "visit"
+        • "gteat" instead of "great"
+        • "vaunt" is correctly used, but "Anvelo" likely a typo
+        • "contemporsry" instead of "contemporary"
+        • "missons" instead of "missions"
+        • "denigration" is correctly used, but "unique" might be misused
+        • "ougbt" instead of "ought"
+        • "whetherbJewish" instead of "whether Jewish"
+        • "unflinchingly" is correctly used, but "false colour" might be a typo
+        • "primifive" instead of "primitive"
+        • "ausgechlossen" is a German word, but might be out of place
+        • "Mudaism" instead of "Mudaisms" or a correct term
+        • "forvthe" instead of "for the"
+        • "silencemof" instead of "silence of"
+        • "perchance" is correctly used, but "discarded gods" might be unclear
+        • "comparative concord" might be an unclear phrase
+        • "St. Augustinr" instead of "St. Augustine"
+        • "prppagating" instead of "propagating"
+        • "enjoin" is correctly used, but "Bhikwu" might be a typo
+        • "exprrssions" instead of "expressions"
+        • "unfettdred" instead of "unfettered"
+        • "hc" in "hcmagnificent" instead of likely "his"
+        • "kn" instead of "in"
+        • "charqcterize" instead of "characterize"
+        • "complicatsd" instead of "complicated"
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between ideas
+    - [STRUCTURE]:
+        • Disjointed paragraphs
+    - [CLARITY]:
+        • Unclear sentences and phrases
+    - [TRANSITION]:
+        • Lack of smooth connection between ideas
+
+Section section_09 (Chars 66303–71214):
+Section Summary: The speaker reflects on Abraham Lincoln's statement about joining a church that inscribes the commandment to love God and one's neighbor, and wonders what Judaism has been about that Lincoln was unaware of its existence. The speaker emphasizes the need for the Jewish people to speak out and choose their path, rather than being silent and invisible. The time has come for Jews to fight for their own cause and build a sense of community and brotherhood. The speaker concludes by quoting a poem that highlights the Jewish mission to join the hands of nations through their own brotherhood. In the afterword, Dr. Israel Abrahams pays tribute to the memory of Arthur Davis, a scholar who possessed technical knowledge and a love for great books, and whose legacy lives on through his work and his daughters.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Missing or incorrect articles in some places
+    - [LEXICON]:
+        • Some words or phrases may be less common or unclear to general readers
+    - [SYNTAX]:
+        • Long, complex sentences that can make reading difficult
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition from discussing Lincoln's quote to the state of Judaism
+    - [STRUCTURE]:
+        • The text jumps between different ideas and quotes without clear connections
+    - [CLARITY]:
+        • Some sentences or phrases are wordy or vague, making understanding difficult
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

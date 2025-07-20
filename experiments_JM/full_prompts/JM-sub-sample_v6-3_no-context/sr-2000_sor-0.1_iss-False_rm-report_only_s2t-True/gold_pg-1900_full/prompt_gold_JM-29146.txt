@@ -1,0 +1,240 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    b) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The report is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–8035):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense
+    - [LEXICON]:
+        • some words feel slightly outdated or uncommon
+    - [SYNTAX]:
+        • a few long sentences disrupt the flow
+  Coherence Issues:
+    - [LOGIC]:
+        • some character motivations feel rushed or unclear
+    - [STRUCTURE]:
+        • abrupt transitions between scenes
+    - [CLARITY]:
+        • a few sections feel slightly confusing or hard to follow
+
+Section section_02 (Chars 8036–16009):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor errors in verb tense consistency
+    - [LEXICON]:
+        • some words or phrases may be considered outdated or less common
+    - [SYNTAX]:
+        • a few long sentences could be broken up for better flow
+  Coherence Issues:
+    - [LOGIC]:
+        • some character motivations or actions feel slightly implausible
+    - [STRUCTURE]:
+        • the scene transitions could be smoother
+    - [CLARITY]:
+        • a few sections have unclear or confusing descriptions
+
+Section section_03 (Chars 16010–23577):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor errors in verb tense consistency
+    - [LEXICON]:
+        • some words may be considered outdated or less common
+    - [SYNTAX]:
+        • a few sentences are wordy or have complex structures
+  Coherence Issues:
+    - [LOGIC]:
+        • some character actions or decisions feel rushed or unexplained
+    - [STRUCTURE]:
+        • the narrative jumps between scenes or ideas somewhat abruptly
+    - [CLARITY]:
+        • a few sections have unclear motivations or character intentions
+
+Section section_04 (Chars 23578–31621):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor errors in sentence structure
+    - [LEXICON]:
+        • occasional overuse of descriptive language
+    - [SYNTAX]:
+        • some sentences are wordy or awkwardly phrased
+  Coherence Issues:
+    - [LOGIC]:
+        • a few abrupt transitions between scenes
+    - [STRUCTURE]:
+        • some sections feel disconnected from the main plot
+    - [CLARITY]:
+        • occasional ambiguity in character motivations
+
+Section section_05 (Chars 31622–40030):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor errors in sentence structure
+    - [LEXICON]:
+        • occasional use of outdated or unclear terms
+    - [SYNTAX]:
+        • some sentences are wordy or awkwardly phrased
+  Coherence Issues:
+    - [LOGIC]:
+        • a few abrupt transitions between ideas
+    - [STRUCTURE]:
+        • the narrative jumps between different plot threads
+    - [CLARITY]:
+        • some sections are unclear or confusing due to lack of context
+
+Section section_06 (Chars 40031–48083):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [LEXICON]:
+        • occasional overly complex vocabulary
+    - [SYNTAX]:
+        • some sentences have awkward phrasing
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt shift in narrative perspective
+    - [STRUCTURE]:
+        • disconnected ideas between scenes
+    - [CLARITY]:
+        • unclear motivations of some characters
+
+Section section_07 (Chars 48083–56403):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor errors in sentence structure
+    - [LEXICON]:
+        • occasional unclear terminology
+    - [SYNTAX]:
+        • some sentences are wordy or awkwardly phrased
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt shifts in scene or perspective
+    - [STRUCTURE]:
+        • some transitions between ideas are unclear
+    - [CLARITY]:
+        • a few sections have confusing or ambiguous descriptions
+
+Section section_08 (Chars 56403–64527):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Missing articles in some sentences
+    - [LEXICON]:
+        • Overly complex vocabulary in certain passages
+    - [SYNTAX]:
+        • Long, convoluted sentences that disrupt flow
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt shifts in character thoughts and actions
+    - [STRUCTURE]:
+        • Disjointed transitions between scenes
+    - [CLARITY]:
+        • Unclear motivations and backstory for some characters
+
+Section section_09 (Chars 64528–72570):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Tense inconsistencies
+    - [LEXICON]:
+        • Overly complex vocabulary
+    - [SYNTAX]:
+        • Long, convoluted sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • Unexplained plot twists
+    - [STRUCTURE]:
+        • Abrupt scene changes
+    - [CLARITY]:
+        • Unclear character motivations
+
+Section section_10 (Chars 72570–77487):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Missing articles in some sentences
+    - [LEXICON]:
+        • Some words may be unfamiliar to non-native speakers
+    - [SYNTAX]:
+        • A few sentences have complex structures
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition from action to philosophical discussion
+    - [STRUCTURE]:
+        • Non-linear narrative with flashbacks and visions
+    - [CLARITY]:
+        • Some sentences are wordy or unclear
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

@@ -1,0 +1,336 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) Read and understand the summary of the text the report was created for.
+    b) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    c) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The summary of the text to be evaluated is given below:
+Summary: The narrator, a literary critic, recalls his encounter with George Corvick, a fellow critic who had been tasked with reviewing Hugh Vereker's new novel. Corvick was breathless and worried, having received a telegram from Gwendolen Erme, a woman he was in love with, and had to leave for Paris. He asked the narrator to prepare an article on Vereker's novel for "The Middle" magazine.
+
+The narrator was excited to read Vereker's novel and meet the author, who was to be at Lady Jane's house the following Sunday. He read the novel and wrote a review, which Lady Jane praised, but Vereker himself was unimpressed, calling it "the usual twaddle." The narrator was disappointed and felt that Vereker was conceited.
+
+Corvick returned from Paris and told the narrator that he had found Vereker's secret, a hidden meaning in his works. The narrator was skeptical, but Corvick was convinced and began to work on an article to reveal the secret. However, before he could finish, he died in an accident, leaving behind only a fragment of the article.
+
+The narrator tried to get the information from Corvick's widow, Gwendolen, but she refused to share it, saying it was her life. The narrator became obsessed with finding out Vereker's secret and tried to get it from Gwendolen, but she continued to refuse. He even considered marrying her to get the information, but eventually realized that was not an option.
+
+Years passed, and the narrator heard that Vereker had died. He met Gwendolen again, who had married Drayton Deane, a critic. The narrator tried to get the information from Deane, but he claimed he didn't know anything about Vereker's secret. The narrator was shocked and realized that Gwendolen had not shared the information with her husband.
+
+The narrator reflected on his obsession with Vereker's secret and how it had consumed him. He realized that he had been foolish to think that Deane would know the secret and that Gwendolen had kept it to herself. The narrator and Deane became friends, united in their desire to uncover the secret, and the narrator finally found some consolation in sharing his obsession with someone who understood it.
+
+The report for the text is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–7709):
+Scores:
+  - Fluency: 3.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing or incorrect articles
+    - [SPELLING]:
+        • typos such as "kf" instead of "of", "firdt" instead of "first", "oppoetunity" instead of "opportunity"
+    - [SYNTAX]:
+        • awkward sentence structure
+    - [LEXICON]:
+        • unclear word choices
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between ideas
+    - [STRUCTURE]:
+        • lack of clear progression in the narrative
+    - [CLARITY]:
+        • ambiguous sentences and unclear character motivations
+    - [TRANSITION]:
+        • disconnected ideas between chapters
+
+Section section_02 (Chars 7709–15627):
+Scores:
+  - Fluency: 3.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • thrustint
+        • fireppace
+        • reappearance
+        • fharming
+        • flr
+        • cinfess
+        • xurface
+        • inimitxble
+        • rrom
+        • rhey're
+        • tje
+        • tue
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between scenes
+    - [STRUCTURE]:
+        • lengthy sentences
+    - [CLARITY]:
+        • unclear character motivations
+
+Section section_03 (Chars 15627–23206):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • numerous typos and spelling errors
+    - [GRAMMAR]:
+        • occasional awkward sentence structures
+    - [LEXICON]:
+        • some words are used in incorrect or unclear contexts
+  Coherence Issues:
+    - [LOGIC]:
+        • some abrupt transitions between ideas
+    - [CLARITY]:
+        • certain sections are vague or open to multiple interpretations
+    - [STRUCTURE]:
+        • the narrative jumps between different concepts without clear connections
+
+Section section_04 (Chars 23206–30910):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "lauyhed" instead of "laughed"
+        • "corridlr" instead of "corridor"
+        • "hid" instead of "his"
+        • "ocfurred" instead of "occurred"
+        • "enjoyrd" instead of "enjoyed"
+        • "sqddled" instead of "saddled"
+        • "uoon" instead of "upon"
+        • "immrdiately" instead of "immediately"
+        • "unddrstood" instead of "understood"
+    - [GRAMMAR]:
+        • inconsistent verb tenses
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between paragraphs
+    - [STRUCTURE]:
+        • lack of clear chronological order
+    - [CLARITY]:
+        • unclear character motivations
+    - [TRANSITION]:
+        • disconnected ideas between sentences
+
+Section section_05 (Chars 30910–38711):
+Scores:
+  - Fluency: 3.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "vut" instead of "but"
+        • "nowmin" instead of "now in"
+        • "tombelieve" instead of "to believe"
+        • "fkllowed" instead of "followed"
+        • "inhape" instead of "in shape"
+        • "thwy" instead of "they"
+        • "mzde" instead of "made"
+        • "respojse" instead of "response"
+        • "ih" instead of "in"
+        • "pxge" instead of "page"
+        • "pockeys" instead of "pockets"
+        • "thd" instead of "the"
+    - [GRAMMAR]:
+        • inconsistent verb tenses
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between ideas
+    - [STRUCTURE]:
+        • lack of clear paragraph structure
+    - [CLARITY]:
+        • unclear character motivations
+    - [TRANSITION]:
+        • abrupt shift from one scene to another
+
+Section section_06 (Chars 38711–46396):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing or incorrect articles
+    - [SPELLING]:
+        • typos (e.g. "reqiires", "hjm", "tl", "ssparation")
+    - [SYNTAX]:
+        • awkward sentence structure
+    - [LEXICON]:
+        • inconsistent verb tenses
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between ideas
+    - [STRUCTURE]:
+        • lack of clear paragraph organization
+    - [CLARITY]:
+        • ambiguous sentences and phrases
+    - [TRANSITION]:
+        • disconnected ideas between chapters
+
+Section section_07 (Chars 46396–54205):
+Scores:
+  - Fluency: 2.5
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • typos and incorrect words (e.g. "didh't", "ijtricacy", "woulr", "andnthe", "tyat", "differencenof", "magicvshake", "waat", "theb", "bosh", "whay", "sesmed", "fescribed", "supreme authoritu", "patienxe", "envie", "ta tête", "greay", "precipitxted", "engendered", "liberality", "reprieves", "bosom", "Gwrndolen", "eepeated", "atvfirst")
+    - [GRAMMAR]:
+        • incorrect verb tenses and subject-verb agreement
+    - [LEXICON]:
+        • unfamiliar or misused words (e.g. "secousse", "Corvixk")
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt shifts in the narrative
+    - [STRUCTURE]:
+        • unclear transitions between ideas
+    - [CLARITY]:
+        • confusing segments and ambiguous statements
+
+Section section_08 (Chars 54205–62137):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • multiple typos and spelling mistakes
+    - [GRAMMAR]:
+        • incorrect verb tenses and subject-verb agreement
+    - [SYNTAX]:
+        • awkward sentence structure and phrasing
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between ideas
+    - [STRUCTURE]:
+        • non-chronological events and unclear timelines
+    - [CLARITY]:
+        • ambiguous sentences and unclear character motivations
+
+Section section_09 (Chars 62137–69886):
+Scores:
+  - Fluency: 2.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "Tgis" instead of "This"
+        • "xeremony" instead of "ceremony"
+        • "anothet" instead of "another"
+        • "littpe" instead of "little"
+        • "leep" instead of "keep"
+        • "sympathy" is correct, but "strongeet" instead of "strongest"
+        • "visitation" is correct, but "hadcbeen" instead of "had been"
+        • "mone" instead of "none"
+        • "thd" instead of "the"
+        • "bstter" instead of "better"
+        • "rwply" instead of "reply"
+        • "ttied" instead of "tried"
+        • "ov" instead of "of"
+        • "Sqware" instead of "Square"
+        • "xt" instead of "at least"
+        • "mwd" instead of "me"
+        • "wxpecting" instead of "expecting"
+        • "deniaks" instead of "denials"
+        • "Verwker" instead of "Vereker"
+        • "tinsel" is correct, but "sllotches" instead of "sloatches" or "slashes"
+        • "hwd" instead of "had"
+        • "tsmper" instead of "temper"
+        • "The Liddle" instead of "The Middle"
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between ideas
+    - [STRUCTURE]:
+        • Disconnected narrative segments
+    - [CLARITY]:
+        • Unclear character motivations
+
+Section section_10 (Chars 69886–77935):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "jgnorance"
+        • "doorm"
+        • "relevqnt"
+        • "thay"
+        • "vompensation"
+        • "ocasipn"
+        • "Deane" (inconsistent spelling as "Deanw")
+        • "perioducals"
+        • "subjedt"
+    - [GRAMMAR]:
+        • Various minor grammatical errors and awkward phrasing
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transitions between ideas
+    - [STRUCTURE]:
+        • Non-linear narrative structure may cause confusion
+    - [CLARITY]:
+        • Some sentences are wordy and difficult to understand
+
+Section section_11 (Chars 77935–83271):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "straitht" instead of "straight"
+        • "reprpduced" instead of "reproduced"
+        • "hivhest" instead of "highest"
+        • "zbout" instead of "about"
+        • "ro" instead of "to"
+        • "sqy" instead of "say"
+        • "ejacupations" instead of "exclamations"
+    - [GRAMMAR]:
+        • inconsistent verb tenses
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt shift in narrator's perception of Drayton Deane
+    - [CLARITY]:
+        • unclear motivations of Mrs. Deane
+    - [TRANSITION]:
+        • abrupt transition from narrator's conversation with Drayton Deane to the narrator's reflection on Drayton Deane's character
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

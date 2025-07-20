@@ -1,0 +1,100 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) Read and understand the summary of the text the report was created for.
+    b) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    c) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The summary of the text to be evaluated is given below:
+Summary: The Bahá'í community addressed an open letter to the world's religious leaders in 2002, highlighting the need for organized religion to rise above fixed conceptions and recognize the oneness of God and religion. The letter emphasized the importance of this principle in ensuring the continuing relevance of the great revealed faiths. The response to the letter was encouraging, with many recipients expressing distress over the failure of religious institutions to address spiritual and moral challenges.
+
+The Bahá'í community believes that the time has come for religious leadership to face the implications of the oneness of God and religion honestly and without evasion. This principle has the capacity to ensure the continuing relevance of the great revealed faiths and to exert its influence on religious discourse. The community feels hopeful that their initiative may serve as a catalyst for new understanding and change.
+
+The world is experiencing a crisis of spiritual and moral values, with sectarian hatreds and fanaticism threatening to engulf humanity. The Bahá'í community believes that the solution to this crisis lies in recognizing the oneness of God and religion and in rising above fixed conceptions inherited from the past. The community is committed to contributing to the interfaith movement and to promoting the principle of the oneness of God and religion.
+
+In recent years, there has been a resurgence of interest in religion and spirituality, with many people seeking a deeper understanding of themselves and their place in the world. This trend is expected to continue, driven by historical forces that are eroding the certainty of material existence as the ultimate reality. The bankruptcy of the materialist enterprise and the failure of social and economic development models have led to a re-evaluation of values and a search for new meaning and purpose.
+
+The Bahá'í community believes that their message has the potential to inspire a new era of spiritual growth and development, and they are committed to sharing this message with the world. The community is drawing on a deep understanding of the process by which humanity's spiritual life evolves, and they are using the writings of Bahá'u'lláh to elevate discussion of religious issues above sectarian and transient considerations.
+
+The principle of the oneness of God and religion is seen as a unifying force that can bring people together and promote understanding and cooperation. The Bahá'í community is working to promote this principle and to contribute to the creation of a more just and peaceful world. They believe that the time has come for humanity to recognize the oneness of God and religion and to work together to build a brighter future for all.
+
+The world is at a critical juncture, and the choices made now will determine the course of human history. The Bahá'í community is urging people to recognize the importance of spiritual values and to work towards creating a more just and peaceful world. They believe that the principle of the oneness of God and religion has the power to inspire and guide humanity towards a brighter future.
+
+In order to address the spiritual and moral crisis facing humanity, the Bahá'í community is promoting a deeper understanding of the nature of God and religion. They believe that this understanding is essential for creating a more just and peaceful world and for promoting the well-being of all people. The community is committed to sharing their message with the world and to working towards the creation of a more harmonious and equitable global society.
+
+The resurgence of interest in religion and spirituality is a positive trend that has the potential to bring people together and promote understanding and cooperation. The Bahá'í community is working to promote this trend and to contribute to the creation of a more just and peaceful world. They believe that the principle of the oneness of God and religion is a unifying force that can inspire and guide humanity towards a brighter future.
+
+The report for the text is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–9857):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • abrupt sentence transitions
+    - [LEXICON]:
+        • occasional use of overly complex vocabulary
+    - [SYNTAX]:
+        • long, convoluted sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • some ideas seem disconnected from the main argument
+    - [STRUCTURE]:
+        • lack of clear sectioning or transitions between ideas
+    - [CLARITY]:
+        • occasional ambiguity in sentence meaning
+
+Section section_02 (Chars 9858–14471):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Complex sentence structures
+    - [LEXICON]:
+        • Unfamiliar vocabulary
+    - [SYNTAX]:
+        • Long paragraphs with multiple ideas
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between ideas
+    - [STRUCTURE]:
+        • Lack of clear sectioning or headings
+    - [CLARITY]:
+        • Ambiguous references to historical events
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

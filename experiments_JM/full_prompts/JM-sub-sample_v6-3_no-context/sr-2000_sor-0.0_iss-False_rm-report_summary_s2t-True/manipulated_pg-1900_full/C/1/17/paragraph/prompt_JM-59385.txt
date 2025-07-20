@@ -1,0 +1,266 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) Read and understand the summary of the text the report was created for.
+    b) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    c) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The summary of the text to be evaluated is given below:
+Summary: The story revolves around Kuei Ping, a Chinese woman, and her journey towards self-discovery and freedom. The narrative begins with Kuei Ping's visit to the Street of Precious Pearls, where she buys her dowry jewels, symbolizing her transition into married life. She is married to Fuh Tang, a man ten years her senior, in an arranged marriage. 
+
+Kuei Ping's life takes a dramatic turn when she meets Miss Porter, an American teacher, who inspires her to think about personal freedom and service to others. Despite the societal expectations, Kuei Ping and Fuh Tang decide to leave their family compound and start a new life in Peking. 
+
+However, their life in Peking is marked by struggles, including Fuh Tang's addiction to opium and his subsequent loss of job. Kuei Ping's second son dies, and she is left to care for her first son, Bo Te, alone. 
+
+In a turning point, Kuei Ping decides to return to her family compound, where she is welcomed back with open arms. She begins to see the value in the traditional ways of her family and starts to learn from her mother-in-law, Madame Chia. 
+
+Kuei Ping's life is marked by patience, tenderness, and understanding as she navigates her role as a wife, mother, and daughter-in-law. She teaches her children and other kids in the compound, sharing stories from the Bible and Chinese classics. 
+
+Years pass, and Kuei Ping's children grow up. Her son, Kwan Wa, gets married, and she finally realizes her dream of building a school and a church. With the help of her family and community, Kuei Ping's school and church become a reality, providing a space for education, worship, and community building. 
+
+The narrator becomes Kuei Ping's pupil and learns about her life, values, and dreams. Through their conversations, the narrator gains insight into Kuei Ping's journey and the significance of her accomplishments. 
+
+Kuei Ping's story is one of resilience, hope, and the power of education and community. Her legacy continues to inspire future generations, and her school and church remain a testament to her dedication and perseverance. 
+
+The narrative concludes with the narrator reflecting on the lessons learned from Kuei Ping's life, emphasizing the importance of patience, understanding, and community. Kuei Ping's journey serves as a reminder that even in the face of adversity, one can find freedom, purpose, and fulfillment through education, service, and a commitment to others. 
+
+Ultimately, Kuei Ping's story is a powerful reminder of the human spirit's capacity for growth, transformation, and positive change. Her life's work continues to inspire and uplift those around her, leaving a lasting impact on her community and beyond. 
+
+The narrator is grateful for the opportunity to learn from Kuei Ping and to share her story with others. Through Kuei Ping's experiences, the narrator gains a deeper understanding of the importance of education, community, and personal freedom. 
+
+Kuei Ping's legacy extends beyond her immediate family and community, serving as a model for others to follow. Her commitment to education, service, and personal growth inspires future generations to pursue their own paths of self-discovery and fulfillment. 
+
+In the end, Kuei Ping's story is a testament to the human spirit's capacity for resilience, hope, and transformation. Her life's work continues to inspire and uplift those around her, leaving a lasting impact on her community and beyond. 
+
+The narrative concludes with a sense of hope and optimism, emphasizing the potential for positive change and growth in individuals and communities. Kuei Ping's story serves as a reminder that even in the face of adversity, one can find freedom, purpose, and fulfillment through education, service, and a commitment to others. 
+
+Kuei Ping's journey is a powerful reminder of the importance of patience, understanding, and community. Her life's work continues to inspire and uplift those around her, leaving a lasting impact on her community and beyond. 
+
+The narrator is filled with a sense of wonder and awe as they reflect on Kuei Ping's life and legacy. Through their conversations, the narrator gains insight into Kuei Ping's values, dreams, and accomplishments, and is inspired to pursue their own path of self-discovery and fulfillment. 
+
+In the end, Kuei Ping's story is a testament to the human spirit's capacity for growth, transformation, and positive change. Her legacy continues to inspire future generations, and her school and church remain a testament to her dedication and perseverance. 
+
+The narrative concludes with a sense of hope and optimism, emphasizing the potential for positive change and growth in individuals and communities. Kuei Ping's story serves as a reminder that even in the face of adversity, one can find freedom, purpose, and fulfillment through education, service, and a commitment to others. 
+
+Kuei Ping's life is a powerful reminder of
+
+The report for the text is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–8523):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 2.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Abrupt sentence transitions
+    - [LEXICON]:
+        • Overly complex vocabulary
+    - [SYNTAX]:
+        • Long, winding sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • Sudden, unexplained shifts in scene and narrative
+    - [STRUCTURE]:
+        • Disjointed, non-sequential storytelling
+    - [CLARITY]:
+        • Unclear connections between ideas and plot points
+
+Section section_02 (Chars 8524–17059):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Some sentences are overly long and complex
+    - [LEXICON]:
+        • A few words may be unfamiliar to non-native English speakers
+    - [SYNTAX]:
+        • Occasional awkward phrasing
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between some scenes
+    - [STRUCTURE]:
+        • Non-linear narrative can be confusing at times
+    - [CLARITY]:
+        • Some paragraphs lack clear connections to the overall story
+
+Section section_03 (Chars 17059–25619):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [LEXICON]:
+        • some words are outdated or uncommon
+    - [SYNTAX]:
+        • long, complex sentences
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transition between scenes
+    - [LOGIC]:
+        • some events feel disconnected from the rest of the narrative
+    - [CLARITY]:
+        • unclear motivations of some characters
+
+Section section_04 (Chars 25620–34356):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Inconsistent verb tense usage
+    - [SYNTAX]:
+        • Complex sentence structures
+    - [LEXICON]:
+        • Overly formal vocabulary 2. Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transitions between scenes
+    - [STRUCTURE]:
+        • Non-chronological narrative
+    - [CLARITY]:
+        • Unclear character motivations 3. FINAL Coherence Score: 3.5 4. FINAL Fluency Score: 4  ---------------------------- finish_reason: stop
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transitions between scenes
+    - [STRUCTURE]:
+        • Non-chronological narrative
+    - [CLARITY]:
+        • Unclear character motivations 3. FINAL Coherence Score: 3.5 4. FINAL Fluency Score: 4  ---------------------------- finish_reason: stop
+
+Section section_05 (Chars 34356–42888):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Some sentences are wordy and structurally complex
+    - [LEXICON]:
+        • Occasional use of outdated or less common vocabulary
+    - [SYNTAX]:
+        • A few instances of awkward phrasing
+  Coherence Issues:
+    - [LOGIC]:
+        • Some transitions between scenes feel abrupt
+    - [STRUCTURE]:
+        • The narrative jumps between different time periods and ideas
+    - [CLARITY]:
+        • A few sections are unclear or hard to follow due to vague descriptions
+
+Section section_06 (Chars 42889–51588):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [SYNTAX]:
+        • complex sentence structures
+    - [LEXICON]:
+        • occasional archaic vocabulary
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between Kuei Ping's departure and philosophical musings
+    - [STRUCTURE]:
+        • non-sequential narrative flow
+    - [CLARITY]:
+        • ambiguous motivations for character actions
+
+Section section_07 (Chars 51589–60213):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • occasional awkward sentence structures
+    - [LEXICON]:
+        • some words may be unfamiliar to modern readers
+    - [SYNTAX]:
+        • long, complex sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between philosophical and narrative sections
+    - [STRUCTURE]:
+        • non-linear storytelling
+    - [CLARITY]:
+        • some sentences are wordy or unclear
+
+Section section_08 (Chars 60214–68741):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Missing articles in some sentences
+    - [LEXICON]:
+        • Some words are outdated or less common
+    - [SYNTAX]:
+        • Long, complex sentences can be hard to follow
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between narrator's introduction and Kuei Ping's story
+    - [STRUCTURE]:
+        • Non-linear narrative can be confusing
+    - [CLARITY]:
+        • Some sentences are wordy or unclear
+
+Section section_09 (Chars 68742–70081):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Missing articles in some places
+    - [SYNTAX]:
+        • Some sentence structures are complex and hard to follow
+    - [LEXICON]:
+        • Word choice could be more precise in certain contexts
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between descriptive and informative sections
+    - [STRUCTURE]:
+        • Lack of clear connection between ideas in different paragraphs
+    - [CLARITY]:
+        • Some sentences are vague and open to interpretation
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

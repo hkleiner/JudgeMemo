@@ -1,0 +1,290 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    b) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The report is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–4449):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • "No traveler who lands at Honolulu will felt unrequited" should be "No traveler who lands at Honolulu will feel unrequited"
+    - [LEXICON]:
+        • Some words are outdated or less common in modern English
+  Coherence Issues:
+    - [TRANSITION]:
+        • Abrupt shift from describing the ship's departure to discussing the Hawaiian Islands
+    - [STRUCTURE]:
+        • The narrative jumps between different topics, such as the movement, the ship's journey, and tourist attractions in Honolulu
+
+Section section_02 (Chars 4450–8766):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • incorrect verb tense usage
+    - [SPELLING]:
+        • minor typos (e.g., "woulded" instead of "would")
+    - [LEXICON]:
+        • some words are outdated or less common (e.g., "grim-faced")
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transition between topics (e.g., from describing the robe to surf-shooting)
+    - [CLARITY]:
+        • some sentences are wordy or contain multiple ideas, making them hard to follow
+
+Section section_03 (Chars 8766–13268):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Missing article in "There am English bankers"
+    - [SPELLING]:
+        • "leggins" instead of "leggings"
+    - [LEXICON]:
+        • Word choice in "excessive disagreeableness" could be more concise
+  Coherence Issues:
+    - [TRANSITION]:
+        • Abrupt shift from describing Manila to discussing the teachers' situation
+    - [CLARITY]:
+        • Some sentences are long and convoluted, making them hard to follow
+    - [STRUCTURE]:
+        • The text jumps between different topics and scenes without clear connections
+
+Section section_04 (Chars 13269–17497):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • "as it have never fallen" should be "as it had never fallen"
+        • "the night before we have been awakened" should be "the night before we were awakened"
+        • "the smoke that arise" should be "the smoke that arose"
+        • "her knife, fork, and spoon am put" should be "her knife, fork, and spoon were put"
+        • "the launch had return" should be "the launch had returned"
+  Coherence Issues:
+    - [STRUCTURE]:
+        • Abrupt transition from describing the scenery to discussing the troops
+    - [CLARITY]:
+        • Unclear connection between the description of the town and the arrival of the troops
+    - [LOGIC]:
+        • The narrative jumps abruptly from the author's experience on the ship to the experience in the town
+
+Section section_05 (Chars 17498–21787):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • "call the lieutenant" should be "called the lieutenant"
+    - [SPELLING]:
+        • "nippa" might be a typo, possibly "nipa"
+    - [SYNTAX]:
+        • Some sentences are long and convoluted
+  Coherence Issues:
+    - [STRUCTURE]:
+        • Abrupt transition from the emotional scene to the description of Philippine towns
+    - [LOGIC]:
+        • The narrative jumps between different storylines and ideas
+    - [CLARITY]:
+        • Some sentences are wordy and unclear
+
+Section section_06 (Chars 21787–26000):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing article in some places
+    - [SYNTAX]:
+        • some sentences are wordy or awkwardly phrased
+    - [LEXICON]:
+        • occasional use of outdated vocabulary
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transition between topics
+    - [CLARITY]:
+        • some sentences are unclear or hard to follow
+    - [LOGIC]:
+        • occasional lack of logical connection between ideas
+
+Section section_07 (Chars 26000–30256):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • "my companion do not follow" should be "my companion did not follow"
+    - [SPELLING]:
+        • "india-rubber-like" is an unusual term, may be considered non-standard
+    - [SYNTAX]:
+        • some sentences are long and convoluted, affecting readability
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transition from describing food to describing a dance
+    - [CLARITY]:
+        • some sentences are wordy or unclear, making it hard to follow the narrative
+    - [TRANSITION]:
+        • lack of smooth connection between paragraphs
+
+Section section_08 (Chars 30257–34684):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • "In less than a week he had employ" should be "In less than a week he had employed"
+    - [SPELLING]:
+        • "pina" should be "piña" or "pine" for clarity, but assuming "pina" is a typo for a type of fabric or garment, it's unclear without context
+    - [SYNTAX]:
+        • Some sentences are long and convoluted, making them hard to follow
+  Coherence Issues:
+    - [LOGIC]:
+        • The transition between discussing Filipino dress and then moving into house-keeping in the Philippines feels abrupt
+    - [STRUCTURE]:
+        • The text jumps between different topics, such as descriptions of clothing, house-keeping, and life in Manila, without a clear connecting thread
+    - [CLARITY]:
+        • Some sentences are wordy or contain unclear references, making the text hard to understand in places
+
+Section section_09 (Chars 34684–38994):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor errors in verb tense consistency
+    - [LEXICON]:
+        • some outdated or less common vocabulary
+    - [SYNTAX]:
+        • occasional complex sentence structures
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transition between descriptions of Manila and the quiet hamlet
+    - [CLARITY]:
+        • some sentences are wordy or contain multiple ideas
+    - [TRANSITION]:
+        • lack of clear connections between paragraphs
+
+Section section_10 (Chars 38995–43232):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor sentence structure issues
+    - [LEXICON]:
+        • some outdated or less common vocabulary
+    - [SYNTAX]:
+        • occasional awkward phrasing
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition to the description of the tao's diet
+    - [STRUCTURE]:
+        • lack of clear connection between paragraphs
+    - [CLARITY]:
+        • some sentences are wordy or unclear
+
+Section section_11 (Chars 43232–47476):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • "receive" should be "received"
+        • "He turn" should be "He turned"
+        • "I could was" is grammatically incorrect
+    - [LEXICON]:
+        • "age-bent" is an uncommon expression
+  Coherence Issues:
+    - [STRUCTURE]:
+        • Abrupt transition between the first and second attempts to visit the leper colony
+    - [CLARITY]:
+        • Some sentences are long and convoluted, making them hard to follow
+
+Section section_12 (Chars 47477–51846):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Missing articles in some places
+    - [LEXICON]:
+        • Some words are outdated or less common
+    - [SYNTAX]:
+        • Long, complex sentences
+  Coherence Issues:
+    - [STRUCTURE]:
+        • Abrupt transition between scenes
+    - [CLARITY]:
+        • Some sentences are wordy or unclear
+    - [TRANSITION]:
+        • Lack of clear connection between ideas
+
+Section section_13 (Chars 51847–53272):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • incorrect verb tense usage
+    - [SPELLING]:
+        • "ladrones" might be unfamiliar to some readers
+    - [SYNTAX]:
+        • complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between sleep and waking up
+    - [STRUCTURE]:
+        • lack of clear connection between paragraphs
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

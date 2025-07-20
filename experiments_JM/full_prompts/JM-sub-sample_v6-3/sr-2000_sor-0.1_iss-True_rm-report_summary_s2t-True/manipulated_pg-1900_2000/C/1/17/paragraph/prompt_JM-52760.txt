@@ -1,0 +1,98 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) Read and understand the summary of the text the report was created for.
+    b) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    c) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The summary of the text to be evaluated is given below:
+Summary: By June 1864, the Civil War had been ongoing for over three years, with most of the fighting taking place in Virginia between Washington and Richmond. Despite various generals leading the Union's Army of the Potomac, none had succeeded in destroying the Confederate Army of Northern Virginia or capturing Richmond. The war in the East seemed far from a final settlement, with the Union failing to deliver a decisive blow and the Confederacy unable to settle the issue.
+
+In the West, the Union had made significant gains, including the capture of Vicksburg and Port Hudson, which gave them control of the Mississippi River. The Union's capture of Chattanooga also opened up the gateway to Georgia. By the beginning of 1864, the Northern armies were in a stronger position than the Confederate forces, with greater resources and a distinct possibility of splitting the Southern states.
+
+Maj. Gen. Ulysses S. Grant was appointed lieutenant general and given responsibility for all Union armies. He decided to accompany the Army of the Potomac and provide general direction, leaving the execution to Maj. Gen. George G. Meade. The Union strategy in 1864 involved capturing Richmond, crushing the Army of Northern Virginia, and marching south towards Sherman.
+
+The Army of the James, led by Maj. Gen. Benjamin F. Butler, was tasked with advancing on Richmond from the southeast and threatening communications between the Confederate capital and the Southern states. However, they were shut down by a numerically inferior Confederate force in Bermuda Hundred. The Army of the Potomac, led by Meade, engaged in a series of bloody battles, including the Battle of the Wilderness, Spotsylvania Court House, and Cold Harbor.
+
+Grant's strategy was to outflank the Confederate defenders by persistent night marches, but Lee was able to counter his moves. After the Battle of Cold Harbor, Grant decided to turn south and isolate Richmond by attacking Petersburg and cutting off the railroads that supplied the city. Petersburg was a vital transportation hub, with several roads and railroads converging on the city, and its capture would almost certainly lead to the abandonment of Richmond.
+
+The city's railroads were its lifeblood, with tracks radiating in all directions, and the Union forces sought to shut off the supplies that streamed along these lines. Raids were made on the railroads south and west of Petersburg, but the damage was quickly repaired. To permanently shut off the supplies, the Union forces would need to take physical possession of the railroads.
+
+The Battle of Petersburg began on June 15, 1864, when the XVIII Corps of the Army of the James, led by Maj. Gen. W. F. "Baldy" Smith, crossed the Appomattox River and approached the city. The Union forces outnumbered the Confederate defenders, with 18,000 troops facing less than 4,000 under Beauregard. The stage was set for a prolonged siege, with the Union seeking to capture Petersburg and ultimately Richmond. Grant's strategy was to wear down the Confederate army and capture the city, which would give the Union a significant advantage in the war. The battle marked the beginning of a long and bloody campaign, with both sides suffering heavy casualties. The Union's ultimate goal was to capture Richmond and bring an end to the war.
+
+The report for the text is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–8260):
+Section Summary: By June 1864, the Civil War had been ongoing for over three years, with most of the fighting in the East taking place between Washington and Richmond. Despite numerous battles, neither side had been able to gain a decisive victory, and the war seemed far from over. Union General Ulysses S. Grant was appointed to lead the Union armies and devised a strategy to capture Richmond and defeat the Army of Northern Virginia. Grant's army clashed with Confederate General Robert E. Lee's army in a series of bloody battles, including the Wilderness, Spotsylvania, and Cold Harbor, but was unable to destroy the Army of Northern Virginia. Ultimately, Grant decided to shift his focus to Petersburg, a crucial supply hub for the Confederacy, in an effort to isolate Richmond and force a siege.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • abrupt sentence transitions
+    - [LEXICON]:
+        • some words may be unfamiliar to non-historians
+    - [SYNTAX]:
+        • long sentences with multiple clauses
+  Coherence Issues:
+    - [LOGIC]:
+        • sudden shift in topic to Bahá’u’lláh
+    - [STRUCTURE]:
+        • lack of clear connection between chapters
+    - [CLARITY]:
+        • some sentences are wordy and hard to follow
+
+Section section_02 (Chars 8260–13376):
+Section Summary: Petersburg's strategic location made it a crucial transportation hub, with multiple railroads connecting it to other cities, including Richmond, the Confederate capital. The city's proximity to Richmond made it a vital point of transfer for goods and materials, and its security became a top concern as other supply lines were cut off. In June 1864, Union forces launched a series of raids on the railroads south and west of Petersburg, but were ultimately repelled by Southern army units. After the Battle of Cold Harbor, General Grant shifted his focus to capturing Petersburg, and on June 15, the XVIII Corps of the Army of the James, led by General Smith, crossed the Appomattox River to launch an attack on the city. With 18,000 Union soldiers approaching, the city's defenses, manned by less than 4,000 Confederate troops, were severely outnumbered.
+Scores:
+  - Fluency: 3.5
+  - Coherence: 2.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • abrupt change in sentence structure
+    - [LEXICON]:
+        • inconsistent vocabulary usage
+    - [SYNTAX]:
+        • unclear sentence connections
+  Coherence Issues:
+    - [LOGIC]:
+        • sudden shift in topic without clear connection
+    - [STRUCTURE]:
+        • disjointed narrative flow
+    - [CLARITY]:
+        • unclear transitions between ideas
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

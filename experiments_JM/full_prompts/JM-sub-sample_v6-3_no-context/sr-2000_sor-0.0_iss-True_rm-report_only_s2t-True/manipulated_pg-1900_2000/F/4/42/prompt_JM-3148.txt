@@ -1,0 +1,78 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    b) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The report is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–7995):
+Section Summary: The story begins with a boy named Davy reading to his uncle, Anthony Croft, who is blind. Anthony is a skilled violinist who believes that the secret to everything beautiful and true is hidden in the strings of his instrument. Davy and Anthony have a close relationship, and Anthony asks Davy to paint a picture with words, describing the landscape outside. Davy's vivid description sparks Anthony to play his violin, filling the air with rich and harmonious music. Anthony's past is also revealed, showing his dislike for school and his love for music and the outdoors, which brought him peace and understanding.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [LEXICON]:
+        • some words are archaic or less common
+    - [SYNTAX]:
+        • long, complex sentences
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transitions between scenes
+    - [CLARITY]:
+        • some sentences are wordy or unclear
+    - [LOGIC]:
+        • minor inconsistencies in character development
+
+Section section_02 (Chars 7995–11541):
+Section Summary: The teacher often struggled to keep her students engaged, especially on hot afternoons, and Anthony would sometimes sneak out of the window to play with a tuning fork. As he grew older, Anthony was considered the laziest boy in the village, but this was because he was more interested in pursuing his own interests and learning through personal experience. He was a curious boy, always asking questions about the world around him, such as why the sun drives away the stars and what makes seeds grow. Despite not being in school for the full year, Anthony educated himself by exploring the woods and learning about nature, discovering hidden gems like Mayflowers and rare flowers. He spent his free time listening to and imitating the sounds of wild birds, demonstrating his unique and self-directed approach to learning.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • "he woulded have counted labour or study all joy" (incorrect verb form)
+        • "If any one have ever given him a task" (subject-verb agreement error)
+        • "Tony have more useless information" (subject-verb agreement error)
+  Coherence Issues:
+    - [STRUCTURE]:
+        • Abrupt shift from describing Tony's behavior in class to his thoughts and questions about the world
+    - [TRANSITION]:
+        • Lack of clear connection between paragraphs
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

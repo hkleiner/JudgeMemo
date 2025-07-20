@@ -1,0 +1,283 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) Read and understand the summary of the text the report was created for.
+    b) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    c) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The summary of the text to be evaluated is given below:
+Summary: Jim Felton, a miner, is struggling to find gold in Sweet Briar Gulch. He receives a letter from his lover, Anne, who refuses to marry him due to his lack of financial stability. Jim is heartbroken and feels like giving up. His friend, Bud, a mail carrier, visits him and offers to help. Bud tells Jim about a boy who was being abused by his supposed father and Jim decides to take the boy in.
+
+The boy, named Ches, is a street-smart kid from the city who has been through a lot. Jim and Ches start to bond, and Jim begins to teach him about the wilderness and mining. Ches is fascinated by the natural world and eager to learn. Jim and Ches go on a hunting trip, where they encounter a mountain lion, and Jim tries to catch it with his bare hands.
+
+After their adventure, Jim and Ches return to their cabin, where Jim resumes his mining work. However, the tunnel collapses, and Jim is trapped. Ches, despite his fear, bravely navigates the treacherous tunnel to find Jim and calls for help. Bud arrives, and together they manage to rescue Jim with the help of a group of miners.
+
+The miners, led by Captain Hanrahan, are experienced and efficient, and they work quickly to free Jim. After the rescue, Jim is injured and weak, but grateful to his friends for saving his life. Bud stays with Jim to help him recover, and Ches assists with the chores. Jim receives a letter from Anne, who has had a change of heart and is now willing to marry him regardless of his financial situation.
+
+Jim is overjoyed and feels like he can finally rest easy. The story ends on a positive note, with Jim, Ches, and Bud enjoying each other's company and looking forward to a brighter future. The natural world around them is also flourishing, with the sunset, creek, and wildlife all contributing to a sense of peace and happiness. Jim's luck seems to be changing, and he is grateful for the support of his friends and the love of his life, Anne.
+
+The report for the text is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–7817):
+Section Summary: Jim Felton, a prospector, is sitting on the doorstep of his cabin in Sweet Briar Gulch, feeling unhappy and frustrated despite the beautiful surroundings. He has been searching for gold, but his efforts have been unsuccessful, and he is struggling with the idea that he may not be able to provide for himself, let alone a future wife. He reads a letter from his sweetheart, Anne, who has rejected his proposal due to his lack of financial stability, and he is hurt and enraged by her words. The arrival of Bud, the mail-carrier, interrupts Jim's misery, and Bud offers him advice to take a break and have some fun, but Jim declines, feeling that he is being watched by Anne's eye and is too broke to indulge. Jim's situation is further complicated by his sense of responsibility and his desire to prove himself to Anne.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [LEXICON]:
+        • occasional use of outdated or regional slang
+    - [SYNTAX]:
+        • some sentences are overly long or convoluted
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition from Jim's emotional state to the arrival of Bud
+    - [STRUCTURE]:
+        • non-sequential narrative flow in certain sections
+    - [CLARITY]:
+        • occasional ambiguity in character motivations or actions
+
+Section section_02 (Chars 7818–15528):
+Section Summary: Jim and his friend Bud part ways, with Bud giving Jim a burro to ride to the nearest town, Plattsburg, which is 50 miles away. Jim arrives in Plattsburg the next day and is struck by the sights and sounds of the town after being in the wilderness for so long. He visits the train depot and watches as a train arrives, feeling a sense of awe at the locomotive and interest in the diverse group of passengers. A young, hungry, and desperate boy catches Jim's attention, and he helps the boy escape from a burly man who is searching for him. Jim hides the boy on top of a shed, telling him to lie low and stay safe.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [LEXICON]:
+        • some words are outdated or regional
+    - [SYNTAX]:
+        • occasional awkward sentence structure
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt introduction of unrelated elements (e.g. "A diagnostic tool scanned the network", "A touchscreen panel showed static", "A face recognition scan completed")
+    - [STRUCTURE]:
+        • disjointed narrative flow due to sudden changes in scene or topic
+    - [CLARITY]:
+        • some sentences are wordy or unclear
+
+Section section_03 (Chars 15529–22864):
+Section Summary: A man and woman, who appear to be abusive and cruel, are searching for a young boy at a train station. The boy is eventually found, and it's revealed that he has been beaten and mistreated by the couple. The boy, who introduces himself as Jim, tells the station staff and passengers about his ordeal, showing them the bruises and welts on his back. The passengers, including a man named Jim Felton, take pity on the boy and offer to help him, with Felton eventually agreeing to take the boy in. The boy is grateful and eagerly accepts Felton's offer, and the two prepare to leave the station together.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [LEXICON]:
+        • some words are outdated or regional
+    - [SYNTAX]:
+        • complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between scenes
+    - [STRUCTURE]:
+        • non-linear narrative
+    - [CLARITY]:
+        • some characters' motivations are unclear
+
+Section section_04 (Chars 22865–30292):
+Section Summary: A group of men, including Felton, gathered at a saloon and decided to collect money for a young boy they had taken a liking to. They played a game of dice and raised $75 for the boy, whom Felton decided to name Chescheela James Felton. The men then took the boy to get a bath, haircut, and new clothes, and Felton prepared to take him to his camp. As they traveled through the countryside, the boy marveled at the natural beauty and felt a sense of freedom. At night, the boy became scared and cried, but Felton comforted him and helped him feel safe, and the boy eventually fell asleep, feeling grateful for Felton's kindness.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [LEXICON]:
+        • informal language and slang
+    - [SYNTAX]:
+        • complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between scenes
+    - [STRUCTURE]:
+        • lack of clear narrative progression
+    - [CLARITY]:
+        • unclear character motivations
+
+Section section_05 (Chars 30293–37947):
+Section Summary: Jim, who has taken in a young boy named Ches, is sitting by a campfire at night when he hears a rattlesnake nearby. He manages to kill the snake with a rope without waking Ches, and afterwards, he stays up to watch the night out, feeling a sense of mystery and enjoyment. In the morning, Jim and Ches set out on their journey, and Jim tries to teach Ches some lively songs to sing, but Ches prefers a more melancholic tune. As they travel, they come across a mountain lion on a ledge above the road, and Jim, excited like a small boy, urges Ches to throw a rock at the lion. The lion is hit by the rock but holds its ground, letting out a savage yell.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [LEXICON]:
+        • some words are outdated or regional
+    - [SYNTAX]:
+        • occasional awkward sentence structure
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt shift from Jim's thoughts to the snake encounter
+    - [TRANSITION]:
+        • some scenes feel disconnected from the rest of the narrative
+    - [CLARITY]:
+        • a few sentences are wordy or unclear
+
+Section section_06 (Chars 37948–45561):
+Section Summary: Jim and Ches return to their cabin, where they are greeted by a loud braying of donkeys, which startles Ches. Jim reassures him and whistles a bugle call, which is echoed back in a beautiful melody. As they approach the cabin, Ches begins to understand the concept of "home" and feels a sense of pride and hope, knowing that they have a place that belongs to them. Jim reassures Ches that he will protect him from anyone who might harm him, including someone known as "the Gun". With a newfound sense of security and purpose, Jim starts working on his mining project, determined to uncover the treasure he believes is hidden in the gravel bar.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [LEXICON]:
+        • some words are outdated or regional
+    - [SYNTAX]:
+        • long, complex sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between scenes
+    - [STRUCTURE]:
+        • non-linear narrative
+    - [CLARITY]:
+        • some sentences are hard to follow
+
+Section section_07 (Chars 45562–53751):
+Section Summary: An old man, 73 years old, is working tirelessly to dig through a 200-foot thick cap of cement, inspiring others with his optimism. In contrast, Jim is digging a tunnel, a task that requires immense physical effort, but he is driven to reach his goal. Ches, who works with Jim, is initially struggling with the hard labor but is motivated by Jim's determination and strength. The two take a break from their work to go on a hunting trip, but instead of shooting the deer, Jim tries to catch one with his hands, leading to a surprising and intense encounter. Despite the challenges they face, Jim and Ches find joy and rest in the beauty of nature and the comfort of their evening routines.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [LEXICON]:
+        • some words are outdated or regional
+    - [SYNTAX]:
+        • long, convoluted sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between scenes
+    - [STRUCTURE]:
+        • non-linear narrative
+    - [CLARITY]:
+        • some sentences are unclear or wordy
+
+Section section_08 (Chars 53751–61425):
+Section Summary: Jim and Ches had a wild encounter with a deer, which they eventually managed to subdue after a intense struggle. Despite being bruised and tired, they were happy and relived the experience on their way back to the cabin. Later, Bud arrived with the mail and privately informed Jim that Ches' father had been killed after stabbing his mother, making Ches Jim's responsibility. Jim decided not to tell Ches about the news, at least not yet, as suggested by Bud. Jim and Ches continued to bond and have adventures together, with Jim taking on a more serious role as Ches' caretaker.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [LEXICON]:
+        • some words are outdated or uncommon
+    - [SYNTAX]:
+        • a few sentences have complex structures that hinder readability
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between the hunting scene and the conversation about Ches' father
+    - [STRUCTURE]:
+        • the narrative jumps between different events and ideas without clear connections
+    - [CLARITY]:
+        • some sentences are wordy or contain unclear references
+
+Section section_09 (Chars 61426–69411):
+Section Summary: Ches, a young boy, is working with his partner Jim in a mine when a tunnel collapse occurs, trapping Jim inside. Ches, despite being scared and alone, bravely navigates the treacherous tunnel to find Jim, who is injured but alive. With Jim's life in danger, Ches searches for help and eventually hears the mail rider, Bud, approaching. Ches desperately tries to get Bud's attention and finally succeeds, telling him about the tunnel collapse and Jim's condition. Bud, who has a strong affection for Jim, quickly prepares to help rescue him.
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [LEXICON]:
+        • informal language and slang (e.g. "Ain't", "yaller", "dassent")
+    - [SYNTAX]:
+        • complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between scenes
+    - [STRUCTURE]:
+        • non-chronological events
+    - [CLARITY]:
+        • unclear motivations of characters at times
+
+Section section_10 (Chars 69412–77052):
+Section Summary: Bud is trying to rescue his friend Jim, who is trapped in a tunnel that has caved in. He sends a young boy, Ches, to get help from a group of miners, led by Captain Hanrahan, who are eight miles away. Ches rides a horse, Buck, to get to the miners, who quickly respond to the emergency and rush to the scene. The miners, with their expertise and equipment, take charge of the rescue effort, with Captain Hanrahan leading the way and ensuring a safe and efficient operation. The team works together to dig a relief tunnel to reach Jim, with the captain's experienced guidance allowing them to make rapid progress.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [LEXICON]:
+        • some words are informally or colloquially used
+    - [SYNTAX]:
+        • occasional awkward sentence structure
+  Coherence Issues:
+    - [LOGIC]:
+        • a few abrupt transitions between scenes
+    - [STRUCTURE]:
+        • some sections feel slightly disconnected
+    - [CLARITY]:
+        • occasional ambiguity in character motivations
+
+Section section_11 (Chars 77052–83161):
+Section Summary: After being rescued, Jim is nursed back to health by his friends Bud and Ches. The captain and his miners depart, but not before showing kindness and humility. As Jim recovers, he receives a letter from his loved one, Anne, who has had a change of heart and now wants to be with him, regardless of the circumstances. Overjoyed by the news, Jim feels a sense of relief and happiness. The scene ends with a sense of peace and joy, as Jim rests and his friends return to the cabin, laughing and carefree.
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor punctuation errors
+    - [LEXICON]:
+        • some outdated expressions
+    - [SYNTAX]:
+        • a few long, convoluted sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • slight inconsistency in character emotions
+    - [TRANSITION]:
+        • abrupt shift in scene
+    - [CLARITY]:
+        • minor ambiguity in some sentences
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

@@ -1,0 +1,350 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) Read and understand the summary of the text the report was created for.
+    b) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    c) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The summary of the text to be evaluated is given below:
+Summary: The document "One Common Faith" discusses the role of religion in addressing the world's challenges. In 2002, an open letter was sent to world religious leaders, highlighting the need for courage to rise above fixed conceptions and recognize the oneness of God and religion. The letter acknowledged the achievements of the interfaith movement and encouraged religious leadership to face the implications of this truth honestly.
+
+The response to the letter was encouraging, with many recipients expressing distress over the failure of religious institutions to assist humanity. Discussions turned to the need for fundamental change in how people relate to each other. The task of ensuring that the message of Bahá'u'lláh is engaged by people everywhere is one that He has laid primarily on the shoulders of those who have recognized Him.
+
+The accelerating breakdown in social order calls out desperately for the religious spirit to be freed from the shackles that have prevented it from bringing its healing influence. Bahá'ís must draw on a deep understanding of the process by which humanity's spiritual life evolves. The writings of Bahá'u'lláh provide insights that can help elevate discussion of religious issues above sectarian and transient considerations.
+
+The period of history now opening will be more receptive to efforts to spread Bahá'u'lláh's message than the previous century. A sea change in human consciousness is underway, driven by the failure of materialism and the unifying forces of globalization. The reawakened interest in religion is far from having reached its peak, with historical forces gathering momentum to erode the certainty that material existence represents ultimate reality.
+
+The bankruptcy of the materialist enterprise and the effects of global integration are re-evaluating the role of religion in human life. The primary agents of spiritual development have been the great religions, which have served as a source of knowledge that endows the sincere with a new eye, ear, heart, and mind. However, the search for meaning is now diffused, individualistic, and incoherent in character.
+
+The dilemma facing the world is artificial and self-inflicted, with misconceptions about human nature and social evolution severely inhibiting intelligent endeavors at human betterment. The teachings of Bahá'u'lláh reformulate many truths that have lain at the heart of all Divine revelation, emphasizing the oneness of God and the progressive nature of religion.
+
+The objection that the differences among revealed faiths are too fundamental to present them as stages or aspects of one unified system of truth is understandable but misguided. The differences fall into categories of practice or doctrine, both of which are presented as the intent of the relevant scriptures. However, these differences do not constitute a significant objection to the idea of revealed religion's essential oneness.
+
+The concept of progressive revelation places the ultimate emphasis on recognition of the revelation of God at its appearance. The failure of the generality of humankind to recognize the revelation of God has condemned entire populations to a ritualistic repetition of ordinances and practices long after they have fulfilled their purpose.
+
+The role of religion in cultivating moral consciousness is equally apparent in popular understanding of its contribution to shaping society. The inferior social status assigned to women in sacred texts is a notable example. However, clinging to primitive norms in the present day would defeat the purpose of religion's patient cultivation of moral sense.
+
+The power through which the goals of unity and moral development will be progressively realized is that of unity itself. Although regarded as a goal to be attained in a distant future, unity is a condition of the human spirit that can be supported and enhanced by education and legislation. The Bahá'í community, with its diversity and global reach, is a phenomenon that calls out for understanding and attention.
+
+The culture of systematic growth taking root in the Bahá'í community is the most effective response to the challenge of promoting unity and moral development. The experience of an intense and ongoing immersion in the Creative Word frees one from materialistic assumptions and develops a capacity to assist the yearning for unity. The nature of the core activities of the current Plan permits growing numbers of persons to participate in the process and feel free to commit themselves fully to Bahá'u'lláh's purpose.
+
+Ultimately, the task of sharing Bahá'u'lláh's message is not an interfaith project, but a call to recognize the oneness of religion and the unity of humanity. The declared purpose of history's series of prophetic revelations has been to prepare the whole of the human family for the great eschatological Event lying ahead, through which the life of the world will itself be entirely transformed. The revelation of Bahá'u'lláh is neither preparatory nor prophetic, but the Event itself, setting in motion the stupendous enterprise of laying the foundations of the Kingdom of God.
+
+The report for the text is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–9773):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "sedtarian" instead of "sectarian"
+        • "thisctruth" instead of "this truth"
+        • "prinfiple" instead of "principle"
+        • "enwure" instead of "ensure"
+        • "afevting" instead of "affecting"
+        • "rapidlybor" instead of "rapidly or"
+        • "whsre" instead of "where"
+        • "clmmunity" instead of "community"
+        • "arecto" instead of "are to"
+        • "Feligious" instead of "Religious"
+        • "pkwer" instead of "power"
+        • "appreciatr" instead of "appreciate"
+        • "inzo" instead of "in so"
+        • "tje" instead of "the"
+        • "wxs" instead of "was"
+        • "iz" instead of "is"
+    - [GRAMMAR]:
+        • inconsistent verb tenses
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between paragraphs
+    - [STRUCTURE]:
+        • lack of clear topic sentences
+    - [CLARITY]:
+        • complex sentences with multiple clauses
+
+Section section_02 (Chars 9774–19232):
+Scores:
+  - Fluency: 2.5
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • recovnition
+        • believerz
+        • historicalvturning
+        • pf
+        • havihg
+        • developnent
+        • reqlity
+        • flawx
+        • fhe
+        • impdessive
+        • lired
+        • wajt
+        • scienyific
+        • writihgs
+        • regwrded
+        • disiplusionment
+        • materizlism
+        • transmutihg
+        • comw
+        • refuyees
+        • Europezn
+    - [GRAMMAR]:
+        • sentence structure
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between ideas
+    - [STRUCTURE]:
+        • lack of clear paragraph structure
+    - [CLARITY]:
+        • ambiguous sentences
+
+Section section_03 (Chars 19233–28669):
+Scores:
+  - Fluency: 3.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing or incorrect articles
+    - [SPELLING]:
+        • typos such as "uhimaginably", "refuyees", "Europezn", "invBahá'u'lláh's", "sjared", "inhabifants", "tye", "parochial attachements"
+    - [SYNTAX]:
+        • awkward sentence structures
+    - [LEXICON]:
+        • word choice issues, such as "unimaginably" instead of "almost unimaginably"
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between ideas
+    - [STRUCTURE]:
+        • lack of clear paragraph structure
+    - [CLARITY]:
+        • unclear or ambiguous sentences
+    - [TRANSITION]:
+        • missing or inadequate connections between paragraphs
+
+Section section_04 (Chars 28670–37378):
+Scores:
+  - Fluency: 3.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "thw" instead of "the"
+        • "rathrr" instead of "rather"
+        • "ths" instead of "this"
+        • "othets" instead of "others"
+        • "organizatiins" instead of "organizations"
+        • "themselvex" instead of "themselves"
+        • "apqrt" instead of "apart"
+        • "carechisms" instead of "creeds"
+        • "appdarance" instead of "appearance"
+        • "worldv" instead of "world"
+        • "delusilnb" instead of "delusion"
+        • "lroclaiming" instead of "proclaiming"
+        • "wikl" instead of "will"
+        • "ootentialities" instead of "potentialities"
+        • "itselr" instead of "itself"
+        • "inextinguishable" is correct but "inextinguishable urge" is a bit awkward
+        • "ongoingcprocess" instead of "ongoing process"
+        • "syage" instead of "stage"
+        • "aqakening" instead of "awakening"
+        • "senee" instead of "sense"
+        • "bthe" instead of "the"
+        • "gloom that has encircled humanity" is a bit wordy
+  Coherence Issues:
+    - [LOGIC]:
+        • Some sentences are long and convoluted, making them hard to follow
+    - [STRUCTURE]:
+        • The text jumps between different ideas and concepts without clear transitions
+    - [CLARITY]:
+        • Some paragraphs lack a clear topic sentence or main idea
+    - [TRANSITION]:
+        • The text could benefit from more transitional phrases to connect ideas between sentences and paragraphs
+
+Section section_05 (Chars 37379–46676):
+Scores:
+  - Fluency: 3.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [SPELLING]:
+        • multiple typos (e.g., "Mamifestations", "whivh", "behaviour", "activitg", "syultify", "devastzting", "coupd", "ijtellectual")
+    - [SYNTAX]:
+        • complex sentence structures
+    - [LEXICON]:
+        • occasional use of obscure vocabulary
+  Coherence Issues:
+    - [LOGIC]:
+        • some paragraphs lack clear connections to the main argument
+    - [STRUCTURE]:
+        • abrupt transitions between ideas
+    - [CLARITY]:
+        • certain sentences are wordy and difficult to understand
+    - [TRANSITION]:
+        • lack of smooth transitions between paragraphs
+
+Section section_06 (Chars 46676–55347):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing or incorrect articles
+    - [SPELLING]:
+        • typos such as "spirotual", "thickets with which theology hasvhedged", "rdligion", "ks"
+    - [LEXICON]:
+        • occasional use of obscure vocabulary
+  Coherence Issues:
+    - [LOGIC]:
+        • some sentences are wordy and hard to follow
+    - [STRUCTURE]:
+        • abrupt transitions between ideas
+    - [CLARITY]:
+        • occasional ambiguity in sentence meaning
+
+Section section_07 (Chars 55348–64763):
+Scores:
+  - Fluency: 3.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "morxl" instead of "moral"
+        • "frwme" instead of "frame"
+        • "attacg" instead of "attack"
+        • "bycneighbouring" instead of "by neighbouring"
+        • "wno" instead of "who"
+        • "chltural" instead of "cultural"
+        • "xcope" instead of "scope"
+        • "difcerent" instead of "different"
+        • "religiom" instead of "religion"
+        • "jore" instead of "more"
+        • "severd" instead of "severe"
+        • "Thw" instead of "The"
+        • "worldbhave" instead of "world have"
+        • "pfogrammes" instead of "programmes"
+        • "tradiyional" instead of "traditional"
+        • "alterjng" instead of "altering"
+        • "everyvaspect" instead of "every aspect"
+        • "womrn" instead of "women"
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between paragraphs
+    - [STRUCTURE]:
+        • Overly complex sentence structures
+    - [CLARITY]:
+        • Unclear connections between ideas
+
+Section section_08 (Chars 64764–74005):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "precelts" instead of "precepts"
+        • "necesearily" instead of "necessarily"
+        • "hujanity's" instead of "humanity's"
+        • "fhe" instead of "the"
+        • "practicxl" instead of "practical"
+        • "aggresdion" instead of "aggression"
+        • "womrn" instead of "women"
+        • "alterjng" instead of "altering"
+        • "everyvaspect" instead of "every aspect"
+        • "Physiciaj" instead of "Physician"
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between ideas
+    - [STRUCTURE]:
+        • Long sentences and paragraphs
+    - [CLARITY]:
+        • Some sentences are wordy and hard to understand
+
+Section section_09 (Chars 74006–83216):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing or incorrect articles
+    - [SPELLING]:
+        • typos such as "abwndonment" instead of "abandonment"
+    - [SYNTAX]:
+        • complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between ideas
+    - [STRUCTURE]:
+        • lack of clear paragraph topics
+    - [CLARITY]:
+        • ambiguous or unclear sentences
+
+Section section_10 (Chars 83217–91710):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • expressiob
+        • chkefly
+        • hecmust
+        • liks
+        • reunikn
+        • itvby
+        • eevslation
+        • jusgice
+        • peopoes
+        • froj
+        • anf
+    - [GRAMMAR]:
+        • sentence structure complexity
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between ideas
+    - [STRUCTURE]:
+        • lengthy paragraphs
+    - [CLARITY]:
+        • ambiguous sentences
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

@@ -1,0 +1,166 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    b) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The report is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–8276):
+Section Summary: Paolo Veronese, born Paolo Caliari in 1528 in Verona, was a great painter known for his unique blend of absurdity and adorability. He was trained by his uncle, Antonio Badile, and developed his skills through diligent practice, including copying engravings by masters like Albert Durer. Veronese's early works already showed promise, and he quickly gained recognition in Verona and beyond, including a commission from Cardinal Ercole di Gonzaga to paint a picture for the cathedral in Mantua. He eventually outgrew the limited opportunities in Verona and moved to other cities, including Venice, which would become a major inspiration for his work. Veronese's love for Venice and its vibrant culture is reflected in his paintings, which are characterized by their magnificent color, splendor, and joy.
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor sentence complexity
+    - [LEXICON]:
+        • occasional use of less common vocabulary
+    - [SYNTAX]:
+        • some long sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between chapters
+    - [STRUCTURE]:
+        • lack of clear connection between some paragraphs
+    - [CLARITY]:
+        • occasional ambiguity in sentence meaning
+
+Section section_02 (Chars 8277–16885):
+Section Summary: Paolo Veronese collaborated with his friend Zelotti on several painting projects, including fresco work in a home in Fanzolo, before moving to Venice to pursue his artistic career. In Venice, Veronese was inspired by the city's beauty and the works of other great Venetian painters, but he managed to maintain his own unique style and vision. He was known for his pleasant personality, agreeable humor, and independence, and he formed valuable friendships, including with the Prior of the convent of San Sebastiano, Bernardo Torlioni. With Torlioni's support, Veronese received commissions to decorate the church of San Sebastiano, where he painted his famous series of episodes from the History of Esther and Ahasuerus. Veronese's success in Venice was assured after the completion of this project, which showcased his unique style and attention to detail, and he went on to become a celebrated and sought-after artist.
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor sentence structure complexity
+    - [LEXICON]:
+        • occasional use of less common vocabulary
+    - [SYNTAX]:
+        • some long sentences with multiple clauses
+  Coherence Issues:
+    - [LOGIC]:
+        • occasional jumps in narrative timeline
+    - [STRUCTURE]:
+        • minor inconsistencies in paragraph organization
+    - [CLARITY]:
+        • a few sentences with ambiguous meaning
+
+Section section_03 (Chars 16886–25390):
+Section Summary: During the height of Venice's glory, Paolo Veronese arrived and satisfied the city's demand for art, surpassing his rivals and becoming one of the foremost painters, alongside Titian. Veronese's masterpieces, created between 1555 and 1588, adorned the city's walls and buildings, showcasing his skill and artistry. He was commissioned to decorate the palace of Patriarch Daniele Barbaro, where he painted numerous works, including "Nobility, Honour, Magnificence" and "The Gods of Olympus". Veronese's fame grew, and he was entrusted with decorating the Doge's Palace, and later, the library, where he competed with other artists and won a golden chain for his work. His most famous paintings, including "The Wedding at Cana", were created during his most fertile period, between 1562 and 1565, and are still admired today for their brilliance and imagination.
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor sentence structure complexity
+    - [LEXICON]:
+        • occasional use of less common vocabulary
+    - [SYNTAX]:
+        • some long sentences with multiple clauses
+  Coherence Issues:
+    - [LOGIC]:
+        • a few abrupt transitions between paragraphs
+    - [STRUCTURE]:
+        • minor deviations from chronological order
+    - [CLARITY]:
+        • occasional ambiguity in sentence meaning
+
+Section section_04 (Chars 25390–33800):
+Section Summary: Veronese's painting, "The Wedding at Cana", is a masterpiece that showcases his unique method, which disregards historical accuracy and traditional religious depictions. The painting features a mix of biblical figures and contemporary personalities, including the artist himself, and was widely admired by his peers. However, Veronese's unconventional approach to religious art led to him being summoned by the Inquisition, which criticized his "Feast at the House of Levi" for its perceived irreverence. Veronese defended his work, citing the precedent of other great masters, and was ultimately allowed to revise the painting to meet the Inquisition's demands. Despite this challenge, Veronese's reputation continued to grow, and he eventually made a brief trip to Rome, although details of his visit are scarce.
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor sentence structure issues
+    - [LEXICON]:
+        • occasional use of less common vocabulary
+    - [SYNTAX]:
+        • some sentences are wordy or convoluted
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between paragraphs
+    - [STRUCTURE]:
+        • lack of clear chronological order
+    - [CLARITY]:
+        • some sentences are unclear or ambiguous
+
+Section section_05 (Chars 33801–42422):
+Section Summary: There is no evidence to suggest that Veronese practiced his art in Rome, and it is believed that he only admired the masterpieces of Raphael and Michelangelo during his visit. After returning to Venice, Veronese was in high demand and produced many works, including "The Family of Darius at the Feet of Alexander," a painting that showcases his unique composition and style. Veronese was also commissioned to decorate the Ducal Palace, which had been damaged in a fire, and he created several notable works, including "The Triumph of Venice" and "Venice Enthroned." These paintings demonstrate his skill and artistry, and the Ducal Palace has become a museum of his works, along with those of other Venetian masters. Veronese's personal life is not well-documented, but it is known that he was a man of strict principles and settled habits, and that he refused lucrative offers to work in other cities, including an offer from Philip II of Spain.
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor sentence structure issues
+    - [LEXICON]:
+        • some words may be less familiar to non-experts
+    - [SYNTAX]:
+        • occasional complex sentence constructions
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between paragraphs
+    - [STRUCTURE]:
+        • lack of clear chronological order in some sections
+    - [CLARITY]:
+        • occasional ambiguity in sentence meaning
+
+Section section_06 (Chars 42423–48123):
+Section Summary: Veronese was a prolific artist who decorated several buildings in Venice, including the Hall of the Council of Ten and the Fondaco dei Tedeschi, with his vibrant and ornate paintings. He also created works for various European monarchs and nobles, showcasing his ability to adapt to different styles and subjects. Throughout his life, Veronese remained faithful to his unique style, characterized by pomp, brilliance, and luxury, and his works continued to impress with their energy and mastery. Despite his advanced age, Veronese's craftsmanship showed no signs of decline, and he continued to paint with steady hands until his death on April 19, 1588, at the age of 60. His legacy is one of unparalleled productivity and artistic genius, leaving behind a vast collection of brilliant and luxuriant works that remain unparalleled in the history of art.
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor punctuation issues
+    - [LEXICON]:
+        • occasional word choice awkwardness
+    - [SYNTAX]:
+        • few instances of complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • some abrupt transitions between paragraphs
+    - [STRUCTURE]:
+        • lack of clear chronological progression
+    - [CLARITY]:
+        • occasional ambiguity in sentence meaning
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

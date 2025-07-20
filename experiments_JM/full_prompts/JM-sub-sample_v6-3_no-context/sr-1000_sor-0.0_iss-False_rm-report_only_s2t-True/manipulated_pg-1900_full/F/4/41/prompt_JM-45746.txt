@@ -1,0 +1,441 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    b) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The report is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–4353):
+Scores:
+  - Fluency: 2.5
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "arrivef" instead of "arrived"
+        • "ckllege" instead of "college"
+        • "unprepaeed" instead of "unprepared"
+        • "doybtful" instead of "doubtful"
+        • "simular" instead of "similar"
+        • "twp" instead of "two"
+        • "hs" instead of "he"
+        • "mot" instead of "had not"
+        • "llans" instead of "plans"
+        • "suoerintendent" instead of "superintendent"
+        • "hiscjob" instead of "his job"
+    - [GRAMMAR]:
+        • inconsistent verb tenses
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between paragraphs
+    - [STRUCTURE]:
+        • lack of clear connection between the two young men's stories
+    - [CLARITY]:
+        • unclear purpose of visiting the school buildings
+
+Section section_02 (Chars 4354–8908):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "buildong" instead of "building"
+        • "doom" instead of "room"
+        • "nuilding" instead of "building"
+        • "tl" instead of "to"
+        • "attractive andccomfortable" instead of "attractive and comfortable"
+        • "statekent" instead of "statement"
+        • "tje" instead of "to"
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between the story of the young man and the discussion of getting a position
+    - [STRUCTURE]:
+        • Lack of clear connection between the anecdote and the subsequent advice
+
+Section section_03 (Chars 8908–13561):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • typos and spelling mistakes (e.g., "desirousnof", "counger", "specializingvto", "narrowinh", "obyaining", "begter", "not longvago", "needcof")
+    - [GRAMMAR]:
+        • grammatical errors and awkward phrasing
+    - [LEXICON]:
+        • word choice issues (e.g., "fragmentary educational foundation")
+  Coherence Issues:
+    - [LOGIC]:
+        • some ideas seem disconnected or abruptly introduced
+    - [TRANSITION]:
+        • transitions between paragraphs could be smoother
+    - [CLARITY]:
+        • a few sentences are wordy or unclear
+
+Section section_04 (Chars 13562–18187):
+Scores:
+  - Fluency: 3.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "scholl" instead of "school"
+        • "eeucational" instead of "educational"
+        • "superintendejcy" instead of "superintendency"
+        • "chanjels" instead of "channels"
+        • "positoon" instead of "position"
+        • "suoerintendent" instead of "superintendent"
+        • "wasmturned" instead of "was turned"
+        • "ib" instead of "in"
+        • "mitht" instead of "might"
+        • "atgended" instead of "attended"
+        • "pqper" instead of "paper"
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between paragraphs
+    - [STRUCTURE]:
+        • lack of clear connections between ideas
+    - [CLARITY]:
+        • some sentences are wordy or unclear
+
+Section section_05 (Chars 18188–22796):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing articles
+    - [SPELLING]:
+        • "recentoy" instead of "recently"
+        • "getvstarted" instead of "get started"
+        • "teaxhers" instead of "teachers"
+        • "wede" instead of "were"
+        • "thecteachers" instead of "the teachers"
+        • "tue" instead of "the"
+        • "Cpive" instead of "Captive"
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between paragraphs
+    - [STRUCTURE]:
+        • lack of clear connections between ideas
+    - [CLARITY]:
+        • unclear sentence structure in some places
+
+Section section_06 (Chars 22797–27281):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "claasic" instead of "classic"
+        • "obtzined" instead of "obtained"
+        • "teacjers" instead of "teachers"
+        • "szid" instead of "said"
+        • "opwned" instead of "opened"
+        • "tyis" instead of "this"
+        • "firstnday" instead of "first day"
+        • "thejr" instead of "their"
+    - [GRAMMAR]:
+        • inconsistent verb tenses
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transition between paragraphs
+    - [CLARITY]:
+        • some sentences are wordy or unclear
+    - [LOGIC]:
+        • lack of clear connection between some ideas
+
+Section section_07 (Chars 27282–31869):
+Scores:
+  - Fluency: 3.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "supppies" instead of "supplies"
+        • "paymeny" instead of "payment"
+        • "ajmeducator" instead of "an educator"
+        • "tbeir" instead of "their"
+        • "manual trainingnequipment" instead of "manual training equipment"
+        • "kur" instead of "our"
+        • "arrangsd" instead of "arranged"
+        • "evenibg" instead of "evening"
+        • "neughboring" instead of "neighboring"
+        • "manuql" instead of "manual"
+        • "similae" instead of "similar"
+        • "whxt" instead of "what"
+        • "lfgen" instead of "often"
+        • "coule" instead of "could"
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between paragraphs
+    - [STRUCTURE]:
+        • Lack of clear connections between ideas
+    - [CLARITY]:
+        • Some sentences are wordy or unclear
+
+Section section_08 (Chars 31869–36538):
+Scores:
+  - Fluency: 2.5
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "fesl" instead of "feel"
+        • "acticities" instead of "activities"
+        • "toans" instead of "towns"
+        • "hadchad" instead of "had"
+        • "footnall" instead of "football"
+        • "bicinity" instead of "vicinity"
+        • "pupkls" instead of "pupils"
+        • "aas" instead of "was"
+        • "dyring" instead of "during"
+        • "ofydn" instead of "often"
+        • "wociety" instead of "society"
+        • "sas" instead of "was"
+        • "woulr" instead of "would"
+        • "bhilding" instead of "building"
+    - [GRAMMAR]:
+        • inconsistent verb tenses
+    - [SYNTAX]:
+        • run-on sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between paragraphs
+    - [STRUCTURE]:
+        • lack of clear introduction and conclusion
+    - [CLARITY]:
+        • unclear connections between ideas
+    - [TRANSITION]:
+        • missing transitional phrases
+
+Section section_09 (Chars 36539–41151):
+Scores:
+  - Fluency: 3.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "poan" instead of "plan"
+        • "hkgh" instead of "high"
+        • "vitalizemcertain" instead of "vitalize certain"
+        • "coasses" instead of "classes"
+        • "Clun" instead of "Club"
+        • "fimds" instead of "finds"
+        • "teacyers" instead of "teachers"
+        • "lxrge" instead of "large"
+        • "oleasant" instead of "pleasant"
+        • "kwep" instead of "keep"
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between the introduction and the quote
+    - [STRUCTURE]:
+        • lack of clear connection between the quote and the preceding sentence
+    - [CLARITY]:
+        • some sentences are wordy and difficult to understand
+
+Section section_10 (Chars 41152–45737):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "fof" instead of "for"
+        • "nowhdre" instead of "nowhere"
+        • "orgwnization" instead of "organization"
+        • "monghs" instead of "months"
+        • "manufactufing" instead of "manufacturing"
+        • "themchairs" instead of "the chairs"
+    - [GRAMMAR]:
+        • missing articles in some places
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between the discussion of high school activities and the story about the janitor
+    - [STRUCTURE]:
+        • lack of clear connection between the different paragraphs
+    - [CLARITY]:
+        • some sentences are wordy or unclear
+
+Section section_11 (Chars 45738–50043):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "thw" instead of "the"
+        • "Hefore" instead of "Before"
+        • "fprenoon" instead of "forenoon"
+        • "superintsndents" instead of "superintendents"
+        • "znd" instead of "and"
+        • "Ibconsidered" instead of "I considered"
+        • "togefer" instead of "together"
+        • "glod" instead of "good"
+        • "cpöperation" instead of "cooperation"
+        • "coöperation" instead of "cooperation" (consistent error, but still an error)
+        • "reportedvat" instead of "reported at"
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between the description of the janitor's initial reluctance and the later cooperation
+    - [CLARITY]:
+        • Some sentences are wordy and could be simplified for better understanding
+    - [STRUCTURE]:
+        • The narrative jumps between different time frames without clear transitions
+
+Section section_12 (Chars 50043–54168):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "princilals" instead of "principals"
+        • "recomendatioj" instead of "recommendation"
+        • "administrstive" instead of "administrative"
+        • "intrrruption" instead of "interruption"
+        • "texcher" instead of "teacher"
+        • "exfra" instead of "extra"
+        • "indefinirely" instead of "indefinitely"
+        • "vonstant" instead of "constant"
+        • "accodding" instead of "according"
+    - [GRAMMAR]:
+        • awkward phrasing in some sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between ideas
+    - [STRUCTURE]:
+        • lack of clear organization in some sections
+    - [CLARITY]:
+        • unclear explanations of some concepts
+
+Section section_13 (Chars 54169–58798):
+Scores:
+  - Fluency: 3.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "operatjon" instead of "operation"
+        • "geen" instead of "been"
+        • "gooe" instead of "good"
+        • "atfempt" instead of "attempt"
+        • "supetvisors" instead of "supervisors"
+        • "discoirages" instead of "discourages"
+        • "gettijg" instead of "getting"
+        • "lwader" instead of "leader"
+        • "timr" instead of "time"
+        • "inspiratuon" instead of "inspiration"
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between paragraphs
+    - [STRUCTURE]:
+        • lack of clear topic sentences in some paragraphs
+    - [CLARITY]:
+        • some sentences are wordy or unclear
+
+Section section_14 (Chars 58799–63371):
+Scores:
+  - Fluency: 3.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • professionak
+        • aj
+        • outlinez
+    - [GRAMMAR]:
+        • punctuation and sentence structure issues
+    - [LEXICON]:
+        • word choice issues (e.g., "Sucu" instead of "Such")
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt shifts in ideas
+    - [STRUCTURE]:
+        • lack of clear transitions between sections
+    - [CLARITY]:
+        • confusing sentences and paragraphs
+
+Section section_15 (Chars 63372–68121):
+Scores:
+  - Fluency: 3.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "pruncipal" instead of "principal"
+        • "scyools" instead of "schools"
+        • "psrt-time" instead of "part-time"
+        • "havr" instead of "have"
+        • "ane" instead of "and"
+        • "fkrst" instead of "first"
+        • "oytside" instead of "outside"
+        • "n" instead of "to"
+        • "hseful" instead of "helpful"
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between paragraphs
+    - [STRUCTURE]:
+        • lack of clear connection between ideas
+    - [CLARITY]:
+        • unclear sentences due to complex vocabulary
+
+Section section_16 (Chars 68122–70112):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "orfering" instead of "offering"
+        • "timecfor" instead of "time for"
+        • "assuted" instead of "assured"
+        • "pypils" instead of "pupils"
+        • "champion thevcause" instead of "champion the cause"
+        • "byt" instead of "but"
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between the story of the mayor and the discussion of high school education
+    - [STRUCTURE]:
+        • Lack of clear connection between the anecdotes and the general discussion of education
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

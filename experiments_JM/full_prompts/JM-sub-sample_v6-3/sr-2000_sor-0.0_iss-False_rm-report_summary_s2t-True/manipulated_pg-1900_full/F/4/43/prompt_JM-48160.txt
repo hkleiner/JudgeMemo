@@ -1,0 +1,262 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) Read and understand the summary of the text the report was created for.
+    b) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    c) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The summary of the text to be evaluated is given below:
+Summary: The author describes her experiences in France during World War I, particularly in the war zone. She notes that France is divided into two sections: one where life is relatively normal, and the other, the war zone, where access is restricted. To enter the war zone, one needs a special permit, which the author obtains after weeks of effort and influential connections.
+
+The author visits the war zone, including the towns of Châlons and Bar-le-Duc, where she sees the devastating effects of war. She describes the ruins, the graves of fallen soldiers, and the poverty and desperation of the people. She also visits military hospitals, where she sees the wounded and maimed soldiers, and learns about the work of the Red Cross and other organizations to care for them.
+
+The author is struck by the bravery and resilience of the French people, particularly the women, who are shouldering much of the burden of the war effort. She notes that the French are a proud and patriotic people, who are determined to defend their country against the German invaders.
+
+The author also describes her own experiences as a woman in the war zone, including her encounters with soldiers, officers, and civilians. She notes that women are not allowed to go to the front lines, and that even men are not allowed to take them there. She is frustrated by the restrictions and the bureaucracy, but she is also impressed by the kindness and courtesy of the French people.
+
+The author visits the town of Gerbéviller, which has been largely destroyed by the Germans. She sees the ruins of the town, and meets some of the survivors, including a heroic nun who saved her hospice from destruction. She also visits the town of Nancy, which is under constant threat of bombardment, and sees the preparations for air raids.
+
+The author reflects on the significance of the war and the importance of American support for France. She notes that the war is not just a European conflict, but a global struggle for freedom and democracy. She urges Americans to support the French war effort, and to contribute to organizations that are helping the wounded and the displaced.
+
+The author also describes her experiences with the organization "Le Bienêtre du Blessé," which aims to provide comfort and support to wounded soldiers. She notes that the organization is doing vital work, but that it needs more support and resources to continue its efforts. She urges Americans to contribute to the organization, and to help the French people in their time of need.
+
+Overall, the author's account provides a vivid and moving picture of life in the war zone, and highlights the bravery, resilience, and determination of the French people. It also emphasizes the importance of American support for France, and the need for continued effort and sacrifice to bring about a victorious end to the war.
+
+The report for the text is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–8282):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Inconsistent verb tense usage
+    - [SYNTAX]:
+        • Complex sentence structures
+    - [LEXICON]:
+        • Some words are outdated or less common
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between paragraphs
+    - [STRUCTURE]:
+        • Non-chronological order of events
+    - [CLARITY]:
+        • Overly descriptive passages
+
+Section section_02 (Chars 8283–16551):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor punctuation errors
+    - [LEXICON]:
+        • occasional word choice issues
+    - [SYNTAX]:
+        • few sentence structure complexities
+  Coherence Issues:
+    - [LOGIC]:
+        • slight disconnect between some paragraphs
+    - [TRANSITION]:
+        • occasional abrupt shifts in narrative
+    - [CLARITY]:
+        • minor ambiguity in a few sentences
+
+Section section_03 (Chars 16551–24658):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Sentence structure is sometimes awkward or hard to follow
+    - [LEXICON]:
+        • Word choice can be overly complex or less common
+    - [SYNTAX]:
+        • Some sentences are very long and contain multiple clauses
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transitions between ideas or scenes
+    - [STRUCTURE]:
+        • The narrative jumps between different times and locations
+    - [CLARITY]:
+        • Some sentences or phrases are unclear or ambiguous
+
+Section section_04 (Chars 24659–33017):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Inconsistent verb tense usage
+    - [SYNTAX]:
+        • Confusing sentence structure in some parts
+    - [LEXICON]:
+        • Uncommon vocabulary that may hinder understanding
+    - [SPELLING]:
+        • Minor typos and punctuation errors
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transitions between scenes
+    - [STRUCTURE]:
+        • Non-chronological events that may confuse the reader
+    - [CLARITY]:
+        • Unclear connections between ideas
+
+Section section_05 (Chars 33018–41358):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Inconsistent verb tense usage
+    - [SYNTAX]:
+        • Run-on sentences and lack of punctuation
+    - [LEXICON]:
+        • Some words and phrases are outdated or unclear
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transitions between ideas
+    - [STRUCTURE]:
+        • Lack of clear chronological order
+    - [CLARITY]:
+        • Some sentences are wordy or confusing
+
+Section section_06 (Chars 41358–49701):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Inconsistent verb tense usage
+    - [SYNTAX]:
+        • Complex sentence structures
+    - [LEXICON]:
+        • Some words are used in unclear contexts
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transitions between ideas
+    - [STRUCTURE]:
+        • Lack of clear progression in some sections
+    - [CLARITY]:
+        • Ambiguous references to events or locations
+
+Section section_07 (Chars 49702–58127):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Inconsistent verb tense usage
+    - [SYNTAX]:
+        • Abrupt sentence structure changes
+    - [LEXICON]:
+        • Some words are used in unclear contexts
+  Coherence Issues:
+    - [LOGIC]:
+        • Disjointed narrative flow
+    - [STRUCTURE]:
+        • Lack of clear transitions between ideas
+    - [CLARITY]:
+        • Ambiguous references to time and place
+
+Section section_08 (Chars 58128–66376):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Inconsistent verb tense usage
+    - [LEXICON]:
+        • Some words are used in an outdated or less common manner
+    - [SYNTAX]:
+        • Long, convoluted sentences that can be hard to follow
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transitions between different storylines or ideas
+    - [STRUCTURE]:
+        • Lack of clear chronological order in some sections
+    - [CLARITY]:
+        • Some sentences or paragraphs are unclear or confusing
+
+Section section_09 (Chars 66377–74850):
+Scores:
+  - Fluency: 3.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • incomplete sentences
+    - [SYNTAX]:
+        • awkward phrasing
+    - [LEXICON]:
+        • unclear word choice
+    - [SPELLING]:
+        • typos (e.g., "oeuvre" instead of "work" or incorrect usage)
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt jumps between ideas
+    - [STRUCTURE]:
+        • lack of clear transitions between paragraphs
+    - [CLARITY]:
+        • ambiguous sentences
+
+Section section_10 (Chars 74851–82329):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor errors in verb tense consistency
+    - [LEXICON]:
+        • occasional use of less common vocabulary
+    - [SYNTAX]:
+        • some sentences are lengthy and convoluted
+  Coherence Issues:
+    - [LOGIC]:
+        • occasional abrupt transitions between ideas
+    - [STRUCTURE]:
+        • the text jumps between different settings and topics
+    - [CLARITY]:
+        • some sentences are wordy and difficult to follow
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

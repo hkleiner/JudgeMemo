@@ -1,0 +1,94 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) Read and understand the summary of the text the report was created for.
+    b) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    c) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The summary of the text to be evaluated is given below:
+Summary: The author reflects on the changing nature of Christmas, suggesting that its magic has been lost for many adults. In the past, Christmas was a time of excitement and anticipation, with secrets and surprises building up to the big day. However, as people grow older, they often lose this sense of wonder and enthusiasm. The author argues that this is not just a natural result of aging, but rather a sign of a deeper cultural shift.
+
+The author notes that children still experience the magic of Christmas, but adults often have to force themselves to get into the holiday spirit. This is in contrast to other vacations, like summer holidays, where people can relax and enjoy themselves without feeling like they're pretending. The author suggests that the decline of Christmas magic is a result of the growing skepticism and cynicism of modern society.
+
+The author identifies the 19th-century philosophers and scientists, such as Lyell, Spencer, Darwin, and Huxley, as the catalysts for this shift. Their pursuit of truth and knowledge led to an age of doubt and skepticism, which has made it difficult for people to believe in the traditional values and ideals of Christmas. As a result, people have become disillusioned with the holiday and its associated sentiments.
+
+Despite this, the author argues that the core principles of Christmas, such as faith, goodwill, and charity, remain essential to human existence. People may have lost faith in the literal truth of Christmas stories, but they still crave a sense of meaning and connection. The author suggests that people are anxious to keep the Christmas spirit alive because they instinctively know that it is essential to their well-being.
+
+The author concludes that the decline of Christmas magic is not just a personal issue, but a cultural one. It reflects a broader societal shift away from traditional values and towards a more cynical and skeptical worldview. However, the author also suggests that this shift is not inevitable and that people can still choose to cultivate a sense of wonder and enthusiasm for the holiday season.
+
+Ultimately, the author argues that Christmas is not just a holiday, but a state of mind. It represents a time for people to come together, to show kindness and generosity, and to celebrate the values that are essential to human existence. By embracing this spirit, people can rediscover the magic of Christmas and find a sense of meaning and connection in their lives. The author's message is one of hope and renewal, encouraging readers to re-examine their relationship with Christmas and to find ways to make the holiday season more meaningful and enjoyable.
+
+The report for the text is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–8419):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [LEXICON]:
+        • occasional use of archaic vocabulary
+    - [SYNTAX]:
+        • complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between chapters
+    - [STRUCTURE]:
+        • meandering narrative
+    - [CLARITY]:
+        • ambiguous sentences
+
+Section section_02 (Chars 8419–12553):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Complex sentence structures
+    - [LEXICON]:
+        • Archaic vocabulary usage
+    - [SYNTAX]:
+        • Long, winding sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transitions between ideas
+    - [STRUCTURE]:
+        • Meandering narrative flow
+    - [CLARITY]:
+        • Overly philosophical language
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

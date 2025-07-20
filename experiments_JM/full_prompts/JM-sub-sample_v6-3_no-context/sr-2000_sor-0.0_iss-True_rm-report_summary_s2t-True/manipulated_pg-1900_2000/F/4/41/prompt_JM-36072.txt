@@ -1,0 +1,111 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) Read and understand the summary of the text the report was created for.
+    b) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    c) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The summary of the text to be evaluated is given below:
+Summary: The Victorian Age was a time of significant change and transformation in England. Each generation tends to reject the values and ideas of its predecessors, and this was particularly true during the Victorian era. The Industrial Revolution, which began in the late 18th century, brought about rapid changes in technology, economy, and society. The French Revolution also had a profound impact on England, leading to a period of reaction and counter-reaction.
+
+The pendulum of history swings back and forth, with each movement generating a counter-movement. This can be seen in the rise and fall of empires, the growth and decline of institutions, and the evolution of ideas. The Victorian Age was a time of great hope and optimism, but also of tremendous difficulty and challenge.
+
+Before the Industrial Revolution, England was a relatively stable and prosperous country, with a strong aristocracy and a largely rural population. The aristocracy was highly cultivated and played a significant role in shaping the country's culture and politics. However, the French Revolution and the subsequent wars led to a period of panic and reaction, which made democratic reforms impossible for a time.
+
+The war with France also had a profound impact on England's relationship with Europe, leading to a period of isolation and a shift in cultural and intellectual influences. The early 19th century saw a flourishing of great poetry, with writers like Scott, Wordsworth, and Jane Austen making significant contributions to English literature.
+
+Despite the many advances and improvements of the Victorian Age, the condition of the working class was often very bad. The poor were largely illiterate and inarticulate, and the gap between the rich and the poor was vast. The government faced significant challenges in addressing the social and economic problems of the time, including poverty, famine, and over-population.
+
+The economists of the time pointed to over-population as a major cause of poverty and misery, but they failed to recognize that it was often the result of a low standard of civilization. Families tend to restrict their size when they have social ambitions and a standard of comfort, but where these are lacking, population growth can be rapid and unchecked.
+
+The Victorian Age saw significant progress in many areas, including education, liberty, and economic development. The country was expanding its dominions overseas, and the standard of living was rising for many people. However, this progress was not universal, and many people continued to suffer from poverty, inequality, and social injustice.
+
+Overall, the Victorian Age was a complex and multifaceted period in English history, marked by significant challenges and opportunities. It was a time of great change and transformation, and its legacy continues to shape English society and culture to this day. The period saw the rise of new social classes, the growth of industry and technology, and the expansion of education and liberty. Despite its many achievements, the Victorian Age was also marked by significant social and economic problems, which continue to affect English society today.
+
+The report for the text is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–9016):
+Section Summary: The Victorian Age was a time of significant change, marked by the Industrial Revolution and the French Revolution, which broke the continuity between the old order and the new. The period saw rapid advancements in technology, science, and philosophy, leading to a new social order and the emergence of new problems. Before the Industrial Revolution, England was a prosperous and contented country with a self-contained village system, a sparse population, and a genuine aristocracy that held political power. However, the French Revolution and the subsequent war led to a panic that delayed democratic reforms and kindled a strong sense of patriotism in England, isolating it from European thought. The Victorian Age was a time of readjustment and reform, as the country navigated the challenges of rapid change and built a new social order.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "saeculum mirabile" should be "saeculum mirabilis" or correctly translated
+        • "evefy" instead of "every"
+        • "profoundly" misspelled as "profounrly"
+        • "yhe" instead of "the" (multiple instances)
+        • "whdther" instead of "whether"
+        • "sxholars" instead of "scholars"
+    - [GRAMMAR]:
+        • sentence structure can be complex and hard to follow
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between discussing the Victorian Age and the Industrial Revolution
+    - [STRUCTURE]:
+        • lack of clear chronological order in some sections
+    - [CLARITY]:
+        • some sentences are wordy and difficult to understand
+    - [TRANSITION]:
+        • could benefit from clearer connections between ideas
+
+Section section_02 (Chars 9017–13017):
+Section Summary: During the early 19th century, England's intellectual life continued to thrive despite the war, with notable literary figures like Scott, Wordsworth, and Jane Austen. However, the working class suffered greatly, with poverty, illiteracy, and poor living conditions prevalent, as described by Byron and others. The government faced significant challenges, including famine and economic crises, which were exacerbated by over-population and a low standard of civilization. The introduction of food from America and Australia later helped to alleviate some of these issues. Despite these challenges, the country experienced significant progress during the first half of the reign, with advancements in education, liberty, and economic growth.
+Scores:
+  - Fluency: 3.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "seemx" instead of "seems"
+        • "welk-known" instead of "well-known"
+        • "fakous" instead of "famous"
+        • "onoy" instead of "only"
+        • "ofer-population" instead of "over-population"
+        • "wss" instead of "was"
+        • "whrver" instead of "whenever"
+        • "muet" instead of "must"
+        • "cin" instead of "in"
+    - [GRAMMAR]:
+        • awkward phrasing in some sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt shift in discussing different time periods
+    - [TRANSITION]:
+        • lack of smooth connection between ideas
+    - [CLARITY]:
+        • confusing segments due to complex sentence structure
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

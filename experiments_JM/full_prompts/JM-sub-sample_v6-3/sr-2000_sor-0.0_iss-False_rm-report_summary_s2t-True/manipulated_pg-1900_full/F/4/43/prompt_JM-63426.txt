@@ -1,0 +1,298 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) Read and understand the summary of the text the report was created for.
+    b) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    c) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The summary of the text to be evaluated is given below:
+Summary: Will Bradley was a renowned American designer, printer, and artist. Born in 1868 in Boston, he began his career as a printer's devil at the age of 12. Bradley's early work was influenced by the Arts and Crafts movement, and he became known for his use of the Caslon typeface. In 1895, he established the Wayside Press in Springfield, Massachusetts, where he published his own magazine, Bradley: His Book.
+
+The magazine was a showcase for Bradley's design and printing skills, and it featured a mix of art, literature, and technical articles on printing. Bradley's work was widely admired, and he became a leading figure in the American printing industry. He was also a prolific designer of posters, book covers, and other printed materials.
+
+In the early 1900s, Bradley worked as an art editor for several magazines, including Collier's and Good Housekeeping. He was known for his innovative use of typography and his ability to create beautiful and effective designs. Bradley also wrote and illustrated several books, including "Peter Poodle, Toy Maker to the King" and "Castle Perilous".
+
+In the 1910s and 1920s, Bradley worked as an art supervisor for the Hearst organization, overseeing the design and production of several magazines and newspapers. He also worked on motion pictures, including the serial "Patria" starring Irene Castle. Bradley's work during this period was highly influential, and he is credited with helping to establish the modern style of American magazine design.
+
+Throughout his career, Bradley was recognized for his contributions to the field of graphic design. He was awarded the gold medal of the American Institute of Graphic Arts in 1954, and his work is still widely admired and studied today. Bradley's legacy extends beyond his own designs, as he inspired a generation of designers and printers to follow in his footsteps.
+
+Despite his many accomplishments, Bradley remained humble and dedicated to his craft. He continued to work on design projects until his retirement in the 1930s, and he remained active in the design community until his death. Bradley's story is a testament to the power of creativity and innovation, and his work continues to inspire designers and artists around the world.
+
+Bradley's career spanned over 70 years, and he worked on a wide range of projects, from printing and design to writing and filmmaking. He was a true pioneer in the field of graphic design, and his work had a lasting impact on the industry. Today, Bradley is remembered as one of the most important figures in the history of American graphic design, and his work continues to be celebrated and studied by designers and scholars around the world.
+
+In addition to his design work, Bradley was also a talented writer and artist. He wrote several books and articles on design and printing, and his illustrations and designs were widely published. Bradley's work was highly influential, and he is credited with helping to establish the modern style of American magazine design.
+
+Bradley's use of the Caslon typeface was a key element of his design style, and he is credited with helping to popularize the use of this typeface in American printing. He also experimented with other typefaces and design elements, and his work was highly innovative for its time.
+
+Overall, Will Bradley was a highly influential and innovative designer, printer, and artist who made significant contributions to the field of graphic design. His work continues to be celebrated and studied today, and his legacy extends beyond his own designs to inspire future generations of designers and artists.
+
+The report for the text is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–8374):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Run-on sentences and lack of punctuation
+    - [LEXICON]:
+        • Some words and phrases are outdated or unclear
+    - [SYNTAX]:
+        • Complex sentence structures can be hard to follow
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transitions between ideas and scenes
+    - [STRUCTURE]:
+        • Non-chronological storytelling can be confusing
+    - [CLARITY]:
+        • Some paragraphs lack a clear main idea or purpose
+
+Section section_02 (Chars 8375–16679):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Missing or incorrect articles
+    - [SPELLING]:
+        • Typos and inconsistent spelling
+    - [SYNTAX]:
+        • Run-on sentences and lack of punctuation
+    - [LEXICON]:
+        • Informal language and colloquial expressions
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transitions between scenes
+    - [STRUCTURE]:
+        • Non-chronological narrative
+    - [CLARITY]:
+        • Unclear character motivations and relationships
+    - [TRANSITION]:
+        • Lack of connecting phrases and sentences
+
+Section section_03 (Chars 16680–25148):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Missing or incorrect articles
+    - [SPELLING]:
+        • Typos and inconsistent spelling
+    - [SYNTAX]:
+        • Long, convoluted sentences
+    - [LEXICON]:
+        • Archaic vocabulary and phrases
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transitions between scenes
+    - [STRUCTURE]:
+        • Non-chronological narrative
+    - [CLARITY]:
+        • Unclear character motivations and relationships
+    - [TRANSITION]:
+        • Lack of clear connections between paragraphs
+
+Section section_04 (Chars 25148–33650):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Run-on sentences and lack of punctuation
+    - [SYNTAX]:
+        • Complex sentence structures
+    - [LEXICON]:
+        • Some archaic vocabulary and phrases
+  Coherence Issues:
+    - [STRUCTURE]:
+        • Abrupt transitions between paragraphs
+    - [CLARITY]:
+        • Some sentences are wordy and hard to follow
+    - [LOGIC]:
+        • Non-sequential presentation of events
+
+Section section_05 (Chars 33650–42485):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Inconsistent verb tense usage
+    - [LEXICON]:
+        • Overly complex vocabulary in some sections
+    - [SYNTAX]:
+        • Long, winding sentences that disrupt flow
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between paragraphs
+    - [STRUCTURE]:
+        • Lack of clear chronological order in some sections
+    - [CLARITY]:
+        • Unclear connections between ideas
+
+Section section_06 (Chars 42485–51244):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Inconsistent verb tense usage
+    - [SYNTAX]:
+        • Long, convoluted sentences
+    - [LEXICON]:
+        • Overly complex vocabulary
+    - [SPELLING]:
+        • Minor typos and punctuation errors
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transitions between paragraphs
+    - [STRUCTURE]:
+        • Lack of clear chronological order
+    - [CLARITY]:
+        • Unclear connections between ideas
+    - [TRANSITION]:
+        • Missing or inadequate transitional phrases
+
+Section section_07 (Chars 51245–60152):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Missing or incorrect articles
+    - [SYNTAX]:
+        • Long, convoluted sentences
+    - [LEXICON]:
+        • Some outdated or uncommon vocabulary
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transitions between paragraphs
+    - [STRUCTURE]:
+        • Lack of clear chronological order
+    - [CLARITY]:
+        • Some sentences are wordy or unclear
+
+Section section_08 (Chars 60153–68841):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Missing or incorrect articles
+    - [SPELLING]:
+        • Typos (e.g., "Wifepirate")
+    - [SYNTAX]:
+        • Long, convoluted sentences
+    - [LEXICON]:
+        • Uncommon vocabulary (e.g., "uninhibited compositors of the Colonial period")
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transitions between ideas
+    - [STRUCTURE]:
+        • Lack of clear chronological order
+    - [CLARITY]:
+        • Unclear or confusing sentences
+    - [TRANSITION]:
+        • Missing or inadequate connections between paragraphs
+
+Section section_09 (Chars 68842–77585):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Minor punctuation errors
+    - [LEXICON]:
+        • Some outdated terminology
+    - [SYNTAX]:
+        • A few sentences with complex structure
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between chapters
+    - [STRUCTURE]:
+        • Lack of clear connection between some paragraphs
+    - [CLARITY]:
+        • Some sentences are wordy or vague
+
+Section section_10 (Chars 77585–86349):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Missing articles and incorrect sentence structure in some places
+    - [SYNTAX]:
+        • Abrupt transitions between sentences and ideas
+    - [LEXICON]:
+        • Some words and phrases seem outdated or uncommon
+  Coherence Issues:
+    - [LOGIC]:
+        • The text jumps abruptly between different time periods and ideas
+    - [STRUCTURE]:
+        • The chronology of events is not always clear or well-organized
+    - [CLARITY]:
+        • Some sentences and paragraphs are wordy or confusing
+
+Section section_11 (Chars 86350–89817):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Minor tense inconsistencies
+    - [LEXICON]:
+        • Some sentences are wordy or use less common vocabulary
+    - [SYNTAX]:
+        • A few sentences have complex structures that may hinder readability
+  Coherence Issues:
+    - [STRUCTURE]:
+        • The text jumps between different topics and time periods
+    - [TRANSITION]:
+        • Some paragraphs lack smooth transitions to the next idea
+    - [CLARITY]:
+        • A few sentences are unclear or require re-reading to understand
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

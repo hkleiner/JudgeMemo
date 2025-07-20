@@ -1,0 +1,208 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    b) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The report is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–8527):
+Section Summary: In 1538, King Henry VIII issued a writ summoning Thomas Becket, the long-dead Archbishop of Canterbury, to appear and answer charges of treason, resulting in the destruction of his shrine and the erasure of his name from records. Despite this, the site of the shrine has seen a new wave of enthusiasm, with many modern pilgrims visiting Canterbury, although some take the train and miss the scenic approach to the city. The city of Canterbury has a rich history dating back to the Palaeolithic Age, with the Romans establishing a settlement there, known as Durovernum, which became an important center for trade and commerce. After the Roman occupation, the city was abandoned and later rebuilt by the Saxons, who renamed it Cantwarabyrig, or the city of the men of Kent. The city's history and significance have endured, making it a popular destination for pilgrims and travelers to this day.
+Scores:
+  - Fluency: 3.5
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [LEXICON]:
+        • unclear meaning of "a thing" and "a stuff"
+    - [SYNTAX]:
+        • long and convoluted sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between historical periods
+    - [STRUCTURE]:
+        • lack of clear chronological order
+    - [CLARITY]:
+        • unclear connections between ideas
+
+Section section_02 (Chars 8528–17022):
+Section Summary: Ethelbert, the King of Kent, had extended his power beyond Kent and had authority as far north as the Humber, with Canterbury as the metropolis of his dominions. In 597, Augustine arrived in Kent and was allowed by Ethelbert to preach and instruct the people, leading to the conversion of the King and many Saxons to Christianity. The city of Canterbury became the headquarters of the Christian church in England, a position it has held for over 1,300 years. The early Christian churches in Canterbury, including St. Martin's and St. Augustine's, were built using Roman materials and were the center of the Christianizing of England. Despite being attacked and damaged by the Danes, Canterbury continued to grow and prosper, with its cathedral and churches remaining an important part of English history and Christianity.
+Scores:
+  - Fluency: 3.5
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Missing or unclear antecedents for pronouns
+    - [LEXICON]:
+        • Overuse of vague terms like "the thing" and "a stuff"
+    - [SYNTAX]:
+        • Some sentences are wordy or awkwardly structured
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transitions between historical periods
+    - [STRUCTURE]:
+        • Lack of clear chronological order in some sections
+    - [CLARITY]:
+        • Unclear or confusing descriptions of historical events
+
+Section section_03 (Chars 17023–25775):
+Section Summary: King Canute demonstrated his submission to the Church by hanging his crown in the cathedral and helping to repair and decorate the Saxon cathedral. After a fire destroyed the cathedral, Lanfranc, the first Norman archbishop, rebuilt it in the Norman style, incorporating a crypt from the original church. The new cathedral was completed in 1077, and later, Prior Ernulph constructed the magnificent Norman choir, which was consecrated in 1130. Forty years later, the cathedral became the site of Thomas Becket's murder, which made Canterbury a famous resort for pilgrims. The events surrounding Becket's murder, including his final interview with the four knights who killed him, are a significant part of the cathedral's history.
+Scores:
+  - Fluency: 3.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Inconsistent verb tense usage
+    - [LEXICON]:
+        • Overuse of vague terms like "the thing" and "a stuff"
+    - [SYNTAX]:
+        • Complex sentence structures that hinder readability
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transitions between historical events
+    - [STRUCTURE]:
+        • Lack of clear chronological progression
+    - [CLARITY]:
+        • Unclear references to historical figures and events
+
+Section section_04 (Chars 25776–34393):
+Section Summary: Thomas Becket, the Archbishop of Canterbury, was murdered by four knights in the cathedral after a heated argument. The knights, fueled by anger and a desire for revenge, attacked Becket and killed him with multiple sword strokes. Despite his controversial reputation during his lifetime, Becket was quickly revered as a saint and martyr, with many seeking relics from his body and clothing. King Henry, who had inadvertently sparked the murder, performed a severe penance at Becket's tomb, including walking barefoot and receiving physical punishment, to atone for his role in the archbishop's death. The event ultimately led to Canterbury becoming a major pilgrimage site, with thousands of people traveling to the city to pay homage to the martyred archbishop.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • awkward sentence structure
+    - [LEXICON]:
+        • overly complex vocabulary
+    - [SYNTAX]:
+        • long, convoluted sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between ideas
+    - [STRUCTURE]:
+        • non-chronological events
+    - [CLARITY]:
+        • ambiguous descriptions of characters' motivations
+
+Section section_05 (Chars 34394–43289):
+Section Summary: The city of Canterbury was a major pilgrimage site, with vast crowds of people visiting the Cathedral to see the shrine of Thomas Becket. The Cathedral suffered a fire in the 12th century, which led to the rebuilding of the choir by architects William of Sens and William the Englishman in the Transitional style, a mix of Romanesque and Gothic architecture. Over the centuries, the Cathedral underwent further changes, including the rebuilding of the nave and transept in the Perpendicular style, and the construction of a new central tower. Despite the dissolution of the monasteries and the destruction of Becket's shrine, Canterbury remained an important city and a center of the English Church, and it continued to attract royal visits and pilgrims. The city's historic architecture and charming streets have been preserved, making it a unique and fascinating place to visit.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [LEXICON]:
+        • occasional use of vague terms like "a thing"
+    - [SYNTAX]:
+        • complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between historical periods
+    - [STRUCTURE]:
+        • lack of clear chronological order
+    - [CLARITY]:
+        • some sentences are wordy and hard to follow
+
+Section section_06 (Chars 43290–51891):
+Section Summary: The narrator walks through the weather-worn gateway of the Cathedral, taking in the vast pile of the building and its various architectural features, including the western towers, nave, and Angel Tower. The Cathedral's history and construction are evident in its mix of Norman and Perpendicular styles, with various additions and modifications made over the centuries. The narrator explores the surrounding precincts, including the monastic buildings, such as the infirmary, treasury, and prior's lodging, and notes the beautiful and unique features of the site. The Cathedral's interior is described as a vast and ordered space, with a sense of beauty and grandeur that is almost overpowering. The narrator reflects on the contrast between the Cathedral's grandeur and the smallness of everyday life, and notes how the building remains a testament to the endeavors of monastic life despite the passing of time and the loss of its original decorations and ornaments.
+Scores:
+  - Fluency: 3.5
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [LEXICON]:
+        • unclear terminology (e.g., "thing" used without clear reference)
+    - [SYNTAX]:
+        • long, convoluted sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between ideas
+    - [STRUCTURE]:
+        • lack of clear organization
+    - [CLARITY]:
+        • ambiguous references and unclear descriptions
+
+Section section_07 (Chars 51892–60523):
+Section Summary: The arch at the cathedral is a notable feature, with its reticulated stonework and bold simplicity of design. The cathedral contains various monuments, including those to Dean Farrar, William Broughton, and Orlando Gibbons, as well as the tomb of Lady Margaret Holland and her two husbands. The Trinity Chapel is a significant part of the cathedral, where the shrine of St. Thomas once stood, and it features a 13th-century mosaic pavement and the tombs of Henry IV and the Black Prince. The chapel's windows, which date back to before 1220, are a remarkable example of 13th-century glasswork and depict the cures wrought at the shrine of St. Thomas. The cathedral's crypt is also of interest, with its Perpendicular screenwork and historic significance as a place of worship and refuge for French Protestant refugees.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Missing or unclear antecedents for pronouns
+    - [LEXICON]:
+        • Overuse of vague terms like "thing" and "stuff"
+    - [SYNTAX]:
+        • Some sentences are wordy or awkwardly structured
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transitions between ideas
+    - [STRUCTURE]:
+        • Lack of clear connections between paragraphs
+    - [CLARITY]:
+        • Unclear or confusing descriptions of architectural features
+
+Section section_08 (Chars 60524–68783):
+Section Summary: The walled city of Canterbury still retains much of its historic charm, with its old walls, gates, and narrow streets evoking a sense of romance and pre-Reformation England. Despite the destruction of many of its old gates, one remains, thanks to the Mayor's casting vote in 1850, which rejected a proposal to demolish it to facilitate a circus procession. The city's historic buildings, including the Cathedral and St. Augustine's Abbey, are still impressive, although the Abbey had fallen into disrepair and was used for debased purposes before being rescued and restored in 1844. The city also boasts many other interesting sites, including old inns, domestic architecture, and churches, such as St. Martin's and St. Dunstan's, which preserve relics of the past. Overall, Canterbury has a rich history and architecture that is still worth exploring today.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Inconsistent verb tense usage
+    - [LEXICON]:
+        • Overuse of vague terms like "a thing" and "a stuff"
+    - [SYNTAX]:
+        • Complex sentence structures that hinder readability
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transitions between historical descriptions and modern observations
+    - [STRUCTURE]:
+        • Lack of clear connections between different historical sites and events
+    - [CLARITY]:
+        • Unclear references to historical figures and events without proper context
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

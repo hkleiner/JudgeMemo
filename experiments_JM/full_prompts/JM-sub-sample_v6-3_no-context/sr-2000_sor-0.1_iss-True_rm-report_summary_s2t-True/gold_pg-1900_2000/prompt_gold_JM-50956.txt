@@ -1,0 +1,102 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) Read and understand the summary of the text the report was created for.
+    b) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    c) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The summary of the text to be evaluated is given below:
+Summary: The pamphlet "Russia's Part in the World War" is written by Colonel C. M. Shumsky-Solomonov, a Russian Army officer and military expert. The purpose of the pamphlet is to present Russia's role in the recent war. Russia suffered enormous sacrifices, with 12,000,000 casualties, including 3,000,000 dead, which is more than twice the losses of France, four to five times those of England, and more than thirty-five times those of America.
+
+Russia's losses are more than twice the total strength of the British Army and three to four times the forces mustered by the United States. The number of Russia's casualties is larger than the total population of several European countries. If Russia had not sacrificed its best youth, a Prussian bayonet would now be ruling the world. Russia played a great role in the recent struggle, particularly in the early stages of the war.
+
+The Russian Army's early offensive in East Prussia and Galicia diverted the entire Austrian army and part of the German army, depriving the enemy of the opportunity to realize their plan to attack France. Russia's efforts contributed to the early termination of the German offensive in France and compelled the Germans to abstain from their main operations on the Western front for over a year.
+
+In 1915, Russia shouldered the whole burden of the struggle against Germany, Austria, and Turkey, giving the Allies the opportunity to prepare for the coming German offensive at Verdun. In 1916, Russia's Brusilov offensive saved Italy and facilitated the operations of the Allies on the Somme. Russia took upon itself the blows of the German armies that invaded Romania and stopped their further advance.
+
+The German General Staff was obliged to transfer additional divisions to the Eastern front during the first Russian advance into East Prussia. The number of German divisions engaged on the Russian front grew continuously, reaching 53 divisions in January 1915. By the spring of 1917, there were 162 German and Austrian divisions engaged on the Russian front alone.
+
+Russia entered the war unprepared, with the Russian Army consisting of millions but having bayonets and guns only for one-tenth of its number. Despite this, the Russian soldiers showed great heroism during the first three years of the war. The Russian Armies collapsed in the fall of 1917 after months of intensive German and Bolshevik propaganda.
+
+The question of whether Germany could have won the war is discussed, with the conclusion that Germany was very close to victory but was prevented by the efforts of France and Russia. The plan of Field Marshal Moltke was to concentrate all forces against France, but this plan was destroyed by the Russian Army's early offensive in East Prussia.
+
+The self-sacrifice of the unprepared Russian Army during the first days of the war played an enormous role in preventing Germany's victory. The true historic role of Russia in the war is often obscured by the extraordinary conditions that developed in Russia towards the end of the war. The Russian Army's efforts during the first three years of the war, when the enemy was most powerful and undemoralized, were the most difficult and responsible part of the problem.
+
+The significance of Russia's role in the war is often underestimated, and the pamphlet aims to correct this misconception. The memoirs of General Ludendorf, the defeated German military leader, are criticized for attempting to slander the Russian Army and discredit its sacrifices and heroic efforts. Ludendorf's memoirs are considered misleading, particularly in their description of the first Russian advance in East Prussia. Overall, the pamphlet highlights the crucial role played by Russia in the war and the enormous sacrifices made by the Russian people.
+
+The report for the text is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–8726):
+Section Summary: Russia played a significant role in World War I, suffering enormous losses, including 12 million casualties and 3 million deaths, which was more than twice the losses of France and thirty-five times those of America. Despite being unprepared for a modern war, Russia's early offensives helped to frustrate Germany's plans, and its continued efforts weakened the enemy's forces, ultimately contributing to the Allied victory. Russia's sacrifices and efforts allowed the Allies to prepare and launch successful operations, including the defense of France and Italy. The author argues that Germany was close to winning the war, but Russia's participation and sacrifices helped to prevent this outcome. Overall, Russia's role in the war was crucial, and its contributions should not be underestimated, despite its eventual collapse under the strain of war and Bolshevik propaganda.
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor punctuation errors
+    - [LEXICON]:
+        • some outdated vocabulary
+    - [SYNTAX]:
+        • occasional complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • a few abrupt transitions between ideas
+    - [STRUCTURE]:
+        • some repetition of information
+    - [CLARITY]:
+        • minor ambiguity in certain sentences
+
+Section section_02 (Chars 8726–13144):
+Section Summary: The German military plan, led by Moltke, relied on concentrating all forces against France, but this was thwarted when Russia launched a surprise attack on East Prussia, diverting German troops. This self-sacrificing move by Russia destroyed the German plan and gave France a crucial advantage, ultimately changing the course of the war. Russia's early efforts played a significant role in the war, as they bore the brunt of the fighting alongside France during the first few years. However, Russia's contributions are often overlooked due to the circumstances that developed towards the end of the war. General Ludendorf's memoirs have also contributed to this oversight, as they contain false and misleading information about Russia's role in the war.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • awkward sentence structure
+    - [LEXICON]:
+        • occasional use of outdated vocabulary
+    - [SYNTAX]:
+        • complex sentences with multiple clauses
+  Coherence Issues:
+    - [LOGIC]:
+        • some paragraphs seem disconnected from the main argument
+    - [TRANSITION]:
+        • abrupt shifts between ideas and time periods
+    - [CLARITY]:
+        • occasional ambiguity in sentence meaning
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

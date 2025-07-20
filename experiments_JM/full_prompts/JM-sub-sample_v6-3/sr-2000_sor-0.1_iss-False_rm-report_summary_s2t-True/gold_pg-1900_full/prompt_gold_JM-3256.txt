@@ -1,0 +1,178 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) Read and understand the summary of the text the report was created for.
+    b) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    c) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The summary of the text to be evaluated is given below:
+Summary: The author wants to discuss the bookman, rather than his books, and define what a bookman is. A bookman is not just someone who owns many books, but someone who has a deep love and appreciation for them. The author recounts a story of a man who invited him to dinner and showed off his expensive bookcase, but it was clear that he was not a true bookman. A bookman is born, not made, and has a natural affinity for books.
+
+The author notes that a bookman can be found in anyone, regardless of their background or education. He tells the story of a colonial squatter who, after making his fortune, asked a friend to send him some books, and was delighted to discover the works of William Shakespeare and John Milton. This story illustrates that a bookman can be found in unexpected places.
+
+A bookman is not just someone who reads books, but someone who has a deep understanding and appreciation of literature. They can distinguish between good and bad books, and are not swayed by popular opinion. The author notes that a bookman's taste in books is often eclectic and varied, and that they may enjoy reading detective stories or other forms of "light" literature.
+
+The author discusses the importance of essays and the joy of reading the works of great authors such as Charles Lamb and William Hazlitt. They also note that a bookman's love of books is often hereditary, and that it can be a source of comfort and solace in times of trouble.
+
+The author describes the bookman's love of books as a disease, one that is incurable and all-consuming. They tell the story of a bookman who is struggling to resist the temptation of buying more books, and who must be careful not to let his love of books interfere with his family and work obligations.
+
+Despite the challenges, the author notes that being a bookman is a source of great joy and satisfaction. A bookman has the constant companionship of their books, and can find comfort and solace in their pages. The author concludes by noting that a bookman's love of books is a lifelong passion, one that grows richer and deeper with age.
+
+The author also notes that a bookman's library is a reflection of their personality and tastes, and that they take great care in arranging and rearranging their books. They may have a favorite book or author, and may return to them again and again over the years.
+
+In the end, the author suggests that being a bookman is a way of life, one that is marked by a deep love and appreciation of books and literature. It is a source of comfort, solace, and joy, and one that can bring people together in a shared love of reading and learning. The author quotes Emerson, who said that "the book is a sure friend, always ready at your first leisure, opens to the very page you desire, and shuts at your first fatigue."
+
+The report for the text is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–8144):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor sentence structure complexity
+    - [LEXICON]:
+        • some archaic vocabulary
+    - [SYNTAX]:
+        • lengthy sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • occasional abrupt transitions
+    - [STRUCTURE]:
+        • meandering narrative
+    - [CLARITY]:
+        • minor ambiguity in author's intent
+
+Section section_02 (Chars 8144–16251):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor sentence complexity
+    - [LEXICON]:
+        • occasional use of less common vocabulary
+    - [SYNTAX]:
+        • some long sentences with multiple clauses
+  Coherence Issues:
+    - [LOGIC]:
+        • occasional abrupt shifts in topic
+    - [TRANSITION]:
+        • few unclear connections between paragraphs
+    - [STRUCTURE]:
+        • meandering narrative style
+
+Section section_03 (Chars 16251–24443):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor punctuation errors
+    - [LEXICON]:
+        • some outdated vocabulary
+    - [SYNTAX]:
+        • occasional complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • occasional abrupt shifts in topic
+    - [TRANSITION]:
+        • some paragraphs lack smooth connections
+    - [CLARITY]:
+        • a few sentences are wordy or ambiguous
+
+Section section_04 (Chars 24443–32654):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Minor punctuation errors
+    - [LEXICON]:
+        • Some archaic vocabulary
+    - [SYNTAX]:
+        • Long, winding sentences
+  Coherence Issues:
+    - [STRUCTURE]:
+        • Abrupt transitions between ideas
+    - [CLARITY]:
+        • Some sentences are wordy or unclear
+    - [LOGIC]:
+        • Leaps between different topics or themes
+
+Section section_05 (Chars 32654–40832):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor punctuation errors
+    - [LEXICON]:
+        • some archaic vocabulary
+    - [SYNTAX]:
+        • occasional complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • occasional abrupt shifts in topic
+    - [TRANSITION]:
+        • some paragraphs lack smooth connections
+    - [CLARITY]:
+        • a few sentences are wordy or ambiguous
+
+Section section_06 (Chars 40832–48129):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor punctuation errors
+    - [LEXICON]:
+        • some archaic vocabulary
+    - [SYNTAX]:
+        • occasional complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • slight disconnect between paragraphs
+    - [TRANSITION]:
+        • occasional abrupt shifts in topic
+    - [CLARITY]:
+        • minor ambiguity in some sentences
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

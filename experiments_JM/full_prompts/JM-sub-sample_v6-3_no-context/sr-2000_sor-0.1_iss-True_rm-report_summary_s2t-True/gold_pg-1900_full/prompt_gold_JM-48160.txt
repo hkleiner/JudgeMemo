@@ -1,0 +1,270 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) Read and understand the summary of the text the report was created for.
+    b) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    c) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The summary of the text to be evaluated is given below:
+Summary: The author describes her experiences in the war zone in France during World War I. She notes that France is divided into two sections: one where life is relatively normal, and the other, the war zone, where access is restricted. To enter the war zone, one needs a special permit, which the author obtains after weeks of effort and influential connections.
+
+The author visits the war zone, starting in Châlons, where she is struck by the silence and stillness of the town. She meets with officials and visits hospitals, including the Savonières hospital near Bar-le-Duc. She is impressed by the efficiency and care of the French military hospitals but notes the lack of certain comforts, such as delicacies, for the convalescent soldiers.
+
+The author also visits Bar-le-Duc, where she is shocked by the poor conditions of the Hotel du Commerce. She meets with military officials and is granted access to visit hospitals and other areas of the war zone. She travels by automobile, accompanied by an American officer, and sees the devastation of the war firsthand.
+
+The author reflects on the bravery and resilience of the French people, particularly the women, who are shouldering much of the burden of the war effort. She also notes the significant contribution of American women to the war effort, including the formation of the organization "Le Bienêtre du Blessé" (The Well-being of the Wounded), which aims to provide comforts and delicacies to convalescent soldiers.
+
+The author visits various towns and cities, including Nancy, Remiramont, and Epernay, and sees the destruction caused by the war. She meets with soldiers, officers, and civilians, and is struck by their courage and determination. She also notes the significant role of women in the war effort, including those working in hospitals, factories, and other essential services.
+
+Throughout her journey, the author is struck by the complexity and challenges of the war effort, as well as the bravery and resilience of the French people. She concludes by emphasizing the importance of supporting organizations like "Le Bienêtre du Blessé" and contributing to the war effort in any way possible.
+
+The author's experiences in the war zone are marked by a mix of emotions, from shock and horror at the devastation to admiration and respect for the bravery and resilience of the French people. She notes the significant challenges faced by the French military and civilian populations, including the lack of resources, the destruction of infrastructure, and the human cost of the war.
+
+Despite these challenges, the author is impressed by the efficiency and care of the French military hospitals and the dedication of the medical staff. She also notes the importance of organizations like "Le Bienêtre du Blessé" in providing comforts and delicacies to convalescent soldiers, which can help to boost their morale and aid in their recovery.
+
+Overall, the author's account provides a vivid and moving portrayal of life in the war zone during World War I, highlighting the bravery and resilience of the French people, the challenges faced by the military and civilian populations, and the importance of supporting organizations that contribute to the war effort.
+
+The report for the text is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–8282):
+Section Summary: The author describes France as being divided into two sections: one where people can move freely and the other, the war zone, which is heavily restricted. To enter the war zone, the author needed a special permit, which was difficult to obtain, and required help from influential people, including a duchess. After a month of waiting, the author finally received a "carnet rouge" permit, but was initially only allowed to visit Meaux and Rouen, which were not her desired destinations. She persisted and was able to get permission to visit other base hospitals, although her request to visit Verdun was denied due to safety concerns. The author eventually visited the battlefield of the Marne at Meaux, where she witnessed the devastating aftermath of war, including mass graves and cemeteries.
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor punctuation errors
+    - [LEXICON]:
+        • occasional use of outdated vocabulary
+    - [SYNTAX]:
+        • some sentences are lengthy and convoluted
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between paragraphs
+    - [STRUCTURE]:
+        • non-chronological ordering of events
+    - [CLARITY]:
+        • occasional ambiguity in sentence meaning
+
+Section section_02 (Chars 8283–16551):
+Section Summary: The author visited the village of Barcy, which had been under fire for several days, and saw the damage caused by the war. They then traveled to Châlons, where they observed French officers on a train, noting their height, calm demeanor, and strong nerves. The author was struck by the officers' ability to remain unemotional and businesslike, even when facing the possibility of death. In Châlons, the author had to obtain permission to stay in the town and was eventually allowed to do so after showing their credentials and a letter from a minister. The author's interactions with French officials were marked by a mix of suspicion and politeness, but ultimately resulted in their being treated with courtesy and respect.
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor punctuation errors
+    - [LEXICON]:
+        • occasional word choice issues
+    - [SYNTAX]:
+        • few sentence structure complexities
+  Coherence Issues:
+    - [LOGIC]:
+        • some abrupt transitions between ideas
+    - [STRUCTURE]:
+        • minor inconsistencies in narrative flow
+    - [CLARITY]:
+        • a few unclear sentences or phrases
+
+Section section_03 (Chars 16551–24746):
+Section Summary: The author arrived in Châlons, a town near the war front, and found it to be gray, silent, and shuttered with little evidence of life. They spent the day reading a novel, "Le Collier de la Reine", in their hotel room, as they were unable to visit other towns or explore the area due to restrictions. The next day, the author traveled to Bar-le-Duc, where they found the town to be intact but surrounded by ruins and evidence of war, including crosses in the wheat fields and burned-looking landscapes. Upon arrival, they had difficulty finding the Hotel du Commerce, but eventually found it after asking for directions from locals. The author was struck by the town's preparations for air raids, including stone cellars marked as shelters for the population.
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor sentence structure issues
+    - [LEXICON]:
+        • some word choices may be less common or slightly archaic
+    - [SYNTAX]:
+        • occasional long or complex sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • slight jumps in narrative focus
+    - [TRANSITION]:
+        • occasional lack of smooth transition between ideas
+    - [CLARITY]:
+        • minor ambiguity in a few sentences
+
+Section section_04 (Chars 24747–33075):
+Section Summary: The narrator visited a hotel in Bar-le-Duc, where they were served a poor meal in unhygienic conditions, and decided to leave as soon as possible. They sought help from the military headquarters to obtain an automobile to visit the hospitals and complete their mission. With the assistance of a courteous soldier and a letter from the War Office, they were able to secure a car and driver, and visited two hospitals, Savonières and Hôpital Central. After completing their visits, they returned to the train station, where they waited for their train amidst a crowd of soldiers, and witnessed a disturbing incident involving a drunken Algerian soldier. The narrator reflected on the desensitizing effect of being in a war zone, where human life seems to have little value.
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor punctuation errors
+    - [LEXICON]:
+        • some word choices may be less common or slightly archaic
+    - [SYNTAX]:
+        • a few long, winding sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • occasional jumps in thought or scene
+    - [TRANSITION]:
+        • some transitions between paragraphs or ideas could be smoother
+    - [CLARITY]:
+        • a few sentences or phrases may be slightly ambiguous
+
+Section section_05 (Chars 33076–41510):
+Section Summary: The author, a woman, was initially restricted from visiting certain areas of the war zone due to the French authorities' concern for her safety. However, she eventually obtained a military automobile and an American Army officer escort, Major C., to accompany her on a trip to Révigny, Nancy, and Remiramont. During their four-day journey, they traveled through the war zone, passing through numerous towns and encountering many soldiers, artillery, and camions. The author was struck by the perfect condition of the roads and the large number of soldiers and vehicles they saw, despite expecting to see destruction and chaos. The trip was a unique and interesting experience for the author, who was able to see the war zone up close, but was also frustrated by the lack of adventure and danger that she encountered.
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor sentence structure issues
+    - [LEXICON]:
+        • some word choices may be less common or slightly archaic
+    - [SYNTAX]:
+        • occasional long or complex sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • slight jumps in narrative or topic
+    - [TRANSITION]:
+        • occasional lack of smooth transition between ideas or scenes
+    - [CLARITY]:
+        • minor ambiguity in a few sentences
+
+Section section_06 (Chars 41511–49982):
+Section Summary: The author observed many French soldiers loafing in a beautiful town, waiting to be called to the front, and noted that they seemed bored. In contrast, the author saw women and children working hard in the fields, harvesting crops, and soldiers helping with the harvest. The author also witnessed couples on honeymoon and families reunited on leave, despite the war raging nearby. The town of Nancy, just five miles from the front, was occasionally bombarded, and the author experienced a taube flying overhead, but the soldiers and locals seemed unfazed. The author reflects on the destruction caused by the war, citing the ruins of towns like Sermaize and Gerbéviller, and suggests that these ruins should be left intact as a testament to the horrors of war.
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor sentence structure issues
+    - [LEXICON]:
+        • some word choices may be less common or slightly archaic
+    - [SYNTAX]:
+        • occasional long or complex sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • occasional jumps in topic or idea
+    - [TRANSITION]:
+        • some paragraphs lack smooth transitions
+    - [CLARITY]:
+        • a few sentences are wordy or unclear
+
+Section section_07 (Chars 49983–58475):
+Section Summary: The author visited the ruined town of Gerbéviller, which was once a thriving town but is now a mass of broken walls, and was struck by its beauty and sadness. Despite the destruction, families have set up homes in the cellars and shops have reopened, with women playing a main role in carrying on the business. The author also learned that some houses in the area were spared from destruction because they belonged to Germans who had been warned to leave before the war. The author attempted to visit the town of Thann, which is under constant bombardment, but was denied permission by the military authorities. The section also touches on the author's observations of French culture and the people they met during their journey, including a group of charming newsboys.
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor sentence structure issues
+    - [LEXICON]:
+        • some word choices may be less common or slightly archaic
+    - [SYNTAX]:
+        • occasional long or complex sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • some abrupt transitions between ideas
+    - [STRUCTURE]:
+        • narrative jumps between different locations and topics
+    - [CLARITY]:
+        • a few sentences are wordy or unclear
+
+Section section_08 (Chars 58476–66812):
+Section Summary: The narrator observes the unique individuality of the French people, noting that there is no single type in France, but rather a race of individuals. During a train ride, Major C. shares a story about a dinner party he attended at the front, where a talented Alsatian chef, who had escaped from the Germans, prepared an exquisite meal. The narrator and others also visit a house in Epernay, where they receive a propaganda leaflet dropped by a German plane, which accuses the French of barbaric acts and threatens reprisals. The narrator then describes the founding of "Le Bienêtre du Blessé," a French-American society aimed at providing comfort to wounded soldiers, which was established by a group of prominent women, including several Americans. The society's goal is to provide care and support to convalescent officers and soldiers in the war zone.
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor punctuation errors
+    - [LEXICON]:
+        • some complex vocabulary
+    - [SYNTAX]:
+        • a few long, winding sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt shift from discussing newsboys to Major C.'s story
+    - [TRANSITION]:
+        • lack of clear connection between some paragraphs
+    - [CLARITY]:
+        • some sentences are wordy or unclear
+
+Section section_09 (Chars 66813–75219):
+Section Summary: In French military hospitals, the dietary kitchen typically only offers milk and eggs, which can be a problem for patients who have a strong dislike for these foods. The military discipline is strict, and exceptions are not made for individual tastes, but a supplementary kitchen with donated delicacies such as broth, sugar, and preserves can make a big difference in the recovery of wounded soldiers. Mme. d'Haussonville's organization, Le Bienêtre du Blessé, collects donations to supply these hospitals with necessary food items. The lack of a private kitchen can be particularly challenging when patients are brought in outside of regular kitchen hours, but with private supplies, nurses can quickly prepare nourishing food to help save lives. Overall, the military hospitals are well-run and clean, but the addition of a supplementary kitchen with donated food items can greatly improve the care and recovery of wounded soldiers.
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor sentence structure issues
+    - [LEXICON]:
+        • occasional word choice could be more precise
+    - [SYNTAX]:
+        • a few long sentences may hinder readability
+  Coherence Issues:
+    - [LOGIC]:
+        • some paragraphs seem slightly disconnected from the main narrative
+    - [TRANSITION]:
+        • transitions between ideas could be smoother
+    - [CLARITY]:
+        • a few sentences are wordy or contain complex ideas that may confuse the reader
+
+Section section_10 (Chars 75220–82329):
+Section Summary: The author visited the Hôpital Central in Bar-le-Duc, where they were shown around by the infirmière major, Mlle. de Sézilles, and the médicin chef. The hospital was well-organized and clean, with efforts made to relieve the barrenness of the wards and boost the morale of the wounded soldiers. The author was struck by the dedication and hard work of the women from the noblesse and haute bourgeoisie who were volunteering at the hospital. Many of these women, despite being from wealthy families, were struggling financially due to the war and were relying on donations from others to support their relief work. The author appeals to readers to donate to support the French soldiers and the relief efforts, highlighting the gratitude and appreciation of the French people for American generosity.
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor errors in verb tense consistency
+    - [LEXICON]:
+        • occasional use of less common vocabulary
+    - [SYNTAX]:
+        • some sentences are lengthy and convoluted
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between descriptions of hospital conditions and discussion of French economic struggles
+    - [STRUCTURE]:
+        • lack of clear connection between some paragraphs
+    - [CLARITY]:
+        • occasional ambiguity in sentence meaning due to complex structure
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

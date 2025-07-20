@@ -1,0 +1,275 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    b) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The report is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–8248):
+Section Summary: The introduction to Will Bradley's chap book highlights his significant impact on American graphic arts, bringing a fresh and modern style to a field that was previously stagnant. Bradley's work was influenced by European artists, but he developed a unique and indigenous American style that was bold, free, and exuberant. The chapter "The Boy Printer of Ishpeming" tells the story of Bradley's childhood, growing up in Lynn, Massachusetts, and later moving to Ishpeming, Michigan, where he developed an interest in printing and art. Bradley's early life was marked by curiosity and creativity, with a strong desire to learn and become an artist. Through his determination and talent, Bradley went on to become a pioneering figure in American graphic design, leaving a lasting legacy that continues to inspire new generations of artists.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Minor punctuation errors
+    - [LEXICON]:
+        • Some outdated vocabulary
+    - [SYNTAX]:
+        • A few long, winding sentences
+  Coherence Issues:
+    - [STRUCTURE]:
+        • Abrupt transition between chapters
+    - [CLARITY]:
+        • Some sentences are wordy or unclear
+    - [LOGIC]:
+        • A few non-sequiturs or tangential details
+
+Section section_02 (Chars 8249–16457):
+Section Summary: The narrator, a young boy, is expelled from school for not having the correct answer to an arithmetic problem and instead decides to work at the Iron Agitator newspaper to pursue his dream of becoming an artist. He starts as a low-paid worker, but quickly rises through the ranks, becoming a job printer and eventually earning a man's wages by the time he is 15. After saving enough money, he travels to Chicago to study art, where he meets Frank Bromley, a landscape painter, and begins working at Rand McNally as an apprentice, learning to engrave tints on wood-blocks. However, he soon realizes that designers do not engrave their own blocks and returns to his old job in Northern Michigan. He later returns to Chicago and resumes working at Rand McNally, where he learns about new technologies such as line photo-engraving and halftones.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Missing articles and incorrect sentence structure in some places
+    - [LEXICON]:
+        • Some words and phrases may be unfamiliar to modern readers
+    - [SYNTAX]:
+        • Long, winding sentences that can be hard to follow
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between the narrator's life in the print shop and their journey to Chicago
+    - [STRUCTURE]:
+        • Non-chronological events and lack of clear sectioning
+    - [CLARITY]:
+        • Some sentences are wordy or unclear, making it hard to understand the narrator's intentions
+
+Section section_03 (Chars 16458–24931):
+Section Summary: The narrator recounts their early experiences in the printing industry, including working with tight-fitting pants that rip and navigating the challenges of manual printing presses. They attend an inspection of the Chicago Herald's composing room and witness the introduction of new labor-saving furniture and web presses. The narrator also shares their personal life, including spending time with their boss and his wife, and eventually getting married and starting a career as a designer. As they progress in their career, they work with various companies, including Knight & Leonard and McClurg, and meet other artists and designers, such as Frank Getty and Joe Lyendecker. The narrator eventually buys a small printing outfit, but later sells it to a man named Fred Goudy, who wants to get into the printing business.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Run-on sentences and lack of punctuation
+    - [LEXICON]:
+        • Some outdated vocabulary and phrases
+    - [SYNTAX]:
+        • Complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transitions between scenes and ideas
+    - [STRUCTURE]:
+        • Non-chronological storytelling
+    - [CLARITY]:
+        • Some ambiguous or unclear sentences
+
+Section section_04 (Chars 24931–33332):
+Section Summary: The scene is set in Chicago in the 1890s, a city rebuilt after a great fire, with bustling streets and a mix of old and new architecture. The city is abuzz with cultural and artistic activity, including the upcoming World's Fair, and the narrator is part of a vibrant community of writers, artists, and publishers. The narrator's career as a designer is taking off, with commissions from publishers and theaters, and they are developing a reputation for their work. As they gain experience and confidence, they start to explore new opportunities, including starting their own press, the Wayside Press, in Springfield. The narrator's love of typography, particularly the Caslon font, is also evident, and they lament the decline of good taste in typefaces during the Victorian period.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Run-on sentences and lack of punctuation
+    - [LEXICON]:
+        • Overly complex vocabulary and phrases
+    - [SYNTAX]:
+        • Unconventional sentence structure
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transitions between ideas and time periods
+    - [STRUCTURE]:
+        • Non-chronological narrative and lack of clear sections
+    - [CLARITY]:
+        • Unclear connections between the narrator's personal life and historical events
+
+Section section_05 (Chars 33333–41968):
+Section Summary: The author's interest in typography, particularly the Caslon typeface, was sparked by a visit to the Boston Public Library in 1895, where he discovered a collection of colonial-era books. This experience had a profound influence on his approach to typography, and he soon became a member of the Arts and Crafts Society of Boston. The author's use of Caslon type in his printing work, including his magazine "Bradley: His Book," helped to revive interest in this classic typeface, which had fallen out of favor. He established the Wayside Press in Springfield, Massachusetts, with the goal of producing high-quality, aesthetically pleasing publications. The press's first project was a sample book for the Strathmore Paper Company, which marked a new approach to showcasing paper samples and helped to establish the Wayside Press as a innovative force in the printing industry.
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Minor punctuation errors
+    - [LEXICON]:
+        • Some outdated vocabulary
+    - [SYNTAX]:
+        • Occasionally long and convoluted sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between paragraphs
+    - [STRUCTURE]:
+        • Lack of clear chronological order
+    - [CLARITY]:
+        • Some sentences are wordy and hard to follow
+
+Section section_06 (Chars 41968–50348):
+Section Summary: The author's printing business, Wayside Press, experienced rapid growth after using Strathmore papers and Caslon types, leading to an increase in orders and the need for more space and equipment. However, the author soon found themselves overwhelmed and struggling to manage the business, ultimately leading to its demise. The author then moved to New York, where they attempted to start a new magazine and sought out the popular writer Richard Harding Davis to contribute a story. Davis agreed to write a story without expecting payment, instead telling the author to send him something when they were able. The author was overjoyed by Davis's generosity and felt a sense of success, but this marked a new beginning after the end of their previous venture.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Run-on sentences and lack of punctuation in some areas
+    - [LEXICON]:
+        • Overly complex vocabulary in certain passages
+    - [SYNTAX]:
+        • Awkward sentence structure in a few instances
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition from discussing the Wayside Press to the scene in New York
+    - [STRUCTURE]:
+        • Non-chronological ordering of events
+    - [CLARITY]:
+        • Some sentences are wordy and difficult to follow
+
+Section section_07 (Chars 50349–59109):
+Section Summary: The author recounts their experiences, including a visit to William Dean Howells and the success of their publication, Bradley: His Book. They also discuss their work with American Type Founders, designing typefaces and undertaking a campaign of type display and publicity. The author became the art editor of Collier's in 1907 and worked on various magazines, including Good Housekeeping and Century. During their tenure at Collier's, they had the freedom to work creatively and introduced new ideas, although not all of their efforts were commercially successful. The author's experiences in the magazine world were shaped by the evolving industry, which was transitioning from traditional formats to more modern and innovative approaches.
+Scores:
+  - Fluency: 3.5
+  - Coherence: 2.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Inconsistent verb tense usage
+    - [SYNTAX]:
+        • Complex sentence structures
+    - [LEXICON]:
+        • Overly formal vocabulary
+    - [SPELLING]:
+        • No noticeable spelling errors
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transitions between paragraphs
+    - [STRUCTURE]:
+        • Lack of clear narrative progression
+    - [CLARITY]:
+        • Unclear connections between ideas
+    - [TRANSITION]:
+        • Insufficient transitional phrases
+
+Section section_08 (Chars 59109–67618):
+Section Summary: The narrator worked as an art editor for various publications, including Collier's and Vogue, and received offers to work with other prominent companies. They eventually began working with William Randolph Hearst, designing layouts for magazines such as Good Housekeeping and Hearst's International. The narrator's work with Hearst led to innovative typographic and artistic changes, including the use of color at every editorial opening in Hearst's International. The narrator's designs were well-received by Hearst, who appreciated their creativity and attention to detail. Through their work with Hearst, the narrator helped to establish a new style in magazine design and typography.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • abrupt sentence transitions
+    - [SYNTAX]:
+        • long, convoluted sentences
+    - [LEXICON]:
+        • occasional use of outdated vocabulary
+  Coherence Issues:
+    - [LOGIC]:
+        • some events seem disconnected from the main narrative
+    - [STRUCTURE]:
+        • lack of clear chronological order in some sections
+    - [CLARITY]:
+        • occasional ambiguity in the author's intentions or actions
+
+Section section_09 (Chars 67619–76266):
+Section Summary: The author reflects on the career of painter Reynolds, noting that despite his glorious heritage, one can't help but regret the impermanence of his colors. The author then shares their own experiences in the field of design and printing, including their suggestions for improving illustration in magazines, which were not implemented at the time. However, the author notes that conditions today offer even greater opportunities for young designers and printers, with advances in typography, offset printing, and commercial silk-screen printing. The author also mentions their own biography, which includes their early days as a printer's devil and their rise to become a renowned designer. The author concludes that the current era presents wonderful opportunities for young designers, far beyond what they knew in their own youth.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [LEXICON]:
+        • some outdated vocabulary
+    - [SYNTAX]:
+        • occasional awkward sentence structure
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between topics
+    - [STRUCTURE]:
+        • lack of clear chronological order
+    - [CLARITY]:
+        • some sentences are wordy or unclear
+
+Section section_10 (Chars 76267–84815):
+Section Summary: The section begins with a descriptive passage about a horrible spectre, but then shifts to a biography of Will Bradley, a renowned American typographer. Bradley's career spanned over 70 years, during which he made significant contributions to fine printing, typography, and design. He worked with various publications, including Collier's and Harper's, and designed numerous typefaces, ornaments, and book covers. Bradley's work was widely recognized, and he received several awards, including the gold medal of the American Institute of Graphic Arts in 1954. He is remembered as a pioneer in his field, whose work continues to inspire and influence designers to this day.
+Scores:
+  - Fluency: 3.5
+  - Coherence: 2.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Abrupt shifts between descriptive narrative and chronological lists
+    - [SYNTAX]:
+        • Disjointed sentence structures
+    - [LEXICON]:
+        • Inconsistent tone due to mixing of formal and informal language
+  Coherence Issues:
+    - [LOGIC]:
+        • Lack of clear connection between different sections and ideas
+    - [STRUCTURE]:
+        • Non-sequential and disjointed presentation of information
+    - [CLARITY]:
+        • Unclear transitions between different topics and time periods
+
+Section section_11 (Chars 84816–90196):
+Section Summary: Will Bradley's career took off after the publication of "Bradley: His Book", a magazine that showcased his design and typography skills. He went on to work with prominent publications, including the Ladies' Home Journal and Collier's, and later transitioned to the motion picture industry. Bradley's work was celebrated in a 1954 portfolio, which was introduced at a luncheon sponsored by the Typophiles and Strathmore. The book about Bradley's life was assembled from his own writings, which were edited and connected into a narrative by others, including Peter Beilenson, who contributed to the design and printing of the book. Bradley's legacy is preserved in comprehensive collections at the Metropolitan Museum of Art and the Huntington Library, showcasing his colorful and innovative designs.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Minor tense inconsistencies
+    - [LEXICON]:
+        • Some sentences have complex vocabulary that may hinder smooth reading
+    - [SYNTAX]:
+        • A few sentences are lengthy and contain multiple clauses
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition from discussing Bradley's career to the description of the book's assembly
+    - [STRUCTURE]:
+        • The text jumps between different time periods and topics without clear connections
+    - [CLARITY]:
+        • Some sentences are wordy or contain ambiguous phrases
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

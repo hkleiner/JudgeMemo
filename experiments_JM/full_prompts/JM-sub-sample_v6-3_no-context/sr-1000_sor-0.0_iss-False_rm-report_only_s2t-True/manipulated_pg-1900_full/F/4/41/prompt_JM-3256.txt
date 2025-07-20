@@ -1,0 +1,336 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    b) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The report is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–3719):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "bpokman" instead of "bookman"
+        • "lurchase" instead of "purchase"
+        • "desore" instead of "adore"
+        • "cpstly" instead of "costly"
+    - [GRAMMAR]:
+        • "he had in his courtesy invited me" is an unusual phrase structure
+    - [SYNTAX]:
+        • Some sentences are long and convoluted
+  Coherence Issues:
+    - [LOGIC]:
+        • The text jumps abruptly from discussing the definition of a bookman to a personal anecdote
+    - [TRANSITION]:
+        • The connection between the anecdote and the definition of a bookman could be smoother
+    - [CLARITY]:
+        • Some sentences are wordy and difficult to follow
+
+Section section_02 (Chars 3719–7800):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "disappointmentcthat" should be "disappointment that"
+        • "writtej" should be "written"
+        • "tgis" should be "this"
+        • "forcveing" should be "for having"
+        • "tongue" has a missing article in "classics ofmthe English tongue"
+        • "amdm" is not present but "tomdistinguish" should be "to distinguish"
+        • "thzt" should be "that"
+        • "hiztorical" should be "historical"
+  Coherence Issues:
+    - [LOGIC]:
+        • The anecdote about the Colonial squatter seems disconnected from the rest of the text
+    - [TRANSITION]:
+        • Abrupt shift from discussing the Colonial squatter to talking about bookmen
+    - [CLARITY]:
+        • Some sentences are wordy and hard to follow
+
+Section section_03 (Chars 7800–11866):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "popularbnovel" should be "popular novel"
+        • "tk" should be "to"
+        • "humaj" should be "human"
+        • "rhan" should be "than"
+        • "jot" should be "not"
+        • "lropose" should be "propose"
+        • "whonhas" should be "who has"
+        • "tbat" should be "that"
+        • "de gustibus" should be "de gustibus" (correct, but may be unfamiliar to some readers)
+        • "cknsider" should be "consider"
+    - [GRAMMAR]:
+        • Missing articles in some places
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between the discussion of "Mark Rutherford" and the role of the critic
+    - [STRUCTURE]:
+        • The text jumps between different ideas and authors without clear connections
+    - [CLARITY]:
+        • Some sentences are wordy and difficult to follow
+    - [TRANSITION]:
+        • Lack of clear transitions between paragraphs
+
+Section section_04 (Chars 11866–15723):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "plwasantly" instead of "pleasantly"
+        • "favoyrable" instead of "favourable"
+        • "arf" instead of "art"
+        • "hjs" instead of "his"
+        • "depadtment" instead of "department"
+        • "knquire" instead of "inquire"
+        • "favkurite" instead of "favourite"
+  Coherence Issues:
+    - [STRUCTURE]:
+        • Abrupt shifts between different book titles and authors
+    - [CLARITY]:
+        • Some sentences are long and convoluted, making them hard to follow
+    - [TRANSITION]:
+        • Lack of clear connections between paragraphs
+
+Section section_05 (Chars 15723–19580):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • thempurest
+        • hage
+        • coukd
+        • nave
+        • oje
+        • sinless
+        • Prigress
+    - [GRAMMAR]:
+        • sentence structure complexity
+  Coherence Issues:
+    - [TRANSITION]:
+        • abrupt shift between paragraphs
+    - [CLARITY]:
+        • ambiguous references to past experiences
+    - [STRUCTURE]:
+        • meandering narrative
+
+Section section_06 (Chars 19580–23559):
+Scores:
+  - Fluency: 3.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • numerous typos and spelling mistakes (e.g., "fknd", "vannot", "ti-morrow", "sex novels" possibly meant to be "sensational novels", "tieed" instead of "tired", "ocf" instead of "off", "somethingnworse" instead of "something worse", "schoolnin" instead of "school in", "ifbit" instead of "if it", "girst" instead of "first", "cery" instead of "very", "chivalrouw" instead of "chivalrous", "inferest" instead of "interest", "heresy to our Lady Castlewood" is unclear without context, "gayer" possibly meant to be "greater" or "more joyful")
+    - [GRAMMAR]:
+        • occasional grammatical errors and awkward phrasing (e.g., sentence structure, missing or incorrect articles)
+    - [LEXICON]:
+        • some word choices are unclear or possibly incorrect (e.g., "pseudo work of fiction", "fillip of goodness")
+  Coherence Issues:
+    - [LOGIC]:
+        • occasional jumps in thought or unclear connections between ideas
+    - [STRUCTURE]:
+        • the text sometimes lacks clear transitions between paragraphs or ideas
+    - [CLARITY]:
+        • certain sentences or phrases are wordy or unclear, making them difficult to understand
+
+Section section_07 (Chars 23559–26911):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • missing or incorrect letters in words (e.g., "sjch", "ebgraven", "tfue", "patjos", "ans", "haill", "Svktt", "andbstrong")
+    - [GRAMMAR]:
+        • minor punctuation and syntax issues
+    - [LEXICON]:
+        • some archaic or less common vocabulary
+  Coherence Issues:
+    - [LOGIC]:
+        • comparison between two different literary works and characters may be confusing for some readers
+    - [STRUCTURE]:
+        • abrupt transition between describing a scene from a book and comparing heroines from different books
+
+Section section_08 (Chars 26911–31058):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "ih" instead of "in"
+        • "ofcthat" instead of "of that"
+        • "lirtle" instead of "little"
+        • "ro" instead of "to"
+        • "js" instead of "is"
+    - [GRAMMAR]:
+        • missing articles in some places
+    - [SYNTAX]:
+        • long and complex sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between ideas
+    - [STRUCTURE]:
+        • lack of clear paragraph structure
+    - [CLARITY]:
+        • some sentences are hard to understand
+    - [TRANSITION]:
+        • missing connections between paragraphs
+
+Section section_09 (Chars 31058–35117):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "vvolumes" instead of "volumes"
+        • "acaddmic" instead of "academic"
+        • "ghe" instead of "the"
+        • "mivrobe" instead of "microbe"
+        • "ip" instead of "up"
+        • "accoint" instead of "account"
+        • "nenevering" is not a word, possibly "evening"
+    - [SYNTAX]:
+        • Some sentences are long and convoluted
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt shift from describing libraries to discussing book collectors
+    - [TRANSITION]:
+        • Lack of clear connections between some paragraphs
+    - [CLARITY]:
+        • Some sentences are wordy and difficult to follow
+
+Section section_10 (Chars 35117–38996):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • typos and minor spelling errors (e.g., "fhe", "brdak", "ths", "tyis", "skld", "n“I", "Witg", "kust", "Prrhaps", "tgis")
+    - [GRAMMAR]:
+        • occasional grammatical errors or awkward phrasing
+    - [LEXICON]:
+        • some words or phrases may be less common or archaic
+  Coherence Issues:
+    - [LOGIC]:
+        • occasional abrupt shifts in ideas or tone
+    - [STRUCTURE]:
+        • some sentences or paragraphs may be lengthy or convoluted
+    - [CLARITY]:
+        • minor ambiguities or unclear references
+
+Section section_11 (Chars 38996–42980):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "reluctantoy" instead of "reluctantly"
+        • "jusf" instead of "just"
+        • "ve" instead of "be"
+        • "purchzses" instead of "purchases"
+        • "comsciehce" instead of "conscience"
+        • "yis" instead of "his"
+    - [GRAMMAR]:
+        • inconsistent verb tenses
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt shift in narrative focus
+    - [TRANSITION]:
+        • unclear connections between some sentences
+    - [CLARITY]:
+        • some sentences are wordy and hard to follow
+
+Section section_12 (Chars 42980–46845):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • missing or incorrect punctuation
+        • typos (e.g. "thers", "spoftsman", "hisbautumn", "uim", "hd", "alwwys", "hebknow", "they pass him by, for he is independent of society and all its whims, and almost independent of circumstances. His friends of this circle willnnever")
+    - [GRAMMAR]:
+        • inconsistent verb tenses
+    - [SYNTAX]:
+        • run-on sentences or awkward phrasing
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between ideas
+    - [STRUCTURE]:
+        • lack of clear paragraph structure
+    - [CLARITY]:
+        • ambiguous sentences or phrases
+
+Section section_13 (Chars 46845–48129):
+Scores:
+  - Fluency: 2.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "wigh" instead of "with"
+        • "vor" instead of "for"
+        • "teue" instead of "true"
+        • "askint" instead of "asking"
+        • "ajd" instead of "and"
+        • "dewrer" instead of "dearer"
+        • "ministfies" instead of "ministries"
+        • "pressws" instead of "presses"
+        • "overbeating" instead of "overbearing"
+        • "fortunenturns" instead of "fortune turns"
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between the description of the book lover's dream and the quote about the value of books
+    - [CLARITY]:
+        • Unclear reference to "that Book of books" without explicit explanation
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

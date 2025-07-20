@@ -1,0 +1,328 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    b) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The report is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–3994):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [SPELLING]:
+        • minor typos (e.g., "dernier cri" should be "à la dernière cri" or simply "in style")
+    - [SYNTAX]:
+        • occasional awkward sentence structure
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between discussing dog breeds and arriving in Battersea
+    - [STRUCTURE]:
+        • some sentences feel disconnected from the main narrative
+    - [CLARITY]:
+        • minor ambiguity in character motivations (e.g., why they decided against the pedigree dogs)
+
+Section section_02 (Chars 3995–8057):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • "mighted" instead of "might have"
+    - [SPELLING]:
+        • "'Ome" instead of "Home"
+    - [LEXICON]:
+        • informal language and slang ("wistful little boy", "infant", "ear-splitting yell")
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt shift from discussing the difficulty of finding the Lost Dogs' Home to tracking a man through the streets
+    - [STRUCTURE]:
+        • meandering narrative with multiple tangents and asides
+    - [CLARITY]:
+        • some sentences are wordy or unclear, making it hard to follow the author's intent
+
+Section section_03 (Chars 8058–12098):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing article in some places
+    - [LEXICON]:
+        • some words are slightly archaic or less common
+    - [SYNTAX]:
+        • a few long sentences with complex structures
+  Coherence Issues:
+    - [LOGIC]:
+        • some plot developments feel abrupt or unexplained
+    - [STRUCTURE]:
+        • the narrative jumps between scenes without clear transitions
+    - [CLARITY]:
+        • a few sentences are wordy or unclear
+
+Section section_04 (Chars 12099–16287):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor punctuation issues
+    - [LEXICON]:
+        • some outdated vocabulary
+    - [SYNTAX]:
+        • occasional complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • slight disconnect between some paragraphs
+    - [STRUCTURE]:
+        • abrupt transition to new chapter
+    - [CLARITY]:
+        • occasional ambiguity in sentence meaning
+
+Section section_05 (Chars 16287–20425):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor punctuation errors
+    - [LEXICON]:
+        • occasional informal language
+    - [SYNTAX]:
+        • few complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • some abrupt transitions between scenes
+    - [STRUCTURE]:
+        • loose narrative connection between paragraphs
+    - [CLARITY]:
+        • minor ambiguity in Excalibur's character development
+
+Section section_06 (Chars 20426–24610):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor punctuation issues
+    - [LEXICON]:
+        • occasional word choice awkwardness
+    - [SYNTAX]:
+        • few sentence structure complexities
+  Coherence Issues:
+    - [LOGIC]:
+        • slight disconnect between scenes
+    - [STRUCTURE]:
+        • abrupt transition to new chapter
+    - [CLARITY]:
+        • occasional ambiguity in character intentions
+
+Section section_07 (Chars 24611–28787):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • "where he purchase" should be "where he purchased"
+        • "the parcel in question contain" should be "the parcel in question contains"
+        • "as I was not privileged to was present" should be "as I was not privileged to be present"
+        • "which fall heavily" should be "which fell heavily"
+  Coherence Issues:
+    - [STRUCTURE]:
+        • Abrupt transition from describing Excalibur's daily life to introducing a new character, the young man in clerical attire
+    - [CLARITY]:
+        • Some sentences are long and convoluted, making them hard to follow
+
+Section section_08 (Chars 28788–32798):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • "I thought you must had been" should be "I thought you must have been"
+    - [LEXICON]:
+        • Some sentences are wordy or use complex vocabulary
+  Coherence Issues:
+    - [STRUCTURE]:
+        • Abrupt transition from the conversation to the description of Excalibur's actions
+    - [CLARITY]:
+        • Some parts of the dialogue may be hard to follow due to the lack of clear attribution or context
+
+Section section_09 (Chars 32799–36996):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Subject-verb agreement errors (e.g., "He continue", "Excalibur realize", "Excalibur run")
+        • Tense inconsistencies
+    - [SPELLING]:
+        • Minor spelling errors (e.g., "piquant" is correct, but "excerscence" should be "excrescence")
+    - [SYNTAX]:
+        • Some sentences are wordy or awkwardly phrased
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between scenes (e.g., from the court to the mountain range)
+    - [STRUCTURE]:
+        • Non-chronological events
+    - [CLARITY]:
+        • Some sentences are unclear or require re-reading
+
+Section section_10 (Chars 36997–40794):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • "It woulded mean starvation" should be "It would mean starvation"
+    - [SPELLING]:
+        • No major issues detected
+    - [SYNTAX]:
+        • Some sentences are long and convoluted, affecting readability
+  Coherence Issues:
+    - [LOGIC]:
+        • The transition between the curate's decision to go to London and the conclusion could be smoother
+    - [STRUCTURE]:
+        • The dialogue-driven narrative sometimes feels disjointed
+
+Section section_11 (Chars 40795–44925):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor punctuation errors
+    - [LEXICON]:
+        • some outdated vocabulary
+    - [SYNTAX]:
+        • occasional complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between scenes
+    - [STRUCTURE]:
+        • lack of clear chronological progression
+    - [CLARITY]:
+        • some ambiguous character relationships
+
+Section section_12 (Chars 44925–49094):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • "it suddenly occur to Excalibur" should be "it suddenly occurred to Excalibur"
+    - [SPELLING]:
+        • None notable
+    - [SYNTAX]:
+        • Some sentences are long and convoluted
+  Coherence Issues:
+    - [STRUCTURE]:
+        • Abrupt transition from the story of Excalibur to the coroner's jury
+    - [CLARITY]:
+        • Some parts of the narrative are confusing, such as Excalibur's actions after being left behind
+
+Section section_13 (Chars 49094–53342):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [SPELLING]:
+        • potential typos (e.g., "have charge" instead of "had charge", "turn" instead of "turned")
+    - [SYNTAX]:
+        • some sentences are wordy or awkwardly phrased
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transition between scenes
+    - [CLARITY]:
+        • some sentences are unclear or require re-reading
+    - [LOGIC]:
+        • introduction of characters and plot points feels somewhat disjointed
+
+Section section_14 (Chars 53343–57381):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing article in some places
+    - [SPELLING]:
+        • "we coulded" instead of "we could"
+    - [LEXICON]:
+        • some words are outdated or less common
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt chapter changes without clear connection
+    - [TRANSITION]:
+        • some scenes feel disconnected from the rest of the narrative
+    - [CLARITY]:
+        • a few sentences are wordy or unclear
+
+Section section_15 (Chars 57382–59827):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Missing articles in some places
+    - [SYNTAX]:
+        • Some sentences are simple and lack variation
+    - [LEXICON]:
+        • A few words are somewhat archaic or less common
+  Coherence Issues:
+    - [LOGIC]:
+        • The sudden introduction of the dog could be seen as abrupt
+    - [STRUCTURE]:
+        • The narrative jumps quickly from the tramp's request to the lady's response with the dog
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

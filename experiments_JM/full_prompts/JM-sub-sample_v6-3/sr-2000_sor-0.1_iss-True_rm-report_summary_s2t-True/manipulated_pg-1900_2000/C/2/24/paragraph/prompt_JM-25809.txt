@@ -1,0 +1,102 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) Read and understand the summary of the text the report was created for.
+    b) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    c) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The summary of the text to be evaluated is given below:
+Summary: Jim Felton sat on the doorstep of his cabin in Sweet Briar Gulch, feeling unhappy despite the beautiful surroundings. He had been searching for gold in the gulch but had found nothing. A hologram displayed the weather, but Jim was too frustrated to care. He thought about his girlfriend, Anne, who had rejected his proposal due to his lack of financial stability. Jim felt that Anne was being practical, but he couldn't help feeling hurt and angry.
+
+Jim read a letter from Anne, which explained her reasons for rejecting him. She wanted a modest assurance of financial security, which Jim couldn't provide. Anne's letter was kind and affectionate, but it also highlighted Jim's lack of responsibility and his tendency to take risks. Jim felt that Anne was right, but he couldn't help feeling frustrated and trapped.
+
+As Jim sat on the doorstep, he heard the sound of a horse approaching. It was Bud, the mail carrier, who had come to deliver the mail. Bud was a cheerful and friendly man who tried to lift Jim's spirits. He offered Jim some money and suggested that he go to town and get drunk. Jim declined, feeling that he couldn't afford to waste money.
+
+Bud told Jim about his encounter with a humpbacked man who had tried to rob him. The man had asked for $50, but Bud had only given him $10. Jim listened to the story, feeling a mix of amusement and frustration. Bud then offered to round up a burro for Jim, which he did. Jim thanked Bud and prepared to leave, feeling a sense of gratitude towards his friend.
+
+As Jim rode away on the burro, he felt a sense of freedom and release. He was still frustrated and unhappy, but he felt that he could finally do something to change his situation. Jim thought about Anne and wondered if he would ever be able to provide for her. He felt that he needed to find a way to make a living and prove himself to Anne.
+
+The scenery around Jim was beautiful, with wild flowers and trees covering the scarred earth. The air was filled with the sweet scent of blooming flowers, and the sound of birds singing. Jim felt a sense of peace and tranquility, despite his troubles. He knew that he had a long way to go, but he felt that he could finally start to make progress.
+
+Jim's thoughts were interrupted by the sound of the burro's braying. He looked down and saw that the burro was stopped, refusing to move. Jim laughed and tried to coax the burro forward, feeling a sense of amusement and frustration. As he sat on the burro, Jim felt a sense of uncertainty and doubt. He didn't know what the future held, but he felt that he had to keep moving forward.
+
+The sun was starting to set, casting a golden glow over the landscape. Jim felt a sense of peace and tranquility, despite his troubles. He knew that he had a long way to go, but he felt that he could finally start to make progress. Jim thought about Anne and wondered if he would ever be able to provide for her. He felt that he needed to find a way to make a living and prove himself to Anne.
+
+As the sun dipped below the horizon, Jim felt a sense of hope and determination. He knew that he had to keep moving forward, no matter what challenges lay ahead. Jim thought about his future and wondered what it held. He felt that he had a long way to go, but he was ready to face whatever challenges came his way. With a sense of resolve, Jim urged the burro forward, ready to face whatever the future held.
+
+The report for the text is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–7851):
+Section Summary: Jim Felton, a prospector, is sitting on the doorstep of his cabin in Sweet Briar Gulch, feeling unhappy and frustrated despite the beautiful surroundings. He has been searching for gold, but his efforts have been unsuccessful, and he is struggling with the idea that he may not be able to provide for himself, let alone a future wife. He reads a letter from his sweetheart, Anne, who has rejected his proposal due to his lack of financial stability, which further adds to his despair. Jim's friend, Bud, the mail-carrier, arrives and tries to cheer him up, suggesting he take a break and go to town to have some fun, but Jim declines, feeling too down and also mindful of Anne's expectations. Jim is deeply in love with Anne and hopes to one day be able to provide for her and make her happy.
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense
+    - [LEXICON]:
+        • some archaic vocabulary
+    - [SYNTAX]:
+        • occasional complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between Jim's emotions and the arrival of Bud
+    - [STRUCTURE]:
+        • non-sequential narrative flow
+    - [CLARITY]:
+        • some ambiguity in Jim's thoughts and feelings
+
+Section section_02 (Chars 7852–10926):
+Section Summary: Jim and Bud are having a conversation, with Bud trying to convince Jim to take some money and a horse to go to Plattsburg, a town 50 miles away. Jim declines, but instead asks Bud to round up a burro for him to ride. Bud agrees and tells Jim about his recent encounter with a humpbacked man who tried to rob him, but only got $10. After returning with the burro, Bud teases Jim about his new "thoroughbred" and the two friends prepare to part ways at the fork in the trail. Jim tries to thank Bud, but he brushes off the gratitude.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • informal language and slang usage
+    - [LEXICON]:
+        • colloquial expressions and regional dialect
+    - [SYNTAX]:
+        • occasional awkward sentence structure
+  Coherence Issues:
+    - [LOGIC]:
+        • some abrupt transitions between ideas
+    - [STRUCTURE]:
+        • conversational tone can make narrative flow slightly disjointed
+    - [CLARITY]:
+        • a few unclear references to previous events or context
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

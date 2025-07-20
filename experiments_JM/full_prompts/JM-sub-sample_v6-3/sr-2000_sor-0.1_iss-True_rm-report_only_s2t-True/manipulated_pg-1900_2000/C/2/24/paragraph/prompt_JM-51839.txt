@@ -1,0 +1,82 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    b) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The report is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–8297):
+Section Summary: The city of Nacogdoches has a rich history dating back to the time of the Tejas Indians, who settled in the area and built homes around ceremonial mounds. According to legend, the city was founded by Nacogdoches, one of the twin sons of a Caddo chief, who was instructed to travel towards the setting sun and establish a home. The area was later visited by European explorers, including Hernando De Soto and LaSalle, and was also influenced by the ministrations of Mother Maria de Jesus de Agreda, who taught the Tejas tribes the Christian religion. The first permanent European settlement in Nacogdoches was established in 1716 with the founding of the Mission Nuestra Senora de Guadalupe de Nacogdoches, and the city was later refounded by Captain Antonio Gil Ybarbo in 1779. Over time, the city has evolved from an Indian town to a Spanish town, with a complex history shaped by the interactions of Native Americans, Europeans, and other cultures.
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • occasional complex sentence structures
+    - [LEXICON]:
+        • some archaic vocabulary
+    - [SYNTAX]:
+        • varied sentence length and structure
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between historical periods
+    - [STRUCTURE]:
+        • lack of clear chronological order
+    - [CLARITY]:
+        • some sentences are wordy or convoluted
+
+Section section_02 (Chars 8298–13136):
+Section Summary: The eastern boundary of Texas was unclear during the time of Gil Ybarbo, a Spanish leader who built "The Old Stone Fort" as a commissary for military and commercial supplies. Ybarbo governed the area as a benevolent despot, but was eventually removed from office due to irregularities and illegal activities. In 1800, the town of Nacogdoches remained loyal to Spain and helped suppress Philip Nolan's expedition, which was backed by American leaders James Wilkinson and Aaron Burr. Nolan's expedition was defeated, and its members were captured and imprisoned in the Old Stone Fort before being taken to Mexico. The purchase of Louisiana by the United States from France at the start of the 19th century brought significant changes to the political and military affairs of Nacogdoches, leading to increased tensions and a territorial dispute between the two countries.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • abrupt sentence transitions
+    - [LEXICON]:
+        • inconsistent tone
+    - [SYNTAX]:
+        • occasional complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • unclear connections between some events
+    - [STRUCTURE]:
+        • abrupt chapter transitions
+    - [CLARITY]:
+        • some sentences are wordy or unclear
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

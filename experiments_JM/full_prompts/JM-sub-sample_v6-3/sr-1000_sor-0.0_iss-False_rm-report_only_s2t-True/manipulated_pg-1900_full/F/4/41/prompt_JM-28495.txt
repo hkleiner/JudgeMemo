@@ -1,0 +1,386 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    b) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The report is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–4000):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing or incorrect articles
+    - [SPELLING]:
+        • typos (e.g., "bren" instead of "been", "lengtu" instead of "length", "commotted" instead of "committed", "dernier cri" should be "à la mode" or similar, "inclosed" instead of "enclosed", "underlined in the pedigree" is unclear)
+    - [LEXICON]:
+        • informal language and slang (e.g., "dernier cri", "bonhomie")
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between discussing dog breeds and the decision to go to the Home for Lost Dogs
+    - [STRUCTURE]:
+        • non-chronological order of events (e.g., the discussion about the dog and the trip to Battersea are intertwined)
+    - [CLARITY]:
+        • unclear motivations for some characters' actions (e.g., why the wife suggests going to the Home for Lost Dogs)
+
+Section section_02 (Chars 4001–8064):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "qhere" instead of "where"
+        • "possesx" instead of "possess"
+        • "creatyre" instead of "creature"
+        • "simlle" instead of "simple"
+        • "ofb" instead of "of"
+        • "kight" instead of "light"
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt shift in narrative when the boy suggests biting a policeman
+    - [STRUCTURE]:
+        • meandering storyline with multiple tangents
+    - [CLARITY]:
+        • unclear motivations for following the man in uniform
+
+Section section_03 (Chars 8065–12109):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing article in some places
+    - [SPELLING]:
+        • "hitherto" is correctly spelled but "cI" should be "I" and "hasped" should be "gasped" and "msn" should be "man" and "frightenwd" should be "frightened" and "powers ofnendurance" should be "powers of endurance" and "vdear" should be "dear" and "ghideless" should be "guideless"
+    - [SYNTAX]:
+        • some sentences are long and convoluted
+  Coherence Issues:
+    - [LOGIC]:
+        • the narrative jumps abruptly from the chase to the conversation about going home
+    - [STRUCTURE]:
+        • the transition between the end of the chase and the beginning of the new scene at the train station is abrupt
+    - [CLARITY]:
+        • some parts of the narrative are confusing, such as the reason for the man's behavior
+
+Section section_04 (Chars 12110–16134):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing or incorrect articles
+    - [SPELLING]:
+        • typos (e.g. "tnirteenth", "qhimpering", "stultify" is correct but "thar" is not)
+    - [LEXICON]:
+        • some words may be less common or outdated (e.g. "blasphemous", "consort")
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt shift from discussing the puppy's name to describing its growth and appearance
+    - [TRANSITION]:
+        • some paragraphs or sentences could be more smoothly connected
+    - [CLARITY]:
+        • occasional ambiguity or wordiness (e.g. "respectful pertinacity")
+
+Section section_05 (Chars 16135–20140):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "ikpossible" instead of "impossible"
+        • "yzrds" instead of "yards"
+        • "aould" instead of "would"
+        • "ffiends" instead of "friends"
+        • "coyrtly" instead of "courteously"
+        • "desctiption" instead of "description"
+        • "attractsd" instead of "attracted"
+        • "ws" instead of "we"
+        • "wgich" instead of "which"
+        • "carrykng" instead of "carrying"
+        • "kktchen" instead of "kitchen"
+    - [GRAMMAR]:
+        • inconsistent verb tenses
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between paragraphs
+    - [STRUCTURE]:
+        • lack of clear chronological order
+    - [CLARITY]:
+        • some sentences are wordy and hard to follow
+
+Section section_06 (Chars 20141–24335):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "spzce" instead of "space"
+        • "whitecand" instead of "white and"
+        • "besude" instead of "beside"
+        • "begaj" instead of "began"
+        • "oxcation" instead of "occasion"
+        • "quige" instead of "quite"
+        • "ij" instead of "if"
+        • "Laxy" instead of "Lady"
+        • "comfortabpe" instead of "comfortable"
+        • "isndelightfully" instead of "is delightfully"
+  Coherence Issues:
+    - [STRUCTURE]:
+        • Abrupt transition between the story of Excalibur and the dinner party
+    - [CLARITY]:
+        • Unclear connection between Excalibur's bone and Lady Wickham's discomfort
+
+Section section_07 (Chars 24336–28524):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • pfesented
+        • afcomplishments
+        • endeavorec
+        • jis
+        • ov
+        • includibg
+        • Itmwas
+        • buttresz
+        • heavjly
+    - [GRAMMAR]:
+        • inconsistent verb tenses
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt shift in narrative perspective
+    - [TRANSITION]:
+        • lack of clear connection between some paragraphs
+    - [CLARITY]:
+        • some sentences are wordy or confusing
+
+Section section_08 (Chars 28525–32339):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "bot" instead of "not"
+        • "paridhioners" instead of "parishioners"
+        • "hpur" instead of "hour"
+        • "psws" instead of "paws"
+        • "were youvin" instead of "were you in"
+        • "rpwing" instead of "rowing"
+    - [GRAMMAR]:
+        • missing articles and incorrect verb tenses
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transition between scenes
+    - [CLARITY]:
+        • unclear timeline of events
+    - [LOGIC]:
+        • inconsistent character behavior
+
+Section section_09 (Chars 32340–36371):
+Scores:
+  - Fluency: 3.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "slways" instead of "always"
+        • "steetched" instead of "stretched"
+        • "dod" instead of "did"
+        • "cobvey" instead of "convey"
+        • "forgivijg" instead of "forgiving"
+        • "Excapibur" instead of "Excalibur"
+        • "wqs" instead of "was"
+        • "anboring" instead of "boring"
+        • "atreed" instead of "agreed"
+        • "mashie" is an uncommon word
+        • "Obe" instead of "One"
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt shift from describing Excalibur's sanctuary to the introduction of Eileen and the curate
+    - [STRUCTURE]:
+        • non-chronological events
+    - [CLARITY]:
+        • unclear transitions between scenes
+
+Section section_10 (Chars 36371–40320):
+Scores:
+  - Fluency: 3.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • straightcbefore
+        • atnExcalibur
+        • fhe
+        • swt
+        • ssparately
+        • xhall
+        • amh
+        • coram
+        • come downmin
+        • nyou
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt introduction of Excalibur's concerns about being invisible
+    - [TRANSITION]:
+        • sudden shift from Excalibur's interaction to the curate and Eileen's conversation
+    - [CLARITY]:
+        • unclear motivations behind some character actions
+
+Section section_11 (Chars 40321–44250):
+Scores:
+  - Fluency: 3.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "extremelyccheerfully"
+        • "Eipeen"
+        • "pumbering"
+        • "bassented"
+        • "curzte"
+        • "shoylders"
+        • "tk"
+        • "powersmof"
+        • "lathy"
+        • "amd"
+        • "everynTuesray"
+        • "messafe"
+        • "anr"
+    - [GRAMMAR]:
+        • inconsistent verb tenses
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transition between scenes
+    - [CLARITY]:
+        • unclear timeline of events
+    - [LOGIC]:
+        • unexplained character motivations
+
+Section section_12 (Chars 44250–48269):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "thw" instead of "the"
+        • "communiczted" instead of "communicated"
+        • "inyelligent" instead of "intelligent"
+        • "fheap" instead of "cheap"
+        • "littlw" instead of "little"
+        • "bout" instead of "out"
+        • "whirled awaybout" instead of "whirled away"
+    - [GRAMMAR]:
+        • "he had been privately communiczted some days before" is a bit awkwardly phrased
+  Coherence Issues:
+    - [LOGIC]:
+        • The transition between Excalibur's realization that he was left behind and his decision to set off in pursuit of the taxi could be smoother
+    - [STRUCTURE]:
+        • The story jumps abruptly from the scene at the restaurant to the scene with the taxi
+
+Section section_13 (Chars 48269–52502):
+Scores:
+  - Fluency: 3.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • multiple spelling errors (e.g., "hoir", "instrujent", "sgall", "unhurf", "bouleversement" is correctly spelled but seems out of place, "lver" instead of "over", "kt" instead of "it", "Mokr" instead of "Moor", "yardx" instead of "yards", "altogerher" instead of "altogether", "tehder" instead of "tender")
+    - [GRAMMAR]:
+        • occasional grammatical errors or awkward phrasing (e.g., "to the grave inconvenience of the inhabitants of Pimlico, and refusing to be comforted" could be smoother)
+    - [LEXICON]:
+        • some words may be less common or used in unexpected ways (e.g., "bouleversement")
+  Coherence Issues:
+    - [STRUCTURE]:
+        • the narrative jumps abruptly from describing the curate's chase to the coroner's jury and then to the train accident without clear connections
+    - [CLARITY]:
+        • some sentences are wordy or contain unclear references (e.g., "In all this Excalibur was the instrujent of Destiny, as you sgall hear" is cryptic without context)
+    - [TRANSITION]:
+        • transitions between scenes or ideas could be smoother (e.g., the shift from the accident to the aftermath)
+
+Section section_14 (Chars 52503–56560):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing or incorrect articles
+    - [SPELLING]:
+        • typos (e.g. "ir" instead of "it", "mw" instead of "me", "oe" instead of "or", "receivs" instead of "receive", "bin" instead of "been", "momrnt" instead of "moment", "incumbemcy" instead of "incumbency")
+    - [SYNTAX]:
+        • occasional awkward sentence structure
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between scenes
+    - [STRUCTURE]:
+        • lack of clear connection between some paragraphs
+    - [CLARITY]:
+        • some sentences are wordy or unclear
+
+Section section_15 (Chars 56561–59854):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • questikn
+        • prwsently
+        • curaten
+        • nursemajd
+        • huskily -> possibly incorrect word choice, but more likely a typo or spelling error for "hoarsely"
+        • therebwere
+        • crowm
+    - [GRAMMAR]:
+        • "when Eileen said 'in' she meant 'up'" - awkward phrasing
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transition between the conversation with Lord Caversham and the introduction of the tramp
+    - [CLARITY]:
+        • unclear motivations of the tramp and Lord Caversham at times
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

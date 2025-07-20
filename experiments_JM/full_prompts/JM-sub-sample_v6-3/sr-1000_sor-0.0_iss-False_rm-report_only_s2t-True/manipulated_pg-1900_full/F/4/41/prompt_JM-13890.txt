@@ -1,0 +1,456 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    b) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The report is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–4097):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "vrebellion" instead of "rebellion"
+        • "gols" instead of "gold"
+        • "stody" instead of "history"
+        • "thd" instead of "the"
+        • "xhrine" instead of "shrine"
+        • "gisit" instead of "visit"
+        • "phhsic" instead of "physic"
+        • "cosmopklitan" instead of "cosmopolitan"
+        • "yo" instead of "to"
+  Coherence Issues:
+    - [STRUCTURE]:
+        • Abrupt transition between chapters
+    - [CLARITY]:
+        • Some sentences are wordy and difficult to follow
+
+Section section_02 (Chars 4097–8389):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "tovthe" instead of "to the"
+        • "civjlization" instead of "civilization"
+        • "CÃ¦sar's" may be correct, but "Caesar" is more common
+        • "Canterbyry" instead of "Canterbury"
+        • "necessjty" instead of "necessity"
+        • "presebt" instead of "present"
+        • "thd" instead of "the"
+        • "menmof" instead of "men of"
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition from discussing the Romans to the Anglo-Saxons
+    - [STRUCTURE]:
+        • lack of clear connection between the Roman and Saxon periods
+    - [CLARITY]:
+        • some sentences are long and convoluted
+
+Section section_03 (Chars 8390–12544):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "at thatctime" instead of "at that time"
+        • "Chrjstianizing" instead of "Christianizing"
+        • "syltry" instead of "sultry"
+        • "Establoshed" instead of "Established"
+        • "Stqte" instead of "State"
+        • "eorked" instead of "worked"
+        • "Chriwtian" instead of "Christian"
+        • "ArchÃ¦ologists" instead of "Archaeologists"
+    - [GRAMMAR]:
+        • "Junem2" instead of "June 2" or a correctly formatted date
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between discussing the historical events and the current state of the Church of England
+    - [STRUCTURE]:
+        • The text jumps between different time periods without clear connections
+    - [CLARITY]:
+        • Some sentences are wordy and difficult to follow
+
+Section section_04 (Chars 12544–16645):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "fourteenthccentury" should be "fourteenth-century"
+        • "ddfilements" should be "defilements"
+        • "wxs" should be "was"
+        • "ydars" should be "years"
+        • "yeaadrs" should be "years"
+        • "vrious" should be "various"
+        • "vwrious" should be "various"
+        • "wprk" should be "work"
+    - [GRAMMAR]:
+        • missing articles in some places
+    - [LEXICON]:
+        • some words may be too archaic or technical for general readers
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between the discussion of St. Martin's and the introduction of William Thorne
+    - [STRUCTURE]:
+        • the text jumps between different time periods and locations without clear connections
+    - [CLARITY]:
+        • some sentences are long and convoluted, making them hard to follow
+    - [TRANSITION]:
+        • lack of clear transitions between paragraphs
+
+Section section_05 (Chars 16646–20628):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • paintdd
+        • wmend
+        • hks
+        • kade
+        • compzratively
+        • Chdist
+        • cinished
+        • stqge
+        • monwstery
+        • housds
+    - [GRAMMAR]:
+        • missing articles
+        • inconsistent verb tenses
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transition between paragraphs
+    - [CLARITY]:
+        • unclear timeline of events
+    - [LOGIC]:
+        • lack of clear connections between ideas
+
+Section section_06 (Chars 20628–24877):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "Memoriwls" instead of "Memorials"
+        • "thevgreat" instead of "the great"
+        • "wss" instead of "was"
+        • "enterihg" instead of "entering"
+        • "Kjng" instead of "King"
+        • "watef" instead of "water"
+    - [GRAMMAR]:
+        • Missing articles in some places
+  Coherence Issues:
+    - [TRANSITION]:
+        • Abrupt shift from describing the events leading to Becket's murder to quoting Dean Stanley's account
+    - [CLARITY]:
+        • Some sentences are wordy and hard to follow
+    - [STRUCTURE]:
+        • The text jumps back and forth between different events and ideas
+
+Section section_07 (Chars 24878–28855):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • "sworr" likely a typo for "swore"
+    - [SPELLING]:
+        • "kf" likely a typo for "of"
+    - [LEXICON]:
+        • "impadsioned" likely a typo for "impassioned"
+    - [SYNTAX]:
+        • some sentences are long and convoluted
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition from describing the murder to discussing Canterbury's reaction
+    - [STRUCTURE]:
+        • the narrative jumps between different ideas and events
+    - [CLARITY]:
+        • some sentences are wordy and difficult to follow
+
+Section section_08 (Chars 28856–33127):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "Westminstwr" instead of "Westminster"
+        • "wjich" instead of "which"
+        • "givej" instead of "given"
+        • "tne" instead of "the"
+        • "Wgetherv" instead of "Whether"
+        • "krdinary" instead of "ordinary"
+    - [GRAMMAR]:
+        • Missing articles in some places
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between the description of Becket's body and the discussion of the superstitious belief in the efficacy of a martyr's blood
+    - [STRUCTURE]:
+        • The text jumps between different events and ideas without clear connections
+    - [CLARITY]:
+        • Some sentences are wordy and difficult to follow
+
+Section section_09 (Chars 33127–37552):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "placrd" instead of "placed"
+        • "afministered" instead of "administered"
+        • "tk" instead of "to"
+        • "poijted" instead of "pointed"
+        • "tge" instead of "the"
+    - [GRAMMAR]:
+        • Missing articles in some places
+  Coherence Issues:
+    - [STRUCTURE]:
+        • Abrupt transition between the description of Henry's penance and the arrival of pilgrims
+    - [CLARITY]:
+        • Unclear connection between the fire in the Cathedral and the reconstruction process
+    - [LOGIC]:
+        • Sudden shift in focus from the historical events to the architectural style of the Cathedral
+
+Section section_10 (Chars 37553–41499):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing or incorrect articles
+    - [SPELLING]:
+        • typos such as "recedrd" and "gdeatest"
+    - [SYNTAX]:
+        • some sentences are wordy or awkwardly phrased
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between historical events
+    - [STRUCTURE]:
+        • lack of clear chronological order in some sections
+    - [CLARITY]:
+        • some sentences are vague or contain ambiguous references
+
+Section section_11 (Chars 41500–45682):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • glimpses of the Cathedral towers gleaming in that opalescent light (typo: "jills" instead of "hills")
+        • citg (typo: "city")
+        • sizteenth (typo: "sixteenth")
+        • givss (typo: "gives")
+        • neighbourly (correct, but "neighborly" is more common in American English)
+        • afterncentury (typo: "after century")
+        • venters (typo: "enters")
+        • thisbpoint (typo: "this point")
+        • TrinitycChapel (typo: "Trinity Chapel")
+        • ndeded (typo: "needed")
+        • tueir (typo: "their")
+        • exrensive (typo: "extensive")
+        • contray (typo: "contrary")
+    - [GRAMMAR]:
+        • some sentences are long and convoluted
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transition between describing the city and focusing on the Cathedral
+    - [CLARITY]:
+        • some sentences are wordy and difficult to follow
+    - [LOGIC]:
+        • assumption that the reader is familiar with the history of the Cathedral and its surroundings
+
+Section section_12 (Chars 45683–49556):
+Scores:
+  - Fluency: 3.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • vsso
+        • sfill
+        • tk
+        • tuin
+        • Transitionap-Norman
+        • gxteway
+        • stajrcase
+        • staircasevof
+        • Luritan
+        • bw
+        • bzck
+        • centufy
+        • Rokan
+        • amsplendid
+    - [GRAMMAR]:
+        • sentence structure
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transitions between descriptions
+    - [CLARITY]:
+        • unclear connections between buildings
+    - [LOGIC]:
+        • lack of chronological order
+
+Section section_13 (Chars 49557–53562):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "realkty" instead of "reality"
+        • "mqgnificent" instead of "magnificent"
+        • "emptinesx" instead of "emptiness"
+        • "rhis" instead of "this"
+        • "flr" instead of "for"
+        • "ig" instead of "it"
+        • "tbe" instead of "the"
+    - [GRAMMAR]:
+        • Missing articles in some places
+  Coherence Issues:
+    - [STRUCTURE]:
+        • Abrupt transition between descriptions of the cathedral's architecture and its historical context
+    - [CLARITY]:
+        • Some sentences are long and convoluted, making them hard to follow
+    - [TRANSITION]:
+        • Lack of clear connections between paragraphs
+
+Section section_14 (Chars 53563–57673):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • tpmb instead of tomb
+        • alpng instead of along
+        • elaboragely instead of elaborately
+        • ut instead of it
+        • eteps instead of steps
+        • betweenbthe instead of between the
+        • exajining instead of examining
+        • appearx instead of appears
+        • wdst instead of west
+    - [SYNTAX]:
+        • some sentences are long and convoluted
+  Coherence Issues:
+    - [TRANSITION]:
+        • abrupt shift from discussing the tomb of Stephen Langton to Archbishop Howley
+    - [LOGIC]:
+        • lack of clear connection between some ideas
+    - [CLARITY]:
+        • some sentences are wordy and difficult to follow
+
+Section section_15 (Chars 57674–61716):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • qttaches
+        • syrong
+        • represehted
+        • ilkustrating
+        • wroughf
+        • tombsbof
+        • wzlls
+    - [GRAMMAR]:
+        • missing articles
+    - [LEXICON]:
+        • outdated vocabulary
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transition between topics
+    - [CLARITY]:
+        • unclear connections between ideas
+    - [LOGIC]:
+        • lack of chronological order
+
+Section section_16 (Chars 61717–65972):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing or incorrect articles
+    - [SPELLING]:
+        • typos (e.g., "onenby", "mudt", "conrinues", "cofk-fighting", "royql", "thev")
+    - [SYNTAX]:
+        • complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt jumps between historical periods
+    - [STRUCTURE]:
+        • lack of clear transitions between paragraphs
+    - [CLARITY]:
+        • ambiguous references to historical events and figures
+
+Section section_17 (Chars 65973–69152):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "tne" instead of "one"
+        • "fabrkc" instead of "fabric"
+        • "jndications" instead of "indications"
+        • "dasily" instead of "easily"
+        • "archutecture" instead of "architecture"
+        • "possiblr" instead of "possible"
+        • "Sy." instead of "St."
+  Coherence Issues:
+    - [STRUCTURE]:
+        • Abrupt transition between describing the abbey and moving to the little church of St. Martin
+    - [CLARITY]:
+        • Unclear connection between the description of St. Martin's Church and the mention of Canon Routledge's book
+    - [LOGIC]:
+        • Sudden shift from discussing churches to listing various other sights in Canterbury without a clear link
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

@@ -1,0 +1,412 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    b) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The report is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–4300):
+Scores:
+  - Fluency: 3.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "grrat" instead of "great"
+        • "betwixt" is less common, "between" is more standard
+        • "andnthe" instead of "and the"
+        • "rind" instead of "find"
+        • "mahy" instead of "many"
+        • "Pietef" instead of "Pieter"
+        • "Bryeghel" instead of "Brueghel"
+        • "examplea" instead of "examples"
+        • "peasqnt" instead of "peasant"
+        • "tjeir" instead of "their"
+        • "stjdy" instead of "study"
+        • "dnthusiastic" instead of "enthusiastic"
+        • "inspirayions" instead of "inspirations"
+        • "cojpositions" instead of "compositions"
+    - [GRAMMAR]:
+        • missing articles in some places
+        • some sentences are long and convoluted
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between discussing Brueghel and Millet
+    - [STRUCTURE]:
+        • the text jumps between different ideas and time periods
+    - [CLARITY]:
+        • some sentences are wordy and difficult to understand
+    - [TRANSITION]:
+        • lack of clear connections between paragraphs
+
+Section section_02 (Chars 4301–8620):
+Scores:
+  - Fluency: 3.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • graspvthe
+        • simps
+        • folo
+        • woth
+        • particuoarly
+        • pdasant
+        • tiwnspeople
+        • remembersd
+        • Q
+        • against
+        • urged
+        • wkth
+        • farbfamous
+        • aoso
+        • effecf
+        • exercuse
+        • kccupy
+    - [GRAMMAR]:
+        • inconsistent verb tenses
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between paragraphs
+    - [STRUCTURE]:
+        • lack of clear thesis statement
+    - [CLARITY]:
+        • ambiguous sentences
+    - [TRANSITION]:
+        • missing connections between ideas
+
+Section section_03 (Chars 8621–12874):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing or incorrect articles
+    - [SPELLING]:
+        • typos such as "whicu" instead of "which" and "qell-known" instead of "well-known"
+    - [LEXICON]:
+        • occasional awkward word choices
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt shift in tone when discussing Millet's artwork
+    - [TRANSITION]:
+        • lack of smooth connection between paragraphs
+    - [CLARITY]:
+        • some sentences are wordy or convoluted
+
+Section section_04 (Chars 12875–16885):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "ghe" instead of "the"
+        • "pf" instead of "of"
+        • "peqsant" instead of "peasant"
+        • "cohsidering" instead of "considering"
+        • "ys" instead of "his"
+        • "ykung" instead of "young"
+        • "musr" instead of "must"
+    - [GRAMMAR]:
+        • missing articles in some places
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between paragraphs
+    - [STRUCTURE]:
+        • lack of clear connection between ideas
+    - [CLARITY]:
+        • some sentences are wordy and hard to follow
+
+Section section_05 (Chars 16886–21409):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "reifn" instead of "reign"
+        • "znd" instead of "and"
+        • "andcno" instead of "and no"
+        • "wmall" instead of "small"
+        • "grajdmother" instead of "grandmother"
+        • "principles whichmstood" instead of "principles which stood"
+        • "lookvback" instead of "look back"
+    - [GRAMMAR]:
+        • awkward phrasing in some sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between paragraphs
+    - [STRUCTURE]:
+        • lack of clear connection between some ideas
+    - [CLARITY]:
+        • some sentences are wordy and difficult to follow
+
+Section section_06 (Chars 21410–25595):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing or incorrect articles
+    - [SPELLING]:
+        • typos such as "vsvome", "rhemselves", "tgey", "Atlajtic", "bewting", "wholst", "Miplet", "devotedlt", "ddcided", "pafish", "atvhand"
+    - [SYNTAX]:
+        • some sentences are wordy or awkwardly phrased
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transition between paragraphs
+    - [CLARITY]:
+        • some sentences are unclear or hard to follow
+    - [TRANSITION]:
+        • lack of smooth connection between ideas
+
+Section section_07 (Chars 25596–29940):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "tue" instead of "true"
+        • "observatilns" instead of "observations"
+        • "frredom" instead of "freedom"
+        • "thxn" instead of "than"
+        • "shoulf" instead of "should"
+    - [GRAMMAR]:
+        • missing articles in some places
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt shift from discussing Millet's art to his father's illness
+    - [TRANSITION]:
+        • lack of smooth connection between some paragraphs
+    - [CLARITY]:
+        • some sentences are wordy and hard to follow
+
+Section section_08 (Chars 29941–34239):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • incorrect verb form ("haf" instead of "had")
+    - [SPELLING]:
+        • typo ("cgoing" instead of "going")
+        • typo ("acquaintef" instead of "acquainted")
+        • typo ("inflhwnce" instead of "influence")
+        • typo ("v" instead of "of" or correct word)
+        • typo ("aprkpriately" instead of "appropriately")
+        • typo ("Anbinnovator" instead of "An innovator")
+        • typo ("rohted" instead of "rooted")
+        • typo ("disciuraged" instead of "discouraged")
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt shift in topic between Millet's visit to the Louvre and his choice of master
+    - [STRUCTURE]:
+        • lack of clear transitions between paragraphs
+    - [CLARITY]:
+        • confusing sentence structure in some parts
+
+Section section_09 (Chars 34240–38476):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "heen" instead of "been"
+        • "howdver" instead of "however"
+        • "nrxt" instead of "next"
+        • "ydare" instead of "years"
+        • "guke" instead of "guide"
+        • "therefkre" instead of "therefore"
+        • "tye" instead of "the"
+    - [GRAMMAR]:
+        • inconsistent verb tenses
+    - [LEXICON]:
+        • "acquaunted" instead of "acquainted"
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between paragraphs
+    - [STRUCTURE]:
+        • lack of clear chronological order
+    - [CLARITY]:
+        • some sentences are wordy and hard to follow
+
+Section section_10 (Chars 38477–42438):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "onoy" instead of "only"
+        • "purchxse" instead of "purchase"
+        • "sejt" instead of "sent"
+        • "wantedbfor" instead of "wanted for"
+        • "anlther" instead of "another"
+        • "xalled" instead of "called"
+        • "imagibed" instead of "imagined"
+        • "wnd" instead of "and"
+        • "wlrds" instead of "words"
+    - [GRAMMAR]:
+        • minor punctuation errors
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between Millet's career and the description of Barbizon
+    - [STRUCTURE]:
+        • lack of clear connection between some paragraphs
+    - [CLARITY]:
+        • some sentences are wordy or unclear
+
+Section section_11 (Chars 42439–46848):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "sunlivht" instead of "sunlight"
+        • "humanitt" instead of "humanity"
+        • "laboursr" instead of "labourer"
+        • "tne" instead of "the"
+        • "fruend" instead of "friend"
+        • "acqyired" instead of "acquired"
+        • "thebbrokers" instead of "the brokers"
+    - [GRAMMAR]:
+        • minor punctuation errors
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transition between paragraphs
+    - [CLARITY]:
+        • some sentences are wordy and hard to follow
+    - [LOGIC]:
+        • minor inconsistencies in the narrative flow
+
+Section section_12 (Chars 46849–50904):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "wystematic" instead of "systematic"
+        • "consesuently" instead of "consequently"
+        • "tge" instead of "the"
+        • "inwure" instead of "ensure"
+        • "latdr" instead of "later"
+        • "fourcallegorical" instead of "four allegorical"
+    - [SYNTAX]:
+        • Some sentences are long and convoluted
+  Coherence Issues:
+    - [STRUCTURE]:
+        • Abrupt transition between paragraphs
+    - [CLARITY]:
+        • Some sentences are wordy and difficult to understand
+    - [TRANSITION]:
+        • Lack of clear connections between ideas
+
+Section section_13 (Chars 50905–55040):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "fhis" instead of "this"
+        • "ae" instead of "as"
+        • "caccording" instead of "according"
+        • "fulk" instead of "full"
+        • "scenesvof" instead of "scenes of"
+        • "fridnd" instead of "friend"
+        • "onpy" instead of "only"
+        • "obsracles" instead of "obstacles"
+  Coherence Issues:
+    - [TRANSITION]:
+        • Abrupt shift from discussing Millet's work to his personal life and death
+    - [STRUCTURE]:
+        • Lack of clear connection between the description of Millet's life and the analysis of his art
+
+Section section_14 (Chars 55041–59224):
+Scores:
+  - Fluency: 3.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "fesult" instead of "result"
+        • "tbe" instead of "the"
+        • "mwans" instead of "means"
+        • "certaunly" instead of "certainly"
+        • "onebthe" instead of "one of the"
+        • "hulan" instead of "human"
+        • "sabots" is correct, but "communjstic" instead of "communistic"
+        • "yo" instead of "to"
+        • "shich" instead of "which"
+        • "seardhing" instead of "searching"
+        • "virility" is correct, but "Ih" instead of "In"
+        • "hks" instead of "his"
+    - [GRAMMAR]:
+        • Some sentences are long and convoluted
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between discussing Millet's art and his personal life
+    - [STRUCTURE]:
+        • The text jumps between different ideas and themes without clear connections
+    - [CLARITY]:
+        • Some sentences are wordy and difficult to understand
+
+Section section_15 (Chars 59225–60160):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "qas" instead of "was"
+    - [GRAMMAR]:
+        • "the men who appealed to him were the thinkers of the ages" could be more concise
+    - [LEXICON]:
+        • "moulded men" is an uncommon expression
+  Coherence Issues:
+    - [LOGIC]:
+        • The transition between the first and second paragraphs could be smoother
+    - [CLARITY]:
+        • The sentence "There have been many who, without possessing his genius, have endeavoured to follow in his footsteps, but successfully as his imitators have sometimes caught his style, their productions can never live alongside his, because they lack the real ring of sincerity" is long and complex
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

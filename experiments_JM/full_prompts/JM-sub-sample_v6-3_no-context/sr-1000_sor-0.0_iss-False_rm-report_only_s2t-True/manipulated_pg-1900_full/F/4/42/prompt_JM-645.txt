@@ -1,0 +1,494 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    b) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The report is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–3957):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor punctuation errors
+    - [LEXICON]:
+        • some archaic vocabulary
+    - [SYNTAX]:
+        • complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • occasional unclear transitions
+    - [STRUCTURE]:
+        • non-linear narrative progression
+    - [CLARITY]:
+        • some ambiguous character motivations
+
+Section section_02 (Chars 3957–7839):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [LEXICON]:
+        • overly complex vocabulary
+    - [SYNTAX]:
+        • long, convoluted sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between ideas
+    - [STRUCTURE]:
+        • lack of clear narrative progression
+    - [CLARITY]:
+        • ambiguous character motivations
+
+Section section_03 (Chars 7839–11782):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing or incorrect verb conjugations
+    - [LEXICON]:
+        • some word choices may be less common or slightly archaic
+    - [SYNTAX]:
+        • occasional complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • minor inconsistencies in character reactions
+    - [TRANSITION]:
+        • a few abrupt shifts between scenes or ideas
+    - [CLARITY]:
+        • some sentences or phrases may require close reading to understand
+
+Section section_04 (Chars 11782–15616):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • repeated word "have" in "have have a reserve"
+    - [SYNTAX]:
+        • complex sentence structure may cause readability issues
+    - [LEXICON]:
+        • some words may be less familiar to modern readers
+  Coherence Issues:
+    - [TRANSITION]:
+        • abrupt shift from describing the narrator's feelings to Mr. Vereker's appearance
+    - [CLARITY]:
+        • some sentences are long and convoluted, potentially causing confusion
+
+Section section_05 (Chars 15616–19476):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Missing article in some places
+    - [LEXICON]:
+        • Some words are less common or archaic
+    - [SYNTAX]:
+        • Long, complex sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • Some transitions between ideas feel abrupt
+    - [CLARITY]:
+        • The main point or "little trick" is not clearly explained
+    - [STRUCTURE]:
+        • The conversation jumps between topics without clear connections
+
+Section section_06 (Chars 19476–23228):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Missing or incorrect articles in some sentences
+    - [LEXICON]:
+        • Some words or phrases may be considered archaic or less common
+    - [SYNTAX]:
+        • Long, complex sentences that can be hard to follow
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt shifts in conversation topics
+    - [TRANSITION]:
+        • Sometimes unclear how the dialogue connects to the overall narrative
+    - [CLARITY]:
+        • Certain statements or intentions of characters are vague
+
+Section section_07 (Chars 23228–27090):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing article in some places
+    - [SPELLING]:
+        • "spend" instead of "spent"
+    - [SYNTAX]:
+        • some long and complex sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between scenes
+    - [STRUCTURE]:
+        • non-linear narrative
+    - [CLARITY]:
+        • some ambiguous sentences
+
+Section section_08 (Chars 27090–30895):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor punctuation issues
+    - [LEXICON]:
+        • some archaic vocabulary
+    - [SYNTAX]:
+        • occasional complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • slight ambiguity in character motivations
+    - [TRANSITION]:
+        • abrupt shift between some paragraphs
+    - [CLARITY]:
+        • minor confusion in dialogue attribution
+
+Section section_09 (Chars 30895–34824):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • "Do you mean they’re to was married?"
+        • "That may helped them"
+        • "The question would now absorbed them"
+        • "to was shared with the crowd"
+        • "to allowed her a little leisure"
+        • "persons whom you want, as the phrase is, to shook"
+    - [SPELLING]:
+        • "he had am free with me"
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt shift in narrative focus
+    - [TRANSITION]:
+        • Lack of clear connection between some paragraphs
+    - [CLARITY]:
+        • Unclear meaning in some sentences
+
+Section section_10 (Chars 34824–38699):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Missing or incorrect verb conjugations
+    - [SPELLING]:
+        • Typos (e.g., "woulded" instead of "would")
+    - [SYNTAX]:
+        • Complex sentence structures that may hinder readability
+    - [LEXICON]:
+        • Some words or phrases may be less common or unclear to general readers
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transitions between ideas or scenes
+    - [STRUCTURE]:
+        • Non-linear narrative that may confuse readers
+    - [CLARITY]:
+        • Some sentences or paragraphs lack clear resolution or connection to the main idea
+    - [TRANSITION]:
+        • Lack of smooth connections between different parts of the narrative
+
+Section section_11 (Chars 38699–42727):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Missing articles in some places
+    - [LEXICON]:
+        • Some words are less common or outdated
+    - [SYNTAX]:
+        • Long, complex sentences
+  Coherence Issues:
+    - [STRUCTURE]:
+        • Abrupt transition between paragraphs
+    - [CLARITY]:
+        • Some sentences are wordy or ambiguous
+    - [LOGIC]:
+        • Character motivations not fully explained
+
+Section section_12 (Chars 42727–46393):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [LEXICON]:
+        • some words are archaic or less common
+    - [SYNTAX]:
+        • complex sentence structures may hinder readability
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between ideas
+    - [STRUCTURE]:
+        • non-linear narrative flow
+    - [CLARITY]:
+        • some sentences are ambiguous or open to interpretation
+
+Section section_13 (Chars 46393–50137):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • "the change woulded do" should be "the change would"
+    - [SPELLING]:
+        • "secousse" is a rare or incorrect word, possibly meant to be "shock" or another term
+    - [LEXICON]:
+        • some phrases, like "the figure in the carpet came out", may be unclear without context
+  Coherence Issues:
+    - [LOGIC]:
+        • the narrative jumps abruptly between conversations and the narrator's thoughts
+    - [TRANSITION]:
+        • transitions between ideas and scenes could be smoother
+    - [CLARITY]:
+        • some sentences are long and convoluted, making them hard to follow
+
+Section section_14 (Chars 50137–53999):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [SYNTAX]:
+        • complex sentence structures
+    - [LEXICON]:
+        • some archaic vocabulary
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt shift in conversation topics
+    - [STRUCTURE]:
+        • non-linear narrative progression
+    - [CLARITY]:
+        • ambiguous character motivations
+
+Section section_15 (Chars 53999–58042):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Missing or incorrect verb conjugations
+    - [SYNTAX]:
+        • Complex sentence structures that hinder readability
+    - [LEXICON]:
+        • Some words are used in less common contexts
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transitions between ideas
+    - [STRUCTURE]:
+        • Non-linear narrative that can be confusing
+    - [CLARITY]:
+        • Some sentences are wordy or ambiguous
+
+Section section_16 (Chars 58042–62050):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing or incorrect verb tenses
+    - [LEXICON]:
+        • some words are archaic or less common
+    - [SYNTAX]:
+        • long, complex sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt shift from discussing the friend's literary work to his death
+    - [TRANSITION]:
+        • lack of clear connection between some paragraphs
+    - [CLARITY]:
+        • some sentences are wordy or ambiguous
+
+Section section_17 (Chars 62050–66045):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing article
+    - [SPELLING]:
+        • "form" instead of "from"
+    - [SYNTAX]:
+        • complex sentence structure
+    - [LEXICON]:
+        • uncommon vocabulary
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt shift in narrative focus
+    - [STRUCTURE]:
+        • non-linear progression of ideas
+    - [CLARITY]:
+        • ambiguous sentences
+    - [TRANSITION]:
+        • unclear connections between paragraphs
+
+Section section_18 (Chars 66045–69860):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb conjugation
+    - [SYNTAX]:
+        • complex sentence structures
+    - [LEXICON]:
+        • occasional unclear word choices
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between ideas
+    - [STRUCTURE]:
+        • non-linear narrative progression
+    - [CLARITY]:
+        • ambiguous character motivations
+
+Section section_19 (Chars 69860–73956):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • "he have" instead of "he has"
+    - [SPELLING]:
+        • "renannouncement" instead of "renunciation"
+        • "gaolers" instead of "jailers" (although "gaolers" is a valid British spelling, it may be less common)
+    - [SYNTAX]:
+        • Complex sentence structures may cause difficulty in reading
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt shift in narrative focus from the conversation to the narrator's thoughts
+    - [TRANSITION]:
+        • Lack of clear connection between some paragraphs
+    - [CLARITY]:
+        • Some sentences are wordy or ambiguous, making them hard to understand
+
+Section section_20 (Chars 73956–77903):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Complex sentence structures may hinder readability
+    - [LEXICON]:
+        • Some words and phrases are archaic or less common, potentially causing confusion
+    - [SYNTAX]:
+        • Long, winding sentences can make it difficult to follow the narrative
+  Coherence Issues:
+    - [LOGIC]:
+        • The narrator's train of thought can be hard to follow at times
+    - [STRUCTURE]:
+        • The text jumps between different ideas and scenes without clear transitions
+    - [CLARITY]:
+        • Some sections are vague or open to interpretation, affecting the overall coherence
+
+Section section_21 (Chars 77903–81745):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • incorrect verb tense usage
+    - [SPELLING]:
+        • minor typos (e.g., "took" instead of "taken")
+    - [SYNTAX]:
+        • awkward sentence structure in some places
+    - [LEXICON]:
+        • occasional word choice issues (e.g., "propitious" may be unfamiliar to some readers)
+  Coherence Issues:
+    - [LOGIC]:
+        • some abrupt transitions between ideas
+    - [STRUCTURE]:
+        • non-linear narrative may cause confusion
+    - [CLARITY]:
+        • unclear motivations of characters at times
+    - [TRANSITION]:
+        • abrupt shift in tone when Drayton Deane becomes enlightened
+
+Section section_22 (Chars 81746–83231):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Missing articles in some sentences
+    - [SYNTAX]:
+        • Complex sentence structures may hinder readability
+    - [LEXICON]:
+        • Some words may be less familiar to average readers
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between the narrator's apology and the anecdote of Vereker
+    - [CLARITY]:
+        • The narrator's intentions and emotions could be more explicitly stated
+    - [STRUCTURE]:
+        • The text jumps between different ideas and timelines
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

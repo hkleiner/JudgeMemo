@@ -1,0 +1,314 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) Read and understand the summary of the text the report was created for.
+    b) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    c) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The summary of the text to be evaluated is given below:
+Summary: The story begins with a quote from Emerson's "April" and introduces Anthony Croft, a blind violin maker who lives with his nephew Davy. Anthony is a skilled musician who can hear the secrets of the universe in the strings of his violin. He believes that the secret of everything beautiful, true, or terrible is hidden in the strings of his instrument. 
+
+Davy reads to Anthony from an old instruction book about Paganini's disastrous triumphs. Anthony is fascinated by the story and begins to play his violin, creating a beautiful and haunting melody. The music has a profound effect on Lyddy Ann Butterfield, a disfigured and lonely woman who lives nearby. 
+
+Lyddy has a tragic past, having been burned as a child, and has lived a life of solitude and loneliness. However, when she hears Anthony's music, she feels a sense of joy and connection that she has never experienced before. She begins to visit Anthony and Davy, helping with household chores and caring for Davy when he falls ill. 
+
+As Lyddy spends more time with Anthony, she finds herself opening up to him in ways she never thought possible. She is drawn to his kind and gentle nature, and he is touched by her beauty and strength. Despite their differences, they form a deep and meaningful connection. 
+
+Aunt Hitty Tarbox, a nosy and opinionated neighbor, notices the growing relationship between Anthony and Lyddy and begins to spread rumors and speculation. However, Anthony and Lyddy are oblivious to the gossip and continue to nurture their blossoming love. 
+
+As the story progresses, Anthony and Lyddy's relationship deepens, and they find comfort and solace in each other's company. Anthony proposes to Lyddy, and she accepts, despite her initial reservations about marrying a blind man. 
+
+The story concludes with Anthony and Lyddy sitting in their apple orchard, surrounded by the beauty of nature. Anthony is working on a new musical composition, using a unique system of wires and wooden pegs to create a staff. Lyddy is sewing a basket, symbolizing their hopes and dreams for the future. 
+
+Davy, who has been reading Shakespeare, is called upon to interpret Anthony's music, and he describes it as the song of the green things growing in the apple orchard. Lyddy adds that the music is a dream of the future, full of sweetness, promise, and hope. Anthony is touched by her words and kisses her, symbolizing their love and connection. 
+
+The story is a beautiful and poignant exploration of the human spirit, highlighting the transformative power of love, music, and connection. Despite the challenges and hardships that Anthony and Lyddy face, they find joy, comfort, and solace in each other's company, and their love becomes a source of strength and inspiration.
+
+The report for the text is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–7935):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense
+    - [SPELLING]:
+        • multiple typos (e.g. "tl" instead of "to", "disfinguished" instead of "extinguished", "rhe" instead of "the")
+    - [LEXICON]:
+        • some words are used in an outdated or uncommon way (e.g. "degraded" school, "jew's-harp")
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transition between the boy's reading and the description of Anthony Croft's past
+    - [CLARITY]:
+        • some sentences are wordy or unclear (e.g. the description of Anthony Croft's hands as "all eyes")
+    - [LOGIC]:
+        • the narrative jumps between different time periods and ideas without clear connections
+
+Section section_02 (Chars 7935–16060):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing or incorrect articles
+    - [SPELLING]:
+        • typos such as "tuat" instead of "that", "vhers" instead of "hers", "mire" instead of "more"
+    - [SYNTAX]:
+        • some sentences are wordy or awkwardly phrased
+    - [LEXICON]:
+        • occasional use of outdated or obscure vocabulary
+  Coherence Issues:
+    - [LOGIC]:
+        • some transitions between ideas or scenes feel abrupt
+    - [STRUCTURE]:
+        • the narrative jumps between different times and topics
+    - [CLARITY]:
+        • a few sentences or phrases are unclear or confusing
+
+Section section_03 (Chars 16060–23662):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "Viiliniat" instead of "Violinist"
+        • "sfrong" instead of "strong"
+        • "dajgerous" instead of "dangerous"
+        • "be ruinex" instead of "be ruined"
+        • "tuat" instead of "that"
+        • "Anyhony" instead of "Anthony"
+        • "pighter-clad" instead of "pitcher-clad" or correct term
+        • "Amxtis" instead of "Amati"
+        • "Guafnerius" instead of "Guadagnini"
+        • "wilkingly" instead of "willingly"
+        • "thecremainder" instead of "the remainder"
+        • "aaiting" instead of "awaiting"
+        • "wherewithal" instead of correct spelling or word choice
+        • "hxrdly" instead of "hardly"
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between quotes and narrative
+    - [STRUCTURE]:
+        • Disjointed presentation of Anthony's development
+    - [CLARITY]:
+        • Unclear connection between some paragraphs and the main story
+
+Section section_04 (Chars 23662–31890):
+Scores:
+  - Fluency: 2.5
+  - Coherence: 3.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • typos and incorrect words (e.g. "tpuch", "xfter", "rightnesz", "everyyhing", "thar", "ln", "ctoo", "aith", "cabined, cribbed, confined" is correctly used but other words are not)
+    - [GRAMMAR]:
+        • missing or incorrect articles, incorrect verb tenses
+    - [SYNTAX]:
+        • run-on sentences and sentences with unclear structure
+    - [LEXICON]:
+        • some words are used incorrectly or in inappropriate contexts
+  Coherence Issues:
+    - [LOGIC]:
+        • some sentences or paragraphs seem disconnected from the rest of the text
+    - [STRUCTURE]:
+        • the text jumps between different ideas and scenes without clear transitions
+    - [CLARITY]:
+        • some parts of the text are difficult to understand due to unclear or convoluted language
+    - [TRANSITION]:
+        • abrupt shifts between different narrative threads or ideas
+
+Section section_05 (Chars 31890–39850):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • wgich
+        • fascinatibg
+        • obluged
+        • choit
+        • keepihg
+        • skylark, accustomed yo warble
+        • atma
+        • weepers, drove Cyse Higgins’
+        • ij
+        • avbroad
+        • herclife
+        • whjle
+        • xs
+        • haven’t youcseen
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt shift from discussing funeral plans to Lyddy's backstory
+    - [TRANSITION]:
+        • lack of clear connection between some paragraphs
+    - [CLARITY]:
+        • some sentences are wordy or confusing
+
+Section section_06 (Chars 39850–47463):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • livkng instead of living
+        • xown instead of took
+        • sais instead of says
+        • oned instead of ones
+        • Indon't instead of I don't
+        • 'nother instead of another
+        • ekotion instead of emotion
+        • tekperament instead of temperament
+        • mysteriojs instead of mysterious
+        • gxtes instead of gates
+        • tye instead of the
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt shift from describing Aunt Hitty's thoughts to Lyddy's actions
+    - [STRUCTURE]:
+        • lack of clear transitions between paragraphs
+    - [CLARITY]:
+        • some sentences are wordy and hard to follow
+
+Section section_07 (Chars 47463–55179):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "jight" instead of "night"
+        • "firemon" instead of "fire on"
+        • "uer" instead of "her"
+        • "Qvpoet" instead of "Or poet"
+        • "ghe" instead of "the"
+        • "saidnLyddy" instead of "said Lyddy"
+        • "Lhddy" instead of "Lyddy"
+        • "ssy" instead of "say"
+        • "discigured" instead of "disfigured"
+        • "accisent" instead of "accident"
+    - [GRAMMAR]:
+        • inconsistent verb tenses
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between the poetic description and the narrative
+    - [STRUCTURE]:
+        • lack of clear connection between some paragraphs
+    - [CLARITY]:
+        • some sentences are wordy or unclear
+
+Section section_08 (Chars 55179–62796):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • numerous typos and spelling errors (e.g. "mkre", "nind", "tham", "lst", "exchse", "leasf", "yewterday", "hij")
+    - [GRAMMAR]:
+        • occasional grammatical errors and awkward phrasing
+    - [LEXICON]:
+        • some words are used incorrectly or in an outdated manner
+  Coherence Issues:
+    - [LOGIC]:
+        • some transitions between scenes or ideas feel abrupt
+    - [STRUCTURE]:
+        • the narrative jumps between different characters' thoughts and actions
+    - [CLARITY]:
+        • a few sentences are wordy or unclear
+
+Section section_09 (Chars 62796–70529):
+Scores:
+  - Fluency: 3.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "hs" instead of "he"
+        • "anx" instead of "and"
+        • "greenbthings" instead of "green things"
+        • "burden-beqring" instead of "burden-bearing"
+        • "sucb" instead of "such"
+        • "strdngth" instead of "strength"
+        • "hdr" instead of "her"
+        • "mind wasbbeyond" instead of "mind was beyond"
+        • "Ther" instead of "Thee"
+        • "fofty" instead of "fifty"
+        • "vive" instead of "give"
+        • "wefe" instead of "were"
+        • "fhan" instead of "than"
+        • "geasp" instead of "grasp"
+        • "Znthony" instead of "Anthony"
+        • "crystap" instead of "crystal"
+        • "eprings" instead of "springs"
+        • "ajd" instead of "and"
+        • "darknesa" instead of "darkness"
+        • "Lyddu's" instead of "Lyddy's"
+        • "nrighbour" instead of "neighbour"
+        • "Almira used to sing “Auld Robin Gray,” “What Will You Do, Love,” and “Robin Adair,”" is missing a closing quotation mark
+  Coherence Issues:
+    - [STRUCTURE]:
+        • Abrupt transition between Lyddy's prayer and the next scene
+    - [CLARITY]:
+        • Some sentences are wordy and hard to follow
+    - [LOGIC]:
+        • The narrative jumps between different characters' perspectives without clear connections
+
+Section section_10 (Chars 70529–77811):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [SPELLING]:
+        • multiple typos (e.g., "wn" instead of "an", "divinely tender passion" is correctly spelled but "wuich" is not)
+    - [LEXICON]:
+        • some words are used in an outdated or uncommon way (e.g., "awstensibly", "sweetmoffices")
+  Coherence Issues:
+    - [LOGIC]:
+        • some sentences are wordy and hard to follow
+    - [STRUCTURE]:
+        • abrupt transitions between scenes or ideas
+    - [CLARITY]:
+        • a few sentences are ambiguous or unclear
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

@@ -1,0 +1,430 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    b) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The report is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–3503):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor punctuation issues
+    - [LEXICON]:
+        • some archaic vocabulary
+    - [SYNTAX]:
+        • occasional complex sentence structures
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transition from reading to descriptive passage
+    - [CLARITY]:
+        • some sentences are wordy or contain unclear references
+
+Section section_02 (Chars 3503–7619):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Minor punctuation errors
+    - [LEXICON]:
+        • Some archaic vocabulary usage
+    - [SYNTAX]:
+        • Long, complex sentence structures
+  Coherence Issues:
+    - [STRUCTURE]:
+        • Abrupt transition between scenes
+    - [CLARITY]:
+        • Some sentences are wordy or unclear
+    - [LOGIC]:
+        • Slightly disconnected ideas between paragraphs
+
+Section section_03 (Chars 7619–11317):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Complex sentence structures
+    - [LEXICON]:
+        • Uncommon vocabulary (e.g. "congress" shoe, "gingham" shirt)
+    - [SYNTAX]:
+        • Long, winding sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt shift from describing Tony's childhood to his older age
+    - [STRUCTURE]:
+        • Non-linear narrative progression
+    - [CLARITY]:
+        • Some sentences are wordy and hard to follow
+
+Section section_04 (Chars 11317–15322):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Run-on sentences
+    - [SYNTAX]:
+        • Complex sentence structures
+    - [LEXICON]:
+        • Some archaic vocabulary
+  Coherence Issues:
+    - [STRUCTURE]:
+        • Abrupt transitions between scenes
+    - [CLARITY]:
+        • Some sentences are wordy or unclear
+    - [LOGIC]:
+        • Tony's age and abilities may be hard to follow
+
+Section section_05 (Chars 15322–19614):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Minor sentence structure complexity
+    - [LEXICON]:
+        • Some archaic vocabulary usage
+    - [SYNTAX]:
+        • Long sentences with multiple clauses
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between quotes and narrative
+    - [STRUCTURE]:
+        • Disjointed introduction of new ideas
+    - [CLARITY]:
+        • Overly descriptive passages
+
+Section section_06 (Chars 19614–23662):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor sentence complexity
+    - [LEXICON]:
+        • some archaic vocabulary
+    - [SYNTAX]:
+        • occasional long sentence structure
+  Coherence Issues:
+    - [LOGIC]:
+        • slight disconnect between Tony's skills and the teacher's statement
+    - [TRANSITION]:
+        • abrupt shift between descriptions of Tony's work and the poem
+    - [CLARITY]:
+        • occasional ambiguity in sentence meaning
+
+Section section_07 (Chars 23662–27821):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Run-on sentences and lack of punctuation
+    - [LEXICON]:
+        • Overly complex vocabulary and sentence structures
+    - [SYNTAX]:
+        • Awkward phrasing in certain sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between paragraphs
+    - [STRUCTURE]:
+        • Disjointed narrative flow
+    - [CLARITY]:
+        • Unclear connections between ideas
+
+Section section_08 (Chars 27821–31890):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Complex sentence structures may hinder readability
+    - [LEXICON]:
+        • Some archaic vocabulary and phrases (e.g., "cabined, cribbed, confined") might be unfamiliar to modern readers
+    - [SYNTAX]:
+        • Long, winding sentences with multiple clauses
+  Coherence Issues:
+    - [STRUCTURE]:
+        • Abrupt transitions between Aunt Hitty's thoughts and actions
+    - [CLARITY]:
+        • Some sentences are wordy or contain tangential information, potentially confusing the reader
+    - [LOGIC]:
+        • Aunt Hitty's character and motivations, while mostly clear, occasionally feel inconsistent or overly focused on a single trait (her love of funerals)
+
+Section section_09 (Chars 31890–35733):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Run-on sentences and lack of punctuation in some areas
+    - [LEXICON]:
+        • Some words and phrases may be unfamiliar to modern readers
+    - [SYNTAX]:
+        • Complex sentence structures can make reading difficult
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transitions between Aunt Hitty's thoughts and the narrative
+    - [STRUCTURE]:
+        • Non-linear storytelling can be confusing
+    - [CLARITY]:
+        • Some sentences are wordy or contain unclear references
+
+Section section_10 (Chars 35733–39850):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [LEXICON]:
+        • some archaic vocabulary
+    - [SYNTAX]:
+        • complex sentence structures
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transition between Lyddy's past and present
+    - [CLARITY]:
+        • some sentences are wordy and hard to follow
+    - [LOGIC]:
+        • unclear connection between some paragraphs
+
+Section section_11 (Chars 39850–43721):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor sentence complexity
+    - [LEXICON]:
+        • some archaic vocabulary
+    - [SYNTAX]:
+        • occasional long sentences
+  Coherence Issues:
+    - [STRUCTURE]:
+        • slight meandering in narrative
+    - [CLARITY]:
+        • occasional ambiguity in character intentions
+    - [TRANSITION]:
+        • smooth transitions but some abrupt shifts in perspective
+
+Section section_12 (Chars 43721–47463):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Some sentences are lengthy and convoluted
+    - [LEXICON]:
+        • Overly descriptive language may hinder smooth reading
+    - [SYNTAX]:
+        • Complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transitions between ideas
+    - [STRUCTURE]:
+        • Non-linear narrative progression
+    - [CLARITY]:
+        • Some sentences are ambiguous or hard to follow
+
+Section section_13 (Chars 47463–51475):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Minor punctuation errors
+    - [LEXICON]:
+        • Some archaic word choices
+    - [SYNTAX]:
+        • A few long, winding sentences
+  Coherence Issues:
+    - [STRUCTURE]:
+        • Abrupt transition between poetic quotes and narrative
+    - [CLARITY]:
+        • Some unclear character motivations
+    - [TRANSITION]:
+        • Disjointed shift from Lyddy's reveries to the scene with the hen turkey
+
+Section section_14 (Chars 51475–55179):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor sentence structure variations
+    - [LEXICON]:
+        • some word choices may be less common or slightly archaic
+    - [SYNTAX]:
+        • occasional long sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • slight jump in narrative focus when introducing the boy's voice
+    - [TRANSITION]:
+        • minor disconnect between some dialogue segments and the surrounding narrative
+
+Section section_15 (Chars 55179–59017):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor sentence structure complexity
+    - [LEXICON]:
+        • some outdated vocabulary usage
+    - [SYNTAX]:
+        • occasional long sentence lengths
+  Coherence Issues:
+    - [LOGIC]:
+        • slight abruptness in scene transitions
+    - [STRUCTURE]:
+        • minor inconsistencies in narrative flow
+    - [CLARITY]:
+        • occasional ambiguity in character intentions
+
+Section section_16 (Chars 59017–62796):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Minor punctuation issues
+    - [LEXICON]:
+        • Some sentences are wordy or overly descriptive
+    - [SYNTAX]:
+        • A few instances of complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • Some abrupt transitions between ideas
+    - [STRUCTURE]:
+        • The narrative jumps between Anthony's thoughts and actions
+    - [CLARITY]:
+        • A few unclear references to characters' past experiences
+
+Section section_17 (Chars 62796–66917):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • None notable
+    - [LEXICON]:
+        • Some archaic vocabulary
+    - [SYNTAX]:
+        • Complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition to prayer
+    - [STRUCTURE]:
+        • Sudden shift in narrative tone
+    - [CLARITY]:
+        • Some sentences are wordy and hard to follow
+
+Section section_18 (Chars 66917–70757):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • occasional use of outdated or poetic language
+    - [LEXICON]:
+        • some words may be unfamiliar to modern readers
+    - [SYNTAX]:
+        • complex sentence structures
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transition between descriptive passages and dialogue
+    - [CLARITY]:
+        • some sentences are wordy or contain multiple ideas
+    - [TRANSITION]:
+        • occasional lack of clear connections between paragraphs
+
+Section section_19 (Chars 70758–74587):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • informal language and dialect usage
+    - [SPELLING]:
+        • use of colloquial spellings (e.g., "consid'able", "awstensibly")
+    - [LEXICON]:
+        • occasional archaic vocabulary
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt shift in narrative tone and style
+    - [TRANSITION]:
+        • some paragraphs lack smooth connections to the next
+
+Section section_20 (Chars 74587–77811):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.5
+Issues:
+  Fluency Issues:
+    - [SYNTAX]:
+        • Complex sentence structures
+    - [LEXICON]:
+        • Some archaic vocabulary
+  Coherence Issues:
+    - [TRANSITION]:
+        • Abrupt shift from describing the music to Davy reading
+    - [CLARITY]:
+        • Some poetic descriptions may be unclear to all readers
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

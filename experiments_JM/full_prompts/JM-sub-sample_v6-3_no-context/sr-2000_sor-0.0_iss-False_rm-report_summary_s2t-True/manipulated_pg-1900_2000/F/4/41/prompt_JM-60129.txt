@@ -1,0 +1,102 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) Read and understand the summary of the text the report was created for.
+    b) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    c) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The summary of the text to be evaluated is given below:
+Summary: The expedition began on December 13th, 1907, in the Chinese town of Chin-t'a, and headed southeast into the Gobi Desert. The team passed through a temple with a conical tower and over the ruins of a wall that once enclosed the oasis. They then entered a sandy and sterile stretch of ground, dotted with Chinese tombstones, and eventually reached a low chain of hills. The only vegetation in sight was some insignificant creeping brush and reeds. 
+
+As they continued, they encountered a typical porous soil with a strong salty deposit, which extended as far as the eye could see. The team crossed the great high road that connects K'ou-li and K'ou-wai and soon arrived at the Yögur village of Ma-chuang-tzu. The villagers, who called themselves Sarö Yögurs, wore a strange costume that the author had never seen before. 
+
+The women were busy in the yard, and the eldest, a dignified woman with a Roman nose, offered the team tea and proudly declared their name, Sarö Yögurs. However, when the author brought out his camera, the atmosphere changed, and the women became uncooperative. The team then continued to the village temple, where they were greeted by the Chinese officer in command, who arranged for their accommodations.
+
+The temple was small and poor, with three large paintings on the principal wall, and the lamas were initially surprised by the team's arrival. However, they soon became hospitable and talkative. The villagers, who were about forty houses spread over a wide area, called themselves Sarö Yögurs, while the Chinese referred to them as Huang Fantzu, or "yellow barbarians." 
+
+According to legend, the Sarö Yögurs' forefathers came from a city called Shiche-Hache, which was located forty-five days' march to the west or southwest. The city was said to be surrounded by high mountains and had a temple with many excavated caves. The Sarö Yögurs had moved to their present dwelling places over a thousand years ago, and some had settled in the mountains, while others had settled on the plain.
+
+The team learned that the Sarö Yögurs paid a yearly tax of thirteen horses to the Chinese government, which was collected by the brigadier-general in Hsuchow. The villagers' houses were fairly clean and built in Chinese style, with a traditional Chinese sleeping stove and a Buddhist altar. The household utensils were mostly of Chinese origin, with some Mongolian wooden cups.
+
+The Sarö Yögurs' clothes were cut in Chinese fashion but made of home-spun material, and they wore a Chinese cap or a Mongolian felt cap. The women's head dresses were peculiar, with long strips of cloth decorated with coral and glass beads, and a large metal ornament with a tassel. The Sarö Yögurs had no holiday attire and only bought new clothes when the old ones were falling apart.
+
+The team observed that the men were usually at home, while the women were busy outdoors, looking after cattle and carrying water. The Sarö Yögurs had no handicrafts or home industries, except for weaving, basket-making, and knitting stockings. The women wove cloth in long narrow strips, which resembled the work of Khirgis women, and the men performed the basket-making and knitting. The cloth was sold in Hsuchow and Kanchow for a relatively low price. Overall, the Sarö Yögurs seemed to be a poor and primitive people, with limited resources and a simple way of life.
+
+The report for the text is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–8188):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing or incorrect articles
+    - [SPELLING]:
+        • typos (e.g. "behjnd", "andnwe", "rexembled", "kilometrds", "plauns", "dwellingcplaces", "tribebhad")
+    - [SYNTAX]:
+        • long, convoluted sentences
+    - [LEXICON]:
+        • uncommon vocabulary (e.g. "gnarled", "innumerable", "Khirgis", "Sarts")
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between ideas
+    - [STRUCTURE]:
+        • lack of clear paragraph structure
+    - [CLARITY]:
+        • unclear or confusing descriptions (e.g. geographical locations)
+    - [TRANSITION]:
+        • insufficient connections between sentences
+
+Section section_02 (Chars 8188–12747):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • multiple typos (e.g., "slesping", "thebdoor", "Buddhkst", "whige", "againsy", "abMongolian", "bt", "rints", "metalvornament", "rhis")
+    - [GRAMMAR]:
+        • missing or incorrect articles
+    - [LEXICON]:
+        • inconsistent vocabulary usage
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transitions between paragraphs
+    - [CLARITY]:
+        • some sentences are wordy or unclear
+    - [LOGIC]:
+        • occasional lack of logical connection between ideas
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

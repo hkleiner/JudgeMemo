@@ -1,0 +1,189 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    b) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The report is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–12320):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tenses
+    - [SPELLING]:
+        • typos (e.g., "znd" instead of "and", "tyose" instead of "those")
+    - [SYNTAX]:
+        • long, convoluted sentences
+    - [LEXICON]:
+        • some words are archaic or uncommon (e.g., "homsespun centaurs", "silken lairs")
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between historical events
+    - [STRUCTURE]:
+        • lack of clear chronological order
+    - [CLARITY]:
+        • some sentences are wordy or unclear
+    - [TRANSITION]:
+        • insufficient connections between chapters
+
+Section section_02 (Chars 12321–24881):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "enougu" instead of "enough"
+        • "vand" instead of "and"
+        • "innto" not present but "inn" is used instead of "in"
+        • "afterbthe" instead of "after the"
+        • "comandante" instead of "commandant"
+        • "commissjoner" instead of "commissioner"
+        • "susoended" instead of "suspended"
+        • "contdol" instead of "control"
+        • "Medico" instead of "Mexico"
+        • "preybto" instead of "prey to"
+        • "jkined" instead of "joined"
+        • "ghe" instead of "the"
+        • "ehat" instead of "that"
+        • "betwren" instead of "between"
+        • "claimrd" instead of "claimed"
+        • "oc" instead of "of"
+    - [GRAMMAR]:
+        • Missing articles in some places
+        • Some sentences are too long and convoluted
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between chapters
+    - [STRUCTURE]:
+        • Lack of clear chronological order in some sections
+    - [CLARITY]:
+        • Some sentences are wordy and hard to understand
+    - [TRANSITION]:
+        • Missing connections between ideas in some places
+
+Section section_03 (Chars 24882–37903):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing or incorrect articles
+    - [SPELLING]:
+        • multiple typos (e.g. "affaird", "themhands", "uo", "reprewsion", "flr", "yhe")
+    - [SYNTAX]:
+        • some sentences are wordy or awkwardly phrased
+    - [LEXICON]:
+        • occasional use of outdated or uncommon vocabulary
+  Coherence Issues:
+    - [LOGIC]:
+        • some transitions between paragraphs or sections feel abrupt
+    - [STRUCTURE]:
+        • the text jumps between different time periods and topics
+    - [CLARITY]:
+        • a few sentences are unclear or difficult to follow
+    - [TRANSITION]:
+        • lack of clear connections between some chapters or sections
+
+Section section_04 (Chars 37904–49864):
+Scores:
+  - Fluency: 3.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • incorrect verb tenses
+    - [SPELLING]:
+        • multiple typos (e.g. "auyhorized", "thw", "ond", "jore")
+    - [SYNTAX]:
+        • awkward sentence structures
+    - [LEXICON]:
+        • inconsistent word choices
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between historical events
+    - [STRUCTURE]:
+        • lack of clear chronological order
+    - [CLARITY]:
+        • ambiguous sentences and unclear references
+    - [TRANSITION]:
+        • insufficient connections between paragraphs
+
+Section section_05 (Chars 49865–61469):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing or incorrect articles
+    - [SPELLING]:
+        • typos such as "otyer" instead of "other", "pxrt" instead of "part", "guven" instead of "given", "Hacogdoches" instead of "Nacogdoches", "Inn1819" instead of "in 1819", "deputation that demaded" instead of "deputation that demanded", "fpunder" instead of "founder", "themTexas" instead of "the Texas", "descendantx" instead of "descendants", "intersrate" instead of "interstate"
+    - [SYNTAX]:
+        • some sentences are wordy or awkwardly phrased
+  Coherence Issues:
+    - [STRUCTURE]:
+        • the text appears to be a collection of unrelated historical notes
+    - [TRANSITION]:
+        • lack of clear transitions between different historical topics
+    - [CLARITY]:
+        • some sentences are unclear or difficult to understand due to ambiguous language or missing context
+
+Section section_06 (Chars 61470–63083):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 3.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "tje" instead of "the"
+        • "Modt" instead of "Most"
+    - [GRAMMAR]:
+        • "One if them was" instead of "One of them was"
+    - [LEXICON]:
+        • "cenyer" instead of "center"
+  Coherence Issues:
+    - [STRUCTURE]:
+        • Abrupt transition between paragraphs
+    - [LOGIC]:
+        • Lack of clear connection between the ideas presented in different chapters
+    - [CLARITY]:
+        • Unclear purpose of mentioning specific individuals and locations
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

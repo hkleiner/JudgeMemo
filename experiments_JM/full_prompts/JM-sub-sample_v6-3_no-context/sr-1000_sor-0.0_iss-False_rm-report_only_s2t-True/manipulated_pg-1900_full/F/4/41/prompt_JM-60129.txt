@@ -1,0 +1,531 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    b) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The report is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–4151):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • multiple typos (e.g. "bwhind", "wymmetrical", "whidh", "og", "knplls", "mountxins", "ol")
+    - [GRAMMAR]:
+        • missing or incorrect articles
+    - [LEXICON]:
+        • uncommon vocabulary (e.g. "Sarö Yögurs", "palao")
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transition from describing the landscape to encountering the Yögur village
+    - [CLARITY]:
+        • some sentences are long and convoluted, making them hard to follow
+
+Section section_02 (Chars 4151–8188):
+Scores:
+  - Fluency: 3.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • inyrusion
+        • thevfirst
+        • wesy
+        • thsy
+        • valled
+        • wdst
+        • preaent
+        • aboutvthirty
+        • hisrory
+        • takej
+        • smoky
+        • bujlt
+        • rooks
+        • avout
+        • tye
+        • beatiful
+        • pykh
+    - [GRAMMAR]:
+        • sentence structure
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between paragraphs
+    - [STRUCTURE]:
+        • lack of clear connections between ideas
+    - [CLARITY]:
+        • unclear explanations of cultural and historical context
+    - [TRANSITION]:
+        • missing links between different parts of the text
+
+Section section_03 (Chars 8188–12317):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • missing or incorrect letters (e.g., "consideredcpoor", "witb", "bortoms", "certaij", "replqce")
+    - [GRAMMAR]:
+        • minor punctuation and syntax issues
+    - [LEXICON]:
+        • some words may be unfamiliar to non-expert readers
+  Coherence Issues:
+    - [STRUCTURE]:
+        • transitions between paragraphs could be smoother
+    - [CLARITY]:
+        • some sentences are long and convoluted
+    - [LOGIC]:
+        • occasional abrupt shifts in topic or focus
+
+Section section_04 (Chars 12318–16504):
+Scores:
+  - Fluency: 3.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • yaed instead of yard
+        • ch'ih instead of chi
+        • tshokh instead of chokh
+        • lan instead of possibly a unit of currency or measurement
+        • r instead of possibly a unit of currency or measurement
+        • kop instead of possibly a unit of currency or measurement
+        • specialpy instead of specially
+        • bjt instead of but
+        • oor instead of possibly a word in a local language
+        • sovoften instead of so often
+        • saje instead of same
+        • neighhouring instead of neighbouring
+        • antediluvian instead of possibly a correct word but out of context
+        • ix instead of is
+        • craniometer instead of possibly a correct word but out of context
+        • boldest instead of boldest or possibly a typo
+        • promjnent instead of prominent
+        • pval instead of possibly a typo or incorrect word
+    - [GRAMMAR]:
+        • missing articles
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between discussing economic conditions and lack of energy among the people
+    - [STRUCTURE]:
+        • lack of clear organization or introduction to new topics
+    - [CLARITY]:
+        • unclear or missing context for certain terms or concepts
+    - [TRANSITION]:
+        • abrupt shift from discussing the people's lifestyle to describing their physical appearance
+
+Section section_05 (Chars 16505–20560):
+Scores:
+  - Fluency: 3.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "manh" instead of "many"
+        • "potatow-noses" instead of "potato-noses"
+        • "tshokh" unclear term
+        • "oplortunity" instead of "opportunity"
+        • "witjout" instead of "without"
+        • "cneither" instead of "neither"
+        • "stepfatuer" instead of "stepfather"
+        • "nother" instead of "mother"
+    - [GRAMMAR]:
+        • "the little I was able to note, follows here" awkward phrasing
+        • "the bride and bridegroom are not allowed to see each other before marriage" sentence seems out of place
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transition between descriptions of physical appearance and customs
+    - [CLARITY]:
+        • unclear term "tshokh"
+    - [LOGIC]:
+        • inconsistent description of marriage customs
+    - [TRANSITION]:
+        • lack of smooth transition between paragraphs
+
+Section section_06 (Chars 20560–22806):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Missing articles
+    - [SPELLING]:
+        • "martiage" instead of "marriage"
+        • "in case ofvserious" instead of "in case of serious"
+        • "oama" instead of "lama"
+        • "fhe" instead of "the"
+    - [SYNTAX]:
+        • Sentence structure could be improved for clarity
+  Coherence Issues:
+    - [STRUCTURE]:
+        • Abrupt transition between topics
+    - [CLARITY]:
+        • Lack of clear connections between ideas
+    - [LOGIC]:
+        • Some sentences seem disconnected from the rest of the text
+
+Section section_07 (Chars 22806–26305):
+Scores:
+  - Fluency: 3.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • incorrect verb tenses
+    - [SPELLING]:
+        • typos (e.g. "whixh" instead of "which", "ojly" instead of "only", "habing" instead of "having", "fhe" instead of "the", "biggwr" instead of "bigger", "thab" instead of "than", "commqnding" instead of "commanding")
+    - [LEXICON]:
+        • uncommon vocabulary (e.g. "pecuniary", "hygienic", "Nanshan")
+    - [SYNTAX]:
+        • long, convoluted sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between statistical data and narrative
+    - [STRUCTURE]:
+        • lack of clear connection between ideas
+    - [CLARITY]:
+        • unclear meaning in some sentences
+
+Section section_08 (Chars 26306–30382):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • livihg instead of living
+        • conple instead of couple
+        • cayse instead of cause
+        • tye instead of the
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transition between describing the Yögur tribe and starting a new journey
+    - [CLARITY]:
+        • unclear expectations and arrangements with the military escort
+
+Section section_09 (Chars 30383–34493):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • considerzble
+        • telple
+        • abd
+        • gilded Buddha roof-decorations withcthe
+        • kn
+        • derp
+        • weapthy
+        • belobging
+        • visitrd
+    - [GRAMMAR]:
+        • your eye was caught at once by a temple-like building, which is used by the monastery, and a couple of rather more capacious houses
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transition from describing the landscape to describing the monastery
+    - [CLARITY]:
+        • unclear purpose of the guardhouse and its relation to the rest of the narrative
+    - [TRANSITION]:
+        • lack of smooth connection between the description of the road and the arrival at the destination
+
+Section section_10 (Chars 34494–38535):
+Scores:
+  - Fluency: 2.5
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "wad" instead of "was"
+        • "rzn" instead of "run"
+        • "towardw" instead of "towards"
+        • "tje" instead of "the"
+        • "hznging" instead of "hanging"
+        • "codnice" instead of "cornice"
+        • "fout" instead of "four"
+        • "extrekely" instead of "extremely"
+    - [GRAMMAR]:
+        • inconsistent verb tenses
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transitions between descriptions of different parts of the temple
+    - [CLARITY]:
+        • unclear relationships between some of the described elements
+    - [LOGIC]:
+        • some sentences seem out of place or disconnected from the rest of the text
+
+Section section_11 (Chars 38536–42520):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • dicr instead of dice
+        • vaun instead of vain
+        • trmpting instead of trumpeting
+        • norfhern instead of northern
+        • magainst instead of against
+        • weaeing instead of wearing
+        • vaces instead of faces
+        • tising instead of rising
+        • wre instead of we
+        • higy instead of high
+        • distamce instead of distance
+    - [GRAMMAR]:
+        • sentence structure is sometimes awkward
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transition between descriptions of the monastery and the journey
+    - [CLARITY]:
+        • some sentences are wordy and hard to follow
+    - [TRANSITION]:
+        • lack of clear connection between the description of the lamas and the departure from the monastery
+
+Section section_12 (Chars 42521–46236):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "dowb" instead of "down"
+        • "bujlding" instead of "building"
+        • "sijply" instead of "simply"
+        • "thengables" instead of "gables"
+        • "lebied" instead of "levied"
+        • "t'idu" unclear or possibly misspelled
+        • "thirry" instead of "thirty"
+        • "lan" unclear or possibly misspelled without context
+    - [GRAMMAR]:
+        • missing articles in several places
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transition between geographical description and discussion of the t'umu's dwelling
+    - [CLARITY]:
+        • unclear or missing context for some terms and names (e.g., "Hei-ho", "Shera Yögurs", "ta t'umu")
+    - [LOGIC]:
+        • lack of clear connection between the description of the t'umu's role and the discussion of the Dungan revolt
+
+Section section_13 (Chars 46237–50228):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing articles
+    - [SPELLING]:
+        • typos (e.g. "theor" instead of "their", "whej" instead of "when", "fortjnate" instead of "fortunate", "br" instead of "be")
+    - [LEXICON]:
+        • uncommon vocabulary (e.g. "t'umu", "t'idu", "Seche-Hache")
+  Coherence Issues:
+    - [LOGIC]:
+        • inconsistent information about the tribe's origin
+    - [STRUCTURE]:
+        • abrupt transitions between different topics (e.g. from coal-shafts to the tribe's origin)
+    - [CLARITY]:
+        • unclear sentences due to complex syntax
+
+Section section_14 (Chars 50229–53565):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Missing or incorrect articles
+    - [SPELLING]:
+        • Typos such as "tbem", "tnat", "Rhe"
+    - [LEXICON]:
+        • Unfamiliar terms without explanation
+    - [SYNTAX]:
+        • Complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transitions between topics
+    - [STRUCTURE]:
+        • Lack of clear sectioning or headings
+    - [CLARITY]:
+        • Unclear relationships between different groups mentioned
+    - [TRANSITION]:
+        • Sudden changes in subject matter without connection
+
+Section section_15 (Chars 53566–57841):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "marrg" instead of "marry"
+        • "chipdren" instead of "children"
+        • "bdst" instead of "best"
+        • "min" instead of "in"
+        • "compxny" instead of "company"
+        • "msat" instead of "meat"
+    - [GRAMMAR]:
+        • inconsistent verb tenses
+    - [SYNTAX]:
+        • some sentences are wordy or awkwardly phrased
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transitions between ideas
+    - [CLARITY]:
+        • some sentences are unclear or confusing
+    - [LOGIC]:
+        • inconsistent or unclear explanations of customs
+
+Section section_16 (Chars 57842–62049):
+Scores:
+  - Fluency: 3.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "rubbdd" instead of "rubbed"
+        • "tare" instead of "rare"
+        • "superstituon" instead of "superstition"
+        • "vanother" instead of "another"
+        • "thw" instead of "the"
+        • "thougn" instead of "though"
+        • "nosev" instead of "nose"
+        • "bymthe" instead of "by the"
+        • "yhere" instead of "there"
+    - [GRAMMAR]:
+        • inconsistent verb tenses
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transition between describing childbirth customs and physical characteristics of the Shera Yögurs
+    - [CLARITY]:
+        • some sentences are wordy and difficult to follow
+    - [LOGIC]:
+        • lack of clear connections between ideas in some paragraphs
+
+Section section_17 (Chars 62050–66091):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "vlue" instead of "blue"
+        • "asca" instead of "as a"
+        • "edgijg" instead of "edging"
+        • "mthe" instead of "the"
+        • "numbersvof" instead of "numbers of"
+        • "wintdr" instead of "winter"
+        • "tp" instead of "to"
+    - [GRAMMAR]:
+        • missing articles in several places
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transition between descriptions of clothing and domestic appliances
+    - [CLARITY]:
+        • unclear sentence structure in some places
+    - [LOGIC]:
+        • lack of clear connection between some ideas
+
+Section section_18 (Chars 66091–70132):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "anmindescribably" instead of "indescribably"
+        • "coquettish, rakish hars" instead of "coquettish, rakish hats"
+        • "comfortxble" instead of "comfortable"
+        • "tbree" instead of "three"
+        • "tge" instead of "the"
+        • "foundatioh" instead of "foundation"
+        • "woolncovered" instead of "woolen-covered"
+    - [GRAMMAR]:
+        • "butmall" instead of "but all"
+        • "runniny" instead of "running"
+  Coherence Issues:
+    - [STRUCTURE]:
+        • Abrupt transition between descriptions of daily life and tent structure
+    - [CLARITY]:
+        • Unclear connection between the Yögurs' lifestyle and their cultural practices
+
+Section section_19 (Chars 70133–74179):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • varied spelling mistakes (e.g. "cowvby", "percebtage", "mobeable", "foubd", "aize", "lopp")
+    - [GRAMMAR]:
+        • missing or incorrect articles
+    - [LEXICON]:
+        • uncommon vocabulary (e.g. "kekliks", "t'umu", "tschuavá", "sujá")
+    - [SYNTAX]:
+        • some sentences are wordy or awkwardly phrased
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transitions between topics
+    - [CLARITY]:
+        • some sentences are unclear or confusing
+    - [LOGIC]:
+        • occasional lack of logical connection between ideas
+
+Section section_20 (Chars 74179–77386):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing or incorrect articles
+    - [SPELLING]:
+        • typos (e.g. "boyh" instead of "both", "backgdound" instead of "background", "oies" instead of "lies", "ebcircled" instead of "encircled", "Pltanin" instead of "Potanin", "discribed" instead of "described", "ligtle" instead of "little")
+    - [LEXICON]:
+        • uncommon vocabulary (e.g. "t'umu", "Mör-gol", "Kluadjek-gol", "Talipin-gol", "Lansor's", "Neiman-gol", "doukey", "Yögur")
+    - [SYNTAX]:
+        • long, complex sentences
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transitions between descriptions of different locations
+    - [CLARITY]:
+        • unclear connections between ideas
+    - [LOGIC]:
+        • some sentences seem out of place or unnecessary
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

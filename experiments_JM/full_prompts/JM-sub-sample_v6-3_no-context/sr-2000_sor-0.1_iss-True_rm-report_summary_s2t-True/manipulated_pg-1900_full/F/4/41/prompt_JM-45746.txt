@@ -1,0 +1,276 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) Read and understand the summary of the text the report was created for.
+    b) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    c) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The summary of the text to be evaluated is given below:
+Summary: The author reflects on their journey to becoming a schoolmaster, starting with their college days when they didn't consider teaching as a career. However, after graduation, they found themselves unprepared for a definite position and decided to become a teacher to save their pride. The author notes that many young men and women enter the educational field without considering the type of work they are best fitted to do, leading to a large percentage of teacher failures.
+
+To succeed as a teacher, one needs a pleasing yet forceful personality, good preparation, and experience. The author emphasizes the importance of making a good personal impression, being desirous of making a difference, and being open to learning and growth. They also stress the need for self-examination and study to realize one's strengths and limitations.
+
+The author shares their experience of attending county, sectional, state, and national teachers' meetings to become acquainted with current school problems and educational leaders. They decided to secure the superintendency of schools in a small town, which they believed was the proper educational step for them.
+
+As a superintendent, the author found it profitable to hold sectional meetings for teachers to discuss specific topics and improve the course of study and methods of work. They also believe in the importance of personal talks with teachers to learn about their work and difficulties. The author notes that school boards have not always purchased everything they requested, but having faith in the superintendent and feeling that they know what they want can make a significant difference.
+
+The author discusses the role of the janitor in the school, emphasizing the importance of treating them well and making them feel like part of the team. They share an experience where they worked with a janitor to clean and organize the school building, which led to a positive change in the janitor's attitude and cooperation.
+
+The author also explores the relationship between the principal and the teacher, highlighting the need for the principal to provide professional leadership, administrative support, and personal relationships. They discuss the importance of assisting teachers with exceptional children, interpreting the course of study, and providing definite directions and supplies.
+
+Furthermore, the author touches on the topic of school activities, noting that they can be beneficial but also require proper direction and management. They quote a report from a Seattle high school principal, which emphasizes the importance of extra-curricular activities in developing school pride, socializing the institution, and discovering latent talents.
+
+Finally, the author discusses the relationship between the school and the community, emphasizing the need for the school to adjust to the changing needs of the community and provide vocational guidance to students. They share examples of how schools can provide special courses of study and club organizations to help students learn about different vocations and make informed decisions about their future. The author concludes that the schoolmaster of tomorrow must realize that there is much good in the education of the past, but also be willing to make readjustments to meet the changing conditions in social and industrial life.
+
+The report for the text is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–8908):
+Section Summary: The author recounts how they became a teacher by chance, without a clear aspiration or preparation, which was a common experience among their college peers. The author then contrasts the stories of two young men who entered the teaching profession: one who was unprepared and uninterested, and another who was enthusiastic and dedicated to making a positive impact on his students. The second young man's commitment to creating a comfortable and attractive learning environment ultimately led to his success and advancement in the field. The author emphasizes the importance of personality, preparation, and experience in a teacher's success, with personality being a key factor in inspiring and motivating students. By sharing these experiences, the author highlights the difference between treating teaching as a job versus a profession.
+Scores:
+  - Fluency: 3.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • incorrect verb tense usage
+    - [SPELLING]:
+        • multiple spelling errors (e.g. "arrivef", "ckllege", "doybtful", "simular", "unprepaeed", "hs")
+    - [SYNTAX]:
+        • awkward sentence structure
+    - [LEXICON]:
+        • inconsistent word choice
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between ideas
+    - [STRUCTURE]:
+        • lack of clear progression in some sections
+    - [CLARITY]:
+        • unclear explanations or descriptions
+    - [TRANSITION]:
+        • insufficient connections between paragraphs
+
+Section section_02 (Chars 8908–18187):
+Section Summary: A teacher should make a good impression, be well-educated, and specialize in their chosen field while continuing to broaden their general education. To be considered for a position, teachers should be careful when filling out application blanks and choose responsible references who can speak to their qualifications. A superintendent is more likely to understand a teacher's motives for applying elsewhere if they have been interviewed and are willing to assist them in professional development. Before starting a new position, it's essential to get acquainted with the school situation, meet with the board and community, and prepare for the upcoming school year. By doing so, a superintendent can enter their new role with minimal friction and make informed decisions to benefit the school and its students.
+Scores:
+  - Fluency: 2.5
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "desirousnof" instead of "desirous of"
+        • "counger" instead of "couch"
+        • "suitably" is correct, but "social function" and "business call" could be rephrased for better clarity
+        • "requisites" is correct, but "dress sense" could be rephrased for better clarity
+        • "specializing" is correct, but "fragmentary educational foundation" could be rephrased for better clarity
+        • "broadening" is correct, but "narrowinh" instead of "narrowing"
+        • "obyaining" instead of "obtaining"
+        • "begter" instead of "better"
+        • "not longvago" instead of "not long ago"
+        • "azked" instead of "asked"
+        • "hkm" instead of "him"
+        • "needcof" instead of "need of"
+        • "ge condisered" instead of "be considered"
+        • "eeucational" instead of "educational"
+        • "eeceived" instead of "received"
+        • "atudy" instead of "study"
+        • "chanjels" instead of "channels"
+        • "coveted positoon" instead of "coveted position"
+        • "suoerintendent" instead of "superintendent"
+        • "wasmturned" instead of "was turned"
+        • "ib" instead of "in"
+        • "mitht" instead of "might"
+        • "atgended" instead of "attended"
+        • "pqper" instead of "paper"
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between paragraphs
+    - [STRUCTURE]:
+        • Lack of clear connections between ideas
+    - [CLARITY]:
+        • Some sentences are wordy or unclear
+
+Section section_03 (Chars 18188–27281):
+Section Summary: The author prepared thoroughly for the new school year, which proved to be beneficial. As a superintendent, they found that holding regular sectional meetings with teachers to discuss specific topics and provide tangible assistance was profitable. The author also emphasized the importance of personal talks with teachers to understand their challenges and provide support. In contrast, a superintendent who focused on outlining detailed expectations at the first meeting failed to secure teacher cooperation and was eventually asked to resign. The author's approach to reporting to the school board, providing a concise and informative report, also helped establish a positive relationship and led to an extension of their authority.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing or incorrect articles
+    - [SPELLING]:
+        • typos such as "teaxhers" instead of "teachers"
+    - [SYNTAX]:
+        • some sentences are wordy or awkwardly phrased
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between topics
+    - [STRUCTURE]:
+        • lack of clear connections between paragraphs
+    - [CLARITY]:
+        • some sentences are unclear or confusing
+
+Section section_04 (Chars 27282–36663):
+Section Summary: The author, a superintendent, shares his experiences in working with school boards and implementing changes in the school system. He emphasizes the importance of careful planning, clear communication, and building trust with the board to achieve success. The author also highlights the value of student activities, such as athletic associations and literary societies, in promoting student engagement and community involvement. By providing guidance and supervision, these activities can have a positive impact on the school and its students. Overall, the author stresses the need for effective leadership and responsible management of school activities to ensure their success and benefit to the school community.
+Scores:
+  - Fluency: 3.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "supppies" instead of "supplies"
+        • "partial paymeny" instead of "partial payment"
+        • "ajmeducator" instead of "an educator"
+        • "tbeir" instead of "their"
+        • "kur" instead of "our"
+        • "neughboring" instead of "neighboring"
+        • "manuql" instead of "manual"
+        • "buildingn" instead of "building"
+        • "similae" instead of "similar"
+        • "whxt" instead of "what"
+        • "lfgen" instead of "often"
+        • "coule" instead of "could"
+        • "Myvexperience" instead of "My experience"
+        • "toans" instead of "towns"
+        • "bicinity" instead of "vicinity"
+        • "pupkls" instead of "pupils"
+        • "sufficient money aas" instead of "sufficient money was"
+        • "ofydn" instead of "often"
+        • "bhilding" instead of "building"
+        • "woulr" instead of "would"
+        • "Aftdr" instead of "After"
+        • "oiterary" instead of "literary"
+        • "mthe" instead of "the"
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between paragraphs
+    - [STRUCTURE]:
+        • Lack of clear connections between ideas
+    - [CLARITY]:
+        • Unclear sentences and phrases
+
+Section section_05 (Chars 36664–45979):
+Section Summary: The principal of a Seattle high school discusses the importance of extra-curricular activities in schools, dividing them into minor and major activities. Minor activities, such as clubs, stimulate interest in studies and provide opportunities for teachers and students to interact outside the classroom. Major activities, like athletics and class organizations, promote school pride, socialization, and teamwork, but can be overdone and require proper management. The principal emphasizes that these activities are essential to a school's vitality and that teachers should help direct them into proper channels. Effective management of these activities is crucial, and the principal encourages constructive suggestions from experienced individuals to improve their implementation.
+Scores:
+  - Fluency: 3.0
+  - Coherence: 3.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing or incorrect articles
+    - [SPELLING]:
+        • typos such as "poan", "hkgh", "vitalizemcertain", "fimds", "un the way", "lxrge", "orgwnization", "monghs", "manufactufing", "coöperative"
+    - [SYNTAX]:
+        • some sentences are wordy or awkwardly phrased
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between the discussion of school activities and the story about the manufacturing establishment
+    - [STRUCTURE]:
+        • the text jumps between different ideas and topics without clear connections
+    - [CLARITY]:
+        • some sentences are unclear or difficult to understand due to poor phrasing or word choice
+
+Section section_06 (Chars 45980–54605):
+Section Summary: The narrator, a superintendent, shares an experience where they built a positive relationship with a janitor, "Rosy", by showing willingness to work together and valuing his contributions. This approach led to the janitor becoming a helpful and cooperative partner, and even earned him a salary raise. The narrator notes that this experience is not unique and that they have found that treating janitors as coworkers rather than subordinates leads to greater cooperation. A separate discussion among principals and teachers revealed that teachers value assistance with exceptional children, interpretation of the course of study, and administrative support from principals. Principals can help teachers by providing professional guidance, administrative support, and fostering positive personal relationships, ultimately leading to a more effective and supportive educational environment.
+Scores:
+  - Fluency: 3.5
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing or incorrect articles
+    - [SPELLING]:
+        • typos such as "thw" instead of "the", "fprenoon" instead of "forenoon", "znd" instead of "and"
+    - [SYNTAX]:
+        • some sentences are wordy or awkwardly phrased
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between the story about the janitor and the discussion of the principal's role
+    - [STRUCTURE]:
+        • the text jumps between different topics, such as the janitor's story and the meeting of principals
+    - [CLARITY]:
+        • some sentences are unclear or difficult to understand due to poor phrasing or word choice
+
+Section section_07 (Chars 54606–63827):
+Section Summary: To effectively support teachers, principals should provide professional leadership, administrative support, and foster positive personal relationships. This can be achieved by interpreting course materials, providing concrete help, and recognizing teachers' efforts, rather than just offering routine assistance. Principals should also ensure that teachers have the necessary supplies and equipment, provide definite directions and schedules, and establish clear rules and routines. By doing so, principals can create a positive and supportive environment that encourages teachers to grow and develop, leading to better outcomes for students. Ultimately, principals who prioritize building strong relationships with teachers and providing meaningful support can have a significant impact on the success of their school.
+Scores:
+  - Fluency: 3.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [SPELLING]:
+        • multiple typos (e.g., "atfempt", "supetvisors", "lwader", "inspiratuon")
+    - [SYNTAX]:
+        • awkward sentence structure in some places
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between ideas in some sections
+    - [STRUCTURE]:
+        • lack of clear paragraphing and topic sentences
+    - [CLARITY]:
+        • some sentences are wordy or unclear
+
+Section section_08 (Chars 63828–70112):
+Section Summary: The public school plays a crucial role in a child's life, and its importance has grown significantly in America. With the rapid growth of high school enrollment, schools face the challenge of providing courses that cater to diverse student abilities and prepare them for various vocations. To address this, schools have introduced vocational guidance departments, trade schools, and part-time schools to help students adjust to proper vocations. By studying local industrial and commercial conditions, schools can offer relevant special subjects and encourage students to learn about different vocations. Ultimately, the goal is to provide each student with a chance to adjust to a vocation, and schools are making efforts to achieve this through various means, including vocational guidance and classification of pupils according to ability.
+Scores:
+  - Fluency: 2.5
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "fkrst" instead of "first"
+        • "psrt-time" instead of "part-time"
+        • "havr" instead of "have"
+        • "ane" instead of "and"
+        • "oytside" instead of "outside"
+        • "thesevgroups" instead of "these groups"
+        • "n" instead of "to"
+        • "orfering" instead of "offering"
+        • "hseful" instead of "helpful"
+        • "timecfor" instead of "time for"
+        • "pypils" instead of "pupils"
+        • "thevcause" instead of "the cause"
+    - [GRAMMAR]:
+        • Missing articles in some places
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition from discussing the importance of vocational guidance to describing a specific example
+    - [STRUCTURE]:
+        • The text jumps between different ideas without clear connections
+    - [CLARITY]:
+        • Some sentences are wordy and difficult to understand
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

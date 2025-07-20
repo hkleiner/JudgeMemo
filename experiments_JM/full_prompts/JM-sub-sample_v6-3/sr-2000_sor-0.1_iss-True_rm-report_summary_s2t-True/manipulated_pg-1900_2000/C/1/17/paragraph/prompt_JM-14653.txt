@@ -1,0 +1,100 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) Read and understand the summary of the text the report was created for.
+    b) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    c) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The summary of the text to be evaluated is given below:
+Summary: The author reflects on the changing nature of Christmas, suggesting that something has happened to the festival or to people's hearts. In the past, Christmas was a time of excitement and anticipation, with secrets and surprises building up to the big day. The author recalls the thrill of waking up to carolers, exchanging gifts, and enjoying feasts with family and friends.
+
+However, the author notes that this sense of excitement and joy has been lost in modern times. Despite efforts to recreate the Christmas spirit, it feels forced and artificial. The author suggests that this is not just a personal feeling, but a widespread phenomenon. People have to "brace and force themselves up to the enjoyment of Christmas," rather than feeling it naturally.
+
+The author contrasts this with other holidays, like summer vacations, which don't require the same level of effort to enjoy. The author also notes that children, who are often seen as the main beneficiaries of Christmas, are not the reason for the decline of the holiday's spirit. Instead, the author suggests that the decline is due to a broader cultural shift.
+
+The author points to the rise of scientific inquiry and skepticism in the 19th century as a key factor in this shift. The work of scientists like Lyell, Spencer, Darwin, and Huxley led to a greater emphasis on reason and evidence, which in turn led to a decline in faith and traditional beliefs. This, the author argues, has had a profound impact on the way people experience and celebrate Christmas.
+
+The author notes that people still try to keep the Christmas spirit alive, but it's often a pale imitation of the real thing. The author suggests that this is because people are no longer able to believe in the magic and wonder of Christmas in the same way. The rise of skepticism and rationalism has made it difficult for people to suspend their disbelief and fully immerse themselves in the holiday.
+
+Despite this, the author argues that Christmas is not entirely lost. People still feel a deep connection to the holiday, and are anxious to keep its spirit alive. The author suggests that this is because, at a fundamental level, people recognize the importance of faith, enthusiasm, and spontaneity in their lives. The author concludes that while the Christmas spirit may be diminished, it is not entirely gone, and that people continue to search for ways to recapture its magic and wonder. 
+
+The text also touches on the idea that people are searching for something to believe in, and that the decline of faith has led to a sense of emptiness and disconnection. The author notes that even great scientists and philosophers have recognized the importance of faith in human life, and that its decline has had far-reaching consequences.
+
+Overall, the author's reflection on Christmas is a nuanced and thoughtful exploration of the ways in which cultural and intellectual shifts can impact our experiences and traditions. The author's argument is that the decline of the Christmas spirit is not just a personal or individual phenomenon, but rather a symptom of a broader cultural and societal change.
+
+The report for the text is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–8463):
+Section Summary: The author reflects on how Christmas has changed over time, feeling that the holiday has lost some of its original magic and excitement. In the past, Christmas was a time of great anticipation and joy, with a unique romantic quality that made even the most mundane tasks enjoyable. However, the author believes that today, people have to force themselves to get into the holiday spirit, and that the celebration has become somewhat artificial and lacking in genuine sentiment. The author suggests that children's enthusiasm for Christmas is a reflection of how adults used to feel about the holiday, and that the old Christmas hymns still evoke a sense of passion and faith that is missing from modern celebrations. Overall, the author is lamenting the loss of Christmas's original charm and authenticity.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [LEXICON]:
+        • some words are archaic or less common
+    - [SYNTAX]:
+        • long, complex sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between ideas
+    - [STRUCTURE]:
+        • lack of clear connection between paragraphs
+    - [CLARITY]:
+        • some sentences are wordy or unclear
+
+Section section_02 (Chars 8463–12104):
+Section Summary: The traditional Christmas spirit has decayed among adults due to the influence of 19th-century philosophers and scientists, such as Darwin and Huxley, who prioritized truth and skepticism over faith and tradition. Their discoveries and ideas led to an age of doubt, causing people to question and eventually dismiss long-held beliefs. As a result, faith and sentimentality have become undervalued, leaving people feeling lost and uncertain. Despite this, people still try to keep the Christmas spirit alive, suggesting that a deep-seated instinct reminds them of its importance. The author suggests that this instinct is a profound reminder that, without the Christmas spirit, people are lost and in need of something to believe in.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Complex sentence structures
+    - [LEXICON]:
+        • Some archaic vocabulary
+    - [SYNTAX]:
+        • Long, winding sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition to Bahá’u’lláh’s writings
+    - [STRUCTURE]:
+        • Sudden shift in topic
+    - [CLARITY]:
+        • Overly philosophical language
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

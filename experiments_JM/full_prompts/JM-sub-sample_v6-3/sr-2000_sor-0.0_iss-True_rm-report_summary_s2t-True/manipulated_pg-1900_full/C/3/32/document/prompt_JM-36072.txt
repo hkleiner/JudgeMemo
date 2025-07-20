@@ -1,0 +1,198 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) Read and understand the summary of the text the report was created for.
+    b) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    c) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The summary of the text to be evaluated is given below:
+Summary: The Victorian Age was a time of significant change and progress in England. The Industrial Revolution had a profound impact on the country, bringing about rapid economic growth and urbanization. However, this growth was accompanied by social and economic problems, including poverty, inequality, and exploitation of workers. The aristocracy, who had previously held power, began to lose their influence, and a new middle class emerged.
+
+The Victorian era was also marked by significant intellectual and cultural developments. The Romantic movement, which emphasized emotion and individualism, gave way to a more rational and scientific approach to life. Writers such as Charles Dickens, the Brontë sisters, and Alfred Tennyson produced works that reflected the social and economic changes of the time.
+
+Despite the many advances of the Victorian era, there were also significant challenges and criticisms. Social reformers such as Carlyle and Ruskin argued that the pursuit of wealth and material comfort had led to a decline in moral and spiritual values. The poor and working classes continued to suffer from poverty, poor living conditions, and limited access to education and healthcare.
+
+The Victorian era was also marked by significant political developments, including the expansion of the British Empire and the growth of nationalism. The Crimean War and the Indian Mutiny highlighted the weaknesses of the British military and the need for reform. The Victorian era also saw the emergence of new political ideologies, including liberalism and socialism.
+
+In terms of literature, the Victorian era was a time of great creativity and innovation. Writers such as Dickens, Thackeray, and the Brontë sisters produced works that are still widely read and studied today. The era also saw the emergence of new forms of literature, including the novel and the essay.
+
+Despite its many achievements, the Victorian era was also marked by significant social and economic problems. The gap between the rich and the poor continued to grow, and the working classes faced significant challenges in terms of poverty, poor living conditions, and limited access to education and healthcare. The era also saw the emergence of new social and political movements, including feminism and trade unionism.
+
+Overall, the Victorian era was a complex and multifaceted time in English history, marked by significant social, economic, and cultural changes. While it was a time of great progress and achievement, it was also a time of significant challenge and criticism. The era's legacy continues to be felt today, with many of its social, economic, and cultural developments remaining relevant and influential.
+
+The Victorian era was also a time of great scientific and technological progress, with significant advances in fields such as medicine, engineering, and physics. The era saw the emergence of new scientific theories and discoveries, including the theory of evolution and the discovery of the laws of thermodynamics.
+
+In conclusion, the Victorian era was a time of significant change and progress in England, marked by major social, economic, and cultural developments. While it was a time of great achievement and innovation, it was also a time of significant challenge and criticism. The era's legacy continues to be felt today, with many of its social, economic, and cultural developments remaining relevant and influential. 
+
+The author notes that the greatness of the Victorian age depended on a combination of circumstances that were transient in nature. The era's social classes were fusing together, with the territorial oligarchs purchasing another lease of power by an alliance with the successful commercial class. However, this fusion was accompanied by ominous signs that the civilization might be poisoned by the noxious by-products of its own activities.
+
+The author also notes that the Victorian era was a time of great literary achievement, with writers such as Tennyson, Dickens, and the Brontë sisters producing works that are still widely read and studied today. The era saw the emergence of new forms of literature, including the novel and the essay, and the development of new literary styles and genres.
+
+In terms of its legacy, the Victorian era continues to be felt today, with many of its social, economic, and cultural developments remaining relevant and influential. The era's emphasis on progress, innovation, and social reform continues to shape our world today, and its literary and cultural achievements remain an important part of our cultural heritage. 
+
+The author concludes by noting that the Victorian era was a complex and multifaceted time in English history, marked by significant social, economic, and cultural changes. While it was a time of great progress and achievement, it was also a time of significant challenge and criticism. The era's legacy continues to be felt today, and its influence can be seen in many areas of modern life. 
+
+The Victorian era was a time of great change and upheaval, and its impact can still be felt today. The era's social, economic, and cultural developments continue to shape our world, and its literary and cultural achievements remain an important part of our cultural heritage. The author notes that the era's greatness depended on a combination of circumstances that were transient in nature, and that its legacy continues to be felt today. 
+
+The author also notes that the Victorian era was a time of great literary achievement, with writers such as Tennyson, Dickens,
+
+The report for the text is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–9126):
+Section Summary: The Victorian Age was a time of significant change, marked by the Industrial Revolution and the French Revolution, which had a profound impact on society and politics. The period saw a shift from a stable, prosperous, and contented England in the 18th century to a time of rapid change and readjustment. The aristocracy, who held power and were highly cultivated, began to lose their influence, and the country became more isolated from European thought after the war with France. The Industrial Revolution brought about new social and economic problems, but also created new opportunities and a sense of hope for the future. The Victorian Age was a time of building a new social order and solving new problems, earning it the nickname "the age of hope".
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor sentence structure complexity
+    - [LEXICON]:
+        • some archaic vocabulary usage
+    - [SYNTAX]:
+        • occasional long sentence lengths
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between historical periods
+    - [STRUCTURE]:
+        • non-linear narrative progression
+    - [CLARITY]:
+        • occasional ambiguity in historical references
+
+Section section_02 (Chars 9127–18014):
+Section Summary: The Napoleonic Wars did not significantly disrupt the intellectual life of the country, with notable literary and poetic works emerging during this period. However, the working class suffered greatly, with poverty, illiteracy, and overpopulation being major issues, as highlighted by writers like Byron and Disraeli. The early 19th century saw significant progress in various fields, including science, literature, and education, but this was accompanied by a growing gap between the rich and the poor. Critics like Carlyle and Ruskin denounced the social ills of the time, with Carlyle advocating for a more ordered society and Ruskin lamenting the decay of art and beauty in industrialized towns. Overall, the period was marked by both remarkable progress and deep-seated social problems, sparking a literature of social indignation and protest.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Missing or unclear antecedents for pronouns
+    - [LEXICON]:
+        • Overly complex vocabulary and sentence structures
+    - [SYNTAX]:
+        • Long, convoluted sentences that hinder readability
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transitions between ideas and historical periods
+    - [STRUCTURE]:
+        • Lack of clear organization and cohesive narrative flow
+    - [CLARITY]:
+        • Unclear or ambiguous statements that require additional context
+
+Section section_03 (Chars 18014–26883):
+Section Summary: During Queen Victoria's reign, social reformers like Ruskin and Morris criticized the social and economic systems, despite being beneficiaries of the wealthy elite. The period saw significant improvements in various areas, including the law, universities, and the civil service, which were previously plagued by inefficiencies and abuses. The army also underwent reforms, although it was initially underfunded and poorly managed, as revealed by the Crimean War. Despite these challenges, the reign saw unprecedented progress in many areas, including finance, education, and science, leading to a sense of optimism and good governance. However, the author notes that this positive assessment may not apply to foreign politics, where the situation was more complex.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Missing or unclear antecedents for pronouns
+    - [LEXICON]:
+        • Overuse of vague terms like "the thing" and "stuff"
+    - [SYNTAX]:
+        • Long, convoluted sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transitions between ideas
+    - [STRUCTURE]:
+        • Lack of clear organization or chronological progression
+    - [CLARITY]:
+        • Unclear or ambiguous references to historical events and figures
+
+Section section_04 (Chars 26884–35575):
+Section Summary: The Opium War and the Crimean War were blunders that damaged Britain's prestige, and the country's tendency to bully weak foreign powers did not help. The prolonged jealousy and suspicion between Britain and France made it difficult for Britain to exercise influence on the Continent, leading to the restoration of despotic governments in Europe after the disturbances of 1848. Britain's prosperity during the Victorian Age was due to temporary advantages, such as its geographical location and industrial lead, which are now passing. The Romantic movement had a significant impact on English literature, and the Victorian era saw an unparalleled output of books and the emergence of great writers like Alfred Tennyson. The Victorians were a remarkable generation, with many great men of literature, science, and politics, whose longevity and achievements have no parallel in history.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense
+    - [LEXICON]:
+        • vague terms ("a thing", "the stuff")
+    - [SYNTAX]:
+        • complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between ideas
+    - [STRUCTURE]:
+        • lack of clear paragraph topics
+    - [CLARITY]:
+        • ambiguous references to historical events
+
+Section section_05 (Chars 35576–44164):
+Section Summary: Tennyson's writing technique was masterful, and he wrote beautifully about beautiful things, including moral conduct. His work, such as the Idylls of the King, was an allegory that explored themes of ideal manhood and the struggle between sense and soul. Tennyson's poetry reflected his age, with its mix of conservatism and liberalism, and he was concerned about the social and moral implications of the Victorian era's rapid changes. He was also influenced by the religious debates of his time, and his own views on faith and doubt were characteristic of the Victorian attitude towards religion. Overall, Tennyson's work continues to offer insights into the complexities and contradictions of the Victorian era, and his poetry remains a powerful expression of his deepest convictions about human life and morality.
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • occasional complex sentence structures
+    - [LEXICON]:
+        • some archaic vocabulary
+    - [SYNTAX]:
+        • lengthy paragraphs with multiple ideas
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between ideas
+    - [STRUCTURE]:
+        • lack of clear sectioning or headings
+    - [CLARITY]:
+        • occasional ambiguity in author's intent
+
+Section section_06 (Chars 44165–51750):
+Section Summary: The Victorian era was a time of great literary and cultural achievement in England, with notable figures such as Tennyson, Dickens, and Thackeray making significant contributions. The era's greatness was due to a combination of circumstances that were transient and have since passed. Despite its many achievements, the Victorian era was also marked by social and economic problems, including the dehumanizing effects of industrialization and the growth of parasitism. The era's decline was hastened by the fusion of social classes and the emergence of new social and economic challenges. Ultimately, the speaker believes that the Victorian era, along with the Elizabethan era, represents a peak in English civilization, and that the country's future prospects are uncertain.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [LEXICON]:
+        • occasional use of outdated vocabulary
+    - [SYNTAX]:
+        • complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between ideas
+    - [STRUCTURE]:
+        • lack of clear chronological order
+    - [CLARITY]:
+        • ambiguous references to historical events
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

@@ -1,0 +1,258 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) Read and understand the summary of the text the report was created for.
+    b) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    c) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The summary of the text to be evaluated is given below:
+Summary: The author embarked on an expedition to study the Sarö Yögurs, a Turkish tribe living in the Gobi Desert. They started their journey on December 13th, 1907, and traveled through a Chinese town, passing by a temple with a high conical tower. The author met three women from the Sarö Yögur tribe, who wore a unique costume and were proud to identify themselves as Sarö Yögurs. The author visited the village of Machuangtzu, where they met the lamas and learned about the tribe's customs and way of life.
+
+The Sarö Yögurs are a pastoral people, living in fixed abodes, and their main source of livelihood is grazing cattle. They have a simple diet, consisting of flour, cereals, and milk products. The author observed that the tribe lacked energy and manliness, and their living conditions were poor. The Sarö Yögurs have a unique head dress, which is only worn by married women, and they have a simple system of government, with a pykh and his assistant yarkatshe.
+
+The author also visited the Shera Yögurs, another Turkish tribe living in the mountains. They traveled through a ravine, passing by a guardhouse and a Chinese homestead, and arrived at the monastery of K'anglungssu. The Shera Yögurs are also a pastoral people, and their main source of livelihood is grazing cattle. They have a similar diet to the Sarö Yögurs and live in tents, which are less comfortable than those of the Mongolians.
+
+The author learned about the Shera Yögurs' customs and way of life, including their system of government, which is based on a hereditary t'umu. The Shera Yögurs have a unique costume, which includes a sheepskin coat and a hat made of stiff canvas. They are skilled at weaving and making blankets, but their home industry is limited. The author observed that the Shera Yögurs are quick at their work, talkative, and amusing, and they have a strong sense of community.
+
+The author spent New Year's Day with the Shera Yögurs, participating in rifle practice and a feast. They learned about the tribe's history and customs, including their system of relationship between "bones" and their marriage customs. The author also observed that the Shera Yögurs have a strong sense of hospitality and are fond of jokes. Unfortunately, the author's stay with the Shera Yögurs was limited, and they had to leave on January 2nd, 1908.
+
+The author reflected on their experience with the Sarö and Shera Yögurs, noting that both tribes are struggling to survive due to poverty and lack of energy. The author also observed that the Shera Yögurs are more skilled at mental calculations and have a better understanding of foreign languages. The author's journey ended with a visit to the Chinese town of Li-yen, where they were warmly received by the mandarin. The author noted that the town had not changed much since Potanin's visit twenty years ago, and they were impressed by the mandarin's courtesy and hospitality.
+
+The report for the text is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–8338):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing articles
+    - [LEXICON]:
+        • unclear terminology (e.g. "stuff", "thing")
+    - [SYNTAX]:
+        • long, convoluted sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between ideas
+    - [STRUCTURE]:
+        • lack of clear organization
+    - [CLARITY]:
+        • unclear references to unknown terms
+
+Section section_02 (Chars 8338–16844):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tenses
+    - [LEXICON]:
+        • unclear meaning of "a stuff" throughout the text
+    - [SYNTAX]:
+        • long, convoluted sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between ideas
+    - [STRUCTURE]:
+        • lack of clear organization
+    - [CLARITY]:
+        • unclear connections between paragraphs
+
+Section section_03 (Chars 16845–24842):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tenses
+    - [SPELLING]:
+        • "potatow-noses" instead of "potato-noses"
+    - [LEXICON]:
+        • unclear meaning of "tshokh"
+    - [SYNTAX]:
+        • long and convoluted sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between descriptions of customs and statistics
+    - [STRUCTURE]:
+        • lack of clear organization and headings
+    - [CLARITY]:
+        • unclear explanations of certain customs and practices
+    - [TRANSITION]:
+        • abrupt change in topic from wedding customs to childbirth
+
+Section section_04 (Chars 24843–33005):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [LEXICON]:
+        • occasional use of unclear or archaic terms
+    - [SYNTAX]:
+        • some sentences are overly long and convoluted
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between ideas
+    - [STRUCTURE]:
+        • lack of clear paragraphing or sectioning
+    - [CLARITY]:
+        • some sentences are wordy or difficult to follow
+
+Section section_05 (Chars 33006–41243):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [LEXICON]:
+        • unclear terminology (e.g., "thing" idols)
+    - [SYNTAX]:
+        • long, convoluted sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between ideas
+    - [STRUCTURE]:
+        • lack of clear organization
+    - [CLARITY]:
+        • ambiguous descriptions of locations and objects
+
+Section section_06 (Chars 41244–49251):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [LEXICON]:
+        • unclear terminology (e.g., "thing", "stuff")
+    - [SYNTAX]:
+        • long, convoluted sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • unclear connections between ideas
+    - [STRUCTURE]:
+        • disjointed narrative flow
+    - [CLARITY]:
+        • ambiguous references to people and places
+
+Section section_07 (Chars 49251–56899):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [LEXICON]:
+        • unclear terminology (e.g., "tshi", "t'idu")
+    - [SYNTAX]:
+        • complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between ideas
+    - [STRUCTURE]:
+        • lack of clear sectioning or headings
+    - [CLARITY]:
+        • ambiguous descriptions of cultural practices
+
+Section section_08 (Chars 56899–65506):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor sentence structure issues
+    - [LEXICON]:
+        • some word choices could be more precise
+    - [SYNTAX]:
+        • occasional awkward phrasing
+  Coherence Issues:
+    - [LOGIC]:
+        • a few abrupt transitions between ideas
+    - [STRUCTURE]:
+        • some sections feel disconnected from the rest
+    - [CLARITY]:
+        • minor ambiguity in a few sentences
+
+Section section_09 (Chars 65507–73693):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor sentence structure issues
+    - [LEXICON]:
+        • some word choices could be more precise
+    - [SYNTAX]:
+        • occasional awkward phrasing
+  Coherence Issues:
+    - [LOGIC]:
+        • a few abrupt transitions between ideas
+    - [STRUCTURE]:
+        • some sections feel slightly disconnected
+    - [CLARITY]:
+        • occasional ambiguity in descriptive passages
+
+Section section_10 (Chars 73694–77298):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [LEXICON]:
+        • occasional use of obscure vocabulary
+    - [SYNTAX]:
+        • complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between descriptive passages and narrative
+    - [STRUCTURE]:
+        • lack of clear paragraphing or sectioning
+    - [CLARITY]:
+        • some sentences are wordy or difficult to follow
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

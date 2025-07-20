@@ -1,0 +1,281 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) Read and understand the summary of the text the report was created for.
+    b) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    c) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The summary of the text to be evaluated is given below:
+Summary: Jean Honoré Fragonard was born on April 5, 1732, in Grasse, France, to a glovemaker. He grew up in a romantic and beautiful town surrounded by olive trees and the Mediterranean Sea. Fragonard's early life was marked by a love for art and nature. He was apprenticed to a notary, but his true passion was painting. With the help of his mother, he traveled to Paris to study art under the great painter François Boucher.
+
+Fragonard's artistic career began to take shape when he won the Prix de Rome in 1752. He then studied under Charles-Joseph Natoire in Rome, where he developed his skills and style. Upon his return to Paris, Fragonard became known for his elegant and charming paintings, often depicting scenes of love and nature. He was particularly famous for his series of paintings called "The Progress of Love," which showcased his mastery of color and composition.
+
+Fragonard's personal life was also marked by significant events. He married Marie Anne Gérard in 1769, and they had two children together. His wife was not a beauty, but she had a kind heart and was a good mother. Fragonard's sister-in-law, Marguerite Gérard, was a talented artist and became a close companion to him. The two shared a deep affection for each other, and their correspondence was filled with passion and intimacy.
+
+As Fragonard's career progressed, he became known as the painter of the French court, particularly during the reign of King Louis XV. He was favored by the king's mistress, Madame du Barry, who commissioned several paintings from him. However, Fragonard's relationship with the royal court was complicated, and he eventually fell out of favor.
+
+The French Revolution had a profound impact on Fragonard's life and career. He was a liberal and sympathized with the revolutionaries, but he was also afraid of the violence and chaos that ensued. In 1793, he left Paris and moved to Grasse, where he lived in exile for several years. During this time, he continued to paint, but his style and subject matter changed significantly.
+
+Fragonard returned to Paris in 1800, but his career was never the same. He struggled to adapt to the new artistic styles and trends, and he eventually fell into obscurity. He died on August 22, 1806, at the age of 74, and was largely forgotten until the 20th century, when his work was rediscovered and celebrated.
+
+Today, Fragonard is recognized as one of the greatest painters of the 18th century, and his work continues to inspire and delight art lovers around the world. His paintings are characterized by their elegance, charm, and sensuality, and they offer a unique glimpse into the culture and society of 18th-century France. Despite the challenges and setbacks he faced, Fragonard remained a true artist, dedicated to his craft and passionate about his work. His legacy is a testament to the power of art to transcend time and circumstance, and to the enduring beauty of the human experience.
+
+The report for the text is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–7792):
+Section Summary: Jean Honoré Fragonard was born on April 5, 1732, in the town of Grasse, France, to a glovemaker and his wife. Growing up in a picturesque and romantic environment, Fragonard was inspired by the beauty of his surroundings, which would later influence his art. As he grew older, he became aware of the gossip and scandals of the French court, including the rise of Madame de Pompadour, who became a powerful figure in the arts. However, Fragonard's father had other plans for him, apprenticing him to a notary, a path that did not align with the young man's artistic ambitions. Eventually, his notary master recognized Fragonard's passion for art and advised that he be allowed to pursue his creative interests.
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing or incorrect articles
+    - [SPELLING]:
+        • typos such as "stdeet", "goomy", "attenuatee", "vcented", "aere", "bbright", "casingcits", "afyer", "qnd", "pleasaujres"
+    - [SYNTAX]:
+        • long and convoluted sentence structures
+    - [LEXICON]:
+        • some words are uncommon or used in an unusual context
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between paragraphs or ideas
+    - [STRUCTURE]:
+        • lack of clear chronological order in some sections
+    - [CLARITY]:
+        • some sentences are wordy or difficult to understand
+    - [TRANSITION]:
+        • insufficient connection between the description of Grasse and the introduction of the Pompadour
+
+Section section_02 (Chars 7792–15744):
+Section Summary: At the age of 16, Jean-Honoré Fragonard's mother took him to Paris to meet the renowned painter François Boucher, who advised him to train with Jean-Siméon Chardin to master his craft. However, Fragonard made little progress with Chardin and was sent away, after which he spent time studying and painting the masterpieces in Parisian churches. He later returned to Boucher, who was impressed with his progress and took him on as a student, assigning him to work on decorative cartoons. Fragonard went on to win the Prix de Rome at the age of 20 and later traveled to Italy, where he was influenced by the works of Tiepolo and the Italian landscape, ultimately developing his own unique style. During his time in Italy, Fragonard formed lasting friendships with fellow artists Hubert Robert and the Abbé de Saint-Non.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • typos (e.g. "thd" instead of "the", "qnxious" instead of "anxious", "kn" instead of "in", "wodks" instead of "works")
+    - [GRAMMAR]:
+        • missing or incorrect articles
+    - [LEXICON]:
+        • occasional use of less common vocabulary
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transitions between paragraphs
+    - [CLARITY]:
+        • some sentences are wordy or convoluted
+    - [LOGIC]:
+        • occasional jumps in the narrative timeline
+
+Section section_03 (Chars 15745–23603):
+Section Summary: After spending five years in Italy, Fragonard returned to Paris in 1761, where he found that his master Boucher was struggling with the changing public taste and criticism from the new philosophers. Fragonard initially attempted to paint in the academic style, but soon turned to painting the life and beauty around him, which brought him great success. His breakthrough came with the painting "Les hazards heureux de l'Escarpolette," which showcased his skill in capturing the beauty of nature and launched him into fame. As the favorite painter of the French court, Fragonard became known for his decorative and lively paintings, which reflected the spirit of the age of Du Barry. His art was characterized by its emphasis on landscape and its ability to capture the beauty of the natural world, earning him a reputation as one of the great landscape-painters of France.
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • delightfulcgood-fellowship
+        • essenxe
+        • weakndssds
+        • csme
+        • emough
+        • finamciers
+        • fasyion
+        • Ylu
+    - [GRAMMAR]:
+        • missing articles
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between Fragonard's life and the French political scene
+    - [STRUCTURE]:
+        • lack of clear connection between some paragraphs
+    - [CLARITY]:
+        • some sentences are wordy and hard to follow
+
+Section section_04 (Chars 23603–31580):
+Section Summary: During this period, Fragonard was producing a large number of works, including paintings such as "Love the Conqueror" and "The Sleeping Bacchante". His master, Boucher, introduced him to the wealthy and art-loving Farmer-General Bergeret de Grandcour, who became one of Fragonard's most important patrons. Fragonard also received commissions from two female patrons, including the notorious dancer Mademoiselle Guimard, for whom he painted a series of panels, and another woman whose identity is not specified. Meanwhile, the French court was undergoing significant changes, including the death of the Pompadour and the rise of Madame du Barry, a new mistress of the king who would eventually lead to the downfall of the king's minister, Choiseul. Fragonard's career was flourishing, with his paintings showcasing his skill and artistry, as seen in works such as "The Chiffre d'Amour" and "The Fair-haired Boy".
+Scores:
+  - Fluency: 3.5
+  - Coherence: 3.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • consideragle
+        • xould
+        • ghe
+        • St. Clpud
+        • accough
+        • cdies
+    - [GRAMMAR]:
+        • inconsistent verb tenses
+    - [SYNTAX]:
+        • long and convoluted sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt shifts between Fragonard's life and historical events
+    - [STRUCTURE]:
+        • lack of clear transitions between paragraphs
+    - [CLARITY]:
+        • confusing and unclear descriptions of historical context
+    - [TRANSITION]:
+        • disconnected ideas between Fragonard's art and the royal court
+
+Section section_05 (Chars 31581–39597):
+Section Summary: Jeanne du Barry, a young woman from a poor background, rose to prominence as the mistress of King Louis XV of France, but her lack of refinement and taste led her to reject the masterpieces of artist Jean-Honoré Fragonard. Fragonard had painted a series of five canvases, "The Progress of Love in the Heart of Maidenhood," for du Barry, but she found them disappointing and instead preferred the work of artist Vien. Meanwhile, Fragonard's personal life was changing as he married Marie Anne Gérard, a young woman from Grasse, and began to focus on painting scenes of domestic life and rural landscapes. His marriage and new family influenced his art, and he started to incorporate elements of Dutch landscape painting into his work. Fragonard's art continued to flourish, and he proved himself to be an exceptional artist, capable of bringing distinction and style to all his creations.
+Scores:
+  - Fluency: 3.5
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing or incorrect articles
+    - [SPELLING]:
+        • typos such as "abchill" and "Rragonard"
+    - [SYNTAX]:
+        • long and convoluted sentence structures
+    - [LEXICON]:
+        • inconsistent vocabulary and tone
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between paragraphs
+    - [STRUCTURE]:
+        • lack of clear chronological order
+    - [CLARITY]:
+        • ambiguous sentences and unclear references
+    - [TRANSITION]:
+        • missing or inadequate connections between ideas
+
+Section section_06 (Chars 39598–47590):
+Section Summary: The French artist Fragonard was at the height of his career, but the country was on the brink of chaos with the corrupt and ruthless leadership of King Louis XV and his mistress, Du Barry. The king's death in 1774 marked the end of an era, and the new king, Louis XVI, and his queen, Marie Antoinette, faced a country scandalized by the corruption of their predecessors. The writings of intellectuals such as Voltaire, Rousseau, and Diderot fueled the growing discontent among the people, who were tired of the privileged class and their abuses of power. Meanwhile, Fragonard was oblivious to the impending doom and was preparing for a second journey to Italy with his patron, Bergeret de Grandcour. This trip would be a welcome distraction for Fragonard, who would eventually face the harsh consequences of the French Revolution.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [SYNTAX]:
+        • complex sentence structures
+    - [LEXICON]:
+        • occasional use of archaic vocabulary
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between historical events
+    - [STRUCTURE]:
+        • non-chronological ordering of events
+    - [CLARITY]:
+        • ambiguous references to historical figures
+
+Section section_07 (Chars 47591–55762):
+Section Summary: Fragonard traveled to Italy with Bergeret de Grandcour and his family, enjoying a life of luxury and meeting prominent figures, but their friendship was later marred by a quarrel over Fragonard's sketches. After returning to Paris, Fragonard was granted a studio and apartments at the Louvre, where he lived a comfortable life with his family and sister-in-law, Marguerite Gérard. However, his happiness was short-lived, as his daughter Rosalie died at the age of 18, and the French Revolution began to unfold, marked by the fall of the Bastille and the rise of the National Assembly. Fragonard, a liberal who sympathized with the people's sufferings, supported the Revolution, but the situation soon turned violent and tragic. As the Revolution gained momentum, Fragonard's life and the lives of those around him would be forever changed.
+Scores:
+  - Fluency: 3.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing or incorrect articles
+    - [SPELLING]:
+        • typos such as "pennilesa", "nlw", "palacex", "fzces", "jing", "rokms"
+    - [SYNTAX]:
+        • awkward sentence structure in some places
+    - [LEXICON]:
+        • occasional use of outdated or uncommon vocabulary
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between paragraphs or ideas
+    - [STRUCTURE]:
+        • lack of clear chronological order in some sections
+    - [CLARITY]:
+        • some sentences or phrases are wordy or unclear
+    - [TRANSITION]:
+        • insufficient connection between the description of Fragonard's life and the historical context
+
+Section section_08 (Chars 55763–63762):
+Section Summary: The French Revolution led to a period of terror and bloodshed, with the king and queen being executed and the Jacobins, led by Robespierre, seizing power. The artist Fragonard, who had been associated with the aristocracy, felt unsafe in Paris and eventually fled to Grasse, where he stayed with a friend and continued to paint. During his time in Grasse, Fragonard created several decorative panels and portraits, and even added revolutionary emblems to his host's home to avoid suspicion. Meanwhile, the Revolution continued to unfold, with Robespierre's eventual downfall and the rise of Napoleon Bonaparte, who would go on to become a dominant force in French politics. Fragonard eventually returned to Paris, but as a poor and uninspired old man, his creative spark extinguished by the turmoil of the Revolution.
+Scores:
+  - Fluency: 3.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "fpllowed" instead of "followed"
+        • "Natoonal" instead of "National"
+        • "ekghteenth" instead of "eighteenth"
+        • "poservand" instead of "possessing and"
+        • "dissipatdd" instead of "dissipated"
+        • "anx" instead of "and"
+        • "tje" instead of "the"
+    - [GRAMMAR]:
+        • Missing articles and incorrect verb tenses in some sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between Fragonard's personal life and the historical events of the French Revolution
+    - [STRUCTURE]:
+        • Disjointed narrative that jumps between different time periods and events
+    - [CLARITY]:
+        • Some sentences are wordy and difficult to understand
+
+Section section_09 (Chars 63763–68165):
+Section Summary: Fragonard, a renowned painter, struggled to adapt to the changing times and artistic styles after the French Revolution. He continued to paint, but his work was no longer in fashion, and he was eventually forced to leave his lodging at the Louvre due to a decree by Napoleon. Fragonard's health declined, and he died on August 22, 1806, at the age of 74. His family, including his wife and daughter Marguerite Gérard, lived on, with Marguerite having a successful career as an artist. Fragonard's art, along with that of Watteau and Boucher, is now recognized as a key part of France's cultural heritage, embodying the elegance and gaiety of 18th-century France.
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • sucxess
+        • sztire
+        • splensour
+        • triumphantccareer
+        • thd
+        • lkved
+        • pezcefully
+        • atmisphere
+        • revelationcof
+        • uttsrs
+        • skomming
+    - [GRAMMAR]:
+        • inconsistent verb tenses
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between Fragonard's life and the discussion of French art history
+    - [STRUCTURE]:
+        • non-chronological ordering of events
+    - [CLARITY]:
+        • ambiguous sentence structures
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

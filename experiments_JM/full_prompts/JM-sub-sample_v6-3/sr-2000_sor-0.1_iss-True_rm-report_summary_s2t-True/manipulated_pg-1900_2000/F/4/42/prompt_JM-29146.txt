@@ -1,0 +1,106 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) Read and understand the summary of the text the report was created for.
+    b) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    c) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The summary of the text to be evaluated is given below:
+Summary: Jason Ramsey, a hyper-space pilot from Earth, is on the planet Irwadi, where he works for the Interstellar Transfer Service. He is the only Earthman in the service on Irwadi. Ramsey is approached by a Port Security Officer, Chind Ramar, who informs him that the Irwadi government has "planetarized" the Irwadi Transfer Service, effectively taking control of all hyper-space ships on the planet. Ramsey is shocked and skeptical, as he knows that transferring a starship from normal space to hyper-space is a difficult task.
+
+Chind Ramar explains that only Irwadian pilots will be allowed to pilot ships through hyper-space, and that all outworld pilots, including Ramsey, will be stranded on Irwadi. Ramsey is forced to surrender his pilot's license and is told that he will have to find a way to support himself until the situation is resolved. The Polaris, a Centaurian ship that Ramsey was scheduled to pilot, is grounded, and its crew and passengers are stranded.
+
+Ramsey visits his friend Stu Englander, a fellow hyper-space pilot who is struggling to make ends meet. Englander is sick and has a family to support, and Ramsey lends him some money to help him out. Ramsey then goes to a gambling hall, where he loses most of his money. He is approached by a drunk and arrogant Irwadian who is looking for trouble, and the two have a tense confrontation.
+
+The Irwadian accuses outworlders of bringing poverty and disease to Irwadi, and tells Ramsey to leave the gambling hall. The situation is tense, but Ramsey remains calm and refuses to back down. The Irwadian's behavior is typical of the frenzy of planetarization, which has led to irrational and hostile behavior towards outworlders. Ramsey is aware that he is in a difficult situation, but he is determined to make the best of it and find a way to survive on Irwadi.
+
+As the night wears on, Ramsey reflects on his situation and the challenges that lie ahead. He knows that he will have to be careful and resourceful if he is to survive on Irwadi, where outworlders are no longer welcome. The planetarization of the Irwadi Transfer Service has created a difficult and uncertain situation for Ramsey and other outworlders, and it remains to be seen how they will fare in the coming days and weeks. Ramsey's experiences on Irwadi have been marked by tension and hostility, and it is clear that the situation will only continue to deteriorate. 
+
+The Irwadians' decision to planetarize the transfer service is motivated by a desire to control the flow of titanium, a vital metal that is found in abundance on Irwadi. The Irwadians believe that by controlling the transfer service, they can dictate the price of titanium and gain a strategic advantage over other planets. However, this decision has far-reaching consequences for outworlders like Ramsey, who are now stranded on Irwadi with limited resources and uncertain futures. 
+
+Ramsey's friendship with Englander and his family is an important part of his life on Irwadi, and he is determined to help them in any way that he can. Despite the challenges that he faces, Ramsey remains optimistic and determined to find a way to survive and even thrive on Irwadi. However, the situation is complex and uncertain, and it remains to be seen how Ramsey and other outworlders will fare in the coming days and weeks. 
+
+The planetarization of the Irwadi Transfer Service has created a sense of tension and uncertainty on Irwadi, and it is clear that the situation will only continue to deteriorate. The Irwadians' behavior towards outworlders is becoming increasingly hostile, and it is likely that the situation will escalate into violence. Ramsey and other outworlders will have to be careful and resourceful if they are to survive on Irwadi, where they are no longer welcome. 
+
+In the midst of this uncertainty, Ramsey remains a calm and determined figure, determined to make the best of a difficult situation. His experiences on Irwadi have been marked by tension and hostility, but he is determined to find a way to survive and even thrive on this unforgiving planet. The future is uncertain, but one thing is clear: Ramsey will have to be careful and resourceful if he is to survive on Irwadi. 
+
+The situation on Irwadi is complex and multifaceted, and it is clear that the planetarization of the transfer service has far-reaching consequences for outworlders like Ramsey. The Irwadians' decision to control the flow of titanium has created a sense of tension and uncertainty, and it is likely that the situation will escalate into violence. Ramsey and other outworlders will have to be careful and resourceful if they are to survive on Irwadi, where they are no longer welcome. 
+
+As the situation on Irwadi continues to deteriorate, Ramsey remains a calm and determined figure, determined to make
+
+The report for the text is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–8029):
+Section Summary: Jason Ramsey, a hyper-space pilot, is informed by the Port Security Officer, Chind Ramar, that the Irwadi government has "planetarized" the Interstellar Transfer Service, effectively grounding all non-Irwadian pilots and ships. Ramsey, an Earthman, is forced to surrender his pilot license and is told to find a way to support himself until he can be removed from the planet. He meets with fellow pilot Stu Englander, who is also struggling financially, and offers to help him out with a loan. Englander is hesitant to accept charity, but Ramsey insists it's a loan that can be repaid when he's able. The situation is dire, with many outworlders, including Ramsey and Englander, facing an uncertain future on the hostile planet of Irwadi.
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor errors in verb tense consistency
+    - [SPELLING]:
+        • intentional misspelling for character effect (e.g., "ith" instead of "is")
+    - [LEXICON]:
+        • some outdated or less common vocabulary (e.g., "splay-tongued")
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between scenes
+    - [STRUCTURE]:
+        • non-linear narrative flow
+    - [CLARITY]:
+        • occasional ambiguity in character motivations
+
+Section section_02 (Chars 8030–13220):
+Section Summary: Ramsey visits his friend Englander, who is struggling to support his family, and gives him 375 credits to help. Englander is grateful and promises to use the money wisely, and Ramsey feels good about his decision. Later, Ramsey goes to a gambling hall in the Old Quarter, but has a bad night and loses most of his money. He is then confronted by a drunk and arrogant Irwadian who is looking for trouble and tells Ramsey to leave. The situation becomes tense, with the Irwadian insulting outworlders and Ramsey remaining calm but aware of the potential for conflict.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • "Do you had enough" should be "Do you have enough"
+    - [LEXICON]:
+        • "thertainly", "thtink", "thtandard", "ditheth", "mythelf" are non-standard spellings
+    - [SYNTAX]:
+        • Some sentences are wordy or awkwardly phrased
+  Coherence Issues:
+    - [LOGIC]:
+        • The transition between Ramsey's interaction with Englander and his subsequent actions at the gambling hall feels abrupt
+    - [STRUCTURE]:
+        • The narrative jumps between different scenes and ideas without clear connections
+    - [CLARITY]:
+        • Some parts of the text, such as the description of the Irwadian's appearance and behavior, feel overly detailed or tangential
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

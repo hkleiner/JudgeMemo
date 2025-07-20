@@ -1,0 +1,98 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) Read and understand the summary of the text the report was created for.
+    b) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    c) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The summary of the text to be evaluated is given below:
+Summary: The author reflects on the changing nature of Christmas, suggesting that its magic has been lost for many adults. In the past, Christmas was a time of excitement and anticipation, with secrets and surprises building up to the big day. However, as people grow older, they often lose this sense of wonder and enthusiasm. The author argues that this is not just a natural result of aging, but rather a sign of a deeper cultural shift.
+
+The author notes that children still embody the true spirit of Christmas, with their faith and enthusiasm for the holiday. However, adults often have to force themselves to get into the holiday spirit, and may even feel self-conscious or foolish doing so. This is in contrast to other holidays, like summer vacation, where people do not have to make an effort to enjoy themselves.
+
+The author suggests that the decline of Christmas is not just a subjective phenomenon, but rather a result of broader cultural and intellectual trends. The rise of skepticism and doubt, particularly in the 19th century, has led to a decline in faith and enthusiasm for many people. The author blames the "idealists" of the past, such as scientists and philosophers, for promoting a culture of doubt and skepticism.
+
+Despite this, the author argues that the core principles of Christmas remain intact. The holiday is still a time for recognizing the importance of faith, goodwill, and charity. However, many people have forgotten this, and instead focus on the superficial aspects of the holiday. The author believes that people are still drawn to the idea of Christmas, and are anxious to keep its spirit alive, even if they do not fully understand why.
+
+The author concludes that the "bottom has not been knocked out of Christmas," and that people still have a deep instinctual connection to the holiday. Despite the cultural and intellectual trends that may have diminished its magic, Christmas remains a powerful symbol of hope and joy. The author encourages readers to look beyond the superficial aspects of the holiday and to reconnect with its deeper meaning and significance.
+
+The text is written in a nostalgic and introspective tone, with the author reflecting on their own experiences and observations of Christmas. The author uses vivid imagery and descriptive language to bring the holiday to life, and to convey the sense of wonder and excitement that it once held. Overall, the text is a thoughtful and nuanced exploration of the meaning and significance of Christmas in modern times. 
+
+The author's use of rhetorical questions and philosophical musings adds depth and complexity to the text, inviting the reader to consider the broader implications of the decline of Christmas. The text also touches on themes of faith, doubt, and the human condition, highlighting the ways in which Christmas reflects and shapes our understanding of the world and our place in it. 
+
+Ultimately, the author's goal is to encourage readers to rethink their relationship with Christmas, and to rediscover the holiday's deeper meaning and significance. By doing so, the author hopes to inspire a renewed sense of wonder, enthusiasm, and connection to the holiday, and to help readers recapture the magic of Christmas.
+
+The report for the text is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–8421):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor sentence structure complexity
+    - [LEXICON]:
+        • some outdated vocabulary
+    - [SYNTAX]:
+        • lengthy sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • occasional abrupt transitions between ideas
+    - [STRUCTURE]:
+        • non-linear narrative progression
+    - [CLARITY]:
+        • minor ambiguity in author's intent
+
+Section section_02 (Chars 8421–12556):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Complex sentence structures
+    - [LEXICON]:
+        • Some archaic vocabulary
+    - [SYNTAX]:
+        • Long paragraphs with multiple ideas
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between ideas
+    - [STRUCTURE]:
+        • Meandering narrative
+    - [CLARITY]:
+        • Overly philosophical language
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

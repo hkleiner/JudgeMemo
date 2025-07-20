@@ -1,0 +1,368 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    b) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The report is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–4064):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • "all of it have failed" should be "all of which had failed"
+        • "Lee had meet" should be "Lee had met"
+        • "am turned back" should be "were turned back"
+        • "the Confederacy, for its part, is" should be "the Confederacy, for its part, was"
+        • "who coulded" should be "who could"
+        • "not to remained" should be "not to remain"
+  Coherence Issues:
+    - [STRUCTURE]:
+        • Abrupt transition from discussing the war in the East to the war in the West
+    - [CLARITY]:
+        • Unclear connection between the introduction of Maj. Gen. Ulysses S. Grant and the previous discussion
+    - [LOGIC]:
+        • The text jumps abruptly from discussing the failures of previous Union commanders to discussing the Union strategy in 1864
+
+Section section_02 (Chars 4065–8196):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • "woulded" instead of "would"
+    - [LEXICON]:
+        • Some sentences are wordy or contain complex phrases
+  Coherence Issues:
+    - [STRUCTURE]:
+        • Abrupt transition from describing the battles to introducing the city of Petersburg
+    - [CLARITY]:
+        • Some sentences are dense with historical details, potentially confusing readers
+
+Section section_03 (Chars 8197–12554):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • "which could provided" should be "which could have provided"
+    - [SPELLING]:
+        • None notable
+    - [SYNTAX]:
+        • Some sentences are long and convoluted
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition from discussing the importance of Petersburg to the Battle of Petersburg
+    - [STRUCTURE]:
+        • The text jumps between different topics without clear connections
+    - [CLARITY]:
+        • Some sentences are wordy and unclear
+
+Section section_04 (Chars 12555–16691):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • "am taking" should be "were taking"
+    - [SYNTAX]:
+        • Some sentences are long and convoluted
+    - [LEXICON]:
+        • "busily engaged" is repeated
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between paragraphs
+    - [STRUCTURE]:
+        • Some sections feel like a list of events rather than a cohesive narrative
+    - [CLARITY]:
+        • Unclear timelines and locations at times
+
+Section section_05 (Chars 16692–20960):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Minor punctuation errors
+    - [LEXICON]:
+        • Some sentences are wordy
+    - [SYNTAX]:
+        • A few complex sentences are hard to follow
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between paragraphs
+    - [STRUCTURE]:
+        • Some sections feel disconnected from the main narrative
+    - [CLARITY]:
+        • A few sentences are unclear due to lack of context
+
+Section section_06 (Chars 20960–25213):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • "have already begun work" should be "had already begun work" for subject-verb agreement
+    - [LEXICON]:
+        • Some sentences are wordy and could be more concise
+  Coherence Issues:
+    - [STRUCTURE]:
+        • Abrupt transition between the description of the siege and the introduction of the mining plan
+    - [CLARITY]:
+        • Some sentences are long and convoluted, making them hard to follow
+
+Section section_07 (Chars 25214–29439):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • "had learn" should be "had learned"
+        • "a plan of battle had am evolved" is grammatically incorrect
+        • "the fuse have burned out" should be "the fuse had burned out"
+        • "the powder was sandbagged to direct the force of the explosion upward" could be rephrased for clarity
+    - [SPELLING]:
+        • "carry out" should be "carried out"
+        • "changed his plans at the last moment" could be rephrased for clarity, but "changed" is correct
+  Coherence Issues:
+    - [LOGIC]:
+        • The transition between the description of the tunnel and the preparations for the attack could be smoother
+    - [STRUCTURE]:
+        • The text jumps abruptly from discussing the tunnel's construction to the battle plan
+    - [CLARITY]:
+        • Some sentences are long and convoluted, making them hard to follow
+
+Section section_08 (Chars 29440–33749):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Missing articles in some sentences
+    - [SYNTAX]:
+        • Complex sentence structures may hinder readability
+    - [LEXICON]:
+        • Some vocabulary may be unfamiliar to non-historical readers
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between describing the battle and introducing the "Outline of Crater" section
+    - [STRUCTURE]:
+        • The text jumps between different times and events without clear connections
+    - [CLARITY]:
+        • Some sentences are long and convoluted, making it hard to follow the narrative
+
+Section section_09 (Chars 33750–38185):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • "killed, wound, or captured" should be "killed, wounded, or captured"
+        • "am begun" should be "had begun"
+        • "am in" should be "were in"
+        • "took advantage" should be "took advantage of"
+        • "am lost" should be "had been lost"
+        • "am" should be "had been" or "was"
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between discussing the failure of the Union army and the future direction of the campaign
+    - [STRUCTURE]:
+        • The text jumps between different events and dates without clear connections
+    - [CLARITY]:
+        • Some sentences are wordy and hard to follow
+
+Section section_10 (Chars 38186–42288):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • "He succeed" should be "He succeeded"
+    - [SPELLING]:
+        • No major issues detected
+    - [SYNTAX]:
+        • Some sentences are long and convoluted
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between paragraphs
+    - [STRUCTURE]:
+        • Lack of clear connection between some events
+    - [CLARITY]:
+        • Some sentences are wordy and hard to follow
+
+Section section_11 (Chars 42289–46574):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor sentence structure complexity
+    - [LEXICON]:
+        • occasional use of less common vocabulary
+  Coherence Issues:
+    - [LOGIC]:
+        • some transitions between paragraphs could be smoother
+    - [STRUCTURE]:
+        • minor jumps in the narrative timeline
+
+Section section_12 (Chars 46575–50724):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Missing article in "the Petersburg campaign was grim business" could be improved for better fluency
+    - [SYNTAX]:
+        • Some sentences are wordy and could be structured for easier reading
+    - [LEXICON]:
+        • Use of "penetrated rain" is unclear and could be rephrased for better understanding
+  Coherence Issues:
+    - [STRUCTURE]:
+        • Abrupt transition from descriptive text to listing of dates and events
+    - [CLARITY]:
+        • Lack of clear connection between the descriptions of soldier life and the listed events
+    - [LOGIC]:
+        • The text jumps between discussing the campaign's effects on soldiers and describing specific battles without a clear narrative thread
+
+Section section_13 (Chars 50725–55141):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • "have cleared" should be "had cleared"
+        • "wish" should be "wished"
+        • "Lee agree" should be "Lee agreed"
+        • "Shoulded" is not a word, likely meant "Should"
+        • "rushed" should be "rush"
+  Coherence Issues:
+    - [LOGIC]:
+        • The transition between the description of the military situation and the discussion of Lee's possible solutions could be smoother
+    - [STRUCTURE]:
+        • The text jumps abruptly from discussing the overall military situation to focusing on Lee's plans without a clear connecting sentence
+
+Section section_14 (Chars 55142–59371):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • "Blue-clad pickets were silence" should be "Blue-clad pickets were silenced"
+    - [SPELLING]:
+        • "vicious crossfire and many Confederates preferred surrender to withdrawal" is a long sentence and could be broken up for better flow
+    - [SYNTAX]:
+        • Some sentences are wordy and could be simplified for easier reading
+  Coherence Issues:
+    - [LOGIC]:
+        • The transition between the description of the battle and the introduction of the chapter title "FIVE FORKS: BEGINNING OF THE END" feels abrupt
+    - [STRUCTURE]:
+        • The text jumps between different parts of the battle without clear transitions
+    - [CLARITY]:
+        • Some sentences are confusing due to the large number of proper nouns and locations
+
+Section section_15 (Chars 59372–63718):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • verb tense inconsistencies
+    - [LEXICON]:
+        • some words are used in slightly informal or outdated contexts
+    - [SYNTAX]:
+        • a few sentences are wordy or have complex structures
+  Coherence Issues:
+    - [LOGIC]:
+        • occasional jumps in the narrative timeline
+    - [STRUCTURE]:
+        • some paragraphs lack clear transitions
+    - [CLARITY]:
+        • a few sentences are dense with proper nouns and dates
+
+Section section_16 (Chars 63719–68185):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • "Troops were prepare" should be "Troops were prepared"
+    - [SPELLING]:
+        • No major issues detected
+    - [SYNTAX]:
+        • Some sentences are long and complex, but generally clear
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between the description of the Battle of Five Forks and the start of the chapter "FALL OF PETERSBURG AND RICHMOND"
+    - [STRUCTURE]:
+        • The text jumps between different events and locations, but overall narrative is clear
+    - [CLARITY]:
+        • Some sentences are dense with historical details, potentially confusing for non-expert readers
+
+Section section_17 (Chars 68185–72013):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • "kill" should be "killed"
+    - [SPELLING]:
+        • "discover" should be "discovered"
+    - [LEXICON]:
+        • "man" should be "manned"
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between the description of the battle and the discussion of the war's outcome
+    - [STRUCTURE]:
+        • lack of clear connection between some paragraphs
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

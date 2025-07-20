@@ -1,0 +1,182 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) Read and understand the summary of the text the report was created for.
+    b) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    c) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The summary of the text to be evaluated is given below:
+Summary: Paolo Veronese was a renowned painter born in Verona in 1528. He was known for his unique style, which was characterized by his use of color and composition. Veronese's paintings often featured scenes of everyday life, mythology, and religion, but he was not concerned with historical accuracy. Instead, he focused on creating beautiful and captivating works of art.
+
+Veronese's early life and training are not well-documented, but it is known that he was apprenticed to his uncle, Antonio Badile, and later worked with Giovanni Carotto. He quickly gained recognition for his talent and was commissioned to paint several works, including a series of frescoes for the palace of Portesco in Tiene.
+
+In 1555, Veronese moved to Venice, where he became a prominent figure in the art world. He was known for his prolific output and his ability to work quickly and efficiently. Veronese's paintings often featured elaborate scenes with many figures, and he was particularly skilled at capturing the play of light and color.
+
+One of Veronese's most famous works is "The Wedding at Cana," which was painted for the refectory of the convent of San Giorgio Maggiore. The painting features a large gathering of people, including Jesus and his disciples, and is characterized by its vibrant colors and intricate details.
+
+Veronese's success in Venice was not without controversy, however. In 1573, he was summoned before the Inquisition to answer charges of irreverence and heresy. The charges were related to his painting "The Feast at the House of Levi," which featured a number of secular figures and was deemed to be inappropriate for a religious work.
+
+Despite the controversy, Veronese continued to work and produce many notable paintings. He was particularly known for his use of color and his ability to capture the essence of Venice and its people. Veronese's paintings often featured scenes of everyday life, including markets, festivals, and other public gatherings.
+
+In addition to his work in Venice, Veronese also painted for a number of other cities and patrons. He was particularly favored by the Pisani family, for whom he painted a number of works, including "The Family of Darius at the Feet of Alexander." This painting, which is now in the National Gallery in London, features a large gathering of figures and is characterized by its intricate details and vibrant colors.
+
+Veronese's later years were marked by continued success and productivity. He painted a number of notable works, including "The Triumph of Venice," which was commissioned by the Venetian government. This painting, which is now in the Ducal Palace, features a large gathering of figures and is characterized by its vibrant colors and intricate details.
+
+Veronese died in 1588, at the age of 60. His legacy as a painter has endured for centuries, and he is still considered one of the greatest artists of the Renaissance. His use of color and composition, as well as his ability to capture the essence of everyday life, have made his paintings some of the most beloved and admired in the world.
+
+Throughout his career, Veronese was known for his prolific output and his ability to work quickly and efficiently. He was a true master of his craft, and his paintings continue to inspire and delight people to this day. Veronese's work can be found in museums and galleries around the world, and he remains one of the most celebrated and admired artists of all time.
+
+The report for the text is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–8276):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Inconsistent verb tense usage
+    - [SYNTAX]:
+        • Run-on sentences and lack of punctuation
+    - [LEXICON]:
+        • Overly complex vocabulary
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between chapters
+    - [STRUCTURE]:
+        • Disorganized narrative flow
+    - [CLARITY]:
+        • Unclear sentence structure
+
+Section section_02 (Chars 8277–16885):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Inconsistent verb tense usage
+    - [SYNTAX]:
+        • Awkward sentence structure in some passages
+    - [LEXICON]:
+        • Overly complex vocabulary in certain sections
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transitions between paragraphs
+    - [STRUCTURE]:
+        • Lack of clear chronological order in some sections
+    - [CLARITY]:
+        • Unclear sentences due to poor word choice
+
+Section section_03 (Chars 16886–25390):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Inconsistent verb tense usage
+    - [SYNTAX]:
+        • Complex sentence structures
+    - [LEXICON]:
+        • Some archaic vocabulary
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between paragraphs
+    - [STRUCTURE]:
+        • Lack of clear chronological order
+    - [CLARITY]:
+        • Overly descriptive passages
+
+Section section_04 (Chars 25390–33800):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Inconsistent verb tense usage
+    - [SYNTAX]:
+        • Complex sentence structures
+    - [LEXICON]:
+        • Archaic vocabulary
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt chapter transitions
+    - [STRUCTURE]:
+        • Lack of clear chronological order
+    - [CLARITY]:
+        • Unclear sentences due to lengthy descriptions
+
+Section section_05 (Chars 33801–42422):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • incomplete sentences
+    - [LEXICON]:
+        • unclear word choices
+    - [SYNTAX]:
+        • awkward phrasing
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between ideas
+    - [STRUCTURE]:
+        • lack of clear chronological order
+    - [CLARITY]:
+        • ambiguous sentences
+
+Section section_06 (Chars 42423–48123):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Inconsistent verb tense usage
+    - [SYNTAX]:
+        • Awkward sentence structure in some passages
+    - [LEXICON]:
+        • Word choice could be more precise in certain descriptions
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between paragraphs
+    - [STRUCTURE]:
+        • Lack of clear chronological order in some sections
+    - [CLARITY]:
+        • Some sentences are wordy or contain unclear references
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

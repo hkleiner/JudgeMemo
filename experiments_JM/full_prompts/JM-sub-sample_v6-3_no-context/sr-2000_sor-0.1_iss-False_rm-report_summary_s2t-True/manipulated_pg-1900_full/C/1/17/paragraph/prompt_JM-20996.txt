@@ -1,0 +1,174 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) Read and understand the summary of the text the report was created for.
+    b) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    c) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The summary of the text to be evaluated is given below:
+Summary: The author participated in a historic movement, establishing a system of free public schools in the Philippine Islands. On July 23, 1901, the US Government sent 499 trained men and women to the islands to implement this system. The author traveled to the Philippines, stopping at Honolulu, where they visited the Pali and the Bishop Museum of Polynesian Ethnology. They then arrived in Manila, where they were introduced to the local culture and customs.
+
+The author describes the city of Manila, with its mix of American, Chinese, and Filipino influences. They note the contrast between the old city, with its medieval architecture, and the new city, which has sprung up around it. The author also describes the local people, including the women, who wear traditional clothing and chew tobacco.
+
+The author and their fellow teachers were assigned to various stations, and they describe their experiences in the town of Bacalod. They note the challenges of teaching in a new and unfamiliar environment, where the students had limited knowledge of English. The author also describes the local customs and traditions, including the "baile," a social gathering where music and dance are featured.
+
+The author provides a sketch of life in the Philippines, describing the contrast between the active, progressive city of Manila and the quiet, rural towns. They note the difficulties of transportation and the restrictions on trade, which make it challenging to live in the countryside. The author also describes the different classes of Filipinos, including the rich, who live in luxury, and the poor, who struggle to survive.
+
+The author visits a leper colony, where they are struck by the poverty and suffering of the inhabitants. They describe the primitive conditions and the lack of medical care, and they note the resilience and dignity of the people despite their circumstances. The author also goes on a "hike" with a group of soldiers, where they pursue a band of ladrones, or outlaws, through the mountains.
+
+Throughout the text, the author reflects on the challenges and opportunities of living and working in the Philippines. They note the beauty and richness of the culture, as well as the poverty and inequality. The author's experiences provide a unique perspective on the history and culture of the Philippines during this period. The text also highlights the author's personal growth and development as they navigate the challenges of living in a new and unfamiliar environment. Overall, the author's account provides a vivid and engaging portrait of life in the Philippines during the early 20th century.
+
+The report for the text is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–8857):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Minor punctuation issues
+    - [LEXICON]:
+        • Some outdated vocabulary
+    - [SYNTAX]:
+        • A few sentences with complex structure
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between chapters
+    - [STRUCTURE]:
+        • Disconnected ideas within paragraphs
+    - [CLARITY]:
+        • Some sentences are wordy or unclear
+
+Section section_02 (Chars 8858–17615):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [SYNTAX]:
+        • long, convoluted sentence structures
+    - [LEXICON]:
+        • occasional use of outdated vocabulary
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transitions between scenes
+    - [CLARITY]:
+        • some sentences are wordy or unclear
+    - [LOGIC]:
+        • occasional lack of logical connection between ideas
+
+Section section_03 (Chars 17616–26104):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • abrupt sentence transitions
+    - [LEXICON]:
+        • some words may be unfamiliar to non-native speakers
+    - [SYNTAX]:
+        • complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • disjointed narrative between scenes
+    - [STRUCTURE]:
+        • lack of clear connections between paragraphs
+    - [TRANSITION]:
+        • abrupt changes in setting and topic
+
+Section section_04 (Chars 26104–34928):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [LEXICON]:
+        • some words may be unfamiliar to non-native speakers
+    - [SYNTAX]:
+        • long, winding sentences
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transition between topics
+    - [CLARITY]:
+        • some sentences are wordy or unclear
+    - [LOGIC]:
+        • occasional lack of logical connection between ideas
+
+Section section_05 (Chars 34929–43507):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Complex sentence structures
+    - [LEXICON]:
+        • Some archaic vocabulary
+    - [SYNTAX]:
+        • Long, winding sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between ideas
+    - [STRUCTURE]:
+        • Lack of clear paragraphing
+    - [CLARITY]:
+        • Some sentences are wordy and unclear
+
+Section section_06 (Chars 43508–52113):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [SYNTAX]:
+        • long, convoluted sentence structures
+    - [LEXICON]:
+        • some words are overly formal or outdated
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between ideas
+    - [STRUCTURE]:
+        • lack of clear narrative progression
+    - [CLARITY]:
+        • some sentences are unclear or confusing
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

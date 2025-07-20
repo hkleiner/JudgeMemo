@@ -1,0 +1,94 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) Read and understand the summary of the text the report was created for.
+    b) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    c) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The summary of the text to be evaluated is given below:
+Summary: The author reflects on their own journey into the teaching profession, which was not a deliberate choice, but rather a default option after college. Many of their peers also entered the profession without a clear passion for teaching. The author shares the story of two young men who entered the teaching profession under similar circumstances, but with different approaches. One man, who became a school superintendent, was more interested in other pursuits and saw teaching as a temporary job. In contrast, another young man was dedicated to making teaching a profession and was enthusiastic about creating a positive learning environment.
+
+The author visits a school where the first young man is working and notices the lack of attention to detail in the school's setup, such as the arrangement of desks and seats. The author attributes this to the superintendent's lack of interest in his job. On the other hand, the second young man is passionate about teaching and has taken the initiative to create a positive learning environment, including offering a course in agriculture to students.
+
+The author emphasizes the importance of making teaching a profession, rather than just a job. They discuss the factors that contribute to a teacher's success, including personality, preparation, and experience. A pleasing and forceful personality is essential for a teacher, and it should be cultivated to the greatest possible degree. The author also stresses the importance of proper dress and demeanor for teachers, as it can make a significant impression on students and employers.
+
+When applying for teaching positions, candidates should be honest about their strengths and weaknesses, and should not claim to be able to teach any subject or grade level. The author advises candidates to be specific about their qualifications and experience, and to provide responsible references who can vouch for their abilities. It is also essential for teachers to continually broaden their general education and specialize in their chosen field.
+
+The author shares examples of candidates who have applied for teaching positions, including a young woman who was well-qualified but lacked "dress sense," and a young man who was only interested in the highest-paying job. In contrast, a young woman who had taught for two years and was seeking further specialization in her field was a more attractive candidate. The author concludes that the teaching profession requires dedication, passion, and a commitment to continuous learning and improvement. By making teaching a profession, rather than just a job, educators can create a positive and supportive learning environment that benefits students and society as a whole.
+
+The report for the text is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–8908):
+Section Summary: The author recounts how they became a teacher by chance, without any prior aspiration or preparation, and how this was a common experience for many of their associates. The author then shares two contrasting stories of young men who entered the teaching profession, one who was uninterested and unprepared, and another who was enthusiastic and dedicated to making a positive impact. The second young man's attention to detail and commitment to creating a comfortable learning environment ultimately led to his success and advancement in the field. In contrast, the first young man's lack of interest and preparation led to a negative experience. The author emphasizes the importance of personality, preparation, and experience in a teacher's success, and notes that a pleasing and forceful personality is a key factor in attracting and inspiring young people.
+Scores:
+  - Fluency: 3.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • incomplete sentences
+    - [SPELLING]:
+        • typos and missing words
+    - [SYNTAX]:
+        • awkward phrasing
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt jumps between ideas
+    - [STRUCTURE]:
+        • lack of clear transitions
+    - [CLARITY]:
+        • ambiguous sentences
+
+Section section_02 (Chars 8908–12264):
+Section Summary: A teacher should make a good impression, including dressing professionally, as it reflects their "dress sense" and ability to instruct students. To be successful, a teacher must have a good general education and specialize in their chosen field, while also continually broadening their knowledge. When applying for positions, teachers should be careful in filling out application blanks and choose responsible references who can speak to their qualifications. A teacher's motivation for applying for a position should be understood by their current superintendent, who can then provide support and assistance. Ultimately, a teacher's goal should be professional growth and improvement, rather than just seeking a higher-paying job.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Some sentence structures are complex and wordy
+    - [LEXICON]:
+        • A few words are somewhat formal or outdated
+    - [SYNTAX]:
+        • Occasional lack of transitions between sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • Some paragraphs seem disconnected from the main idea
+    - [STRUCTURE]:
+        • The text jumps between different topics without clear connections
+    - [CLARITY]:
+        • A few sentences are wordy and difficult to understand
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

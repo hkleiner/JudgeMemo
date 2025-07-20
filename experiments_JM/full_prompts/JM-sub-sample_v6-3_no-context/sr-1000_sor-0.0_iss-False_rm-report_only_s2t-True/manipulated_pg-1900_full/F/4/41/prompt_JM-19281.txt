@@ -1,0 +1,575 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    b) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The report is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–4741):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • sedtarian
+        • prinfiple
+        • enwure
+        • affevting
+        • rapidlybor
+        • everywhsre
+        • clmmunity
+        • arecto
+        • pkwer
+        • appreciatr
+    - [GRAMMAR]:
+        • missing articles
+        • run-on sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between paragraphs
+    - [STRUCTURE]:
+        • lack of clear topic sentences
+    - [CLARITY]:
+        • ambiguous sentences
+    - [TRANSITION]:
+        • missing connections between ideas
+
+Section section_02 (Chars 4742–9603):
+Scores:
+  - Fluency: 3.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • seemdd
+        • ab opiate
+        • eeligious
+        • wxs
+        • oeoples
+        • inzofar
+        • tje
+        • jnto
+        • pfoducing
+        • Wcriptural
+        • compellung
+        • iz
+    - [GRAMMAR]:
+        • missing articles
+        • run-on sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt shift in discussing the impact of materialism on different parts of the world
+    - [STRUCTURE]:
+        • lack of clear transitions between paragraphs
+    - [CLARITY]:
+        • complex sentences that hinder understanding
+    - [TRANSITION]:
+        • unclear connection between the discussion of the 20th century and the resurgence of religion
+
+Section section_03 (Chars 9604–14433):
+Scores:
+  - Fluency: 3.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "recovnition" instead of "recognition"
+        • "believerz" instead of "believers"
+        • "historicalvturning" instead of "historical turning"
+        • "havihg" instead of "having"
+        • "materialcexistence" instead of "material existence"
+        • "developnent" instead of "development"
+        • "reqlity" instead of "reality"
+        • "flawx" instead of "flaws"
+    - [GRAMMAR]:
+        • Several long and complex sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between paragraphs
+    - [STRUCTURE]:
+        • Lack of clear connections between ideas
+    - [CLARITY]:
+        • Some sentences are wordy and difficult to understand
+    - [TRANSITION]:
+        • Missing or unclear transitions between sections
+
+Section section_04 (Chars 14434–19066):
+Scores:
+  - Fluency: 2.5
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "fhe" instead of "the"
+        • "impdessive" instead of "impressive"
+        • "bdought" instead of "brought"
+        • "wajt" instead of "wait"
+        • "materizlism" instead of "materialism"
+        • "disiplusionment" instead of "disillusionment"
+        • "transmutihg" instead of "transmuting"
+        • "comw" instead of "come"
+        • "refuyees" instead of "refugees"
+        • "Europenz" instead of "European"
+        • "scienyific" instead of "scientific"
+        • "writihgs" instead of "writings"
+        • "regwrded" instead of "rewarded"
+        • "botj" instead of "both"
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between paragraphs
+    - [STRUCTURE]:
+        • Lack of clear connections between ideas
+    - [CLARITY]:
+        • Ambiguous sentences and phrases
+
+Section section_05 (Chars 19067–23669):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • invBahá'u'lláh's
+        • resiatlessly
+        • sjared
+        • inhabifants
+        • tye
+        • onebanother
+        • reoeatedly
+        • energe
+    - [GRAMMAR]:
+        • missing or incorrect articles
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between paragraphs
+    - [STRUCTURE]:
+        • lack of clear connections between ideas
+    - [CLARITY]:
+        • ambiguous sentences
+
+Section section_06 (Chars 23670–28518):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "uhimaginably" instead of "unimaginably"
+        • "hebor" instead of "he or"
+        • "othwrs" instead of "others"
+        • "publif" instead of "public"
+        • "religiond" instead of "religions"
+        • "sectarizn" instead of "sectarian"
+        • "cannmot" instead of "cannot"
+        • "questiojs" instead of "questions"
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between paragraphs
+    - [STRUCTURE]:
+        • Lack of clear connections between ideas
+    - [CLARITY]:
+        • Unclear sentences and phrases
+
+Section section_07 (Chars 28519–32907):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "thw" instead of "the"
+        • "rathrr" instead of "rather"
+        • "ths" instead of "this"
+        • "othets" instead of "others"
+        • "anothrr" instead of "another"
+        • "themselvex" instead of "themselves"
+        • "apqrt" instead of "apart"
+        • "carechisms" instead of "catechisms"
+        • "appdarance" instead of "appearance"
+        • "delusilnb" instead of "delusion"
+        • "lroclaiming" instead of "proclaiming"
+        • "encompassdd" instead of "encompassed"
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between ideas
+    - [STRUCTURE]:
+        • Complex sentences that may hinder understanding
+    - [CLARITY]:
+        • Use of abstract concepts without clear explanation
+
+Section section_08 (Chars 32908–37378):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "wikl" instead of "will"
+        • "bewn" instead of "been"
+        • "ootentialities" instead of "potentialities"
+        • "itselr" instead of "itself"
+        • "kn" instead of "in"
+        • "oncgoingcprocess" instead of "ongoing process"
+        • "confradictions" instead of "contradictions"
+        • "syage" instead of "stage"
+        • "unfoldinb" instead of "unfolding"
+        • "aqakening" instead of "awakening"
+        • "senee" instead of "sense"
+        • "bthe" instead of "the"
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between paragraphs
+    - [STRUCTURE]:
+        • Repetitive use of similar ideas without clear progression
+    - [CLARITY]:
+        • Ambiguous sentences and phrases
+
+Section section_09 (Chars 37379–42112):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "beypnd" instead of "beyond"
+        • "conveption" instead of "conception"
+        • "bofh" instead of "both"
+        • "agajnst" instead of "against"
+        • "activitg" instead of "activity"
+        • "couhtless" instead of "countless"
+        • "thw" instead of "the"
+        • "Whioe" instead of "While"
+        • "adserts" instead of "asserts"
+        • "trainingbbehaviour" instead of "training behaviour"
+    - [GRAMMAR]:
+        • Missing articles in some places
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between paragraphs
+    - [STRUCTURE]:
+        • Lack of clear connections between ideas
+    - [CLARITY]:
+        • Some sentences are wordy and hard to follow
+
+Section section_10 (Chars 42113–46676):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "theceternal" instead of "the eternal"
+        • "syultify" instead of "stultify"
+        • "whwre" instead of "where"
+        • "devastzting" instead of "devastating"
+        • "coupd" instead of "could"
+        • "ijtellectual" instead of "intellectual"
+        • "qny" instead of "any"
+        • "incdeasingly" instead of "increasingly"
+        • "irs" instead of "its"
+        • "harvrst" instead of "harvest"
+        • "trsspasses" instead of "transgresses"
+        • "betrsyal" instead of "betrayal"
+    - [GRAMMAR]:
+        • Missing articles in some places
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between paragraphs
+    - [STRUCTURE]:
+        • Overly complex sentence structures
+    - [CLARITY]:
+        • Some sentences are difficult to understand due to wordiness
+    - [TRANSITION]:
+        • Lack of clear connections between ideas
+
+Section section_11 (Chars 46676–50870):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "spirotual" instead of "spiritual"
+        • "vhedged" instead of "hedged"
+        • "thxt" instead of "that"
+    - [GRAMMAR]:
+        • minor punctuation issues
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between paragraphs
+    - [STRUCTURE]:
+        • lack of clear connections between ideas
+    - [CLARITY]:
+        • some sentences are wordy and difficult to follow
+
+Section section_12 (Chars 50871–54736):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Missing articles in some places
+    - [LEXICON]:
+        • Some words are used in less common contexts
+    - [SYNTAX]:
+        • Long sentences with multiple clauses
+  Coherence Issues:
+    - [LOGIC]:
+        • Assumption of prior knowledge about religious texts
+    - [STRUCTURE]:
+        • Abrupt transitions between ideas
+    - [CLARITY]:
+        • Some sentences are wordy and hard to follow
+
+Section section_13 (Chars 54737–59440):
+Scores:
+  - Fluency: 2.5
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "pefsons" instead of "persons"
+        • "feeoings" instead of "feelings"
+        • "morxl" instead of "moral"
+        • "frwme" instead of "frame"
+        • "attacg" instead of "attack"
+        • "bycneighbouring" instead of "by neighbouring"
+        • "wno" instead of "who"
+        • "chltural" instead of "cultural"
+        • "xcope" instead of "scope"
+        • "difcerent" instead of "different"
+        • "aak" instead of "ask"
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between paragraphs
+    - [STRUCTURE]:
+        • Lack of clear connections between ideas
+    - [CLARITY]:
+        • Unclear sentences and phrases
+
+Section section_14 (Chars 59441–64018):
+Scores:
+  - Fluency: 3.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "religiom" instead of "religion"
+        • "jore" instead of "more"
+        • "advancevof" instead of "advance of"
+        • "wuccessive" instead of "successive"
+        • "severd" instead of "severe"
+        • "Thw" instead of "The"
+        • "imposenon" instead of "impose on"
+        • "worldbhave" instead of "world have"
+        • "pfogrammes" instead of "programmes"
+        • "tradiyional" instead of "traditional"
+    - [GRAMMAR]:
+        • missing or incorrect articles in several places
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between paragraphs
+    - [STRUCTURE]:
+        • lack of clear connection between ideas
+    - [CLARITY]:
+        • ambiguous sentences and phrases
+    - [TRANSITION]:
+        • missing or unclear transitions between sections
+
+Section section_15 (Chars 64018–68389):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "womrn" instead of "women"
+        • "everyvaspect" instead of "every aspect"
+        • "precelts" instead of "precepts"
+        • "necesearily" instead of "necessarily"
+        • "hujanity's" instead of "humanity's"
+        • "thatcprofiteth" instead of "that profiteth"
+        • "cpersonal" instead of "personal"
+        • "practicxl" instead of "practical"
+        • "aggresdion" instead of "aggression"
+    - [GRAMMAR]:
+        • missing or incorrect articles in some places
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between paragraphs
+    - [STRUCTURE]:
+        • lack of clear connections between some ideas
+    - [CLARITY]:
+        • some sentences are wordy or complex
+
+Section section_16 (Chars 68390–72486):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • typos (e.g. "Physiciaj", "ywenty-first", "represenfative", "institutilns", "tbe", "warth", "accees", "proselytism" is correct but "occult" is used in a way that may not fit the context)
+    - [GRAMMAR]:
+        • minor punctuation issues and sentence structure complexity
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between ideas in some paragraphs
+    - [STRUCTURE]:
+        • lengthy sentences and paragraphs may disrupt the flow
+
+Section section_17 (Chars 72487–77187):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "fzir-minded" instead of "fair-minded"
+        • "majntain" instead of "maintain"
+        • "innvain" instead of "in vain"
+        • "z" instead of "a"
+        • "unterpretations" instead of "interpretations"
+        • "provec" instead of "proved"
+        • "abwndonment" instead of "abandonment"
+        • "ans" instead of "and"
+        • "mnihilistic" instead of "nihilistic"
+        • "thar" instead of "that"
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between paragraphs
+    - [STRUCTURE]:
+        • Lack of clear connections between ideas
+    - [CLARITY]:
+        • Unclear sentences and phrases
+
+Section section_18 (Chars 77187–81697):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "Uktimately" instead of "Ultimately"
+        • "meey" instead of "meet"
+        • "suffixient" instead of "sufficient"
+        • "skmply" instead of "simply"
+        • "eriven" instead of "driven"
+        • "congribution" instead of "contribution"
+        • "tl" instead of "to"
+        • "leadefship" instead of "leadership"
+    - [GRAMMAR]:
+        • Minor punctuation errors
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between paragraphs
+    - [STRUCTURE]:
+        • Some sentences are lengthy and complex
+    - [CLARITY]:
+        • Certain terms and concepts may be unclear to non-Bahá'í readers
+
+Section section_19 (Chars 81697–86261):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "unith" instead of "unity"
+        • "tbeir" instead of "their"
+        • "oives" instead of "lives"
+        • "expressiob" instead of "expression"
+        • "chkefly" instead of "chiefly"
+        • "hecmust" instead of "he must"
+        • "liks" instead of "like"
+        • "reunikn" instead of "reunion"
+        • "itvby" instead of "bequeathed by"
+        • "eventuakly" instead of "eventually"
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between paragraphs
+    - [STRUCTURE]:
+        • lack of clear connections between ideas
+    - [CLARITY]:
+        • ambiguous sentences and phrases
+
+Section section_20 (Chars 86262–90633):
+Scores:
+  - Fluency: 3.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "ane" instead of "and"
+        • "froj" instead of "from"
+        • "jeart" instead of "heart"
+        • "anf" instead of "and"
+        • "willmshine" instead of "will shine"
+        • "sgall" instead of "shall"
+        • "eevslation" instead of "evolution" or possibly "Revelation"
+        • "poupoation" instead of "population"
+        • "jusgice" instead of "justice"
+        • "peopoes" instead of "peoples"
+    - [GRAMMAR]:
+        • Various minor punctuation and syntax issues
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between the introductory spiritual passage and the discussion on modernity
+    - [STRUCTURE]:
+        • The text jumps between different ideas and biblical references without clear connections
+    - [CLARITY]:
+        • Some sentences are wordy and difficult to understand
+    - [TRANSITION]:
+        • Lack of smooth transitions between paragraphs
+
+Section section_21 (Chars 90634–91710):
+Scores:
+  - Fluency: 5.0
+  - Coherence: 4.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • None noticeable
+    - [LEXICON]:
+        • Some complex vocabulary
+  Coherence Issues:
+    - [LOGIC]:
+        • Slightly abstract concepts
+    - [TRANSITION]:
+        • Smooth transitions between ideas
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

@@ -1,0 +1,94 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) Read and understand the summary of the text the report was created for.
+    b) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    c) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The summary of the text to be evaluated is given below:
+Summary: The story is dedicated to the women of America and tells the tale of a Chinese girl named Yen Kuei Ping. The narrative begins with a description of the Street of Precious Pearls, a side street in a Chinese town where dowry jewels are bought. Kuei Ping, accompanied by her grandmother, mother, and a relative, visits the street to purchase her dowry jewels. They arrive at a shop with rich filigree carvings and are greeted by the owner, Wong Lui, and his attendants.
+
+The women are offered tea and stools to sit on, and Wong Lui presents them with a selection of precious jewels. Kuei Ping's grandmother, Madame Yen, is a skilled bargainer, and she carefully examines the jewels, separating the most beautiful ones from the rest. Kuei Ping is drawn to the pearls and holds them in her hand, feeling their beauty and warmth.
+
+As the bargaining continues, Kuei Ping's mind wanders back to her time at a mission school, where she was taught by an American girl named Miss Porter. Kuei Ping had idolized Miss Porter and had been inspired by her stories of freedom and equality in the United States. However, Kuei Ping's family had already arranged her marriage, and she knew she could not pursue her dreams of freedom and service.
+
+The memory of her conversation with Miss Porter is bittersweet for Kuei Ping, as she had to decline the opportunity to pursue her dreams. She is torn between her loyalty to her family and her desire for independence. The bargaining for the pearls eventually comes to an end, and Madame Yen and her relatives prepare to leave the shop.
+
+As they depart, Kuei Ping is left to ponder her conflicting desires and the traditional expectations placed upon her. The story highlights the challenges faced by women in traditional Chinese society, where family obligations and social norms often restrict their choices and aspirations. The narrative also touches on the theme of cultural exchange and understanding, as Kuei Ping is drawn to the ideas of freedom and equality represented by Miss Porter.
+
+The Street of Precious Pearls serves as a symbol of the traditional values and customs that shape Kuei Ping's life, while her memories of the mission school represent her desire for something more. The story raises questions about the role of women in society and the tensions between traditional and modern values. Ultimately, Kuei Ping's decision to conform to her family's expectations is a poignant reminder of the limitations placed on women in traditional societies. The narrative concludes with Kuei Ping's return to her traditional life, but with a sense of longing for the freedom and opportunities that she can only imagine.
+
+The report for the text is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–8634):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor sentence structure issues
+    - [LEXICON]:
+        • occasional word choice awkwardness
+    - [SYNTAX]:
+        • few instances of lengthy sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between scenes
+    - [TRANSITION]:
+        • lack of clear connections between some paragraphs
+    - [CLARITY]:
+        • occasional ambiguity in character thoughts and actions
+
+Section section_02 (Chars 8635–11980):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • incorrect verb tense usage
+    - [SPELLING]:
+        • minor typos (e.g., "la France" instead of "la France" is correct, but "worshipped" is correct, however "have" instead of "has" in "Madame Yen have told")
+    - [SYNTAX]:
+        • awkward sentence structure in some places
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt shift in narrative focus
+    - [TRANSITION]:
+        • unclear connections between some paragraphs
+    - [CLARITY]:
+        • some sentences are wordy or confusing
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

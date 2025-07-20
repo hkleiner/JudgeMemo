@@ -1,0 +1,104 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) Read and understand the summary of the text the report was created for.
+    b) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    c) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The summary of the text to be evaluated is given below:
+Summary: Rosa Bonheur was born on March 16, 1822, to a young painter, Raymond Bonheur, and his wife, Sophie Marquis. Her parents were both artistic and encouraged her creative side from a young age. Rosa's early life was marked by poverty and frequent moves, but her parents' love for art and music had a profound impact on her. She began drawing and painting at a young age and was largely self-taught. 
+
+As a child, Rosa was raised in a family that valued art and creativity. Her father, Raymond, was a drawing master, and her mother, Sophie, was a music teacher. Rosa's siblings, Auguste and Isidore, were also encouraged to pursue their artistic interests. The family's financial struggles led to frequent moves, but they always found ways to nurture Rosa's creative talents.
+
+In 1829, the Bonheur family moved to Paris, where Rosa was enrolled in a boys' school. She developed boyish manners and a strong personality, which would stay with her throughout her life. Rosa's father, Raymond, continued to teach drawing and eventually found success as an artist. He became friends with a family named Silvela, who encouraged him to move to Paris.
+
+Rosa's mother, Sophie, passed away in 1833, leaving Raymond to care for their four children. He tried to find Rosa a vocation, but she showed no interest in traditional pursuits like sewing or academics. Instead, she spent her time drawing and painting, and her father eventually allowed her to use his studio. Rosa's first painting, a still life of cherries, showed promise, and her father encouraged her to continue pursuing art.
+
+Rosa spent many hours studying the works of great masters at the Louvre, where she earned the nickname "the little hussard" due to her eccentric clothing. She also spent time in her father's studio, honing her skills and developing her unique style. Rosa's passion for animals led her to study their anatomy and behavior, and she even did some work in dissection.
+
+As Rosa grew older, she became more determined to succeed as an artist. She spent long hours studying and practicing, and her hard work paid off when she was accepted into the Salon in 1841. Her first exhibits were met with little fanfare, but she continued to work tirelessly, and eventually, her talent and sincerity earned her recognition from critics.
+
+Rosa's love for animals led her to keep a menagerie in her home, which included a sheep, a goat, a dog, and various birds. She would often take her pencils and paper to farms and parks to study and draw the animals. Her dedication to her craft and her unique perspective on the natural world set her apart as a talented young artist.
+
+In the early 1840s, Rosa's career began to take off. She sent several paintings to the Salon, including "Evening Effect in a Pasture" and "Horse for Sale." Her work was met with critical acclaim, and she received recognition for her talent and hard work. Rosa's story is one of perseverance and passion, and her legacy as a pioneering female artist continues to inspire and delight art lovers to this day.
+
+Rosa's journey as an artist was not without challenges, but she remained committed to her craft. She continued to study and learn, always seeking to improve her skills and push the boundaries of her art. With her father's support and encouragement, Rosa was able to pursue her dreams and become one of the most celebrated artists of her time.
+
+Overall, Rosa Bonheur's life was marked by a passion for art and a determination to succeed. Despite the challenges she faced, she remained true to herself and her vision, and her legacy continues to inspire artists and art lovers around the world.
+
+The report for the text is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–8496):
+Section Summary: Rosa Bonheur was born in 1822 to a family of artists, with her father Raymond Bonheur being a drawing master and her mother Sophie Marquis a music teacher. Growing up in an artistic environment, Rosa developed a passion for drawing and painting from a young age. The family faced financial struggles and moved to Paris in 1829, where Rosa was raised with her brothers and developed boyish manners. After trying various occupations, Rosa's father allowed her to focus on art, and she created her first painting, a still life of cherries, which showed promise of her artistic talent. With her father's encouragement, Rosa dedicated herself to art, spending hours copying the works of great masters at the Louvre and embarking on a path to become a renowned artist.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [LEXICON]:
+        • occasional use of outdated vocabulary
+    - [SYNTAX]:
+        • some sentences are overly long and convoluted
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transitions between chapters
+    - [CLARITY]:
+        • some sentences are wordy and difficult to follow
+    - [LOGIC]:
+        • occasional lack of clear causal relationships between events
+
+Section section_02 (Chars 8497–12717):
+Section Summary: Rosa Bonheur, also known as "the little hussard," spent her early years studying art at the Louvre and in her father's studio, where she developed a strong foundation in line-work and anatomy. She lived in various locations in Paris, including the Rue Rumford, where she was surrounded by farms and animals, which sparked her passion for painting animals. Rosa's dedication to her craft led her to study animal anatomy, sculpture, and dissection, and she even kept a menagerie in her home to observe and draw her subjects. In 1841, at the age of 19, she submitted her first paintings to the Salon, which were accepted, and she continued to exhibit her work annually, eventually gaining recognition from critics for her sincere and vigorous talent. Through her hard work and perseverance, Rosa established herself as a skilled painter of animals, known for her attention to detail and ability to capture their physiognomies and actions with fidelity and art.
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor sentence structure issues
+    - [LEXICON]:
+        • occasional use of less common vocabulary
+    - [SYNTAX]:
+        • a few instances of complex sentence syntax
+  Coherence Issues:
+    - [LOGIC]:
+        • slight abruptness in transitioning between ideas
+    - [STRUCTURE]:
+        • minor inconsistencies in narrative flow
+    - [CLARITY]:
+        • occasional ambiguity in sentence meaning
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

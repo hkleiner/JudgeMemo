@@ -1,0 +1,291 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) Read and understand the text the report was created for.
+    b) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    c) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The text to be evaluated is given below:
+Text: -SPENCER'S PHILOSOPHY OF SCIENCE-
+
+
+Towards the close of 1870, while I was still in my teens, my youthful
+enthusiasm was fired by reading Tyndall's Discourse on The Scientific
+Use of the Imagination. The vision of the conquest of nature by
+physical science--a vision which had but lately begun to open up to my
+wondering gaze--was rendered clearer and more extensive. Of the theory
+of evolution I knew but little; but I none the less felt assured that it
+had come to stay and to prevail. Was it not accepted by all of us--the
+enlightened and emancipated men of science whose ranks I had joined as a
+raw recruit? Believing that I was independently breaking free of all
+authority, to the authority that appealed to my fancy, and to a new
+loyalty, I was a willing slave. And here in one glowing sentence the
+inner core of evolution lay revealed.
+
+  'Strip it naked and you stand face to face with the notion that
+  not alone the more ignoble forms of animalcular and animal life,
+  not alone the nobler forms of the horse and the lion, not alone
+  the exquisite and wonderful mechanism of the human body, but that
+  the human mind itself--emotion, intellect and all their
+  phenomena--were once latent in a fiery cloud.'
+
+With sparkling eyes I quoted these brave words to a friend of my
+father's, whose comments were often as caustic as his sympathy in my
+interests was kindly. With a grave smile he asked whether the notion was
+not perhaps stripped too naked to preserve the decencies of modest
+thought; he inquired whether I had not learnt from Sartor Resartus
+that the philosophy of nature is a Philosophy of Clothes; and he bade me
+devote a little time to quiet and careful consideration of what Tyndall
+really meant--meant in terms of the exact science he professed--by the
+phrase 'latent in a fiery cloud'. I dimly suspected that the old
+gentleman--old in the sense of being my father's contemporary--was
+ignorant of those recent developments of modern science with which I had
+been acquainted for weeks, nay more for months. Perhaps he had never
+even heard of the nebular hypothesis! But I felt that I had done him an
+injustice when, next morning, he sent round a volume of the Westminster
+Review with a slip of paper indicating an article on 'Progress: its Law
+and Cause'.
+
+Such was my introduction to Herbert Spencer, some of whose works I read
+with admiration during the next few years.
+
+I have no very distinct recollection of the impression produced on my
+mind by the germinal essay of 1857, save that it served to quicken that
+craving, which is, I suppose, characteristic of those who have some
+natural bent towards philosophy--the imperative craving to seek and, if
+it may be, to find the one in the many. In any case Tyndall's suggestive
+sentence was here amplified and the underlying law was disclosed.
+
+  'Whether it be in the development of the Earth, in the development
+  of Life upon its surface, in the development of Society, of
+  Government, of Manufacture, of Commerce, of Language, Literature,
+  Science, Art, the same evolution of the simple into the complex,
+  through successive differentiations, holds throughout. From the
+  earliest traceable cosmical changes down to the latest results of
+  civilisation, we shall find that the transformation of the
+  homogeneous into the heterogeneous, is that in which Progress
+  essentially consists.'
+
+Here was just what I wanted--on the one hand the whole wide universe of
+existence; and on the other hand a brief formula with which to label its
+potted essence. How breathlessly one was led on, with only such breaches
+of continuity as separate paragraphs inevitably impose, right away from
+the primitive fire-mist to one of Bach's fugues or the critical
+doctrines of Mr. Ruskin, guided throughout by the magic of
+differentiation. What if the modes of existence, dealt with in
+successive sections, were somewhat startlingly diverse! Was not this
+itself a supreme example of the evolution of that diversity which the
+formula enables us to interpret? For if there were a passage from the
+homogeneous to the heterogeneous, the more heterogeneous the
+products--inorganic, organic, and superorganic, as I learnt to call
+them--the stronger the evidence for the law. Only by shutting one's eyes
+to the light that had been shed on the world by evolution could one fail
+to see how simple and yet how inevitable was the whole business.
+
+If then differentiation be the cardinal law of evolution--for the
+correlative concept of integration receives no emphasis in this early
+essay--does not the universality of the law imply a universal cause?
+
+Just as gravitation was assignable as a cause of each of the groups of
+phenomena which Kepler formulated; so might some equally simple
+attribute of things be assignable as the cause of each of the groups of
+phenomena formulated in terms of differentiation. Now the only obvious
+respect in which all kinds of Progress are alike, is, that they are
+modes of change; and hence in some characteristic of changes in general,
+the desired solution must be found. Thus we are led up to the statement
+of the all-pervading principle which determines the all-pervading
+process of differentiation. It is this: Every active force produces
+more than one change--every cause produces more than one effect.
+
+In the first part of the Essay many and varied facts are adduced to show
+that every kind of progress is from the simple to the complex. The aim
+of the second part is to show why this is so: it is 'because each change
+is followed by many changes'. From the beginning, the decomposition of
+every expended force into several forces has been perpetually producing
+a higher complication, and thus Progress is not an accident but a
+beneficent necessity. In a brief third part we are bidden to remember
+that
+  'after all that has been said the ultimate mystery remains just as
+  it was. The explanation of that which is explicable does but bring
+  out into greater clearness the inexplicableness of that which
+  remains behind.... The sincere man of science, content to follow
+  wherever the evidence leads him becomes by each new enquiry more
+  profoundly convinced that the Universe is an insoluble problem....
+
+  In all directions his investigations bring him face to face with
+  the unknowable; and he ever more clearly perceives it to be the
+  unknowable'.
+
+There is I think a growing consensus of opinion that the first of
+these three parts, subsequently expanded and illustrated with
+astonishing wealth of detail in the volumes of the Synthetic
+Philosophy, contains the germ of all that is best in the teaching of
+Herbert Spencer; and that it was amid phenomena which admitted of
+interpretation from the biological, or quasi-biological, point of view
+that he found his most congenial sphere of work and the one in which his
+method was most effectively employed. The story of evolution is the
+story of inter-related changes. In any organic whole there are certain
+salient features of the historical sequence. The parts get more
+different from each other, and they also get more effectively connected
+with each other; the individual whole gets more different from its
+environment, and it also preserves and extends its connexion with the
+environment; the several individuals get more different from others,
+while their connexion with others is retained and new connexions are
+established. Nowadays these central ideas may seem familiar enough; but
+that is just because Spencer's thought has been so completely
+assimilated. And then we must remember that these main principles are
+supplemented by a great number of ancillary generalizations, many of
+which have been incorporated in the scientific doctrine which is current
+to-day. We must bear in mind that of the Biology Charles Darwin
+wrote: 'I am astonished at its prodigality of original thought.' Of
+the Psychology William James says that of the systematic treatises
+it will rank as the most original. These are the opinions of experts. No
+of 's sociology or complete it discussion is these contributions ifSpencer
+to ethics ignores subjects. The Ethics, says James is a most
+vital and original piece of attitude-taking in the world of ideals. It
+was his firm and often inflexible 'attitude' which was a source of
+strength in Spencer, though it was the strength of rigidity rather than
+that of sinewy suppleness. This was part of a certain 'narrowness of
+intent and vastness of extent' which characterized his mental vision. He
+was so obsessed with the paramount importance of biological
+relationships that in his Sociology, his Ethics, his Psychology,
+he failed to do justice to, or even to realize the presence of, other
+and higher relationships--higher, that is, in the evolutionary scale.
+
+But signal work merit perhaps interpretation to biological and his it it,
+was all than more, for was worth. It was on these lines that he was
+led to find a clue to those social and political developments, the
+discussion of which, in the Nonconformist of 1842, constituted the
+first step from the life of an engineer to that other kind of life which
+led to the elaboration of the Synthetic Philosophy. In his later
+years he was saddened to see that many of the social and political
+doctrines, for the establishment of which he had striven so strenuously,
+were not accepted by a newer generation of thinkers. Still, to have
+taken a definite and, for all his detractors may say, an honoured
+position in the line of those who make history in the philosophy of life
+and mind--that could never be taken away from him.
+
+It will perhaps be said that this emphasis on the philosophy of life
+and mind does scant justice to the range and sweep of Spencer's
+philosophy as a whole; and no doubt others will contend that the
+emphasis should be laid elsewhere; on the mechanical foundations; on
+evolution as a universal principle. It men urged to be will
+scientific the viewscope widened 's that of Spencer explanation. He proclaimed
+'the gradual growth of all things by natural processes out of natural
+antecedents'. Even in the Nonconformist letters 'there is', he
+himself says, 'definitely expressed a belief in the universality of
+law--law in the realm of mind as in that of matter--law throughout the
+life of society as throughout the individual life. So, too, is it with
+the correlative idea of universal causation.' And if there be law it
+must at bottom be one law. Thus in First Principles Spencer propounded
+a sweeping and sonorous formula, which every disciple knows by heart,
+embodying the fundamental traits of that unceasing redistribution of
+matter and motion which characterizes evolution as contrasted with
+dissolution. Was as that to main contribution he not regarded his it
+this himself philosophy? Did he not himself provide a summary,
+setting forth the sixteen articles of the Spencerian creed; and is not
+this summary given a prominent position in the Preface he wrote to
+Howard Collins's Epitome of the Synthetic Philosophy? Do not these
+fundamental articles of his faith deal with ubiquitous causes, with the
+instability of the homogeneous and the multiplication of effects, with
+segregation and equilibration, and with the basal conception of the
+persistence of force? There is here, it may be said, no special
+reference to the organic and the superorganic. And why? Just because
+Spencer's interpretation is all-inclusive; because biology, psychology,
+sociology, ethics are, broadly considered, concerned only with incidents
+of the later scenes of the great mechanical drama of evolution. Are we
+not again and again bidden, now in forecast, now in retrospect, to look
+below the surface, and constantly to bear in mind that the aim of
+philosophy, as completely unified knowledge, is 'the interpretation of
+all phenomena in terms of Matter, Motion, and Force'? It is true
+that the affairs of the mind give pause and seem to present something of
+a difficulty. But even here 'specifically stated, the problem is to
+interpret mental evolution in terms of the redistribution of matter and
+motion'. An adequate explanation of nervous evolution involves an
+adequate explanation of the concomitant evolution of mind. It is true
+that the antithesis of subject and object is never to be transcended
+'while consciousness lasts'. But if all existence, distinguishable
+as subjective, is resolvable into units of consciousness, which in their
+obverse or objective aspect are oscillations of molecules, what more
+is required to round off the explanation of every thing, save the
+Unknowable--save the Ultimate Reality in which subject and object are
+united? In the end we are baffled by mystery; let us, therefore, make
+the best of it and rejoice.
+
+  'We can think of Matter only in terms of Mind. We can think of
+  Mind only in terms of Matter.
+
+The report for the text is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–9137):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Complex sentence structures
+    - [LEXICON]:
+        • Archaic vocabulary
+    - [SYNTAX]:
+        • Long, winding sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transitions between ideas
+    - [STRUCTURE]:
+        • Lack of clear paragraph organization
+    - [CLARITY]:
+        • Overly dense and convoluted writing
+
+Section section_02 (Chars 9138–12774):
+Scores:
+  - Fluency: 3.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • incomplete sentences
+    - [SYNTAX]:
+        • awkward phrasing
+    - [LEXICON]:
+        • unclear word choice
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt shifts in ideas
+    - [STRUCTURE]:
+        • lack of clear transitions
+    - [CLARITY]:
+        • confusing segments
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

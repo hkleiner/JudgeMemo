@@ -1,0 +1,114 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) Read and understand the summary of the text the report was created for.
+    b) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    c) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The summary of the text to be evaluated is given below:
+Summary: The story begins with a quote from Emerson's "April" and introduces a boy named Davy, who is reading to his uncle, Anthony Croft. Anthony is blind and has a deep love for music, particularly the violin. Davy reads a story about Paganini, a famous violinist, and Anthony is moved by the tale. 
+
+Anthony asks Davy to paint a picture with words, describing the scene outside. Davy vividly describes the sunset, the bridge, and the surrounding landscape. Anthony is delighted by the description and asks Davy to feed the chickens. 
+
+After feeding the chickens, Anthony takes out his violin and begins to play. The music is beautiful and evocative, and Anthony is lost in the sound. The story then flashes back to Anthony's childhood, where he is portrayed as a restless and curious boy who hated school. 
+
+Anthony's mother was a widow, and he was her only son. He longed for knowledge, but the school couldn't provide him with the understanding he sought. Instead, he found solace in the woods, where he would explore and learn about nature. 
+
+Anthony was not a favorite among his teachers, who saw him as lazy and disobedient. However, he was actually a curious and inventive boy who loved to learn through experimentation and discovery. He would often sneak out of the classroom to play with a tuning fork he had hidden outside. 
+
+As Anthony grew older, he didn't change much, and the villagers considered him the laziest boy in town. However, he was actually passionate about learning and understanding the world around him. He would spend hours in the woods, observing nature, and asking questions about the universe. 
+
+Anthony's mother acknowledged that he had a lot of "useless" knowledge, but he could find rare flowers and plants that others couldn't. He would also lie in the woods, listening to birds and imitating their songs. The story highlights Anthony's unique personality and his deep connection to music and nature. 
+
+The contrast between Anthony's love for learning and the constraints of the traditional school system is a significant theme in the story. The author suggests that Anthony's approach to learning, although unorthodox, is more effective and fulfilling for him. 
+
+The story also explores the relationship between Anthony and Davy, which is warm and loving. Davy looks up to Anthony, and Anthony is grateful for Davy's company and descriptions of the world. 
+
+Overall, the story is a poignant and thought-provoking exploration of the human experience, highlighting the importance of individuality, creativity, and a connection to nature. Anthony's character is a powerful reminder that there is no one "right" way to learn or experience the world. 
+
+The author's use of descriptive language and vivid imagery brings the story to life, making it easy to imagine the characters and their surroundings. The story raises important questions about the nature of learning and the role of education in our lives. 
+
+In the end, the story is a celebration of Anthony's unique spirit and his ability to find beauty and meaning in the world around him. Despite the challenges he faces, Anthony remains a hopeful and inspiring figure, and his story is a testament to the power of human creativity and resilience. 
+
+The story of Anthony Croft is a powerful reminder that everyone learns and experiences the world in their own way, and that this individuality is what makes us unique and valuable. By embracing our differences and celebrating our creativity, we can create a more compassionate and inclusive world. 
+
+The author's writing style is engaging and accessible, making the story enjoyable to read and easy to follow. The use of dialogue and descriptive language adds depth and complexity to the narrative, drawing the reader into the world of the story. 
+
+In conclusion, the story of Anthony Croft is a beautiful and thought-provoking exploration of the human experience, highlighting the importance of individuality, creativity, and a connection to nature. The story is a powerful reminder that everyone learns and experiences the world in their own way, and that this individuality is what makes us unique and valuable.
+
+The report for the text is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–7995):
+Section Summary: The story begins with a boy named Davy reading to his uncle, Anthony Croft, who is blind. Anthony is a skilled violinist who believes that the secret to everything beautiful, true, or terrible is hidden in the strings of his violin. Davy and Anthony have a close relationship, and Anthony asks Davy to paint a picture with words, describing the landscape outside. Davy's vivid description is followed by Anthony playing a beautiful melody on his violin, which fills the atmosphere with harmony. The narrative then flashes back to Anthony's childhood, where he struggled in school, feeling stifled by the traditional education system, and instead found solace and inspiration in nature and music.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [LEXICON]:
+        • some words are archaic or less common
+    - [SYNTAX]:
+        • long, complex sentences
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt shift from dialogue to backstory
+    - [CLARITY]:
+        • some sentences are wordy or unclear
+    - [TRANSITION]:
+        • transitions between ideas could be smoother
+
+Section section_02 (Chars 7995–11541):
+Section Summary: The teacher often struggled to keep her students engaged, especially on hot afternoons, and Anthony would sometimes sneak out of the window to play with a tuning fork. As he grew older, Anthony was considered the laziest boy in the village, but this was because he was more interested in pursuing his own interests and learning through personal experience. He was a curious boy, always asking questions about the world around him, such as why the sun drives away the stars and what makes seeds grow. Despite not being in school for the full year, Anthony educated himself by exploring the woods and learning about nature, discovering hidden gems like Mayflowers and rare flowers. He spent his free time observing and imitating the sounds of wild birds, demonstrating his passion for learning and connection with the natural world.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense
+    - [LEXICON]:
+        • some words are outdated or less common
+    - [SYNTAX]:
+        • long, winding sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt shift from describing Tony's behavior in school to his curiosity and self-education
+    - [STRUCTURE]:
+        • non-linear narrative progression
+    - [CLARITY]:
+        • some sentences are wordy or ambiguous
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

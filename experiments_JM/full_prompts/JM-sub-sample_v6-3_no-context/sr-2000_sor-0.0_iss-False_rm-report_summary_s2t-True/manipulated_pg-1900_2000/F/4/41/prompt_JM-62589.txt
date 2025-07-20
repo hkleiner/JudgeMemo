@@ -1,0 +1,105 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) Read and understand the summary of the text the report was created for.
+    b) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    c) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The summary of the text to be evaluated is given below:
+Summary: The story begins with Debby Mason, a 14-year-old girl, living with her father in a log house in Plymouth. Her father, a drunkard, is being forced to leave the town due to his behavior. Debby is devastated and wants to go with him, but he insists on leaving her behind to start a new life. A woman, Mrs. Lane, has taken Debby in and is trying to care for her, but Debby is rebellious and longs for her father.
+
+Debby's mother had died five years earlier, and since then, Debby had been living a wild and uncared-for existence with her father. She had grown accustomed to his rough companions and had learned to fend for herself. However, with her father gone, Debby is forced to adapt to a new and strict life with Mrs. Lane.
+
+Mrs. Lane tries to teach Debby useful skills and discipline her, but Debby resists and longs for her old life. She remembers her mother's words, urging her to be a lady and stay with her father. Debby's heart is hard and bitter, and she struggles to adjust to her new life.
+
+As time passes, Debby grows stronger and more determined. She begins to think about her mother and her words, and she realizes that she has a choice to make. She can continue to rebel against Mrs. Lane and risk being punished, or she can try to make a change and become a better person.
+
+Debby's thoughts are interrupted by the sound of Mrs. Lane's voice, leading the evening devotions. Debby knows that Mrs. Lane will come to her room soon, rod in hand, to settle their account. Debby is torn between her desire to defy Mrs. Lane and her desire to please her mother's memory.
+
+The story takes a turn as Debby begins to think about her father and his possible fate. She wonders if he is dead or alive and if he was involved in the battles at Lexington or Bunker Hill. Debby's hatred for the King grows, and she wishes she could have fought against him.
+
+As the evening draws to a close, Debby knows that she must make a decision. She can continue down the path of rebellion, or she can try to find a new way. The sound of the clock striking seven and the approaching footsteps of Mrs. Lane serve as a reminder that Debby's time is running out. She must decide what kind of person she wants to be and what she is willing to do to achieve her goals.
+
+The report for the text is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–7633):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [SPELLING]:
+        • typos (e.g. "wnether" instead of "whether", "thw" instead of "the", "hef" instead of "her")
+    - [SYNTAX]:
+        • run-on sentences and lack of punctuation
+    - [LEXICON]:
+        • some words are used in an archaic or unclear manner
+  Coherence Issues:
+    - [LOGIC]:
+        • some plot points feel disconnected or unexplained
+    - [STRUCTURE]:
+        • the narrative jumps abruptly between scenes and time periods
+    - [CLARITY]:
+        • Debby's thoughts and feelings are sometimes unclear or hard to follow
+    - [TRANSITION]:
+        • transitions between paragraphs and scenes can be rough
+
+Section section_02 (Chars 7633–11759):
+Scores:
+  - Fluency: 3.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "ujtil" instead of "until"
+        • "sulleb" instead of "sullen"
+        • "punishmejt" instead of "punishment"
+        • "mothsr" instead of "mother"
+        • "vather" instead of "father"
+        • "anx" instead of "and"
+        • "mxde" instead of "made"
+        • "struggpe" instead of "struggle"
+    - [GRAMMAR]:
+        • Missing articles and incorrect verb tenses in some sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition from Debby's conversation with Mrs. Lane to her thoughts about her mother and father
+    - [STRUCTURE]:
+        • The narrative jumps between different ideas and scenes without smooth connections
+    - [CLARITY]:
+        • Some sentences are wordy or unclear, making it difficult to understand the context
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

@@ -1,0 +1,98 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) Read and understand the summary of the text the report was created for.
+    b) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    c) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The summary of the text to be evaluated is given below:
+Summary: The Victorian Age was a time of significant change and transformation in England. Each generation tends to reject the values and ideas of its predecessors, and this was particularly true during the Victorian era. The Industrial Revolution, which began in the late 18th century, brought about rapid changes in technology, economy, and society. The French Revolution and the subsequent wars also had a profound impact on English society, leading to a period of reaction and counter-reaction.
+
+The pendulum of history swings back and forth, with each movement generating a counter-movement. This can be seen in the rise and fall of empires, the growth and decline of ideas, and the evolution of social and political systems. The Victorian Age was a time of great upheaval, with the old social order being dismantled and a new one being built.
+
+Before the Industrial Revolution, England was a relatively stable and prosperous country, with a strong aristocracy and a largely rural population. The aristocracy was highly cultivated and played a significant role in shaping the country's culture and politics. However, the French Revolution and the subsequent wars led to a period of panic and reaction, which made it difficult to implement democratic reforms.
+
+The Industrial Revolution brought about significant changes in the economy and society, with the growth of cities and the development of new industries. However, it also led to significant social and economic problems, including poverty, inequality, and over-population. The working class suffered greatly during this period, with many people living in poverty and squalor.
+
+The government faced significant challenges in responding to these problems, including the need to balance the demands of different social classes and the need to manage the economy. The Poor Law Amendment Act of 1834 was a significant piece of legislation that aimed to address the problem of poverty, but it had significant flaws and was widely criticized.
+
+Despite these challenges, the Victorian Age was also a time of great progress and achievement. The country experienced significant economic growth, and there were major advances in science, technology, and culture. The era saw the emergence of great writers, artists, and thinkers, and it laid the foundations for many of the social and political reforms of the 20th century.
+
+The concept of progress was a dominant idea during the Victorian Age, with many people believing that society was inevitably moving towards a better future. However, this idea was not without its critics, and there were many who argued that progress was not always a positive force. The era also saw the emergence of new social classes, including the industrial bourgeoisie and the working class, which would play a significant role in shaping the country's future.
+
+Overall, the Victorian Age was a complex and multifaceted period in English history, marked by significant social, economic, and cultural changes. It was a time of great upheaval and transformation, but also a time of great progress and achievement. The era laid the foundations for many of the social and political reforms of the 20th century, and its legacy continues to shape English society and culture today.
+
+The report for the text is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–9118):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Complex sentence structures
+    - [LEXICON]:
+        • Some archaic vocabulary
+    - [SYNTAX]:
+        • Long paragraphs with multiple ideas
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transitions between historical periods
+    - [STRUCTURE]:
+        • Lack of clear chronological order
+    - [CLARITY]:
+        • Some sentences are wordy and difficult to follow
+
+Section section_02 (Chars 9119–13017):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Complex sentence structures
+    - [LEXICON]:
+        • Some archaic vocabulary
+    - [SYNTAX]:
+        • Long sentences with multiple clauses
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transitions between ideas
+    - [STRUCTURE]:
+        • Lack of clear paragraph topics
+    - [CLARITY]:
+        • Some sentences are wordy or ambiguous
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

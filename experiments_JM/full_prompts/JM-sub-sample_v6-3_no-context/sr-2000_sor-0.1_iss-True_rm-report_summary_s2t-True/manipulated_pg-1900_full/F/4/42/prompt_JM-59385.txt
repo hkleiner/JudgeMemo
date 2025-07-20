@@ -1,0 +1,249 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) Read and understand the summary of the text the report was created for.
+    b) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    c) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The summary of the text to be evaluated is given below:
+Summary: The story revolves around Kuei Ping, a Chinese woman, and her journey towards self-discovery and freedom. The narrator dedicates the story to the women of America, highlighting the importance of World Fellowship. Kuei Ping's life is marked by her marriage to Fuh Tang, a man from a respected family, and her struggles to balance traditional expectations with her own desires.
+
+Kuei Ping's family is introduced, including her grandmother, Madame Yen, who plays a significant role in her life. The story describes Kuei Ping's wedding day, where she is dressed in heavy garments and veils, and her journey to her new home. She meets her husband, Fuh Tang, for the first time, and they begin their life together.
+
+However, Kuei Ping soon realizes that her life is not her own, and she is bound by traditional customs and expectations. She feels suffocated by the rules and regulations of her new family. Fuh Tang, who has attended a foreign school, is also struggling to find his place in the traditional family setup.
+
+As Kuei Ping navigates her new life, she begins to question the traditional ways and seeks freedom and independence. She is influenced by her teacher, Miss Porter, who introduces her to Western ideas and the concept of personal choice. Kuei Ping's desire for freedom and self-discovery grows, and she starts to make plans to leave her traditional life behind.
+
+Kuei Ping's husband, Fuh Tang, becomes ill, and she is forced to confront the reality of their situation. She realizes that she cannot leave him and that she must care for him and their child. Despite the challenges, Kuei Ping finds a new sense of purpose and meaning in her life.
+
+The story takes a turn as Kuei Ping's husband passes away, leaving her a widow with two children. She is forced to confront the harsh realities of life and find a way to support herself and her children. With the help of her family and friends, Kuei Ping begins to rebuild her life and find a new sense of purpose.
+
+Years pass, and Kuei Ping's children grow up. Her son, Kwan Wa, gets married, and she is finally able to fulfill her dream of building a school and a church. The school becomes a symbol of hope and freedom for the community, and Kuei Ping's story serves as an inspiration to those around her.
+
+The narrator becomes Kuei Ping's pupil and learns about her life and experiences. Through their conversations, the narrator gains a deeper understanding of Kuei Ping's journey and the challenges she faced. The story concludes with Kuei Ping's dream of building a school and a church finally coming true, and she is able to share her knowledge and experience with others.
+
+Kuei Ping's story is one of resilience, courage, and determination. Despite the challenges she faced, she never gave up on her dreams and continued to strive for a better life. Her journey serves as an inspiration to those around her, and her legacy lives on through her school and church. The narrator is grateful to have had the opportunity to learn from Kuei Ping and to share her story with others.
+
+The report for the text is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–8643):
+Section Summary: The story begins with the introduction of the Street of Precious Pearls, a significant location in Chinese towns where dowry jewels are bought for brides. Yen Kuei Ping, a young Chinese girl, visits this street with her grandmother, Madame Yen, and other relatives to purchase her dowry jewels. At a shop owned by Wong Lui, a dealer in jewels, they are greeted with formal courtesy and offered tea, and Madame Yen begins to negotiate the price of the jewels. Kuei Ping is drawn to the pearls and, with her grandmother's guidance, helps select the most beautiful ones. The scene is a significant moment in Kuei Ping's life, and she later reflects on the experience and the care with which the jewels were chosen.
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • incorrect verb tense usage
+    - [SPELLING]:
+        • minor typos (e.g., "was" instead of "were")
+    - [SYNTAX]:
+        • occasional awkward sentence structure
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt shift in narrative (e.g., Kuei Ping's sudden memory of the mission school)
+    - [TRANSITION]:
+        • lack of smooth connection between some paragraphs
+
+Section section_02 (Chars 8644–17136):
+Section Summary: Kuei Ping, who had secretly admired the idea of freedom and equality represented by her American teacher, Miss Porter, is now preparing for her arranged marriage to Chia Fuh Tang, a union that was decided by her family and fate. As she gets dressed in her heavy wedding garments, she feels suffocated and uncertain about her future. Her family and servants try to reassure her, praising her beauty and urging her to be calm and serene. The wedding preparations are underway, with the sound of music, gossip, and feasting coming from outside her room. As the time of departure approaches, Kuei Ping is dressed in her final attire, including a veil of pearls, and is ready to leave for her new life with her husband's family.
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • incorrect verb tense usage
+        • missing or incorrect articles
+    - [LEXICON]:
+        • word choice inconsistencies
+    - [SYNTAX]:
+        • sentence structure complexity
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt scene transitions
+    - [STRUCTURE]:
+        • non-linear narrative flow
+    - [CLARITY]:
+        • unclear character motivations
+
+Section section_03 (Chars 17137–25669):
+Section Summary: Kuei Ping, a newlywed bride, is introduced to her husband's family and their traditional customs, which she must follow despite feeling uneasy and trapped. She is forced to sit through a three-day feast, where she is the center of attention and subject to ribald jokes and scrutiny from her new relatives. After the festivities, Kuei Ping begins to feel suffocated by the strict rules and traditions of her new family and longs for freedom. One night, she sneaks out of the compound, feeling the thrill of independence and freedom as she explores the outside world. As she stands outside the walls, she is drawn to the sound of a wandering musician's music, which calls to her and represents a world beyond her confined life.
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor sentence structure issues
+    - [LEXICON]:
+        • some word choices may be less common or slightly archaic
+    - [SYNTAX]:
+        • a few long sentences could be broken up for easier reading
+  Coherence Issues:
+    - [LOGIC]:
+        • occasional jumps in scene or time without clear transitions
+    - [STRUCTURE]:
+        • the narrative sometimes feels a bit disjointed
+    - [CLARITY]:
+        • a few sections could be clearer in their connection to the overall story
+
+Section section_04 (Chars 25670–34243):
+Section Summary: Kuei Ping, a young bride, feels trapped in her traditional life, but her husband Fuh Tang's unexpected visit brings her hope and joy. They decide to leave their families and traditional life behind, and Fuh Tang secures a job as a clerk with the British consul in Peking. They start a new life together, and Kuei Ping becomes pregnant, praying for a son to perpetuate their family's name and virtue. With the help of Chang An, a woman from her husband's family, Kuei Ping prepares for the baby's arrival, and eventually gives birth to a son, bringing her great joy and happiness. As they settle into their new life, they envision a bright future for their child, one that combines the best of Eastern and Western cultures.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [SYNTAX]:
+        • complex sentence structures
+    - [LEXICON]:
+        • occasional unclear word choices
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between scenes
+    - [STRUCTURE]:
+        • non-linear narrative progression
+    - [CLARITY]:
+        • some sentences lack clear connection to the main plot
+
+Section section_05 (Chars 34243–42774):
+Section Summary: Fuh Tang and Kuei Ping's baby, Bo Te, takes his first steps, but their joy is short-lived as Fuh Tang's father, Chia Sung Lien, brings news of his brother's death in battle. Chia Sung Lien urges Fuh Tang to return Bo Te to the family compound to carry on the family traditions, but Fuh Tang and Kuei Ping refuse, wanting their son to have a freer life. Fuh Tang later falls ill and is nursed back to health by a foreign doctor, but he never fully recovers and develops a cough that persists. As time passes, Fuh Tang becomes increasingly dependent on opium to manage his pain and anxiety, creating a rift between him and Kuei Ping. The family's struggles continue with the death of Kuei Ping's second son, who lives only a few hours, leaving the family in a state of sorrow and grief.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • "mighted" should be "might"
+        • "have been" should be "had been" in some instances for consistency
+    - [LEXICON]:
+        • Some words, such as "staccato breaths", may be less familiar to non-native speakers
+    - [SYNTAX]:
+        • Long sentences can make the text harder to follow
+  Coherence Issues:
+    - [LOGIC]:
+        • The transition between the baby's first steps and the father's visit feels abrupt
+    - [STRUCTURE]:
+        • The narrative jumps between different time periods and events without clear connections
+    - [CLARITY]:
+        • Some sentences are wordy or contain multiple ideas, making them hard to understand
+
+Section section_06 (Chars 42775–51433):
+Section Summary: Kuei Ping's life has become increasingly difficult as her husband, Fuh Tang, succumbs to opium addiction, leaving her to struggle to provide for their family. Feeling trapped and desperate for a way out, she begins to question her traditional beliefs and seeks a new path, inspired by the teachings of Jesus. She makes plans to leave her home and family, but instead of escaping, she has a transformative experience on the city walls, where she prays and watches the sunrise, gaining a new perspective on her life and relationships. With a newfound sense of joy and purpose, she returns home to her family, seeing her husband and child in a new light and feeling a deep sense of love and compassion for them. She comes to understand that true freedom comes not from escaping her circumstances, but from letting go of her own selfish desires and finding a sense of purpose and meaning in her life.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [LEXICON]:
+        • some words may be unfamiliar to modern readers
+    - [SYNTAX]:
+        • occasional long, convoluted sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt shift in Kuei Ping's decision to return home
+    - [TRANSITION]:
+        • some paragraphs feel disconnected from the preceding ones
+    - [CLARITY]:
+        • a few sentences are wordy or unclear
+
+Section section_07 (Chars 51434–60017):
+Section Summary: Kuei Ping returns to her husband's family compound, where she is welcomed with joy and love. She comes to appreciate the gentle respect and careful consideration that exists among the family members and values the patience required to keep the household running smoothly. As she settles into her new life, Kuei Ping learns from Madame Chia and cares for her grandmother, Madame Yen, in her final days. After Fuh Tang's passing, Kuei Ping is left to raise their two children, Bo Te and a baby girl, and finds comfort in the love they shared and the freedom he gave her. Through her experiences, Kuei Ping finds a sense of peace and gratitude for the life she has built.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • incorrect verb tense usage
+    - [SYNTAX]:
+        • sentence structure complexity
+    - [LEXICON]:
+        • occasional word choice awkwardness
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt time jumps
+    - [STRUCTURE]:
+        • non-linear narrative progression
+    - [CLARITY]:
+        • occasional ambiguity in character emotions
+
+Section section_08 (Chars 60017–68638):
+Section Summary: Kuei Ping, a Chinese woman, lived a life guided by her Christian faith and a desire to educate children in her community. Despite facing numerous challenges, including the Boxer rebellion and financial struggles, she persevered and eventually established a home school where she taught children using a combination of traditional and Christian teachings. With the help of her son and others, her school and dream of building a church became a reality, and she was able to use her dowry pearls to support the project. The narrator, who becomes Kuei Ping's pupil, is inspired by her story and gains a deeper understanding of her life and culture. Through their interactions, the narrator witnesses Kuei Ping's dream come true and is filled with a sense of wonder and appreciation for her remarkable journey.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [SPELLING]:
+        • minor typos (e.g., "the little she have learned" instead of "the little she had learned")
+    - [SYNTAX]:
+        • occasional awkward sentence structure
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between Kuei Ping's personal life and the narrator's introduction
+    - [STRUCTURE]:
+        • non-linear narrative flow
+    - [CLARITY]:
+        • some sentences are wordy or unclear
+
+Section section_09 (Chars 68639–70809):
+Section Summary: Chia Kuei Ping shared her life experiences and teachings with the narrator, who was eager to learn from her 55 years of life. Her village is surrounded by ancient temples and trees, where her forefathers and neighbors have worshipped for generations. Despite the presence of these traditional temples, Chia Kuei Ping has established a small school and church, which has become a beacon of hope for the village youth. The school is filled with children who are drawn to Chia Kuei Ping's teachings and the "luminous light" that shines in her eyes. The parents, who are bound by traditional ways, want their children to experience the same enlightenment that Chia Kuei Ping embodies.
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • run-on sentences
+    - [LEXICON]:
+        • some word choices may be less common or outdated
+    - [SYNTAX]:
+        • occasional complex sentence structures
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transition between descriptions of natural scenery and the school
+    - [CLARITY]:
+        • some sentences are wordy or contain multiple ideas
+    - [TRANSITION]:
+        • could benefit from clearer connections between paragraphs
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

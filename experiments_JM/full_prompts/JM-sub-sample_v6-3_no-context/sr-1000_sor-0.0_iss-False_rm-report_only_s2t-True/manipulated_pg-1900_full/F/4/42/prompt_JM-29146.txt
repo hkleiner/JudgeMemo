@@ -1,0 +1,461 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    b) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The report is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–4058):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • incorrect verb conjugation ("he have committed" instead of "he had committed")
+        • incorrect verb tense ("laughed" instead of "would have laughed" or "could not laugh")
+    - [SPELLING]:
+        • intentional misspelling for character effect ("lisped", "thith", "ecthactly") may be distracting
+    - [SYNTAX]:
+        • some sentences are wordy or awkwardly phrased
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transition between Ramsey's conversation with the Security Officer and his departure from the spacefield
+    - [CLARITY]:
+        • some sentences or phrases may be unclear without context ("the weightless races at Fomalhaut VI")
+    - [LOGIC]:
+        • the story assumes a level of familiarity with the world and its politics that may not be immediately clear to all readers
+
+Section section_02 (Chars 4059–8030):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Incorrect verb conjugation ("He have" instead of "He has")
+        • Incorrect verb tense consistency
+    - [SYNTAX]:
+        • Awkward sentence structure in some places
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between scenes
+    - [STRUCTURE]:
+        • Lack of clear connection between some paragraphs
+    - [CLARITY]:
+        • Some sentences are wordy or unclear
+
+Section section_03 (Chars 8031–11905):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing or incorrect articles
+    - [SPELLING]:
+        • occasional typos (e.g., "thertainly" instead of "certainly")
+    - [SYNTAX]:
+        • some sentences are wordy or awkwardly phrased
+  Coherence Issues:
+    - [LOGIC]:
+        • occasional abrupt shifts in scene or perspective
+    - [STRUCTURE]:
+        • some transitions between paragraphs feel disconnected
+    - [CLARITY]:
+        • a few sentences are unclear or hard to follow
+
+Section section_04 (Chars 11906–15871):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Missing or incorrect verb conjugations (e.g., "Ramsey pick up his credit note but stand there")
+    - [SPELLING]:
+        • Typos or incorrect spellings (e.g., "thtink", "thandard", "ditheath", "thince")
+    - [LEXICON]:
+        • Inconsistent or informal language usage (e.g., "you outworlderth", "mythelf")
+  Coherence Issues:
+    - [STRUCTURE]:
+        • Abrupt transitions between scenes or ideas
+    - [CLARITY]:
+        • Unclear character motivations or backstory (e.g., Ramsey's past, Garr Symm's significance)
+    - [LOGIC]:
+        • Some plot points or character reactions feel convenient or unexplained (e.g., the Vegan girl's sudden appearance and warning)
+
+Section section_05 (Chars 15872–19534):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "threw off outworld influence" should be "threw off outworld influences" or rephrased for clarity
+        • "whithpered" should be "whispered"
+        • "elth" should be "else"
+        • "pleath" should be "please"
+        • "latht" should be "last"
+    - [GRAMMAR]:
+        • "A government threw off outworld influence had a reason for everything" is a sentence fragment
+        • Several sentences have awkward phrasing or word choice
+  Coherence Issues:
+    - [LOGIC]:
+        • The transition from Ramsey's thoughts to the action of hitting Garr Symm feels abrupt
+    - [STRUCTURE]:
+        • The scene jumps quickly from the gambling hall to Ramsey's room without clear connection
+    - [CLARITY]:
+        • Some sentences are wordy or unclear, disrupting the flow of the narrative
+
+Section section_06 (Chars 19535–23401):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • "He stand" should be "He stood"
+        • "You have an m.g. gun, Ramsey. It's in this room. I have it. That's all you have. No, don't tried" should be "No, don't try"
+        • "She have proved" should be "She had proved"
+        • "Her loins am covered" should be "Her loins are covered"
+        • "which had not yet taken over the outworlds" is a bit awkwardly phrased
+    - [SPELLING]:
+        • "abrevitog" might be a typo or non-standard term
+  Coherence Issues:
+    - [LOGIC]:
+        • The transition between Ramsey's decision to enter the room and his actions could be smoother
+    - [CLARITY]:
+        • The story assumes some background knowledge of the characters and their world, which might confuse readers without context
+    - [STRUCTURE]:
+        • The pacing of the dialogue and action could be more balanced
+
+Section section_07 (Chars 23402–27380):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • "how coulded a man concentrate" should be "how could a man concentrate"
+    - [SPELLING]:
+        • "Iwas" appears multiple times, should be "I was"
+    - [SYNTAX]:
+        • Some sentences are wordy or awkwardly phrased
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transitions between Ramsey's thoughts and actions
+    - [STRUCTURE]:
+        • The conversation jumps between topics without clear connections
+    - [CLARITY]:
+        • Some sentences are unclear or confusing due to word choice or phrasing
+
+Section section_08 (Chars 27381–31357):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Missing or incorrect articles
+    - [SPELLING]:
+        • Typos (e.g., "Iwas" instead of "I was", "It am" instead of "There are")
+    - [SYNTAX]:
+        • Awkward sentence structure
+    - [LEXICON]:
+        • Inconsistent verb tenses
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transitions between scenes
+    - [STRUCTURE]:
+        • Disconnected ideas
+    - [CLARITY]:
+        • Unclear character motivations
+    - [TRANSITION]:
+        • Lack of smooth connections between paragraphs
+
+Section section_09 (Chars 31358–35641):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • "It suffices to reminded you" should be "It suffices to remind you"
+        • "it can only was concluded" should be "it can only be concluded"
+    - [SPELLING]:
+        • None notable
+    - [SYNTAX]:
+        • Some sentences are long and convoluted
+    - [LEXICON]:
+        • Word choice is generally good, but some terms like "hyper-space" might be unfamiliar to non-science fiction readers
+  Coherence Issues:
+    - [LOGIC]:
+        • The concept of proto-man and hyper-space is not clearly explained
+    - [STRUCTURE]:
+        • The text jumps between the father's letter and Ramsey's thoughts without clear transitions
+    - [CLARITY]:
+        • Some parts of the text are confusing, such as the idea of proto-man leaving hyper-space
+    - [TRANSITION]:
+        • The shift from the father's letter to Ramsey's thoughts and then to the scene with the Vegan girl is abrupt
+
+Section section_10 (Chars 35642–39760):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • "Margot Dennison come in" should be "came in"
+        • "He read it and do not looked up" should be "He read it and did not look up"
+        • "This morning she wear" should be "This morning she wore"
+        • "We'lled work on the ship nights" should be "We'll work on the ship at nights"
+        • "They spend" should be "They spent"
+        • "Ramsey try to fight them down" should be "Ramsey tried to fight them down"
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition from discussing the want bulletin to talking about the ship
+    - [CLARITY]:
+        • Unclear why Margot locked the door and how it relates to their protection
+    - [STRUCTURE]:
+        • The narrative jumps between different topics, such as the conversation, the work on the ship, and Ramsey's thoughts about Margot
+
+Section section_11 (Chars 39761–43613):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • "Margot say" should be "Margot said"
+        • "Vardin walk" should be "Vardin walked"
+        • "They'lled" is not a word, possibly "They'll need"
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition from Ramsey and Margot's conversation to Security Officer Ramar Chind's report
+    - [STRUCTURE]:
+        • The narrative jumps between different storylines without clear connections
+
+Section section_12 (Chars 43613–47634):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor errors in sentence structure
+    - [LEXICON]:
+        • occasional awkward word choices
+    - [SYNTAX]:
+        • few instances of unclear phrasing
+  Coherence Issues:
+    - [LOGIC]:
+        • slight inconsistencies in character motivations
+    - [STRUCTURE]:
+        • abrupt transition between scenes
+    - [CLARITY]:
+        • occasional ambiguity in plot progression
+
+Section section_13 (Chars 47635–51814):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • "woulded have delighted" should be "would have delighted"
+    - [SPELLING]:
+        • "was a dense early morning fog but what actually was an artificially produced fog" is a long sentence and could be broken up for better flow
+    - [SYNTAX]:
+        • "Youhad got to be" should be "You've got to be"
+    - [LEXICON]:
+        • Some sentences are wordy or use complex vocabulary that may disrupt the flow
+  Coherence Issues:
+    - [LOGIC]:
+        • The story jumps abruptly from Margot's thoughts to the technicians working on the Dog Star
+    - [STRUCTURE]:
+        • The narrative switches between different characters and plotlines without clear transitions
+    - [CLARITY]:
+        • Some sentences are unclear or confusing, such as "What would happened within the next several hours, he realized, might be beyond his ken"
+    - [TRANSITION]:
+        • The story moves quickly from one scene to another without smooth transitions
+
+Section section_14 (Chars 51815–55906):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Missing or incorrect articles in some sentences
+    - [LEXICON]:
+        • Some words or phrases may be unclear to non-technical readers
+    - [SYNTAX]:
+        • A few sentences are wordy or awkwardly structured
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt shift between scenes or characters without clear transitions
+    - [STRUCTURE]:
+        • Some ideas or concepts are introduced without clear explanation or connection to the rest of the narrative
+    - [CLARITY]:
+        • Technical terms or concepts may be confusing for some readers
+
+Section section_15 (Chars 55907–59923):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Missing articles in some sentences
+    - [SPELLING]:
+        • "nod" instead of "nodded"
+    - [SYNTAX]:
+        • Some sentences are structured awkwardly
+    - [LEXICON]:
+        • Word choice could be more precise in certain instances
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt shift in perspective between characters
+    - [STRUCTURE]:
+        • Some transitions between scenes feel rushed
+    - [CLARITY]:
+        • A few sentences are worded vaguely, causing confusion
+    - [TRANSITION]:
+        • The narrative jumps abruptly from action to introspection
+
+Section section_16 (Chars 59924–63879):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • "the response seemed to was triggered" should be "the response seemed to be triggered"
+    - [SYNTAX]:
+        • Some sentences are wordy or awkwardly phrased
+    - [LEXICON]:
+        • "mimsy were the borogroves and the momraths" is a confusing reference without context
+  Coherence Issues:
+    - [LOGIC]:
+        • The transition between Ramsey's thoughts and the conclusion about hyper-space is abrupt
+    - [STRUCTURE]:
+        • The dialogue sometimes feels disconnected from the surrounding narrative
+    - [CLARITY]:
+        • Some sections, like the list of environmental conditions, feel like info dumps
+
+Section section_17 (Chars 63880–67893):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Missing articles in some sentences
+    - [LEXICON]:
+        • Some words could be more precisely chosen for better clarity
+    - [SYNTAX]:
+        • A few sentences have complex structures that may hinder smooth reading
+  Coherence Issues:
+    - [LOGIC]:
+        • The transition between some ideas, especially regarding the music, feels somewhat abrupt
+    - [STRUCTURE]:
+        • The narrative jumps between different groups of characters without clear transitions
+    - [CLARITY]:
+        • Some concepts, such as the "timeless continuum" and its implications, could be more clearly explained
+
+Section section_18 (Chars 67894–72030):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • verb tense inconsistencies
+    - [SPELLING]:
+        • "vouchsafed" is correctly spelled but may be unfamiliar to some readers, "M.g." is unclear
+    - [LEXICON]:
+        • word choice issues, such as "insulined" instead of "insulated"
+    - [SYNTAX]:
+        • some sentences are wordy or awkwardly phrased
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt introduction of new characters and plot elements
+    - [STRUCTURE]:
+        • non-linear narrative with unclear transitions
+    - [CLARITY]:
+        • some sections are confusing or unclear, such as the vision sequence
+
+Section section_19 (Chars 72030–75985):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • "You see--" sentence is abruptly cut off
+    - [SPELLING]:
+        • "ran" should be "run" in the sentence "And could not stop Garr Symm from ran past them"
+    - [SYNTAX]:
+        • Some sentences are wordy or awkwardly phrased
+  Coherence Issues:
+    - [LOGIC]:
+        • The story jumps abruptly from describing the Irwadi's death to discussing the implications of matter-transmission
+    - [STRUCTURE]:
+        • The narrative switches between different plot threads without clear transitions
+    - [CLARITY]:
+        • Some concepts, such as the nature of the "Proto-man" and the implications of matter-transmission, are not fully explained
+
+Section section_20 (Chars 75986–77452):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Missing articles in some sentences
+    - [LEXICON]:
+        • Some word choices feel slightly outdated or uncommon
+    - [SYNTAX]:
+        • A few sentences have simple or abrupt structures
+  Coherence Issues:
+    - [LOGIC]:
+        • The transition from Vardin's explanation to her disappearance feels abrupt
+    - [STRUCTURE]:
+        • The ending feels a bit rushed, with some plot points resolved quickly
+    - [CLARITY]:
+        • Some of Vardin's dialogue is somewhat vague or open to interpretation
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

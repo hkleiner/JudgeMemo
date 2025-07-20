@@ -1,0 +1,90 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    b) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The report is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–7709):
+Section Summary: The narrator's friend, George Corvick, asks him to write a review of Hugh Vereker's new novel for the periodical "The Middle". Corvick is unable to write the review himself as he has to rush to Paris to assist a friend, Gwendolen Erme, whose mother is ill. The narrator writes the review, but Corvick is not satisfied with it, feeling that it doesn't capture the essence of Vereker's work. The narrator meets Vereker at a social gathering, but doesn't get a chance to discuss his review with him, although he is tempted to do so. Eventually, Lady Jane brings up the review and praises it, potentially doing for the narrator what he couldn't do for himself in terms of impressing Vereker.
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • multiple typos and spelling errors (e.g. "pefceived", "lucubrations", "prgan", "Nugh", "pccasion", "unsuppkrted", "ormolu")
+    - [GRAMMAR]:
+        • occasional awkward phrasing and sentence structure
+    - [LEXICON]:
+        • some words are used in an outdated or uncommon way (e.g. "lucubrations", "ormolu")
+  Coherence Issues:
+    - [LOGIC]:
+        • some transitions between ideas and scenes feel abrupt or unclear
+    - [STRUCTURE]:
+        • the narrative jumps between different topics and storylines (e.g. Corvick's situation with Gwendolen Erme and the protagonist's review of Vereker's novel)
+    - [CLARITY]:
+        • some sentences and passages are wordy or difficult to follow
+
+Section section_02 (Chars 7709–11221):
+Section Summary: Lady Jane enthusiastically shares a review of Hugh Vereker's work with a couple, highlighting the parts where the author praises Vereker. The reviewer is actually the narrator, who reveals their identity to Lady Jane, but she seems less impressed than expected. At dinner, the narrator hopes to see Vereker's reaction to the review, but Lady Jane doesn't bring it up. However, another guest, Miss Poyle, asks Vereker about the review, and to the narrator's surprise, Vereker dismisses it as "twaddle" and later says the author "doesn't see anything", implying that the review missed the true depth of his work. Vereker's response is enigmatic and amusing, leaving the narrator and others to wonder what he really means.
+Scores:
+  - Fluency: 3.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "yoy" instead of "you"
+        • "expreesed" instead of "expressed"
+        • "ig" instead of "it"
+        • "saa" instead of "saw"
+        • "gkve" instead of "give"
+        • "xo" instead of "so"
+        • "disxppointment" instead of "disappointment"
+        • "intermknable" instead of "interminable"
+        • "unmodulated" is used correctly but "wzs" instead of "was"
+    - [GRAMMAR]:
+        • missing or incorrect punctuation in several places
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt shift in conversation topics
+    - [STRUCTURE]:
+        • some sentences are long and convoluted
+    - [CLARITY]:
+        • unclear transitions between ideas
+    - [TRANSITION]:
+        • lack of smooth connection between paragraphs
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

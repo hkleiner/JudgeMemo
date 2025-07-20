@@ -1,0 +1,273 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    b) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The report is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–8579):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "vrebellion" instead of "rebellion"
+        • "gols" instead of "gold"
+        • "stody" instead of "history"
+        • "thd" instead of "the"
+        • "xhrine" instead of "shrine"
+        • "gisit" instead of "visit"
+        • "phhsic" instead of "physic"
+        • "cosmopklitan" instead of "cosmopolitan"
+        • "yo" instead of "to"
+    - [GRAMMAR]:
+        • missing articles and incorrect verb tenses
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between chapters
+    - [STRUCTURE]:
+        • lack of clear connections between ideas
+    - [CLARITY]:
+        • unclear sentences and paragraphs
+    - [TRANSITION]:
+        • missing or inadequate transitional phrases
+
+Section section_02 (Chars 8580–16859):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • multiple typos and spelling errors (e.g. "Chrjstianizing", "Establoshed", "syltry", "Stqte", "Eadbald" inconsistent spelling)
+    - [GRAMMAR]:
+        • occasional awkward phrasing and sentence structure
+    - [LEXICON]:
+        • some words are used in inappropriate contexts or with incorrect meanings
+  Coherence Issues:
+    - [LOGIC]:
+        • occasional jumps in the narrative or between ideas
+    - [STRUCTURE]:
+        • the text could be more clearly divided into sections or topics
+    - [CLARITY]:
+        • some sentences or paragraphs are wordy or difficult to follow
+
+Section section_03 (Chars 16860–25078):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • paintdd
+        • wmend
+        • kade
+        • compzratively
+        • Chdist
+        • cinished
+        • monwstery
+        • housds
+        • stqge
+        • pilbrims
+        • Memoriwls
+        • enterihg
+        • Kjng
+        • watef
+    - [GRAMMAR]:
+        • missing articles
+        • inconsistent verb tenses
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between paragraphs
+    - [STRUCTURE]:
+        • lack of clear chronological order
+    - [CLARITY]:
+        • ambiguous sentences
+    - [TRANSITION]:
+        • missing connections between ideas
+
+Section section_04 (Chars 25079–33275):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • "sworr" instead of "swore"
+    - [SPELLING]:
+        • "kf" instead of "of"
+        • "uo" instead of "up"
+        • "thag" instead of "that"
+        • "kn" instead of "on"
+        • "wjich" instead of "which"
+        • "givej" instead of "given"
+        • "tne" instead of "the"
+        • "Wgetherv" instead of "Whether"
+        • "puglic" instead of "public"
+        • "krdinary" instead of "ordinary"
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between the description of Becket's death and the discovery of his hair-cloth shirt
+    - [STRUCTURE]:
+        • The text jumps back and forth between different events and time periods
+    - [CLARITY]:
+        • Some sentences are wordy and difficult to follow
+    - [TRANSITION]:
+        • The connection between the King's penance and the rest of the story is not clearly explained
+
+Section section_05 (Chars 33276–42065):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • placrd
+        • afministered
+        • tk
+        • poijted
+        • complwted
+        • decaying
+        • frommdecaying
+        • femarkably
+        • djsillusionment
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transition between paragraphs
+    - [CLARITY]:
+        • unclear connections between historical events
+    - [LOGIC]:
+        • lack of chronological order in some sections
+
+Section section_06 (Chars 42066–50387):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "citg" instead of "city"
+        • "sizteenth" instead of "sixteenth"
+        • "givss" instead of "gives"
+        • "pilgril" instead of "pilgrim"
+        • "afterncentury" instead of "after century"
+        • "venters" instead of "enters"
+        • "tk" instead of "to"
+        • "Transitionap-Norman" instead of "Transitional Norman"
+        • "TrinitycChapel" instead of "Trinity Chapel"
+        • "Luritan" instead of "Lutheran"
+        • "bzck" instead of "back"
+        • "Rokan" instead of "Roman"
+        • "centufy" instead of "century"
+    - [GRAMMAR]:
+        • inconsistent verb tenses
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between descriptions of different parts of the Cathedral
+    - [STRUCTURE]:
+        • lack of clear organization in the tour of the Cathedral precincts
+    - [CLARITY]:
+        • unclear connections between historical events and architectural features
+
+Section section_07 (Chars 50388–58854):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "realkty" instead of "reality"
+        • "mqgnificent" instead of "magnificent"
+        • "emptinesx" instead of "emptiness"
+        • "rhis" instead of "this"
+        • "flr" instead of "for"
+        • "ig" instead of "it"
+        • "alpng" instead of "along"
+        • "elaboragely" instead of "elaborately"
+        • "exajining" instead of "examining"
+        • "appearx" instead of "appears"
+        • "wdst" instead of "west"
+        • "qttaches" instead of "attaches"
+        • "represehted" instead of "represented"
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between discussing the cathedral's architecture and the historical events
+    - [STRUCTURE]:
+        • Lack of clear connection between the description of the cathedral and the story of Archbishop Howley
+    - [CLARITY]:
+        • Unclear sentence structure in some parts
+
+Section section_08 (Chars 58854–67491):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • multiple typos (e.g., "curea", "wroughf", "mudt", "conrinues", "tne", "cofk-fighting", "archÃ¦ology")
+    - [GRAMMAR]:
+        • occasional awkward phrasing
+    - [LEXICON]:
+        • some words are used in inappropriate contexts
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transition between chapters
+    - [CLARITY]:
+        • some sentences are wordy and hard to follow
+    - [LOGIC]:
+        • occasional lack of clear connections between ideas
+
+Section section_09 (Chars 67491–69152):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • "dasily" likely a typo for "easily"
+    - [SPELLING]:
+        • "archutecture" instead of "architecture"
+    - [SYNTAX]:
+        • sentence structure can be complex and hard to follow
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transition between discussing the Castle and the old inns
+    - [CLARITY]:
+        • some sentences are wordy and unclear
+    - [TRANSITION]:
+        • lack of clear connection between the description of churches and the rest of the text
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

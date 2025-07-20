@@ -1,0 +1,356 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) Read and understand the text the report was created for.
+    b) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    c) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The text to be evaluated is given below:
+Text: -THE MASCOT OF SWEET BRIAR GULCH-
+
+
+CHAPTER: I
+
+
+The gulch ran in a trough of beauty to the foot of Jones's Hill, which
+rose in a sweeping curve into the clouds.
+
+Wild flowers, trees in profuse leaf, and mats of vines covered the
+scarred earth, and the sky was as limpid as spring water; the air carried
+a weight of heart-stirring odors, yet Jim Felton, sitting on the
+door-step of his cabin in the brilliant sunshine, was not a happy man.
+
+He looked at the hollow of the gulch and cursed it manfully and bitterly.
+
+The gold should be there--Jim had figured it all out. The old wash cut at
+right angles to the creek, and at the turn was where its freight of
+yellow metal should have been deposited, but when you got down to the
+bed-rock, the blasted stuff was either slanted so nothing could stay on
+it, or was rotten--crumbling in your fingers, and that kind of bed will
+hold nothing.
+
+Therefore Jim had sunk about fifty prospect holes; got colors under the
+grass-roots, as evidence that pay should be there--and nothing but ashy
+wash beneath it.
+
+When a man is alone, and thinks things are wrong, optimism comes down on
+the run, the shades of pessimism gather fast and furious--more especially
+if a man does his own cooking, and the raw material is limited, at that.
+
+The sun had not moved the shadows three inches before Jim had reached the
+conclusion that this world was all a practical joke, of so low an order
+that no sensible man would even laugh at it, and he drew a letter from
+his pocket in proof thereof. It was a thin letter, written on delicate
+paper in a delicate hand, and it showed much wear. He read for the
+thousandth time:
+  Dearest Jim--And again I must say "no." Of course you will not
+  understand, for which foolish reason I like you all the better, but
+  you must try to take my point of view. You say that we can be
+  married on nothing and take our chances.
+
+  So we can, old simple-heart--but aren't those chances all against
+  us? Would you like to be forced to work in some office for just
+  enough to live on? You know you would not, and you know how you
+  would suffer in such slavery.
+
+  Nevertheless we can not live on air, and I doubt if I would stand
+  transplanting to the wild life you love, better than you to a
+  clerk's desk. You have that fancy which gilds the tin cans in the
+  back yard; I have that unfortunate eye which would multiply their
+  number by three, and their unsightliness by ten. I don't want
+  riches, dear; I only want a modest assurance that I can have enough
+  to live on.
+
+  Really, is your way of doing a guarantee of even bread and butter? In
+  the Garden of Eden you would be the most delightful of companions,
+  but in this world as it is, you will not fight for your own. You
+  would risk your life to save a dog, but you couldn't stay at a
+  continued grind--I mean it would kill you, actually, physically,
+  dead, dead--to save all of us. At first I thought that a fault in
+  you, but now, being older, having compared you to other men, I see it
+  is merely a missing faculty.
+
+  I could stick to the desk, and would gladly, if you would let me,
+  yet I could not even fancy behaving as you did at the factory fire,
+  which is still the symbol in the town for manly courage and presence
+  of mind.
+
+  They talk now of the way you laughed and joked with those poor
+  frightened girls (who had such good cause to be frightened) and
+  brought them back to sanity with a jest. I feel that if I had the
+  least atom of heroism in me I would marry you for that feat alone,
+  and let cold facts go hang; but, ah, Jim! magnificent as you are on
+  the grand occasions, they come but seldom, and in the meantime,
+  Jim--I'll leave that to your own honesty.
+
+  I'm plebeian, Jim, and you're a nobleman, with a beautiful but
+  embarrassing disregard for vulgar necessities.
+
+  However, I can say this for myself--for surely I may brag a little
+  to my lover--I can try to match your splendid physical bravery by
+  my own moral courage.
+
+  You may rest your soul in peace on one point. If I am not for you,
+  I'm for no man, no, not so much as a half-glance of the eye. I
+  wouldn't hold myself a bit more straitly if I were your wife.
+
+  You'll be angry at this letter. Well, I'll stand your anger. I have
+  caused it, and I'll bear the blame. I know that we could not be
+  happy without some visible means of support, yet I do not blame you
+  in the least for thinking otherwise.
+
+  Be as kind to me as you can, Jim, for I love you very much in my
+  commonplace way. I'll admit, too, that I had rather have your fire
+  than my refrigerator--oh, if you could only make some money--not a
+  great deal, but enough for a little house of our own, and enough in
+  the bank to buy groceries!
+
+  With my best love, and an aching lump in my throat,
+  Your mother, sister, and sweetheart,
+                                                               Anne.
+
+Jim dropped the letter, and his lips trembled a little. Parts of it
+touched him deeply, and he was the more enraged and hurt at the rest
+because of that.
+
+He could not call her mercenary. He knew better. More than one very
+comfortable income was at her disposal.
+
+In more recent years, as the Bahá’í community’s numbers have rapidly
+increased in many countries, the situation has changed dramatically. There
+is now virtually no area in the world where the pattern of life taught by
+Bahá’u’lláh is not taking root. The respect which the community’s social
+and economic development projects are beginning to win in governmental,
+academic, and United Nations circles further reinforces the argument for a
+detached and serious examination of the impulse behind a process of social
+transformation that is, in critical respects, unique in our world.
+
+Sick of this ingenious torture, he lit his pipe and drew savagely upon
+it. With a mocking gurgle, about a dram of "slumgullion" passed into his
+mouth. It was the last touch. He spat out the biting, nauseating stuff,
+hurled the pipe upon the rocks and danced on it.
+
+And yet the colors frolicked in the gulch; the pines toned the air with
+healthy breath.
+
+From afar came the th-r-r-up! th-r-r-up! th-r-r-up of a galloping horse.
+
+It was Bud, the mail-carrier, coming, modestly and quietly, at a decent
+gait, down a trail where most would prefer to walk, and to "hang on" to
+something at that.
+
+Ludovico Caracci and Guido had given him hints that were of infinite
+value in the moulding of his technique; for colour he had gone to
+Titian, Tintoretto, and Rubens, of whom the last named was beginning to
+lose his appeal in the last years of Reynolds' life. Sir Joshua had a
+supreme facility for taking from every artist the best that was in him,
+melting it in the crucible of his own thought, and applying the product
+to his pictures. There is no doubt that the sixteenth-century Venetians
+impressed Reynolds as much as they impressed Ruskin at a later date, but
+in the middle of the eighteenth century the school of Bologna was in
+the ascendant in England, and it is through Reynolds' actions rather
+than his words that we see how Venice had influenced him. Sir Walter
+Armstrong thinks that Reynolds lived well rather than wisely in Italy,
+and that when he came back to town his wild oats were all sown, but it
+is hard to find any justification for the belief that Reynolds was at
+any time of his life a free liver. The pleasures of the table may have
+claimed him when he reached middle age; indeed, Dr. Johnson said to him
+on one occasion, "You complain about the tea I drink, but I do not count
+the glasses you empty," or words to that effect. As far as other forms
+of dissipation go, there is no evidence that Reynolds was ever a victim
+to them. He was always perfect master of his self-control, and when the
+years had toned down certain faults of thought and manner, he became
+mellowed, like old wine, and not less stimulating.
+
+"Well, how they coming, Jimmy?" queried the young giant. "Hit her yet?"
+
+"Hit--well, much caloric,"--replied Jim. "I've begun to believe there
+ain't a durned thing here."
+
+"You're looking kind of owly, old man--what's up? Don't you feel well?"
+
+"Oh, Bud I I'm sick of everything this day--I don't believe in the
+constitution of the United States, including the thirteenth amendment,
+nor the ten commandments, nor the attraction of gravitation, nor anything
+else--it's all a damned lie."
+
+"No wonder you get like that, mousing around here without a chance to
+yappi with a feller critter. 'Nough to make you locoed.
+
+"Jump it for a spell. Go up town. Get loaded. Get horribly loaded. Break
+somebody's window, and tell the folks you're a Sweet Briar zephyr come to
+blow out their lights. Go ahead and do it. When your hair stops pulling
+you'll feel like a new man."
+
+Jim thought the advice sound, yet a strange feeling had developed in him,
+in his isolation; it was that the eye of Anne was always on him. He had
+fallen into a habit, which becomes a superstition when a man is alone, of
+acting as though she were there in person.
+
+However, he didn't feel called upon to offer Bud that explanation of his
+refusal. He conveyed the idea in one brief word.
+
+"Busted," said he.
+
+Well might heads be shaken solemnly. The French arms were knowing
+defeat. The Englishman, Marlborough, was flinging back the French
+armies wheresoever he gave them battle. Europe was one great armed
+camp. France was suffering terrible blood-letting. Defeat came on
+defeat. These were sorry times. On land all went wrong. Good generals
+were set aside; intriguing good-for-nothings led the veterans into
+disaster. But there was still France upon the high seas.
+
+"Ah, Bud! How'll I ever pay you back? Keep it, man, keep it," replied Jim
+in a disheartened voice.
+
+"Say, you ain't got no call to worry about that part of it--there's where
+my troubles begin," returned Bud. "Now, you take these two bucks and jab
+'em in your jeans--Go on, now! Do as I tell you, or damned if I don't
+lick you and make you take 'em! What's the good of money if it ain't to
+help a friend out with? I don't care who gets drunk on it, just so long
+as they have a good time.
+
+"Boy, you'll be sailing up the track regardless of orders, with your
+boiler full of suds, if you don't get out in the scramble for a while."
+
+"Lord! I'd like to see a railroad train! Haven't heard a whistle for two
+years! How far is it to the nearest station, Bud?"
+
+"Plattsburg--fifty mile--due south."
+
+"Christmas! Little far to walk."
+
+"Say, you take this horse, Jim,--go ahead! I can walk just as well as
+not, I'm getting too fat, anyhow. Go on, you take the horse and have a
+ride to Plattsburg!"
+
+"Yes, take the shirt off your back, and never mind if a bit of the skin
+goes with it. I'll see you far away first. Tell you what you could do for
+me, Buddy; the herd of burros is around now, if you'd round up one of
+them for me?"
+
+"Sure thing! You sit on the mail sack till I come back. There's a heap of
+registered stuff in it this trip. Oh say! What do you think? I was held
+up t'other side of the Bulldog. Bang! Zipp! says a little popper from the
+bushes. I climbed for them bushes, and out goes a beggar like a rabbit. I
+was after him like a coyote, bet cher life. Who do you suppose it was,
+Jim?"
+
+"Hang it, how should I know?"
+
+"That little down-east cuss with the crook in his back. He begged hard.
+
+Poor devil, he was up against the sandpaper side, all right. He heard
+from the postmaster that there was a lot of valuable mail going out, so
+he thought he'd make a try for it. Then what do you think he had the
+cold, cold nerve to do?"
+
+"Pass it up--'most anything, I reckon."
+
+"Worse'n that. Struck me for fifty!"
+
+"And got it."
+
+"Got it? No, not much he didn't, sonny! He drew just ten, and he was
+lucky to get that. I've done a favor or two for that feller, first and
+last, and to have him shoot at me made me sore--although he missed me by
+several locations, I'll say that for him--so I gave him the ten and told
+him I'd kick the hump on his back so high up on his shoulders he could
+wear it for a hat, if he ever shoved into my daylight again. And you
+never in your life saw a humpback make better time than he did.
+
+"Well here's for your jack-ass--which way's the herd?"
+
+"Right up over the hill."
+
+Jim sat patiently on the sack until Bud returned with the burro.
+
+There are of course no beginnings or ends in history. We may walk for a
+few miles by the side of a river, noting its shallows and its rapids, the
+gorges which confine it and the plains through which it meanders; but we
+know that we have seen neither the beginning nor the end of its course,
+that the whole river has an unbroken continuity, and that sections,
+whether of space or time, are purely arbitrary. We are always sowing our
+future; we are always reaping our past. The Industrial Revolution began in
+reality before the accession of George III, and the French monarchy was
+stricken with mortal disease before Louis XV bequeathed his kingdom to his
+luckless successor.
+
+Jim tied a gunny sack on his noble mount, and the two rode on together to
+the fork in the trail. Jim tried to thank his friend, who knocked his hat
+over his eyes.
+
+The report for the text is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–8103):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 2.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [LEXICON]:
+        • some words are outdated or uncommon (e.g. "slumgullion")
+    - [SYNTAX]:
+        • complex sentence structures may hinder readability
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between Jim's story and the passage about Reynolds
+    - [STRUCTURE]:
+        • disjointed narrative with unrelated ideas
+    - [CLARITY]:
+        • unclear connection between different parts of the text
+
+Section section_02 (Chars 8104–13118):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 2.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [LEXICON]:
+        • informal language and slang
+    - [SYNTAX]:
+        • some sentences are structured awkwardly
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt shift from conversation to historical commentary
+    - [STRUCTURE]:
+        • disjointed narrative with unrelated ideas
+    - [TRANSITION]:
+        • lack of smooth connection between scenes
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

@@ -1,0 +1,82 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    b) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The report is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–8695):
+Section Summary: The story begins with the narrator dedicating a story about her Chinese friend and teacher to the women of America. The scene is set on the Street of Precious Pearls, a narrow side street in a Chinese town where women buy their dowry jewels. Yen Kuei Ping, a young girl, accompanies her grandmother and mother to a jewelry shop on this street to select pearls for her dowry. The family engages in a traditional bargaining process with the shop owner, Wong Lui, to select the finest pearls. As Kuei Ping handles the pearls, she is drawn to their beauty and feels a sense of connection to them, and the scene shifts to a memory of her graduation day at a mission school.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • abrupt sentence transitions
+    - [LEXICON]:
+        • occasional overly complex vocabulary
+    - [SYNTAX]:
+        • long, winding sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • non-sequiturs and abrupt changes in narrative focus
+    - [STRUCTURE]:
+        • disjointed paragraphs and lack of clear sectioning
+    - [CLARITY]:
+        • unclear connections between some ideas and scenes
+
+Section section_02 (Chars 8696–12211):
+Section Summary: Kuei Ping, a Chinese girl, had been inspired by her American teacher, Miss Porter, and the idea of freedom and equality in the United States. However, her family had already planned her marriage and she felt bound by her family ties, making it impossible for her to pursue her dreams. Kuei Ping had to decline Miss Porter's offer to help her, and the decision was a difficult one, causing her inner conflict. Meanwhile, in a separate storyline, a young girl named Jeanne Antoinette Poisson was born in Paris to a family with a questionable reputation, unaware of the significant role she would play in the future. Kuei Ping's decision was finalized as she handed over the pearls to her grandmother, symbolizing her acceptance of her arranged marriage.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • awkward sentence structure
+    - [LEXICON]:
+        • word choice inconsistencies
+    - [SYNTAX]:
+        • unclear phrasing
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt shifts in narrative
+    - [STRUCTURE]:
+        • disjointed ideas
+    - [CLARITY]:
+        • unclear transitions
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

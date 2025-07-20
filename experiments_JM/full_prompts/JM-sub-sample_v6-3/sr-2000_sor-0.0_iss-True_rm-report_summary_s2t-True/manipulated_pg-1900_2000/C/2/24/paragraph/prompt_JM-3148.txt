@@ -1,0 +1,104 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) Read and understand the summary of the text the report was created for.
+    b) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    c) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The summary of the text to be evaluated is given below:
+Summary: The story begins with a quote from Emerson's "April" and introduces a young boy named Davy, who is reading to his uncle, Anthony Croft. Anthony is blind and has a deep love for music, particularly the violin. Davy reads a story about Paganini, a famous violinist, and his incredible performance at Lord Holland's. Anthony is moved by the story and begins to play his own violin, creating beautiful music that fills the atmosphere.
+
+As the story progresses, it flashes back to Anthony's childhood, where he was a curious and restless boy who hated school. He longed for knowledge and understanding, but the traditional school setting couldn't provide him with the answers he sought. Instead, he found solace in the woods, where he could explore and learn about the natural world.
+
+Anthony's teachers saw him as lazy, but in reality, he was just passionate about different things. He was fascinated by the world around him and spent most of his time outdoors, observing and learning. He would often sneak out of the classroom to play with a tuning fork he had hidden outside, and he even made his own musical instruments using everyday objects.
+
+As he grew older, Anthony's love for music only deepened, and he became a skilled violinist. His mother, though worried about his unconventional ways, recognized that he had a unique gift. Anthony's self-education in the woods had given him a wealth of knowledge about the natural world, and he could find rare flowers and plants that others couldn't.
+
+The story highlights Anthony's journey as a young boy, from his struggles in school to his discovery of music and the natural world. It showcases his curiosity, creativity, and passion for learning, which ultimately shaped him into the person he became. Through his love for music and the outdoors, Anthony found a sense of purpose and belonging, and his story serves as a testament to the importance of following one's own path and embracing individuality. 
+
+Anthony's relationship with his nephew Davy is also a significant aspect of the story, as it shows how he has passed on his love for music and learning to the next generation. The story is a heartwarming and inspiring tale of self-discovery, creativity, and the power of music to bring people together. 
+
+The author's use of descriptive language and vivid imagery brings the story to life, making it easy to imagine the characters and their surroundings. The story's themes of individuality, creativity, and the importance of following one's passion are timeless and universal, making it a relatable and engaging read. 
+
+Overall, the story is a beautiful and uplifting tale that celebrates the human spirit and the power of music to transform and inspire us. It is a reminder that everyone has their own unique path to follow, and that with passion, creativity, and determination, we can overcome any obstacle and achieve our dreams. 
+
+The story also explores the idea that traditional education may not be the best fit for every child, and that self-directed learning and exploration can be just as valuable. Anthony's experiences in the woods and his self-education serve as a testament to the importance of hands-on learning and experiential education. 
+
+In conclusion, the story of Anthony Croft is a captivating and inspiring tale that highlights the importance of individuality, creativity, and self-directed learning. It is a reminder that music and the natural world have the power to transform and inspire us, and that with passion and determination, we can achieve our dreams and make a positive impact on the world.
+
+The report for the text is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–8031):
+Section Summary: The story begins with a boy named Davy reading to his uncle, Anthony Croft, who is blind, about a musician named Paggernyner who played a terrifying musical interpretation of a story. Anthony, a skilled violinist, believes that the secret to everything beautiful and true is hidden in the strings of his violin. He asks Davy to paint a picture with words, and Davy describes the sunset and landscape in vivid detail. Anthony then plays his violin, producing a rich and harmonious sound that fills the atmosphere. The narrative also flashes back to Anthony's childhood, where he struggled in school and found solace in the outdoors and music, foreshadowing his future as a musician.
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • occasional awkward sentence structures
+    - [LEXICON]:
+        • some outdated or less common vocabulary
+    - [SYNTAX]:
+        • minor issues with punctuation and sentence flow
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transitions between scenes and ideas
+    - [CLARITY]:
+        • some ambiguity in character motivations and backstory
+    - [LOGIC]:
+        • minor inconsistencies in narrative timeline
+
+Section section_02 (Chars 8031–11639):
+Section Summary: Anthony, a curious and lazy boy, would often sneak out of the classroom to snap a tuning fork, which was his way of saving his soul. Despite being considered the laziest boy in the village, Anthony was actually industrious in his own pursuits, constantly seeking answers to his many questions about the world. He was fascinated by the natural world and spent much of his time exploring the woods, learning about plants, birds, and other wonders. Anthony's self-education in the woods was not recognized by the villagers, but his mother acknowledged that he had a wealth of "useless information" about the natural world. Through his own efforts, Anthony developed a deep understanding of the world around him, driven by his insatiable curiosity and desire to learn.
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • occasional complex sentence structures
+    - [LEXICON]:
+        • some archaic vocabulary
+    - [SYNTAX]:
+        • lengthy descriptive phrases
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between Tony's behavior and his inner curiosity
+    - [STRUCTURE]:
+        • non-linear narrative progression
+    - [CLARITY]:
+        • some sentences are wordy and hard to follow
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

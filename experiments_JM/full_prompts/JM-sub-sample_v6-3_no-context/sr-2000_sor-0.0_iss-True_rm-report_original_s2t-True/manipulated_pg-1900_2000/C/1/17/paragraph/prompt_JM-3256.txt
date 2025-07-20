@@ -1,0 +1,251 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) Read and understand the text the report was created for.
+    b) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    c) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The text to be evaluated is given below:
+Text: -BOOKS AND BOOKMEN-
+
+
+THEY cannot be separated any more than sheep and a shepherd, but I am
+minded to speak of the bookman rather than of his books, and so it will
+be best at the outset to define the tribe.
+
+It does not follow that one is a bookman because he has many books, for
+he may be a book huckster or his books may be those without which a
+gentleman’s library is not complete.  And in the present imperfect
+arrangement of life one may be a bookman and yet have very few books,
+since he has not the wherewithal to purchase them.  It is the foolishness
+of his kind to desire a loved author in some becoming dress, and his
+fastidiousness to ignore a friend in a fourpence-halfpenny edition.  The
+bookman, like the poet, and a good many other people, is born and not
+made, and my grateful memory retains an illustration of the difference
+between a bookowner and a bookman which I think is apropos.  As he was to
+preside at a lecture I was delivering he had in his courtesy invited me
+to dinner, which was excellent, and as he proposed to take the rôle that
+night of a man who had been successful in business, but yet allowed
+himself in leisure moments to trifle with literature, he desired to
+create an atmosphere, and so he proposed with a certain imposing air that
+we should visit what he called “my library.”  Across the magnificence of
+the hall we went in stately procession, he first, with that kind of walk
+by which a surveyor of taxes could have at once assessed his income, and
+I, the humblest of the bookman tribe, following in the rear, trembling
+like a skiff in the wake of an ocean liner.  “There,” he said, with his
+thumbs in the armholes of his waistcoat, “what do you think of that?” And
+_that_ was without question a very large and ornate and costly mahogany
+bookcase with glass doors.  Before I saw the doors I had no doubt about
+my host, but they were a seal upon my faith, for although a bookman is
+obliged to have one bit of glass in his garden for certain rare plants
+from Russia and Morocco, to say nothing of the gold and white vellum lily
+upon which the air must not be allowed to blow, especially when charged
+with gas and rich in dust, yet he hates this conservatory, just as much
+as he loves its contents.  His contentment is to have the flowers laid
+out in open beds, where he can pluck a blossom at will.  As often as one
+sees the books behind doors, and most of all when the doors are locked,
+then he knows that the owner is not their lover, who keeps tryst with
+them in the evening hours when the work of the day is done, but their
+jailer, who has bought them in the market-place for gold, and holds them
+in this foreign place by force.  It has seemed to me as if certain old
+friends looked out from their prison with appealing glance, and one has
+been tempted to break the glass and let, for instance, Elia go free.  It
+would be like the emancipation of a slave.  Elia was not, good luck for
+him, within this particular prison, and I was brought back from every
+temptation to break the laws of property by my chairman, who was still
+pursuing his catechism.  “What,” was question two, “do you think I paid
+for _that_?”  It was a hopeless catechism, for I had never possessed
+anything like _that_, and none of my friends had in their homes anything
+like _that_, and in my wildest moments I had never asked the price of
+such a thing as _that_.  As it loomed up before me in its speckless
+respectability and insolence of solid wealth my English sense of
+reverence for money awoke, and I confessed that this matter was too high
+for me; but even then, casting a glance of deprecation in its direction,
+I noticed _that_ was almost filled by a single work, and I wondered what
+it could be.  “Cost £80 if it cost a penny, and I bought it second-hand
+in perfect condition for £17, 5s., with the books thrown in—_All the Year
+Round_ from the beginning in half calf;” and then we returned in
+procession to the drawing-room, where my patron apologised for our
+absence, and explained that when two bookmen got together over books it
+was difficult to tear them away.  He was an admirable chairman, for he
+occupied no time with a review of literature in his address, and he slept
+without being noticed through mine (which is all I ask of a chairman),
+and so it may seem ungrateful, but in spite of “_that_” and any books,
+even Spenser and Chaucer, which _that_ might have contained, this Mæcenas
+of an evening was not a bookman.
+
+It is said, and now I am going to turn the application of a pleasant
+anecdote upside down, that a Colonial squatter having made his pile and
+bethinking himself of his soul, wrote home to an old friend to send him
+out some chests of books, as many as he thought fit, and the best that he
+could find.  His friend was so touched by this sign of grace that he
+spent a month of love over the commission, and was vastly pleased when he
+sent off, in the best editions and in pleasant binding, the very essence
+of English literature.  It was a disappointment that the only
+acknowledgment of his trouble came on a postcard, to say that the
+consignment had arrived in good condition.  A year afterwards, so runs
+the story, he received a letter which was brief and to the point.  “Have
+been working over the books, and if anything new has been written by
+William Shakespeare or John Milton, please send it out.”  I believe this
+is mentioned as an instance of barbarism.  It cannot be denied that it
+showed a certain ignorance of the history of literature, which might be
+excused in a bushman, but it is also proved, which is much more
+important, that he had the smack of letters in him, for being turned
+loose without the guide of any training in this wide field, he fixed as
+by instinct on the two classics of the English tongue.  With the help of
+all our education, and all our reviews, could you and I have done better,
+and are we not every day, in our approval of unworthy books, doing very
+much worse?  Quiet men coming home from business and reading, for the
+sixth time, some noble English classic, would smile in their modesty if
+any one should call them bookmen, but in so doing they have a sounder
+judgment in literature than coteries of clever people who go crazy for a
+brief time over the tweetling of a minor poet, or the preciosity of some
+fantastic critic.
+
+Dr. Johnson himself could only have been inspiring company, even though
+we may think in our heart of hearts that the benefit of the inspiration
+was not without serious drawbacks. Reynolds enjoyed also the intimate
+friendship of Garrick, Goldsmith, Gibbon, and Burke, he consorted with
+many other men who made some mark in the world of thought, and in this
+atmosphere the extraordinary receptivity of his mind must have served
+him to great advantage. He had human weaknesses to live down, and it is
+to his credit that he conquered all or most of them. Like so many honest
+Englishmen, there was a touch of the snob about him--witness his
+correspondence with Lord Edgcumbe during the first visit to the
+Continent. He was not without jealousy, as may be seen from his pettish
+condemnation of the work of Liotard, the miniature painter and
+pastellist, and his references to Gainsborough and Romney, whose
+success and accomplishments galled him not a little. He was vulgar,
+until he learned refinement from the distinguished people with whom he
+was brought into contact--witness the gilded coach and gaudy liveries he
+bought when he established himself in Leicester Square, the coach in
+which his unfortunate sister Frances was compelled to drive in order
+that the man in the street might stare open-mouthed and talk about her
+brother. There is hardly a "Lion Comique," or a lady of the music halls
+drawing prime minister's salary for songs blatant or obscene, who would
+commit such an offence to-day, and against these lapses from taste Sir
+Joshua's acquaintance with the best minds of his day failed to save him.
+
+Of Boucher's wander-years in Italy little is known. He seems to have
+shown scant respect for the accepted standards of the schools and the
+critics, to have found Michael Angelo "contorted," Raphael "insipid,"
+and Carrache "gloomy." He, in fact, was drawn only to such artists as
+were to his taste, and he had the courage to say so. However, whether
+he were kept idle from ill-health or not; whether his stay were short
+or not, he appears again in Paris in three years--suspiciously like
+the three years' conventional Italian study of a first-prize winner of
+the Academy--with a large number of religious pictures to his
+credit--pictures that were hailed by the Academicians and critics
+alike for their beauty, their force, and their virility--pictures
+which, perhaps fortunately for Boucher's repute, have vanished, or
+hang in galleries under other names.
+
+According to the weightiest of French critics of our time the author of
+such a book is one “who has enriched the human mind, who has really added
+to its treasures, who has got it to take a step further . . . who has
+spoken to all in a style of his own, yet a style which finds itself the
+style of everybody, in a style that is at once new and antique, and is
+the contemporary of all the ages.”  Without doubt Sainte-Beuve has here
+touched the classical quality in literature as with a needle, for that
+book is a classic to be placed beside Homer and Virgil and Dante and
+Shakespeare—among the immortals—which has wisdom which we cannot find
+elsewhere, and whose form has risen above the limitation of any single
+age.  While ordinary books are houses which serve for a generation or two
+at most, this kind of book is the Cathedral which towers above the
+building at its base and can be seen from afar, in which many generations
+shall find their peace and inspiration.  While other books are like the
+humble craft which ply from place to place along the coast, this book is
+as a stately merchantman which compasses the great waters and returns
+with a golden argosy.
+
+The necessary changes would have come about earlier but for the French
+Revolution and the war. The former caused a panic which now seems to us
+exaggerated. But we are accustomed to revolutions, and know that they
+never last more than a few years; the French Revolution was the first of
+its kind. Moreover, France had long been the acknowledged leader of
+civilisation, and a general overturn in that country terrified men like
+Gibbon into prophesying that a similar outbreak was likely to overwhelm
+law, order and property in England. They did not realise how different the
+conditions were in the two countries. The most modest democratic reforms
+were therefore impossible till Napoleon was out of the way, and till the
+anti-revolutionary panic had subsided.
+
+Each day the guards would descend the three steep flights of stairs of the
+pit, seize one or more of the prisoners, and drag them out to be executed.
+
+The report for the text is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–8252):
+Section Summary: The author distinguishes between a book owner and a bookman, noting that having many books does not necessarily make one a bookman. A true bookman is born with a passion for literature and is not made by mere possession of books. The author illustrates this point with an anecdote about a wealthy man who owns a large, expensive bookcase, but is not a bookman because he keeps his books locked away and values them for their monetary worth rather than their literary value. In contrast, a person who reads and appreciates classic literature, even if they don't have a large collection, can be considered a bookman. The author also touches on the idea that true appreciation for literature is not about external validation or education, but about a genuine love for reading and learning.
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Complex sentence structures
+    - [LEXICON]:
+        • Archaic vocabulary
+    - [SYNTAX]:
+        • Long, winding sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transitions between anecdotes
+    - [STRUCTURE]:
+        • Lack of clear narrative progression
+    - [CLARITY]:
+        • Ambiguous connections between ideas
+
+Section section_02 (Chars 8253–10851):
+Section Summary: The subject of the passage appears to have spent time in Paris, where he produced a number of religious pictures that were well-received by critics. A French critic, likely referring to a different subject, describes a book as a classic that has enriched the human mind and will be cherished for generations. The book is compared to a cathedral, a stately merchantman, and other enduring symbols, highlighting its timelessness and wisdom. The French Revolution and subsequent war caused a panic that delayed necessary changes, with many fearing a similar outbreak in England. The passage also briefly mentions a darker scene, where guards would descend into a pit to drag out prisoners for execution.
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [SYNTAX]:
+        • complex sentence structures
+    - [LEXICON]:
+        • occasional use of archaic vocabulary
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between paragraphs
+    - [STRUCTURE]:
+        • lack of clear chronological order
+    - [CLARITY]:
+        • ambiguous references to historical events
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

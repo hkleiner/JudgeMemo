@@ -1,0 +1,418 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    b) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The report is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–4151):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Minor punctuation issues
+    - [LEXICON]:
+        • Some archaic vocabulary
+    - [SYNTAX]:
+        • Long, complex sentence structures
+  Coherence Issues:
+    - [STRUCTURE]:
+        • Abrupt transition between descriptive passages and dialogue
+    - [CLARITY]:
+        • Some sentences are wordy and hard to follow
+    - [TRANSITION]:
+        • Lack of clear connections between paragraphs
+
+Section section_02 (Chars 4151–8188):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor punctuation errors
+    - [LEXICON]:
+        • occasional unclear word choices
+    - [SYNTAX]:
+        • some sentences are wordy or awkwardly structured
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transitions between ideas
+    - [CLARITY]:
+        • some paragraphs lack clear topic sentences
+    - [LOGIC]:
+        • occasional inconsistencies in narrative flow
+
+Section section_03 (Chars 8188–12474):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor sentence structure issues
+    - [LEXICON]:
+        • some words may be unfamiliar to non-expert readers
+    - [SYNTAX]:
+        • occasional long sentences
+  Coherence Issues:
+    - [STRUCTURE]:
+        • transitions between paragraphs could be smoother
+    - [CLARITY]:
+        • some sentences are dense with descriptive details
+    - [LOGIC]:
+        • occasional jumps in topic
+
+Section section_04 (Chars 12475–16678):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Missing articles in some sentences
+    - [LEXICON]:
+        • Use of uncommon terms without explanation (e.g., "tshokh", "lan", "kop", "Chin", "ch'ih")
+    - [SYNTAX]:
+        • Long, complex sentences that can be hard to follow
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between discussing economic conditions and the lack of energy among the people
+    - [STRUCTURE]:
+        • The text jumps between different topics (e.g., economy, culture, physical appearance) without clear connections
+    - [CLARITY]:
+        • Some sentences are wordy or contain unclear references (e.g., "the contrary is not nearer the truth")
+
+Section section_05 (Chars 16678–20858):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing article in some places
+    - [SPELLING]:
+        • "on the contrarys" should be "on the contrary"
+    - [LEXICON]:
+        • some words may be unfamiliar to non-experts
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transition between descriptive passages and custom explanations
+    - [CLARITY]:
+        • some sentences are long and convoluted
+
+Section section_06 (Chars 20859–24646):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Missing articles in some sentences
+    - [LEXICON]:
+        • Use of outdated or uncommon terms (e.g., "Tangutans")
+    - [SYNTAX]:
+        • Some sentences are wordy or awkwardly structured
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between discussing weddings and lamas' knowledge of medicine
+    - [STRUCTURE]:
+        • Lack of clear connection between the discussion of childbirth and the presentation of statistical data
+    - [CLARITY]:
+        • Unclear implications of the statistical data and its relation to the tribe's history
+
+Section section_07 (Chars 24646–28671):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor punctuation issues
+    - [LEXICON]:
+        • some archaic vocabulary
+    - [SYNTAX]:
+        • occasional complex sentence structures
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transition between chapters
+    - [CLARITY]:
+        • some sentences are wordy or contain unclear descriptions
+    - [TRANSITION]:
+        • lack of smooth connection between ideas in certain paragraphs
+
+Section section_08 (Chars 28672–32884):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Missing articles in some places
+    - [LEXICON]:
+        • Some words may be unfamiliar to non-expert readers
+    - [SYNTAX]:
+        • Long, complex sentences
+  Coherence Issues:
+    - [STRUCTURE]:
+        • Abrupt transitions between descriptive passages
+    - [CLARITY]:
+        • Some sentences are wordy or contain multiple ideas
+    - [TRANSITION]:
+        • Lack of clear connections between some paragraphs
+
+Section section_09 (Chars 32885–37238):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Missing articles in some places
+    - [SYNTAX]:
+        • Long and complex sentence structures
+    - [LEXICON]:
+        • Some words are uncommon or archaic
+  Coherence Issues:
+    - [STRUCTURE]:
+        • Abrupt transitions between descriptions of different parts of the temple
+    - [CLARITY]:
+        • Some sentences are wordy and difficult to follow
+    - [LOGIC]:
+        • Lack of clear connections between ideas
+
+Section section_10 (Chars 37238–41250):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Minor punctuation issues
+    - [LEXICON]:
+        • Some archaic or less common vocabulary
+    - [SYNTAX]:
+        • Long, complex sentence structures
+  Coherence Issues:
+    - [STRUCTURE]:
+        • Abrupt transitions between ideas
+    - [CLARITY]:
+        • Some sentences are wordy or unclear
+    - [TRANSITION]:
+        • Lack of smooth connections between paragraphs
+
+Section section_11 (Chars 41251–45068):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Missing articles in some places
+    - [LEXICON]:
+        • Some words may be unfamiliar to non-expert readers
+    - [SYNTAX]:
+        • Long, complex sentences
+  Coherence Issues:
+    - [STRUCTURE]:
+        • Abrupt transitions between descriptive passages and geographical information
+    - [CLARITY]:
+        • Some sentences are wordy or contain multiple ideas, making them hard to follow
+    - [LOGIC]:
+        • Assumes prior knowledge of the region and its geography
+
+Section section_12 (Chars 45068–49022):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Complex sentence structures
+    - [LEXICON]:
+        • Unfamiliar terms without explanation
+    - [SYNTAX]:
+        • Long sentences with multiple clauses
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt shifts between topics
+    - [STRUCTURE]:
+        • Lack of clear transitions between paragraphs
+    - [CLARITY]:
+        • Unclear references to historical events
+
+Section section_13 (Chars 49023–52420):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • awkward sentence structures
+    - [LEXICON]:
+        • uncommon vocabulary
+    - [SYNTAX]:
+        • long sentences with multiple clauses
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transitions between ideas
+    - [CLARITY]:
+        • unclear relationships between different groups
+    - [LOGIC]:
+        • lack of clear chronological order
+
+Section section_14 (Chars 52420–56548):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Missing articles in some sentences
+    - [LEXICON]:
+        • Some words are outdated or uncommon (e.g. "faggots", "burkhan")
+    - [SYNTAX]:
+        • Long, complex sentences that can be hard to follow
+  Coherence Issues:
+    - [STRUCTURE]:
+        • Abrupt transitions between different topics (e.g. from death customs to marriage customs)
+    - [CLARITY]:
+        • Some sentences are wordy or unclear, making it hard to understand the intended meaning
+    - [LOGIC]:
+        • Some customs or practices are not fully explained or seem contradictory
+
+Section section_15 (Chars 56549–60733):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor sentence structure issues
+    - [LEXICON]:
+        • some outdated or uncommon vocabulary
+    - [SYNTAX]:
+        • occasional awkward phrasing
+  Coherence Issues:
+    - [STRUCTURE]:
+        • lack of clear transitions between paragraphs
+    - [CLARITY]:
+        • some sentences are wordy or contain multiple ideas
+    - [LOGIC]:
+        • occasional jumps in topic or idea
+
+Section section_16 (Chars 60733–65049):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Long, convoluted sentences
+    - [LEXICON]:
+        • Unfamiliar vocabulary (e.g., "kutas", "Sarö Yögurs", "Khirgis")
+    - [SYNTAX]:
+        • Complex sentence structures
+  Coherence Issues:
+    - [STRUCTURE]:
+        • Abrupt transitions between topics
+    - [CLARITY]:
+        • Overly detailed descriptions
+    - [LOGIC]:
+        • Lack of clear connections between ideas
+
+Section section_17 (Chars 65049–69146):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor sentence structure issues
+    - [LEXICON]:
+        • occasional unclear word choices
+    - [SYNTAX]:
+        • few instances of awkward phrasing
+  Coherence Issues:
+    - [STRUCTURE]:
+        • some abrupt transitions between scenes
+    - [CLARITY]:
+        • a few sentences lack clear connections to the main narrative
+    - [LOGIC]:
+        • minor inconsistencies in descriptive details
+
+Section section_18 (Chars 69147–73309):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor punctuation errors
+    - [LEXICON]:
+        • some words may be unfamiliar to non-expert readers
+    - [SYNTAX]:
+        • a few long, complex sentences
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transitions between topics
+    - [CLARITY]:
+        • some sentences are wordy or unclear
+    - [LOGIC]:
+        • occasional lack of connection between ideas
+
+Section section_19 (Chars 73309–77386):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor sentence structure complexity
+    - [LEXICON]:
+        • occasional use of less common vocabulary
+    - [SYNTAX]:
+        • some long sentences with multiple clauses
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transition between descriptive passages and travel narrative
+    - [CLARITY]:
+        • minor ambiguity in geographic descriptions
+    - [TRANSITION]:
+        • occasional lack of clear connections between paragraphs
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

@@ -1,0 +1,144 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) Read and understand the summary of the text the report was created for.
+    b) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    c) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The summary of the text to be evaluated is given below:
+Summary: The text is a collection of essays and passages about bookmen, literature, and the love of books. A bookman is defined as someone who has a deep passion for books, not just someone who owns many books. The author recounts a story about visiting a wealthy man's library, where he was unimpressed by the grand bookcase, but rather disappointed by the lack of personal touch and love for the books.
+
+The author discusses the importance of literature and the role of critics in distinguishing between good and bad books. They quote Sainte-Beuve, a French critic, who describes a great book as one that enriches the human mind and has a style that is both new and antique. The author also mentions the joy of reading and the pleasure of rediscovering old favorite books.
+
+The text also touches on the theme of book collecting and the obsession that can come with it. The author describes a bookman's love for rare and beautifully bound books, and the sacrifices they will make to obtain them. They also mention the hereditary nature of book collecting, where a father's love for books can be passed down to his son.
+
+The author reminisces about their own love for books, starting from childhood, and mentions the influence of great authors such as Scott, Thackeray, and Dickens. They also discuss the importance of libraries and the joy of spending time among books. The text also includes passages about the history of book collecting, including the stories of famous book collectors such as Cosmo Medici and the Duke of Roxburghe.
+
+Throughout the text, the author's love for books and literature is evident, and they celebrate the joy of reading and the pleasure of discovering new authors and books. The author also pokes fun at the obsession of book collecting, but ultimately concludes that it is a noble and worthwhile pursuit. The text is a tribute to the love of books and the people who cherish them. 
+
+The author's tone is conversational and humorous, making the text an enjoyable read. They use anecdotes and personal experiences to illustrate their points, making the text feel more like a personal essay than a formal critique. Overall, the text is a celebration of the love of books and the joy of reading. 
+
+In addition to discussing books and literature, the author also touches on the theme of legacy and the importance of passing down a love of books to future generations. They mention the idea that a book collection can be a legacy that is passed down to one's children, and that it can bring joy and enrichment to their lives. 
+
+The text also includes some philosophical and poetic passages, where the author reflects on the nature of literature and the human experience. They quote from various authors and poets, including Charles Lamb and Jeanie Deans, and use their words to illustrate the power and beauty of literature. 
+
+Overall, the text is a rich and nuanced exploration of the love of books and literature, and the ways in which they can enrich our lives. It is a personal and reflective essay that celebrates the joy of reading and the importance of passing down a love of books to future generations. 
+
+The author's use of language is beautiful and evocative, making the text a pleasure to read. They use vivid imagery and descriptive language to bring the world of books and literature to life, and their love for the subject matter is evident on every page. 
+
+In conclusion, the text is a wonderful tribute to the love of books and literature, and the ways in which they can enrich our lives. It is a personal and reflective essay that celebrates the joy of reading and the importance of passing down a love of books to future generations. The author's use of language is beautiful and evocative, making the text a pleasure to read.
+
+The report for the text is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–7862):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Complex sentence structures
+    - [LEXICON]:
+        • Archaic vocabulary
+    - [SYNTAX]:
+        • Long, winding sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between ideas
+    - [STRUCTURE]:
+        • Lack of clear narrative progression
+    - [CLARITY]:
+        • Ambiguous references to unrelated topics
+
+Section section_02 (Chars 7862–15913):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Complex sentence structures
+    - [LEXICON]:
+        • Archaic vocabulary
+    - [SYNTAX]:
+        • Long, winding sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transitions between ideas
+    - [STRUCTURE]:
+        • Meandering narrative
+    - [CLARITY]:
+        • Unclear connections between paragraphs
+
+Section section_03 (Chars 15913–24278):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • awkward sentence structure
+    - [LEXICON]:
+        • overly complex vocabulary
+    - [SYNTAX]:
+        • long, winding sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt jumps between ideas
+    - [STRUCTURE]:
+        • lack of clear progression
+    - [CLARITY]:
+        • ambiguous transitions
+
+Section section_04 (Chars 24278–32585):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tenses
+    - [SYNTAX]:
+        • long, convoluted sentences
+    - [LEXICON]:
+        • some archaic vocabulary
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between paragraphs
+    - [STRUCTURE]:
+        • lack of clear narrative thread
+    - [CLARITY]:
+        • ambiguous references to unrelated topics
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

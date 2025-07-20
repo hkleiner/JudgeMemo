@@ -1,0 +1,208 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    b) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The report is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–8421):
+Section Summary: The author reflects on how Christmas has lost its magic and excitement for adults, who now have to force themselves to enjoy the holiday. In contrast, children still experience the wonder and joy of Christmas, and their enthusiasm is what helps adults to pretend to feel the same way. The author argues that Christmas was not always a children's holiday, but was once a meaningful and exciting celebration for adults as well. The fact that children still believe in the magic of Christmas suggests that it was once a powerful and significant holiday for adults, who have since lost their faith and enthusiasm. The author believes that acknowledging the decline of Christmas is the first step to understanding and addressing the issue, rather than simply denying or ignoring it.
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor sentence structure issues
+    - [LEXICON]:
+        • occasional use of less common vocabulary
+    - [SYNTAX]:
+        • some long sentences with multiple clauses
+  Coherence Issues:
+    - [LOGIC]:
+        • occasional abrupt transitions between ideas
+    - [STRUCTURE]:
+        • non-linear narrative progression
+    - [CLARITY]:
+        • some sentences with ambiguous meaning
+
+Section section_02 (Chars 8421–16861):
+Section Summary: The Christmas spirit has been impacted by the age of skepticism and doubt brought about by 19th-century philosophers and scientists, such as Darwin and Huxley, who sought to uncover the truth about nature and human history. This has led to a decline in faith and a focus on facts, causing people to question the validity of Christmas and its traditions. However, the author argues that the core principles of Christmas, such as faith, goodwill, and joy, remain intact and are essential for humanity to live with dignity and purpose. The celebration of Christmas on December 25th, coinciding with the winter solstice, is a symbolic moment that represents the triumph of light over darkness and the birth of hope. Despite the changes in human understanding and the influence of science, the underlying idea of faith and goodwill that underpins Christmas remains a timeless and universal concept.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Complex sentence structures
+    - [LEXICON]:
+        • Archaic vocabulary usage
+    - [SYNTAX]:
+        • Long, winding sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transitions between ideas
+    - [STRUCTURE]:
+        • Meandering narrative
+    - [CLARITY]:
+        • Overly philosophical language
+
+Section section_03 (Chars 16862–25593):
+Section Summary: The value of astronomy lies in its ability to remind us of our shared humanity and the importance of mutual goodwill and trust. Despite differences, people are coming together to promote social justice, which is the practice of goodwill and recognition of the brotherhood of mankind. The idea of universal goodwill is alive and thriving, inspiring many to work towards a better world. The author argues that festivals, such as Christmas, are necessary to celebrate and foster this faith in goodwill, providing a concrete symbol of an intangible idea. By participating in Christmas traditions, such as gift-giving and good-wishing, people can reaffirm their commitment to goodwill and mutual support.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Run-on sentences and lack of punctuation
+    - [LEXICON]:
+        • Overly complex vocabulary and sentence structures
+    - [SYNTAX]:
+        • Abrupt transitions between ideas
+  Coherence Issues:
+    - [LOGIC]:
+        • Some arguments seem disconnected from the main point
+    - [STRUCTURE]:
+        • The text jumps between different ideas and themes
+    - [CLARITY]:
+        • Certain sections are unclear or difficult to follow
+
+Section section_04 (Chars 25594–34040):
+Section Summary: The author defends the tradition of feasting during Christmas, arguing that faith and joy are naturally connected to celebration and excess. While acknowledging that excess can be taken too far, the author believes that moderate excess is a necessary part of the festive experience, allowing people to expand beyond their common sense and connect with others. The author also critiques the idea of replacing traditional Christmas celebrations with more modern or intellectual pursuits, arguing that festivals are affairs of the emotions, not the intellect. Instead, the author suggests that the key to revitalizing the Christmas festival is to focus on cultivating goodwill among people, which is a core element of the holiday's spirit. By doing so, the festival can regain its significance and authenticity without abandoning its traditional forms.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Complex sentence structures
+    - [LEXICON]:
+        • Archaic vocabulary
+    - [SYNTAX]:
+        • Long, winding sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transitions between ideas
+    - [STRUCTURE]:
+        • Meandering narrative
+    - [CLARITY]:
+        • Overly elaborate language
+
+Section section_05 (Chars 34040–42851):
+Section Summary: The author argues that cultivating goodwill towards others is a personal task that cannot be achieved through societies or grand gestures. Instead, one should focus on developing goodwill towards a small group of people, starting with those who annoy or challenge them the most. The key to cultivating goodwill is to use one's imagination to understand and sympathize with others, putting oneself in their shoes and reflecting on their experiences with empathy. This requires effort and a willingness to set aside one's own biases and prejudices, but it can lead to deeper connections and greater understanding. By practicing goodwill towards those around them, individuals can create a positive impact without needing to advertise their intentions or join large organizations.
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor sentence structure issues
+    - [LEXICON]:
+        • occasional use of complex vocabulary
+    - [SYNTAX]:
+        • some sentences are wordy and hard to follow
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between ideas in some paragraphs
+    - [CLARITY]:
+        • a few sentences are ambiguous and require re-reading
+    - [STRUCTURE]:
+        • the text jumps between general advice and specific examples
+
+Section section_06 (Chars 42852–51685):
+Section Summary: The author discusses the importance of cultivating goodwill towards others through a deliberate and systematic effort of imagination and sympathetic understanding. This exercise, although challenging, can lead to a significant reduction in egotism and a greater sense of connection with others. As a result, one's relationships with friends and acquaintances become more meaningful, and even everyday interactions, such as gift-giving and celebrations like Christmas, take on a deeper significance. The author argues that this practice can ultimately lead to an increase in one's own happiness, as it fosters a sense of companionship and mutual understanding. By cultivating goodwill, one can transform their relationships and find greater joy and appreciation in life's experiences.
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • sentence structure complexity
+    - [LEXICON]:
+        • occasional use of outdated vocabulary
+    - [SYNTAX]:
+        • lengthy sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • some paragraphs seem disconnected
+    - [TRANSITION]:
+        • abrupt shifts between ideas
+    - [CLARITY]:
+        • certain sentences are wordy and hard to follow
+
+Section section_07 (Chars 51686–60204):
+Section Summary: The path to happiness involves cultivating amity, reducing resentment, and maintaining a benevolent attitude towards others. However, after the festive season, a reaction sets in, and people often feel discouraged and dissatisfied with their lives. Despite this, individuals will continue to strive for their goals, driven by instinct and a desire for self-improvement, often making New Year's resolutions to guide their efforts. These resolutions are often ambitious and may ultimately lead to failure, but they are a necessary part of the human experience, driven by an innate desire to strive and improve. Ultimately, people will continue to pursue their ideals, despite the likelihood of not achieving them, and will find a way to draw renewed hope and motivation from their experiences.
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Complex sentence structures
+    - [LEXICON]:
+        • Some archaic vocabulary
+    - [SYNTAX]:
+        • Long paragraphs with dense ideas
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transitions between ideas
+    - [STRUCTURE]:
+        • Non-linear narrative flow
+    - [CLARITY]:
+        • Some ambiguous or vague statements
+
+Section section_08 (Chars 60205–65906):
+Section Summary: The concept of evil is not a positive principle, but rather a lack of perfection. Achieving perfection would mean the end of life, as life requires constant development and change. True happiness is not found in a state of equilibrium or the absence of struggle, but rather in the acceptance of discontent as a condition of life and the effort to adjust one's conduct to an ideal. Real happiness is an inward state of mind that can be found in the present, and it is rooted in the struggle and patience that make life worth living. Ultimately, the decision to find life worth living despite its drawbacks is a personal one, and many people are motivated by the "golden moments" of life and the joy of human connection.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Complex sentence structures
+    - [LEXICON]:
+        • Use of less common vocabulary
+    - [SYNTAX]:
+        • Long paragraphs with multiple ideas
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transitions between ideas
+    - [STRUCTURE]:
+        • Lack of clear sectioning or headings
+    - [CLARITY]:
+        • Some sentences are wordy or ambiguous
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

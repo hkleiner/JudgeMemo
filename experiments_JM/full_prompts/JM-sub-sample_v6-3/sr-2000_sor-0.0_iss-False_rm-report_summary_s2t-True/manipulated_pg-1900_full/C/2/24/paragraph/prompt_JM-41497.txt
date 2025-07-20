@@ -1,0 +1,184 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) Read and understand the summary of the text the report was created for.
+    b) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    c) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The summary of the text to be evaluated is given below:
+Summary: Sir Joshua Reynolds was a prominent English painter born in 1723. He was known for his exceptional talent, industry, and common sense, which enabled him to achieve great success in his career. Reynolds was born under a fortunate star and had a rare mixture of talent and judgment, which allowed him to create works that rivaled those of the great masters. He was not considered a genius, but rather a skilled artist who worked hard to develop his craft.
+
+Reynolds' early life was quite uneventful, and he was apprenticed to a portrait painter named Thomas Hudson. However, he soon quarreled with his master and returned to Devonshire, where he painted under the patronage of Lord Edgcumbe. It was during this time that he met Commodore Keppel, who took him on a cruise to the Mediterranean and introduced him to the great masterpieces of art.
+
+Reynolds' time in Italy had a profound impact on his development as an artist. He studied the works of the great masters, including Michelangelo, Titian, and Rubens, and learned to appreciate their techniques and styles. He also developed a deep understanding of color and composition, which would become hallmarks of his own work.
+
+Upon his return to England, Reynolds established himself as a prominent portrait painter. He was known for his ability to capture the character and personality of his sitters, and his portraits were highly sought after by the wealthy and aristocratic. He was also a skilled communicator and was able to express his ideas and opinions through his art.
+
+Reynolds was a key figure in the establishment of the Royal Academy, and he served as its first president. He was a strong advocate for the importance of art and education, and he worked tirelessly to promote the interests of artists and the arts. Despite his many successes, Reynolds was not without his flaws. He was known to be jealous and competitive, and he had a tendency to be overly critical of others.
+
+Throughout his life, Reynolds was surrounded by a circle of friends and acquaintances who were prominent figures in the arts and literature. He was particularly close to Dr. Johnson, who was a frequent visitor to his studio. Reynolds was also known for his love of luxury and his fondness for fine clothes and jewelry.
+
+Despite his many achievements, Reynolds' personal life was not without its challenges. He suffered from deafness and was often in poor health. He also had a difficult relationship with his sister, Frances, who kept house for him. However, he remained committed to his art and continued to paint until his death in 1792.
+
+Reynolds' legacy is still celebrated today, and he is widely regarded as one of the greatest portrait painters in British history. His work continues to inspire and influence artists, and his contributions to the development of British art are immeasurable. Despite the passage of time, Reynolds' paintings remain a testament to his skill and craftsmanship, and they continue to be admired and appreciated by art lovers around the world.
+
+Reynolds' approach to art was characterized by his emphasis on technique and his desire to create works that were both beautiful and meaningful. He was a master of color and composition, and his portraits are renowned for their subtlety and nuance. He was also a skilled communicator, and his art continues to speak to audiences today.
+
+In addition to his artistic talents, Reynolds was also a skilled writer and thinker. He was a frequent contributor to the press, and his writings on art and aesthetics are still studied by scholars today. He was also a talented lecturer, and his discourses on art were highly regarded by his contemporaries.
+
+Overall, Sir Joshua Reynolds was a complex and multifaceted individual who made significant contributions to the world of art. His legacy continues to inspire and influence artists, and his work remains a testament to his skill and craftsmanship. Despite the challenges and flaws that he faced, Reynolds remained committed to his art and continued to paint until his death, leaving behind a body of work that is still celebrated and admired today.
+
+The report for the text is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–8648):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Inconsistent verb tense usage
+    - [LEXICON]:
+        • Some words are archaic or less common
+    - [SYNTAX]:
+        • Long, complex sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transitions between ideas
+    - [STRUCTURE]:
+        • Lack of clear chronological order
+    - [CLARITY]:
+        • Some sentences are wordy or ambiguous
+
+Section section_02 (Chars 8649–17466):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • abrupt sentence transitions
+    - [LEXICON]:
+        • some archaic vocabulary
+    - [SYNTAX]:
+        • complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • occasional non-sequiturs
+    - [STRUCTURE]:
+        • meandering narrative
+    - [CLARITY]:
+        • ambiguous references to historical events
+
+Section section_03 (Chars 17467–26069):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor punctuation errors
+    - [LEXICON]:
+        • some archaic vocabulary
+    - [SYNTAX]:
+        • occasional complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between paragraphs
+    - [STRUCTURE]:
+        • lack of clear chronological order
+    - [CLARITY]:
+        • some sentences are wordy or ambiguous
+
+Section section_04 (Chars 26070–34796):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • abrupt sentence transitions
+    - [LEXICON]:
+        • occasional use of archaic vocabulary
+    - [SYNTAX]:
+        • complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • some events seem disconnected from the main narrative
+    - [STRUCTURE]:
+        • lack of clear chronological progression in certain sections
+    - [CLARITY]:
+        • occasional ambiguity in sentence meaning
+
+Section section_05 (Chars 34796–43475):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor sentence structure issues
+    - [LEXICON]:
+        • some outdated vocabulary
+    - [SYNTAX]:
+        • occasional complex sentence constructions
+  Coherence Issues:
+    - [LOGIC]:
+        • slight abruptness in transitioning between ideas
+    - [STRUCTURE]:
+        • minor disjointedness in narrative flow
+    - [CLARITY]:
+        • occasional ambiguity in sentence meaning
+
+Section section_06 (Chars 43476–47398):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor sentence structure complexity
+    - [LEXICON]:
+        • some archaic vocabulary
+    - [SYNTAX]:
+        • occasional long sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • slight jumps in topic discussion
+    - [TRANSITION]:
+        • occasional lack of smooth transitions between paragraphs
+    - [CLARITY]:
+        • minor ambiguity in some sentences
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

@@ -1,0 +1,356 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    b) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The report is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–4095):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • abrupt transition to "The hologram flickered to life" without context
+    - [LEXICON]:
+        • inconsistent tone with introduction of "hologram"
+    - [SYNTAX]:
+        • some sentences are lengthy and convoluted
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt introduction of "The hologram flickered to life" disrupts historical narrative
+    - [STRUCTURE]:
+        • lack of clear connection between chapters
+    - [CLARITY]:
+        • some sentences are wordy and unclear
+
+Section section_02 (Chars 4096–8224):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Minor punctuation issues
+    - [LEXICON]:
+        • Some sentences are wordy
+  Coherence Issues:
+    - [STRUCTURE]:
+        • Abrupt transition between paragraphs
+    - [CLARITY]:
+        • Some sentences are unclear due to complexity
+
+Section section_03 (Chars 8225–12588):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor punctuation errors
+    - [LEXICON]:
+        • some sentences are wordy
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition to the "BATTLE OF PETERSBURG" chapter
+    - [STRUCTURE]:
+        • lack of clear connection between some paragraphs
+
+Section section_04 (Chars 12589–16768):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Missing articles in some places
+    - [LEXICON]:
+        • Some words may be unfamiliar to non-experts
+    - [SYNTAX]:
+        • A few long sentences could be broken up for clarity
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition with the sentence about the air purifier
+    - [STRUCTURE]:
+        • Some paragraphs could be more clearly connected
+    - [CLARITY]:
+        • A few sentences are wordy or unclear
+
+Section section_05 (Chars 16769–21045):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Minor punctuation errors
+    - [LEXICON]:
+        • Some sentences are wordy
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between paragraphs
+    - [STRUCTURE]:
+        • Repetitive information about the Union's plan
+
+Section section_06 (Chars 21045–25323):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Missing articles in some places
+    - [LEXICON]:
+        • Some sentences are wordy or use less common vocabulary
+    - [SYNTAX]:
+        • A few sentences have complex structures that may hinder readability
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between describing the military situation and introducing the idea of the mine
+    - [STRUCTURE]:
+        • The text jumps between different topics, such as the military layout and the construction of the mine
+    - [CLARITY]:
+        • Some sentences are unclear or require extra effort to understand due to their complexity or lack of context
+
+Section section_07 (Chars 25324–29529):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • abrupt sentence transitions
+    - [LEXICON]:
+        • inconsistent terminology
+    - [SYNTAX]:
+        • complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • unclear cause-and-effect relationships
+    - [STRUCTURE]:
+        • disjointed paragraphs
+    - [CLARITY]:
+        • ambiguous descriptions of events
+
+Section section_08 (Chars 29530–33791):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Inconsistent verb tense usage
+    - [LEXICON]:
+        • Abrupt change in topic with "A smart bulb changed color"
+    - [SYNTAX]:
+        • Some sentences are overly long and complex
+  Coherence Issues:
+    - [LOGIC]:
+        • Inclusion of unrelated information about a smart bulb
+    - [STRUCTURE]:
+        • Abrupt transitions between paragraphs
+    - [CLARITY]:
+        • Some sentences are wordy and difficult to follow
+
+Section section_09 (Chars 33792–38209):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Inconsistent verb tense usage
+    - [LEXICON]:
+        • Inclusion of anachronistic terms like "drone's camera" and "hologram"
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt introduction of unrelated elements (e.g., "The drone's camera swiveled silently", "A hologram displayed the weather")
+    - [STRUCTURE]:
+        • Disjointed transition between paragraphs
+
+Section section_10 (Chars 38209–42350):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Missing articles in some places
+    - [SYNTAX]:
+        • Some sentences are wordy or have complex structures
+    - [LEXICON]:
+        • A few words or phrases could be more precise
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between paragraphs
+    - [STRUCTURE]:
+        • Some sections feel disconnected from the main narrative
+    - [CLARITY]:
+        • A few sentences are unclear or hard to follow
+
+Section section_11 (Chars 42351–46681):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Inconsistent verb tense usage
+    - [LEXICON]:
+        • Abrupt introduction of unrelated terms like "touchscreen panel" and "soundbar"
+    - [SYNTAX]:
+        • Some sentences are overly long and convoluted
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transitions between different events and locations
+    - [STRUCTURE]:
+        • Lack of clear connection between some paragraphs
+    - [CLARITY]:
+        • Introduction of unrelated elements like "A touchscreen panel showed static" and "A soundbar adjusted volume automatically" disrupts historical narrative
+
+Section section_12 (Chars 46682–50780):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Minor punctuation errors
+    - [LEXICON]:
+        • Some sentences are wordy
+  Coherence Issues:
+    - [STRUCTURE]:
+        • Abrupt transition to the list of dates
+    - [CLARITY]:
+        • Some paragraphs seem disconnected from the main narrative
+
+Section section_13 (Chars 50781–55136):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Minor sentence structure issues
+    - [LEXICON]:
+        • Some word choices could be more precise
+    - [SYNTAX]:
+        • A few sentences are wordy or awkwardly phrased
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between paragraphs
+    - [STRUCTURE]:
+        • Some sections feel disconnected from the main narrative
+    - [CLARITY]:
+        • A few sentences are unclear or require re-reading
+
+Section section_14 (Chars 55136–59469):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor punctuation errors
+    - [LEXICON]:
+        • occasional word choice could be more precise
+    - [SYNTAX]:
+        • a few sentences are somewhat long and convoluted
+  Coherence Issues:
+    - [LOGIC]:
+        • some transitions between sentences could be smoother
+    - [STRUCTURE]:
+        • the text jumps between different aspects of the battle
+    - [CLARITY]:
+        • a few sections are slightly confusing due to the complexity of the battle
+
+Section section_15 (Chars 59470–63869):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Missing articles in some places
+    - [SYNTAX]:
+        • Long sentences with multiple clauses
+    - [LEXICON]:
+        • Some words may be unfamiliar to non-experts
+  Coherence Issues:
+    - [STRUCTURE]:
+        • Abrupt transition between paragraphs
+    - [CLARITY]:
+        • Some sentences are wordy and hard to follow
+    - [LOGIC]:
+        • Assumes prior knowledge of the historical context
+
+Section section_16 (Chars 63870–68286):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor punctuation errors
+    - [LEXICON]:
+        • some sentences are wordy
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between paragraphs
+    - [STRUCTURE]:
+        • lack of clear connections between ideas
+
+Section section_17 (Chars 68286–72473):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor sentence structure issues
+    - [LEXICON]:
+        • occasional use of somewhat archaic vocabulary
+    - [SYNTAX]:
+        • a few instances of complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • occasional abrupt transitions between paragraphs
+    - [STRUCTURE]:
+        • minor issues with chronological sequencing
+    - [CLARITY]:
+        • a few sentences with ambiguous or unclear meaning
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

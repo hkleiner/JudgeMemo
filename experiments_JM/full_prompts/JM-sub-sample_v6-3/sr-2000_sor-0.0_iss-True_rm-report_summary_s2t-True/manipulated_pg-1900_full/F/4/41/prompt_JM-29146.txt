@@ -1,0 +1,313 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) Read and understand the summary of the text the report was created for.
+    b) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    c) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The summary of the text to be evaluated is given below:
+Summary: Jason Ramsey, a hyper-space pilot, is stranded on the planet Irwadi after the government planetarizes the Interstellar Transfer Service. He meets a beautiful Earthgirl, Margot Dennison, who offers him a job to take her through hyper-space to Centauri. Margot is searching for something, and Ramsey soon discovers that she is looking for the secret of proto-man, a legendary ancestor of all humanoid races. 
+
+Ramsey, Margot, and a Vegan girl named Vardin work on an old spaceship, the Enterprise, in a Spacer Graveyard. They plan to escape from Irwadi, but their actions are being monitored by the Irwadian Security Police, led by Garr Symm. Symm is a scientist who has discovered a letter from Margot's father, which hints at the existence of proto-man and a powerful secret.
+
+As they prepare to leave, Margot reveals that she has found a way to travel through hyper-space without feeling the effects of acceleration. Ramsey is skeptical, but they eventually take off and enter hyper-space. The ship encounters an eddy, and Ramsey struggles to maintain control. Margot takes over and brings the ship down on a mysterious world in hyper-space.
+
+The group ventures out of the ship and finds themselves in a timeless, gray environment. They soon discover a black rectangular object, which Margot believes is a matter-transmitter. Ramsey has a vision of Margot playing chess with proto-man, and he realizes that the secret of proto-man is too powerful for humanity to handle.
+
+Garr Symm and his men arrive, and a confrontation ensues. Ramsey fights off Symm's men, but not before they die from lack of air and cold, despite being in a timeless environment. Vardin reveals that she is not a Vegan girl but proto-man, a guardian who has been watching over humanity. She explains that her ancestors discovered matter-transmission but did not understand its power, leading to their downfall.
+
+Vardin tells Ramsey to stop Margot from using the matter-transmitter, and he succeeds in subduing her. However, Garr Symm jumps into the box and is transformed into a caveman-like creature. Vardin leads Symm away, and Ramsey takes Margot back to the Enterprise. As they escape, Margot realizes that she has been driven by her pride and ambition, but she now loves Ramsey and wants to be with him. They blast off into space, ready to start a new life together.
+
+The report for the text is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–8035):
+Section Summary: Jason Ramsey, a hyper-space pilot from Earth, is informed by the Port Security Officer on Irwadi that the government has "planetarized" the Irwadi Transfer Service, effectively grounding all non-Irwadian pilots and ships. Ramsey is forced to surrender his pilot license and is told to find a way to support himself until he can be removed from the planet. He meets with fellow pilot Stu Englander, who is also struggling financially, and offers to help him out with a loan. Englander is hesitant to accept charity, but Ramsey insists it's a loan that can be repaid when he's able. The situation is dire, with many outworlders, including Ramsey and Englander, facing an uncertain future on the hostile planet of Irwadi.
+Scores:
+  - Fluency: 3.5
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense
+    - [SPELLING]:
+        • multiple typos (e.g. "titanium" as "titanum" not found but "Eartggirl" instead of "Earthgirl", "thith" instead of "this", "ecth-captain" instead of "ex-captain")
+    - [LEXICON]:
+        • unusual word choices (e.g. "planetarithed" instead of "nationalized")
+    - [SYNTAX]:
+        • some sentences are hard to follow
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between scenes
+    - [STRUCTURE]:
+        • non-linear narrative
+    - [CLARITY]:
+        • some parts are confusing due to lack of context
+
+Section section_02 (Chars 8036–15935):
+Section Summary: Ramsey visits his friend Englander, who is struggling to support his family, and gives him 375 credits to help. Ramsey then heads to a gambling hall, where he loses most of his money and is confronted by Garr Symm, the new head of the Irwadian Security Police, who is drunk and hostile towards outworlders, particularly Earthmen. Symm insults and humiliates Ramsey, sloshing a drink in his face, but Ramsey chooses not to react, aware that he is in a precarious position as an Earthman fugitive. The encounter leaves Ramsey feeling uneasy, and he wonders about the reason behind Symm's appointment as Security Chief. The situation highlights the tensions between Earthmen and the native Irwadians, who resent the influence of Earth in the galaxy.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing or incorrect articles
+    - [SPELLING]:
+        • typos (e.g., "thertainly" instead of "certainly", "anachrlnistic" instead of "anachronistic")
+    - [LEXICON]:
+        • informal language and slang (e.g., "thtink", "ditheath")
+    - [SYNTAX]:
+        • some sentences are wordy or awkwardly phrased
+  Coherence Issues:
+    - [LOGIC]:
+        • some transitions between scenes or ideas feel abrupt
+    - [STRUCTURE]:
+        • the narrative jumps between different plot threads
+    - [CLARITY]:
+        • some characters' motivations or backgrounds are unclear
+
+Section section_03 (Chars 15936–23551):
+Section Summary: Jason Ramsey, an administrator, intervenes when Garr Symm, the Irwadian Security Chief, mistreats a Vegan girl, Mith, in a gambling hall. Ramsey hits Symm and escapes with the girl, taking her to his room in the Old Quarter to gather his belongings before they go into hiding. However, upon arriving at his room, he finds an Earthgirl waiting for him, who claims to be a telepath and has taken possession of his m.g. gun. The Earthgirl is provocatively dressed and seems to know more about Ramsey than she should, leaving him unsure of her intentions. Ramsey is cautious, but the Earthgirl's abilities and confident demeanor have him at a disadvantage.
+Scores:
+  - Fluency: 2.5
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "fhe" instead of "the"
+        • "whithpered" instead of "whispered"
+        • "elth" instead of "else"
+        • "latht" instead of "last"
+        • "ane" instead of "and"
+        • "wasvsick" instead of "was sick"
+        • "thenthreshold" instead of "the threshold"
+        • "voixe" instead of "voice"
+        • "cgoice" instead of "choice"
+        • "wxsn't" instead of "wasn't"
+        • "cgo" instead of "go"
+    - [GRAMMAR]:
+        • inconsistent verb tenses
+    - [LEXICON]:
+        • "abrevitog" is not a standard word
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition from the scene at the gambling hall to Ramsey's room
+    - [STRUCTURE]:
+        • the narrative jumps between different plot threads without clear connections
+    - [CLARITY]:
+        • some sentences are wordy or unclear, making it hard to follow the story
+    - [TRANSITION]:
+        • the introduction of the Earthgirl feels sudden and unexplained
+
+Section section_04 (Chars 23552–31364):
+Section Summary: Ramsey and a Vegan girl are held at gunpoint by Margot Dennison, a beautiful Earthgirl who claims to have met Ramsey before, but he doesn't remember her. Margot offers to pay Ramsey 1,000 credits to take her through hyper-space to Centauri, and he agrees on the condition that the Vegan girl comes too. After a night's rest at Margot's apartment, Ramsey and the Vegan girl wake up to find that Margot has left and locked them in. While waiting for Margot's return, Ramsey searches the apartment and finds a letter from someone who appears to be a close relation, revealing that Margot is searching for a specific hyper-space pattern from Irwadi to Earth. The letter hints at a significant discovery related to the origins of proto-men, and Margot is determined to keep this information secret.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing or incorrect articles
+    - [SPELLING]:
+        • typos (e.g., "uni-sexual" instead of "unisex", "Dejnison" instead of "Dennison")
+    - [LEXICON]:
+        • occasional awkward phrasing
+  Coherence Issues:
+    - [LOGIC]:
+        • some abrupt transitions between scenes
+    - [STRUCTURE]:
+        • minor inconsistencies in pacing
+    - [CLARITY]:
+        • a few unclear character motivations
+
+Section section_05 (Chars 31365–39696):
+Section Summary: A dying man writes a letter to his daughter Margot, revealing his research on "proto-man," a hypothetical ancestor of humanity who allegedly traveled through hyper-space to populate the galaxy. The man believes that whoever discovers proto-man's secret will become incredibly powerful, and he urges Margot to continue his work. Margot enlists the help of Captain Ramsey, a spacer, and they begin to prepare for a journey, while also trying to evade the authorities who are searching for them. As they work on a old spaceship in a junkyard, Margot reveals that she can read minds and senses that they are being watched. Ramsey is drawn to Margot, but is also wary of her ability to read his thoughts, particularly about the mysterious proto-man letter.
+Scores:
+  - Fluency: 2.5
+  - Coherence: 3.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • numerous typos and spelling errors (e.g., "gou" instead of "you", "wirds" instead of "words", "lengtb" instead of "length", "fantastically" is used but seems out of context)
+    - [GRAMMAR]:
+        • incorrect verb tenses and subject-verb agreement
+    - [LEXICON]:
+        • some words are used incorrectly or in an awkward manner (e.g., "man-tailored jumper", "Sirian-archaic furniture")
+    - [SYNTAX]:
+        • sentence structure is sometimes awkward or hard to follow
+  Coherence Issues:
+    - [LOGIC]:
+        • some plot points seem disconnected or unexplained (e.g., the significance of proto-man, the reason for Margot's actions)
+    - [STRUCTURE]:
+        • the text jumps abruptly between different scenes and ideas
+    - [CLARITY]:
+        • some sentences or phrases are unclear or confusing
+    - [TRANSITION]:
+        • transitions between paragraphs or scenes are sometimes rough
+
+Section section_06 (Chars 39697–47571):
+Section Summary: Ramsey, Margot, and Vardin are trying to escape from the planet Irwadi, but they are being followed by Security Officer Ramar Chind and his boss Garr Symm. Garr Symm, a scientist, has discovered a valuable letter in Margot's apartment and wants to let them escape so he can follow them and uncover more information. Chind is instructed to load a wrecked ship with the fuel they need, U-235 slow-implosion capsules, to aid in their escape. Meanwhile, Vardin uses a scintillation counter to find the fuel they need, and Margot retrieves it from a wrecked ship. Garr Symm's ultimate goal is to use the information to make Irwadi the dominant planet in the galaxy, with him as the absolute dictator.
+Scores:
+  - Fluency: 3.5
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense
+    - [SPELLING]:
+        • multiple typos (e.g. "reaxhed", "frombreading", "sir," -> "sir?")
+    - [SYNTAX]:
+        • awkward sentence structure
+    - [LEXICON]:
+        • unclear terminology (e.g. "proto-man", "U-235 slow-implosion capsule")
+  Coherence Issues:
+    - [LOGIC]:
+        • unclear motivations of characters (e.g. Garr Symm's goals)
+    - [STRUCTURE]:
+        • abrupt transitions between scenes
+    - [CLARITY]:
+        • confusing plot developments (e.g. the significance of the letter)
+    - [TRANSITION]:
+        • lack of clear connections between ideas
+
+Section section_07 (Chars 47572–55918):
+Section Summary: The Enterprise is preparing to embark on a journey through hyper-space in search of a valuable find. Margot Dennison, a beautiful and cunning woman, is trying to uncover the secrets of proto-man, a pre-human ancestor of all humanoid races. As the Enterprise enters hyper-space, Ramsey explains the concept of timelessness in this realm, where duration is subjective and there is no fourth dimension. Meanwhile, Garr Symm and Ramar Chind are tracking the Enterprise from their ship, the Dog Star, using radar that behaves perfectly in hyper-space. The Enterprise encounters eddies in hyper-space, which Ramsey navigates, explaining that they are like unmarked shoals in an ocean that must be avoided.
+Scores:
+  - Fluency: 3.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "dzsh" instead of "dash"
+        • "libkdinous" instead of "libidinous"
+        • "dod" instead of "did"
+        • "vover" instead of "cover"
+        • "thouxand-tonner" instead of "thousand-tonner"
+        • "wd" instead of "we'd"
+        • "Ahat" instead of "What"
+        • "Cjind" instead of "Chind"
+        • "exxept" instead of "except"
+        • "underetand" instead of "understand"
+    - [GRAMMAR]:
+        • Missing or incorrect punctuation in several places
+    - [LEXICON]:
+        • Uncommon or unclear terms like "proto-man" without explanation
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt shift from Margot's thoughts to the technicians working on the Dog Star
+    - [STRUCTURE]:
+        • Non-linear narrative jumps between different scenes and characters
+    - [CLARITY]:
+        • Unclear explanations of hyper-space and its properties
+    - [TRANSITION]:
+        • Lack of smooth transitions between different ideas and scenes
+
+Section section_08 (Chars 55919–63895):
+Section Summary: Margot Dennison takes control of the Enterprise, forcing Ramsey to land on a mysterious world in hyper-space that is believed to be the home of proto-man. Despite the ship's environment-checker indicating a lethal environment with extreme cold and lack of air, Margot is determined to explore the world, convinced that the absence of time in hyper-space will protect her. Ramsey, who had been trying to resist Margot's demands, eventually gives in, realizing that the lack of time in hyper-space could indeed make the environment harmless. Margot decides to take Vardin, the Vegan girl, with her to explore the world, using the m.g. gun to ensure Ramsey's compliance. As they prepare to venture out, Ramsey seems to have resigned himself to Margot's plans, warning her about the potential dangers of tampering with unknown powers.
+Scores:
+  - Fluency: 2.5
+  - Coherence: 3.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing or incorrect articles
+    - [SPELLING]:
+        • typos such as "yime", "mimsy", "borogroves", "momraths", "ul" instead of "up", "tbere" instead of "there", "colkapsed" instead of "collapsed", "comtrols" instead of "controls", "dowj" instead of "down", "thouthts" instead of "thoughts", "shooj" instead of "shook", "hxte" instead of "hate", "doggerel" used unclearly
+    - [SYNTAX]:
+        • run-on sentences and unclear sentence structure
+    - [LEXICON]:
+        • unclear or improper use of technical terms like "hyper-space"
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between scenes and ideas
+    - [STRUCTURE]:
+        • unclear progression of events and character motivations
+    - [CLARITY]:
+        • confusing narrative and unclear character thoughts
+
+Section section_09 (Chars 63896–72019):
+Section Summary: Margot and Ramsey, accompanied by Vardin, venture out of their ship and into a timeless world, where they encounter a beautiful, otherworldly music. The music, known as the "Music of the Spheres," is a legend on many worlds and seems to be connected to the nature of this timeless place. As they listen, the fog surrounding them begins to lift, revealing a black rectangular object that Margot recognizes as a matter-transmitter, a device that could grant immense power and control over the galaxy. However, their discovery is soon interrupted by the arrival of Garr Symm and his men, who attempt to stop Margot from reaching the device. Ramsey intervenes, fighting off Symm's men to protect Margot and the matter-transmitter.
+Scores:
+  - Fluency: 3.5
+  - Coherence: 3.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing articles and incorrect verb tenses
+    - [SPELLING]:
+        • typos such as "Rhey" instead of "They", "dight" instead of "go ahead", "lwss" instead of "less", "grayvmurk" instead of "gray murk"
+    - [SYNTAX]:
+        • run-on sentences and inconsistent sentence structure
+    - [LEXICON]:
+        • word choice issues, such as using "somehow" and "merely" repeatedly
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt shifts in scene and character perspective
+    - [STRUCTURE]:
+        • disjointed narrative flow and unclear transitions between ideas
+    - [CLARITY]:
+        • confusing and ambiguous descriptions of the environment and characters' actions
+    - [TRANSITION]:
+        • lack of clear connections between different parts of the story
+
+Section section_10 (Chars 72020–77487):
+Section Summary: Ramsey fought off the Irwadi space-suited figures, who died after their helmets were damaged, apparently due to mental suggestion. Vardin, a Proto-man, revealed that his people had discovered matter-transmission, but it ultimately led to their downfall, causing them to devolve into savages. Garr Symm, who had used the matter-transmission device, emerged with the face of his caveman ancestors, illustrating the devastating consequences of the technology. Vardin, a guardian, had been trying to prevent humans from acquiring this power, and with his mission accomplished, he disappeared. Ramsey and Margot, who had developed feelings for each other, left the planet and blasted off into space, ready to start a new life together.
+Scores:
+  - Fluency: 3.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • "harded" instead of "harder"
+    - [SPELLING]:
+        • "thevspace-suit" instead of "the space-suit"
+        • "eyds" instead of "eyes"
+        • "cood" instead of "cold"
+        • "lan" instead of "man"
+        • "jt" instead of "it"
+        • "then" instead of "them"
+        • "equarion" instead of "equation"
+    - [SYNTAX]:
+        • Several sentences with awkward phrasing
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between Ramsey's fight and his conversation with Vardin
+    - [STRUCTURE]:
+        • The narrative jumps between different plot points without clear connections
+    - [CLARITY]:
+        • Some sentences are unclear or confusing, making it difficult to follow the story
+    - [TRANSITION]:
+        • The ending feels rushed, with some plot points resolved too quickly
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

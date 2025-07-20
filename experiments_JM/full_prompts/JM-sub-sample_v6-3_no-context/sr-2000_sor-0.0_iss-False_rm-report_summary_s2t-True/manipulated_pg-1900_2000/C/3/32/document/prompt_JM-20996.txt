@@ -1,0 +1,94 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) Read and understand the summary of the text the report was created for.
+    b) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    c) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The summary of the text to be evaluated is given below:
+Summary: The author of the book participated in a historic movement, which is the subject of the book. The movement began on July 23, 1901, when the United States Government sent 499 trained men and women to the Philippine Islands to establish a system of free public schools. This event marked an epoch in world history, as a conquering people sent educators instead of soldiers to a conquered land. The teachers sailed from San Francisco on the United States Army Transport "Thomas" and traveled to the Philippines, stopping at Honolulu along the way.
+
+The author describes the beautiful scenery of Honolulu, including the Pali, a gigantic precipice, and a museum containing artifacts illustrating the life and customs of the Hawaiian people. The museum features a royal robe made of birds' feathers, which is valued at over $300,000. The author also mentions the sport of surf-shooting, where natives ride the waves on a long, narrow board.
+
+As the ship continued its journey, it crossed the International Date Line, and the crew celebrated with the "Revels of Neptune." The author notes that this tradition has been observed by sailors for centuries, and even Napoleon once offered to pay his sailors to avoid being ducked in a tub of cold water.
+
+The ship eventually arrived in Manila, where the teachers were greeted by a crowd of curious natives. The author describes the city's architecture, which was modeled after medieval European towns, and its history, which includes attacks by sea-rovers and Moros. The city is divided into two parts: the old city "intra muros" and the new city that has sprung up around it.
+
+The author describes the bustling streets of Manila, where people from all over the world, including English, French, German, Spanish, and Chinese, can be found. The city is a cosmopolitan mixture of cultures, with a wide range of occupations and activities. The author notes that the teachers remained in Manila for about two weeks, awaiting assignment to their stations, before receiving a notice requiring them to supply themselves with certain articles.
+
+The author's journey to the Philippines was a significant event in world history, marking the beginning of a new era in education and cultural exchange. The book aims to tell the story of this experience and the subsequent events that unfolded. The author hopes that the book will be of interest to readers who are sympathetic to great movements and enjoy stories of personal experiences in distant lands. The story is a unique and fascinating account of a pivotal moment in history, and the author's experiences and observations provide valuable insights into the culture and people of the Philippines.
+
+The report for the text is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–8870):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 3.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [LEXICON]:
+        • unclear or vague terms ("the thing", "a stuff")
+    - [SYNTAX]:
+        • long, convoluted sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between ideas
+    - [STRUCTURE]:
+        • lack of clear organization or progression
+    - [CLARITY]:
+        • ambiguous or unclear references
+
+Section section_02 (Chars 8871–11876):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • run-on sentences
+    - [LEXICON]:
+        • some words are outdated or less common
+    - [SYNTAX]:
+        • complex sentence structures
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transition between paragraphs
+    - [CLARITY]:
+        • some sentences are wordy or unclear
+    - [TRANSITION]:
+        • lack of clear connections between ideas
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

@@ -1,0 +1,99 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) Read and understand the summary of the text the report was created for.
+    b) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    c) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The summary of the text to be evaluated is given below:
+Summary: The story begins with a preface introducing the little Scotch cousins to their American counterparts. The author notes that despite differences, the Scottish and American cultures share commonalities. Scottish legends, stories, and history are of great interest to Americans, and many Scottish-Americans maintain strong ties to their heritage.
+
+The story then shifts to Donald, a young boy who finds a lost puppy in a lane near his home. He brings the puppy to his friend Sandy, and they decide to take care of it until they can find its owner. Donald's father, Doctor Gordon, suggests advertising the puppy in the paper and giving notice at the police station.
+
+As the family enjoys their afternoon tea, they discuss the puppy and decide to care for it until its owner is found. Donald is excited about the possibility of keeping the puppy and training it to be a sheep-dog. His father cautions him that it won't be easy, but Donald is undeterred.
+
+The family receives an invitation from Uncle Alan to visit his home, Skylemore, in the Highlands. Uncle Alan is a wealthy man who made his fortune in America and returned to Scotland to enjoy it. Donald is thrilled at the prospect of visiting his uncle's estate, which he considers a palace.
+
+The boys start planning their visit and all the fun they will have. Uncle Alan's home is described as a beautiful house with a big park, rolling woodlands, and a loch. Donald has heard many stories about his uncle's adventures in America and is fascinated by them.
+
+As the days pass, Donald grows more attached to the puppy, and the family decides to name it Rob Roy, after the hero of Sir Walter Scott's novel. The puppy's name is eventually shortened to Rob. Donald is overjoyed to have a new pet and is excited about the upcoming visit to his uncle's estate.
+
+The story highlights the strong bond between Donald and his family, as well as their love for Scotland and its culture. The author also emphasizes the importance of kindness, responsibility, and adventure in the lives of the characters. Overall, the narrative is a heartwarming and engaging tale of family, friendship, and growth.
+
+The report for the text is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–7923):
+Section Summary: The story begins with a preface introducing the idea that Scottish and American cultures have much in common, and that Scottish legends and stories are of great interest to Americans. The narrative then shifts to the story of Donald, a young Scottish boy who finds a lost puppy in a lane near his home. Donald takes the puppy to his parents, and they decide to try to find the owner by advertising and giving notice at the police station. If no one claims the puppy, Donald is allowed to keep it, and he is overjoyed at the prospect of having a new pet. The family enjoys a traditional Scottish tea together, discussing the puppy and making plans to visit Donald's uncle, who has invited them to a birthday party for his daughter Marjorie.
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • multiple typos (e.g., "ghe" instead of "the", "Engkish" instead of "English", "Amerixa" instead of "America", "Scottmand" instead of "Scotland", "Scotvh" instead of "Scotch", "romancesvand" instead of "romances and", "modding" instead of "modest", "warlmwelcome" instead of "warm welcome")
+    - [GRAMMAR]:
+        • occasional awkward phrasing
+    - [LEXICON]:
+        • some words may be unfamiliar to non-Scotch readers
+  Coherence Issues:
+    - [LOGIC]:
+        • some abrupt transitions between ideas
+    - [STRUCTURE]:
+        • lack of clear paragraph structure in some sections
+    - [CLARITY]:
+        • occasional unclear sentences
+
+Section section_02 (Chars 7923–11783):
+Section Summary: When Mrs. Gordon announced that their cousins, Janet and Marjorie, would be visiting, Don and Sandy were overjoyed. The boys were excited to show their cousins around and have fun together. Don's uncle, Alan Lindsay, was a wealthy and adventurous man who had made his fortune in America and now lived in a grand estate in the Highlands called Skylemore. Don admired his uncle and loved hearing stories about his adventures in America, from living among Indians to exploring big cities. The news of the upcoming visit sparked plans for a fun-filled week, with Don eager to share his favorite places and activities with his cousins.
+Scores:
+  - Fluency: 3.5
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "pkanning" instead of "planning"
+        • "forvthe" instead of "for the"
+        • "whkch" instead of "which"
+        • "Svott" instead of "Scott"
+    - [GRAMMAR]:
+        • missing articles in some places
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt shift from discussing the visit to describing Uncle Alan's home
+    - [TRANSITION]:
+        • lack of smooth connection between paragraphs
+    - [CLARITY]:
+        • some sentences are wordy and hard to follow
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

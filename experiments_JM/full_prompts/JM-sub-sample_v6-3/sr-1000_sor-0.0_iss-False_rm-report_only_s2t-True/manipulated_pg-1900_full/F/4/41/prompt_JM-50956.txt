@@ -1,0 +1,390 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    b) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The report is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–4151):
+Scores:
+  - Fluency: 3.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "enormohs" instead of "enormous"
+        • "wuoted" instead of "quoted"
+        • "wete" instead of "were"
+        • "hsr" instead of "her"
+        • "latger" instead of "larger"
+        • "saysnCol" instead of "says Col"
+        • "rhe" instead of "the"
+        • "Vsnice" instead of "Venice"
+        • "iffensive" instead of "offensive"
+        • "Brhsilov" instead of "Brusilov"
+    - [GRAMMAR]:
+        • Missing articles in some places
+    - [LEXICON]:
+        • "soldiet" instead of "soldier"
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between sentences
+    - [STRUCTURE]:
+        • Lack of clear paragraph structure
+    - [CLARITY]:
+        • Some sentences are wordy and hard to follow
+    - [TRANSITION]:
+        • Missing connections between ideas
+
+Section section_02 (Chars 4151–8429):
+Scores:
+  - Fluency: 3.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing or incorrect articles
+    - [SPELLING]:
+        • typos such as "ahile" instead of "while", "atracking" instead of "attacking", "gajged" instead of "gauged", "tfue" instead of "true", "ciscussing" instead of "discussing", "rwspect" instead of "respect", "thtee" instead of "three"
+    - [SYNTAX]:
+        • awkward sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between paragraphs
+    - [STRUCTURE]:
+        • lack of clear connections between ideas
+    - [CLARITY]:
+        • ambiguous sentences
+
+Section section_03 (Chars 8430–12788):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • inaxtion
+        • divieions
+        • Termany
+        • Germanschad
+        • sanguine
+        • commonbczuse
+        • ojly
+        • critdrion
+    - [GRAMMAR]:
+        • sentence structure complexity
+    - [LEXICON]:
+        • word choice and phrasing
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between ideas
+    - [STRUCTURE]:
+        • lack of clear paragraphing
+    - [CLARITY]:
+        • ambiguous sentences
+    - [TRANSITION]:
+        • disconnected historical references
+
+Section section_04 (Chars 12788–16917):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "decjsive" instead of "decisive"
+        • "sonov" instead of "war"
+        • "stratebical" instead of "strategic"
+    - [GRAMMAR]:
+        • missing articles in some places
+    - [LEXICON]:
+        • "inconsiderable" could be replaced with a more common word
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between criticizing Ludendorf's memoirs and describing the events of the war
+    - [STRUCTURE]:
+        • the text jumps between different ideas and events without clear connections
+    - [CLARITY]:
+        • some sentences are wordy and hard to follow
+
+Section section_05 (Chars 16918–20942):
+Scores:
+  - Fluency: 3.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "eas" instead of "was"
+        • "ghan" instead of "than"
+        • "regarsed" instead of "regarded"
+        • "Eeptember" instead of "September"
+        • "atmy" instead of "army"
+        • "go" instead of "to"
+        • "beginningbof" instead of "beginning of"
+        • "Ludebdorf" instead of "Ludendorff"
+        • "cancfind" instead of "can find"
+        • "hadcbeen" instead of "had been"
+    - [GRAMMAR]:
+        • awkward phrasing in several sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between paragraphs
+    - [STRUCTURE]:
+        • lack of clear connection between ideas
+    - [CLARITY]:
+        • confusing descriptions of military operations
+    - [TRANSITION]:
+        • poor linking of events in the narrative
+
+Section section_06 (Chars 20942–25189):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "necdssary" instead of "necessary"
+        • "acditional" instead of "additional"
+        • "operationw" instead of "operations"
+        • "himxelf" instead of "himself"
+        • "concluxiveness" instead of "conclusiveness"
+        • "Frenvh" instead of "French"
+        • "Russiab" instead of "Russian"
+        • "thw" instead of "the"
+        • "allotting" instead of "allocating"
+    - [GRAMMAR]:
+        • Minor punctuation issues
+  Coherence Issues:
+    - [LOGIC]:
+        • Some sentences are wordy and hard to follow
+    - [TRANSITION]:
+        • Abrupt shift between paragraphs
+    - [CLARITY]:
+        • Overly complex sentence structures
+
+Section section_07 (Chars 25190–29164):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Missing or incorrect articles
+    - [LEXICON]:
+        • Some words are used in less common contexts
+    - [SYNTAX]:
+        • Long and complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between ideas
+    - [STRUCTURE]:
+        • Lack of clear paragraphing or sectioning
+    - [CLARITY]:
+        • Some sentences are wordy or unclear
+
+Section section_08 (Chars 29164–33537):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • incorrect verb tense usage
+    - [LEXICON]:
+        • word choice could be more precise
+    - [SYNTAX]:
+        • sentence structure is sometimes awkward
+  Coherence Issues:
+    - [LOGIC]:
+        • some arguments seem circular or unclear
+    - [STRUCTURE]:
+        • transitions between ideas could be smoother
+    - [CLARITY]:
+        • a few sentences are wordy or confusing
+
+Section section_09 (Chars 33538–37814):
+Scores:
+  - Fluency: 3.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "propet" instead of "proper"
+        • "conwisted" instead of "consisted"
+        • "xost" instead of "cost"
+        • "divisopns" instead of "divisions"
+        • "drmonstrates" instead of "demonstrates"
+        • "Austriahs" instead of "Austrians"
+        • "remekbers" instead of "remembers"
+        • "netfed" instead of "netted"
+        • "tfoops" instead of "troops"
+        • "Itqlian" instead of "Italian"
+    - [GRAMMAR]:
+        • awkward phrasing in several sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between paragraphs
+    - [STRUCTURE]:
+        • lack of clear connections between ideas
+    - [CLARITY]:
+        • unclear sentences and phrases
+    - [TRANSITION]:
+        • missing or inadequate transitional phrases
+
+Section section_10 (Chars 37815–42051):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "tpwards" instead of "towards"
+        • "difficylty" instead of "difficulty"
+        • "conatifnments" instead of "consignments"
+        • "localnnature" instead of "local nature"
+        • "tge" instead of "the"
+    - [GRAMMAR]:
+        • missing or incorrect articles in several places
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between discussing the Eastern front and the Italian front
+    - [STRUCTURE]:
+        • lack of clear connection between some paragraphs
+    - [CLARITY]:
+        • some sentences are wordy or unclear
+
+Section section_11 (Chars 42052–46328):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "Roumania" instead of "Romania"
+        • "Ruswian" instead of "Russian"
+        • "Ruwsia's" instead of "Russia's"
+    - [GRAMMAR]:
+        • "in common with the Allies" could be rephrased for better clarity
+    - [SYNTAX]:
+        • Some sentences are long and convoluted, disrupting the flow
+  Coherence Issues:
+    - [LOGIC]:
+        • The text jumps abruptly from discussing the Russian front to talking about Russia's losses
+    - [STRUCTURE]:
+        • The transition between paragraphs could be smoother
+    - [CLARITY]:
+        • Some sentences are wordy and difficult to understand
+
+Section section_12 (Chars 46329–50596):
+Scores:
+  - Fluency: 3.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • incorrect verb conjugation
+    - [SPELLING]:
+        • typos (e.g. "jillion" instead of "billion", "Tuis" instead of "This", "Thusvdo" instead of "Thus we do", "fremendous" instead of "tremendous", "ztrategic" instead of "strategic", "participafion" instead of "participation", "appqrent" instead of "apparent", "rdndered" instead of "rendered", "factwbcited" instead of "facts cited", "whas" is not present but "wasvplayed" instead of "was played")
+    - [LEXICON]:
+        • inappropriate word choice
+    - [SYNTAX]:
+        • awkward sentence structure
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between ideas
+    - [STRUCTURE]:
+        • lack of clear paragraph structure
+    - [CLARITY]:
+        • ambiguous sentences
+    - [TRANSITION]:
+        • missing or unclear connections between paragraphs
+
+Section section_13 (Chars 50596–54965):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • typos (e.g., "thxnksnto", "qnd", "fhe", "drawihg", "ofbthe")
+    - [GRAMMAR]:
+        • missing or incorrect articles
+    - [LEXICON]:
+        • occasional awkward word choices
+  Coherence Issues:
+    - [LOGIC]:
+        • some sentences are wordy and hard to follow
+    - [STRUCTURE]:
+        • abrupt transitions between paragraphs
+    - [CLARITY]:
+        • occasional ambiguity in sentence meaning
+
+Section section_14 (Chars 54966–59330):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [LEXICON]:
+        • occasional outdated or formal vocabulary
+    - [SYNTAX]:
+        • complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between historical context and future speculation
+    - [STRUCTURE]:
+        • lack of clear connection between some paragraphs
+    - [CLARITY]:
+        • ambiguous references to historical events
+
+Section section_15 (Chars 59331–60546):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "vNo" instead of "or"
+        • "wilo" instead of "will"
+        • "amd" instead of "and"
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between discussing weak nations and Russia's future
+    - [CLARITY]:
+        • Unclear timeline for when Russia will become "once more powerful"
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

@@ -1,0 +1,98 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) Read and understand the summary of the text the report was created for.
+    b) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    c) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The summary of the text to be evaluated is given below:
+Summary: The city of Canterbury has a rich history dating back to the Palaeolithic Age. In 1538, King Henry VIII issued a writ of summons to Thomas Becket, who had been dead for 368 years, accusing him of treason and rebellion. The shrine of St. Thomas the Martyr was destroyed, and his name was erased from records. However, this did not mark the end of pilgrimages to Canterbury. In the 20th century, a new enthusiasm for the site of the shrine emerged, and many people began to visit the city.
+
+The old Pilgrims' Way from Winchester to Canterbury has been rediscovered, and many people now walk or cycle along this route. Some pilgrims, however, take the train and miss out on the scenic views of the city. The city is situated in a beautiful valley surrounded by hills, and the cathedral is a prominent landmark. The story of Canterbury is complex and involves the Roman invasion of Britain, the Anglo-Saxon period, and the Christianization of England.
+
+The Romans established a settlement in Canterbury, which they called Durovernum, and it became an important center for trade and commerce. The city was later abandoned and left to ruin, but it was rebuilt by the Saxons, who renamed it Cantwarabyrig. In 597, St. Augustine arrived in Canterbury and began to preach and convert the Saxons to Christianity. The city became the headquarters of the Christian Church in England and has remained so for over 1,300 years.
+
+The church of St. Martin's is one of the oldest in England and is believed to date back to the Roman period. However, its exact age is uncertain, and some archaeologists believe it may be a Saxon building that incorporated Roman materials. Despite the uncertainty, St. Martin's remains an important historical site and a popular destination for pilgrims and tourists.
+
+Canterbury has undergone many changes over the centuries, including the destruction of the shrine of St. Thomas the Martyr and the English Reformation. However, the city remains a significant center for Christianity and continues to attract visitors from around the world. The Pilgrims' Way is still walked by many people today, and the city's rich history and beautiful scenery make it a unique and fascinating destination.
+
+The city's history is a testament to the enduring power of faith and the importance of preserving historical sites. The story of Canterbury is a complex and fascinating one that spans centuries and involves the interactions of different cultures and religions. Despite the many changes that have taken place, the city remains a vibrant and thriving community that continues to attract visitors and inspire devotion.
+
+In conclusion, Canterbury is a city with a rich and complex history that spans centuries. From the Roman invasion to the present day, the city has played an important role in the development of Christianity in England. The Pilgrims' Way, the cathedral, and the church of St. Martin's are just a few of the many historical sites that make Canterbury a unique and fascinating destination. Whether you are a pilgrim, a tourist, or simply someone interested in history, Canterbury has something to offer everyone.
+
+The report for the text is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–8575):
+Section Summary: In 1538, King Henry VIII issued a writ summoning Thomas Becket, the long-dead Archbishop of Canterbury, to appear on charges of treason, resulting in the destruction of his shrine and the erasure of his name from records. Despite this, the site of the shrine has seen a new wave of enthusiasm, with many pilgrims visiting Canterbury, although some take the train and miss the scenic approach to the city. The city of Canterbury has a rich history dating back to the Palaeolithic Age, with the Romans establishing a settlement there, known as Durovernum, which became an important center for trade and commerce. After the Roman occupation, the city was abandoned and later rebuilt by the Anglo-Saxons, who renamed it Cantwarabyrig, or the city of the men of Kent. The city's history and significance are still celebrated today, with many visitors making the pilgrimage to Canterbury Cathedral, a testament to the enduring appeal of the site.
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • incorrect verb tense usage
+    - [LEXICON]:
+        • some words are outdated or less common
+    - [SYNTAX]:
+        • long sentences with complex structures
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between chapters
+    - [STRUCTURE]:
+        • lack of clear connections between ideas
+    - [CLARITY]:
+        • some sentences are wordy or ambiguous
+
+Section section_02 (Chars 8576–12761):
+Section Summary: Ethelbert, the king of Kent, had extended his power beyond Kent and had authority as far north as the Humber. Prior to 597, the Saxon capital was largely heathen, except for the influence of Ethelbert's Frankish wife Bertha and her chaplain Bishop Luidhard. In 597, Augustine arrived and was allowed to preach and instruct in Canterbury, leading to the conversion of Ethelbert and many Saxons to Christianity. Canterbury became the headquarters of the Christian Church in England, a position it has held for over 1,300 years. The city's St. Martin's Church, where Augustine and his monks began to preach, is considered one of the earliest Christian churches in England, with its origins possibly dating back to the Roman or Saxon period.
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor sentence structure issues
+    - [LEXICON]:
+        • some archaic vocabulary
+    - [SYNTAX]:
+        • occasional complex sentence constructions
+  Coherence Issues:
+    - [LOGIC]:
+        • slight jumps in historical narrative
+    - [TRANSITION]:
+        • occasional lack of smooth connections between ideas
+    - [CLARITY]:
+        • minor ambiguity in descriptive passages
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

@@ -1,0 +1,381 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    b) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The report is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–4096):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor errors in verb tense consistency
+    - [LEXICON]:
+        • some archaic vocabulary may hinder understanding for modern readers
+    - [SYNTAX]:
+        • occasional long sentences with complex structures
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between historical narrative and modern pilgrimage discussion
+    - [STRUCTURE]:
+        • lack of clear connection between chapters
+    - [CLARITY]:
+        • some sentences are wordy or ambiguous
+
+Section section_02 (Chars 4096–8383):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • "it is wiser in this brief sketch to passed over" should be "pass over"
+        • "He describe" should be "He describes"
+        • "Durovernum must had been" should be "Durovernum must have been"
+    - [SPELLING]:
+        • "PalÃ¦olithic" may be considered incorrect due to the unusual character, the correct spelling is "Palaeolithic" or "Paleolithic"
+        • "CÃ¦sar's" may be considered incorrect due to the unusual character, the correct spelling is "Caesar's"
+  Coherence Issues:
+    - [LOGIC]:
+        • The transition between the Roman and Saxon periods could be smoother
+    - [STRUCTURE]:
+        • The text jumps between different time periods and ideas without clear connections
+    - [CLARITY]:
+        • Some sentences are long and convoluted, making them hard to follow
+
+Section section_03 (Chars 8384–12541):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • "began to brought" should be "began to bring"
+    - [SPELLING]:
+        • "archÃ¦ologists" should be "archaeologists"
+    - [LEXICON]:
+        • some sentences are wordy and could be simplified
+  Coherence Issues:
+    - [LOGIC]:
+        • the text jumps abruptly from discussing Augustine's mission to talking about the English Reformation
+    - [TRANSITION]:
+        • the connection between the historical events and the current state of the Church of England could be smoother
+
+Section section_04 (Chars 12541–16702):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor punctuation errors
+    - [LEXICON]:
+        • occasional use of outdated vocabulary
+    - [SYNTAX]:
+        • some sentences are wordy or complex
+  Coherence Issues:
+    - [LOGIC]:
+        • a few abrupt transitions between paragraphs
+    - [STRUCTURE]:
+        • some sections feel slightly disconnected
+    - [CLARITY]:
+        • occasional ambiguity in historical references
+
+Section section_05 (Chars 16703–20998):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • "a fire begin" should be "a fire began"
+    - [SPELLING]:
+        • "reroofed" might be a less common word, but it's correct; however, "devastate" should be "devastated"
+    - [SYNTAX]:
+        • Some sentences are long and convoluted, making them hard to follow
+  Coherence Issues:
+    - [LOGIC]:
+        • The text jumps abruptly from discussing Canute's actions to the Norman Conquest
+    - [TRANSITION]:
+        • The transition between the discussion of the Saxon cathedral and the Norman cathedral could be smoother
+    - [STRUCTURE]:
+        • The text seems to lack a clear chronological structure in some parts
+
+Section section_06 (Chars 20999–25063):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • "Becket have just finished dinner" should be "Becket had just finished dinner"
+        • "on whose shoulder he was leaning" is a bit awkwardly phrased
+    - [SPELLING]:
+        • "sate" should be "sat"
+        • "Radulf the archer sate" should be "Radulf the archer sat"
+    - [SYNTAX]:
+        • Some sentences are long and convoluted
+  Coherence Issues:
+    - [LOGIC]:
+        • The transition between the description of Becket's return and the arrival of the four murderers could be smoother
+    - [STRUCTURE]:
+        • The text jumps abruptly from describing the events leading up to the murder to quoting Dean Stanley's account
+    - [CLARITY]:
+        • Some sentences are wordy and hard to follow
+
+Section section_07 (Chars 25064–29202):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Minor sentence structure complexity
+    - [LEXICON]:
+        • Some archaic vocabulary usage
+    - [SYNTAX]:
+        • Long sentences with multiple clauses
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between scenes
+    - [STRUCTURE]:
+        • Non-linear narrative progression
+    - [CLARITY]:
+        • Some sentences are wordy or unclear
+
+Section section_08 (Chars 29203–33260):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • "Roger have been" should be "Roger had been"
+    - [SPELLING]:
+        • None noticeable
+    - [SYNTAX]:
+        • Some sentences are long and convoluted
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between the description of Becket's relics and the King's penance
+    - [STRUCTURE]:
+        • The text jumps between different events and ideas without clear connections
+
+Section section_09 (Chars 33261–37537):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • "that coulded burn" should be "that could burn"
+    - [SPELLING]:
+        • minor typos or word choice issues
+    - [SYNTAX]:
+        • some sentences are long and convoluted
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transition between paragraphs
+    - [CLARITY]:
+        • some sentences are wordy or unclear
+    - [TRANSITION]:
+        • lack of clear connections between ideas
+
+Section section_10 (Chars 37538–42015):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • "woulded" instead of "would have"
+    - [SPELLING]:
+        • "procured" instead of "purchased" or "acquired"
+    - [SYNTAX]:
+        • sentence structure complexity
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between historical periods
+    - [STRUCTURE]:
+        • lack of clear chronological order
+    - [CLARITY]:
+        • ambiguous references to time periods
+
+Section section_11 (Chars 42016–46184):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Complex sentence structures
+    - [LEXICON]:
+        • Some archaic vocabulary
+    - [SYNTAX]:
+        • Long, winding sentences
+  Coherence Issues:
+    - [STRUCTURE]:
+        • Abrupt transition between descriptive passages
+    - [CLARITY]:
+        • Assumption of prior knowledge about the location and its history
+    - [LOGIC]:
+        • Non-sequential description of the cathedral's layout
+
+Section section_12 (Chars 46185–50378):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing article in some places
+    - [LEXICON]:
+        • some words may be unfamiliar to non-experts
+    - [SYNTAX]:
+        • a few long sentences
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transition between descriptions of different parts of the cathedral
+    - [CLARITY]:
+        • some sentences are wordy or contain multiple ideas
+    - [TRANSITION]:
+        • could benefit from more connecting phrases between paragraphs
+
+Section section_13 (Chars 50379–54574):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Complex sentence structures may hinder readability
+    - [LEXICON]:
+        • Some words are archaic or less common, potentially affecting fluency
+    - [SYNTAX]:
+        • Long sentences with multiple clauses
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transitions between historical descriptions and architectural details
+    - [STRUCTURE]:
+        • Non-linear presentation of information
+    - [CLARITY]:
+        • Some sentences are dense and require close attention to follow
+
+Section section_14 (Chars 54575–58841):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor punctuation errors
+    - [LEXICON]:
+        • some archaic vocabulary
+    - [SYNTAX]:
+        • occasional complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between historical and descriptive passages
+    - [STRUCTURE]:
+        • lack of clear connection between some paragraphs
+    - [CLARITY]:
+        • some sentences are wordy or convoluted
+
+Section section_15 (Chars 58841–63216):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing article in some places
+    - [LEXICON]:
+        • some words are less common and may cause difficulty for non-native speakers
+    - [SYNTAX]:
+        • a few long sentences with complex structures
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transition from describing the chapel to discussing the city
+    - [CLARITY]:
+        • some sentences are wordy and hard to follow
+    - [TRANSITION]:
+        • lack of clear connection between some paragraphs
+
+Section section_16 (Chars 63217–67467):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing article in several places
+    - [SPELLING]:
+        • "finish" instead of "finished"
+    - [LEXICON]:
+        • "superlative skill" is a bit formal
+    - [SYNTAX]:
+        • some long sentences are hard to follow
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between paragraphs
+    - [STRUCTURE]:
+        • lack of clear connection between ideas
+    - [CLARITY]:
+        • some sentences are wordy and unclear
+
+Section section_17 (Chars 67467–69128):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • run-on sentences
+    - [LEXICON]:
+        • some words may be unfamiliar to non-native speakers
+    - [SYNTAX]:
+        • complex sentence structures
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transition between topics
+    - [CLARITY]:
+        • some sentences are wordy and hard to follow
+    - [TRANSITION]:
+        • lack of clear connections between paragraphs
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

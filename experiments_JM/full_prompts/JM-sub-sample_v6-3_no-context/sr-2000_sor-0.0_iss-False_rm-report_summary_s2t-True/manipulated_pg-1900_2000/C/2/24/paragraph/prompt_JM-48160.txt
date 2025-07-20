@@ -1,0 +1,108 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) Read and understand the summary of the text the report was created for.
+    b) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    c) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The summary of the text to be evaluated is given below:
+Summary: The author is writing about her experiences in France during World War I. France is divided into two sections: one where people can move freely and the other, the war zone, which is heavily restricted. The author wants to visit the war zone, but it's difficult to get permission. She tries to meet with members of the middle class, but they are suspicious and proud. 
+
+The author decides to focus on her work, examining the various phases of women's work in the war. After completing her research, she plots to get to the front lines. She applies to several prominent Americans, but they are unable to help her. She then tries to contact a Frenchman with influence, who tells her to obtain permission through the American embassy. However, the author is skeptical of the embassy's ability to assist her.
+
+The author meets with a duchess who has established hospitals near the front lines. The duchess introduces her to a secretary of the Military Hospital Service Board, who agrees to help her. The author explains that she wants to visit the base hospitals to publicize the work of a new organization, Le Bienêtre du Blessé, which provides delicacies to convalescent soldiers. 
+
+The secretary asks for her residence permit and registration and promises to provide her with a carnet rouge, a necessary document to travel to the war zone. However, the process takes nearly a month, and the author receives only consolatory promises. Finally, a vice-president of Le Bienêtre du Blessé intervenes, and the author receives a note from the Ministry of War requesting photographs and a signed paper.
+
+The author is summoned to the Ministry of War, where she meets with two charming gentlemen who tell her she can visit Rouen and Meaux. However, the author is not interested in visiting Rouen, which is occupied by the British, and Meaux, which is not close enough to the front lines. She expresses her desire to visit Amiens, but it's deemed too close to the big guns.
+
+The author refuses to visit Meaux, and her companion suggests alternative destinations, including Châlons-sur-Marne, Vitry, Révigny, and Bar-le-Duc. The author adds Verdun, Nancy, Rheims, and Thann to the list, but the officials are hesitant to grant her permission. The author receives her carnet rouge and decides to make the most of her trip.
+
+She visits Meaux with a French friend, where they see the battlefield of the Marne, with its vast fields of grain and graves marked by flags and crosses. The author is impressed by the sight and meets with the Mayor, who tells her about the village's experiences during the war. A few days later, the author is summoned to the Ministry of War again and is granted permission to visit Châlons, Vitry, and Bar-le-Duc.
+
+The officials are polite and helpful, providing her with information about trains and accommodations. The author is determined to make the most of her trip, despite the limitations. She travels alone to Châlons, where she observes soldiers at the train station and is struck by their height and health. The author reflects on her experiences and the unique challenges of traveling in a war zone. 
+
+Throughout her journey, the author encounters various obstacles and challenges, but she perseveres, driven by her desire to experience the war firsthand and to publicize the work of Le Bienêtre du Blessé. The author's determination and resourcefulness ultimately allow her to achieve her goals, albeit with some limitations. 
+
+The author's experiences provide a unique perspective on life in France during World War I, highlighting the complexities and challenges of traveling in a war zone. The text also showcases the author's writing style, which is characterized by her wit, humor, and attention to detail. 
+
+Overall, the author's story is a fascinating account of her adventures in France during World War I, and it provides valuable insights into the experiences of women during this period. The text is engaging, informative, and well-written, making it a compelling read for anyone interested in history, war, or women's studies. 
+
+The author's use of language is vivid and descriptive, bringing the reader into the world of war-torn France. The text is full of interesting details and anecdotes, making it a pleasure to read. The author's personality shines through in her writing, and her determination and spirit are inspiring. 
+
+In conclusion, the author's story is a remarkable account of her experiences in France during World War I. The text is well-written, engaging, and informative, providing valuable insights into the challenges and complexities of traveling in a war zone. The author's determination and resourcefulness are inspiring, and her writing style is characterized by her wit, humor, and attention to detail.
+
+The report for the text is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–8299):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Inconsistent verb tense usage
+    - [LEXICON]:
+        • Overly complex vocabulary in some sections
+    - [SYNTAX]:
+        • Long, convoluted sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transitions between ideas
+    - [STRUCTURE]:
+        • Lack of clear chronological order
+    - [CLARITY]:
+        • Unclear or ambiguous sentences
+
+Section section_02 (Chars 8300–11649):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Inconsistent verb tense usage
+    - [SYNTAX]:
+        • Abrupt sentence structure in some places
+    - [LEXICON]:
+        • Unclear meaning of "storage cloud expanded its archive"
+  Coherence Issues:
+    - [LOGIC]:
+        • Sudden change in topic without clear connection
+    - [TRANSITION]:
+        • Lack of smooth transition between some paragraphs
+    - [CLARITY]:
+        • Unclear purpose of mentioning the height of officers
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

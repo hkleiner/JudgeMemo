@@ -1,0 +1,276 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) Read and understand the summary of the text the report was created for.
+    b) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    c) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The summary of the text to be evaluated is given below:
+Summary: The story begins with Debby Mason, a 14-year-old girl living in Plymouth with her father, Bill Mason. Her father is a drunkard, and the town has ordered him to leave. Debby is bound out to Mrs. Lane, a strict and religious woman. Debby's father joins a crew headed for Boston, and Debby is left behind. She is miserable in her new home and longs for her father.
+
+Debby's father is fighting in the Revolution, and she hears rumors of battles at Lexington and Bunker Hill. She wants to join him but is unable to do so as a girl. Debby decides to disguise herself as a boy and join the army to find her father. She takes on the name Robert Shirtliffe and becomes a drummer boy.
+
+As Robert, she meets Jack Martin, a friend from her past, and together they join the army. Robert becomes known as "Molly" and earns the respect of her comrades. She plays a crucial role in the Battle of Trenton, where she beats the drum to deceive the enemy. After the battle, Robert is wounded and left behind.
+
+A British soldier, Morley, who looks identical to Robert, is also wounded. Before dying, Morley asks Robert to deliver a message to his mother in London, telling her that he died like a soldier. Robert is found by American soldiers and taken to a field hospital, where Doctor Bell saves his life.
+
+As Robert recovers, he reveals his true identity as Debby Mason to Doctor Bell. Doctor Bell writes a letter explaining Debby's situation to General Washington, who grants her an honorable discharge from the army. Debby meets with Washington, who praises her bravery and thanks her for her service.
+
+Debby then travels to England with Doctor Bell's mother to meet her relatives. She learns that Morley was her cousin and that his mother is her aunt. Debby tells her aunt the story of Morley's death and is welcomed into the family. Debby's aunt apologizes for turning her mother away from their home years ago.
+
+Debby returns to America with her aunt and starts a new life. She is reunited with Jack Martin, who becomes like a foster son to her aunt. Doctor Bell proposes to Debby, and she accepts. The story ends with Debby and Doctor Bell starting a new life together, with Debby finally finding happiness and a sense of belonging.
+
+The report for the text is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–7676):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor punctuation errors
+    - [LEXICON]:
+        • some archaic vocabulary
+    - [SYNTAX]:
+        • occasional complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between Debby's memories and her current situation
+    - [STRUCTURE]:
+        • non-linear narrative flow
+    - [CLARITY]:
+        • some unclear references to past events
+
+Section section_02 (Chars 7676–15797):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • occasional awkward sentence structures
+    - [LEXICON]:
+        • some words may be less familiar to modern readers
+    - [SYNTAX]:
+        • a few sentences are long and convoluted
+  Coherence Issues:
+    - [LOGIC]:
+        • some transitions between scenes feel abrupt
+    - [STRUCTURE]:
+        • the narrative jumps between Debby's thoughts and actions
+    - [CLARITY]:
+        • a few sections are unclear due to the historical context and language
+
+Section section_03 (Chars 15798–23505):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [LEXICON]:
+        • anachronistic terms (e.g., "3D printer", "camera lens")
+    - [SYNTAX]:
+        • some sentences are wordy or awkwardly phrased
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt introduction of unrelated elements (e.g., "A camera lens refocused itself", "The 3D printer finished the replica")
+    - [STRUCTURE]:
+        • disjointed scene transitions (e.g., from Debby's decision to join the army to the introduction of Robert Shirtliffe)
+    - [CLARITY]:
+        • some character motivations or actions are unclear or unexplained
+
+Section section_04 (Chars 23506–31502):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [LEXICON]:
+        • some words feel anachronistic or out of place
+    - [SYNTAX]:
+        • occasional awkward sentence structure
+  Coherence Issues:
+    - [LOGIC]:
+        • some plot points feel rushed or unexplained
+    - [STRUCTURE]:
+        • abrupt transitions between scenes
+    - [CLARITY]:
+        • character motivations could be clearer
+
+Section section_05 (Chars 31503–39279):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor punctuation errors
+    - [LEXICON]:
+        • some words may be less familiar to modern readers
+    - [SYNTAX]:
+        • a few sentences have complex structures
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt shift in perspective between characters
+    - [TRANSITION]:
+        • some transitions between scenes feel rushed
+    - [CLARITY]:
+        • a few sentences are wordy or unclear
+
+Section section_06 (Chars 39280–47250):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [LEXICON]:
+        • some words feel overly formal or outdated
+    - [SYNTAX]:
+        • a few sentences have awkward phrasing
+  Coherence Issues:
+    - [LOGIC]:
+        • some plot points feel rushed or unexplained
+    - [STRUCTURE]:
+        • the narrative jumps abruptly between scenes
+    - [CLARITY]:
+        • a few character motivations are unclear
+
+Section section_07 (Chars 47251–55602):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor punctuation errors
+    - [LEXICON]:
+        • some word choices seem slightly archaic
+    - [SYNTAX]:
+        • a few sentences have complex structures
+  Coherence Issues:
+    - [LOGIC]:
+        • some transitions between scenes feel abrupt
+    - [STRUCTURE]:
+        • the narrative jumps between different plot threads
+    - [CLARITY]:
+        • a few sentences are wordy or unclear
+
+Section section_08 (Chars 55603–64115):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor punctuation errors
+    - [LEXICON]:
+        • some word choices seem slightly archaic
+    - [SYNTAX]:
+        • a few sentences have complex structures that may impede flow
+  Coherence Issues:
+    - [LOGIC]:
+        • some transitions between scenes feel abrupt
+    - [STRUCTURE]:
+        • the narrative jumps between different times and locations
+    - [CLARITY]:
+        • a few sections have unclear or confusing descriptions
+
+Section section_09 (Chars 64116–71971):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor punctuation errors
+    - [LEXICON]:
+        • some word choices may be less common or slightly archaic
+    - [SYNTAX]:
+        • a few sentences have complex structures that may impede flow
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt shift in Robert's emotions and actions towards Morley
+    - [STRUCTURE]:
+        • the narrative jumps between different scenes and ideas
+    - [CLARITY]:
+        • some sentences or phrases may be unclear due to outdated language or complex descriptions
+
+Section section_10 (Chars 71972–80223):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Inconsistent verb tense usage
+    - [LEXICON]:
+        • Some words feel out of place or overly formal
+    - [SYNTAX]:
+        • A few sentences have awkward phrasing
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt introduction of a GPS signal and a smart bulb changing color
+    - [STRUCTURE]:
+        • The narrative jumps abruptly between different scenes and ideas
+    - [CLARITY]:
+        • Some sentences are wordy or unclear
+
+Section section_11 (Chars 80224–84077):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • abrupt sentence transitions
+    - [LEXICON]:
+        • occasional outdated vocabulary
+    - [SYNTAX]:
+        • complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • some character developments feel rushed
+    - [STRUCTURE]:
+        • non-linear narrative flow
+    - [CLARITY]:
+        • occasional ambiguity in character motivations
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

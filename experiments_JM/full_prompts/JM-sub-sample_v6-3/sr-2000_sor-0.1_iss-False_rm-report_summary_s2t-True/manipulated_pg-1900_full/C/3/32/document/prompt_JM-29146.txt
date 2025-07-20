@@ -1,0 +1,272 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) Read and understand the summary of the text the report was created for.
+    b) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    c) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The summary of the text to be evaluated is given below:
+Summary: Jason Ramsey, a hyper-space pilot, is stranded on the planet Irwadi after the government planetarizes the Interstellar Transfer Service. He meets Margot Dennison, a beautiful Earthgirl who claims to have a ship and offers him a job to take her to Centauri. Ramsey agrees, and they set out to prepare the ship for departure. They are joined by Vardin, a timid Vegan girl who is fleeing from the Irwadian authorities.
+
+As they work on the ship, Ramsey becomes increasingly attracted to Margot, but she seems to be hiding secrets. He discovers a letter in her apartment that hints at a mysterious project involving "proto-man," a legendary ancestor of humanity. Margot's father had been searching for a way to unlock the secrets of proto-man, and she intends to continue his work.
+
+The group faces obstacles as they try to escape Irwadi, including a confrontation with Garr Symm, the new head of the Irwadian Security Police. Symm is determined to capture them, but they manage to evade him and make their way to the Spacer Graveyard, where they plan to take off in their ship.
+
+As they prepare for departure, Ramsey becomes increasingly uneasy about Margot's true intentions. He begins to suspect that she is not what she seems, and that her goals may be more sinister than he initially thought. Despite his reservations, he agrees to take her to Centauri, and they blast off into hyper-space.
+
+In hyper-space, the group encounters a strange phenomenon that allows them to hear music, despite the absence of time and sound waves. They soon discover that they have arrived at a mysterious world, where they find a black rectangular object that Margot believes is a matter transmitter. She intends to use it to gain ultimate power and control over the galaxy.
+
+Ramsey is horrified by Margot's plans and tries to stop her, but she is determined to proceed. Just as she is about to activate the transmitter, Garr Symm and his men arrive, intent on capturing her and claiming the transmitter for themselves. A confrontation ensues, and Ramsey manages to subdue Margot and prevent her from using the transmitter.
+
+However, Garr Symm is able to activate the transmitter, and he is transformed into a caveman-like creature, revealing the true nature of the proto-man legend. Vardin, who is revealed to be a member of an ancient species that created humanity, explains that the matter transmitter is a powerful tool that can grant immense power, but also poses a great risk to the galaxy.
+
+In the end, Ramsey and Margot escape in their ship, and Margot begins to come to terms with her actions. She realizes that her desire for power and control was misguided, and that she needs love and connection. Ramsey and Margot form a bond, and they set out into the galaxy, ready to face whatever challenges come their way. Vardin, meanwhile, disappears, her mission accomplished, and the fate of the galaxy is left uncertain.
+
+The report for the text is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–8004):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense
+    - [SPELLING]:
+        • intentional misspelling for character effect (e.g., "ith" instead of "is")
+    - [LEXICON]:
+        • some words may be unfamiliar to non-native speakers (e.g., "planetarithed")
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between Ramsey's conversation with the Security Officer and his thoughts about his financial situation
+    - [STRUCTURE]:
+        • some sentences are long and convoluted, disrupting the flow of the narrative
+
+Section section_02 (Chars 8005–16045):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor errors in verb tense consistency
+    - [LEXICON]:
+        • some word choices feel slightly outdated or less common
+    - [SYNTAX]:
+        • a few sentences have complex structures that may hinder smooth reading
+  Coherence Issues:
+    - [LOGIC]:
+        • occasional jumps in scene or character focus without clear transitions
+    - [STRUCTURE]:
+        • the narrative sometimes feels a bit disjointed, moving between different storylines
+    - [CLARITY]:
+        • a few sections have ambiguous or unclear character motivations
+
+Section section_03 (Chars 16046–23846):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor errors in verb tense consistency
+    - [LEXICON]:
+        • some words feel slightly outdated or less common in modern language
+    - [SYNTAX]:
+        • a few sentences have complex structures that may hinder smooth reading
+  Coherence Issues:
+    - [LOGIC]:
+        • some character actions and decisions feel slightly abrupt or unexplained
+    - [STRUCTURE]:
+        • the narrative jumps between scenes and ideas without clear transitions at times
+    - [CLARITY]:
+        • a few sections have ambiguous descriptions or unclear motivations
+
+Section section_04 (Chars 23847–31766):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • occasional awkward sentence structure
+    - [LEXICON]:
+        • some outdated or unfamiliar terms (e.g., "toggle-cloak", "abrevitog")
+    - [SYNTAX]:
+        • long, winding sentences that can be hard to follow
+  Coherence Issues:
+    - [LOGIC]:
+        • some plot points feel convenient or unexplained (e.g., the Earthgirl's sudden appearance and abilities)
+    - [STRUCTURE]:
+        • the narrative jumps abruptly between different ideas and scenes
+    - [CLARITY]:
+        • some character motivations and backstory are unclear or unexplained
+
+Section section_05 (Chars 31767–40057):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Missing articles in some places
+    - [LEXICON]:
+        • Unfamiliar terms like "stuff girl" and "thing" without clear explanation
+    - [SYNTAX]:
+        • Some long sentences with complex structures
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt introduction of the proto-man myth without prior context
+    - [STRUCTURE]:
+        • Sudden shift from action to reading a letter
+    - [CLARITY]:
+        • Unclear motivations of Margot Dennison
+
+Section section_06 (Chars 40058–48187):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [LEXICON]:
+        • occasional unclear terminology (e.g., "stuff" and "thing" girl)
+    - [SYNTAX]:
+        • some sentences are wordy or awkwardly phrased
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt shifts in scene or perspective
+    - [STRUCTURE]:
+        • non-linear narrative can be confusing
+    - [CLARITY]:
+        • some plot points or character motivations are unclear
+
+Section section_07 (Chars 48188–56586):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [LEXICON]:
+        • overuse of vague terms like "stuff"
+    - [SYNTAX]:
+        • some sentences are wordy and hard to follow
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt shifts between different plot threads
+    - [STRUCTURE]:
+        • lack of clear transitions between scenes
+    - [CLARITY]:
+        • some characters' motivations are unclear
+
+Section section_08 (Chars 56587–64860):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Missing articles in some sentences
+    - [LEXICON]:
+        • Overly technical vocabulary without explanation
+    - [SYNTAX]:
+        • Long, convoluted sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt shifts in scene and perspective
+    - [STRUCTURE]:
+        • Non-linear narrative without clear transitions
+    - [CLARITY]:
+        • Unclear motivations and backstory for some characters
+
+Section section_09 (Chars 64861–72948):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • occasional awkward sentence structure
+    - [LEXICON]:
+        • some words or phrases feel slightly outdated or uncommon
+    - [SYNTAX]:
+        • a few instances of long, convoluted sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • some plot developments feel rushed or unexplained
+    - [STRUCTURE]:
+        • the narrative jumps abruptly between different ideas or scenes
+    - [CLARITY]:
+        • a few sections are unclear or difficult to follow due to vague descriptions
+
+Section section_10 (Chars 72949–81134):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Missing articles in some sentences
+    - [LEXICON]:
+        • Overly complex vocabulary in certain passages
+    - [SYNTAX]:
+        • Long, convoluted sentences that disrupt flow
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transitions between ideas
+    - [STRUCTURE]:
+        • Non-linear narrative that can be confusing
+    - [CLARITY]:
+        • Unclear motivations of some characters
+
+Section section_11 (Chars 81135–81440):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • abrupt sentence transitions
+    - [LEXICON]:
+        • simplistic language
+  Coherence Issues:
+    - [LOGIC]:
+        • rushed conclusion
+    - [STRUCTURE]:
+        • abrupt ending
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

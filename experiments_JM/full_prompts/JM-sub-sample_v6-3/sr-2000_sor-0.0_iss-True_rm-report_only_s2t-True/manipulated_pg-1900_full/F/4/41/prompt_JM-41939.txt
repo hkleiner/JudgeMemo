@@ -1,0 +1,189 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    b) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The report is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–8250):
+Section Summary: Rosa Bonheur was born in 1822 to a family of artists, with her father Raymond Bonheur being a painter and her mother Sophie Marquis a musician. The family faced financial struggles, and Rosa was raised in an artistic environment, surrounded by her father's studio and encouraged to explore her creativity. As a child, Rosa showed a passion for drawing and painting, and her father eventually allowed her to work in his studio, where she created her first painting, a still life of cherries. With her father's encouragement, Rosa discovered her path and began to develop her artistic talent. She was a energetic and determined young girl, with a strong ambition to become an artist, and her father's support helped her to pursue her dreams.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing or incorrect articles
+    - [SPELLING]:
+        • typos (e.g., "anr" instead of "and", "oresided" instead of "presided", "undpubted" instead of "undoubted", "hef" instead of "her", "waok" instead of "walk", "vmaking" instead of "making", "bespattered" is correctly used but may be unfamiliar to some readers)
+    - [SYNTAX]:
+        • some sentences are wordy or awkwardly phrased
+  Coherence Issues:
+    - [STRUCTURE]:
+        • the text jumps abruptly between different time periods and events
+    - [TRANSITION]:
+        • some paragraphs lack smooth transitions between ideas
+    - [CLARITY]:
+        • a few sentences are unclear or difficult to follow due to complex phrasing
+
+Section section_02 (Chars 8250–16564):
+Section Summary: Rosa Bonheur, a determined and talented young artist, spent her early years studying and copying the works of great masters at the Louvre, earning her the nickname "the little hussard" among the students and copyists. She developed a passion for painting animals and spent countless hours studying their anatomy and behavior, even keeping a menagerie in her home. Rosa's hard work and dedication paid off when her paintings were accepted into the Salon in 1841, and she continued to exhibit her work annually, gaining recognition and praise from critics and the public. Her success was progressive, and she eventually received a first-class medal in 1848, judged by her peers without academic prejudice. As her career flourished, Rosa established her own studio and was accompanied by her childhood friend, Mlle. Micas, who became a devoted companion and supporter.
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "pencips" instead of "pencils"
+        • "sye" instead of "she"
+        • "fajl" instead of "fail"
+    - [GRAMMAR]:
+        • missing articles in some places
+    - [LEXICON]:
+        • some words may be less common or outdated
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transition between paragraphs
+    - [CLARITY]:
+        • some sentences are long and convoluted
+    - [TRANSITION]:
+        • lack of clear connections between ideas
+
+Section section_03 (Chars 16565–24905):
+Section Summary: Rosa Bonheur was a dedicated artist who continued to study and learn, even after achieving success. She was supported by her friend and collaborator, Nathalie Micas, who helped with her daily life and provided counsel. Bonheur's paintings, such as "Ploughing in the Nivernais" and "The Horse Fair", brought her great recognition and financial success, with "The Horse Fair" being considered one of the greatest works of French painting. The painting had a complex history, being sold and resold several times, eventually ending up in the Metropolitan Museum of Art. After her success, Bonheur moved to a new studio in the Rue d'Assas, which was custom-built to meet her needs.
+Scores:
+  - Fluency: 2.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • typos and incorrect words (e.g. "adjoininv", "tyat", "hcvigorous", "xspect", "wretchedcbeast", "bdutes", "seol", "cekebrated", "xre", "thw", "makijg", "chargr", "xt")
+    - [GRAMMAR]:
+        • missing or incorrect articles, incorrect verb tenses
+    - [SYNTAX]:
+        • awkward sentence structures, run-on sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between ideas
+    - [STRUCTURE]:
+        • lack of clear paragraph structure, inconsistent topic development
+    - [CLARITY]:
+        • ambiguous sentences, unclear references
+
+Section section_04 (Chars 24906–32997):
+Section Summary: Rosa Bonheur was a renowned artist with a unique studio and menagerie, featuring a variety of animals, including goats, horses, and birds. Her talent and reputation had spread beyond France, with critics praising her ability to capture rural life and the labor of the fields. She traveled to England and Scotland, where she was warmly received and inspired to create new paintings, including "Morning in the Highlands" and "Denizens of the Highlands". Rosa Bonheur's work was particularly popular among the English, who appreciated her depictions of rural life and cattle. She was eventually awarded the Chevalier of the Legion of Honour in 1865, a testament to her international acclaim and artistic achievements.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing or incorrect articles
+    - [SPELLING]:
+        • typos (e.g. "strident screams ofbnumerous", "chonour", "gfeen")
+    - [SYNTAX]:
+        • long, convoluted sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between ideas
+    - [STRUCTURE]:
+        • lack of clear paragraph structure
+    - [CLARITY]:
+        • ambiguous sentences
+
+Section section_05 (Chars 32998–41424):
+Section Summary: Rosa Bonheur was honored by the Empress with an appointment to the Legion of Honour and was invited to breakfast at Fontainebleau, where she met the Emperor and the Prince Imperial. She later sent several works to the Universal Exposition of 1867, but received a medal of the second class, likely due to the judges' resentment of her long absence from France and her focus on English patrons. Rosa Bonheur had previously run an art school for young girls, which she directed with devotion and intelligence, but eventually resigned in 1860 to focus on her own work. After retiring to her home in By, she devoted herself to her art, producing many notable works, but ceased to exhibit publicly until the year of her death in 1899. During the Franco-Prussian War, Rosa Bonheur showed her patriotic spirit by aiding the suffering peasants and distributing donations, despite the difficulties and hardships she faced.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing or incorrect articles
+    - [SPELLING]:
+        • typos such as "ge" instead of "be"
+    - [SYNTAX]:
+        • sentence structure can be complex and hard to follow
+    - [LEXICON]:
+        • some words are used in an outdated or uncommon way
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between paragraphs
+    - [STRUCTURE]:
+        • lack of clear chronological order
+    - [CLARITY]:
+        • some sentences are wordy or unclear
+    - [TRANSITION]:
+        • insufficient connection between ideas
+
+Section section_06 (Chars 41425–49898):
+Section Summary: Rosa Bonheur, a French artist, refused to accept favors from the Prussians during their occupation, instead submitting to their rule like any other French woman. After the war, she resumed her work, studying and painting wild animals, including lions and panthers, with incredible power and expression. Her artwork from this period is considered some of her best, with pieces like "The Lion Meditating" and "The Lion Roaring" showcasing her skill. Rosa Bonheur's life was marked by both joy and sorrow, including the loss of her dear friend Nathalie Micas, but she continued to work and was eventually awarded the Cross of Officer of the Legion of Honour. She later formed a close friendship with a young American artist, Anna Klumpke, who would become her companion and legacy keeper.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • incorrect verb conjugations
+    - [SPELLING]:
+        • typos (e.g. "hix" instead of "his", "fygitive" instead of "fleeting", "toreshortening" instead of "foreshortening")
+    - [LEXICON]:
+        • occasional awkward word choices
+  Coherence Issues:
+    - [LOGIC]:
+        • some abrupt transitions between paragraphs
+    - [STRUCTURE]:
+        • lack of clear chronological order in some sections
+    - [CLARITY]:
+        • occasional ambiguity in sentence meaning
+
+Section section_07 (Chars 49898–51856):
+Section Summary: Rosa Bonheur's painting, "The Threshing of the Grain", is a masterpiece that showcases her exceptional talent, taking her 20 years to complete. Even at the age of 77, her talent and skill remained unchanged, as evident in her painting "A Cow and Bull in Auvergne, Cantal Breed", which received unanimous praise. Despite her robust health, she suddenly passed away on May 25, 1899, due to a lung congestion. Her death was met with an outpouring of tributes and regrets from the press and the art world, celebrating her dignity, character, and greatness. She was laid to rest in the Père-Lachaise cemetery, with a large and eminent cortège in attendance, testifying to her well-respected and beloved personality.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "whicj" instead of "which"
+        • "wkrld" instead of "world"
+        • "artkst" instead of "artist"
+  Coherence Issues:
+    - [TRANSITION]:
+        • Abrupt shift from describing Rosa Bonheur's artwork to discussing her death
+    - [STRUCTURE]:
+        • Lack of clear connection between the description of "The Threshing of the Grain" and the rest of the text
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

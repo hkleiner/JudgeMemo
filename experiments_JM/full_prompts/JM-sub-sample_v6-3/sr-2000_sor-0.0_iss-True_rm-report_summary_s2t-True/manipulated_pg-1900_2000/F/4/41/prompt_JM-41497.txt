@@ -1,0 +1,106 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) Read and understand the summary of the text the report was created for.
+    b) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    c) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The summary of the text to be evaluated is given below:
+Summary: Joshua Reynolds was a man born with a natural talent for art, and his life's work was marked by a sense of distinction and achievement. He was a stranger to doubt and uncertainty, and his temperament made it easy for him to succeed. Reynolds was not the greatest painter of his time, but he had a rare mixture of talent, industry, and common sense that enabled him to achieve great things.
+
+He was born in 1723 in Devonshire, where his father was a schoolmaster. Reynolds was apprenticed to Thomas Hudson, a portrait painter, and later quarreled with him and returned to Devonshire. It was there that he met Commodore Keppel, who helped him to see Italy and study the great masterpieces of art.
+
+Reynolds' time in Italy was invaluable, and he became one of the greatest copyists of his time. He studied the works of Michelangelo, Ludovico Caracci, and Guido, and was influenced by the Venetian school. When he returned to England, he opened a studio in St. Martin's Street and began to enjoy success as a portrait painter.
+
+Reynolds was a man of great self-control and was always master of his own thoughts and actions. He was a skilled musician and composer, and his discourses to the Royal Academy were highly regarded. However, he also had human weaknesses, including a touch of snobbery and jealousy, which he struggled to overcome.
+
+Despite these flaws, Reynolds was a great painter and a man of the world. He was friends with many notable figures, including Dr. Johnson, Garrick, Goldsmith, and Burke. His mind was highly receptive, and he was able to learn from the people and experiences around him.
+
+Reynolds' life was not without its challenges, including a fall from a horse and a chill that left him deaf. However, he persevered and continued to paint, eventually moving to Leicester Square, where he lived for the remainder of his life. He was a popular portrait painter, and his prices were high, but people were willing to pay them.
+
+Reynolds was not just a painter, but a man of great intellect and curiosity. He was interested in many things outside of art, and his friendships with notable figures reflect this. Despite his flaws, Reynolds was a great man, and his legacy continues to be felt today.
+
+It is worth noting that Reynolds' personal life was not without its controversies. He was known to be vulgar and flashy, and his behavior was sometimes criticized by his contemporaries. However, he was also a man of great refinement and taste, and his art reflects this.
+
+Overall, Reynolds was a complex and multifaceted person, full of contradictions and flaws. However, his art and his legacy continue to inspire and influence people to this day. His story is a reminder that great men are not always perfect, but they can still achieve great things despite their flaws.
+
+Reynolds' art was influenced by many factors, including his time in Italy and his friendships with notable figures. He was a master of technique, and his paintings continue to be admired and studied today. His legacy is a testament to the power of art to transcend time and circumstance, and to the enduring influence of great men and women on our culture and society.
+
+In conclusion, Joshua Reynolds was a great painter and a man of great intellect and curiosity. His life was marked by both successes and challenges, but he persevered and continued to create art that inspires and influences people to this day. His legacy is a reminder that great men are not always perfect, but they can still achieve great things despite their flaws.
+
+The report for the text is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–8535):
+Section Summary: Joshua Reynolds was a talented and determined individual who was born with a rare mixture of talent, industry, and common sense, which enabled him to achieve great things in the art world. He is considered one of the greatest painters of the 18th century, and his work had a significant impact on the development of English art. Reynolds' journey to Italy, where he studied and copied the works of great masters, was a pivotal moment in his career, and it helped him to develop his technique and style. He was a skilled copyist and was influenced by artists such as Michelangelo, Titian, and Rubens, and he was able to take the best from each of them and apply it to his own work. Reynolds' determination and hard work ultimately led to his success, and he became the first President of the Royal Academy, where he shared his knowledge and expertise with students through his annual discourses.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • typos (e.g. "fhe", "hjs", "tge", "pf", "tye", "inderd", "cehtury", "GWllery")
+    - [GRAMMAR]:
+        • minor grammatical errors (e.g. missing or incorrect articles, incorrect verb tenses)
+    - [LEXICON]:
+        • occasional word choice issues (e.g. "dross of Reynolds' art to fine gold")
+  Coherence Issues:
+    - [LOGIC]:
+        • some sentences seem disconnected from the main idea
+    - [TRANSITION]:
+        • abrupt jumps between ideas or paragraphs
+    - [CLARITY]:
+        • a few sentences are wordy or unclear
+
+Section section_02 (Chars 8536–12246):
+Section Summary: After returning from a holiday, Sir Joshua Reynolds opened a studio in St. Martin's Street, which quickly led to success as a portrait painter due to the quality of his work and patronage from Lord Edgcumbe. As his career progressed, he moved to larger studios, raising his prices, but his popularity remained unchanged. Unlike many artists, Reynolds was not only a skilled painter but also a man of the world, with a wide range of interests and friendships with notable figures such as Dr. Johnson, Garrick, and Burke. Despite having some human weaknesses, including snobbery, jealousy, and vulgarity, Reynolds was able to learn and grow from his associations with refined and intelligent people. Overall, Reynolds' life and personality are more interesting and nuanced when seen in their entirety, rather than being judged solely on his moral character.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing article in some places
+    - [SPELLING]:
+        • typos (e.g. "gis" instead of "his", "lwn" instead of "own", "pasrellist" instead of "pastellist", "mwn" instead of "men", "cfedit" instead of "credit", "acquaintancenwith" instead of "acquaintance with", "cbest" instead of "best")
+    - [LEXICON]:
+        • some words may be unfamiliar to modern readers
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt shift from discussing Reynolds' career to talking about artists in general
+    - [TRANSITION]:
+        • lack of smooth connection between some paragraphs
+    - [CLARITY]:
+        • some sentences are wordy or contain multiple ideas
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

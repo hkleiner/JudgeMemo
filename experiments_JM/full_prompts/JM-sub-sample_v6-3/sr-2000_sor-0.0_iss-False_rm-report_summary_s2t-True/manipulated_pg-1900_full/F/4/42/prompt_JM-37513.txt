@@ -1,0 +1,260 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) Read and understand the summary of the text the report was created for.
+    b) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    c) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The summary of the text to be evaluated is given below:
+Summary: The author reflects on Herbert Spencer's philosophy of science, which had a significant influence on their youthful enthusiasm for science. Spencer's work, particularly his essay "Progress: Its Law and Cause," introduced the author to the concept of evolution and the idea that all things develop from simple to complex through differentiation. The author notes that Spencer's philosophy emphasizes the universality of law and the interconnectedness of all phenomena.
+
+Spencer's concept of the Unknowable, or the ultimate reality that underlies all existence, is also discussed. The author suggests that this concept is similar to Henri Bergson's idea of Life as the source of evolution. However, the author argues that Spencer's use of the term "force" is ambiguous and can be misleading.
+
+The author critiques Spencer's treatment of cause and effect, suggesting that it is often unclear what he means by these terms. They propose using the terms "source," "ground," and "condition" to clarify the relationships between phenomena. The author also discusses the concept of energy and how it is understood in modern science, arguing that it is not an active agent but rather a measure of change.
+
+The author notes that Spencer's philosophy of science is characterized by a desire for unification and a reduction of all phenomena to a single, underlying principle. However, they argue that this approach can be overly simplistic and neglects the complexity and diversity of natural relationships. The author suggests that a more nuanced approach is needed, one that recognizes the distinctiveness of different types of relatedness and seeks to understand how they are interconnected.
+
+The author also discusses Spencer's treatment of cognitive relatedness, arguing that it is not adequately developed in his philosophy. They propose that cognition should be understood as a natural kind of relatedness that can be studied scientifically, and that it is characterized by selectivity, awareness, and effectiveness. The author concludes by noting that Spencer's philosophy, despite its limitations, remains an important contribution to the development of scientific thought.
+
+Overall, the author's critique of Spencer's philosophy highlights both its strengths and weaknesses, and suggests that a more nuanced and multifaceted approach is needed to fully understand the complexity of natural phenomena. The author's reflections on Spencer's work serve as a starting point for further exploration and development of the philosophy of science. 
+
+The author emphasizes the importance of understanding the different types of relatedness that exist in nature, and how they are interconnected. They argue that a philosophy of science should strive to develop a unified and comprehensive understanding of the natural world, but that this should not come at the expense of neglecting the complexity and diversity of natural relationships.
+
+In conclusion, the author's summary of Spencer's philosophy of science provides a nuanced and thought-provoking analysis of his ideas and their limitations. It highlights the importance of continued exploration and development of the philosophy of science, and encourages readers to think critically about the nature of reality and our understanding of it. 
+
+The author's discussion of Spencer's concept of the Unknowable and its relationship to Bergson's idea of Life serves as a reminder that there are still many unanswered questions in the philosophy of science. The author's proposal for using the terms "source," "ground," and "condition" to clarify the relationships between phenomena is a useful contribution to the ongoing discussion of these issues.
+
+Ultimately, the author's summary of Spencer's philosophy of science serves as a call to continued exploration and development of the field. It encourages readers to think critically about the nature of reality and our understanding of it, and to strive for a more nuanced and comprehensive understanding of the natural world. 
+
+The author's reflections on Spencer's work are a testament to the enduring importance of his ideas, and demonstrate the continued relevance of his philosophy of science to contemporary debates and discussions. The author's critique of Spencer's treatment of cognitive relatedness serves as a reminder that there is still much work to be done in developing a fully adequate understanding of the natural world.
+
+In the end, the author's summary of Spencer's philosophy of science provides a thought-provoking and nuanced analysis of his ideas and their limitations. It serves as a useful introduction to the philosophy of science, and encourages readers to think critically about the nature of reality and our understanding of it. 
+
+The author's discussion of Spencer's concept of energy and its relationship to modern scientific understanding is a useful reminder that the philosophy of science is an ongoing and evolving field. The author's proposal for understanding cognition as a natural kind of relatedness that can be studied scientifically is a valuable contribution to the ongoing discussion of these issues.
+
+The author's emphasis on the importance of understanding the different types of relatedness that exist in nature, and how they are interconnected, serves as a reminder that the philosophy of science is a complex and multifaceted field. The author's critique of Spencer's treatment of cause and effect serves as a useful reminder that the language and concepts used in the philosophy of science must be carefully considered and defined.
+
+In conclusion, the author's summary of Spencer's philosophy of science is a nuanced and thought-provoking analysis of his ideas and their limitations. It serves as
+
+The report for the text is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–9142):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Missing or incorrect verb tenses
+    - [LEXICON]:
+        • Some words are outdated or less common
+    - [SYNTAX]:
+        • Long, complex sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transitions between ideas
+    - [STRUCTURE]:
+        • Lack of clear paragraph structure
+    - [CLARITY]:
+        • Some sentences are wordy or unclear
+
+Section section_02 (Chars 9143–18051):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • verb tense inconsistency
+    - [SPELLING]:
+        • "shoulded" instead of "should"
+    - [LEXICON]:
+        • ambiguous word usage, such as "force"
+    - [SYNTAX]:
+        • complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between ideas
+    - [STRUCTURE]:
+        • lack of clear progression in some sections
+    - [CLARITY]:
+        • unclear explanations of philosophical concepts
+    - [TRANSITION]:
+        • disconnected ideas between paragraphs
+
+Section section_03 (Chars 18052–26534):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Complex sentence structures
+    - [LEXICON]:
+        • Use of obscure philosophical terms
+    - [SYNTAX]:
+        • Long paragraphs with multiple embedded quotes
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transitions between ideas
+    - [STRUCTURE]:
+        • Difficulty in following the author's argument
+    - [CLARITY]:
+        • Overly complex and dense philosophical discussions
+
+Section section_04 (Chars 26535–35367):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Missing articles in some sentences
+    - [LEXICON]:
+        • Overly complex vocabulary
+    - [SYNTAX]:
+        • Long and convoluted sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transitions between ideas
+    - [STRUCTURE]:
+        • Lack of clear paragraphing and topic sentences
+    - [CLARITY]:
+        • Ambiguous definitions of key terms
+
+Section section_05 (Chars 35368–44309):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • incorrect verb tense usage
+    - [SPELLING]:
+        • typos (e.g., "bring" instead of "brought", "ground shoulded" instead of "ground should")
+    - [SYNTAX]:
+        • awkward sentence structure
+    - [LEXICON]:
+        • outdated vocabulary
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt jumps between ideas
+    - [STRUCTURE]:
+        • lack of clear transitions between paragraphs
+    - [CLARITY]:
+        • ambiguous terminology
+    - [TRANSITION]:
+        • disconnected ideas
+
+Section section_06 (Chars 44310–53345):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Complex sentence structures
+    - [LEXICON]:
+        • Use of technical vocabulary without explanation
+    - [SYNTAX]:
+        • Long paragraphs with multiple ideas
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transitions between ideas
+    - [STRUCTURE]:
+        • Lack of clear introduction and conclusion
+    - [CLARITY]:
+        • Ambiguous references to external concepts
+
+Section section_07 (Chars 53345–62404):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Missing or incorrect articles
+    - [LEXICON]:
+        • Ambiguous terminology (e.g., "states of consciousness", "subjective affections")
+    - [SYNTAX]:
+        • Complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt shifts in ideas
+    - [STRUCTURE]:
+        • Lack of clear transitions between paragraphs
+    - [CLARITY]:
+        • Unclear explanations of technical concepts
+
+Section section_08 (Chars 62405–71484):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [SYNTAX]:
+        • complex sentence structures
+    - [LEXICON]:
+        • use of technical vocabulary without explanation
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between ideas
+    - [STRUCTURE]:
+        • lack of clear paragraph organization
+    - [CLARITY]:
+        • ambiguous sentences and phrases
+
+Section section_09 (Chars 71485–80033):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Missing or incorrect articles in some sentences
+    - [LEXICON]:
+        • Overly complex vocabulary and sentence structures
+    - [SYNTAX]:
+        • Long, convoluted sentences that hinder readability
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transitions between ideas
+    - [STRUCTURE]:
+        • Lack of clear organization and paragraph cohesion
+    - [CLARITY]:
+        • Ambiguous or unclear explanations of key concepts
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:
