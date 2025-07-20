@@ -1,0 +1,20 @@
+I would like to perform automatic evaluation on quality of written stories.
+I would like to evaluate them in terms of fluency and coherence.
+
+The metrics are defined as follows:
+- Fluency: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+- Coherence: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+
+Please give me around 5 to 15 fine-grained evaluation critics to evaluate them. I want to obtain a final comprehensive
+evaluation based on an overall aggregation on fine-grained metrics.
+
+Based on this, rate the text from 1 (worst) to 5 (best). Return the final scores (1 to 5) in new lines starting with each aspect as following:
+FINAL Coherence Score: [SCORE]
+FINAL Fluency Score: [SCORE]
+
+The story text is given below:
+Story: {Story}
+
+Assess the quality of the text regarding fluency and coherence. Afterwards, return the final scores (1 to 5) in new lines starting with each aspect as following:
+FINAL Coherence Score: [SCORE]
+FINAL Fluency Score: [SCORE]

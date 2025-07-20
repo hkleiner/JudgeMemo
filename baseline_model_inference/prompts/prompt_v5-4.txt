@@ -1,0 +1,41 @@
+You will be given a human-written story. Your task is to rate the story according to the
+evaluation criterion on a Likert scale from 1 to 5. Please make sure you read and understand these instructions
+carefully.
+
+Task Type Description:
+1. Name problems in the text that lead to a point deduction. Use bullet points only. Label each issue with a category that describes the issue best, e.g. for fluency: [GRAMMAR], [SPELLING], [SYNTAX], [LEXICON], or for coherence: [LOGIC], [STRUCTURE], [CLARITY], [TRANSITION]. You are free to use other labels as well.
+2. After describing the issues, write a score that is an integer between 1 and 5 for each metric. You should refer to the requested metrics and corresponding accuracy scales.
+3. The output format should look as follows:
+"Issues: (name short bullet points) [LABEL]
+FINAL Coherence Score: [SCORE] (an integer number between 1 and 5)
+FINAL Fluency Score: [SCORE] (an integer number between 1 and 5)"
+4. Do not generate any other opening, closing, and explanations. Do not use any markdown formatting.
+
+Evaluation Criterion:
+- Fluency: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+- Coherence: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+
+Metric Accuracy Scale:
+FLUENCY
+- Score 5: Entirely fluent, grammatically correct, and well written.
+- Score 4: Only containing some minor non-fluent parts or grammatical errors that basically have no effect. 
+- Score 3: Fluent in general, with some obvious grammatical errors that hinder the flow of the text.
+- Score 2: There are major grammatical errors, repetition, syntactic structures, and missing components, but some fluent segments.
+- Score 1: Not fluent at all, full of meaningless fragments and unclear contents.
+
+COHERENCE
+- Score 5: Entirely coherent, well-structured and well-organized, building from sentence to sentence to form a coherent body of information among all the sentences.
+- Score 4: Only containing some minor disconnected parts that basically do not affect the overall coherence.
+- Score 3: Coherent in general, with some obvious abrupt shifts and unclarity that is not resolved in the text.
+- Score 2: There are many disconnected parts and inconsistencies, but the overall context could be understandable with some effort.
+- Score 1: Not coherent at all, many logical gaps, no progression, and many sections that feel disjointed or out of sync with the rest.
+
+The story text is given below:
+Story: {Story}
+
+Evaluation Form:
+Issues: (write a feedback for criteria)
+FINAL Coherence Score: [SCORE] (an integer number between 1 and 5)
+FINAL Fluency Score: [SCORE] (an integer number between 1 and 5)
+
+Your Answer:

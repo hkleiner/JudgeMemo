@@ -1,0 +1,30 @@
+I would like to perform automatic evaluation on quality of written stories.
+I would like to evaluate them in terms of fluency and coherence.
+
+Here are several fine-grained aspects for each metric:
+
+### Fluency Evaluation Aspects:
+1. **Syntax and Grammar**: How well-constructed are the sentences in terms of grammatical correctness?
+2. **Spelling and Punctuation**: Are there any noticeable errors in spelling or punctuation that disrupt the flow?
+3. **Word Choice**: Is the vocabulary appropriate for the context, and does it contribute to a smooth reading experience?
+4. **Phrasing**: Are the phrases well-structured, or are they awkwardly worded?
+5. **Flow**: Does the text flow smoothly from one sentence to the next, or are there abrupt transitions?
+
+### Coherence Evaluation Aspects:
+1. **Logical Sequencing**: Are the ideas presented in a logical order?
+2. **Non-repetitiveness**: Is the text free from unnecessary repetition, or does it repeat information without adding new insights?
+3. **Smooth Connections**: Are the transitions between sections or ideas smooth, or are they abrupt?
+4. **Ambiguity Avoidance**: Does the text avoid ambiguity, or are there parts that are unclear?
+5. **Structural Consistency**: Is the narrative or argument structured in a consistent and clear manner?
+
+For each metric, highlight the main issues in short and concise bulletpoints, naming the affected aspect. Based on this, rate the text from 1 (worst) to 5 (best).
+Return the final scores (1 to 5) in new lines starting with each aspect as following:
+FINAL Coherence Score: [SCORE]
+FINAL Fluency Score: [SCORE]
+
+The story text is given below:
+Story: {Story}
+
+Assess the quality of the text regarding fluency and coherence. Afterwards, return the final scores (1 to 5) in new lines starting with each metric as following:
+FINAL Coherence Score: [SCORE]
+FINAL Fluency Score: [SCORE]

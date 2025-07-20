@@ -1,0 +1,18 @@
+Imagine you are a human annotator now. You will evaluate the quality of a given written story. Please follow these steps:
+1. Carefully read the story, and be aware of the information it contains.
+2. Rate the story on two dimensions: fluency and coherence, each on a scale from 1 (worst) to 5 (best).
+Definitions:
+- Fluency: This rating reflects the overall clarity and readability of the text. Consider sentence construction, grammar, punctuation, and word choice. A fluent text reads smoothly from start to finish, without awkward phrasing, redundancy, or confusing structures. Sentences should be logically connected and easy to follow.
+- Coherence: This rating evaluates how well the ideas in the text are organized and connected. Consider the logical flow between sentences and paragraphs, the clarity of transitions, and whether ideas build upon each other in a consistent and understandable way. Avoidance of abrupt shifts or unresolved references is key.
+Identify issues in the text that affected your ratings and give them as short bulletpoints.
+Afterwards, return the final scores (1 to 5) in new lines starting with each aspect as following:
+FINAL Coherence Score: [SCORE]
+FINAL Fluency Score: [SCORE]
+
+The story text is given below:
+Story: {Story}
+
+Assess the quality of the text regarding fluency and coherence. List the issues clearly. Afterwards,
+return the final scores (1 to 5) in new lines starting with each aspect as following:
+FINAL Coherence Score: [SCORE]
+FINAL Fluency Score: [SCORE]

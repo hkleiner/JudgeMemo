@@ -1,0 +1,29 @@
+You will be given a human-written text. Your task is to rate the text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+Task Type Description:
+1. Summarize problems in the text that lead to a point deduction. Use bullet points only. Label each issue with a category that describes the issue best, e.g. for fluency: [GRAMMAR], [SPELLING], [SYNTAX], [LEXICON], or for coherence: [LOGIC], [STRUCTURE], [CLARITY], [TRANSITION]. You are free to use other labels as well.
+2. After listing the issues, give a score between 1 and 5 for coherence. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scale.
+3. The output format should look as follows:
+1) Fluency Issues: - [LABEL] [ISSUE] (name short bullet points)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points allowed)
+4. It is forbidden to generate any other opening, closing, and explanations. It is forbidden to use any Markdown formatting!
+
+Evaluation Criterion and Metric Accuracy Scale:
+-FLUENCY-
+Definition: It measures the quality of individual sentences, are they grammatically correct, non-repetitive, and in accord with common English usage, with clear meanings.
+Scale:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+The text to evaluate is given below:
+Text: {Story}
+
+Evaluation Form:
+1) Fluency Issues: - [LABEL] [ISSUE] (name short bullet points)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points allowed)
+
+Your assessment of the text:
