@@ -1,0 +1,20 @@
+[
+  {
+    "id": "<our identifier>",
+    "manipulated_text": "<path to manipulated text>",
+    "manipulated_char_spans": "<start to end range that is affected by change>",
+    "range_type": "<paragraph, section or chapter>",
+    "affected_metric": "<coherence or fluency>",
+    "manipulation_category": "<category in affected metric>",
+    "manipulation_type": "<type in category>",
+    "gold_id": "<ID of gold text>",
+    "gold_text": "<path to gold text>",
+    "random_seed": "<random seed set/used>",
+    "params": {
+      "n": 8,
+      "min_len": 8,
+      "n_insert": 0,
+      "min_len_insert": 0
+    }
+  }
+]
