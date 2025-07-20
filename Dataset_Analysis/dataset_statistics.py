@@ -1,18 +1,16 @@
 import json
-import os
 import spacy
 from transformers import AutoTokenizer
-
 from huggingface_hub import login
+
+# Authenticate with Hugging Face (required for some model downloads)
 login()
 
-# Load spaCy English tokenizer
+# Load NLP tools
 nlp = spacy.load("en_core_web_sm")
-
-# Load LLaMA 3.3 tokenizer
 llama_tokenizer = AutoTokenizer.from_pretrained("meta-llama/Llama-3.3-70B-Instruct")
 
-# Directory with text files
+# Metadata file with document references
 META_FILE = "../data/project_gutenberg/gold_pg-1900_meta_full.json"
 
 
@@ -29,16 +27,15 @@ def llama33_tokenizer(text):
 
 
 def count_paragraphs(text):
-    paragraphs = [p for p in text.split("\n\n") if p.strip()]
-    return len(paragraphs)
+    return len([p for p in text.split("\n\n") if p.strip()])
 
 
 def count_sentences(text):
-    doc = nlp(text)
-    return len(list(doc.sents))
+    return len(list(nlp(text).sents))
 
 
 def process_documents(meta_file):
+    # Stores token counts for different tokenizers
     token_counts = {
         "whitespace": [],
         "spacy": [],
@@ -50,28 +47,30 @@ def process_documents(meta_file):
 
     with open(meta_file, 'r', encoding='utf-8') as f:
         content = json.load(f)
-        print(len(content))
+        print(len(content))  # Number of documents in metadata
 
         for entry in content:
             filepath = "." + entry["gold_text"]
-            with open("."+filepath, "r", encoding="utf-8") as file:
+            with open(filepath, "r", encoding="utf-8") as file:
                 text = file.read()
-
                 char_count = len(text)
 
                 ws_tokens = whitespace_tokenizer(text)
 
-                if len(ws_tokens) < 8000:  # only documents larger than 8000 tokens (simple tokenizer)
+                # Skip short documents (under 8000 whitespace tokens)
+                if len(ws_tokens) < 8000:
                     print(entry['id'])
                     continue
 
+                # Apply all tokenizers
                 spacy_tokens = spacy_tokenizer(text)
                 llama_tokens = llama33_tokenizer(text)
 
-                # Paragraphs and Sentences
+                # Count structural features
                 paragraph_count = count_paragraphs(text)
                 sentence_count = count_sentences(text)
 
+                # Collect stats
                 token_counts["whitespace"].append(len(ws_tokens))
                 token_counts["spacy"].append(len(spacy_tokens))
                 token_counts["llama"].append(len(llama_tokens))
@@ -79,6 +78,7 @@ def process_documents(meta_file):
                 sentence_counts.append(sentence_count)
                 character_counts.append(char_count)
 
+                # Print per-file stats
                 print(f"File: {entry['gold_text']}")
                 print(f"  Characters        : {char_count}")
                 print(f"  Paragraphs        : {paragraph_count}")
@@ -88,17 +88,15 @@ def process_documents(meta_file):
                 print(f"  LLaMA 3.3 tokens : {len(llama_tokens)}")
                 print()
 
+        # Print averages across all processed documents
         print("=== AVERAGE TOKEN COUNTS ===")
         for method, counts in token_counts.items():
             print("Number of documents: ", len(counts))
             avg = sum(counts) / len(counts) if counts else 0
             print(f"{method.capitalize()} average: {avg:.2f}")
-        avg_paragraphs = sum(paragraph_counts) / len(paragraph_counts) if paragraph_counts else 0
-        avg_sentences = sum(sentence_counts) / len(sentence_counts) if sentence_counts else 0
-        avg_chars = sum(character_counts) / len(character_counts) if character_counts else 0
-        print(f"Paragraphs average: {avg_paragraphs:.2f}")
-        print(f"Sentences average : {avg_sentences:.2f}")
-        print(f"Character average : {avg_chars:.2f}")
+        print(f"Paragraphs average: {sum(paragraph_counts) / len(paragraph_counts):.2f}")
+        print(f"Sentences average : {sum(sentence_counts) / len(sentence_counts):.2f}")
+        print(f"Character average : {sum(character_counts) / len(character_counts):.2f}")
 
 
 if __name__ == "__main__":

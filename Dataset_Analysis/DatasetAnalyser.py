@@ -3,10 +3,10 @@ import re
 import numpy as np
 import os
 from multiprocessing import cpu_count
-
 from datasets import Dataset
 
 
+# Custom exception for invalid data source usage
 class UnknownSourceExeption(Exception):
     def __init__(self):
         self.message = "At least one of the parameters [corpus_path] or [dataset_name] has to be defined!"
@@ -21,7 +21,7 @@ class DatasetAnalyser:
         self.corpus = corpus_path if corpus_path else None
 
         if clean:
-            # Process text in parallel using multiple CPUs
+            # Preprocess and deduplicate dataset
             self.dataset = dataset.map(self.extract_gutenberg_text, num_proc=cpu_count())
             self.remove_duplicates()
         else:
@@ -29,15 +29,17 @@ class DatasetAnalyser:
 
     @staticmethod
     def fast_tokenize(text):
-        """Faster tokenization using regex split instead of nltk."""
+        # Lightweight whitespace-based tokenizer
         return re.split(r'\s+', text.strip())
 
     @staticmethod
     def extract_idx(file):
+        # Extract numeric index from filename
         filename = file[4:-4]
         return int(filename)
 
     def analyze_books(self, idx_key, content_key):
+        # Token count stats across dataset or corpus
         token_counts = []
 
         if self.corpus:
@@ -68,6 +70,7 @@ class DatasetAnalyser:
         return shortest_book, longest_book, avg_tokens, token_counts
 
     def get_short_stories(self, token_counts):
+        # Classify documents into short story buckets
         for idx, tok_c in token_counts:
             if tok_c <= self.MAX_TOKENS:
                 self.short_stories_u_16.append((idx, tok_c))
@@ -76,6 +79,7 @@ class DatasetAnalyser:
 
     @staticmethod
     def analyze_short_stories(token_counts):
+        # Min, max, avg stats for filtered short stories
         token_counts_array = np.array([count[1] for count in token_counts])
 
         shortest_book = min(token_counts, key=lambda x: x[1])
@@ -85,13 +89,14 @@ class DatasetAnalyser:
         return shortest_book, longest_book, avg_tokens
 
     def remove_duplicates(self):
-        """Use set for fast duplicate removal"""
+        # Remove duplicate entries based on ID
         seen_ids = set()
         cleaned_dataset = [entry for entry in self.dataset if entry['id'] not in seen_ids and not seen_ids.add(entry['id'])]
         self.dataset = Dataset.from_list(cleaned_dataset)
 
     @staticmethod
     def extract_gutenberg_text(example):
+        # Parse Project Gutenberg metadata (title, author, release date)
         """Step 1: Extract Title and Author"""
         title_match = re.search(r"Title:\s*(.*?)\s*\n", example['text'])
         author_match = re.search(r"Author:\s*(.*?)\s*\n", example['text'])
@@ -112,6 +117,7 @@ class DatasetAnalyser:
         split_match = re.search(r'(?:\s*\n){6}(.*)', text, re.DOTALL)
         example['text'] = split_match.group(1).strip() if split_match else ""
 
+        # Enrich entry with extracted metadata
         example["title"] = title
         example["author"] = author
         example["release_date"] = release_date
@@ -119,6 +125,7 @@ class DatasetAnalyser:
         return example
 
     def run_analysis(self, idx_key='id', content_key='text', path_min_max_stories=None):
+        # Run full pipeline: analyze, filter, summarize, and optionally export
         shortest, longest, avg_tokens, token_counts = self.analyze_books(idx_key=idx_key, content_key=content_key)
         print(f"{len(token_counts)} documents\n")
 
@@ -132,10 +139,11 @@ class DatasetAnalyser:
         print(f"Found {len(self.short_stories_8_16)} short stories between {self.MIN_TOKENS}K and {self.MAX_TOKENS}K tokens.\n")
 
         if path_min_max_stories:
-            # save stories between MIN_TOKENS and MAX_TOKENS
+            # Save filtered short story metadata
             with open(path_min_max_stories, "w", encoding="utf-8") as f:
                 json.dump(self.short_stories_8_16, f, ensure_ascii=False, indent=4)
 
+        # Report stats on filtered subset
         shortest, longest, avg_tokens = self.analyze_short_stories(self.short_stories_8_16)
         print(f"Shortest Book ({self.MIN_TOKENS}K-{self.MAX_TOKENS}K)-> ID: {shortest[0]}, Tokens: {shortest[1]}")
         print(f"Longest Book ({self.MIN_TOKENS}K-{self.MAX_TOKENS}K) -> ID: {longest[0]}, Tokens: {longest[1]}")
