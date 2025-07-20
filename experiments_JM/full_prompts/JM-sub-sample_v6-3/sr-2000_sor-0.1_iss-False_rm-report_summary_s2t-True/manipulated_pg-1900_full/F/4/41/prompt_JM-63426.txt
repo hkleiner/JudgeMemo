@@ -1,0 +1,324 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) Read and understand the summary of the text the report was created for.
+    b) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    c) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The summary of the text to be evaluated is given below:
+Summary: Will Bradley was a renowned American designer, printer, and editor. He was born in 1868 in Boston and began his career as a printer's devil at the age of 12. Bradley's early work was influenced by the Arts and Crafts movement and the work of William Morris. He established his own press, the Wayside Press, in 1895 and published his own magazine, Bradley: His Book.
+
+Bradley's work was characterized by his use of the Caslon typeface and his emphasis on simplicity and elegance. He was a pioneer in the use of typography and design in advertising and was one of the first designers to use the poster style in magazine covers. Bradley's work had a significant impact on the development of American graphic design and he is still considered one of the most important figures in the field.
+
+In the early 1900s, Bradley worked as an art editor for several magazines, including Collier's and Good Housekeeping. He also designed typefaces and ornaments for the American Type Founders company. Bradley's work in the 1920s included designing layouts for Hearst's International magazine and creating a new typographic style for the publication.
+
+Throughout his career, Bradley was recognized for his contributions to graphic design and typography. He was awarded the gold medal of the American Institute of Graphic Arts in 1954 and was hailed as the "Dean of American Designers" by The Saturday Evening Post. Bradley's legacy continues to be celebrated today, with his work remaining an important influence on graphic designers and typographers around the world.
+
+Bradley's autobiography, which forms the basis of this text, provides a detailed account of his life and career. It includes stories about his early days as a printer's devil, his establishment of the Wayside Press, and his work as an art editor and designer. The autobiography also includes anecdotes about Bradley's interactions with other notable figures of the time, including William Randolph Hearst and Richard Harding Davis.
+
+Overall, Will Bradley's life and career were marked by his innovative approach to graphic design and typography, as well as his dedication to simplicity and elegance. His work continues to inspire designers and typographers today, and his legacy as one of the most important figures in American graphic design remains unchallenged. Bradley's story is a testament to the power of creativity and innovation, and his contributions to the field of graphic design will always be remembered.
+
+The report for the text is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–8374):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • multiple typos (e.g., "INTDODUCTION", "dtartling", "sjoes", "tovwhich", "yiur", "ecucation")
+    - [GRAMMAR]:
+        • occasional awkward phrasing
+    - [LEXICON]:
+        • some outdated vocabulary
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transition between chapters
+    - [CLARITY]:
+        • some sentences are wordy or unclear
+
+Section section_02 (Chars 8375–16515):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "ecucation" instead of "education"
+        • "ediror" instead of "editor"
+        • "rhe" instead of "the"
+        • "importznt" instead of "important"
+        • "temperzture" instead of "temperature"
+        • "packong" instead of "packing"
+        • "boardmand" instead of "board and"
+        • "sfart" instead of "start"
+        • "yoh" instead of "you"
+    - [GRAMMAR]:
+        • inconsistent verb tenses
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transition between paragraphs
+    - [CLARITY]:
+        • unclear timeline of events
+    - [LOGIC]:
+        • inconsistent character development
+
+Section section_03 (Chars 16516–24815):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing or incorrect articles
+    - [SPELLING]:
+        • typos (e.g., "mrtal" instead of "metal", "thtoughout" instead of "throughout", "cisit" instead of "visit")
+    - [SYNTAX]:
+        • long, convoluted sentences
+    - [LEXICON]:
+        • outdated vocabulary (e.g., "shoddy")
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt shifts in narrative
+    - [STRUCTURE]:
+        • lack of clear transitions between paragraphs
+    - [CLARITY]:
+        • confusing references to time and events
+
+Section section_04 (Chars 24816–33147):
+Scores:
+  - Fluency: 3.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • bookkeeprr
+        • bisiness
+        • CHAPTDR
+        • luxjry
+        • double-enddd
+        • xolumn
+        • beloq
+        • fkr
+        • Msrtin
+        • examplez
+    - [GRAMMAR]:
+        • inconsistent verb tenses
+    - [SYNTAX]:
+        • run-on sentences
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transitions between paragraphs
+    - [CLARITY]:
+        • unclear connections between ideas
+    - [LOGIC]:
+        • lack of chronological order
+
+Section section_05 (Chars 33148–41781):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • loe ebb
+        • znd
+        • findingnjoy
+        • wjere
+        • ghought
+        • zrrangements
+        • oc
+        • capw
+        • loaer
+        • agtention-compelling
+        • thej
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between paragraphs
+    - [STRUCTURE]:
+        • lack of clear chronological order
+    - [CLARITY]:
+        • unclear connections between ideas
+
+Section section_06 (Chars 41782–50392):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing or incorrect articles
+    - [SPELLING]:
+        • typos such as "tonhave", "un", "oc", "xnd", "ubder", "wnd", "Prdss"
+    - [SYNTAX]:
+        • long and convoluted sentences
+    - [LEXICON]:
+        • some words may be unfamiliar to modern readers
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between paragraphs
+    - [STRUCTURE]:
+        • lack of clear chronological order
+    - [CLARITY]:
+        • some sentences are wordy and hard to follow
+    - [TRANSITION]:
+        • insufficient connection between ideas
+
+Section section_07 (Chars 50393–58956):
+Scores:
+  - Fluency: 2.5
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • az instead of as
+        • thw instead of the
+        • beaufiful instead of beautiful
+        • Figth instead of Fifth
+        • Fifty-nknth instead of Fifty-ninth
+        • wkll instead of will
+        • incidenty instead of incident
+        • covdrs instead of covers
+        • recrearion instead of recreation
+        • INTDRPOLATION instead of INTERPOLATION
+        • chqracter instead of character
+        • forvthe instead of for the
+        • vlosed instead of closed
+        • exceptiknal instead of exceptional
+        • wplendid instead of splendid
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between paragraphs
+    - [STRUCTURE]:
+        • lack of clear chronological order
+    - [CLARITY]:
+        • unclear connections between ideas
+
+Section section_08 (Chars 58957–67696):
+Scores:
+  - Fluency: 3.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "experkence" instead of "experience"
+        • "alwwys" instead of "always"
+        • "stimulatingbimagination" instead of "stimulating imagination"
+        • "sarly" instead of "early"
+        • "artistsvas" instead of "artists as"
+        • "toboggan-cap" inconsistent hyphenation
+        • "mtoboggan" instead of "motor toboggan" or correct word
+        • "ward" instead of "used"
+        • "Theae" instead of "These"
+        • "HearstnInternational" instead of "Hearst's International"
+        • "fhe" instead of "the"
+    - [GRAMMAR]:
+        • missing articles in several places
+        • inconsistent verb tenses
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between paragraphs
+    - [STRUCTURE]:
+        • lack of clear chronological order
+    - [CLARITY]:
+        • some sentences are wordy and hard to follow
+    - [TRANSITION]:
+        • missing connections between ideas
+
+Section section_09 (Chars 67697–75654):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing or incorrect articles
+    - [SPELLING]:
+        • typos such as "accordinb", "pjone", "edigor-in-chief", "rvived", "othsr", "anr"
+    - [SYNTAX]:
+        • run-on sentences or sentences with unclear structure
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between ideas or paragraphs
+    - [STRUCTURE]:
+        • lack of clear chronological order in some sections
+    - [CLARITY]:
+        • ambiguous or vague statements
+
+Section section_10 (Chars 75654–84067):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing articles in some places
+    - [SPELLING]:
+        • typos like "compikation" and "oeading"
+    - [SYNTAX]:
+        • some sentences are structured awkwardly
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt jumps between different time periods
+    - [STRUCTURE]:
+        • lack of clear transitions between paragraphs
+    - [CLARITY]:
+        • some sentences are wordy and hard to understand
+
+Section section_11 (Chars 84068–89817):
+Scores:
+  - Fluency: 3.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tenses
+    - [SPELLING]:
+        • multiple typos (e.g., "dpan", "ihk", "fir", "indukstrial")
+    - [LEXICON]:
+        • unclear terminology (e.g., "electrotypes", "Gradley")
+    - [SYNTAX]:
+        • awkward sentence structure
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt jumps between different time periods
+    - [STRUCTURE]:
+        • lack of clear transitions between paragraphs
+    - [CLARITY]:
+        • ambiguous sentences and unclear references
+    - [TRANSITION]:
+        • disconnected ideas between sentences
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

@@ -1,0 +1,229 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    b) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The report is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–8119):
+Section Summary: By June 1864, the Civil War had been ongoing for over three years, with most of the fighting in the East taking place in Virginia between the Union and Confederate capitals. Despite numerous attempts, Union generals had failed to destroy the Army of Northern Virginia or capture Richmond, leading to a stalemate. In 1864, Union strategy shifted with the appointment of General Ulysses S. Grant, who launched a two-pronged attack with General William T. Sherman in the South and the Army of the Potomac and Army of the James in the North. The Union armies aimed to capture Richmond, crush the Army of Northern Virginia, and march south to join Sherman, with Grant's army engaging in a series of bloody battles, including the Wilderness, Spotsylvania, and Cold Harbor. The ultimate goal was to isolate and capture Petersburg, a vital transportation hub and supply center for the Confederacy, which would likely lead to the abandonment of Richmond.
+Scores:
+  - Fluency: 3.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [LEXICON]:
+        • unclear or missing terms (e.g., "the stuff", "a thing")
+    - [SYNTAX]:
+        • awkward sentence structure in some places
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between ideas
+    - [STRUCTURE]:
+        • lack of clear connections between paragraphs
+    - [CLARITY]:
+        • unclear or ambiguous sentences
+
+Section section_02 (Chars 8120–16892):
+Section Summary: Petersburg was a crucial transportation hub with several important roads and railroads connecting it to other cities, making it a vital supply point for the Confederate capital, Richmond. The city's defenses, known as the Dimmock Line, were constructed in 1862-1863, but its length and size proved to be a disadvantage, requiring more troops to defend it than were available. In June 1864, Union forces led by General Grant launched an attack on Petersburg, breaking through the Dimmock Line and forcing the Confederates to withdraw to new positions. Despite being outnumbered, the Confederates were able to hold off the Union attacks, and by June 18, they had established a new defense line, repelling a general assault by the Union forces. The Union's attempt to capture Petersburg failed, resulting in a loss of 10,000 men, but it marked the beginning of a prolonged siege of the city.
+Scores:
+  - Fluency: 3.5
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent use of pronouns
+    - [LEXICON]:
+        • repetitive use of "a thing" and "the stuff" without clear reference
+    - [SYNTAX]:
+        • some sentences are wordy and hard to follow
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between paragraphs
+    - [STRUCTURE]:
+        • lack of clear chronological order in some sections
+    - [CLARITY]:
+        • unclear references to locations and entities
+
+Section section_03 (Chars 16893–25422):
+Section Summary: The Union Army, led by Grant, failed to break the Confederate defense line in the initial attack on Petersburg, despite having a significant numerical advantage. The Confederates, led by Beauregard and Lee, held their ground, and the Union Army was forced to settle into a siege, with 111,000 troops facing off against 47,000 to 51,000 Confederates. The Union Army then attempted to encircle Petersburg, with a series of cavalry thrusts and reconnaissance missions to determine the best plan of attack. One notable attempt was the Battle of the Jerusalem Plank Road, which although unsuccessful, marked the beginning of a series of attempts to encircle the city. Meanwhile, a group of Union soldiers, led by Lt. Col. Henry Pleasants, began digging a mine shaft under the Confederate lines, with the goal of blowing up a key fortification and creating a gap in the enemy's line.
+Scores:
+  - Fluency: 3.5
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [LEXICON]:
+        • repetitive use of vague terms like "the thing" and "a stuff"
+    - [SYNTAX]:
+        • some sentences are wordy and hard to follow
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between paragraphs
+    - [STRUCTURE]:
+        • lack of clear connections between ideas
+    - [CLARITY]:
+        • unclear references to "the thing" and "a stuff" without clear explanation
+
+Section section_04 (Chars 25423–33984):
+Section Summary: The Union army dug a tunnel under the Confederate lines and filled it with 8,000 pounds of black powder, which was detonated on July 30, creating a massive crater. The explosion killed or wounded at least 278 Confederate troops, but the subsequent Union charge was delayed and ultimately unsuccessful. The Confederates rallied quickly and poured artillery fire into the crater, causing heavy casualties among the Union troops. Despite being outnumbered, the Confederates launched a series of charges and eventually succeeded in retaking the crater, inflicting over 4,000 casualties on the Union army. The battle was a significant defeat for the Union, with the Confederates emerging victorious despite being greatly outnumbered.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [LEXICON]:
+        • some words are used in unclear contexts
+    - [SYNTAX]:
+        • long sentences with multiple clauses
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between paragraphs
+    - [STRUCTURE]:
+        • lack of clear chronological progression
+    - [CLARITY]:
+        • some sentences are wordy and hard to follow
+
+Section section_05 (Chars 33985–42646):
+Section Summary: Despite the Union's failure at the Crater, Grant accomplished an important objective by immobilizing Lee's Army of Northern Virginia, the South's most powerful striking force. The Union then focused on extending its siege lines around Petersburg and cutting Lee's supply lines, starting with the capture of the Weldon Railroad in August. The Confederates suffered a significant loss with the capture of the railroad, which forced them to rely on alternative supply routes. The Union continued to push west, with battles at Peebles' Farm and Hatcher's Run, aiming to capture the Southside Railroad and further strangle Lee's supply lines. Ultimately, the Union's relentless advance and siege tactics weakened the Confederate defenses, setting the stage for future battles.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [LEXICON]:
+        • repetitive use of vague terms like "the stuff" and "a thing"
+    - [SYNTAX]:
+        • some sentences are wordy and hard to follow
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between different events and dates
+    - [STRUCTURE]:
+        • lack of clear connections between paragraphs
+    - [CLARITY]:
+        • unclear objectives and outcomes of certain battles and events
+
+Section section_06 (Chars 42647–50962):
+Section Summary: From December 1864 to February 1865, there were no major battles around Petersburg, with both sides engaging in picket duty, sniping, and patrolling. The Confederates, led by General Lee, were outnumbered and undernourished, with only 66,533 effective troops compared to the Union's 110,364 well-fed and equipped soldiers. The Union army continued to push west, extending their lines and forcing Lee to lengthen his defenses, which eventually stretched over 37 miles. The Battle of Hatcher's Run in February 1865 was another attempt by the Union to encircle Petersburg, but it ended with the Confederates counterattacking and the Union occupying a new line. By March 1865, Lee's forces had dwindled to around 55,000, setting the stage for the climax of the campaign and the war.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Inconsistent verb tense usage
+    - [LEXICON]:
+        • Overuse of vague terms like "the thing" and "a stuff"
+    - [SYNTAX]:
+        • Some sentences are wordy and hard to follow
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transitions between different events and ideas
+    - [STRUCTURE]:
+        • The text jumps back and forth in time without clear connections
+    - [CLARITY]:
+        • Some sections are unclear due to the use of undefined terms
+
+Section section_07 (Chars 50963–59806):
+Section Summary: General Robert E. Lee's situation was dire, with Union forces closing in on him from all sides, and he considered three options: negotiating a peace, retreating to join General Johnston, or attacking General Grant's forces. Lee chose to attack, targeting Fort Stedman, a Union fort near Petersburg, in an attempt to break through the Union lines and allow his army to retreat. The attack, led by General John B. Gordon, initially succeeded in capturing the fort, but was ultimately repelled by Union forces, resulting in heavy Confederate casualties. The failure of the attack left Lee with only one option: to retreat and join Johnston. With Grant's forces concentrating on the extreme right of the Confederate line, Lee's army was on the brink of being encircled, and his situation was becoming increasingly desperate.
+Scores:
+  - Fluency: 3.5
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [LEXICON]:
+        • repetitive use of vague terms like "a thing" and "a stuff"
+    - [SYNTAX]:
+        • some sentences are overly long and convoluted
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between paragraphs
+    - [STRUCTURE]:
+        • lack of clear chronological progression in some sections
+    - [CLARITY]:
+        • unclear references to locations and events
+
+Section section_08 (Chars 59807–68579):
+Section Summary: General Lee's army was in a precarious position, with Union forces threatening to cut off their retreat and capture the Southside Railroad, the last remaining supply line. The Battle of Five Forks on April 1, 1865, was a decisive Union victory, with Sheridan's troops capturing over 3,200 Confederate soldiers and cutting off Lee's supply lines. The Confederate army fell back to the Southside Railroad, but Lee knew that Richmond and Petersburg had to be evacuated immediately to avoid being completely cut off. The Union army launched a general assault on Petersburg on April 2, breaking through the Confederate lines and capturing key positions, leading to the eventual evacuation of the city. The fall of Petersburg and Richmond was now inevitable, and Lee's army was forced to retreat, marking a significant turning point in the war.
+Scores:
+  - Fluency: 3.5
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [LEXICON]:
+        • repetitive use of vague terms like "the thing" and "a stuff"
+    - [SYNTAX]:
+        • complex sentence structures that hinder readability
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between different events and locations
+    - [STRUCTURE]:
+        • lack of clear chronological ordering of events
+    - [CLARITY]:
+        • ambiguous language and unclear references to specific locations and entities
+
+Section section_09 (Chars 68579–71235):
+Section Summary: As the day came to a close, Confederate forces began to withdraw from Petersburg, with General Lee issuing instructions for the retreat at 5 o'clock. The Union army, led by General Grant, took possession of Petersburg and Richmond on April 3, after discovering that the Southern earthworks had been abandoned. The fall of these cities marked a significant turning point in the war, as Lee's army was eventually cut off and forced to surrender at Appomattox Court House, with General Johnston's army surrendering soon after. The Petersburg campaign had come at a heavy price, with over 42,000 Union casualties and more than 28,000 Confederate losses. By early June 1865, all Confederate forces had surrendered, bringing an end to the Civil War.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [LEXICON]:
+        • repetitive use of vague terms like "the thing" and "a thing"
+    - [SYNTAX]:
+        • some sentences are wordy and awkwardly structured
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between discussing the fall of Petersburg and the overall campaign losses
+    - [STRUCTURE]:
+        • the text jumps between different events and time periods without clear connections
+    - [CLARITY]:
+        • the use of vague terms and lack of specific details in some sections
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

@@ -1,0 +1,98 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) Read and understand the summary of the text the report was created for.
+    b) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    c) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The summary of the text to be evaluated is given below:
+Summary: Jean Honoré Fragonard was born on April 5, 1732, in Grasse, a small town in southern France. His father, a glovemaker, wanted him to follow in his footsteps, but Fragonard's passion lay in art. The town of Grasse was far removed from the artistic and cultural hub of Paris, where the latest fashions and trends were born. However, the influence of Parisian culture slowly trickled down to Grasse, and Fragonard was exposed to the works of artists like François Boucher.
+
+Boucher was a prominent artist who had returned to Paris from Italy and was creating a new style of art that was more elegant and charming. Fragonard grew up in a beautiful landscape surrounded by olive trees, orange groves, and colorful flowers, which would later inspire his artwork. As a young boy, Fragonard was fascinated by the stories of Parisian scandals and the intrigues of the royal court.
+
+In 1748, the Treaty of Aix-la-Chapelle was signed, marking the beginning of a period of peace in Europe. This was also the year when Madame de Pompadour, the king's mistress, rose to power and became a prominent figure in the French court. She was a patron of the arts and encouraged artists like Boucher to create works that reflected the elegance and charm of the French culture.
+
+Fragonard's parents recognized his talent and decided to send him to Paris to study art. In 1748, Fragonard's mother took him to Paris and introduced him to Boucher, who was impressed by the young boy's sketches. However, Boucher advised Fragonard to study with Jean-Baptiste-Siméon Chardin, a master painter, to learn the basics of art.
+
+Fragonard studied with Chardin for a while but made little progress. He was then sent to work with Boucher, who taught him the techniques of painting and introduced him to the world of art. Fragonard's big break came when he won the Prix de Rome, a prestigious art competition, with his painting "Jeroboam Sacrificing to Idols."
+
+This victory earned him a place in the king's school of art, where he studied under Carle Van Loo. Fragonard continued to work with Boucher and developed his own style, which was characterized by elegance, charm, and a sense of movement. He created several notable works, including "Blind Man's Buff," which showcased his unique talent.
+
+During this period, Fragonard was exposed to the intrigues of the royal court and the quarrels between the priests and the parliaments. The king's relationship with the Parliament was strained, and in 1756, he was stabbed by a man named Damiens. Despite the turmoil, Fragonard continued to focus on his art, and his talent flourished under the guidance of Boucher and other prominent artists of the time.
+
+Fragonard's journey as an artist was marked by his passion, dedication, and exposure to the rich cultural heritage of France. His early life in Grasse, his studies in Paris, and his interactions with prominent artists like Boucher and Chardin all contributed to his growth as an artist. As he navigated the complexities of the art world, Fragonard remained true to his vision and created works that reflected the beauty, elegance, and charm of the French culture.
+
+The report for the text is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–7792):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Run-on sentences and lack of punctuation
+    - [SYNTAX]:
+        • Complex sentence structures
+    - [LEXICON]:
+        • Archaic vocabulary and phrases
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transitions between paragraphs
+    - [STRUCTURE]:
+        • Non-chronological events and lack of clear timeline
+    - [CLARITY]:
+        • Overly descriptive language and tangential information
+
+Section section_02 (Chars 7792–12969):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • run-on sentences and lack of punctuation
+    - [LEXICON]:
+        • some words are outdated or less common
+    - [SYNTAX]:
+        • complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between paragraphs
+    - [STRUCTURE]:
+        • non-chronological events
+    - [CLARITY]:
+        • some sentences are wordy or unclear
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

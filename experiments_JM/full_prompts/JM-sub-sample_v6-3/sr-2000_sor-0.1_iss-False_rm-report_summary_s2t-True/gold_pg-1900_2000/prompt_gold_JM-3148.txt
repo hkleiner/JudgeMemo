@@ -1,0 +1,122 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) Read and understand the summary of the text the report was created for.
+    b) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    c) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The summary of the text to be evaluated is given below:
+Summary: The story begins with a quote from Emerson's "April" and introduces a young boy named Davy, who is reading to his uncle, Anthony Croft. Anthony is blind and has a deep love for music, particularly the violin. Davy reads a story about Paganini, a famous violinist, and Anthony is transported to a world of beauty and sound. 
+
+As Davy finishes reading, he goes outside to feed the chickens and describes the scenery to Anthony, who imagines the scene through his other senses. Anthony then takes out his violin and begins to play, filling the air with rich, velvety sounds. The music is so beautiful that it seems to capture the essence of the world.
+
+The story then flashes back to Anthony's childhood, where he was a restless and curious boy who hated school. He longed to learn, but the traditional classroom setting stifled his creativity and curiosity. Instead, he found solace in the woods, where he could explore and learn through hands-on experience.
+
+Anthony's love for music was evident even as a young boy, and he would often sneak out of the classroom to play with a tuning fork he had hidden outside. He was fascinated by the sounds of nature and would spend hours imitating the calls of birds and other animals.
+
+As he grew older, Anthony's love for music only deepened, and he became a skilled violinist. Despite being considered lazy by his teachers and peers, Anthony was actually a diligent and passionate learner, driven by a desire to understand the world around him.
+
+The villagers saw Anthony as a bit of an oddity, but his mother recognized his unique gifts and encouraged him to pursue his passions. Anthony's self-education in the woods and through music ultimately led him to develop a profound appreciation for the beauty and wonder of the world.
+
+Through his music, Anthony is able to express the depths of his emotions and connect with the world in a way that transcends words. His violin playing is a form of storytelling, weaving together the threads of his experiences and imagination to create a rich tapestry of sound.
+
+The story highlights the importance of following one's passions and embracing individuality. Anthony's journey shows that learning and growth can occur in unexpected ways, and that the pursuit of beauty and wonder can lead to a deeper understanding of oneself and the world. 
+
+Anthony's love for music and nature is a testament to the human spirit's capacity for creativity, curiosity, and connection. The story celebrates the beauty of the world and the power of art to express and evoke emotions, creating a sense of wonder and awe in all who experience it. 
+
+In the end, Anthony's music becomes a way for him to share his unique perspective with the world, inviting others to see and experience the beauty that he sees. Through his violin, Anthony is able to convey the depths of his emotions and connect with others on a profound level, creating a sense of community and shared understanding. 
+
+The story of Anthony Croft is a reminder that everyone has their own unique gifts and passions, and that embracing these individualities is essential to living a fulfilling and meaningful life. By celebrating Anthony's love for music and nature, the story encourages readers to appreciate the beauty and wonder of the world around them. 
+
+Ultimately, the story suggests that the pursuit of beauty, wonder, and individuality is essential to human growth and development, and that embracing these values can lead to a deeper understanding of oneself and the world. 
+
+The narrative also explores the theme of perception, highlighting the ways in which Anthony's blindness has heightened his other senses and allowed him to experience the world in a unique and profound way. 
+
+Through Anthony's character, the story shows that disability is not a limitation, but rather an opportunity for growth and exploration. Anthony's blindness has not held him back, but rather has allowed him to develop a deeper appreciation for the world and its beauty. 
+
+In conclusion, the story of Anthony Croft is a powerful celebration of individuality, creativity, and the human spirit. It reminds readers of the importance of embracing their passions and pursuing their unique gifts, and encourages them to see the world as a place of beauty and wonder. 
+
+The narrative is a testament to the transformative power of art and music, and the ways in which they can bring people together and create a sense of community and shared understanding. 
+
+Overall, the story is a beautiful and uplifting tribute to the human experience, and the ways in which we can find meaning, purpose, and connection in the world around us. 
+
+The story's focus on Anthony's love for music and nature serves as a reminder of the importance of appreciating and preserving the beauty of the world. 
+
+By exploring the themes of individuality, creativity, and perception, the narrative creates a rich and nuanced portrait of the human experience, and encourages readers to think deeply about the ways in which they interact with and understand the world. 
+
+In the end, the story of Anthony Croft is a powerful reminder of the importance of living a life that is true to oneself, and of embracing the unique gifts and passions
+
+The report for the text is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–8003):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor punctuation errors
+    - [LEXICON]:
+        • some archaic vocabulary
+    - [SYNTAX]:
+        • occasional complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between Anthony's past and present
+    - [STRUCTURE]:
+        • non-linear narrative
+    - [CLARITY]:
+        • some sentences are wordy or ambiguous
+
+Section section_02 (Chars 8003–11543):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor sentence structure complexity
+    - [LEXICON]:
+        • occasional use of less common vocabulary
+    - [SYNTAX]:
+        • some long sentences with multiple clauses
+  Coherence Issues:
+    - [LOGIC]:
+        • occasional abrupt shifts in narrative focus
+    - [STRUCTURE]:
+        • non-linear progression of ideas in some sections
+    - [CLARITY]:
+        • a few sentences with ambiguous or unclear meaning
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

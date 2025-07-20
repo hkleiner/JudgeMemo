@@ -1,0 +1,289 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) Read and understand the summary of the text the report was created for.
+    b) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    c) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The summary of the text to be evaluated is given below:
+Summary: The author reflects on Herbert Spencer's philosophy of science, which had a significant influence on their youthful enthusiasm for science. Spencer's work, particularly his essay "Progress: Its Law and Cause," introduced the author to the concept of evolution and the idea that all things develop from simple to complex through successive differentiations. The author notes that Spencer's philosophy emphasizes the universality of law and the correlation between cause and effect. However, they also criticize Spencer's use of ambiguous terms, such as "force" and "cause," which can lead to confusion.
+
+The author suggests that Spencer's concept of the "Unknowable" is a fundamental aspect of his philosophy, referring to the ultimate reality that underlies all phenomena. They also discuss Spencer's distinction between the "Knowable" and the "Unknowable," and how he attempts to explain the former in terms of the latter. The author argues that Spencer's philosophy is not without its flaws, particularly in his treatment of cognition and conscious awareness.
+
+The author proposes an alternative approach to understanding relatedness, suggesting that relationships are just as real as the terms they relate. They introduce the concept of "ground" to refer to the inherent and constitutional aspects of a system, and distinguish it from "conditions," which refer to external influences. The author also discusses the importance of analyzing natural relations and the need for a more nuanced understanding of the types of relatedness that exist in the world.
+
+In conclusion, the author acknowledges Spencer's significant contributions to the philosophy of science, but also highlights the limitations and flaws of his work. They emphasize the need for a more rigorous and systematic approach to understanding relatedness and the natural world. The author ends by quoting Spencer's own words, emphasizing the importance of fearlessly uttering the highest truth one sees, even if it goes against prevailing opinions. Overall, the author's reflection on Spencer's philosophy serves as a starting point for their own exploration of the nature of relatedness and the philosophy of science. 
+
+The author's main criticism of Spencer is his failure to bring cognition and conscious awareness into close touch with the rest of his philosophy of science. They argue that Spencer's double-aspect theory, which posits that mind and nervous action are two faces of the same thing, is not sufficient to explain the complex relationships between cognition, consciousness, and the natural world. The author suggests that a more nuanced understanding of relatedness is needed, one that takes into account the various types of relationships that exist in the world, from physico-chemical to cognitive. 
+
+Ultimately, the author's goal is to develop a more comprehensive and systematic approach to understanding the natural world, one that integrates the insights of Spencer and other philosophers with the latest scientific discoveries and theories. By doing so, they hope to contribute to a deeper understanding of the complex relationships that underlie the world we experience. The author's work is a testament to the enduring influence of Spencer's philosophy, and a reminder that the pursuit of knowledge and understanding is an ongoing and iterative process. 
+
+The author's reflection on Spencer's philosophy also highlights the importance of critical thinking and intellectual honesty. They demonstrate that even the most influential and respected thinkers can have limitations and flaws in their work, and that it is essential to approach their ideas with a critical and nuanced perspective. By doing so, we can build upon their insights and contributions, while also avoiding the pitfalls and errors that they may have made. 
+
+In the end, the author's work serves as a reminder that the philosophy of science is a dynamic and evolving field, one that requires ongoing reflection, critique, and revision. By engaging with the ideas of Spencer and other philosophers, we can gain a deeper understanding of the natural world and our place within it, and develop a more comprehensive and systematic approach to understanding the complex relationships that underlie our experience.
+
+The report for the text is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–8844):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • multiple typos and spelling errors
+    - [GRAMMAR]:
+        • occasional awkward sentence structures
+    - [LEXICON]:
+        • some outdated or uncommon vocabulary
+  Coherence Issues:
+    - [LOGIC]:
+        • occasional jumps in reasoning or argumentation
+    - [STRUCTURE]:
+        • lengthy paragraphs and lack of clear sectioning
+    - [CLARITY]:
+        • some sentences or passages are wordy or unclear
+
+Section section_02 (Chars 8845–17535):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 3.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Missing or incorrect articles
+    - [SPELLING]:
+        • Typos such as "Spencet" instead of "Spencer"
+    - [LEXICON]:
+        • Ambiguous word usage, e.g., "force"
+    - [SYNTAX]:
+        • Long, convoluted sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt shifts in topic
+    - [STRUCTURE]:
+        • Lack of clear transitions between ideas
+    - [CLARITY]:
+        • Overly complex and ambiguous language
+    - [TRANSITION]:
+        • Disconnected ideas and sentences
+
+Section section_03 (Chars 17536–26021):
+Scores:
+  - Fluency: 2.5
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • incomplete sentences
+    - [SPELLING]:
+        • multiple typos (e.g. "and whenmit", "dramaticqlly", "mschinery", "kechanism", "pdesupposition", "thevallotment")
+    - [SYNTAX]:
+        • awkward phrasing
+    - [LEXICON]:
+        • unclear word choices
+  Coherence Issues:
+    - [LOGIC]:
+        • inconsistent argumentation
+    - [STRUCTURE]:
+        • abrupt jumps between ideas
+    - [CLARITY]:
+        • ambiguous sentences
+    - [TRANSITION]:
+        • lack of smooth connections between paragraphs
+
+Section section_04 (Chars 26022–34626):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • typos and spelling mistakes (e.g., "noumenak", "Spencsr", "scoence", "jnclusive", "xmudgy", "mechqnical")
+    - [GRAMMAR]:
+        • awkward sentence structures and phrasing
+    - [LEXICON]:
+        • outdated or uncommon vocabulary (e.g., "quasi-mechanical", "relational fields")
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between ideas
+    - [STRUCTURE]:
+        • lack of clear organization and paragraph cohesion
+    - [CLARITY]:
+        • ambiguous terminology and concepts (e.g., "cause", "force", "energy")
+
+Section section_05 (Chars 34627–43710):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing or incorrect articles
+    - [SPELLING]:
+        • typos such as "oreceded" instead of "preceded"
+    - [SYNTAX]:
+        • long and convoluted sentence structures
+    - [LEXICON]:
+        • unclear or technical terms without explanation
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt jumps between ideas
+    - [STRUCTURE]:
+        • lack of clear transitions between paragraphs
+    - [CLARITY]:
+        • ambiguous or confusing sentences
+    - [TRANSITION]:
+        • disconnected ideas and lack of flow
+
+Section section_06 (Chars 43711–52672):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing or incorrect articles
+    - [SPELLING]:
+        • typos (e.g., "impodtance", "shat", "fiery cloud" should be "fire cloud" or "fiery" is correct but "cloud" is not the best choice)
+    - [LEXICON]:
+        • word choice issues (e.g., "legion" might be too formal)
+    - [SYNTAX]:
+        • long and convoluted sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt jumps between ideas
+    - [STRUCTURE]:
+        • lack of clear transitions between paragraphs
+    - [CLARITY]:
+        • ambiguous sentences and unclear conclusions
+    - [TRANSITION]:
+        • missing connections between different types of relatedness
+
+Section section_07 (Chars 52673–61691):
+Scores:
+  - Fluency: 2.5
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • cgaractwrize
+        • sviences
+        • raisedbprogressively
+        • resultantsmof
+        • qctivity
+        • noumenon js
+        • obhective
+        • clnclusion
+        • grue
+        • wofld
+        • avterribly
+        • knlwn
+        • yhe
+        • xomewhat
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt shifts in discussing Spencer's views
+    - [STRUCTURE]:
+        • lack of clear transitions between paragraphs
+    - [CLARITY]:
+        • ambiguous terminology, such as "states of consciousness"
+    - [TRANSITION]:
+        • unclear connections between ideas
+
+Section section_08 (Chars 61692–70638):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing or incorrect articles
+    - [SPELLING]:
+        • typos such as "ortanism", "differenfe", "conditipns", "iccurrences"
+    - [LEXICON]:
+        • unclear or technical terms without explanation
+    - [SYNTAX]:
+        • long and complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between ideas
+    - [STRUCTURE]:
+        • lack of clear paragraphing or sectioning
+    - [CLARITY]:
+        • ambiguous or vague statements
+    - [TRANSITION]:
+        • missing or unclear connections between sentences
+
+Section section_09 (Chars 70639–79514):
+Scores:
+  - Fluency: 3.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Missing or incorrect articles
+    - [SPELLING]:
+        • Typos such as "labellung", "thief", "fir", "ws", "acrualpy", "preposterous" spelled correctly but used in a questionable context, "sciwntific"
+    - [SYNTAX]:
+        • Long, convoluted sentences
+    - [LEXICON]:
+        • Use of complex vocabulary that may hinder understanding
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transitions between ideas
+    - [STRUCTURE]:
+        • Lack of clear progression from one section to another
+    - [CLARITY]:
+        • Ambiguous sentences and unclear explanations
+    - [TRANSITION]:
+        • Disconnected ideas and lack of smooth connections
+
+Section section_10 (Chars 79515–80004):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "thr" instead of "the"
+    - [SYNTAX]:
+        • Complex sentence structure may hinder smooth reading
+  Coherence Issues:
+    - [CLARITY]:
+        • Some metaphors (e.g., "his thoughts are as children born to him") may be unclear to some readers
+    - [TRANSITION]:
+        • Abrupt shift from discussing the individual's role in time to the importance of uttering truth
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

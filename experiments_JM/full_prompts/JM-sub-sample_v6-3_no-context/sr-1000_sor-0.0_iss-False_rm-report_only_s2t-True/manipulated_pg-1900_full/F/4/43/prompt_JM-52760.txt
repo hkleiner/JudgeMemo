@@ -1,0 +1,380 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    b) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The report is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–4063):
+Scores:
+  - Fluency: 3.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Inconsistent verb tenses
+    - [SYNTAX]:
+        • Awkward sentence structure
+    - [LEXICON]:
+        • Inappropriate word choices
+    - [SPELLING]:
+        • Typos and missing punctuation
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transitions between ideas
+    - [STRUCTURE]:
+        • Disorganized paragraphs
+    - [CLARITY]:
+        • Unclear sentences and ambiguous phrases
+    - [TRANSITION]:
+        • Lack of connecting words and phrases
+
+Section section_02 (Chars 4064–8192):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Minor punctuation issues
+    - [LEXICON]:
+        • Some sentences are wordy
+  Coherence Issues:
+    - [STRUCTURE]:
+        • Abrupt transition between paragraphs
+    - [CLARITY]:
+        • Some sentences are unclear due to complexity
+
+Section section_03 (Chars 8193–12556):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor punctuation errors
+    - [LEXICON]:
+        • occasional word choice could be more precise
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transition between paragraphs
+    - [CLARITY]:
+        • some sentences are lengthy and complex
+
+Section section_04 (Chars 12557–16702):
+Scores:
+  - Fluency: 3.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Inconsistent verb tense usage
+    - [SYNTAX]:
+        • Awkward sentence structure in several places
+    - [LEXICON]:
+        • Word choice issues, such as unclear or overly complex terms
+    - [SPELLING]:
+        • Minor spelling errors, e.g., "Eighteen their under 4,000 way Union to face were thousand less soldiers"
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transitions between paragraphs
+    - [STRUCTURE]:
+        • Disjointed narrative flow
+    - [CLARITY]:
+        • Unclear descriptions of military movements and strategies
+    - [TRANSITION]:
+        • Lack of smooth connections between ideas
+
+Section section_05 (Chars 16703–20979):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Inconsistent verb tense usage
+    - [SYNTAX]:
+        • Awkward sentence structure in some places
+    - [LEXICON]:
+        • Some words or phrases seem out of context or unclear
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between paragraphs
+    - [STRUCTURE]:
+        • Disjointed presentation of events
+    - [CLARITY]:
+        • Unclear connections between ideas
+
+Section section_06 (Chars 20979–25230):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • "This on of on crest built June ravine a line Union had which forward been crossed the was 18" appears to be a sentence with incorrect word order and missing or misplaced words.
+    - [SPELLING]:
+        • No major spelling issues detected, but the previously mentioned sentence suggests possible spelling or typing errors.
+    - [SYNTAX]:
+        • The sentence structure in some parts, such as the transition between ideas, could be improved for better flow.
+  Coherence Issues:
+    - [LOGIC]:
+        • The text jumps abruptly from discussing the plan to take the city by direct assault to describing the unique plan without a clear connection.
+    - [STRUCTURE]:
+        • The inclusion of what seems to be a diagram or map labels (e.g., "Air tube", "FEDERAL LINE Established June 18, 1864") disrupts the narrative flow.
+    - [CLARITY]:
+        • Some sentences are long and complex, which can make following the narrative difficult.
+
+Section section_07 (Chars 25231–29466):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • incomplete sentences
+    - [LEXICON]:
+        • unclear terminology
+    - [SYNTAX]:
+        • awkward phrasing
+    - [SPELLING]:
+        • minor typos
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt shifts in narrative
+    - [STRUCTURE]:
+        • disjointed paragraphs
+    - [CLARITY]:
+        • unclear transitions
+    - [TRANSITION]:
+        • lack of connecting ideas
+
+Section section_08 (Chars 29467–33777):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • "By action effort the Confederates prompt and had determined a prevented breakthrough" is grammatically incorrect
+    - [SYNTAX]:
+        • Some sentences are wordy and have complex structures
+  Coherence Issues:
+    - [LOGIC]:
+        • The transition between the description of the crater and the Union charge could be smoother
+    - [STRUCTURE]:
+        • The text jumps between different events and times without clear connections
+
+Section section_09 (Chars 33778–38228):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Inconsistent verb tense
+    - [SYNTAX]:
+        • Awkward phrasing in some sentences
+    - [LEXICON]:
+        • Word choice could be more precise
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between paragraphs
+    - [STRUCTURE]:
+        • Some sentences seem out of place
+    - [CLARITY]:
+        • Unclear references to previous events
+
+Section section_10 (Chars 38229–42338):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • incomplete sentence structure
+    - [SYNTAX]:
+        • awkward phrasing in some sentences
+    - [LEXICON]:
+        • word choice could be improved for clarity
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between paragraphs
+    - [STRUCTURE]:
+        • lack of clear connection between some events
+    - [CLARITY]:
+        • some sentences are wordy or confusing
+
+Section section_11 (Chars 42339–46624):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor sentence complexity
+    - [LEXICON]:
+        • occasional use of less common vocabulary
+  Coherence Issues:
+    - [STRUCTURE]:
+        • some abrupt transitions between paragraphs
+    - [CLARITY]:
+        • a few sentences with multiple clauses that reduce readability
+
+Section section_12 (Chars 46625–50775):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Inconsistent verb tense
+    - [SYNTAX]:
+        • Run-on sentences
+    - [LEXICON]:
+        • Word choice inconsistencies
+    - [SPELLING]:
+        • Minor typos
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between paragraphs
+    - [STRUCTURE]:
+        • Disjointed listing of dates and events
+    - [CLARITY]:
+        • Unclear connections between ideas
+    - [TRANSITION]:
+        • Lack of smooth transitions between sections
+
+Section section_13 (Chars 50776–55192):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Inconsistent verb tense usage
+    - [SYNTAX]:
+        • Confusing sentence structure in some parts
+    - [LEXICON]:
+        • Some words or phrases seem out of context or unclear
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between ideas in certain sections
+    - [STRUCTURE]:
+        • Disjointed narrative flow due to lack of clear connections between paragraphs
+    - [CLARITY]:
+        • Unclear or ambiguous descriptions of military strategies and events
+
+Section section_14 (Chars 55193–59427):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • incomplete sentence at "By been momentum 6 a.m. had forward checked their."
+    - [SYNTAX]:
+        • awkward phrasing in "Their purpose: to be near at hand to overwhelm the unsuspecting pickets when the attack began."
+    - [LEXICON]:
+        • potential ambiguity in "torn line"
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transition from describing the battle to introducing the chapter title "FIVE FORKS: BEGINNING OF THE END"
+    - [LOGIC]:
+        • unclear connection between the outcome of the battle and the introduction of Grant's planning
+    - [CLARITY]:
+        • confusing sequence of events in the final stages of the battle
+
+Section section_15 (Chars 59428–63775):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Inconsistent verb tense usage
+    - [SYNTAX]:
+        • Complex sentence structures
+    - [LEXICON]:
+        • Some words are used in unclear contexts
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between paragraphs
+    - [STRUCTURE]:
+        • Lack of clear chronological progression
+    - [CLARITY]:
+        • Unclear descriptions of military movements
+
+Section section_16 (Chars 63776–68245):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • incomplete sentence structure
+    - [LEXICON]:
+        • unclear word choice ("off probably prisoners less a suffering captured loss")
+    - [SYNTAX]:
+        • awkward phrasing ("The of crumbled mobile ’shad defenses Lee end western")
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between paragraphs
+    - [STRUCTURE]:
+        • lack of clear connection between ideas
+    - [CLARITY]:
+        • ambiguous sentence meaning ("The real importance of Five Forks lay in the probability that, by making it more difficult for Lee to escape, it brought the inevitable a little closer")
+
+Section section_17 (Chars 68245–72084):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • incomplete sentence structure
+    - [SYNTAX]:
+        • awkward phrasing in some sentences
+    - [LEXICON]:
+        • minor word choice issues
+  Coherence Issues:
+    - [LOGIC]:
+        • occasional abrupt transitions between ideas
+    - [STRUCTURE]:
+        • some paragraphs lack clear topic sentences
+    - [CLARITY]:
+        • minor ambiguities in sentence meaning
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

@@ -1,0 +1,531 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    b) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The report is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–3729):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "ith" instead of "is"
+        • "Ttansfer" instead of "Transfer"
+        • "wsll" instead of "well"
+        • "tip-sheef" instead of "tip-sheet"
+    - [GRAMMAR]:
+        • inconsistent verb tenses
+    - [LEXICON]:
+        • overuse of "lisp" to convey Irwadian speech
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transition from dialogue to narrative
+    - [CLARITY]:
+        • unclear motivations of the Port Security Officer
+    - [LOGIC]:
+        • lack of explanation for the Irwadian government's decision
+
+Section section_02 (Chars 3730–7717):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "omly" instead of "only"
+        • "eithstand" instead of "withstand"
+        • "kanganese" instead of "manganese"
+        • "Eartggirl" instead of "Earthgirl"
+        • "cuilling" instead of "chilling"
+        • "thoughf" instead of "thought"
+        • "Ramwr" instead of "Ramar"
+  Coherence Issues:
+    - [STRUCTURE]:
+        • Abrupt transition between Ramsey's conversation and the introduction of Stu Englander's financial situation
+    - [CLARITY]:
+        • Unclear motivation behind Chind Ramar's actions and thoughts
+    - [TRANSITION]:
+        • Sudden shift from the scene at the spacefield to the Englander's home
+
+Section section_03 (Chars 7718–11662):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing or incorrect articles
+    - [SPELLING]:
+        • typos (e.g., "wrackingly" instead of "rackingly", "lefy" instead of "left", "anachrlnistic" instead of "anachronistic", "Rajsey" instead of "Ramsey", "thertainly" instead of "certainly")
+    - [LEXICON]:
+        • informal language and slang (e.g., "heck", "filthy outworlder capitalist")
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transition from Ramsey's interaction with Englander to his thoughts about going to the gaming tables
+    - [CLARITY]:
+        • some sentences are wordy or unclear (e.g., the description of the Irwadian's appearance and clothing)
+
+Section section_04 (Chars 11663–15504):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • Multiple instances of intentional misspelling to convey character accents (e.g., "thaid", "tbnooping", "thtink")
+    - [GRAMMAR]:
+        • Some sentences are structured for dramatic effect, potentially disrupting smooth reading
+    - [LEXICON]:
+        • Use of made-up or sci-fi terms (e.g., "planetarization", "unit-a-dance") that might confuse readers unfamiliar with the context
+  Coherence Issues:
+    - [STRUCTURE]:
+        • Abrupt transitions between Ramsey's thoughts and the dialogue or actions of other characters
+    - [CLARITY]:
+        • Some sentences are long and convoluted, potentially making it hard to follow the narrative
+    - [LOGIC]:
+        • The character of Garr Symm is introduced abruptly, with significant background information provided by another character, which might feel convenient or forced
+
+Section section_05 (Chars 15505–19252):
+Scores:
+  - Fluency: 3.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "thecgalaxy" instead of "the galaxy"
+        • "outworlders there trid" is not present but "ane" instead of "and"
+        • "wasvsick" instead of "was sick"
+        • "thecgirl" instead of "the girl"
+        • "witxh" instead of "witch"
+        • "fhe" instead of "the"
+        • "whithpered" instead of "whispered"
+        • "elth" instead of "else"
+        • "pleath" instead of "please"
+        • "latht" instead of "last"
+        • "jim" instead of "him"
+    - [GRAMMAR]:
+        • inconsistent verb tenses
+    - [LEXICON]:
+        • informal language and slang
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between scenes
+    - [STRUCTURE]:
+        • lack of clear progression in some parts
+    - [CLARITY]:
+        • some sentences are wordy or unclear
+
+Section section_06 (Chars 19253–23115):
+Scores:
+  - Fluency: 2.5
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "tne" instead of "the"
+        • "Somewjere" instead of "Somewhere"
+        • "wnd" instead of "and"
+        • "thenthreshold" instead of "the threshold"
+        • "voixe" instead of "voice"
+        • "Interstellar Coine" instead of "Interstellar Coin"
+        • "onvand" instead of "on and"
+        • "wxsn't" instead of "wasn't"
+        • "cgoice" instead of "choice"
+        • "dhoulders" instead of "shoulders"
+        • "chpped" instead of "clipped"
+        • "abrevitog" instead of "brevitog" (likely a made-up word, but still an error)
+        • "quiteblong" instead of "quite long"
+        • "iwn't" instead of "isn't"
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt introduction of the telepathic girl without prior context
+    - [STRUCTURE]:
+        • Sudden shift in scene and introduction of new characters without clear transitions
+    - [CLARITY]:
+        • Some sentences are wordy or unclear, making it difficult to follow the narrative
+
+Section section_07 (Chars 23116–27049):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor punctuation errors
+    - [LEXICON]:
+        • occasional awkward phrasing
+    - [SYNTAX]:
+        • few instances of sentence structure complexity
+  Coherence Issues:
+    - [LOGIC]:
+        • some character interactions feel slightly abrupt
+    - [STRUCTURE]:
+        • minor inconsistencies in pacing
+    - [CLARITY]:
+        • a few sentences require close reading to understand
+
+Section section_08 (Chars 27050–31008):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing or incorrect articles
+    - [SPELLING]:
+        • typos (e.g., "Dejnison" instead of "Dennison", "whifh" instead of "with", "unfamiliwr" instead of "unfamiliar", "Raksey" instead of "Ramsey", "b" instead of "but", "yo" instead of "to")
+    - [LEXICON]:
+        • uncommon vocabulary (e.g., "libidinal vitality", "Sirian-archaic", "storids", "uni-sexual", "expanduffle", "irising door", "whorl patterns")
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition from Ramsey's thoughts to the discovery of the letter
+    - [STRUCTURE]:
+        • non-chronological events (e.g., the letter dated five Earth months before)
+    - [CLARITY]:
+        • unclear motivations of Margot Dennison
+
+Section section_09 (Chars 31008–34979):
+Scores:
+  - Fluency: 2.5
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "gou" instead of "you"
+        • "worldd" instead of "worlds"
+        • "Fkr" instead of "For"
+        • "sibgle" instead of "single"
+        • "wirds" instead of "words"
+        • "lengtb" instead of "length"
+        • "evolusionary" instead of "evolutionary"
+        • "plabetary" instead of "planetary"
+        • "hiscchildren" instead of "his children"
+        • "Sinfe" instead of "Since"
+    - [GRAMMAR]:
+        • Missing articles in some places
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt shift from discussing proto-man to addressing Margot directly
+    - [STRUCTURE]:
+        • Lack of clear transitions between ideas
+    - [CLARITY]:
+        • Unclear expectations for Margot's journey and potential outcomes
+
+Section section_10 (Chars 34980–39068):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "hax" instead of "had"
+        • "qssaulting" instead of "assaulting"
+        • "pr" instead of "or"
+        • "opd" instead of "old"
+        • "lookkng" instead of "looking"
+        • "hwdn't" instead of "hadn't"
+    - [GRAMMAR]:
+        • missing articles and incorrect verb tenses in some sentences
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transition from philosophical thoughts to breakfast scene
+    - [CLARITY]:
+        • unclear motivations and actions of some characters
+    - [LOGIC]:
+        • some plot points, such as the Spacer Graveyard, feel convenient and unexplained
+
+Section section_11 (Chars 39069–42932):
+Scores:
+  - Fluency: 2.5
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • anytying
+        • justnwhat
+        • thoyghts
+        • reaxhed
+        • frombreading
+        • potbor
+        • Officdr
+        • Chisf
+        • worzt
+        • xrisply
+        • saic
+        • sair
+        • frkm
+        • morbing
+    - [GRAMMAR]:
+        • inconsistent verb tenses
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt shift from Ramsey and Margot's conversation to Security Officer's report
+    - [STRUCTURE]:
+        • lack of clear connection between different scenes
+    - [CLARITY]:
+        • unclear motivations of characters, especially Garr Symm
+
+Section section_12 (Chars 42932–46815):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "tobplanegarize" (likely typo)
+        • "hrap" (likely typo)
+        • "mosr" (likely typo)
+        • "capsjle" (likely typo)
+        • "perfectlycstill" (likely typo)
+    - [GRAMMAR]:
+        • Missing articles in some places
+    - [LEXICON]:
+        • Some words may be unfamiliar to non-technical readers
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition from conversation to Garr Symm's solo thoughts
+    - [STRUCTURE]:
+        • Sudden introduction of Vardin's character without clear connection to previous scene
+    - [CLARITY]:
+        • Some sentences are wordy or unclear
+
+Section section_13 (Chars 46816–51052):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "tue" instead of "the"
+        • "lekdinous" instead of "lewd"
+        • "dzsh" instead of "dash"
+        • "vover" instead of "cover"
+        • "thouxand-tonner" instead of "thousand-tonner"
+        • "wd" instead of "we'd"
+    - [GRAMMAR]:
+        • missing or incorrect articles in several places
+    - [SYNTAX]:
+        • some sentences are wordy or awkwardly phrased
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt shift from Margot's thoughts to the Irwadi technicians
+    - [TRANSITION]:
+        • lack of clear connection between some scenes
+    - [CLARITY]:
+        • some sentences or phrases are unclear or confusing
+
+Section section_14 (Chars 51053–55218):
+Scores:
+  - Fluency: 3.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "thwt" instead of "that"
+        • "becaude" instead of "because"
+        • "whh" instead of "why"
+        • "wqy" instead of "way"
+        • "subjectife" instead of "subjective"
+        • "timd" instead of "time"
+        • "exxept" instead of "except"
+        • "Cjind" instead of "Chind"
+    - [GRAMMAR]:
+        • Missing articles and incorrect verb tenses in some sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt shift in scene from the Enterprise to the Dog Star without clear connection
+    - [STRUCTURE]:
+        • Disjointed narrative flow due to lack of transitional phrases or sentences
+    - [CLARITY]:
+        • Unclear explanation of hyper-space concepts and their implications
+
+Section section_15 (Chars 55219–59173):
+Scores:
+  - Fluency: 2.5
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "underetend" instead of "understand"
+        • "yime" instead of "time"
+        • "comtrols" instead of "controls"
+        • "colkapsed" instead of "collapsed"
+        • "tbere" instead of "there"
+        • "ul" instead of "up"
+        • "dowj" instead of "down"
+        • "minutrs" instead of "minutes"
+        • "freivhter" instead of "freighter"
+        • "murku" instead of "murky"
+        • "abkut" instead of "about"
+        • "newbhe" is not present but "For the new" or similar is expected, instead "For the first timebhe" is written, likely "first time he"
+    - [GRAMMAR]:
+        • Missing articles in some places
+        • Some sentences are structured awkwardly
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition from the conversation about hyper-space to the action scene
+    - [STRUCTURE]:
+        • The narrative jumps abruptly from Ramsey's thoughts to the ship's movement
+    - [CLARITY]:
+        • Some parts of the dialogue are unclear or lack context
+    - [TRANSITION]:
+        • The shift from the scene on the ship to the last sentence with Garr Symm is abrupt
+
+Section section_16 (Chars 59174–63135):
+Scores:
+  - Fluency: 2.5
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "nemory" instead of "memory"
+        • "xll" instead of "twelve"
+        • "wrected" instead of "erected"
+        • "allcall" instead of "all"
+        • "ig" instead of "it"
+        • "exavt" instead of "exact"
+        • "thecDog" instead of "the Dog"
+        • "witgout" instead of "without"
+        • "Fahrenheig" instead of "Fahrenheit"
+        • "hxte" instead of "hate"
+        • "Ramseu" instead of "Ramsey"
+        • "shooj" instead of "shook"
+        • "thouthts" instead of "thoughts"
+        • "doggerel" used in an unclear context
+    - [GRAMMAR]:
+        • inconsistent verb tenses
+    - [SYNTAX]:
+        • awkward sentence structure in some places
+  Coherence Issues:
+    - [LOGIC]:
+        • unclear connection between some ideas
+    - [STRUCTURE]:
+        • abrupt shifts in narrative perspective
+    - [CLARITY]:
+        • some sentences are wordy or confusing
+    - [TRANSITION]:
+        • lack of smooth transitions between scenes
+
+Section section_17 (Chars 63136–67025):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "ciuld" instead of "could"
+        • "eyrs" instead of "eyes"
+        • "dight" instead of "go ahead"
+        • "lwss" instead of "less"
+        • "cloxed" instead of "locked"
+    - [GRAMMAR]:
+        • missing articles and incorrect verb tenses in some sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt shift in scene from Margot and Ramsey's conversation to the Irwadians' approach to the Enterprise
+    - [STRUCTURE]:
+        • unclear transition between the dialogue and the descriptive passages
+    - [CLARITY]:
+        • some sentences are wordy or unclear, making it difficult to follow the narrative
+
+Section section_18 (Chars 67026–71179):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Missing articles in some sentences
+    - [LEXICON]:
+        • Uncommon vocabulary (e.g., "timepess", "grayvmurk")
+    - [SPELLING]:
+        • Typos (e.g., "Ramdey" instead of "Ramsey", "yhermonuclear" instead of "thermonuclear")
+    - [SYNTAX]:
+        • Long, complex sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt introduction of new characters and plot elements
+    - [STRUCTURE]:
+        • Non-linear narrative with unclear transitions between visions and reality
+    - [CLARITY]:
+        • Unclear explanations of the matter-transmitter and its implications
+
+Section section_19 (Chars 71180–75023):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • "harded" instead of "harder"
+    - [SPELLING]:
+        • "vor" instead of "or"
+        • "eyds" instead of "eyes"
+        • "lan" instead of "man"
+        • "jt" instead of "it"
+        • "thenconviction" instead of "the conviction"
+        • "Webmerely" instead of "We merely"
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt shift in narrative when discussing the Irwadi's death
+    - [CLARITY]:
+        • unclear explanation of the time continuum and its effects
+    - [TRANSITION]:
+        • sudden introduction of Vardin's voice without clear connection to previous events
+
+Section section_20 (Chars 75024–77487):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Missing articles in some sentences
+    - [LEXICON]:
+        • Uncommon word "equarion" used without explanation
+    - [SYNTAX]:
+        • Some sentences have complex structures that may hinder readability
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition from Vardin's explanation to her disappearance
+    - [STRUCTURE]:
+        • The narrative jumps quickly from a dramatic revelation to a romantic conclusion
+    - [CLARITY]:
+        • Some plot points, such as the "equarion," are not fully explained
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

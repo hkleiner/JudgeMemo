@@ -1,0 +1,285 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    b) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The report is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–7935):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [SPELLING]:
+        • minor typos (e.g., "tl" instead of "to", "disfinguished" instead of "extinguished")
+    - [LEXICON]:
+        • occasional awkward word choice
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transition between Anthony Croft's backstory and the present scene
+    - [CLARITY]:
+        • some sentences are wordy or convoluted, hindering understanding
+
+Section section_02 (Chars 7935–16060):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing or incorrect articles
+    - [SPELLING]:
+        • typos such as "tuat" instead of "that", "ofvhers" instead of "of hers", "wjere" instead of "where", "thag" instead of "that"
+    - [SYNTAX]:
+        • some sentences are wordy or awkwardly phrased
+    - [LEXICON]:
+        • occasional use of outdated or uncommon vocabulary
+  Coherence Issues:
+    - [LOGIC]:
+        • some transitions between ideas or scenes feel abrupt
+    - [STRUCTURE]:
+        • the narrative jumps between different time periods and ideas
+    - [CLARITY]:
+        • a few sentences or phrases are unclear or open to interpretation
+
+Section section_03 (Chars 16060–23662):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "Viiliniat" instead of "Violinist"
+        • "sfrong" instead of "strong"
+        • "dajgerous" instead of "dangerous"
+        • "be ruinex" instead of "be ruined"
+        • "tuat" instead of "that"
+        • "Anyhony" instead of "Anthony"
+        • "pighter-clad" instead of "pitcher-clad" or correct term
+        • "Amxtis" instead of "Amati"
+        • "Guafnerius" instead of "Guadagnini"
+        • "hxrdly" instead of "hardly"
+        • "wherewithal" is correct but "dp" instead of "do"
+    - [GRAMMAR]:
+        • Missing or incorrect punctuation in several places
+    - [LEXICON]:
+        • "aaiting" instead of "awaiting"
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between the preface and the poem
+    - [STRUCTURE]:
+        • Disjointed narrative with multiple poem excerpts
+    - [CLARITY]:
+        • Unclear connection between Anthony's discovery and his future plans
+    - [TRANSITION]:
+        • Lack of smooth transition between paragraphs
+
+Section section_04 (Chars 23662–31890):
+Scores:
+  - Fluency: 3.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • numerous typos and spelling errors (e.g., "tpuch", "xfter", "rightnesz", "everyyhing", "thar", "ln", "ctoo", "aith", "cabined, cribbed, confined" is correctly spelled but "cabined" could be "confined" for better fluency)
+    - [GRAMMAR]:
+        • incorrect verb tenses and subject-verb agreement
+    - [LEXICON]:
+        • some words are used incorrectly or in inappropriate contexts
+  Coherence Issues:
+    - [LOGIC]:
+        • some sentences seem disconnected from the rest of the text
+    - [STRUCTURE]:
+        • the text jumps abruptly between different ideas and scenes
+    - [CLARITY]:
+        • some paragraphs are difficult to follow due to unclear or convoluted language
+
+Section section_05 (Chars 31890–39850):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • wgich, fascinatibg, obluged, choit, keepihg, skylark, yo, atma, nut, warble, weepers, avbroad, ij, crape, virtuous, Mis’, be’n, wa’n’t, Saco, aho, grudge, privilige, weepers
+    - [GRAMMAR]:
+        • sentence structure, verb tense consistency
+    - [LEXICON]:
+        • word choice, phrasing
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt shifts in narrative, unclear transitions
+    - [STRUCTURE]:
+        • non-chronological events, disconnected ideas
+    - [CLARITY]:
+        • ambiguous sentences, confusing segments
+
+Section section_06 (Chars 39850–47463):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • livkng instead of living
+        • xown instead of took
+        • sais instead of says
+        • oned instead of ones
+        • Indon't instead of I don't
+        • 'nother instead of another
+        • ekotion instead of emotion
+        • tekperament instead of temperament
+        • mysteriojs instead of mysterious
+        • gxtes instead of gates
+        • tye instead of the
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt shift in narrative focus
+    - [STRUCTURE]:
+        • lack of clear transitions between paragraphs
+    - [CLARITY]:
+        • some sentences are wordy and hard to follow
+
+Section section_07 (Chars 47463–55179):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "jight" instead of "night"
+        • "firemon" instead of "fire on"
+        • "uer" instead of "her"
+        • "Qvpoet" instead of "Quote"
+        • "ghe" instead of "the"
+        • "saidnLyddy" instead of "said Lyddy"
+        • "Lhddy" instead of "Lyddy"
+        • "ssy" instead of "say"
+        • "discigured" instead of "disfigured"
+        • "accisent" instead of "accident"
+    - [GRAMMAR]:
+        • inconsistent verb tenses
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between poem quotes and story
+    - [STRUCTURE]:
+        • lack of clear connection between Lyddy's thoughts and actions
+    - [CLARITY]:
+        • some sentences are wordy and hard to follow
+
+Section section_08 (Chars 55179–62796):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • numerous typos and spelling errors (e.g. "mkre", "nind", "tham", "lst", "exchse", "leasf", "yewterday", "hij")
+    - [GRAMMAR]:
+        • occasional grammatical errors and awkward phrasing
+    - [LEXICON]:
+        • some words are used incorrectly or in an outdated manner
+  Coherence Issues:
+    - [LOGIC]:
+        • some transitions between scenes or ideas feel abrupt
+    - [STRUCTURE]:
+        • the narrative jumps between different characters' thoughts and actions
+    - [CLARITY]:
+        • a few sentences are wordy or unclear
+
+Section section_09 (Chars 62796–70529):
+Scores:
+  - Fluency: 3.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "hs" instead of "he"
+        • "anx" instead of "and"
+        • "greenbthings" instead of "green things"
+        • "burden-beqring" instead of "burden-bearing"
+        • "sucb" instead of "such"
+        • "strdngth" instead of "strength"
+        • "hdr" instead of "her"
+        • "mind wasbbeyond" instead of "mind was beyond"
+        • "theclight" instead of "the light"
+        • "pouredmout" instead of "poured out"
+        • "Ther" instead of "Thee"
+        • "anothef" instead of "another"
+        • "bto" instead of "to"
+        • "jt" instead of "it"
+        • "andbto" instead of "and to"
+        • "wefe" instead of "were"
+        • "Znthony" instead of "Anthony"
+        • "crystap" instead of "crystal"
+        • "eprings" instead of "springs"
+        • "ajd" instead of "and"
+        • "darknesa" instead of "darkness"
+        • "Lyddu's" instead of "Lyddy's"
+        • "nrighbour" instead of "neighbour"
+    - [GRAMMAR]:
+        • Missing articles and incorrect verb tenses
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between Lyddy's prayer and the description of Davy's sickness
+    - [STRUCTURE]:
+        • Disconnected ideas between the scenes with Lyddy, Anthony, and Davy
+    - [CLARITY]:
+        • Unclear motivations and emotions of some characters
+
+Section section_10 (Chars 70529–77811):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [SPELLING]:
+        • multiple typos (e.g., "wn" instead of "an", "divinely tender passion" is correctly spelled but "wuich" is not)
+    - [LEXICON]:
+        • some words are used in an outdated or uncommon way (e.g., "awstensibly", "sweetmoffices")
+  Coherence Issues:
+    - [LOGIC]:
+        • some sentences are wordy and hard to follow
+    - [STRUCTURE]:
+        • abrupt transitions between scenes or ideas
+    - [CLARITY]:
+        • a few sentences are ambiguous or unclear
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

@@ -1,0 +1,162 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    b) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The report is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–8703):
+Section Summary: Sir Joshua Reynolds was a man born with a natural assurance of distinction, destined for success in his chosen field of painting. He was determined to succeed and, with the help of patrons like Commodore Keppel, was able to study and copy the works of great masters in Italy, which greatly influenced his technique. Reynolds' time in Italy, where he was impressed by artists like Michelangelo, Titian, and Rubens, had a profound impact on his art, and he became a skilled portrait painter upon his return to England. He went on to found the Royal Academy and became its first president, where he delivered annual discourses to students, offering guidance and advice on art. Despite facing some physical challenges, including deafness and facial scars, Reynolds enjoyed great success as a portrait painter and lived a long and fulfilling life.
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Minor punctuation errors
+    - [LEXICON]:
+        • Some archaic vocabulary
+    - [SYNTAX]:
+        • Complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transitions between ideas
+    - [STRUCTURE]:
+        • Lack of clear chronological order
+    - [CLARITY]:
+        • Some sentences are wordy and unclear
+
+Section section_02 (Chars 8704–17396):
+Section Summary: Sir Joshua Reynolds was a renowned portrait painter who enjoyed great success and fame, with many notable people seeking to be painted by him. Despite his achievements, he had his share of flaws, including snobbery, jealousy, and a touch of vulgarity, which he later refined through his associations with distinguished individuals. Reynolds played a significant role in the art world, contributing to the establishment of the Royal Academy and exhibiting his works at various institutions. He was also a member of the Dilettanti Society and had a wide circle of friends, including notable figures such as Dr. Johnson and Edmund Burke. Through his artistic talents and social connections, Reynolds solidified his position as one of the greatest British portrait painters of his time.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tenses
+    - [SYNTAX]:
+        • long, convoluted sentences
+    - [LEXICON]:
+        • some words are archaic or less common
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt jumps between topics
+    - [STRUCTURE]:
+        • lack of clear transitions between paragraphs
+    - [CLARITY]:
+        • some sentences are unclear or ambiguous
+
+Section section_03 (Chars 17397–26284):
+Section Summary: Sir Joshua Reynolds was a prominent painter who, despite being influenced by the pseudo-classicism of his time, left a glorious heritage to his country. His portraits, although not all of equal quality due to issues with color permanence, are characterized by a sane and optimistic note, capturing the best in his sitters. Reynolds' life was marked by success, dignity, and a love for the world's good things, with his knighthood in 1769 solidifying his social standing. As he grew older, he painted fewer portraits, but his Discourses on art remained influential, with new editions still being published and admired by modern artists. Despite some criticisms and personal challenges, including increasing deafness, Reynolds' legacy as a master painter has endured.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [LEXICON]:
+        • occasional use of archaic vocabulary
+    - [SYNTAX]:
+        • complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between ideas
+    - [STRUCTURE]:
+        • lack of clear chronological order
+    - [CLARITY]:
+        • ambiguous references to historical events
+
+Section section_04 (Chars 26284–34959):
+Section Summary: Sir Joshua Reynolds spent the next eight years of his life enjoying success and painting some of his best works, including portraits of notable figures such as General Oglethorpe and the Ladies Horatia, Laura, and Maria Waldegrave. He traveled to the Low Countries, where he was impressed by the art he saw, and received commissions from prominent clients, including Catherine, Empress of Russia. Reynolds' health began to decline in 1789, and he suffered a sudden loss of vision in one eye, which forced him to stop painting. He spent his final years preparing for his death, delivering his final address to the students of the Royal Academy in 1790, and eventually passing away in 1792 at the age of 68. Despite his passing, Reynolds' artwork continues to be admired and respected, and he is considered one of the greatest portrait painters of all time.
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [LEXICON]:
+        • occasional use of archaic vocabulary
+    - [SYNTAX]:
+        • complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between paragraphs
+    - [STRUCTURE]:
+        • lack of clear chronological order
+    - [CLARITY]:
+        • ambiguous references to historical events
+
+Section section_05 (Chars 34960–43700):
+Section Summary: Joshua Reynolds was a skilled artist with a critical gift, able to appreciate the beauties of a masterpiece while also recognizing its defects. He was influenced by various artists, including Rembrandt and Titian, and sought to unite their excellences in his own work. Reynolds' portraits of men, such as Admiral Keppel and Charles James Fox, are considered masterful, capturing their character and personality with simplicity and directness. In contrast, his portraits of women and children often lack a sense of humanity, instead emphasizing beauty and classical treatment. Overall, Reynolds' work is characterized by its technical skill, attention to detail, and ability to convey the essence of his subjects, particularly men of character.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • abrupt sentence transitions
+    - [SYNTAX]:
+        • complex sentence structures
+    - [LEXICON]:
+        • occasional use of archaic vocabulary
+  Coherence Issues:
+    - [LOGIC]:
+        • some paragraphs seem disconnected from the main topic
+    - [STRUCTURE]:
+        • lack of clear chronological order
+    - [CLARITY]:
+        • occasional ambiguity in sentence meaning
+
+Section section_06 (Chars 43701–44270):
+Section Summary: When evaluating Reynolds' work, it's understandable to focus on its literary aspects since the original colors have faded. Although the harmony of line remains, the loss of color is significant, as it would have been a key aspect of some of his paintings. Reynolds' draughtsmanship was not always excellent, but despite this, his reputation remains intact. His name and fame will continue to be a source of pride for British art. Overall, Reynolds' legacy will endure as an admired figure in the art world.
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor sentence structure issues
+    - [LEXICON]:
+        • slightly formal vocabulary
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition to the literary standpoint
+    - [CLARITY]:
+        • vague reference to "the harmony of colour"
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

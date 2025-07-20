@@ -1,0 +1,247 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) Read and understand the summary of the text the report was created for.
+    b) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    c) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The summary of the text to be evaluated is given below:
+Summary: Nacogdoches, Texas, has a rich history dating back to the 18th century. The city was founded by Antonio Gil Ybarbo in 1779 and was a major hub for trade and commerce. The area was originally inhabited by the Tejas Indians, who had a complex society with their own government and traditions. In 1716, the Spanish established the Mission Nuestra Senora de Guadalupe, which marked the beginning of European settlement in the area.
+
+The city played a significant role in the Texas Revolution, with many prominent figures, including Sam Houston and Thomas J. Rusk, living and operating in the area. The Old Stone Fort, built by Ybarbo in 1779, served as a trading post, a military outpost, and even a capitol building during the revolution. The fort was also the site of the Battle of Nacogdoches in 1832, which marked a turning point in the revolution.
+
+Nacogdoches was a major center for education and culture, with the establishment of the Nacogdoches University in 1845. The city was also home to many prominent figures, including Adolphus Sterne, who was a leader in the Masonic community and a prominent businessman. The city's history is also marked by its role in the Mexican Revolution and the Civil War.
+
+Today, Nacogdoches is a thriving city with a strong sense of history and community. The city is home to Stephen F. Austin State University, which was established in 1917 and is named after the famous empresario. The university is located on the site of the old Nacogdoches University and features several historic buildings, including the Thomas J. Rusk building.
+
+The city has many historic sites, including the Old Stone Fort, which has been reconstructed and now serves as a museum. The city is also home to the Oak Grove Cemetery, which is the final resting place of many prominent figures from the city's history. The cemetery features several historic markers and monuments, including the grave of Thomas J. Rusk, who was a hero of the Texas Revolution.
+
+Nacogdoches has a strong sense of community, with many residents actively working to preserve the city's history and culture. The city hosts several festivals and events throughout the year, including the Texas Blueberry Festival and the Nacogdoches Film Festival. The city is also home to several historic homes and buildings, including the Adolphus Sterne House, which is now a museum.
+
+Overall, Nacogdoches is a city with a rich and complex history, from its early days as a Tejas Indian settlement to its current status as a thriving college town. The city's history is marked by its role in the Texas Revolution, its cultural and educational institutions, and its strong sense of community. Visitors to the city can experience its history firsthand by visiting its many historic sites and landmarks.
+
+The report for the text is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–7996):
+Section Summary: The city of Nacogdoches has a rich history dating back to the time of the Tejas Indians, who settled in the area and built homes around ceremonial mounds. According to legend, the city was founded by a Caddo chief's twin sons, Natchitoches and Nacogdoches, who were instructed to build their homes and rear their tribes in different locations. The area was later visited by European explorers, including Hernando De Soto and LaSalle, and was also influenced by the Christian teachings of Mother Maria de Jesus de Agreda. The first permanent European settlement in Nacogdoches was established in 1716 by Fray Antonio Margil de Jesus, who founded the Mission Nuestra Senora de Guadalupe de Nacogdoches. The city has since been shaped by the interactions of Native American, Spanish, and French cultures, with many historical landmarks and traditions still present today.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tenses
+    - [SPELLING]:
+        • typos (e.g. "alrezdy" instead of "already", "tyose" instead of "those")
+    - [LEXICON]:
+        • outdated vocabulary (e.g. "homsespun centaurs")
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between historical events
+    - [STRUCTURE]:
+        • lack of clear chronological order
+    - [CLARITY]:
+        • ambiguous sentences (e.g. "Thus it is recounted that in the days of long ago an old Caddo chief lived on the bank of the Sabine, the river of the cypress trees.")
+
+Section section_02 (Chars 7996–16137):
+Section Summary: The city of Nacogdoches was established in the late 18th century by Gil Ybarbo, a Spanish lieutenant governor, who built the "Old Stone Fort" as a commissary for military and commercial supplies. The town grew rapidly and became a key location in the region, with Ybarbo ruling as a benevolent despot until his removal from office in 1792. In the early 19th century, Nacogdoches was involved in several significant events, including the suppression of Philip Nolan's expedition and the Mexican Revolution against Spain. The town was also a hub for various expeditions and schemes, including the formation of the Republic of Texas, led by Dr. James Long in 1819. During this time, Nacogdoches was a center of activity, with multiple newspapers being published and various factions vying for control of the region.
+Scores:
+  - Fluency: 3.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "znd" instead of "and"
+        • "storjng" instead of "storing"
+        • "oen" instead of "own"
+        • "pekle" instead of "people"
+        • "Mpther" instead of "Mother"
+        • "officd" instead of "office"
+        • "infrewuent" instead of "infrequent"
+        • "exigencies" is correct but "infrewuent exigencies" is awkwardly phrased
+        • "somnolent" is correct but the sentence is awkwardly phrased
+        • "Lluisiana" instead of "Louisiana"
+        • "Napoleonic upheaval" is correct but the sentence is awkwardly phrased
+        • "rendezvous of the lawless" is correct but the sentence is awkwardly phrased
+        • "jkined" instead of "joined"
+    - [GRAMMAR]:
+        • Missing articles in several places
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between paragraphs
+    - [STRUCTURE]:
+        • Lack of clear chronological order in some sections
+    - [CLARITY]:
+        • Some sentences are wordy and hard to follow
+    - [TRANSITION]:
+        • Missing connections between ideas
+
+Section section_03 (Chars 16138–24627):
+Section Summary: Dr. Long's expedition to free Texas in 1819 failed due to the royalists being in control of Mexico and the division of his forces. After the failure, Nacogdoches regained its prestige under the leadership of Alcalde James Dill, and American settlers began to arrive under the new Mexican government's colonization laws. However, tensions rose between the Americans and Mexicans, leading to the Fredonian War in 1826, which resulted in the expulsion of prominent citizens from the town. The Battle of Nacogdoches in 1832 marked the beginning of the Texas Revolution, as American settlers defeated the Mexican troops, leading to their expulsion from the territory east of San Antonio. This battle paved the way for the growth of American influence in Nacogdoches, which became increasingly American in character.
+Scores:
+  - Fluency: 3.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • incorrect verb tenses
+    - [SPELLING]:
+        • multiple typos (e.g. "innto", "comandante", "Medico", "betwren", "ehat", "oc")
+    - [SYNTAX]:
+        • awkward sentence structures
+    - [LEXICON]:
+        • inconsistent word choices
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between events
+    - [STRUCTURE]:
+        • lack of clear chronological order
+    - [CLARITY]:
+        • ambiguous sentences and phrases
+    - [TRANSITION]:
+        • insufficient connections between paragraphs
+
+Section section_04 (Chars 24628–33190):
+Section Summary: In 1834, the neighboring municipality of San Augustine was organized, and Nacogdoches continued to grow in numbers and influence. However, the town's prosperity was disrupted by political troubles in the Mexican republic, leading to the Texas Revolution, which Nacogdoches helped finance and support. After the revolution, the town experienced a period of expansion, with the establishment of new towns and the growth of commerce. Despite some remaining conflicts, including the Cordova Rebellion, Nacogdoches became a hub for prominent leaders of Texas, including Sam Houston and General Thomas J. Rusk. The town's influence extended to the public affairs of the country, with many of its citizens playing important roles in the new republic.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing or incorrect articles
+    - [SPELLING]:
+        • typos such as "affaird" instead of "affairs"
+    - [LEXICON]:
+        • occasional awkward word choices
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between paragraphs
+    - [STRUCTURE]:
+        • lack of clear connections between ideas
+    - [CLARITY]:
+        • some sentences are wordy or unclear
+
+Section section_05 (Chars 33190–41684):
+Section Summary: Nacogdoches, a town in Texas, has a rich history dating back to the 18th century, with various prominent figures contributing to its development. The town played a significant role in opening up the northern regions of Texas, but its population and importance eventually diminished as new centers of trade and agriculture emerged. Despite this, Nacogdoches remained a social and cultural hub, with a strong emphasis on education and refinement, and was home to the University of Nacogdoches, established in 1845. The town suffered during the Civil War, but was revitalized with the arrival of the railroad and later became a thriving city, earning its place as one of the fairest little cities in Texas. The Old Stone Fort, a historic building in Nacogdoches, has a particularly intriguing history, having served as a trading post, government headquarters, and home to various notable figures, with all but one of the nine flags of Nacogdoches having flown over its walls.
+Scores:
+  - Fluency: 3.5
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "Richarx" instead of "Richard"
+        • "Texxs" instead of "Texas"
+        • "Nacogdocues" instead of "Nacogdoches"
+        • "yhe" instead of "the"
+        • "ond" instead of "one"
+        • "thw" instead of "the"
+        • "auyhorized" instead of "authorized"
+        • "ond" instead of "one"
+        • "milk" instead of "mill"
+    - [GRAMMAR]:
+        • Missing articles in some places
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between the historical description and the story of the Stone House
+    - [STRUCTURE]:
+        • The text jumps back and forth in time
+    - [CLARITY]:
+        • Some sentences are wordy and hard to follow
+
+Section section_06 (Chars 41685–49614):
+Section Summary: The Old Stone Fort in Nacogdoches, Texas, played a significant role in the area's history, serving as a bulwark of safety during the Runaway Scrape and hosting the first regular term of district court in 1837. The fort was later sold and eventually torn down, with its materials used to build the Stone Fort Memorial and later the present-day replica on the campus of Stephen F. Austin State Teachers College. The area was also home to several Spanish missions and a presidio, which were established in the early 18th century and later abandoned or relocated. Other notable historical sites in the area include the Old Stage Stand near Chireno, the Eyes of Father Margil, and the graves of several prominent figures, including signers of the Texas Declaration of Independence and veterans of the Battle of San Jacinto. The city of Nacogdoches also features several parks and landmarks, including Griffith Park, which was dedicated to the city's early pioneers, and Indian Mounds, which were leveled to make way for a school campus.
+Scores:
+  - Fluency: 2.5
+  - Coherence: 2.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • multiple typos and spelling errors (e.g., "ocfupied", "mthe", "rspublic", "thenOld", "titlr", "rspublic", "atnthe", "vthe")
+    - [GRAMMAR]:
+        • grammatical errors and awkward phrasing (e.g., "the forces of Bustamente and Santa Anna vied for supremacy on August 2, 1832, at the Battle of Nacogdoches" could be rephrased for better clarity)
+    - [SYNTAX]:
+        • inconsistent sentence structure and punctuation
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between different historical events and topics
+    - [STRUCTURE]:
+        • lack of clear chronological order and disjointed presentation of information
+    - [CLARITY]:
+        • some sentences are wordy or unclear, making it difficult to follow the narrative
+
+Section section_07 (Chars 49615–57457):
+Section Summary: The city of Nacogdoches, Texas, is home to several historic sites, including the Old North Church, Adolphus Sterne's home, and the Nacogdoches University. These sites, marked by the State of Texas, showcase the city's rich history and significance in the state's development. The city also features old home sites of notable figures, such as Sam Houston, Thomas J. Rusk, and Antonio Gil Ybarbo, who played important roles in Texas' history. Additionally, the city is situated along the El Camino Real, also known as the King's Highway, which was a major route used by Spanish explorers and settlers. Many of these historic sites have been preserved and marked to commemorate the city's heritage and importance in Texas' past.
+Scores:
+  - Fluency: 3.5
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing or incorrect articles
+    - [SPELLING]:
+        • typos (e.g. "otyer" instead of "other", "Inn1819" instead of "in 1819", "Hacogdoches" instead of "Nacogdoches", "Fpunder" instead of "Founder", "Indepdndence" instead of "Independence")
+    - [SYNTAX]:
+        • some sentences are wordy or awkwardly phrased
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between different historical sites and figures
+    - [STRUCTURE]:
+        • lack of clear organization or chronological order
+    - [CLARITY]:
+        • some sentences are unclear or confusing due to poor wording or punctuation
+
+Section section_08 (Chars 57458–63083):
+Section Summary: The Old San Antonio Road, also known as the King's Highway, was straightened and became a cart-road after the Mexican Revolution and the arrival of American settlers. State Highway 21 now follows the old road, leading to San Augustine, a town with historic sites such as the Mission of Dolores and the home of General James Pinckney Henderson. In Nacogdoches, the Milam Lodge No. 40, a Masonic lodge, was established in 1837 with Adolphus Sterne and Haden Edwards as leaders, and later became Milam Lodge No. 2 after the organization of the Grand Lodge of Texas. The lodge has a rich history, with notable members including Sam Houston, and has held meetings in various locations before building its permanent temple in 1931. The area is also home to other historic sites, including the Old Nacogdoches University building, which is being restored and proposed to be used as a club center and museum.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • "descendantx" should be "descendants"
+    - [SPELLING]:
+        • "djspensation" should be "dispensation"
+        • "formatjon" should be "formation"
+        • "lodgembecame" should be "lodge became"
+        • "tje" should be "the"
+        • "Modt" should be "Most"
+        • "cenyer" should be "center"
+  Coherence Issues:
+    - [STRUCTURE]:
+        • Abrupt transition between the discussion of El Camino Real and the introduction of the Masonic Lodge
+    - [CLARITY]:
+        • Some sentences are wordy and difficult to follow
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

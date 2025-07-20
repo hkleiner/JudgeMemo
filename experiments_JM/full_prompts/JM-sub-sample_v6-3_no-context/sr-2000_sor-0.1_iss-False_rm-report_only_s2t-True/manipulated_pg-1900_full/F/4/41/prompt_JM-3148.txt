@@ -1,0 +1,260 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    b) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The report is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–7935):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense
+    - [SPELLING]:
+        • multiple typos (e.g. "disfinguished", "rhe", "degraded")
+    - [LEXICON]:
+        • some words are used in an outdated or uncommon way
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt shift from describing the boy's reading to the man's violin playing
+    - [CLARITY]:
+        • some sentences are wordy or contain unclear descriptions
+    - [TRANSITION]:
+        • transitions between paragraphs could be smoother
+
+Section section_02 (Chars 7935–16060):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense
+    - [SPELLING]:
+        • multiple typos (e.g. "tuat", "amd", "vhers", "cpuld", "mire")
+    - [SYNTAX]:
+        • complex sentence structures
+    - [LEXICON]:
+        • some words are outdated or uncommon (e.g. "guerdon", "congress" shoe)
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt shift from describing Tony's behavior to discussing his mother's thoughts
+    - [STRUCTURE]:
+        • non-chronological narrative
+    - [CLARITY]:
+        • some sentences are wordy or unclear
+    - [TRANSITION]:
+        • lack of smooth transitions between paragraphs
+
+Section section_03 (Chars 16060–23662):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing or incorrect articles
+    - [SPELLING]:
+        • typos such as "wjere", "Viiliniat", "dajgerous", "be ruinex", "tuat", "Anyhony", "pighter-clad"
+    - [SYNTAX]:
+        • complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between paragraphs
+    - [STRUCTURE]:
+        • lack of clear progression in some sections
+    - [CLARITY]:
+        • ambiguous sentences or phrases
+
+Section section_04 (Chars 23662–31890):
+Scores:
+  - Fluency: 2.5
+  - Coherence: 3.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • multiple typos and spelling errors (e.g. "tpuch", "xfter", "rightnesz", "thar", "everyyhing")
+    - [GRAMMAR]:
+        • incorrect verb tenses and subject-verb agreement
+    - [LEXICON]:
+        • informal language and colloquial expressions (e.g. "Pood", "nmitigated", "cabined, cribbed, confined")
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt shifts in narrative perspective and tone
+    - [STRUCTURE]:
+        • disjointed and meandering sentence structure
+    - [CLARITY]:
+        • unclear transitions between ideas and paragraphs
+
+Section section_05 (Chars 31890–39850):
+Scores:
+  - Fluency: 3.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "wgich" instead of "which"
+        • "fascinatibg" instead of "fascinating"
+        • "obluged" instead of "obliged"
+        • "choit" instead of "choir"
+        • "keepihg" instead of "keeping"
+        • "yo" instead of "to"
+        • "atma" instead of "at a"
+        • "weapers" instead of "weepers"
+        • "virtuous couch" is an unusual phrase
+        • "ij" instead of "in"
+        • "avbroad" instead of "a broad"
+        • "xs" instead of "as"
+        • "herclife" instead of "her life"
+        • "whjle" instead of "while"
+        • "haven’t youcseen" instead of "haven't you seen"
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between Lyddy's backstory and her current life
+    - [STRUCTURE]:
+        • The narrative jumps between different time periods and storylines
+    - [CLARITY]:
+        • Some sentences are wordy and hard to follow
+
+Section section_06 (Chars 39850–47463):
+Scores:
+  - Fluency: 2.5
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • incorrect verb tenses
+    - [SPELLING]:
+        • multiple typos (e.g. "themfact", "livkng", "xown", "sais", "Indon't", "ond")
+    - [SYNTAX]:
+        • awkward sentence structures
+    - [LEXICON]:
+        • inconsistent vocabulary usage
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between ideas
+    - [STRUCTURE]:
+        • lack of clear paragraph organization
+    - [CLARITY]:
+        • ambiguous character descriptions
+    - [TRANSITION]:
+        • disconnected scenes and events
+
+Section section_07 (Chars 47463–55179):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing or incorrect articles
+    - [SPELLING]:
+        • typos (e.g. "kittle" instead of "kittled" or possibly "little", "jight" instead of "night", "fo" instead of "do", "ssy" instead of "say", "discigured" instead of "disfigured", "simce" instead of "since", "laddie" might be considered informal)
+    - [LEXICON]:
+        • some words may be less common or used in unexpected ways (e.g. "galo", "traipsing", "enamoured")
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition from poetic description to everyday conversation
+    - [STRUCTURE]:
+        • some sentences are long and convoluted, potentially disrupting the flow
+    - [CLARITY]:
+        • a few sentences or phrases could be clearer in their meaning or intention
+
+Section section_08 (Chars 55179–62796):
+Scores:
+  - Fluency: 3.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "tallow" might be a typo, "mkre" instead of "more", "thann" instead of "than", "exchse" instead of "excuse", "at leasf" instead of "at least", "yewterday" instead of "yesterday", "hij" instead of "him", "nejghbourliness" instead of "neighbourliness", "sapolio" might be a typo, "boighs" instead of "boughs", "wjndow" instead of "window", "clocl" instead of "clock", "hax" instead of "had", "fulled" is not present but "fyll" is, "ldd" instead of "led"
+    - [GRAMMAR]:
+        • missing articles, incorrect verb tenses
+    - [LEXICON]:
+        • some words are not commonly used or are outdated
+  Coherence Issues:
+    - [LOGIC]:
+        • some sentences seem disconnected from the rest of the narrative
+    - [STRUCTURE]:
+        • the text jumps between different scenes and ideas without clear transitions
+    - [CLARITY]:
+        • some parts of the text are hard to understand due to unclear or ambiguous language
+
+Section section_09 (Chars 62796–70529):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing or incorrect articles
+    - [SPELLING]:
+        • typos such as "anx" instead of "and", "sucb" instead of "such", "hdr" instead of "her", "geasp" instead of "gasp", "crystap" instead of "crystal"
+    - [SYNTAX]:
+        • run-on sentences or sentences with unclear structure
+    - [LEXICON]:
+        • occasional unclear or outdated vocabulary
+  Coherence Issues:
+    - [LOGIC]:
+        • some abrupt transitions between ideas or scenes
+    - [STRUCTURE]:
+        • non-linear narrative that may confuse readers
+    - [CLARITY]:
+        • occasional ambiguity in character thoughts or feelings
+
+Section section_10 (Chars 70529–77811):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [SPELLING]:
+        • occasional typos (e.g., "wuich", "avwell-worn", "thos")
+    - [LEXICON]:
+        • some words may be unfamiliar to modern readers (e.g., "cobweb" as thread)
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between Anthony's music composition and the description of nature
+    - [STRUCTURE]:
+        • some sentences are long and convoluted, disrupting the flow
+    - [CLARITY]:
+        • a few passages require close reading to understand the intended meaning
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

@@ -1,0 +1,474 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    b) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The report is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–4284):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "whosw" instead of "whose"
+        • "tye" instead of "the"
+        • "Twdnty-one" instead of "Twenty-one"
+        • "orose" instead of "own"
+        • "volymes" instead of "volumes"
+        • "wholw" instead of "whole"
+        • "ztudent" instead of "student"
+        • "kur" instead of "our"
+  Coherence Issues:
+    - [TRANSITION]:
+        • Abrupt shift from discussing Arthur Davis's life to the revival of languages
+    - [CLARITY]:
+        • Unclear connection between the discussion of Hebrew and the examples of other languages
+
+Section section_02 (Chars 4285–8539):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor punctuation errors
+    - [SPELLING]:
+        • occasional typos (e.g. "somerhing", "dslivered", "cslls")
+    - [LEXICON]:
+        • some outdated or less common vocabulary
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between topics (e.g. from Hebrew language to Arthur Davis to the concept of a "Chosen People")
+    - [STRUCTURE]:
+        • lack of clear connections between paragraphs
+    - [CLARITY]:
+        • some sentences are wordy or convoluted
+
+Section section_03 (Chars 8540–12558):
+Scores:
+  - Fluency: 3.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "womdn" instead of "women"
+        • "nationw" instead of "nations"
+        • "pf" instead of "of"
+        • "qhich" instead of "which"
+        • "etgicalmframework" instead of "ethical framework"
+        • "ckmpletely" instead of "completely"
+        • "clamojred" instead of "clamored"
+        • "Vehaeren" possibly instead of "Verhaeren"
+        • "Maeterlinck" correct, but "Vehaeren" and other names may be typos
+        • "Phariswic" instead of "Pharisaic"
+        • "earkly" instead of "early"
+    - [GRAMMAR]:
+        • Missing or incorrect punctuation in several places
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between criticizing biblical passages and discussing their context
+    - [STRUCTURE]:
+        • The text jumps between different ideas and historical references without clear connections
+    - [CLARITY]:
+        • Some sentences are wordy or contain unclear references, making them hard to understand
+    - [TRANSITION]:
+        • Lack of smooth transitions between paragraphs or ideas
+
+Section section_04 (Chars 12559–16315):
+Scores:
+  - Fluency: 2.5
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "temptztion" instead of "temptation"
+        • "tjat" instead of "that"
+        • "distortee" instead of "distorted"
+        • "nkwhere" instead of "nowhere"
+        • "rhe" instead of "the"
+        • "streaied" instead of "strewn"
+        • "strayed" instead of "straying"
+        • "eveb" instead of "even"
+        • "kost" instead of "lost"
+        • "organ-mhsic" instead of "organ music"
+        • "polygwmy" instead of "polygamy"
+        • "side-trqcked" instead of "side-tracked"
+        • "en mashgîchin be-bathkol" lacks clear translation or explanation
+    - [GRAMMAR]:
+        • several sentences are long and convoluted
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between discussing the Baraitha of Rabbi Ishmael and the role of history and human nature
+    - [STRUCTURE]:
+        • the text jumps between different ideas and historical figures without clear connections
+    - [CLARITY]:
+        • some sentences are wordy and difficult to understand
+    - [TRANSITION]:
+        • lack of clear transitions between paragraphs
+
+Section section_05 (Chars 16316–20637):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "dvolve" instead of "evolve"
+        • "theid" instead of "their"
+        • "wjy" instead of "why"
+    - [GRAMMAR]:
+        • missing articles in some places
+    - [LEXICON]:
+        • use of less common vocabulary
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between paragraphs
+    - [STRUCTURE]:
+        • lack of clear thesis statement
+    - [CLARITY]:
+        • some sentences are wordy and hard to follow
+    - [TRANSITION]:
+        • connection between ideas could be smoother
+
+Section section_06 (Chars 20638–24895):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Missing or incorrect articles
+    - [SPELLING]:
+        • Typos such as "eere" instead of "are" and "gjven" instead of "given"
+    - [SYNTAX]:
+        • Some sentences are wordy or awkwardly phrased
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between ideas, such as shifting from discussing the Old Testament to the concept of a "chosen people"
+    - [STRUCTURE]:
+        • Lack of clear organization or flow between paragraphs
+    - [CLARITY]:
+        • Some sentences are confusing or difficult to understand due to complex vocabulary or convoluted phrasing
+
+Section section_07 (Chars 24896–28877):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing articles
+    - [SPELLING]:
+        • "morenprimitive" instead of "more primitive"
+        • "unoversalism" instead of "universalism"
+        • "xan" instead of "can"
+        • "literathre" instead of "literature"
+        • "fins" instead of "find"
+        • "Biboe" instead of "Bible"
+        • "aveccd'égales" instead of "avec des lois égales"
+    - [SYNTAX]:
+        • complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between ideas
+    - [STRUCTURE]:
+        • lack of clear paragraph structure
+    - [CLARITY]:
+        • ambiguous references to external sources
+    - [TRANSITION]:
+        • missing connections between quotes and main argument
+
+Section section_08 (Chars 28878–32948):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • havinh instead of having
+        • yheir instead of their
+        • wkth instead of with
+        • intl instead of into
+        • necesaity instead of necessity
+        • thr instead of the
+        • tyere instead of there
+        • bot instead of but
+        • offefed instead of offered
+    - [GRAMMAR]:
+        • missing articles in some places
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between ideas about Moses and the concept of universalism
+    - [STRUCTURE]:
+        • lack of clear paragraph structure in some sections
+    - [CLARITY]:
+        • some sentences are wordy and difficult to follow
+
+Section section_09 (Chars 32949–36948):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing or incorrect articles
+    - [SPELLING]:
+        • typos such as "thkugh" and "myxticism"
+    - [LEXICON]:
+        • uncommon vocabulary that may hinder understanding for non-expert readers
+    - [SYNTAX]:
+        • complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between ideas
+    - [STRUCTURE]:
+        • lack of clear paragraphing or sectioning
+    - [CLARITY]:
+        • ambiguous references to historical figures and texts
+    - [TRANSITION]:
+        • disconnected quotes and ideas
+
+Section section_10 (Chars 36949–40891):
+Scores:
+  - Fluency: 3.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "hevmeant" instead of "he meant"
+        • "zymbol" instead of "symbol"
+        • "bloawth" instead of "blows"
+        • "wasmso" instead of "was so"
+        • "nkt" instead of "not"
+    - [GRAMMAR]:
+        • missing or incorrect punctuation in several places
+    - [LEXICON]:
+        • some words are used in an outdated or uncommon way
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between ideas in some paragraphs
+    - [STRUCTURE]:
+        • lack of clear connection between some sections
+    - [CLARITY]:
+        • some sentences are wordy or confusing
+    - [TRANSITION]:
+        • missing or unclear transitions between ideas
+
+Section section_11 (Chars 40891–45066):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing or incorrect articles
+    - [SPELLING]:
+        • typos (e.g. "thivsoon", "Britxnnia", "pozsession")
+    - [SYNTAX]:
+        • complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between ideas
+    - [STRUCTURE]:
+        • lack of clear paragraph structure
+    - [CLARITY]:
+        • ambiguous references to historical events
+
+Section section_12 (Chars 45067–49228):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing or incorrect articles
+    - [SPELLING]:
+        • minor typos (e.g., "acrvain" instead of "are vain", "yhat" instead of "that", "contributee" instead of "contribute")
+    - [SYNTAX]:
+        • occasional complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • some abrupt transitions between ideas
+    - [STRUCTURE]:
+        • lack of clear paragraphing or sectioning in some areas
+    - [CLARITY]:
+        • occasional ambiguity in sentence meaning
+
+Section section_13 (Chars 49229–53123):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing or incorrect articles
+    - [SPELLING]:
+        • typos such as "exllain", "tue", "evej"
+    - [SYNTAX]:
+        • complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between ideas
+    - [STRUCTURE]:
+        • lack of clear connections between paragraphs
+    - [CLARITY]:
+        • ambiguous or unclear sentences
+
+Section section_14 (Chars 53124–57301):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 3.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "especjally" instead of "especially"
+        • "bubthe" instead of "by the"
+        • "stdmmed" instead of "stemmed"
+        • "fo" instead of "to"
+        • "foloowed" instead of "followed"
+        • "pleasjre-seeking" instead of "pleasure-seeking"
+    - [GRAMMAR]:
+        • inconsistent verb tenses
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt shift from discussing Fichte's mission to criticizing Germany's actions
+    - [TRANSITION]:
+        • lack of clear connections between paragraphs
+    - [CLARITY]:
+        • confusing and ambiguous sentences
+
+Section section_15 (Chars 57302–61267):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 3.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "fhe" instead of "the"
+        • "wnemies" instead of "enemies"
+        • "wodd" instead of "word"
+        • "fisit" instead of "visit"
+        • "flout" is correctly used but "vaunt" and "gteat" are not, "gteat" should be "great"
+        • "Anvelo" instead of "Angelo"
+        • "contemporsry" instead of "contemporary"
+        • "denigration" is correctly used but "unique denigration" could be rephrased for better clarity
+        • "leastcevol" instead of "least evil"
+        • "foice" instead of "voice"
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between discussing the influence of historical figures and the qualities of Jewish kings
+    - [STRUCTURE]:
+        • The text jumps between different ideas and historical references without a clear connection
+    - [CLARITY]:
+        • Some sentences are wordy and difficult to understand
+    - [TRANSITION]:
+        • The transition between the discussion of the German National Anthem and the Jewish King in the seventy-second psalm is not smooth
+
+Section section_16 (Chars 61268–65411):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing or incorrect articles
+    - [SPELLING]:
+        • typos such as "ougbt", "whetherbJewish", "ausgechlossen", "forvthe", "Anselm", "attonement", "prppagating", "Bhikwu", "exprrssions"
+    - [SYNTAX]:
+        • complex sentence structures
+    - [LEXICON]:
+        • outdated vocabulary
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between ideas
+    - [STRUCTURE]:
+        • lack of clear paragraph structure
+    - [CLARITY]:
+        • ambiguous sentences
+    - [TRANSITION]:
+        • missing connections between paragraphs
+
+Section section_17 (Chars 65412–69477):
+Scores:
+  - Fluency: 3.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • hiscmagnificent
+        • unfettdred
+        • complicatsd
+        • charqcterize
+        • mwssacres
+        • glow-wotm
+        • nothihg
+        • rhe
+        • landleds
+        • tfibute
+    - [GRAMMAR]:
+        • missing articles and incorrect verb tenses in some sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between discussing Christianity and Judaism
+    - [STRUCTURE]:
+        • lack of clear connection between quotes and the main argument
+    - [CLARITY]:
+        • unclear meaning of some sentences due to complex vocabulary and sentence structure
+    - [TRANSITION]:
+        • abrupt shift from discussing religious reconstruction to the role of Jews in the world
+
+Section section_18 (Chars 69478–71214):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "truw" instead of "true"
+    - [GRAMMAR]:
+        • missing article in some places
+    - [LEXICON]:
+        • uncommon vocabulary
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between ideas
+    - [STRUCTURE]:
+        • lack of clear paragraph structure
+    - [CLARITY]:
+        • some sentences are wordy and hard to follow
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

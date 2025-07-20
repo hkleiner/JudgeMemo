@@ -1,0 +1,96 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) Read and understand the summary of the text the report was created for.
+    b) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    c) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The summary of the text to be evaluated is given below:
+Summary: The story begins with Debby Mason, a 14-year-old girl, living with her father in a log house in Plymouth. Her father is a drunkard, and the town has had enough of his behavior. A woman, Mrs. Lane, arrives to take Debby away, as the town has decided to bind her out to Mrs. Lane for five years. Debby's father is ordered to leave the town, and he joins a group of men headed to Boston to fight in the Revolution.
+
+Debby is devastated and begs her father to take her with him, but he refuses, saying he wants to be a man again and make a better life for her. Debby is forced to go with Mrs. Lane, who tries to teach her to be a lady and live a respectable life. However, Debby is miserable and longs for her father and her old life. She remembers her mother, who died five years ago, and the stories she used to tell her.
+
+Debby's father had promised to tell her more about her mother's family, but he never did. Debby is now forced to live with Mrs. Lane, who is strict and cruel. Debby is not allowed to see her friend Jack Martin, and she is punished for disobedience. Despite the hardships, Debby remembers her mother's words and tries to be strong.
+
+As the days pass, Debby becomes more and more rebellious. She thinks about her father and wonders what he is doing. She hears rumors of battles at Lexington and Bunker Hill and worries that her father might be dead. Debby hates the King and wishes she could fight against him. She is trapped in her room, waiting for Mrs. Lane to come and punish her again.
+
+Debby's thoughts are filled with anger and resentment towards Mrs. Lane and the town that took her father away. She longs for freedom and adventure, and she dreams of joining her father in the fight against the King. As the evening draws to a close, Debby hears Mrs. Lane's voice leading the evening devotions, and she knows that she will soon face punishment again. Debby is determined to take matters into her own hands and make a change in her life.
+
+In the second chapter, Debby is confronted by Mrs. Lane, who accuses her of being evil-hearted and shameless. Debby is defiant and refuses to obey Mrs. Lane's rules. She is punished and sent to her room, where she thinks about her mother and her father. Debby realizes that she has a choice to make: she can continue to live a life of misery with Mrs. Lane, or she can take a chance and try to find her father and join the fight for freedom.
+
+Debby's heart is filled with a desire for adventure and a sense of purpose. She knows that she will have to be brave and strong if she wants to survive and find her father. As she waits for Mrs. Lane to come and punish her, Debby makes a decision that will change her life forever. She will take her own way and forge her own path, no matter what the cost. With a newfound sense of determination, Debby prepares to face whatever challenges come her way.
+
+The report for the text is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–7793):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [SYNTAX]:
+        • some sentences are overly long and convoluted
+    - [LEXICON]:
+        • occasional use of archaic vocabulary
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between Debby's memories and her current situation
+    - [STRUCTURE]:
+        • non-linear narrative can be confusing at times
+    - [CLARITY]:
+        • some scenes feel disconnected from the rest of the story
+
+Section section_02 (Chars 7793–11759):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [SYNTAX]:
+        • awkward sentence structure in some places
+    - [LEXICON]:
+        • occasional unclear word choice
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between Debby's thoughts and the description of the environment
+    - [STRUCTURE]:
+        • some sentences seem disconnected from the rest of the narrative
+    - [CLARITY]:
+        • unclear motivations behind some characters' actions
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

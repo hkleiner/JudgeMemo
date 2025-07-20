@@ -1,0 +1,94 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) Read and understand the summary of the text the report was created for.
+    b) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    c) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The summary of the text to be evaluated is given below:
+Summary: The introduction to Will Bradley's book highlights his significant impact on American graphic arts. Bradley's work brought a fresh and vibrant style to the field, which was previously stagnant. He was a pioneer in introducing modern art to the American public, making it accessible to a wider audience. Bradley's early work showed derivative traces, but he soon developed his unique style, inspired by American colonial typography.
+
+Bradley's career spanned several decades, and he worked on various projects, including magazines, newspapers, and advertising. He was a democratic and ambitious individual who wanted to reach a large audience, rather than just a limited group of collectors. Bradley's work has been absorbed into American culture, and many young designers are unaware of the debt they owe to him.
+
+The chapter "The Boy Printer of Ishpeming" tells the story of Bradley's childhood. He was born in 1868 and grew up in Lynn, Massachusetts. Bradley's father was a cartoonist, and he encouraged Will's interest in art. However, his father's illness and eventual death led to the family's financial struggles. Bradley's mother worked hard to support him, and he was eventually sent to live with his aunt and uncle in Northern Michigan.
+
+In Ishpeming, Bradley attended school and developed an interest in printing. He worked as a printer's devil at the local newspaper, the Iron Agitator, and learned the trade. Bradley's wages were initially three dollars a week, but he eventually earned more as he took on more responsibilities. He worked hard, often in challenging conditions, and learned to operate the press and perform various tasks.
+
+As Bradley grew older, he became more skilled and confident in his work. He was eventually offered a position at a rival newspaper, the Peninsula Record, but chose to stay with the Iron Agitator. Bradley's story is one of hard work, determination, and a passion for printing and design. His experiences shaped him into the talented and innovative designer he became, leaving a lasting impact on American graphic arts. Bradley's legacy continues to inspire new generations of designers, and his work remains an important part of American cultural heritage.
+
+The report for the text is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–8374):
+Section Summary: The introduction to Will Bradley's chap book highlights his significant impact on American graphic arts, bringing a fresh and modern style to a field that was previously stagnant. Bradley's work was influenced by European artists, but he developed a unique and indigenous American style that was bold, free, and exuberant. The chapter "The Boy Printer of Ishpeming" tells the story of Bradley's childhood, growing up in Massachusetts and later moving to Northern Michigan with his mother. Bradley's early interest in art and printing was encouraged by his father, who was a cartoonist, and he spent much of his childhood drawing and experimenting with printing presses. Bradley's determination to become an artist was evident from a young age, and he eventually found success in his career, paving the way for future generations of graphic artists.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense
+    - [SYNTAX]:
+        • run-on sentences
+    - [LEXICON]:
+        • occasional unclear word choice
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between chapters
+    - [STRUCTURE]:
+        • lack of clear connection between ideas
+    - [CLARITY]:
+        • some sentences are wordy or confusing
+
+Section section_02 (Chars 8375–12036):
+Section Summary: The narrator, Willie, is dismissed from school for not having the correct answer to an arithmetic problem and instead goes to work at the Iron Agitator newspaper office to pursue his dream of becoming an artist. He starts by washing the press and learning to feed it, earning a wage of three dollars a week. As he gains experience, his wages increase, and he becomes responsible for presswork, setting jobs, and making up the paper. The narrator faces challenges, including frequent power failures and harsh winter conditions, but continues to learn and grow in his role. Eventually, he becomes the acknowledged job printer and foreman, earning a significant increase in wages by the time he is 15 years old.
+Scores:
+  - Fluency: 3.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Inconsistent verb tense usage
+    - [SYNTAX]:
+        • Run-on sentences and lack of punctuation
+    - [LEXICON]:
+        • Informal language and colloquial expressions
+  Coherence Issues:
+    - [STRUCTURE]:
+        • Abrupt transitions between paragraphs
+    - [CLARITY]:
+        • Unclear connections between ideas
+    - [LOGIC]:
+        • Disjointed narrative flow
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

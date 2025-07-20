@@ -1,0 +1,198 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) Read and understand the summary of the text the report was created for.
+    b) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    c) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The summary of the text to be evaluated is given below:
+Summary: Rosa Bonheur was a young painter born in 1822 to a family of artists. Her father, Raymond Bonheur, was a painter who taught drawing lessons to support his family. Rosa's mother, Sophie Marquis, was a musician who gave lessons to make ends meet. The family struggled financially, and Rosa's father eventually moved to Paris to find better opportunities. Rosa was a tomboy who loved animals and the outdoors, and she spent much of her childhood playing in the streets and fields around her home.
+
+As a child, Rosa was fascinated by art and spent hours watching her father paint. She began drawing and painting at a young age and quickly showed a talent for it. Her father encouraged her to develop her skills, and she soon became his apprentice. Rosa's early work was influenced by her father's style, but she quickly developed her own unique approach to art.
+
+In 1841, Rosa submitted two paintings to the Salon, a prestigious art exhibition in Paris. Both paintings were accepted, and she became a regular exhibitor at the Salon. Her paintings were known for their realistic depictions of animals and rural life, and she quickly gained a reputation as one of the leading animal painters of her time.
+
+Rosa's success at the Salon led to commissions and sales, and she was able to support herself and her family through her art. She continued to paint and exhibit throughout her life, and her work was widely admired and respected. In 1855, she was awarded the grand medal of honor at the Universal Exposition in Paris.
+
+Rosa was also a pioneer for women's rights and education. She believed that women should have the same opportunities as men to pursue their passions and develop their talents. She was a strong advocate for women's education and was involved in several organizations that promoted women's rights.
+
+In her personal life, Rosa was known for her simplicity and humility. She lived a quiet life in the countryside, surrounded by animals and nature. She never married and dedicated her life to her art and her family. Rosa's relationship with her friend and companion, Nathalie Micas, was particularly important to her. The two women lived together for many years, and Nathalie was Rosa's closest confidante and supporter.
+
+Rosa's later years were marked by personal tragedy, including the loss of her beloved friend Nathalie. However, she continued to paint and exhibit, and her work remained popular and highly regarded. In 1899, Rosa died at the age of 77, leaving behind a legacy as one of the greatest animal painters of all time. Her funeral was attended by many prominent figures from the art world, and she was buried in the Père-Lachaise cemetery in Paris.
+
+Throughout her life, Rosa Bonheur remained true to her passion for art and her commitment to her values. She was a trailblazer for women in the art world and paved the way for future generations of female artists. Her legacy continues to inspire and delight art lovers around the world. Rosa's story is a testament to the power of hard work, dedication, and passion, and her art remains a beloved and enduring part of our cultural heritage.
+
+The report for the text is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–8524):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [SYNTAX]:
+        • complex sentence structures
+    - [LEXICON]:
+        • occasional archaic vocabulary
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt chapter transitions
+    - [CLARITY]:
+        • some sentences are wordy or unclear
+    - [LOGIC]:
+        • occasional lack of chronological order
+
+Section section_02 (Chars 8525–16962):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor punctuation errors
+    - [LEXICON]:
+        • occasional word choice issues
+    - [SYNTAX]:
+        • few sentence structure complexities
+  Coherence Issues:
+    - [LOGIC]:
+        • slight jumps in narrative timeline
+    - [STRUCTURE]:
+        • minor inconsistencies in paragraph organization
+    - [CLARITY]:
+        • occasional ambiguity in sentence meaning
+
+Section section_03 (Chars 16963–25360):
+Scores:
+  - Fluency: 3.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • incomplete sentences
+    - [SPELLING]:
+        • unclear word choices
+    - [SYNTAX]:
+        • awkward phrasing
+    - [LEXICON]:
+        • inconsistent vocabulary
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions
+    - [STRUCTURE]:
+        • disjointed paragraphs
+    - [CLARITY]:
+        • ambiguous sentences
+    - [TRANSITION]:
+        • lack of connecting ideas
+
+Section section_04 (Chars 25361–33640):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Inconsistent verb tense usage
+    - [SYNTAX]:
+        • Long, convoluted sentences
+    - [LEXICON]:
+        • Some words may be unfamiliar to non-native speakers
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between paragraphs
+    - [STRUCTURE]:
+        • Lack of clear chronological order
+    - [CLARITY]:
+        • Some sentences are wordy and difficult to follow
+
+Section section_05 (Chars 33641–42101):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Inconsistent verb tense usage
+    - [SYNTAX]:
+        • Awkward sentence structure in some passages
+    - [LEXICON]:
+        • Overly complex vocabulary in certain sections
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between some paragraphs
+    - [STRUCTURE]:
+        • Lack of clear chronological order in certain sections
+    - [CLARITY]:
+        • Some sentences are wordy and difficult to understand
+
+Section section_06 (Chars 42102–50632):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • incomplete sentences
+    - [SYNTAX]:
+        • awkward phrasing
+    - [LEXICON]:
+        • unclear word choices
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt shifts in topic
+    - [STRUCTURE]:
+        • disjointed narrative flow
+    - [CLARITY]:
+        • ambiguous transitions
+
+Section section_07 (Chars 50633–51856):
+Scores:
+  - Fluency: 5.0
+  - Coherence: 4.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • None notable
+    - [LEXICON]:
+        • Some less common vocabulary
+  Coherence Issues:
+    - [STRUCTURE]:
+        • Slightly abrupt transition between paragraphs
+    - [CLARITY]:
+        • Minor ambiguity in sentence structure
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

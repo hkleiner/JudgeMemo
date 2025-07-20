@@ -1,0 +1,254 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) Read and understand the summary of the text the report was created for.
+    b) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    c) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The summary of the text to be evaluated is given below:
+Summary: Jason Ramsey, a hyper-space pilot, is stranded on the planet Irwadi after the government planetarizes the Interstellar Transfer Service. He meets a beautiful Earthgirl named Margot Dennison, who offers him a job to take her to Centauri in exchange for 1,000 credits. Margot is revealed to be a tri-di star, and Ramsey is drawn to her, but he's also wary of her intentions. As they prepare to leave Irwadi, they're joined by a Vegan girl named Vardin, who is fleeing from the Irwadian Security Police.
+
+The three of them work on repairing an old starship, the Enterprise, in a Spacer Graveyard, while being watched by the Irwadian Security Police, led by Garr Symm. Symm is revealed to be a scientist who has discovered a letter from Margot's father, which hints at the existence of a proto-man, a pre-human ancestor of all humanoid races in the galaxy. The letter suggests that proto-man had discovered a way to travel through hyper-space instantly, and that the secret to this technology is hidden on a planet in hyper-space.
+
+As they near completion of the repairs, Margot reveals that she intends to use the Enterprise to reach the planet in hyper-space, where she hopes to find the secret of proto-man's technology. Ramsey is hesitant, but eventually agrees to take her to the planet. When they arrive, they find a strange, gray, timeless world, where they can exist without breathing or being affected by the cold.
+
+Margot becomes obsessed with finding the secret of proto-man's technology, and eventually discovers a black, coffin-shaped box that she believes is a matter-transmitter. Ramsey tries to stop her, but she's determined to unlock the secrets of the box. Meanwhile, Garr Symm and his men arrive on the planet, and Symm becomes obsessed with gaining control of the matter-transmitter for himself.
+
+In a confrontation, Ramsey stops Margot from using the box, and Symm jumps into it instead. The box transforms Symm into a caveman-like creature, revealing that the technology is too powerful for humans to handle. Vardin, who is revealed to be a proto-man, explains that her people had discovered the technology, but it had ultimately led to their downfall. She tells Ramsey to take Margot and leave, and that she will remain as a guardian to prevent the technology from falling into the wrong hands.
+
+Ramsey and Margot return to the Enterprise, and as they fly away, Margot reveals that she's had a change of heart and no longer seeks power or wealth. She tells Ramsey that she loves him, and he reciprocates her feelings. The two of them fly off into the unknown, leaving the secrets of proto-man's technology behind.
+
+The report for the text is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–8035):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor errors in verb tense consistency
+    - [LEXICON]:
+        • occasional use of less common vocabulary
+    - [SPELLING]:
+        • intentional misspelling for character effect (e.g., "lithp" for "lisp")
+  Coherence Issues:
+    - [LOGIC]:
+        • some transitions between scenes feel abrupt
+    - [STRUCTURE]:
+        • non-linear narrative flow
+    - [CLARITY]:
+        • a few sentences are wordy or unclear
+
+Section section_02 (Chars 8036–16009):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor errors in verb tense consistency
+    - [LEXICON]:
+        • some outdated or uncommon terms (e.g., "thtink", "thertainly")
+    - [SYNTAX]:
+        • a few long, convoluted sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • some abrupt transitions between scenes
+    - [STRUCTURE]:
+        • non-linear narrative flow
+    - [CLARITY]:
+        • occasional unclear character motivations
+
+Section section_03 (Chars 16010–23577):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [LEXICON]:
+        • some words feel outdated or uncommon (e.g., "abrevitog", "toggle-cloak")
+    - [SYNTAX]:
+        • a few long, convoluted sentences disrupt the flow
+  Coherence Issues:
+    - [LOGIC]:
+        • some character actions and decisions feel rushed or unexplained
+    - [STRUCTURE]:
+        • the scene jumps abruptly from the gambling hall to Ramsey's room
+    - [CLARITY]:
+        • the introduction of the Earthgirl and her abilities feels somewhat convenient and unforeshadowed
+
+Section section_04 (Chars 23578–31621):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor errors in sentence structure
+    - [LEXICON]:
+        • occasional overly complex vocabulary
+    - [SYNTAX]:
+        • few instances of awkward phrasing
+  Coherence Issues:
+    - [LOGIC]:
+        • some abrupt transitions between scenes
+    - [STRUCTURE]:
+        • minor inconsistencies in character development
+    - [CLARITY]:
+        • a few unclear references to external context
+
+Section section_05 (Chars 31622–40030):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor punctuation errors
+    - [LEXICON]:
+        • some word choices seem slightly outdated
+    - [SYNTAX]:
+        • a few sentences have complex structures that may hinder readability
+  Coherence Issues:
+    - [LOGIC]:
+        • some plot points feel slightly disconnected
+    - [STRUCTURE]:
+        • the narrative jumps between different ideas and scenes
+    - [CLARITY]:
+        • a few sections lack clear transitions between paragraphs
+
+Section section_06 (Chars 40031–48083):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor punctuation errors
+    - [LEXICON]:
+        • occasional awkward word choices
+    - [SYNTAX]:
+        • few sentences with complex structures
+  Coherence Issues:
+    - [LOGIC]:
+        • some abrupt scene transitions
+    - [STRUCTURE]:
+        • minor inconsistencies in character development
+    - [CLARITY]:
+        • a few unclear references to previous events
+
+Section section_07 (Chars 48083–56403):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor punctuation errors
+    - [LEXICON]:
+        • occasional overly complex vocabulary
+    - [SYNTAX]:
+        • few sentences with awkward phrasing
+  Coherence Issues:
+    - [LOGIC]:
+        • some abrupt transitions between ideas
+    - [STRUCTURE]:
+        • minor inconsistencies in narrative flow
+    - [CLARITY]:
+        • a few unclear or confusing segments
+
+Section section_08 (Chars 56403–64527):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Minor errors in sentence structure
+    - [LEXICON]:
+        • Some word choices seem slightly outdated or uncommon
+    - [SYNTAX]:
+        • A few sentences are wordy or awkwardly phrased
+  Coherence Issues:
+    - [LOGIC]:
+        • Some plot developments feel rushed or unexplained
+    - [STRUCTURE]:
+        • The narrative jumps between characters' thoughts and actions somewhat abruptly
+    - [CLARITY]:
+        • A few sections are unclear or require close reading to understand
+
+Section section_09 (Chars 64528–72570):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Tense inconsistencies
+    - [LEXICON]:
+        • Overly complex vocabulary
+    - [SYNTAX]:
+        • Long, convoluted sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • Unexplained plot twists
+    - [STRUCTURE]:
+        • Abrupt scene changes
+    - [CLARITY]:
+        • Unclear character motivations
+
+Section section_10 (Chars 72570–77487):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Minor tense inconsistencies
+    - [LEXICON]:
+        • Some word choices feel slightly outdated or less common
+    - [SYNTAX]:
+        • A few sentences have complex structures that may impede smooth reading
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition from action to philosophical discussion
+    - [STRUCTURE]:
+        • The narrative jumps between different ideas and plot threads
+    - [CLARITY]:
+        • Some sections, especially those involving Vardin's explanations, can be confusing
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

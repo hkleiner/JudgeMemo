@@ -1,0 +1,110 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) Read and understand the summary of the text the report was created for.
+    b) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    c) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The summary of the text to be evaluated is given below:
+Summary: The narrator reflects on their early career, recalling when George Corvick asked for their help in writing a review of Hugh Vereker's new novel for "The Middle" magazine. Corvick had to leave for Paris due to a family emergency and couldn't write the review himself. The narrator was excited to take on the task, especially since they would be meeting Vereker at a social gathering, Bridges, the following Sunday. 
+
+The narrator spent the night reading Vereker's novel and wrote a review, trying to capture the essence of Vereker's work. Corvick had told the narrator to "get at" Vereker, to understand the deeper meaning of his writing. The narrator's review was well-received at the magazine, but Corvick wrote from Paris, expressing some disappointment that the narrator hadn't quite grasped Vereker's unique quality.
+
+At the gathering at Bridges, the narrator met Vereker and was impressed by his affability and good humor. The narrator tried to find an opportunity to discuss their review with Vereker but was thwarted by the presence of other guests. Lady Jane, the hostess, eventually brought up the review and praised it, having marked the most flattering passages for Vereker to read.
+
+Vereker took the review upstairs to read, and the narrator later revealed to Lady Jane that they were the author. However, Lady Jane's reaction was somewhat muted, and the narrator wondered if they had diminished the review's impact by revealing their authorship. At dinner, the narrator waited for Vereker's response to the review, but it wasn't until Miss Poyle, a guest, asked Vereker about Lady Jane's "panegyric" that the narrator heard his opinion.
+
+To the narrator's surprise, Vereker dismissed the review as "the usual twaddle," although he later called it "a charming article." The narrator was stunned by Vereker's response, but Miss Poyle's surprise covered for their own. Vereker explained that the author of the review didn't "see" anything, implying that they had missed the deeper meaning of his work. The narrator was left feeling puzzled and intrigued by Vereker's enigmatic comment. 
+
+The narrator had been trying to understand Vereker's work and impress him with their review. However, Vereker's response suggested that they still had much to learn about his writing. The encounter left the narrator with a sense of curiosity and a desire to delve deeper into Vereker's work. They realized that they had only scratched the surface of his writing and that there was more to discover. 
+
+The narrator's experience at Bridges was a turning point in their understanding of Vereker's work. They began to see that there was more to his writing than they had initially thought. The narrator's review, although well-received, was only a superficial analysis of Vereker's work. They needed to dig deeper to truly understand his unique quality. 
+
+The narrator's conversation with Vereker, although brief, was revealing. Vereker's comment about the review being "the usual twaddle" was a hint that there was more to his work than met the eye. The narrator was determined to uncover the deeper meaning of Vereker's writing, and their encounter at Bridges was just the beginning of this journey. 
+
+Overall, the narrator's experience at Bridges was a learning experience. They gained a new perspective on Vereker's work and realized that they had much to learn. The encounter left them with a sense of curiosity and a desire to delve deeper into Vereker's writing. They were determined to uncover the secrets of his work and to truly understand his unique quality. 
+
+The narrator's story is a testament to the complexity of Vereker's work. His writing was layered, and his true meaning was not immediately apparent. The narrator's experience shows that understanding Vereker's work requires patience, dedication, and a willingness to dig deeper. 
+
+In the end, the narrator's encounter with Vereker was a pivotal moment in their journey to understand his work. It marked the beginning of a new chapter in their analysis of Vereker's writing, and they were determined to uncover the secrets that lay beneath the surface. 
+
+The narrator's experience serves as a reminder that true understanding requires effort and dedication. It is not enough to simply read a work; one must also be willing to dig deeper and uncover the underlying meaning. The narrator's story is a testament to the power of perseverance and the rewards that come from truly understanding a complex work. 
+
+The narrator's journey to understand Vereker's work is a metaphor for the journey of discovery that we all undertake. We must be willing to challenge ourselves, to question our assumptions, and to dig deeper to truly understand the world around us. The narrator's experience serves as a reminder that this journey is not always easy, but it is ultimately rewarding. 
+
+In conclusion, the narrator's encounter with Vereker was a turning point in their understanding of his work. It marked the beginning of a new chapter in their analysis of his writing, and they were determined to uncover the secrets
+
+The report for the text is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–7823):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Complex sentence structures
+    - [LEXICON]:
+        • Unfamiliar vocabulary
+    - [SYNTAX]:
+        • Long, winding sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transitions between ideas
+    - [STRUCTURE]:
+        • Non-linear narrative progression
+    - [CLARITY]:
+        • Ambiguous character motivations
+
+Section section_02 (Chars 7823–11335):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Complex sentence structures
+    - [LEXICON]:
+        • Some archaic vocabulary
+    - [SYNTAX]:
+        • Long, winding sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt shift in conversation topics
+    - [TRANSITION]:
+        • Slightly disconnected ideas between paragraphs
+    - [CLARITY]:
+        • Some ambiguity in character intentions
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

@@ -1,0 +1,217 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    b) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The report is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–8196):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • "all of it have failed" should be "all of it had failed"
+        • "Lee had meet" should be "Lee had met"
+        • "am turned back" should be "were turned back"
+        • "the Confederacy, for its part, is" should be "the Confederacy, for its part, was"
+        • "All that seem to be needed" should be "All that seemed to be needed"
+        • "who coulded" should be "who could"
+        • "capture of Chattanooga, Tenn., threw open the gateway to Georgia" is a sentence fragment
+        • "woulded" should be "would"
+  Coherence Issues:
+    - [STRUCTURE]:
+        • Abrupt transition between the description of the war in the East and the introduction of the Union strategy
+    - [CLARITY]:
+        • Unclear connection between the capture of Petersburg and the fall of Richmond
+    - [LOGIC]:
+        • The text jumps back and forth between different time periods and events without clear transitions
+
+Section section_02 (Chars 8197–16918):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • "am given" instead of "were given"
+        • "am taking" instead of "were taking"
+    - [LEXICON]:
+        • "glared weaknesses" instead of "glaring weaknesses"
+    - [SYNTAX]:
+        • Some sentences are wordy and hard to follow
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition from describing the city's transportation system to discussing the Battle of Petersburg
+    - [STRUCTURE]:
+        • The text jumps back and forth between different time periods and events
+    - [CLARITY]:
+        • Some sentences are unclear or confusing due to poor wording or punctuation
+
+Section section_03 (Chars 16918–25441):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • "fought ended with the coming of darkness" should be "fighting ended with the coming of darkness"
+        • "a large proportion of this regiment was make up of onetime coal miners" should be "a large proportion of this regiment was made up of former coal miners"
+        • "have already begun work" should be "had already begun work"
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between chapters without clear connections
+    - [STRUCTURE]:
+        • some sentences are long and convoluted, disrupting the flow
+
+Section section_04 (Chars 25441–34036):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • incorrect verb tense usage
+    - [SPELLING]:
+        • typos (e.g., "learn" instead of "learned", "carry" instead of "carried", "have" instead of "had")
+    - [SYNTAX]:
+        • awkward sentence structure
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between paragraphs
+    - [STRUCTURE]:
+        • lack of clear chronological progression in some sections
+    - [CLARITY]:
+        • unclear descriptions of military movements and strategies
+
+Section section_05 (Chars 34037–42721):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • verb tense inconsistencies
+    - [LEXICON]:
+        • some words are used in inappropriate contexts
+    - [SYNTAX]:
+        • sentence structure is sometimes awkward
+  Coherence Issues:
+    - [LOGIC]:
+        • occasional abrupt transitions between ideas
+    - [STRUCTURE]:
+        • some sections feel disconnected from the rest of the narrative
+    - [CLARITY]:
+        • a few sentences are worded in a way that makes them hard to understand
+
+Section section_06 (Chars 42721–51110):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor punctuation errors
+    - [LEXICON]:
+        • some word choices could be more precise
+    - [SYNTAX]:
+        • a few sentences are wordy or awkwardly phrased
+  Coherence Issues:
+    - [LOGIC]:
+        • occasional abrupt transitions between paragraphs
+    - [STRUCTURE]:
+        • the text could benefit from clearer sectioning or subheadings
+    - [CLARITY]:
+        • a few sentences are unclear or require re-reading
+
+Section section_07 (Chars 51111–59941):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • verb tense inconsistencies
+        • "Lee agree" instead of "Lee agreed"
+        • "wish" instead of "wished"
+        • "have" instead of "had"
+    - [SPELLING]:
+        • "Shoulded" instead of "Should"
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between chapters
+    - [STRUCTURE]:
+        • lack of clear connection between some sentences
+    - [CLARITY]:
+        • confusing descriptions of military movements
+
+Section section_08 (Chars 59942–68433):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • verb tense inconsistencies
+    - [SPELLING]:
+        • minor typos (e.g., "have" instead of "has")
+    - [SYNTAX]:
+        • occasional awkward sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • some abrupt transitions between paragraphs
+    - [STRUCTURE]:
+        • minor inconsistencies in chronological ordering
+    - [CLARITY]:
+        • a few sentences with ambiguous or unclear meanings
+
+Section section_09 (Chars 68434–72013):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • "had been man" should be "had been manned"
+        • "had been avoid" should be "had been avoided"
+        • "had been kill" should be "had been killed"
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between the description of the battle and the discussion of the aftermath
+    - [STRUCTURE]:
+        • The text jumps back and forth between different events and dates
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

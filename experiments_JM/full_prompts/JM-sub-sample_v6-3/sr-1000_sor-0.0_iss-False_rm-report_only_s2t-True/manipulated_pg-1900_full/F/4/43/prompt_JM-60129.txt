@@ -1,0 +1,440 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    b) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The report is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–4151):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor punctuation issues
+    - [LEXICON]:
+        • some archaic vocabulary
+    - [SYNTAX]:
+        • occasional complex sentence structures
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transition between descriptions of landscape and encounter with Yögur women
+    - [CLARITY]:
+        • some sentences are lengthy and convoluted
+    - [TRANSITION]:
+        • could benefit from clearer connections between paragraphs
+
+Section section_02 (Chars 4151–8188):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Inconsistent verb tense usage
+    - [SYNTAX]:
+        • Awkward sentence structure in some parts
+    - [LEXICON]:
+        • Unclear or technical terms without explanation
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between ideas
+    - [STRUCTURE]:
+        • Lack of clear progression in some sections
+    - [CLARITY]:
+        • Unclear references to external context
+
+Section section_03 (Chars 8188–12474):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Run-on sentences and lack of punctuation
+    - [LEXICON]:
+        • Some words may be unfamiliar to non-expert readers
+    - [SYNTAX]:
+        • Complex sentence structures
+  Coherence Issues:
+    - [STRUCTURE]:
+        • Abrupt transitions between paragraphs
+    - [CLARITY]:
+        • Some sentences are wordy and difficult to follow
+    - [LOGIC]:
+        • Assumes prior knowledge of certain cultural practices
+
+Section section_04 (Chars 12475–16678):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Missing or incorrect articles
+    - [LEXICON]:
+        • Repetitive word usage (e.g., "of" in "flour of of kinds")
+    - [SYNTAX]:
+        • Long, convoluted sentences
+    - [SPELLING]:
+        • Typos (e.g., "potatow-noses" instead of "potato-noses")
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transitions between ideas
+    - [STRUCTURE]:
+        • Lack of clear paragraph structure or topic sentences
+    - [CLARITY]:
+        • Unclear or ambiguous sentences
+    - [TRANSITION]:
+        • Missing or inadequate connections between paragraphs
+
+Section section_05 (Chars 16678–20858):
+Scores:
+  - Fluency: 3.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • incomplete sentences
+    - [SPELLING]:
+        • typos (e.g. "on-lookers" should be "onlookers", "contrarys" should be "contrary")
+    - [SYNTAX]:
+        • awkward phrasing (e.g. "The by either been which agreed paid or for girl at once is upon price has the instalments")
+    - [LEXICON]:
+        • unclear terminology (e.g. "tshokh", "Chiu")
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between ideas
+    - [STRUCTURE]:
+        • lack of clear organization
+    - [CLARITY]:
+        • confusing descriptions (e.g. wedding customs)
+    - [TRANSITION]:
+        • disconnected paragraphs
+
+Section section_06 (Chars 20859–24646):
+Scores:
+  - Fluency: 2.5
+  - Coherence: 2.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Inconsistent verb tenses
+    - [SPELLING]:
+        • Typos and unclear words (e.g., "Tangutans", "Sarö Yögurs" spelling consistency)
+    - [SYNTAX]:
+        • Awkward sentence structure (e.g., "The water this week is in butter washed is repeated a, with child warm rubbed and and later.")
+    - [LEXICON]:
+        • Unclear terminology (e.g., "Shera Yögurs")
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt jumps between topics (e.g., switching from wedding customs to language characteristics)
+    - [STRUCTURE]:
+        • Lack of clear transitions between paragraphs
+    - [CLARITY]:
+        • Unclear or ambiguous statements (e.g., "The number cattle years deaths shown table and in stock, the live during number by ten, following homesteads and donkeys of we is in deaths births visited possessed family:")
+    - [TRANSITION]:
+        • Missing connections between ideas (e.g., between the discussion of childbirth and the presentation of statistical data)
+
+Section section_07 (Chars 24646–28671):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor sentence structure issues
+    - [LEXICON]:
+        • some word choices seem slightly archaic or less common
+    - [SYNTAX]:
+        • a few long sentences that could be broken up for easier reading
+  Coherence Issues:
+    - [LOGIC]:
+        • occasional jumps in thought or topic without clear transitions
+    - [STRUCTURE]:
+        • the narrative sometimes feels a bit disjointed
+    - [CLARITY]:
+        • a few sentences are wordy or unclear in their meaning
+
+Section section_08 (Chars 28672–32884):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Inconsistent verb tenses
+    - [SYNTAX]:
+        • Awkward sentence structures
+    - [LEXICON]:
+        • Unclear or technical terms without explanation
+  Coherence Issues:
+    - [STRUCTURE]:
+        • Abrupt transitions between scenes
+    - [CLARITY]:
+        • Overly descriptive passages that disrupt the narrative flow
+    - [LOGIC]:
+        • Unclear connections between ideas
+
+Section section_09 (Chars 32885–37238):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Inconsistent verb tense usage
+    - [SYNTAX]:
+        • Awkward sentence structure
+    - [LEXICON]:
+        • Unclear or ambiguous word choices
+    - [SPELLING]:
+        • Minor typos and punctuation errors
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transitions between ideas
+    - [STRUCTURE]:
+        • Disjointed paragraphs and lack of clear progression
+    - [CLARITY]:
+        • Unclear descriptions and ambiguous references
+
+Section section_10 (Chars 37238–41250):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Inconsistent verb tense usage
+    - [SYNTAX]:
+        • Complex sentence structures
+    - [LEXICON]:
+        • Unfamiliar vocabulary (e.g. "Stongsko", "Yögur", "Tangutan")
+    - [SPELLING]:
+        • Minor typos (e.g. "sunburnt which fir the out grass stood")
+  Coherence Issues:
+    - [STRUCTURE]:
+        • Abrupt transitions between ideas
+    - [CLARITY]:
+        • Unclear connections between sentences
+    - [LOGIC]:
+        • Some sentences seem disconnected from the main narrative
+
+Section section_11 (Chars 41251–45068):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Missing articles in some places
+    - [LEXICON]:
+        • Some words may be unfamiliar to non-expert readers
+    - [SYNTAX]:
+        • Long, complex sentences
+  Coherence Issues:
+    - [STRUCTURE]:
+        • Abrupt transitions between descriptive passages and geographical information
+    - [CLARITY]:
+        • Some sentences are wordy or contain multiple ideas
+    - [LOGIC]:
+        • Assumes prior knowledge of geographical context
+
+Section section_12 (Chars 45068–49022):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Sentence structure is sometimes complex and hard to follow
+    - [LEXICON]:
+        • Use of specialized terms without explanation (e.g., t'umu, Yögur, t'idu)
+    - [SYNTAX]:
+        • Abrupt changes in sentence length and complexity
+  Coherence Issues:
+    - [LOGIC]:
+        • Disjointed presentation of historical and cultural information
+    - [STRUCTURE]:
+        • Lack of clear transitions between paragraphs
+    - [CLARITY]:
+        • Unclear or ambiguous statements (e.g., regarding the tribe's origin)
+
+Section section_13 (Chars 49023–52420):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • awkward sentence structure
+    - [LEXICON]:
+        • uncommon vocabulary
+    - [SYNTAX]:
+        • long sentences with multiple clauses
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transition between ideas
+    - [CLARITY]:
+        • unclear relationships between different groups
+    - [LOGIC]:
+        • lack of clear chronological order
+
+Section section_14 (Chars 52420–56548):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Missing or incorrect articles
+    - [SPELLING]:
+        • Potential typos (e.g., "read" instead of "dead")
+    - [SYNTAX]:
+        • Some sentences are wordy or awkwardly phrased
+  Coherence Issues:
+    - [STRUCTURE]:
+        • Abrupt transitions between ideas
+    - [CLARITY]:
+        • Some sentences are unclear or confusing
+    - [LOGIC]:
+        • A few statements seem disconnected from the rest of the text
+
+Section section_15 (Chars 56549–60733):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor sentence structure issues
+    - [LEXICON]:
+        • some outdated or uncommon vocabulary
+    - [SYNTAX]:
+        • occasional awkward phrasing
+  Coherence Issues:
+    - [STRUCTURE]:
+        • lack of clear transitions between paragraphs
+    - [CLARITY]:
+        • some sentences are wordy or contain multiple unrelated ideas
+    - [LOGIC]:
+        • occasional jumps in topic or idea
+
+Section section_16 (Chars 60733–65049):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Run-on sentences and lack of punctuation
+    - [LEXICON]:
+        • Overly complex vocabulary and sentence structures
+    - [SYNTAX]:
+        • Awkward phrasing in certain sections
+  Coherence Issues:
+    - [STRUCTURE]:
+        • Abrupt transitions between topics
+    - [CLARITY]:
+        • Unclear connections between ideas
+    - [LOGIC]:
+        • Some sentences seem out of place or unnecessary
+
+Section section_17 (Chars 65049–69146):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Minor punctuation issues
+    - [LEXICON]:
+        • Some word choices could be more precise
+    - [SYNTAX]:
+        • A few sentences are wordy or awkwardly structured
+  Coherence Issues:
+    - [STRUCTURE]:
+        • Transitions between paragraphs could be smoother
+    - [CLARITY]:
+        • Some sentences are vague or lack specific details
+    - [LOGIC]:
+        • A few ideas seem disconnected from the rest of the text
+
+Section section_18 (Chars 69147–73309):
+Scores:
+  - Fluency: 3.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Inconsistent verb tenses
+    - [SYNTAX]:
+        • Awkward sentence structures
+    - [LEXICON]:
+        • Unclear or technical terms without explanation
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transitions between ideas
+    - [STRUCTURE]:
+        • Lack of clear progression or organization
+    - [CLARITY]:
+        • Unclear or ambiguous sentences
+
+Section section_19 (Chars 73309–77386):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Inconsistent verb tense usage
+    - [LEXICON]:
+        • Unclear or ambiguous word choices
+    - [SYNTAX]:
+        • Awkward sentence structure
+    - [SPELLING]:
+        • Typos and spelling errors (e.g., "reined iu" instead of "reined in")
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between scenes
+    - [STRUCTURE]:
+        • Disjointed narrative flow
+    - [CLARITY]:
+        • Unclear descriptions of locations and events
+    - [TRANSITION]:
+        • Lack of smooth connections between ideas
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

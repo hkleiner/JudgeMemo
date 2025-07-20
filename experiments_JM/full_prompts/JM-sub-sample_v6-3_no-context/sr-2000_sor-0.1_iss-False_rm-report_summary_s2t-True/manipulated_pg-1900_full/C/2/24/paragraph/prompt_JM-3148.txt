@@ -1,0 +1,250 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) Read and understand the summary of the text the report was created for.
+    b) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    c) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The summary of the text to be evaluated is given below:
+Summary: The story begins with a quote from Emerson's "April" and introduces Anthony Croft, a blind violin maker, and his nephew Davy. Anthony is reading a book with Davy's help, and they discuss the story of Paganini. Anthony is a skilled violin maker and player, and his music has a profound effect on those who hear it. He believes that the secret of everything beautiful, true, or terrible is hidden in the strings of his violin.
+
+As a child, Anthony hated school and was considered lazy, but he was actually fascinated by the natural world and spent most of his time outdoors, observing and learning. He was especially drawn to music and invented his own instruments, including a violin made from a wooden box and strings. Anthony's mother was worried about his future, but he was determined to make a living from his music.
+
+At the age of 17, Anthony discovered a precious piece of wood in Squire Bean's garret, which he used to make a violin. He spent years studying and perfecting his craft, and his violins became renowned for their beauty and sound. Anthony's life took a turn when his neighbor, Mrs. Butterfield, died, and her niece Lyddy Ann inherited her property.
+
+Lyddy was a recluse who had been disfigured in a fire as a child and had spent most of her life in solitude. She was surprised to find that Anthony was blind and was touched by his music, which seemed to interpret her own emotions and thoughts. Lyddy began to visit Anthony and Davy, and they formed a close bond. She helped to care for Davy when he was sick and eventually became a part of their lives.
+
+As Lyddy spent more time with Anthony and Davy, she found herself opening up and sharing her thoughts and feelings with them. Anthony, in turn, was drawn to Lyddy's kindness, intelligence, and beauty, despite her physical scars. The two formed a deep connection, and Anthony eventually proposed to Lyddy, who accepted. They got married, and Lyddy became Anthony's partner in every sense, helping him with his music and his daily life.
+
+The story concludes with a description of the happy life that Anthony and Lyddy built together. They spent their days surrounded by music, nature, and love, and Anthony's violins continued to bring joy to all who heard them. Lyddy found happiness and fulfillment in her life with Anthony, and he found a partner who appreciated and supported his music and his soul. Together, they created a beautiful and harmonious life, filled with love, music, and beauty.
+
+The report for the text is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–7969):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor punctuation errors
+    - [LEXICON]:
+        • some archaic vocabulary
+    - [SYNTAX]:
+        • occasional complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between Anthony's past and present
+    - [STRUCTURE]:
+        • non-linear narrative
+    - [CLARITY]:
+        • some sentences are wordy or unclear
+
+Section section_02 (Chars 7969–16094):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Run-on sentences and lack of punctuation in some areas
+    - [LEXICON]:
+        • Some words and phrases may be unfamiliar to modern readers
+    - [SYNTAX]:
+        • Complex sentence structures can make reading difficult
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transitions between ideas and scenes
+    - [STRUCTURE]:
+        • Non-linear narrative can be confusing
+    - [CLARITY]:
+        • Some sentences are wordy and hard to follow
+
+Section section_03 (Chars 16094–24421):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [LEXICON]:
+        • overly complex vocabulary for some readers
+    - [SYNTAX]:
+        • long, winding sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between poetry and narrative
+    - [STRUCTURE]:
+        • non-chronological events and ideas
+    - [CLARITY]:
+        • unclear connections between some paragraphs
+
+Section section_04 (Chars 24422–32866):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • abrupt sentence transitions
+    - [LEXICON]:
+        • inconsistent tone
+    - [SYNTAX]:
+        • long, winding sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • unclear character motivations
+    - [STRUCTURE]:
+        • disjointed narrative flow
+    - [CLARITY]:
+        • ambiguous scene changes
+
+Section section_05 (Chars 32866–40959):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [LEXICON]:
+        • some words are outdated or less common
+    - [SYNTAX]:
+        • long, complex sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between Lyddy's backstory and her life in Edgewood
+    - [STRUCTURE]:
+        • non-linear narrative structure
+    - [CLARITY]:
+        • some sentences are wordy or unclear
+
+Section section_06 (Chars 40959–48920):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • run-on sentences
+    - [LEXICON]:
+        • overly complex vocabulary
+    - [SYNTAX]:
+        • inconsistent sentence structure
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt shift in narrative focus
+    - [STRUCTURE]:
+        • lack of clear transitions between scenes
+    - [CLARITY]:
+        • ambiguous character descriptions
+
+Section section_07 (Chars 48920–56837):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [LEXICON]:
+        • some words are overly formal or less common
+    - [SYNTAX]:
+        • a few sentences are wordy or structurally complex
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt introduction of new elements (e.g., QR code, electric car)
+    - [STRUCTURE]:
+        • some scenes or ideas feel disconnected
+    - [CLARITY]:
+        • a few character motivations or actions are unclear
+
+Section section_08 (Chars 56838–64752):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Inconsistent verb tense usage
+    - [LEXICON]:
+        • Overly complex vocabulary in some sentences
+    - [SYNTAX]:
+        • Long, convoluted sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt introduction of unrelated elements (e.g. "A data stream flowed uninterrupted", "The surveillance drone made no sound", "A touchscreen blinked to life")
+    - [TRANSITION]:
+        • Sudden shifts in scene or topic without clear connection
+    - [CLARITY]:
+        • Some sentences or phrases are unclear or ambiguous
+
+Section section_09 (Chars 64752–72487):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Run-on sentences and lack of punctuation in some areas
+    - [LEXICON]:
+        • Some words and phrases may be archaic or less familiar to modern readers
+    - [SYNTAX]:
+        • Complex sentence structures can make reading difficult
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transitions between scenes and ideas
+    - [STRUCTURE]:
+        • Non-linear narrative can be confusing
+    - [CLARITY]:
+        • Some sentences are wordy or unclear
+
+Section section_10 (Chars 72487–78379):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor sentence structure complexity
+    - [LEXICON]:
+        • occasional use of less common vocabulary
+  Coherence Issues:
+    - [LOGIC]:
+        • slight abruptness in scene transitions
+    - [CLARITY]:
+        • occasional ambiguity in descriptive passages
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

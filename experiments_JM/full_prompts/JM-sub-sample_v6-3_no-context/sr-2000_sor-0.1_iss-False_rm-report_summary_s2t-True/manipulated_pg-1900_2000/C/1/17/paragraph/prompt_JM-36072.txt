@@ -1,0 +1,110 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) Read and understand the summary of the text the report was created for.
+    b) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    c) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The summary of the text to be evaluated is given below:
+Summary: The Victorian Age was a time of significant change and transformation. Each generation tends to reject the values and ideals of its parents, and this was particularly true during the Victorian era. The Industrial Revolution, which began in the late 18th century, brought about rapid changes in technology, economy, and society. The French Revolution also had a profound impact on European society, leading to a period of violent reactions and counter-reactions.
+
+The concept of progress was closely tied to economic development and materialism during this time. However, this ideology ultimately led to totalitarian regimes and the suppression of individual freedoms. The Victorian era was marked by a strong sense of nationalism and imperialism, with the British Empire expanding its territories and influence around the world.
+
+In the 18th century, England was a prosperous and contented country, with a stable social hierarchy and a strong sense of community. The aristocracy held significant power and influence, and they were known for their cultivation and refinement. However, the working class suffered from poverty, illiteracy, and poor living conditions.
+
+The war with France had a significant impact on English society, leading to a sense of isolation and a decline in international relations. The intellectual life of the country continued to thrive, with notable figures such as Dr. Johnson, Reynolds, and Gibbon making significant contributions to literature and art.
+
+The condition of the working class during the early 19th century was dire, with many people living in poverty and squalor. The government faced significant challenges in addressing these issues, including famine, over-population, and economic crises. The economists of the time pointed to over-population as a major cause of poverty, but they failed to recognize that it was often the result of a low standard of civilization.
+
+Despite these challenges, the Victorian era was marked by significant progress and innovation. The country experienced rapid economic growth, and education and liberty were increasing. The dominions beyond the seas were being peopled and consolidated, and the British Empire was at the height of its power.
+
+The idea of progress was a dominant theme during the Victorian era, with many people believing that humanity was destined for greatness. However, this ideology was not without its critics, and some people recognized the dangers of unchecked materialism and imperialism. Overall, the Victorian Age was a complex and multifaceted period in history, marked by significant social, economic, and cultural changes. 
+
+The period also saw the rise of millennialist movements, such as the one in Persia, which focused on the teachings of the Báb and the coming of a universal Messenger of God. These movements reflected a sense of hope and excitement about the future, as well as a desire for spiritual and moral transformation.
+
+In conclusion, the Victorian Age was a time of great change and transformation, marked by significant social, economic, and cultural developments. While the era was marked by many challenges and contradictions, it also saw significant progress and innovation, and its legacy continues to shape our world today. 
+
+The aristocracy of the time was known for their love of art and literature, and they played a significant role in shaping the cultural landscape of England. They were also known for their military prowess, and they fought bravely in wars against France and other countries.
+
+The working class, on the other hand, faced significant challenges, including poverty, illiteracy, and poor living conditions. However, they also played a crucial role in shaping the social and economic landscape of England, and their struggles and sacrifices helped to bring about significant reforms and improvements.
+
+Overall, the Victorian Age was a complex and multifaceted period in history, marked by significant social, economic, and cultural changes. It was a time of great challenge and transformation, but also of great progress and innovation. 
+
+The era saw the rise of many notable figures, including writers, artists, and politicians, who helped to shape the cultural and intellectual landscape of England. It also saw significant developments in science, technology, and industry, which helped to transform the economy and society.
+
+In the end, the Victorian Age was a time of great significance and importance, and its legacy continues to shape our world today. It was a time of great challenge and transformation, but also of great progress and innovation, and it will always be remembered as a pivotal moment in human history.
+
+The report for the text is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–9045):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor sentence structure issues
+    - [LEXICON]:
+        • occasional use of less common vocabulary
+    - [SYNTAX]:
+        • some sentences are wordy or convoluted
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between ideas
+    - [STRUCTURE]:
+        • lack of clear paragraph-level organization
+    - [CLARITY]:
+        • some sentences are unclear or ambiguous
+
+Section section_02 (Chars 9045–14688):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Missing articles in some sentences
+    - [LEXICON]:
+        • Some words are used in outdated or less common contexts
+    - [SYNTAX]:
+        • Long, complex sentences may hinder readability
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transitions between different historical topics
+    - [STRUCTURE]:
+        • Lack of clear connections between paragraphs
+    - [CLARITY]:
+        • Some sentences are wordy or contain ambiguous references
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

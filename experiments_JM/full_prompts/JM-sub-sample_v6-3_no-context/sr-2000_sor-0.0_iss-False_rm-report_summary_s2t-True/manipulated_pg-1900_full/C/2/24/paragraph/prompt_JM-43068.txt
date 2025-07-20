@@ -1,0 +1,194 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) Read and understand the summary of the text the report was created for.
+    b) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    c) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The summary of the text to be evaluated is given below:
+Summary: Jean François Millet was a prominent painter of peasant life, born on October 4, 1814, in Gruchy, a small village in Normandy. He came from a peasant stock and was raised in a humble environment, which later influenced his art. Millet's early life was marked by hardship and struggle, but he was encouraged by his family to pursue his passion for art. He began his artistic training in Cherbourg and later moved to Paris, where he was exposed to the works of great masters like Mantegna and Michel Angelo.
+
+Millet's style was characterized by simplicity, sincerity, and a deep understanding of the human condition. He was particularly drawn to the lives of peasants and laborers, whom he depicted with dignity and respect. His paintings, such as "The Angelus" and "The Gleaners," are considered some of the greatest works of the 19th century. Despite his talent, Millet faced significant challenges and criticisms throughout his career, including financial struggles and harsh reviews from art critics.
+
+Millet's move to Barbizon in 1850 marked a significant turning point in his life and art. He became part of a community of artists, including Rousseau and Diaz, who shared his passion for naturalism and realism. During this period, Millet produced some of his most famous works, including "The Sower" and "The Peasants Going to Work." His art was not only a reflection of his own experiences but also a commentary on the social and economic conditions of his time.
+
+Millet's legacy extends far beyond his own paintings. He influenced a generation of artists, including Segantini, and his work continues to inspire artists and art lovers today. His commitment to his art and his refusal to compromise his vision, despite the challenges he faced, have made him a hero to many. Millet's story is a testament to the power of art to transcend time and circumstance, and his paintings remain a powerful reminder of the beauty and dignity of everyday life.
+
+Throughout his life, Millet remained true to his roots and his artistic vision. He continued to paint until his death on January 20, 1875, leaving behind a body of work that is both a tribute to the human spirit and a commentary on the social and economic conditions of his time. Millet's art is a reflection of his own experiences, his observations of the world around him, and his deep empathy for the people he depicted. His paintings are a powerful reminder of the importance of living a simple, honest, and authentic life.
+
+Millet's work was not widely recognized during his lifetime, but after his death, his paintings became highly prized by collectors and museums. Today, his work can be found in museums and private collections around the world, a testament to his enduring legacy as one of the greatest painters of the 19th century. Despite the challenges he faced, Millet remained committed to his art, and his paintings continue to inspire and move people to this day. His story is a powerful reminder of the importance of perseverance, dedication, and staying true to one's vision, even in the face of adversity.
+
+The report for the text is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–8921):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • abrupt sentence transitions
+    - [LEXICON]:
+        • occasional use of outdated vocabulary
+    - [SYNTAX]:
+        • complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt introduction of unrelated concepts (e.g. machine-learning model, language translation chip)
+    - [STRUCTURE]:
+        • lack of clear sectioning or transitions between ideas
+    - [CLARITY]:
+        • occasional ambiguity in sentence meaning
+
+Section section_02 (Chars 8922–17573):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor sentence structure issues
+    - [LEXICON]:
+        • occasional word choice awkwardness
+    - [SYNTAX]:
+        • some sentences are overly long
+  Coherence Issues:
+    - [LOGIC]:
+        • occasional abrupt transitions between ideas
+    - [STRUCTURE]:
+        • some paragraphs lack clear topic sentences
+    - [CLARITY]:
+        • a few sentences are wordy or unclear
+
+Section section_03 (Chars 17574–26502):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor punctuation errors
+    - [LEXICON]:
+        • occasional word choice issues
+    - [SYNTAX]:
+        • few sentence structure problems
+  Coherence Issues:
+    - [LOGIC]:
+        • slight disconnect between paragraphs
+    - [STRUCTURE]:
+        • occasional abrupt transitions
+    - [CLARITY]:
+        • minor ambiguity in some sentences
+
+Section section_04 (Chars 26502–35300):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor sentence structure issues
+    - [LEXICON]:
+        • occasional word choice awkwardness
+    - [SYNTAX]:
+        • few instances of complex sentence clarity
+  Coherence Issues:
+    - [LOGIC]:
+        • some abrupt transitions between paragraphs
+    - [STRUCTURE]:
+        • minor inconsistencies in narrative flow
+    - [CLARITY]:
+        • occasional ambiguity in sentence meaning
+
+Section section_05 (Chars 35300–43880):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor punctuation errors
+    - [LEXICON]:
+        • occasional word choice issues
+    - [SYNTAX]:
+        • some sentence structures are complex
+  Coherence Issues:
+    - [LOGIC]:
+        • a few abrupt transitions between paragraphs
+    - [STRUCTURE]:
+        • some sections feel disconnected from the main narrative
+    - [CLARITY]:
+        • occasional ambiguity in sentence meaning
+
+Section section_06 (Chars 43880–52488):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Inconsistent verb tense usage
+    - [LEXICON]:
+        • Some words are archaic or less common
+    - [SYNTAX]:
+        • Long, complex sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transitions between paragraphs
+    - [STRUCTURE]:
+        • Lack of clear chronological order
+    - [CLARITY]:
+        • Some sentences are wordy or unclear
+
+Section section_07 (Chars 52489–60536):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • occasional complex sentence structures
+    - [LEXICON]:
+        • some archaic vocabulary
+    - [SYNTAX]:
+        • rare instances of awkward phrasing
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between the biography and art analysis sections
+    - [STRUCTURE]:
+        • lack of clear connection between some paragraphs
+    - [CLARITY]:
+        • occasional ambiguity in sentence meaning
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

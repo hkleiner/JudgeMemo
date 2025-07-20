@@ -1,0 +1,294 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) Read and understand the summary of the text the report was created for.
+    b) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    c) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The summary of the text to be evaluated is given below:
+Summary: The author embarked on an expedition to study the Sarö Yögur tribe in December 1907. They started from the Chinese town of Chin-t'a and traveled southeast, passing through a temple and over the ruins of a wall that once enclosed an oasis. The author met three women from the tribe, who wore unique costumes and introduced themselves as Sarö Yögurs. The women were talkative, but the atmosphere changed when the author brought out a camera.
+
+The author visited the village temple, where they met the lamas, and was given a house to stay in. The lamas were initially surprised by the author's presence but eventually warmed up. The author learned about the tribe's customs, including their clothing, food, and marriage practices. The Sarö Yögurs are a pastoral people who live in fixed abodes and engage in minimal agriculture.
+
+The author noted that the tribe's economic condition was low, and they struggled with poverty. The men were often at home, while the women worked outdoors, tending to cattle and carrying water. The author observed that the tribe lacked energy and manliness, particularly among the young men. The Sarö Yögurs have a unique language, which is not written, and their customs are influenced by Buddhism.
+
+The author also visited the Shera Yögur tribe, who live in the mountains. They were greeted by the t'umu, a hereditary governor, who was kind and hospitable. The Shera Yögurs have a similar language and customs to the Sarö Yögurs but are more influenced by Tibetan Buddhism. The author learned about their administrative division, marriage practices, and daily life.
+
+The Shera Yögurs are governed by a system of t'umus, who act as judges and manage taxes. They have a unique system of "bones," which determines relationships and marriage eligibility. The author observed that the Shera Yögurs are quick-witted and fond of jokes, but their living conditions are harsh, and they struggle with poverty.
+
+The author spent New Year's Day with the Shera Yögurs, participating in rifle practice and a feast. They were impressed by the tribe's hospitality and kindness. The author noted that the Shera Yögurs have a unique costume, which includes a sheepskin coat and a distinctive head-dress for women. They also observed that the tribe's tents are less comfortable than those of other nomadic tribes.
+
+The author left the Shera Yögurs on January 2nd and traveled to the town of Li-yen, where they were greeted by the friendly old mandarin. The author was impressed by the town's picturesque surroundings and the mandarin's courteous attentions. They received a delicious dinner and admired the mandarin's beautiful fur cape. The author eventually returned to Kanchow, concluding their expedition to study the Sarö and Shera Yögur tribes.
+
+The report for the text is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–8188):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • numerous typos and spelling mistakes (e.g., "bwhind", "wymmetrical", "whidh", "og", "knplls", "mountxins", "ol")
+    - [GRAMMAR]:
+        • missing or incorrect articles, inconsistent verb tenses
+    - [LEXICON]:
+        • some words are not commonly used or are used in an unusual context
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between paragraphs or ideas
+    - [STRUCTURE]:
+        • lack of clear connections between some sections or sentences
+    - [CLARITY]:
+        • some sentences are wordy or difficult to understand
+
+Section section_02 (Chars 8188–16504):
+Scores:
+  - Fluency: 3.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing or incorrect articles
+    - [SPELLING]:
+        • typos such as "cpoor", "witb", "bortoms", "tshokh", "lan", "r", "kop", "ch'ih", "Asiatic", "specialpy", "bjt", "oor", "bejng", "sovoften", "neighhouring", "saje", "antediluvian", "ix"
+    - [SYNTAX]:
+        • awkward sentence structure
+    - [LEXICON]:
+        • inconsistent terminology
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between ideas
+    - [STRUCTURE]:
+        • lack of clear organization
+    - [CLARITY]:
+        • ambiguous sentences
+    - [TRANSITION]:
+        • missing connections between paragraphs
+
+Section section_03 (Chars 16505–24382):
+Scores:
+  - Fluency: 3.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • incomplete sentences
+    - [SPELLING]:
+        • multiple typos (e.g. "potatow-noses", "tshokh", "oplortunity", "witjout", "cneither", "nother", "sepves", "invocation" is not clearly explained)
+    - [LEXICON]:
+        • unclear terminology (e.g. "Sarö Yögur", "Shera Yögur", "Tangutans")
+    - [SYNTAX]:
+        • awkward phrasing (e.g. "The short time at my disposal did not give me much oplortunity for a thorough study of their customs.")
+  Coherence Issues:
+    - [LOGIC]:
+        • inconsistent information (e.g. statistics vs. general information about the tribe's population)
+    - [STRUCTURE]:
+        • abrupt transitions between topics (e.g. from customs to statistics)
+    - [CLARITY]:
+        • unclear explanations (e.g. the role of the lama in childbirth and death ceremonies)
+    - [TRANSITION]:
+        • lack of connecting phrases between paragraphs
+
+Section section_04 (Chars 24382–32480):
+Scores:
+  - Fluency: 3.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • incorrect verb tense usage
+    - [SPELLING]:
+        • multiple typos (e.g., "fhe", "biggwr", "thab", "oor", "conple", "whols", "considerzble")
+    - [LEXICON]:
+        • inconsistent word choice (e.g., "hirse" instead of "horse")
+    - [SYNTAX]:
+        • awkward sentence structure
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between ideas
+    - [STRUCTURE]:
+        • lack of clear paragraph organization
+    - [CLARITY]:
+        • unclear descriptions of locations and events
+    - [TRANSITION]:
+        • insufficient connections between sentences
+
+Section section_05 (Chars 32481–40609):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing or incorrect articles
+    - [SPELLING]:
+        • typos such as "grey andvwhite", "rhem", "kn", "tje", "hznging", "dicr"
+    - [SYNTAX]:
+        • long and convoluted sentences
+    - [LEXICON]:
+        • unclear or technical terms without explanation
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between ideas
+    - [STRUCTURE]:
+        • lack of clear organization or sections
+    - [CLARITY]:
+        • ambiguous or unclear descriptions
+    - [TRANSITION]:
+        • missing or unclear connections between paragraphs
+
+Section section_06 (Chars 40610–48426):
+Scores:
+  - Fluency: 2.5
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • norfhern
+        • colourmagainst
+        • yoh
+        • tising
+        • wre
+        • distamce
+        • higy
+        • if possible even steeper than our ride up, but we were soon at the bottom of a fork-like ravine, is grammatically correct but awkwardly phrased
+        • lebied
+        • thirry
+        • lan (inconsistent spelling)
+        • fo
+    - [GRAMMAR]:
+        • multiple missing or incorrect articles
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between descriptions of landscape and discussion of the t'umu's dwelling
+    - [STRUCTURE]:
+        • lack of clear connection between the t'umu's role and the historical background of the Shera Yögurs
+    - [CLARITY]:
+        • unclear explanation of the tribe's origin and migration
+    - [TRANSITION]:
+        • abrupt shift from discussing the t'umu's complaints to the topic of the tribe's history
+
+Section section_07 (Chars 48427–55967):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing or incorrect articles
+    - [SPELLING]:
+        • typos such as "br" instead of "be"
+    - [SYNTAX]:
+        • long and convoluted sentence structures
+    - [LEXICON]:
+        • unclear or technical terms without explanation
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between ideas
+    - [STRUCTURE]:
+        • lack of clear organization or headings
+    - [CLARITY]:
+        • ambiguous or confusing descriptions
+    - [TRANSITION]:
+        • insufficient connections between paragraphs
+
+Section section_08 (Chars 55968–64472):
+Scores:
+  - Fluency: 3.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • compxny
+        • msat
+        • strups
+        • soketimes
+        • mywteries
+        • oc
+        • utself
+        • vlue
+        • edgijg
+    - [GRAMMAR]:
+        • receivesmthe
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt shifts between topics
+    - [STRUCTURE]:
+        • lack of clear transitions between paragraphs
+    - [CLARITY]:
+        • unclear sentences due to complex structure
+
+Section section_09 (Chars 64473–72672):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • wintdr instead of winter
+        • tp instead of to
+        • anmindescribably instead of indescribably
+        • comfortxble instead of comfortable
+    - [GRAMMAR]:
+        • various minor punctuation errors
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transitions between paragraphs
+    - [CLARITY]:
+        • some sentences are wordy and hard to follow
+    - [LOGIC]:
+        • occasional lack of clear connections between ideas
+
+Section section_10 (Chars 72673–77386):
+Scores:
+  - Fluency: 3.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • typos (e.g., "vto", "anothwr", "sadsle", "iu", "boyh", "vy", "doukey", "encircling a wide cultivated plain the hills retreat, againnto", "backgdound", "oies ebcircled", "ligtle", "Pltanin")
+    - [GRAMMAR]:
+        • inconsistent verb tenses
+    - [LEXICON]:
+        • uncommon vocabulary (e.g., "t'umu", "tshuavá", "sujá")
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transitions between scenes
+    - [CLARITY]:
+        • unclear connections between ideas
+    - [LOGIC]:
+        • some sentences seem disconnected from the rest of the narrative
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

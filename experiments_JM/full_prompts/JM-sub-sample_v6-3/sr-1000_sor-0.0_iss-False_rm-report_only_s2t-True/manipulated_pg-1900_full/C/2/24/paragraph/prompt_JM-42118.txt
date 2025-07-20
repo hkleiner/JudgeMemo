@@ -1,0 +1,400 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    b) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The report is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–4048):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Complex sentence structures
+    - [LEXICON]:
+        • Archaic vocabulary usage
+    - [SYNTAX]:
+        • Long, winding sentences
+  Coherence Issues:
+    - [STRUCTURE]:
+        • Abrupt transitions between ideas
+    - [CLARITY]:
+        • Overly descriptive passages
+    - [LOGIC]:
+        • Disjointed narrative flow
+
+Section section_02 (Chars 4048–7830):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Run-on sentences and lack of punctuation
+    - [LEXICON]:
+        • Some words may be unfamiliar to non-native speakers
+    - [SYNTAX]:
+        • Complex sentence structures
+  Coherence Issues:
+    - [STRUCTURE]:
+        • Abrupt transition between paragraphs
+    - [LOGIC]:
+        • Some sentences seem disconnected from the main narrative
+    - [CLARITY]:
+        • Overly descriptive language may confuse readers
+
+Section section_03 (Chars 7830–11810):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Inconsistent verb tense usage
+    - [LEXICON]:
+        • Anachronistic terms like "fax" and "automated gate"
+    - [SYNTAX]:
+        • Abrupt sentence transitions
+  Coherence Issues:
+    - [LOGIC]:
+        • Inclusion of unrelated modern elements
+    - [STRUCTURE]:
+        • Disjointed narrative flow due to anachronisms
+    - [CLARITY]:
+        • Lack of clear connection between some sentences
+
+Section section_04 (Chars 11811–15921):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • abrupt sentence transition with "A fingerprint scanner glowed green"
+    - [LEXICON]:
+        • anachronistic term "fingerprint scanner" in historical context
+    - [SYNTAX]:
+        • occasional complex sentence structures may hinder smooth reading
+  Coherence Issues:
+    - [LOGIC]:
+        • non-sequitur introduction of "A fingerprint scanner glowed green"
+    - [STRUCTURE]:
+        • potential disruption in narrative flow due to abrupt changes in topic
+    - [CLARITY]:
+        • some sentences are lengthy and convoluted, affecting overall clarity
+
+Section section_05 (Chars 15922–19945):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor sentence structure issues
+    - [LEXICON]:
+        • occasional use of less common vocabulary
+    - [SYNTAX]:
+        • a few long sentences with multiple clauses
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between Fragonard's story and the introduction of the Duc de Choiseul
+    - [STRUCTURE]:
+        • some sections feel disconnected from the main narrative
+    - [CLARITY]:
+        • a few sentences are wordy or unclear
+
+Section section_06 (Chars 19946–23851):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • abrupt sentence transitions
+    - [LEXICON]:
+        • some archaic vocabulary
+    - [SYNTAX]:
+        • complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • occasional unclear connections between ideas
+    - [STRUCTURE]:
+        • non-chronological narrative jumps
+    - [TRANSITION]:
+        • abrupt shifts between topics
+
+Section section_07 (Chars 23851–27894):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Run-on sentences and lack of punctuation
+    - [LEXICON]:
+        • Some words may be unfamiliar to non-native speakers
+    - [SYNTAX]:
+        • Complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between Fragonard's life and French politics
+    - [STRUCTURE]:
+        • Non-chronological ordering of events
+    - [CLARITY]:
+        • Some sentences are wordy and hard to follow
+
+Section section_08 (Chars 27895–31828):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Some sentences are long and convoluted
+    - [LEXICON]:
+        • Use of less common vocabulary may hinder understanding for some readers
+    - [SYNTAX]:
+        • Abrupt changes in sentence structure
+  Coherence Issues:
+    - [LOGIC]:
+        • Some transitions between ideas feel disconnected
+    - [STRUCTURE]:
+        • The narrative jumps between different storylines
+    - [CLARITY]:
+        • Certain sections are unclear due to lack of context
+
+Section section_09 (Chars 31829–35789):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Complex sentence structures may hinder readability
+    - [LEXICON]:
+        • Some vocabulary is archaic or less common, potentially affecting flow
+    - [SYNTAX]:
+        • Long sentences with multiple clauses can make comprehension difficult
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transitions between historical context and artistic analysis
+    - [STRUCTURE]:
+        • Non-chronological presentation of events and ideas
+    - [CLARITY]:
+        • Some sentences are dense with information, making them hard to follow
+
+Section section_10 (Chars 35789–39596):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • abrupt sentence transition with "A surveillance camera moved slightly"
+    - [LEXICON]:
+        • potentially outdated or less common vocabulary (e.g., "spendthrift", "jovial")
+    - [SYNTAX]:
+        • complex sentence structures may hinder smooth reading
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt shift from discussing Du Barry's bills to Fragonard's marriage
+    - [TRANSITION]:
+        • lack of clear connection between some paragraphs
+    - [CLARITY]:
+        • some sentences are wordy or contain multiple ideas, potentially causing confusion
+
+Section section_11 (Chars 39597–43545):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Complex sentence structures
+    - [LEXICON]:
+        • Archaic vocabulary and phrases
+    - [SYNTAX]:
+        • Long, winding sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt shifts between historical events and artistic analysis
+    - [STRUCTURE]:
+        • Lack of clear transitions between paragraphs
+    - [CLARITY]:
+        • Overly complex and dense narrative
+
+Section section_12 (Chars 43546–47661):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 2.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Inconsistent verb tense usage
+    - [LEXICON]:
+        • Anachronistic terms like "teleport pad" and "drone swarm" in a historical context
+    - [SYNTAX]:
+        • Abrupt transitions between sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • Inclusion of futuristic elements in a historical narrative
+    - [STRUCTURE]:
+        • Disjointed paragraphs with unclear connections
+    - [CLARITY]:
+        • Unclear character introductions and motivations
+
+Section section_13 (Chars 47662–51747):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor punctuation issues
+    - [LEXICON]:
+        • some archaic vocabulary
+    - [SYNTAX]:
+        • occasional complex sentence structures
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transition between chapters
+    - [CLARITY]:
+        • some sentences are wordy or convoluted
+    - [LOGIC]:
+        • minor inconsistencies in character descriptions
+
+Section section_14 (Chars 51748–55848):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Missing articles in some sentences
+    - [SYNTAX]:
+        • Long, complex sentences that can be hard to follow
+    - [LEXICON]:
+        • Some words may be less familiar to modern readers
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition from discussing Fragonard's personal life to the French Revolution
+    - [STRUCTURE]:
+        • Non-chronological ordering of events can be confusing
+    - [CLARITY]:
+        • Some sentences are wordy or contain multiple ideas, making them hard to understand
+
+Section section_15 (Chars 55848–59676):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Inconsistent verb tense usage
+    - [LEXICON]:
+        • Anachronistic term "camera drone" in historical context
+    - [SYNTAX]:
+        • Some sentences are overly long and complex
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between historical narrative and Fragonard's personal story
+    - [STRUCTURE]:
+        • Disjointed shift from discussing the Reign of Terror to Fragonard's art and personal life
+    - [CLARITY]:
+        • Unclear connection between Fragonard's story and the broader historical context
+
+Section section_16 (Chars 59677–63668):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Minor punctuation errors
+    - [LEXICON]:
+        • Some word choices seem slightly archaic or less common
+    - [SYNTAX]:
+        • A few long sentences with complex structures
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between Fragonard's story and the broader historical context
+    - [STRUCTURE]:
+        • The narrative jumps between different time periods and events
+    - [CLARITY]:
+        • Some sentences are wordy or contain multiple ideas, making them hard to follow
+
+Section section_17 (Chars 63668–67661):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Minor punctuation errors
+    - [LEXICON]:
+        • Some archaic vocabulary
+    - [SYNTAX]:
+        • Complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between historical context and Fragonard's personal life
+    - [STRUCTURE]:
+        • Non-chronological ordering of events
+    - [CLARITY]:
+        • Some sentences are wordy and hard to follow
+
+Section section_18 (Chars 67662–68589):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SYNTAX]:
+        • Complex sentence structures
+    - [LEXICON]:
+        • Archaic vocabulary usage
+    - [GRAMMAR]:
+        • Lack of clear subject-verb agreement in some sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between historical periods
+    - [STRUCTURE]:
+        • Non-linear narrative progression
+    - [CLARITY]:
+        • Ambiguous references to historical figures and events
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

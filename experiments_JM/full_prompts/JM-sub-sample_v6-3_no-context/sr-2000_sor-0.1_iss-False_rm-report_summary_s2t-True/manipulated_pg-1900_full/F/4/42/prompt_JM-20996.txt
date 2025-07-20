@@ -1,0 +1,197 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) Read and understand the summary of the text the report was created for.
+    b) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    c) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The summary of the text to be evaluated is given below:
+Summary: The author recounts their experiences as a teacher in the Philippines during the early 20th century. On July 23, 1901, the United States Government sent 499 trained men and women to establish a system of free public schools in the Philippine Islands. The author was part of this group and traveled to the Philippines on the United States Army Transport "Thomas". They stopped at Honolulu, where they visited the Pali and the Bishop Museum of Polynesian Ethnology.
+
+Upon arrival in Manila, the author was struck by the city's cosmopolitan atmosphere and the mix of different cultures. They noted the contrast between the old city, with its medieval architecture, and the new city, which was more modern. The author also observed the local customs, including the traditional clothing and the practice of chewing tobacco.
+
+The author was assigned to the town of Talisay, where they faced challenges in establishing a school. They had to contend with a lack of resources and infrastructure, as well as the language barrier. Despite these challenges, the author was able to make progress and eventually established a successful school.
+
+The author also recounts their experiences attending a "baile", a traditional Filipino dance, where they were struck by the beauty and elegance of the Filipino women. They also noted the love of finery and jewelry among the Filipinos, as well as their enjoyment of good food and drink.
+
+In another chapter, the author describes their visit to a leper colony, where they were struck by the poverty and suffering of the inhabitants. They also noted the resilience and dignity of the lepers, despite their circumstances.
+
+The author also recounts a "hike" they took with a group of soldiers to pursue a band of ladrones, or bandits. They traveled through rugged terrain and encountered various obstacles, including rough roads and wild animals.
+
+Throughout their experiences, the author was struck by the contrasts between the modern, cosmopolitan city of Manila and the more traditional, rural areas of the Philippines. They also noted the rich cultural heritage of the Filipinos and their resilience in the face of adversity.
+
+The author's experiences in the Philippines were marked by challenges and hardships, but also by moments of beauty and joy. They were struck by the hospitality and kindness of the Filipino people, as well as their love of learning and education.
+
+Overall, the author's account provides a vivid and nuanced portrait of life in the Philippines during the early 20th century. It highlights the complexities and challenges of establishing a new education system in a colonial context, as well as the richness and diversity of Filipino culture.
+
+The author's experiences also underscore the importance of cultural sensitivity and understanding in building relationships with people from different backgrounds. They demonstrate the value of empathy and respect in overcoming obstacles and achieving success in unfamiliar environments.
+
+In conclusion, the author's account is a valuable and insightful record of their experiences in the Philippines. It provides a unique perspective on the challenges and opportunities of establishing a new education system in a colonial context, as well as the richness and diversity of Filipino culture.
+
+The report for the text is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–8930):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • incorrect verb tense usage
+    - [SPELLING]:
+        • minor typos (e.g. "wonted" instead of "accustomed", "woulded" instead of "would")
+    - [LEXICON]:
+        • some words are outdated or uncommon (e.g. "wonted", "belated")
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transition between chapters
+    - [CLARITY]:
+        • some sentences are wordy or unclear
+    - [TRANSITION]:
+        • lack of smooth connection between ideas
+
+Section section_02 (Chars 8931–17706):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • incorrect verb tense usage
+    - [SPELLING]:
+        • minor typos (e.g., "heaved" instead of "have")
+    - [SYNTAX]:
+        • occasional awkward sentence structure
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between scenes
+    - [STRUCTURE]:
+        • lack of clear connections between paragraphs
+    - [CLARITY]:
+        • some sentences are wordy or unclear
+
+Section section_03 (Chars 17707–26361):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • "drank" should be "drink"
+        • "am" should be "are"
+    - [SYNTAX]:
+        • Some sentences are wordy or awkwardly phrased
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between scenes
+    - [STRUCTURE]:
+        • Lack of clear connection between ideas
+
+Section section_04 (Chars 26361–34939):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • incorrect verb conjugation in "my companion do not follow"
+    - [SYNTAX]:
+        • awkward phrasing in "the visions of affluence that floated before him on such floods of wealth were so alluring that they draw him from the kitchen to the cooler veranda"
+    - [LEXICON]:
+        • unclear meaning of "idylic" in "bid farewell at once to so idylic a dream"
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition from describing a social event to discussing house-keeping in the Philippines
+    - [STRUCTURE]:
+        • lack of clear connection between the description of life in Manila and the previous sections
+    - [CLARITY]:
+        • unclear purpose of listing various countries of origin for food and household items
+
+Section section_05 (Chars 34940–43688):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [LEXICON]:
+        • some words are outdated or less common
+    - [SYNTAX]:
+        • long, complex sentences
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transitions between ideas
+    - [CLARITY]:
+        • some sentences are wordy or unclear
+    - [LOGIC]:
+        • occasional lack of logical connection between paragraphs
+
+Section section_06 (Chars 43689–52160):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • "The growling of the dog had attracted the attention of an old man who, with age-bent back, was pounding rice in a mortar about fifty yards away. He turn" (missing 'ed' after 'He')
+        • "I could was almost instantly overcome" (incorrect verb usage)
+    - [SPELLING]:
+        • "receive" (should be 'received')
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt shift from describing the leper colony to philosophical musings about life
+    - [TRANSITION]:
+        • Lack of smooth transition between the visit to the leper colony and the start of the "hike" chapter
+
+Section section_07 (Chars 52161–53272):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • "instructed to started" should be "instructed to start"
+        • "and not to stop until he get there" should be "and not to stop until he gets there"
+    - [SYNTAX]:
+        • "Was uncertain but that" is an awkward phrase
+    - [LEXICON]:
+        • "to cross the Styx" is a metaphor that may not be familiar to all readers
+  Coherence Issues:
+    - [LOGIC]:
+        • The transition from discussing the pedagogues' blisters to the decision to sleep in the cart is abrupt
+    - [STRUCTURE]:
+        • The narrative jumps suddenly from the scene in the cart to the arrival at the village
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

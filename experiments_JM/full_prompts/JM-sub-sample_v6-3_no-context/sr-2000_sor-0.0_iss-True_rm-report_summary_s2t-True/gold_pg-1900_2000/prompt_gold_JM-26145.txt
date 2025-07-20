@@ -1,0 +1,100 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) Read and understand the summary of the text the report was created for.
+    b) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    c) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The summary of the text to be evaluated is given below:
+Summary: In 1820, it was known that a great city of Ancient Egypt existed in Middle Egypt, on the east bank of the Nile. The Prussian exploration expedition of 1842-45 discovered extensive ruins at El Amarna, about sixty miles south of Minieh. The site included the remains of a city, with regular lines of streets and a great temple. The city was built by Amenophis IV around 1380 B.C. and was destroyed soon after his death.
+
+In 1888, some fellahin digging for marl near the ruins found a number of wooden chests filled with clay tablets covered in writing. The tablets were written in Babylonian cuneiform and included letters from Egyptian officials in Syria and Canaan, as well as from Asiatic kings to the Egyptian monarch. Some tablets also contained inventories and mythological subjects.
+
+The tablets were found to be part of the Egyptian state archives from the times of Amenophis III and IV. The discovery revealed that around 1400 B.C., the Semitic speech of Babylon was used as the language of diplomacy in the East. The tablets included letters from various officials, including governors and petty chiefs, who employed professional scribes to write on their behalf.
+
+The Egyptian court and administration during this period were characterized by a shift away from war and towards more peaceful pursuits. Amenophis III, who reigned for thirty-six years, focused on building and cultivating "wisdom," while his son Amenophis IV attempted to reform the Egyptian religion, introducing a form of monotheism that worshipped the disk of the sun.
+
+Amenophis IV's reform efforts were met with resistance from the powerful priests of Amon in Thebes, leading to open strife and the eventual removal of the court to Tell el Amarna. The new capital was consecrated as "Akhet-Aten," or "Horizon of the Sun," and the king altered his throne-name to "Akhen-Aten," or "The glory of the Sun's Disk."
+
+The officials who accepted the new doctrine were regarded as deserving men, and some, such as Ai and Dudu, received important positions and honors. The Amarna letters provide insight into the administration and politics of the time, including the relationships between the Egyptian court and its vassals in Syria and Palestine.
+
+The letters also reveal the challenges faced by the scribes in writing in a foreign language, with some using phonograms and others struggling with grammar and vocabulary. The tablets themselves were made of clay and varied in color and consistency, with some being well-preserved and others broken and crumbling.
+
+Overall, the discovery of the Amarna tablets has provided significant insights into the history and culture of Ancient Egypt during the XVIIIth Dynasty, including the politics, administration, and religion of the time. The tablets have also shed light on the relationships between Egypt and its neighbors, and the use of Babylonian cuneiform as a language of diplomacy in the Ancient East.
+
+The report for the text is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–8551):
+Section Summary: In 1820, the remains of a great city in Ancient Egypt were discovered in Middle Egypt, and in 1888, a number of clay tablets with writing were found near the ruins of Tell el Amarna. The tablets, which dated back to around 1400 B.C., were part of the Egyptian state archives and were written in Babylonian cuneiform, revealing that the Semitic speech of Babylon was the language of diplomacy in the East at that time. The tablets consisted mainly of letters from Egyptian officials and Asiatic kings to the Egyptian monarch, providing valuable insights into the administration and diplomacy of the time. The discovery of the tablets shed light on the reigns of Pharaohs Amenophis III and IV, who belonged to the XVIIIth Dynasty and introduced significant changes to the Egyptian court and administration. The tablets also revealed the complex system of writing and diplomacy used by the ancient Egyptians and their counterparts in Asia, with scribes using various languages and scripts to communicate.
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor issues with sentence structure
+    - [LEXICON]:
+        • occasional use of less common vocabulary
+    - [SYNTAX]:
+        • some sentences are wordy or convoluted
+  Coherence Issues:
+    - [LOGIC]:
+        • occasional abrupt transitions between ideas
+    - [STRUCTURE]:
+        • some sections feel disconnected from the rest of the text
+    - [CLARITY]:
+        • a few sentences are unclear or difficult to follow
+
+Section section_02 (Chars 8551–12794):
+Section Summary: The life of King Amenophis IV, also known as Akhenaten, is not well understood, but it is believed that he intended to reform the Egyptian religion and reduce the power of the priests of Amon in Thebes. He introduced a new doctrine, known as "the doctrine," which emphasized the worship of the Sun's Disk, or Aten, and led to a break with the old religion. The king and his officials, including those in Syria and Palestine, began to use new names and titles that reflected their allegiance to Aten, and a new capital city, Akhet-Aten, was built to serve as the center of the new religion. The Aten dogma represented a shift towards monotheism and was based on natural phenomena, but its impact on Egyptian society is not fully understood. The king rewarded his officials who accepted the new doctrine, and they played important roles in the administration of Egypt and its territories.
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Complex sentence structures
+    - [LEXICON]:
+        • Unfamiliar terminology (e.g., "Akhet-Aten", "Aten")
+    - [SYNTAX]:
+        • Long paragraphs with multiple ideas
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transitions between historical events
+    - [STRUCTURE]:
+        • Lack of clear chronological order
+    - [CLARITY]:
+        • Unclear relationships between characters and events
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

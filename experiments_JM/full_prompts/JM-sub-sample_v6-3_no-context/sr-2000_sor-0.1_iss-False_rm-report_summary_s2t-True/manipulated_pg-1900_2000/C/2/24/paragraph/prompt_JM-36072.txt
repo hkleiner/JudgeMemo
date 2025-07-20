@@ -1,0 +1,98 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) Read and understand the summary of the text the report was created for.
+    b) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    c) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The summary of the text to be evaluated is given below:
+Summary: The Victorian Age was a time of significant change and transformation in England. Each generation tends to reject the values and ideas of the previous one, and this was particularly true during the Victorian era. The Industrial Revolution, which began in the late 18th century, brought about rapid changes in technology, economy, and society. The French Revolution also had a profound impact on England, leading to a period of reaction and conservatism.
+
+The 19th century was marked by violent reactions and counter-reactions, with the pendulum swinging between different ideologies and social systems. The German historian Von Eicken saw this as a fundamental law of history, where every idea or institution eventually gives rise to its opposite. The Catholic Church, for example, began as a renunciation of the world but eventually became a powerful institution.
+
+The Victorian Age was a time of great social change, with the rise of a new industrial working class and the decline of the old aristocracy. The country was undergoing rapid urbanization, and the population was growing rapidly. However, this growth was accompanied by significant social and economic problems, including poverty, inequality, and over-population.
+
+The aristocracy, which had previously held power and influence, was beginning to decline. They were highly cultivated and enlightened, but their power and privilege were being challenged by the rising middle class. The French Revolution had caused a panic among the English aristocracy, and they were determined to maintain their power and status.
+
+The war with France had also had a significant impact on England, leading to a period of isolationism and a decline in international cooperation. The country was more isolated from European thought and culture than it had been for centuries. However, this isolation also led to a flourishing of English literature and culture, with writers such as Scott, Wordsworth, and Jane Austen producing some of their most famous works.
+
+The condition of the working class during this period was very bad, with poverty, illiteracy, and poor living conditions being widespread. The poor were largely inarticulate and powerless, and the cultivated gentry took little interest in their lives. However, as the century progressed, there was a growing recognition of the need for social reform and improvement.
+
+The government faced significant challenges, including economic crises, famine, and over-population. The famous system of doles, which provided financial support to the poor, was introduced, but it had the unintended consequence of pauperizing the rural laborer and encouraging large families. The economists of the time recognized that over-population was a major problem, but they did not realize that it was often the result of a low standard of civilization.
+
+Despite these challenges, the Victorian Age was also a time of significant progress and improvement. The country was experiencing rapid economic growth, and education, liberty, and social reform were all advancing. The dominions beyond the seas were being peopled and consolidated, and the country was becoming a major world power. The progress was real, and its speed was unexampled in history. However, this progress was also accompanied by a growing complacency and a lack of recognition of the ongoing social and economic problems.
+
+The report for the text is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–9197):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • minor errors in sentence structure
+    - [LEXICON]:
+        • occasional use of outdated vocabulary
+    - [SYNTAX]:
+        • some sentences are wordy or convoluted
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between ideas
+    - [STRUCTURE]:
+        • lack of clear paragraph-level organization
+    - [CLARITY]:
+        • occasional ambiguity in sentence meaning
+
+Section section_02 (Chars 9198–13131):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Inconsistent verb tense usage
+    - [LEXICON]:
+        • Anachronistic term "3D printer"
+    - [SYNTAX]:
+        • Abrupt sentence structure in some paragraphs
+  Coherence Issues:
+    - [LOGIC]:
+        • Sudden shift from discussing war effects to social conditions
+    - [TRANSITION]:
+        • Lack of smooth connection between ideas about poverty and economic crises
+    - [CLARITY]:
+        • Ambiguous references to historical events without clear context
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

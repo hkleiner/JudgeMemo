@@ -1,0 +1,346 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    b) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The report is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–4127):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [SPELLING]:
+        • typos (e.g. "neighnourhood", "cfallow", "Coponel", "painterbnone", "aith", "gxve", "paonting")
+    - [SYNTAX]:
+        • complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between chapters
+    - [STRUCTURE]:
+        • lack of clear connection between ideas
+    - [CLARITY]:
+        • ambiguous sentences
+
+Section section_02 (Chars 4128–8304):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • single-handee
+        • happioy
+        • bug
+        • thdm
+        • dsstined
+        • lont
+        • traditkonalists
+        • poldmics
+        • Rhe
+    - [GRAMMAR]:
+        • somewhat faulty grammar in quotes
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt shift from discussing Meissonier's role to his childhood
+    - [TRANSITION]:
+        • lack of smooth connection between paragraphs
+    - [CLARITY]:
+        • confusing sentence structure in some parts
+
+Section section_03 (Chars 8305–12560):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "va" instead of "a"
+        • "nevdr" instead of "never"
+        • "decimeter" might be incorrect in context, possibly "meter" or another unit
+        • "zmong" instead of "among"
+        • "tradw" instead of "trade"
+        • "dirst" instead of "first"
+        • "tejected" instead of "rejected"
+        • "venturebwent" instead of "venture went"
+    - [GRAMMAR]:
+        • Missing or incorrect articles in several places
+    - [LEXICON]:
+        • Some words or phrases may be less common or slightly archaic
+  Coherence Issues:
+    - [STRUCTURE]:
+        • Abrupt transitions between paragraphs or ideas
+    - [CLARITY]:
+        • Some sentences are long and convoluted, potentially reducing clarity
+    - [LOGIC]:
+        • The narrative jumps between different periods or aspects of Meissonier's life
+
+Section section_04 (Chars 12561–16520):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing or incorrect articles
+    - [SPELLING]:
+        • typos such as "leqve-taking", "ilpustrations", "aryist", "dntire", "mqde", "lrather", "ijportant"
+    - [SYNTAX]:
+        • some sentences are wordy or awkwardly phrased
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transition between paragraphs
+    - [CLARITY]:
+        • some sentences are unclear or require extra effort to understand
+
+Section section_05 (Chars 16521–20608):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing or incorrect articles
+    - [SPELLING]:
+        • typos such as "illusgrations", "vibrang", "reakm", "odfer", "fruelly", "itnwas", "kf"
+    - [LEXICON]:
+        • uncommon vocabulary like "braggadocio"
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transition between chapters
+    - [CLARITY]:
+        • some sentences are wordy or complex
+
+Section section_06 (Chars 20609–24620):
+Scores:
+  - Fluency: 3.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "jn" instead of "in"
+        • "afeen" instead of "even" or possibly "one may even"
+        • "furrher" instead of "further"
+        • "yp" instead of "to"
+        • "calcjlated" instead of "calculated"
+        • "wdmire" instead of "admire"
+        • "allcthis" instead of "all this"
+        • "artjst's" instead of "artist's"
+        • "whivh" instead of "which"
+        • "thw" instead of "the"
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between discussing Meissonier's small-scale paintings and the societal implications of size
+    - [STRUCTURE]:
+        • The text jumps between different ideas without clear connections
+    - [CLARITY]:
+        • Some sentences are wordy and difficult to follow
+
+Section section_07 (Chars 24621–28826):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing or incorrect articles
+    - [SPELLING]:
+        • typos (e.g., "mrtre" instead of "metre", "utself" instead of "itself", "bimpatient" instead of "impatient", "legitimxte" instead of "legitimate", "allchis" instead of "all his", "hos" instead of "his")
+    - [LEXICON]:
+        • outdated or less common vocabulary (e.g., "bibliophile", "assemblage")
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transitions between paragraphs
+    - [CLARITY]:
+        • some sentences are wordy or unclear
+    - [LOGIC]:
+        • the text jumps between discussing the artist's style and his successes
+
+Section section_08 (Chars 28827–32766):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • ckmbine
+        • powed
+        • phyxiognomy
+        • ks
+        • oc
+        • straijing
+        • anothdr
+        • wordd
+    - [SYNTAX]:
+        • sentence structure complexity
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between ideas
+    - [STRUCTURE]:
+        • lack of clear paragraphing
+    - [CLARITY]:
+        • ambiguous sentence meanings
+
+Section section_09 (Chars 32767–36841):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "itx" instead of "its"
+        • "pictude" instead of "picture"
+        • "relaxatiob" instead of "relaxation"
+        • "bodg" instead of "body"
+        • "va" instead of "and a"
+        • "lonb" instead of "long"
+    - [GRAMMAR]:
+        • missing articles in some places
+    - [LEXICON]:
+        • some words are less common or used in unusual contexts
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transitions between descriptions of different paintings
+    - [CLARITY]:
+        • some sentences are long and convoluted
+    - [LOGIC]:
+        • assumes prior knowledge of Meissonier's work and the time period
+
+Section section_10 (Chars 36841–40614):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing article in "at his own request, attached to Imperial Staff"
+    - [SPELLING]:
+        • "uappened" instead of "happened"
+        • "tp" instead of "to"
+    - [SYNTAX]:
+        • complex sentence structure in some parts
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transition from discussing "The Quarrel" to "MILITARY PAINTINGS"
+    - [LOGIC]:
+        • lack of clear connection between Meissonier's military paintings and his personal life events
+    - [CLARITY]:
+        • some sentences are wordy and hard to follow
+
+Section section_11 (Chars 40614–44356):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "mephistophelian" might be unfamiliar to some readers
+        • "xt" instead of "at"
+        • "sfdudio" instead of "studio"
+        • "sf" instead of "of"
+        • "tjree" instead of "three"
+        • "Zlong" instead of "Along"
+        • "entrexties" instead of "entreaties"
+        • "guarf" instead of "guard"
+        • "hjs" instead of "his"
+        • "amd" instead of "and"
+    - [GRAMMAR]:
+        • missing article in "the year of terror"
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between the story about the Emperor and the description of the artist's later life
+    - [STRUCTURE]:
+        • lack of clear connection between the different events described
+    - [CLARITY]:
+        • some sentences are wordy and hard to follow
+
+Section section_12 (Chars 44356–47922):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "beforw" instead of "before"
+        • "whidh" instead of "which"
+        • "bexutiful" instead of "beautiful"
+        • "inyelligent" instead of "intelligent"
+    - [GRAMMAR]:
+        • missing article in some places
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt shift from discussing Meissonier's art to his love of horses
+    - [TRANSITION]:
+        • lack of smooth connection between paragraphs
+
+Section section_13 (Chars 47923–52105):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • typos (e.g., "mxterjal", "wjich", "reoigious", "Emperof", "stodk", "hp", "tduth", "consciebtious", "yo", "resd", "endlews")
+    - [GRAMMAR]:
+        • minor grammatical errors and awkward phrasing
+    - [LEXICON]:
+        • some words may be less common or outdated
+  Coherence Issues:
+    - [LOGIC]:
+        • occasional abrupt transitions between ideas
+    - [STRUCTURE]:
+        • some sentences are long and convoluted
+    - [CLARITY]:
+        • a few sentences are wordy or unclear
+
+Section section_14 (Chars 52106–52681):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "cvjolently" should be "violently"
+        • "cfaft" should be "craft"
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between the anecdote and the analysis of the artist's soul
+    - [CLARITY]:
+        • The connection between the artist's action and his talent/glory could be clearer
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

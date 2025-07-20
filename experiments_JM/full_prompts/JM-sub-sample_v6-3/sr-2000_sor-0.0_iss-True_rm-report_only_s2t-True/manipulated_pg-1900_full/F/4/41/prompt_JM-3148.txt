@@ -1,0 +1,262 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    b) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The report is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–7935):
+Section Summary: The story begins with a boy named Davy reading to his uncle, Anthony Croft, who is blind. Anthony is a skilled violinist who believes that the secret to everything beautiful, true, or terrible is hidden in the strings of his violin. As Davy reads, Anthony's mind wanders, and he begins to play his violin, filling the atmosphere with harmony. The narrative then shifts to Anthony's childhood, where he is portrayed as a boy who hated school and longed for knowledge, but found solace in the outdoors and music. Anthony's passion for music is evident from a young age, and he would often create makeshift instruments in school, despite the disapproval of his teachers.
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [SPELLING]:
+        • minor typos (e.g. "rhe" instead of "the", "degraded" school is quoted but seems out of context)
+    - [LEXICON]:
+        • some words are less common or used in outdated ways (e.g. "nunky", "lieboing")
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transition between Anthony Croft's past and present
+    - [CLARITY]:
+        • some sentences are wordy or contain multiple ideas, making them hard to follow
+    - [LOGIC]:
+        • the narrative jumps between different storylines and ideas without clear connections
+
+Section section_02 (Chars 7935–16060):
+Section Summary: Anthony, a curious and inquisitive boy, was often considered lazy by the villagers because he didn't conform to traditional learning methods. However, he was actually a self-motivated learner who spent most of his time exploring the woods, observing nature, and teaching himself about the world around him. He had a passion for music and inventing, and spent hours taking apart and reassembling musical instruments, even creating his own unique instruments. As he grew older, Anthony's skills in repairing and restoring instruments earned him some recognition, and he was eventually trusted with valuable instruments, including a rare violin that had been hanging on a wall for half a century. Through his self-directed learning and experimentation, Anthony developed a deep understanding of the world and its workings, driven by his insatiable curiosity and love for discovery.
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing or incorrect articles
+    - [SPELLING]:
+        • typos (e.g. "tuat" instead of "that", "vhers" instead of "hers", "mire" instead of "more")
+    - [SYNTAX]:
+        • long, convoluted sentences
+    - [LEXICON]:
+        • occasional use of obscure vocabulary (e.g. "triamgle", "guerdon")
+  Coherence Issues:
+    - [LOGIC]:
+        • some abrupt transitions between ideas
+    - [STRUCTURE]:
+        • non-linear narrative structure
+    - [CLARITY]:
+        • occasional ambiguity in sentence meaning
+    - [TRANSITION]:
+        • lack of clear connections between paragraphs
+
+Section section_03 (Chars 16060–23662):
+Section Summary: The village where Anthony Croft lived disapproved of his love for the violin, with some people associating it with dancing and dissipation. Despite this, Anthony's passion for music only grew stronger, and he spent his days studying and playing the violin, with a deep appreciation for its beauty and harmony. At the age of 17, he made a significant discovery - a piece of 80-90 year old wood from a rare maple tree, which he vowed to use to make a perfect violin after it had completed its century of waiting. Anthony's dedication to his craft and his promise to use his talents to help others earned him a sense of purpose and direction. He was inspired by the great violin makers, including Antonius Stradivarius, and aspired to follow in their footsteps, creating perfect violins that would bring joy and beauty to others.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing or incorrect articles
+    - [SPELLING]:
+        • typos such as "sfrong" and "viliniat"
+    - [LEXICON]:
+        • outdated vocabulary
+    - [SYNTAX]:
+        • complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between ideas
+    - [STRUCTURE]:
+        • lack of clear paragraph organization
+    - [CLARITY]:
+        • ambiguous sentences
+
+Section section_04 (Chars 23662–31890):
+Section Summary: The passage describes Anthony Croft, a blind man who, despite his physical limitations, has a deep understanding of beauty and music. It also tells the story of Old Mrs. Butterfield, who has passed away, and Aunt Mehitable Tarbox, who discovers her body and takes charge of the funeral arrangements. Aunt Hitty, as she is known, is thrilled to have the opportunity to plan a funeral, having always been interested in such ceremonies. She begins making plans, including ordering a coffin and deciding on the details of the service, which will feature two ministers and a silver coffin-plate. Through Aunt Hitty's character, the passage pokes fun at the conventions of small-town life and the personalities that inhabit it.
+Scores:
+  - Fluency: 2.5
+  - Coherence: 3.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • multiple typos and spelling errors
+    - [GRAMMAR]:
+        • incorrect verb tenses and subject-verb agreement
+    - [SYNTAX]:
+        • awkward sentence structures and phrasing
+    - [LEXICON]:
+        • inconsistent vocabulary and word choice
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between ideas and scenes
+    - [STRUCTURE]:
+        • disjointed narrative and lack of clear progression
+    - [CLARITY]:
+        • ambiguous sentences and unclear character motivations
+    - [TRANSITION]:
+        • poor connections between paragraphs and ideas
+
+Section section_05 (Chars 31890–39850):
+Section Summary: Aunt Hitty was fascinated by the plans for Old Mrs. Butterfield's funeral and even got to ride in the next buggy to the hearse, a privilege she had never had before. The funeral was considered a success, with Aunt Hitty paying close attention to every detail, from the music to the attire of the pall-bearers. After the funeral, Lyddy Butterfield inherited her aunt's property, a little brown house on the river, and was pleased to find it suited her love of solitude. Lyddy's life had been marked by solitude and isolation due to a childhood accident that left her disfigured, and she had grown accustomed to keeping to herself. At the age of 40, Lyddy was finally able to start a new life in her inherited home, with a small but sufficient income and a chance to rediscover herself.
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • wgich, fascinatibg, obluged, choit, keepihg, skylark, yo, warble, atma, nut, keepihg, skylark, weepers, avbroad, ij, we'd, be'n, wa'n't, 'a, Saco, aho, grudge, privilage, crape, tied, palm-leaf, Cyse, Higgins', weed, virtuous, couch, Mis', be'n, 'specially, sence, hencoop, won'r, brim, monly, drives, Portland, account, dreadfull, laid, twi, djsadvantage, be'n, 'a, be'n, wa'n't, 'd, heaped, embers, efface, whjle, oneneye, vanity, xs, solithde, exploes, governess, motherless, exploes, nibbled, forty, four-and-twenty, hasn't, youcseen, relative, hasn't, youcseen, fresh, rooted, leafage, spring, EMERSON'S, _Merlin_, property, owner, Edgewood, recluse
+    - [GRAMMAR]:
+        • run-on sentences, missing articles, incorrect verb tenses
+    - [LEXICON]:
+        • informal language, colloquial expressions
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between scenes and ideas
+    - [STRUCTURE]:
+        • lack of clear chronological order, non-linear narrative
+    - [CLARITY]:
+        • ambiguous sentences, unclear character motivations
+
+Section section_06 (Chars 39850–47463):
+Section Summary: The community was slow to adjust to the fact that old Mrs. Butterfield had passed away and her niece Lyddy Ann was living in the cottage on the river road. Lyddy, who had a passion for color, was enjoying furnishing her new home with humble but vibrant decorations, which brought her joy and contentment for the first time in her 40 years. As she sat by her fire, she felt a sense of peace and harmony, and her beauty was evident despite the scars on her face. Lyddy's life was further enriched by the nightly violin concerts of Anthony Croft, a blind musician whose music had a profound effect on her, evoking emotions and visions of joy she had never experienced before. The music became a source of comfort and inspiration for Lyddy, and she began to feel a sense of transformation and softening of her spirit.
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing or incorrect articles
+    - [SPELLING]:
+        • multiple typos (e.g., "themfact", "livkng", "xown", "sais", "Indon't", "hekter")
+    - [SYNTAX]:
+        • some sentences are wordy or awkwardly structured
+  Coherence Issues:
+    - [LOGIC]:
+        • occasional abrupt shifts in narrative focus
+    - [TRANSITION]:
+        • some paragraphs lack smooth connections to the next
+
+Section section_07 (Chars 47463–55179):
+Section Summary: Lyddy Butterfield is drawn to Anthony Croft's house by the sound of a crash and a boy's weak voice, and she discovers that Anthony is blind. Despite her initial shock, Lyddy offers to help Anthony, who is struggling to care for his sick nephew. As they interact, Lyddy finds herself opening up to Anthony in a way she never has with others, feeling safe because he cannot see her disfigured face. Anthony accepts Lyddy's help, and together they start to take care of the boy and the household. Lyddy's kindness and capability bring a sense of relief and gratitude to Anthony, and she finds a new sense of freedom in being able to express herself without fear of judgment.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing or incorrect articles
+    - [SPELLING]:
+        • typos (e.g. "jight" instead of "night", "fo" instead of "do")
+    - [LEXICON]:
+        • some words are not commonly used (e.g. "kittle", "enamoured")
+    - [SYNTAX]:
+        • complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition from poetic description to everyday conversation
+    - [STRUCTURE]:
+        • lack of clear connection between some paragraphs
+    - [CLARITY]:
+        • some sentences are wordy or unclear
+
+Section section_08 (Chars 55179–62796):
+Section Summary: Lyddy, a kind and capable neighbor, helps Anthony Croft care for his sick nephew, Davy, and tidies up their home. Anthony, who is blind, is impressed by Lyddy's gentle voice, soft hands, and efficient ways, and finds himself feeling calm and comforted in her presence. As Lyddy works her magic, Anthony begins to see her in a new light and appreciates her unique personality and charm. He also starts to think about making changes to his and Davy's life, considering alternatives to their current household help, Mrs. Buck. Lyddy eventually leaves at 7 o'clock, but not before Anthony expresses his gratitude for her kindness and help.
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • multiple typos and spelling errors (e.g. "mkre", "tham", "nejghbourliness", "boighs", "wjndow")
+    - [GRAMMAR]:
+        • occasional grammatical errors and awkward phrasing
+    - [LEXICON]:
+        • some words are used in an outdated or uncommon way
+  Coherence Issues:
+    - [LOGIC]:
+        • some transitions between scenes or ideas feel abrupt
+    - [STRUCTURE]:
+        • the narrative jumps between different characters' thoughts and actions
+    - [CLARITY]:
+        • a few sentences are wordy or unclear
+
+Section section_09 (Chars 62796–70529):
+Section Summary: As the days pass, Lyddy and Anthony grow closer, and Lyddy finds a new sense of purpose in caring for Anthony and his nephew Davy. Davy's illness brings Lyddy and Anthony together, and they form a strong bond, with Lyddy becoming a source of comfort and joy for the boy. Anthony, despite his blindness, has developed a heightened sense of touch and smell, and is able to appreciate the world around him in new ways. Lyddy, meanwhile, is blossoming into a more confident and gracious person, discovering new talents and interests as she spends more time with Anthony and Davy. As they spend more time together, their evenings become filled with music, conversation, and laughter, bringing joy and warmth to their lives.
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing or incorrect articles
+    - [SPELLING]:
+        • multiple typos (e.g., "anx" instead of "and", "hs" instead of "he", "sucb" instead of "such")
+    - [SYNTAX]:
+        • some sentences are wordy or awkwardly phrased
+    - [LEXICON]:
+        • occasional use of outdated or obscure vocabulary
+  Coherence Issues:
+    - [LOGIC]:
+        • some transitions between ideas or scenes feel abrupt
+    - [STRUCTURE]:
+        • the narrative jumps between different characters' perspectives and time frames
+    - [CLARITY]:
+        • a few sentences or passages are unclear or open to interpretation
+
+Section section_10 (Chars 70529–77811):
+Section Summary: The narrator describes the blossoming romance between Anthony Croft, a blind violin maker, and Lyddy, a woman with a scarred face. Despite their physical imperfections, they find love and comfort in each other's company, with Anthony seeing beyond Lyddy's physical appearance and Lyddy finding solace in Anthony's kind heart. As they spend time together, Lyddy learns to transcribe Anthony's music, which is composed using a unique system of wires and wooden notes. The couple's love is filled with joy, hope, and promise, as evident in the beautiful music Anthony creates, which captures the essence of their love and the beauty of nature. Together, they find happiness and contentment in each other's presence, surrounded by the beauty of the apple orchard in springtime.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [LEXICON]:
+        • some archaic vocabulary
+    - [SYNTAX]:
+        • complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • occasional abrupt transitions between scenes
+    - [STRUCTURE]:
+        • non-linear narrative progression
+    - [CLARITY]:
+        • some ambiguous descriptions
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

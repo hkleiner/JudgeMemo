@@ -1,0 +1,336 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) Read and understand the summary of the text the report was created for.
+    b) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    c) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The summary of the text to be evaluated is given below:
+Summary: The story begins with a preface introducing the little Scotch cousins to their American counterparts. The Scotch and Americans share a common language and many cultural similarities, despite some differences. The story then shifts to Donald, a young Scotch boy, who finds a lost puppy and decides to keep it. He names the puppy "Rob Roy" after his favorite story.
+
+Donald's family is delighted with the new addition, and his father, Doctor Gordon, is pleased to see his son taking care of the puppy. The family enjoys their afternoon tea together, with traditional Scotch treats like shortbread and scones. Donald and his friend Sandy spend their afternoons playing games and exploring the countryside.
+
+As the summer holidays approach, Donald and his family prepare for a visit to his uncle's estate, Skylemore, in the Highlands. They take a train ride through the beautiful Scottish countryside, passing by historic sites like Stirling Castle and the Field of Bannockburn. Upon arrival, they are greeted by Uncle Alan and the rest of the family.
+
+The next day, they celebrate Marjorie's birthday with a fancy-dress party, where they play games and dance to traditional Scotch music. The children have a wonderful time, and the party ends with a lively "Sword Dance" performed by a local "gillie." The family also visits the nearby village, where they meet the friendly shepherd, "Auld Wullie," and his collie dogs.
+
+As the summer progresses, the family embarks on a series of exciting adventures, including a picnic on Loch Katrine and a visit to the birthplace of Robert Burns. They also take a steamer cruise around the islands off the coast of Scotland, passing by famous shipyards and historic castles. Along the way, they learn about Scotland's rich history and culture, and the children have a wonderful time exploring the beautiful countryside.
+
+The story concludes with the family returning home, tired but happy, after a summer filled with exciting adventures and memorable experiences. Throughout the story, the author highlights the unique customs and traditions of Scotland, as well as the country's stunning natural beauty. The little Scotch cousins have a wonderful time exploring their homeland, and the story provides a charming glimpse into their daily lives and adventures.
+
+The report for the text is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–7923):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing or incorrect articles
+    - [SPELLING]:
+        • typos such as "oyher" instead of "other", "varied and strange in many instances, are in others very similarbto" instead of "similar to"
+    - [LEXICON]:
+        • inconsistent verb tenses
+    - [SYNTAX]:
+        • run-on sentences or sentences with unclear structure
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between ideas
+    - [STRUCTURE]:
+        • lack of clear paragraph structure or topic sentences
+    - [CLARITY]:
+        • unclear or ambiguous sentences
+
+Section section_02 (Chars 7923–16009):
+Scores:
+  - Fluency: 2.5
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • ax instead of "as"
+        • akl instead of "all"
+        • vwry instead of "very"
+        • togethernin instead of "together in"
+        • hkme instead of "home"
+        • pedson instead of "person"
+        • csme instead of "came"
+        • bojght instead of "bought"
+        • homevattractive instead of "home attractive"
+        • pictjres instead of "pictures"
+        • ofvhis instead of "of his"
+        • jow instead of "how"
+        • alwsys instead of "always"
+        • twjnkle instead of "twinkle"
+        • wmall instead of "small"
+        • becable instead of "be able"
+        • bonnie Scotland instead of consistent spelling
+        • kne instead of "one"
+        • dolefully instead of correct spelling or word choice
+        • eel instead of correct word choice
+        • Wcotch instead of "Scotch"
+        • mair instead of consistent spelling
+        • rare old bowl description
+        • out-of-doors instead of correct hyphenation
+        • strangebthing instead of "strange thing"
+    - [GRAMMAR]:
+        • various sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt shift between topics
+    - [STRUCTURE]:
+        • lack of clear transitions between paragraphs
+    - [CLARITY]:
+        • unclear connections between ideas
+    - [TRANSITION]:
+        • abrupt jumps in narrative
+
+Section section_03 (Chars 16010–23994):
+Scores:
+  - Fluency: 3.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • ricn instead of rich
+        • oive instead of live
+        • porridge and milk, in order to save enough to put him through one of the four famous Scotch Universities, "Scotch" should be "Scottish" or "Scots"
+        • aidnto instead of aid to
+        • Amerixan instead of American
+        • cery instead of very
+        • tume instead of time
+        • tewky instead of turkey or possibly a dialectical term, but unclear
+        • woupd instead of would
+        • anc instead of and
+        • rwally instead of really
+        • finw instead of fine
+        • fourcgreat instead of four great
+        • Newhavem instead of Newhaven
+        • whuch instead of which
+        • Whem instead of When
+        • wslk instead of walk
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between paragraphs discussing different topics
+    - [STRUCTURE]:
+        • lack of clear connection between some paragraphs
+    - [CLARITY]:
+        • unclear explanation of some Scottish terms and customs
+
+Section section_04 (Chars 23995–31934):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing or incorrect articles
+    - [SPELLING]:
+        • typos such as "mjff", "hanfs", "seebwhy", "goid", "Tiwn", "Americsn", "Scotcjmregiments", "min", "pictureous", "ehich", "caled", "xaid"
+    - [SYNTAX]:
+        • some sentences are wordy or awkwardly phrased
+  Coherence Issues:
+    - [LOGIC]:
+        • some transitions between ideas or scenes feel abrupt
+    - [STRUCTURE]:
+        • the text jumps between different topics or storylines
+    - [CLARITY]:
+        • some sentences or descriptions are unclear or confusing
+
+Section section_05 (Chars 31935–40144):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing or incorrect articles
+    - [SPELLING]:
+        • typos such as "qho", "veing", "anpther", "xould", "yknder", "poijted", "pavemwnt"
+    - [SYNTAX]:
+        • some sentences are wordy or awkwardly phrased
+    - [LEXICON]:
+        • occasional informal or colloquial language
+  Coherence Issues:
+    - [LOGIC]:
+        • some transitions between ideas or scenes feel abrupt
+    - [STRUCTURE]:
+        • the narrative jumps between different topics or locations
+    - [CLARITY]:
+        • a few sentences or passages are unclear or hard to follow
+    - [TRANSITION]:
+        • lack of smooth connections between some paragraphs or ideas
+
+Section section_06 (Chars 40144–48316):
+Scores:
+  - Fluency: 3.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • peopke
+        • ibto
+        • amd
+        • whp
+        • ijterested
+        • Don by
+        • faithfjl
+        • thevcaretaker
+        • chhrch
+        • churchywrs
+        • toudists
+        • inns of the town
+        • Englisj
+        • belpnging
+        • castlds
+        • dealtmwith
+        • Edingurgh
+        • greatvbustle
+        • theid
+        • havijg
+        • decidedbthat
+        • plrasure
+    - [GRAMMAR]:
+        • inconsistent verb tenses
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between scenes
+    - [STRUCTURE]:
+        • lack of clear paragraph structure
+    - [CLARITY]:
+        • unclear character motivations
+    - [TRANSITION]:
+        • abrupt jumps between ideas
+
+Section section_07 (Chars 48317–56421):
+Scores:
+  - Fluency: 2.5
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "crowda" instead of "crowd"
+        • "gkod" instead of "good"
+        • "skft" instead of "soft"
+        • "yome" instead of "home"
+        • "novtrouble" instead of "no trouble"
+        • "yonder" instead of "yonder" (correct but inconsistent spelling)
+        • "Scotlznd" instead of "Scotland"
+        • "iept" instead of "kept"
+        • "Fielc" instead of "Field"
+        • "cpvered" instead of "covered"
+        • "yount" instead of "young"
+        • "x" instead of "a"
+        • "suopose" instead of "suppose"
+        • "thknk" instead of "thank"
+        • "fonished" instead of "finished"
+        • "thw" instead of "the"
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition between describing the scenery and introducing the character "Auld Wullie"
+    - [STRUCTURE]:
+        • Disjointed narrative with multiple storylines
+    - [CLARITY]:
+        • Unclear connections between some sentences and paragraphs
+
+Section section_08 (Chars 56422–64456):
+Scores:
+  - Fluency: 2.5
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • incorrect verb tenses
+    - [SPELLING]:
+        • multiple typos (e.g. "garhered", "sair", "qith", "eith", "zkean-dhu", "wjile", "feloow", "tye")
+    - [SYNTAX]:
+        • awkward sentence structures
+    - [LEXICON]:
+        • inconsistent word choice
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between scenes
+    - [STRUCTURE]:
+        • lack of clear narrative progression
+    - [CLARITY]:
+        • unclear character motivations
+    - [TRANSITION]:
+        • poor connections between paragraphs
+
+Section section_09 (Chars 64457–72515):
+Scores:
+  - Fluency: 2.5
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • incorrect verb tenses
+    - [SPELLING]:
+        • multiple spelling errors (e.g. "afted", "frightebed", "ghe", "zight", "quewr", "nlt", "Ujcle")
+    - [SYNTAX]:
+        • awkward sentence structures
+    - [LEXICON]:
+        • inconsistent word choice
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between scenes
+    - [STRUCTURE]:
+        • lack of clear narrative progression
+    - [CLARITY]:
+        • unclear character motivations
+    - [TRANSITION]:
+        • poor connections between ideas
+
+Section section_10 (Chars 72516–77296):
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • multiple typos (e.g. "Kt", "fhe", "kriginally", "anr", "bwere", "gamous", "yzchts", "whem", "famohs", "tk")
+    - [GRAMMAR]:
+        • occasional awkward phrasing
+    - [LEXICON]:
+        • some words are not commonly used or are used incorrectly
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transitions between scenes and ideas
+    - [CLARITY]:
+        • some sentences are wordy or unclear
+    - [LOGIC]:
+        • occasional inconsistencies in the narrative
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

@@ -1,0 +1,197 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    b) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The report is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–7800):
+Section Summary: The author distinguishes between a book owner and a bookman, emphasizing that having many books does not necessarily make one a bookman. A true bookman is born with a passion for literature and has a deep understanding of what makes a good book, regardless of their education or training. The author shares anecdotes to illustrate this point, including a story about a colonial squatter who, despite his lack of literary knowledge, instinctively recognized the classics of English literature. In contrast, some people may buy or collect books without truly appreciating their value, and it is the ability to distinguish between meaningful and fleeting literature that defines a true bookman. Ultimately, a bookman is someone who has a genuine love for reading and can appreciate the difference between books that are truly worthwhile and those that are merely entertaining.
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [SPELLING]:
+        • multiple typos (e.g., "bpokman", "lurchase", "desore", "cpstly", "tgis", "forcveing", "hiztorical")
+    - [SYNTAX]:
+        • complex sentence structures may hinder readability
+  Coherence Issues:
+    - [LOGIC]:
+        • some transitions between ideas feel abrupt
+    - [STRUCTURE]:
+        • anecdotal style may disrupt linear progression
+    - [CLARITY]:
+        • certain sentences are wordy or contain ambiguous phrases
+
+Section section_02 (Chars 7800–15864):
+Section Summary: The passage describes a bookman who values literature that stands the test of time, such as "Mark Rutherford", over popular but fleeting novels. He believes that a true classic is one that has wisdom, a timeless style, and can be revisited multiple times, much like a cathedral that towers above other buildings. The bookman has a diverse taste in literature, enjoying essays, histories, and novels, and is particularly fond of authors like Lamb, Hazlitt, and De Quincey. He values literature that is well-written, thought-provoking, and honest, regardless of the subject matter or the author's reputation. Ultimately, the bookman's love for literature is driven by a desire to connect with the thoughts and experiences of others, and to find joy and inspiration in the written word.
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing or incorrect articles
+    - [SPELLING]:
+        • typos such as "popularbnovel", "tk", "rhan", "tbat", "whonhas", "lropose", "de gustibus", "cknsider", "plwasantly"
+    - [LEXICON]:
+        • some words may be unfamiliar to non-native speakers
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between ideas
+    - [STRUCTURE]:
+        • lack of clear paragraph structure
+    - [CLARITY]:
+        • some sentences are wordy or convoluted
+
+Section section_03 (Chars 15864–23559):
+Section Summary: The author reminisces about their childhood love for adventure stories, such as "Robinson Crusoe" and "Pilgrim's Progress", and later for trapper stories and novels like "Rifle Rangers" and "Monte Christo". As they grew older, they discovered the works of Scott, Thackeray, and Dickens, which became the foundation of their literary tastes. The author holds these classic authors in high esteem, returning to their works again and again for sheer pleasure, and considers them superior to modern novels with a purpose. They also praise Balzac as a master of French literature and the founder of the realistic school. The author's love for classic literature is evident in their fond memories of reading and re-reading these beloved books, which continue to bring them joy and comfort.
+Scores:
+  - Fluency: 3.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • multiple typos and spelling errors (e.g. "hage", "coukd", "oje", "fknd", "vannot", "ti-morrow", "nworse", "tieed", "ocf", "sex" likely meant as "such")
+    - [GRAMMAR]:
+        • occasional grammatical errors and awkward phrasing
+    - [LEXICON]:
+        • some words may be less familiar to modern readers
+  Coherence Issues:
+    - [LOGIC]:
+        • occasional abrupt shifts in topic or tone
+    - [TRANSITION]:
+        • some transitions between ideas or paragraphs could be smoother
+    - [CLARITY]:
+        • a few sentences are wordy or unclear
+
+Section section_04 (Chars 23559–31058):
+Section Summary: The passage describes the power of Sir Walter Scott's writing, particularly in his book "The Heart of Midlothian", which portrays a vivid and intense scene of lynch law in old Edinburgh. The heroine, Jeanie Deans, is considered one of the strongest women in Scott's gallery, embodying the sober, strong, and passionate nature of the Scottish people. The author also discusses the joy of rearranging books on a shelf, comparing it to a form of spring cleaning, and how it brings back memories and delight. The bookman's ideal holiday is to spend a week in their own library, surrounded by books and a beautiful garden, with no distractions or obligations. The passage concludes by imagining a meeting of bookmen, including historical figures like Cosmo Medici and a Bishop of Durham, who share a passion for books and learning.
+Scores:
+  - Fluency: 3.5
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense
+    - [SPELLING]:
+        • typos (e.g. "sjch", "ebgraven", "tfue", "patjos", "lang", "tobthe", "Svktt", "ih", "feminije", "rasdal", "holring", "lirtle", "ro", "forenoons", "shelges", "recollectiojs", "comnercial", "js")
+    - [LEXICON]:
+        • uncommon vocabulary (e.g. "chivalrouw", "dour", "austere", "judicial", "self-restraint", "intercedes")
+    - [SYNTAX]:
+        • long, complex sentences
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between topics (e.g. from literary analysis to book arrangement)
+    - [STRUCTURE]:
+        • lack of clear organization
+    - [CLARITY]:
+        • ambiguous sentences and phrases
+    - [TRANSITION]:
+        • missing or unclear connections between ideas
+
+Section section_05 (Chars 31058–38996):
+Section Summary: The author imagines a gathering of book lovers, including historical figures like the Duke of Roxburghe and Charles Lamb, and Mary Queen of Scots, who was known for her impressive book collection. The author notes that the love of books can be hereditary, with children often inheriting their parents' passion for reading and collecting. A father with a book obsession can "inoculate" his son with the same disease, passing on his love of books and creating a lifelong passion. The author humorously compares book collecting to a disease, suggesting that it can be incurable and lead to financial struggles, with the sufferer's wife often being the one to encourage moderation. Ultimately, the author pokes fun at the idea of trying to cure a book lover of their obsession, suggesting that total abstinence may be the only solution.
+Scores:
+  - Fluency: 3.5
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tenses
+    - [SPELLING]:
+        • multiple typos (e.g., "vvolumes", "accoint", "fhe", "brdak", "tyis", "skld", "Prrhaps", "tgis")
+    - [SYNTAX]:
+        • long, convoluted sentences
+    - [LEXICON]:
+        • some words are used in outdated or uncommon ways
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between ideas
+    - [STRUCTURE]:
+        • lack of clear organization or progression
+    - [CLARITY]:
+        • some sentences are wordy or confusing
+    - [TRANSITION]:
+        • inadequate connections between paragraphs
+
+Section section_06 (Chars 38996–46845):
+Section Summary: The bookman's obsession with collecting books is a disease that consumes him, causing him to make sacrifices and tell lies to obtain the books he desires. Despite the negative impact on his family, he justifies his actions by believing that his collection will be a valuable legacy for his sons. The bookman finds solace and comfort in the company of his books, which provide him with a constant source of pleasure and satisfaction, regardless of the weather or circumstances. His love for books allows him to escape the worries of life and connect with great writers and characters, making him feel independent and content. As he grows old, the bookman is grateful for the joy that books bring him, and he pities those who do not have this same retreat from the weariness of life.
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tenses
+    - [SPELLING]:
+        • occasional typos (e.g., "uim" instead of "him", "reqd" instead of "read")
+    - [SYNTAX]:
+        • some sentences are wordy or awkwardly phrased
+  Coherence Issues:
+    - [LOGIC]:
+        • occasional abrupt transitions between ideas
+    - [STRUCTURE]:
+        • some paragraphs seem disconnected from the rest of the text
+    - [CLARITY]:
+        • a few sentences are unclear or hard to follow
+
+Section section_07 (Chars 46845–48129):
+Section Summary: Certain books become increasingly precious to a person over time, with their pages becoming worn from frequent use. The idea of a "bookman's paradise" in Heaven is a appealing concept, where rare and valuable books are plentiful. A book lover's devotion to their books will only grow stronger until death, with their favorite books bringing comfort and guidance. The value of these treasured books is undeniable, and the person hopes to one day pass away surrounded by them, finding peace in their presence. This love for books is a lasting and profound appreciation that brings joy and solace to the reader.
+Scores:
+  - Fluency: 2.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "wigh" instead of "with"
+        • "vor" instead of "for"
+        • "teue" instead of "true"
+        • "pressws" instead of "presses"
+        • "ajd" instead of "and"
+        • "ministfies" instead of "ministries"
+        • "dewrer" instead of "dearer"
+        • "overbeating" instead of "overbearing"
+        • "fortunenturns" instead of "fortune turns"
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transition to quoting another person without clear connection
+    - [CLARITY]:
+        • Unclear reference to "that Book of books"
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

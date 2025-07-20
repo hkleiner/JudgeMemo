@@ -1,0 +1,266 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    b) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The report is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–8844):
+Section Summary: The author's introduction to Herbert Spencer's philosophy of science began with reading Tyndall's "Discourse on The Scientific Use of the Imagination" and later discovering Spencer's essay "Progress: its Law and Cause". Spencer's idea that progress is the evolution of the simple into the complex through successive differentiations resonated with the author. The author believes that Spencer's first essay contains the germ of his best teachings and that his method was most effectively employed in interpreting biological phenomena. Spencer's work had a significant impact on various fields, including biology, psychology, sociology, and ethics, with experts like Charles Darwin and William James praising his original thought. Overall, Spencer's philosophy emphasized the importance of biological relationships and the universal law of differentiation, which he believed was the key to understanding progress and evolution.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • multiple typos and spelling errors
+    - [GRAMMAR]:
+        • some sentences are wordy and hard to follow
+    - [LEXICON]:
+        • occasional use of outdated vocabulary
+  Coherence Issues:
+    - [LOGIC]:
+        • some ideas seem disconnected from the main narrative
+    - [STRUCTURE]:
+        • the text jumps between different topics and time periods
+    - [CLARITY]:
+        • a few sentences are unclear or ambiguous
+
+Section section_02 (Chars 8845–17535):
+Section Summary: Herbert Spencer's philosophy is often associated with the concept of evolution, which he saw as a universal principle governing all aspects of life. He believed that everything, including social and political developments, could be explained by the gradual growth of things through natural processes. Spencer's philosophy is also characterized by his concept of the Unknowable, or the Ultimate Reality, which is the source of all existence and evolution. However, this concept is ambiguous and has been criticized for its vagueness, as Spencer uses terms like "force" and "cause" in multiple senses. Ultimately, Spencer's philosophy aims to provide a unified explanation of all phenomena, but its emphasis on the Unknowable sets it apart from scientific inquiry, which limits its scope to observable phenomena.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • ambiguous word usage
+    - [LEXICON]:
+        • complex vocabulary
+    - [SYNTAX]:
+        • long sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt shifts in ideas
+    - [STRUCTURE]:
+        • lack of clear transitions
+    - [CLARITY]:
+        • confusing segments and concepts
+
+Section section_03 (Chars 17536–26021):
+Section Summary: The section discusses the philosophical ideas of Herbert Spencer and his critic, M. Bergson, on the nature of reality and the source of evolution. Spencer's concept of the "Unknowable" refers to the ultimate power that drives all phenomena, which is beyond human understanding. Bergson, on the other hand, proposes the idea of "Life" as the source of evolution, which is also unknowable by the intellect. Both thinkers agree that the intellect can only provide a world of symbols, and that the true nature of reality can only be known through intuition. The section also touches on Spencer's philosophy of science, which emphasizes the universality of connection between cause and effect, and the notion of power that works changes in the world.
+Scores:
+  - Fluency: 2.0
+  - Coherence: 2.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • numerous grammatical errors and typos
+    - [SPELLING]:
+        • multiple spelling mistakes
+    - [LEXICON]:
+        • unclear or ambiguous word choices
+    - [SYNTAX]:
+        • awkward sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • inconsistent and unclear distinctions between concepts
+    - [STRUCTURE]:
+        • meandering and unclear progression of ideas
+    - [CLARITY]:
+        • ambiguous and confusing language
+    - [TRANSITION]:
+        • abrupt and unclear transitions between paragraphs
+
+Section section_04 (Chars 26022–34626):
+Section Summary: The concept of "cause" is ambiguous and has been criticized by philosophers such as Bertrand Russell and Professor Mach, who suggest that it should be discarded from the philosophical vocabulary. In science, the idea of cause can be replaced by the concept of relatedness and change, where the co-presence of things in a certain relationship implies certain motions and changes. The term "energy" is also often misunderstood as an active agent that produces change, but it can be seen as simply a ratio of variables that describes the changes themselves. The author suggests using the term "Source" instead of "cause" to avoid ambiguity, and argues that the concept of "force" can be understood as a measure of change or a specific mode of relatedness. Ultimately, the author aims to clarify the meaning of these concepts to remove ambiguity and improve scientific understanding.
+Scores:
+  - Fluency: 3.5
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing or incorrect articles
+    - [SPELLING]:
+        • typos (e.g., "xmudgy", "vravitative", "scoence", "iw")
+    - [LEXICON]:
+        • ambiguous terminology (e.g., "Source", "force")
+    - [SYNTAX]:
+        • complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between ideas
+    - [STRUCTURE]:
+        • lack of clear paragraphing or sectioning
+    - [CLARITY]:
+        • unclear or ambiguous explanations of technical concepts
+    - [TRANSITION]:
+        • missing or unclear connections between sentences
+
+Section section_05 (Chars 34627–43710):
+Section Summary: The author discusses the distinction between events and states, and how this distinction can be applied to understanding the concept of cause and effect. The author suggests using the terms "ground", "source", and "condition" to clarify the different types of relationships between things, rather than relying on the ambiguous term "cause". The author criticizes Herbert Spencer's work for lacking a thorough analysis of the different types of relationships in nature, and for relying on overly broad terms like "differentiation" and "integration". The author argues that a more nuanced understanding of these relationships is necessary to truly understand the natural world and the process of evolution. By making these distinctions, the author aims to provide a clearer and more precise framework for scientific interpretation and understanding.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [LEXICON]:
+        • overly complex vocabulary
+    - [SYNTAX]:
+        • long and convoluted sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between ideas
+    - [STRUCTURE]:
+        • lack of clear paragraph organization
+    - [CLARITY]:
+        • ambiguous and unclear explanations
+
+Section section_06 (Chars 43711–52672):
+Section Summary: The concept of relatedness is crucial in understanding the evolution of complex systems, and it is difficult to say that specific modes of relatedness exist prior to the existence of the system itself. There are different types of relatedness, including physico-chemical, vital, and cognitive, each with its own unique properties and characteristics. As systems evolve, new properties and relationships emerge that cannot be predicted from the component parts alone, a concept known as "emergent properties." This idea challenges the traditional view of evolution as simply a combination of existing elements, and instead suggests that new and complex relationships give rise to new properties and phenomena. The author proposes a hierarchical structure of relatedness, where cognitive relationships imply vital relationships, which in turn imply physico-chemical relationships, providing a framework for understanding the evolution of complex systems.
+Scores:
+  - Fluency: 3.5
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Missing or incorrect articles
+    - [SPELLING]:
+        • Typos such as "ars" instead of "are", "Sourxe" instead of "Source", "sfience" instead of "science"
+    - [LEXICON]:
+        • Overly complex vocabulary and sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt transitions between ideas
+    - [STRUCTURE]:
+        • Lack of clear paragraphing and topic sentences
+    - [CLARITY]:
+        • Overly dense and technical language
+
+Section section_07 (Chars 52673–61691):
+Section Summary: Herbert Spencer's philosophy of science aims to establish a correlation between cognitive processes and physiological processes, and ultimately with physico-chemical processes. However, Spencer later recognized the presence of specific vital characters in living organisms that cannot be conceived in physico-chemical terms, which challenges his earlier mechanical interpretation of nature. Spencer's view of cognition emphasizes the relationship between the organism and the environment, but his terminology can be ambiguous, particularly in his distinction between the external world and the mind. An adequate analysis of cognitive relatedness on scientific lines is still lacking, and Spencer's approach to psychology is to investigate the correlation of external and internal relations. Ultimately, a scientific interpretation of cognition must be based on relational problems and avoid invoking non-scientific entities, such as psychic entities or vital forces.
+Scores:
+  - Fluency: 3.5
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing or incorrect articles
+    - [SPELLING]:
+        • typos (e.g., "cgaractwrize", "xomewhat", "fjture")
+    - [LEXICON]:
+        • ambiguous terminology (e.g., "states of consciousness", "subjective affections")
+    - [SYNTAX]:
+        • complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • unclear transitions between ideas
+    - [STRUCTURE]:
+        • abrupt shifts in topic (e.g., from Spencer's philosophy to the concept of cognitive relatedness)
+    - [CLARITY]:
+        • ambiguous concepts (e.g., the distinction between the external world and the mind)
+    - [TRANSITION]:
+        • lack of clear connections between paragraphs
+
+Section section_08 (Chars 61692–70638):
+Section Summary: The author discusses the concept of "knowing" in a broad sense, where an internal physiological process can be said to "know" an external event that stimulates it. This type of knowing is selective and implies a physico-chemical basis, as well as a history of heredity-relatedness. The author distinguishes this type of knowing from cognition, which is a higher mode of relatedness that came into being at some stage of evolution and is dependent on underlying physiological processes. Cognition is characterized by awareness, but the nature of this awareness is unclear, and the author questions whether it is awareness of oneself, the external world, or the relation between the two. Ultimately, the author argues that cognition should be treated as a natural kind of relatedness that can be studied scientifically, with awareness being a fundamental aspect of it.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing or incorrect articles
+    - [SPELLING]:
+        • typos (e.g., "conditipns", "iccurrences", "cumbrous" is correct but "vrry" is not)
+    - [LEXICON]:
+        • ambiguous terminology (e.g., "vital or physiological")
+    - [SYNTAX]:
+        • complex sentence structures
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between ideas
+    - [STRUCTURE]:
+        • lack of clear paragraphing or sectioning
+    - [CLARITY]:
+        • ambiguous or unclear explanations (e.g., "awareness of what")
+    - [TRANSITION]:
+        • missing or unclear connections between sentences
+
+Section section_09 (Chars 70639–79514):
+Section Summary: The author discusses the relationship between cognition and physiological processes, arguing that cognition implies certain underlying physiological changes, but rejecting the idea of parallelism or separate orders of being. Instead, the author suggests that cognitive processes should be understood as correlated with physiological processes, similar to how physiological processes are correlated with physico-chemical processes. The author also critiques the concept of identity hypothesis, which posits that mind and nervous action are two faces of the same thing, and instead advocates for a more modest hypothesis that cognition always implies certain physiological processes. The author emphasizes that cognitive relatedness is effective, meaning that it can bring about changes in the system, and that it is not merely an epiphenomenal accompaniment to physical processes. Ultimately, the author argues that a scientific approach to cognition should treat it as a type of relatedness within the natural order, similar to other types of relatedness.
+Scores:
+  - Fluency: 3.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [SPELLING]:
+        • multiple typos and spelling errors
+    - [LEXICON]:
+        • overly complex vocabulary and sentence structure
+    - [SYNTAX]:
+        • run-on sentences and unclear sentence boundaries
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between ideas
+    - [STRUCTURE]:
+        • lack of clear introduction and conclusion
+    - [CLARITY]:
+        • ambiguous and unclear explanations of key concepts
+    - [TRANSITION]:
+        • insufficient connection between paragraphs
+
+Section section_10 (Chars 79515–80004):
+Section Summary: A person is shaped by their time and is a product of their past, but they also have a role in shaping the future. Their thoughts and ideas are like children that they should nurture and protect. A wise person will not take their beliefs lightly and will express the truth as they see it. They will do so fearlessly, knowing it is their responsibility to contribute to the world in a meaningful way. By speaking the truth, they are fulfilling their duty and playing their part in the world.
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • "thr" instead of "the"
+    - [SYNTAX]:
+        • sentence structure is somewhat poetic and less formal
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt shift from discussing Spencer's influence to a philosophical reflection on the individual's role
+    - [TRANSITION]:
+        • lacks a clear connection to the preceding section
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

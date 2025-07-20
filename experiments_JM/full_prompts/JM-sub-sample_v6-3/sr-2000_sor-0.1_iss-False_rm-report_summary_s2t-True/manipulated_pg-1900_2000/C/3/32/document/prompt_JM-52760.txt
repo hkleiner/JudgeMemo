@@ -1,0 +1,96 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) Read and understand the summary of the text the report was created for.
+    b) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    c) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The summary of the text to be evaluated is given below:
+Summary: By June 1864, the Civil War had been ongoing for over three years, with most fighting taking place between Washington and Richmond. Despite various Union generals attempting to defeat the Confederate Army of Northern Virginia, none had succeeded. Maj. Gen. George B. McClellan came closest to success in 1862, but was repulsed on the outskirts of Richmond. The war in the East seemed far from a final settlement, with the Union failing to deliver a decisive blow against the Army of Northern Virginia.
+
+The Confederacy was also unsuccessful in settling the issue, with attempted invasions of the North being turned back. However, in the West, the Union had made significant gains, including the capture of Vicksburg and Port Hudson. By 1864, the Northern armies were in a stronger position than the Confederate military forces. The Union had greater resources and a distinct possibility of splitting the Southern States.
+
+Maj. Gen. Ulysses S. Grant was appointed lieutenant general and given responsibility for all Union armies. He decided to accompany the Army of the Potomac and provide general direction to military operations. The Union plan called for a two-pronged attack, with Grant's army attacking Richmond and Petersburg, while Maj. Gen. William T. Sherman's army marched to the sea and then turned north to join Grant.
+
+The Army of the James, led by Maj. Gen. Benjamin F. Butler, was tasked with advancing on Richmond from the southeast and threatening communications between the city and Petersburg. However, the army was shut up in Bermuda Hundred by a numerically inferior Confederate force. The Battle of the Wilderness marked the start of the final campaign against the Army of Northern Virginia, with Grant's army suffering heavy losses.
+
+Grant moved the Army of the Potomac to the east of Richmond, hoping to outflank the Confederate defenders. However, Lee's army stood between him and the city, and Grant was repulsed with heavy losses at Cold Harbor. After Cold Harbor, Grant decided to turn south of Richmond and isolate the city by attacking Petersburg and cutting the railroads that supplied it. Lee knew he could not allow this to happen and told one of his generals that they must destroy Grant's army before it reached the James River.
+
+Petersburg was a city of vital importance to the Confederacy, with several railroads radiating from it. The city was a major point of transfer for products and materials from the south and southwest, and its capture would almost certainly lead to the abandonment of Richmond. The Confederates had built a defense line around Petersburg, known as the "Dimmock Line," which was 10 miles long and protected all but the northern approaches to the city.
+
+The Dimmock Line had 55 artillery batteries, but its length and size proved to be a disadvantage, requiring more troops to defend it than were available. Raids were made on the railroads south and west of Petersburg, but the damage was quickly patched up. To shut off supplies permanently, the Union forces would have to take physical possession of the railroads. After the Battle of Cold Harbor, Grant ordered the Army of the Potomac to move across the James River and invest Petersburg. The XVIII Corps of the Army of the James arrived on the scene of battle on June 15, with 18,000 Union soldiers facing less than 4,000 Confederates under Beauregard.
+
+The report for the text is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–8102):
+Scores:
+  - Fluency: 2.5
+  - Coherence: 3.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • incomplete sentences and missing articles
+    - [LEXICON]:
+        • unclear or missing proper nouns (e.g. "the thing", "a stuff")
+    - [SPELLING]:
+        • potential typos (e.g. "a stuff countryside")
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transitions between paragraphs
+    - [STRUCTURE]:
+        • lack of clear connections between ideas
+    - [CLARITY]:
+        • unclear or ambiguous language
+
+Section section_02 (Chars 8103–12766):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent use of pronouns ("a thing", "the thing", "the stuff") to refer to specific entities
+    - [LEXICON]:
+        • repetitive use of vague terms ("a thing", "the stuff") instead of specific names
+    - [SYNTAX]:
+        • some sentences are wordy and have complex structures
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition from discussing the importance of Petersburg to describing the Dimmock Line
+    - [STRUCTURE]:
+        • the text jumps between different topics (railroads, fortifications, battles) without clear connections
+    - [CLARITY]:
+        • the use of vague terms ("a thing", "the stuff") can cause confusion about the referents
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

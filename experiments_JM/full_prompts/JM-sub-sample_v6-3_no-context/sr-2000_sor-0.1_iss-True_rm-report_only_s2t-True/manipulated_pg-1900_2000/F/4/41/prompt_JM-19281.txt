@@ -1,0 +1,99 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    b) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The report is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–9773):
+Section Summary: In 2002, an open letter was addressed to the world's religious leaders, emphasizing the need for organized religion to rise above fixed conceptions and recognize the oneness of God and religion. The letter, which was widely distributed, called for a fundamental change in the way people of different faiths relate to one another and was met with a generally positive response. The authors believe that a sea change in human consciousness is underway, with a growing recognition of the importance of spiritual and moral values in addressing global challenges. After a period of dominance by materialistic ideologies, there is now a resurgence of interest in religion and spirituality, with many people seeking a deeper sense of meaning and purpose. The Bahá'í community is called upon to play a role in promoting a new understanding of religion's purpose and contributing to a more unified and peaceful world.
+Scores:
+  - Fluency: 3.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [SPELLING]:
+        • otherbprejudices
+        • withoit
+        • heart ofmreligious
+        • distrdss
+        • tge
+        • fundamentao
+        • kndefeasible
+        • educafion
+        • populatikn
+        • signivicant
+        • impptent
+        • ahtipathies
+    - [GRAMMAR]:
+        • missing articles and incorrect verb tenses
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between paragraphs
+    - [STRUCTURE]:
+        • lack of clear paragraph structure
+    - [CLARITY]:
+        • unclear sentences and convoluted phrases
+    - [TRANSITION]:
+        • missing connections between ideas
+
+Section section_02 (Chars 9774–14347):
+Section Summary: The world is experiencing a resurgence of interest in religion and spirituality, driven in part by the recognition that religious belief is a key factor in promoting self-discipline and moral behavior. This spiritual search is manifesting in various ways, including a shift towards more personal and experiential forms of spirituality, as well as a growth in social movements focused on justice, peace, and environmentalism. The decline of materialism and the failure of ideologies that prioritized economic development above all else have contributed to this trend, as people seek a more meaningful and fulfilling way of life. As a result, traditional notions of reality and progress are being re-evaluated, and a more spiritual and values-based approach to life is emerging. This shift is expected to continue, driven by historical forces that are gathering momentum.
+Scores:
+  - Fluency: 3.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing or incorrect articles
+    - [SPELLING]:
+        • typos such as "definabke" instead of "definable"
+        • typos such as "hiatorical" instead of "historical"
+        • typos such as "fommon" instead of "common"
+        • typos such as "ot" instead of "of"
+        • typos such as "sotld" instead of "world"
+        • typos such as "wgat" instead of "what"
+        • typos such as "insight embodied in the ancient tale of Majnún" with incorrect punctuation
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between ideas
+    - [STRUCTURE]:
+        • lack of clear paragraph structure
+    - [CLARITY]:
+        • ambiguous sentences
+    - [TRANSITION]:
+        • missing connections between sentences
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:

@@ -1,0 +1,282 @@
+You will be given a section-wise evaluation report of a human-written text. Your task is to rate the entire text according to the evaluation criterion on a Likert scale from 1 to 5.
+You are allowed to use half-points: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]. Make sure you read and understand these instructions carefully.
+
+# Task Description:
+1. Before producing your output, follow these internal steps:
+    a) Read and understand the summary of the text the report was created for.
+    b) For each metric, analyze the section-wise report and detect recurring or serious problems that lead to point deduction. Each section includes scores and labeled issues for fluency and coherence.
+    c) For each metric, summarize the most impactful problems across sections.
+2. For each metric, give a score between 1 and 5. You are allowed to use half-points. You should refer to the requested metrics criteria and corresponding accuracy scales.
+3. It is forbidden to generate any other opening, closing, and explanations.
+4. It is forbidden to give corrections for detected issues.
+
+# Evaluation Criterion and Metric Accuracy Scale:
+## FLUENCY
+**Definition**: Fluency assesses how the text reads from start to finish. It mainly focuses on syntax, grammar, spelling, word choice, phrasing, and punctuation of individual sentences. It ensures that the language flows smoothly without awkward phrasing or errors.
+*Scale*:
+- Score 5: Highly fluent, with clear, natural phrasing and minimal to no grammatical issues. Any errors, if present, are rare and do not distract from reading or understanding.
+- Score 4: Mostly fluent and well-structured, though may contain minor issues in grammar or phrasing. These issues may be noticeable but do not disrupt the overall readability.
+- Score 3: Generally readable and mostly fluent, but contains multiple grammatical or structural issues that interrupt the flow or clarity of the text in noticeable ways.
+- Score 2: Text contains frequent grammatical errors, awkward phrasing, or confusing structure. Some segments are clear, but comprehension is often difficult without effort.
+- Score 1: Largely unintelligible or fragmented. The text lacks coherent structure or meaning, making it very difficult or impossible to understand.
+
+## COHERENCE
+**Definition**: Coherence assesses how the story unfolds as a whole. Important criteria are logically sequenced, non-repetitive and smoothly connected ideas, a clear progression from one section to another, avoidance of ambiguities and abrupt jumps, and how consistent and clear structured the narrative is.
+*Scale*:
+- Score 5: Highly coherent, with a clear and logical progression throughout. Sentences and ideas connect smoothly to form a unified and well-organized whole. Minor lapses, if any, are barely noticeable and do not hinder understanding.
+- Score 4: Mostly coherent, with a few weak or slightly disconnected parts. These do not significantly disrupt the flow or understanding of the text.
+- Score 3: Generally coherent, but contains noticeable abrupt shifts, unclear transitions, or confusing segments that are not resolved and affect the reading experience.
+- Score 2: The text has frequent inconsistencies, disconnected ideas, or illogical sequencing. Some parts may be understandable, but the overall coherence is difficult to follow without extra effort.
+- Score 1: Largely incoherent. The text lacks logical structure or progression, with many disjointed, contradictory, or confusing segments that make understanding nearly impossible.
+
+The summary of the text to be evaluated is given below:
+Summary: The story begins with Debby Mason, a 14-year-old girl living in Plymouth with her father, Bill Mason. Her father is a drunkard and is ordered to leave the town, while Debby is bound out to Mrs. Lane, a strict and religious woman. Debby is miserable in her new home and longs for her father. She befriends Jack Martin, a boy who shares her love for adventure and music. Debby's father joins the Continental Army, and she decides to disguise herself as a boy and follow him.
+
+Debby, now known as Robert Shirtliffe, joins the army and becomes a drummer boy. She meets a young British officer named Morley, who looks uncannily like her. Morley is searching for a girl named Debby Mason, and Robert is determined to find out why. Robert's father is killed in a battle, and with his last breath, he asks Robert to find Debby Mason and tell her that he died like a soldier.
+
+Robert continues to serve in the army, and during a battle, she is wounded and left for dead. However, a young surgeon named Doctor Bell saves her life and nurses her back to health. Robert reveals her true identity as Debby Mason to Doctor Bell, who promises to help her. Debby is discharged from the army and receives a sum of money from General Washington for her bravery.
+
+Debby travels to England to meet her relatives and tell them about her experiences. She meets her cousin's mother, who is shocked to learn that Debby killed her son in self-defense. However, the two women form a bond, and Debby's cousin's mother invites her to stay with her. Debby returns to America and settles in Philadelphia, where she is reunited with Jack Martin.
+
+Debby's life takes a turn for the better as she finds love and happiness with Doctor Bell. She puts her past behind her and starts a new life, but she never forgets her experiences as a soldier and the lessons she learned. The story ends with Debby and Doctor Bell getting married and starting a new life together. Debby finally finds the peace and happiness she had been searching for, and she is grateful for the journey that led her to it.
+
+The report for the text is given below:
+Report: === Evaluation Report ===
+
+Section section_01 (Chars 0–7786):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [SPELLING]:
+        • occasional archaic spellings
+    - [LEXICON]:
+        • some words are no longer commonly used
+  Coherence Issues:
+    - [STRUCTURE]:
+        • abrupt transitions between scenes
+    - [CLARITY]:
+        • some sentences are wordy or unclear
+    - [LOGIC]:
+        • occasional inconsistencies in character development
+
+Section section_02 (Chars 7786–15812):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [SPELLING]:
+        • occasional archaic spellings may cause confusion
+    - [SYNTAX]:
+        • some sentences are structured in a way that may hinder smooth reading
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between Debby's decision to disguise herself and her actions
+    - [STRUCTURE]:
+        • the narrative jumps between different ideas and scenes
+    - [CLARITY]:
+        • some parts of the dialogue and narrative are unclear or hard to follow
+
+Section section_03 (Chars 15812–23659):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 3.5
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [SPELLING]:
+        • occasional archaic spellings (e.g., "where'ssed", "coulded")
+    - [SYNTAX]:
+        • some sentences are wordy or awkwardly phrased
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between Debby's decision to join the army and the introduction of the new character, Robert Shirtliffe
+    - [STRUCTURE]:
+        • the narrative jumps between different storylines and characters
+    - [CLARITY]:
+        • some parts of the dialogue are unclear or hard to follow
+
+Section section_04 (Chars 23660–31563):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • missing articles
+    - [SPELLING]:
+        • "togs" might be unfamiliar to some readers
+    - [SYNTAX]:
+        • some sentences are long and convoluted
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt introduction of the British officer's cap on Mason's head
+    - [STRUCTURE]:
+        • non-linear narrative jumps
+    - [CLARITY]:
+        • some character motivations are unclear
+
+Section section_05 (Chars 31564–39295):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • "he use that advantage well" should be "he used that advantage well"
+    - [SPELLING]:
+        • "A sharp report ring out" should be "A sharp report rang out"
+    - [SYNTAX]:
+        • "The words died away on the chill wind" is a bit awkwardly phrased
+    - [LEXICON]:
+        • "the King's business" is unclear without more context
+  Coherence Issues:
+    - [LOGIC]:
+        • The transition between Robert's conversation with Mason and his subsequent actions is a bit abrupt
+    - [STRUCTURE]:
+        • The chapter break seems to disrupt the flow of the story
+    - [CLARITY]:
+        • Some sentences are wordy or unclear, making it hard to follow the plot
+
+Section section_06 (Chars 39296–47415):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [LEXICON]:
+        • some words are archaic or less common
+    - [SYNTAX]:
+        • occasional awkward sentence structure
+  Coherence Issues:
+    - [LOGIC]:
+        • a few abrupt scene transitions
+    - [STRUCTURE]:
+        • some sections feel disconnected from the main narrative
+    - [CLARITY]:
+        • occasional ambiguity in character motivations
+
+Section section_07 (Chars 47415–55755):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • incorrect verb tense usage
+    - [SPELLING]:
+        • minor typos (e.g. "welled" instead of "we'll")
+    - [SYNTAX]:
+        • occasional awkward sentence structure
+  Coherence Issues:
+    - [LOGIC]:
+        • some abrupt transitions between scenes
+    - [STRUCTURE]:
+        • minor inconsistencies in narrative flow
+    - [CLARITY]:
+        • a few unclear character motivations
+
+Section section_08 (Chars 55756–64164):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • "the army was divide" should be "the army was divided"
+        • "he must act promptly and wisely if he wished to hold what he have" should be "he must act promptly and wisely if he wished to hold what he had"
+        • "in case he fell badly wounded,—he never forgot that" is a sentence fragment
+    - [SPELLING]:
+        • "Shirtliffe" is consistently used, but "Molly" is also used to refer to the same character, which may be confusing
+    - [SYNTAX]:
+        • Some sentences are wordy or awkwardly phrased
+  Coherence Issues:
+    - [LOGIC]:
+        • The transition between the battle scene and the council of war could be smoother
+    - [STRUCTURE]:
+        • The story jumps abruptly from the battle to Robert's thoughts and memories
+    - [CLARITY]:
+        • Some sentences are unclear or hard to follow due to complex syntax or vague language
+    - [TRANSITION]:
+        • The chapter break feels abrupt and could be more clearly marked
+
+Section section_09 (Chars 64164–72054):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • inconsistent verb tense usage
+    - [LEXICON]:
+        • some words are archaic or less common
+    - [SYNTAX]:
+        • occasional awkward sentence structure
+  Coherence Issues:
+    - [LOGIC]:
+        • abrupt transition between scenes
+    - [STRUCTURE]:
+        • non-linear narrative can be confusing
+    - [CLARITY]:
+        • some sentences are wordy or unclear
+
+Section section_10 (Chars 72055–80302):
+Scores:
+  - Fluency: 4.0
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • incorrect verb tense usage
+    - [SPELLING]:
+        • minor typos (e.g. "caned" instead of "could")
+    - [SYNTAX]:
+        • awkward sentence structure
+    - [LEXICON]:
+        • occasional word choice issues
+  Coherence Issues:
+    - [LOGIC]:
+        • some plot points feel rushed or unexplained
+    - [STRUCTURE]:
+        • abrupt transitions between scenes
+    - [CLARITY]:
+        • occasional ambiguity in character motivations
+    - [TRANSITION]:
+        • lack of smooth connections between ideas
+
+Section section_11 (Chars 80303–83482):
+Scores:
+  - Fluency: 4.5
+  - Coherence: 4.0
+Issues:
+  Fluency Issues:
+    - [GRAMMAR]:
+        • Missing articles in some sentences
+    - [LEXICON]:
+        • Some words are outdated or less common
+    - [SYNTAX]:
+        • A few sentences have complex structures
+  Coherence Issues:
+    - [LOGIC]:
+        • Abrupt shift in scene without clear transition
+    - [STRUCTURE]:
+        • Non-linear narrative
+    - [CLARITY]:
+        • Some sentences are wordy or unclear
+
+
+You must output only and exactly the following format:
+Evaluation Form:
+1) FINAL Coherence Score: [SCORE] (between 1 and 5; half-points are allowed)
+2) FINAL Fluency Score: [SCORE] (between 1 and 5; half-points are allowed)
+
+Your assessment of the text:
