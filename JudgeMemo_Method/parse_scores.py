@@ -6,7 +6,24 @@ import numpy as np
 from scipy import stats
 
 
-def parse_scores_from_directory(directory_path: str, output_csv_path: str):
+def parse_scores_from_directory(directory_path: str):
+    """
+    Parses score files from a directory, aggregates them, and computes statistical metrics.
+
+    Each file is parsed using JMParser. Scores are combined into a
+    single DataFrame, from which the mean, standard deviation, and 95% confidence intervals
+    are computed across documents.
+
+    Args:
+        directory_path (str): Path to the directory containing `.txt` score files.
+
+    Returns:
+        pandas.DataFrame: Combined DataFrame with per-score statistics added:
+            - 'mean': Mean score per row across files.
+            - 'std': Standard deviation.
+            - 'ci_lower' / 'ci_upper': 95% confidence interval range.
+            Returns `None` if no valid files are found.
+    """
     parser = JMParser("ScoreParsing")
     all_scores = []
 
@@ -42,7 +59,7 @@ def parse_scores_from_directory(directory_path: str, output_csv_path: str):
 
 if __name__ == "__main__":
     prompt = "v6-3"
-    model = "Qwen3-32B"
+    model = "Qwen3-32B_THINK"
 
     # SETTINGS
     REPORT_MODE = "report_only"

@@ -3,11 +3,27 @@ from JudgeMemo.JMScanner import JMScan
 
 
 class JMSummarizer:
+    """
+    Summarizes either entire documents or individual sections using a given language model.
+
+    Attributes:
+        model: A chat-compatible language model capable of generating summaries.
+        sampling_params: Sampling parameters to be used during generation.
+        doc_id (str): Identifier for the document being summarized.
+    """
     def __init__(self,
                  model,
                  sampling_params,
                  doc_id: str
                  ):
+        """
+        Initialize the JMSummarizer.
+
+        Args:
+            model: The language model used for summarization.
+            sampling_params: Parameters to control the sampling behavior of the model.
+            doc_id (str): Unique identifier for the document to be summarized.
+        """
         self.model = model
         self.sampling_params = sampling_params
         self.doc_id = doc_id
@@ -17,6 +33,20 @@ class JMSummarizer:
                            summary_template: str,
                            summary_sys: str,
                            ):
+        """
+        Generate summaries for each section of a document.
+
+        Each section's summary is created using a system prompt and a summary template.
+        Summaries are also optionally assigned to the next section as previous context.
+
+        Args:
+            doc_sections (list[JMScan]): List of JMScan objects representing the document's sections.
+            summary_template (str): Prompt template used to guide the summarization.
+            summary_sys (str): System prompt string defining summarization behavior.
+
+        Returns:
+            list[JMScan]: The list of JMScan objects with their `sec_summary` and `prev_summary` attributes updated.
+        """
         summary_prompts = []
         for doc_sec in doc_sections:
             summary = JMUtils.get_prompt_1(
@@ -52,6 +82,17 @@ class JMSummarizer:
                   summary_template: str,
                   summary_sys: str,
                   ):
+        """
+        Generate a summary for the full document text.
+
+        Args:
+            text (str): The complete document text to summarize.
+            summary_template (str): Prompt template used to guide the summarization.
+            summary_sys (str): System prompt string defining summarization behavior.
+
+        Returns:
+            str: The generated summary of the document.
+        """
         prompt = [JMUtils.get_prompt_1(
                 text=text,
                 sys_prompt=summary_sys,

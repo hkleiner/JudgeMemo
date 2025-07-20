@@ -6,6 +6,43 @@ from JudgeMemo.JMJudge import JMJudge
 
 
 class JMProcessor:
+    """
+    JMProcessor orchestrates the JudgeMemo pipeline by integrating text scanning,
+    summarization, evaluation, memory creation, and final report generation.
+
+    It processes a given document text using the specified model and parameters,
+    generating section-level evaluations, optional summaries, and a final report
+    with an overall quality rating.
+
+    Attributes:
+        doc_id (str): Unique identifier for the document.
+        text (str): Input text content to be processed.
+        THINK (bool): Flag to control inclusion of internal reasoning in prompts.
+        scanner (JMScanner): Instance for scanning the document into sections.
+        summarizer (JMSummarizer): Instance for summarizing text sections or full text.
+        judge (JMJudge): Instance for evaluating text quality on section and document levels.
+        memory_creator (JMMemoryCreator): Instance for storing evaluation results and creating reports.
+
+    Methods:
+        process(report_mode: str,
+                sec2tag: bool = True,
+                scan_range: int = 2000,
+                scan_overlap_ratio: float = 0.0,
+                sec_eval_prompt_path: str = "",
+                report_eval_prompt_path: str = "",
+                eval_sys: str = "You are a human annotator that rates the quality of texts.",
+                include_sec_summaries: bool = False,
+                summary_sec_path: str = "./prompts/prompt_section_summary.txt",
+                summary_doc_path: str = "./prompts/prompt_document_summary.txt",
+                summary_sys: str = "You are a helpful assistant that summarizes text clearly and concisely.\nFocus on the most important points. Avoid repeating content.\nMaintain the original meaning without adding new information. Use plain language.",
+                memory_path: str = ".memory_file.json",
+                report_path: str = "./report.txt",
+                sec_eval_path: str = "./sec_evaluations/",
+                save_prompt_path: str = "./prompt.txt") -> dict:
+            Executes the full JudgeMemo processing pipeline on the input text and returns
+            the final evaluation.
+
+    """
     def __init__(self,
                  model,
                  sampling_params,
@@ -56,6 +93,53 @@ class JMProcessor:
                 sec_eval_path: str = "./sec_evaluations/",  # path to save section evaluations
                 save_prompt_path: str = "./prompt.txt"  # path to save the prompt used for processing
                 ):
+        """
+        Processes the input text through scanning, summarization, evaluation, memory creation,
+        and final report generation steps, then returns the final evaluation result.
+
+        Args:
+            report_mode (str): Mode for final evaluation. Controls what information
+                is included in the final report and evaluation. Examples:
+                - "report_summary": use document summary in evaluation.
+                - "report_original": use original text in evaluation.
+            sec2tag (bool, optional): If True, converts section IDs to tags in the final report.
+                Defaults to True.
+            scan_range (int, optional): Size (in tokens or characters) of sections to scan.
+                Defaults to 2000.
+            scan_overlap_ratio (float, optional): Overlap ratio between scanned sections.
+                0.0 means hard split, >0 means stride overlap. Defaults to 0.0.
+            sec_eval_prompt_path (str, optional): Path to the prompt template used for section
+                evaluation. If empty, a default prompt is selected based on scanning mode.
+                Defaults to "".
+            report_eval_prompt_path (str, optional): Path to the prompt template used for the
+                final report evaluation. If empty, a default prompt is selected based on report_mode.
+                Defaults to "".
+            eval_sys (str, optional): System prompt providing instructions for the evaluation model.
+                Defaults to "You are a human annotator that rates the quality of texts.".
+            include_sec_summaries (bool, optional): Whether to generate summaries of document sections
+                before evaluation. Defaults to False.
+            summary_sec_path (str, optional): Path to the prompt template for section summaries.
+                Defaults to "./prompts/prompt_section_summary.txt".
+            summary_doc_path (str, optional): Path to the prompt template for full document summary.
+                Defaults to "./prompts/prompt_document_summary.txt".
+            summary_sys (str, optional): System prompt for guiding the summarizer's behavior.
+                Defaults to a clear, concise, no-addition summarization instruction.
+            memory_path (str, optional): Path for saving the memory JSON file containing evaluations.
+                Defaults to ".memory_file.json".
+            report_path (str, optional): Path for saving the final evaluation report text file.
+                Defaults to "./report.txt".
+            sec_eval_path (str, optional): Directory path to save section-level evaluation results.
+                Defaults to "./sec_evaluations/".
+            save_prompt_path (str, optional): Path to save the prompt used during processing.
+                Defaults to "./prompt.txt".
+
+        Returns:
+            str: Final evaluation results returned by the judge after processing all steps.
+
+        Raises:
+            IOError: If reading/writing files or prompt templates fails.
+            Exception: For any unexpected error during processing steps.
+        """
         # 0) get settings from parameters
         full_summary = ""
         scan_mode = "hard" if scan_overlap_ratio == 0.0 else "stride"

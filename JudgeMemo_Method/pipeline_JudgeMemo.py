@@ -1,3 +1,24 @@
+"""
+Run large-scale evaluation of manipulated vs. gold-standard documents using a VLLM model pipeline.
+
+The script:
+- Loads an LLM using `vllm`
+- Reads metadata and text content for gold and manipulated document sets
+- Processes each document using `JMProcessor` to produce structured evaluations
+- Stores section-level evaluations, memory state, reports, and prompt logs
+
+Designed for fluency and coherence evaluation across different manipulation settings.
+
+Requirements:
+    - HF_TOKEN in environment
+    - GPU(s) with enough memory (tested with 2 GPUs)
+    - JudgeMemo toolkit
+    - VLLM
+
+Author: Hermine Kleiner
+"""
+
+# -- HuggingFace login and cache setup
 import os
 os.environ["HF_HUB_CACHE"] = "/dss/mcmlscratch/00/di38riv"
 os.environ["HF_HOME"] = "/dss/mcmlscratch/00/di38riv"
@@ -30,6 +51,7 @@ TOP_K = 20 # Qwen3-32B
 N_GPUs = 2
 TOP_P = 0.95 if THINK else 1.0
 
+# -- Load LLM with VLLM backend
 llm_model = LLM(
     MODEL_NAME,
     tensor_parallel_size=N_GPUs,
@@ -79,6 +101,7 @@ configs = [
 ]
 
 # --PROCESSING--
+# -- Load metadata and corresponding text content
 for cfg in configs:
     doc_mode    = cfg["mode"]
     metric      = cfg["metric"]
@@ -135,6 +158,7 @@ for cfg in configs:
         if not os.path.isdir(out_path_dir):  # create output directory
             os.makedirs(out_path_dir)
 
+        # -- Process and evaluate each document
         processor = JMProcessor(
             model=llm_model,
             model_name=MODEL_NAME,
@@ -154,12 +178,14 @@ for cfg in configs:
             report_path=report_path,
             sec_eval_path=sec_eval_path,
             eval_sys=eval_sys,
-            save_prompt_path=""  # no saving here else out_prompt
+            save_prompt_path=".prompts_check/"  # no saving here else out_prompt
         )
 
+        # -- Save evaluation output
         with open(out_path_dir + f"eval_exp_{exp_number}_{ids[idx]}.txt", 'w', encoding='utf-8') as file:
             file.write(final_evaluation)
 
+# -- Clean up and free GPU memory
 del llm_model
 torch.cuda.empty_cache()
 gc.collect()

@@ -3,16 +3,66 @@ import re
 from typing import Dict, List, Union
 import json
 import pandas as pd
-
 from JudgeMemo import JMUtils
 
 
 class JMParser:
+    """
+    Parses evaluation texts to extract fluency and coherence issues along with their respective scores.
+    Supports multiple formats and flexible markdown/plain-text styles.
+
+    Attributes:
+        doc_id (str): Identifier of the document being parsed.
+
+    Methods:
+        parse(input_data, is_raw_text=False, scores_only=False) -> dict:
+            Parses the input evaluation text or file to extract final scores and issues.
+            Can extract only scores or both scores and issues depending on parameters.
+
+        parse_final_scores(text, filename="", json_active=True) -> dict or pd.DataFrame:
+            Extracts final fluency and coherence scores from the text.
+            Returns a dictionary by default or a pandas DataFrame if json_active is False.
+
+        parse_scores_and_issues(text) -> dict:
+            Extracts both scores and detailed issues categorized by fluency and coherence.
+
+    Internal static helper methods:
+        _clean_text(text) -> str:
+            Normalizes whitespace and preserves newlines for consistent parsing.
+
+        _preprocess_text(text) -> str:
+            Removes all text blocks enclosed in <think>...</think> tags or returns empty string if tags incomplete.
+
+        _extract_issues_block(text, label) -> str:
+            Attempts multiple regex patterns to extract issues block for a given label.
+
+        _extract_issues_block_variants(text, label) -> List[str]:
+            Extracts issue chunks for a label, splitting by tags in list format.
+
+        _extract_issues(issue_chunks) -> Dict[str, List[str]]:
+            Parses tagged issues into a dictionary mapping tags to lists of descriptions.
+    """
     def __init__(self, doc_id):
+        """
+        Initialize JMParser with a document identifier.
+
+        Args:
+            doc_id (str): Document ID to associate with this parser instance.
+        """
         self.doc_id = doc_id
 
     @staticmethod
     def _clean_text(text) -> str:
+        """
+        Cleans input text by replacing tabs and multiple spaces with single spaces,
+        and strips spaces around newlines while preserving the newlines.
+
+        Args:
+            text (str): Raw text to clean.
+
+        Returns:
+            str: Cleaned text with normalized whitespace.
+        """
         # Replace tabs and other whitespace (except newlines) with spaces
         # Collapse multiple spaces into one
         # Retain newlines to preserve structure
@@ -23,8 +73,14 @@ class JMParser:
     @staticmethod
     def _preprocess_text(text) -> str:
         """
-        If both <think> and </think> tags are present, removes all such blocks including the tags.
-        If either tag is missing, returns an empty string (text is considered unusable).
+        Removes all blocks enclosed in <think>...</think> tags if both tags are present.
+        If only one tag is present, returns empty string as text is unusable.
+
+        Args:
+            text (str): Text potentially containing <think> blocks.
+
+        Returns:
+            str: Text with <think> blocks removed or empty string if incomplete tags.
         """
         if ("<think>" in text) == ("</think>" in text):  # both or neither
             return re.sub(r"<think>.*?</think>", "", text, flags=re.DOTALL).strip()
@@ -33,8 +89,15 @@ class JMParser:
     @staticmethod
     def _extract_issues_block(text: str, label: str) -> str:
         """
-        Attempts multiple regex patterns to extract the issues block for a given label.
-        Returns the first successful match or an empty string if none match.
+        Extracts a block of issues for a given label (e.g., "Fluency" or "Coherence") using
+        multiple regex patterns to handle different formatting styles.
+
+        Args:
+            text (str): Text to search within.
+            label (str): Label to find issues block for.
+
+        Returns:
+            str: Extracted issues block or empty string if none found.
         """
         patterns = [
             # Pattern 1: Inline issues separated by spaces, numbered sections use ')' or '.' after number
@@ -56,8 +119,14 @@ class JMParser:
     @staticmethod
     def _extract_issues_block_variants(text: str, label: str) -> List[str]:
         """
-        Extracts blocks of issues for a given label,
-        splitting by every '- [TAG]' occurrence, even if issues are on the same line.
+        Extracts individual issue chunks for a given label by splitting on tagged list items.
+
+        Args:
+            text (str): Text containing issue listings.
+            label (str): Label indicating issue type (e.g., "Fluency", "Coherence").
+
+        Returns:
+            List[str]: List of issue chunks including their tags and descriptions.
         """
         pattern = rf"(?:\d+\)\s*)?{label} Issues?:\s*(.*?)(?=\n\d+\)|\nFINAL|\Z)"
         match = re.search(pattern, text, re.DOTALL | re.IGNORECASE)
@@ -74,6 +143,15 @@ class JMParser:
 
     @staticmethod
     def _extract_issues(issue_chunks: List[str]) -> Dict[str, List[str]]:
+        """
+        Parses tagged issue chunks into a dictionary mapping tags to lists of issue descriptions.
+
+        Args:
+            issue_chunks (List[str]): List of issue text chunks with tags.
+
+        Returns:
+            Dict[str, List[str]]: Mapping of tags (e.g., "[SYNTAX]") to descriptions.
+        """
         issues = {}
         for chunk in issue_chunks:
             match = re.match(r'[*-] \[([A-Z]+)]\s*(.*)', chunk, flags=re.DOTALL)
@@ -87,8 +165,17 @@ class JMParser:
     @staticmethod
     def parse_final_scores(text: str, filename: str = "", json_active: bool = True):
         """
-        Extracts final coherence and fluency scores in both markdown and plain text forms,
-        allowing for variations in formatting (e.g., bolding, spacing, casing).
+        Extracts final fluency and coherence scores from a text.
+        Supports multiple markdown and plain text formats, with optional filename context.
+        Can return results as dictionary or pandas DataFrame.
+
+        Args:
+            text (str): Text to parse for scores.
+            filename (str): Optional filename for labeling output DataFrame.
+            json_active (bool): If True, returns dict; else returns pandas DataFrame.
+
+        Returns:
+            dict or pandas.DataFrame: Scores extracted from the text.
         """
 
         def _extract_score(label: str) -> Union[float, None]:
@@ -161,6 +248,15 @@ class JMParser:
             return df
 
     def parse_scores_and_issues(self, text: str) -> Dict[str, Union[Dict[str, float], Dict[str, List[str]]]]:
+        """
+        Parses both final scores and categorized issues from the text.
+
+        Args:
+            text (str): Text to parse for scores and issues.
+
+        Returns:
+            dict: Dictionary with keys "scores" (dict of floats) and "issues" (dict of tagged lists).
+        """
         scores = self.parse_final_scores(text)
 
         fluency_chunks = self._extract_issues_block_variants(text, "Fluency")
@@ -183,13 +279,17 @@ class JMParser:
               scores_only: bool = False
               ):
         """
-        Parses final scores from either a file or raw string, and saves the result to a JSON file.
+        Parses an evaluation input (file or raw text) for final scores and optionally issues.
+        Cleans and preprocesses the text before extraction.
 
         Args:
-            input_data (str): Path to a file or raw text content.
-            is_raw_text (bool): Whether the input_data is raw text instead of a file path.
-            scores_only (bool): Whether only scores or scores and issues shall be extracted from the input_data.
-            """
+            input_data (str): Path to evaluation file or raw text content.
+            is_raw_text (bool): Whether input_data is raw text (True) or filename (False).
+            scores_only (bool): If True, extract only scores; else extract scores and issues.
+
+        Returns:
+            dict: Parsed scores or scores and issues from the input.
+        """
         # Use the raw string or read from file
         text = input_data if is_raw_text else JMUtils.read_file(input_data)
         text = self._clean_text(text)

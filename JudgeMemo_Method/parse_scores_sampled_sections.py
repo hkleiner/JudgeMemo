@@ -1,12 +1,44 @@
+"""
+This script parses fluency and coherence scores from structured experiment outputs,
+aggregates them section-wise per document, and saves them as a pivoted CSV table.
+
+Supports both gold and manipulated datasets across different experimental configurations.
+
+Directory Structure Assumption:
+Each experiment has its own subfolder containing section evaluation `.txt` files
+organized under document-specific folders. Each `.txt` file corresponds to one section.
+
+Outputs:
+    - CSVs with one row per (section, metric), and one column per document ID.
+
+Dependencies:
+    - pandas
+    - JudgeMemo.JMParser
+"""
+
+
 import os
 import pandas as pd
 from JudgeMemo.JMParser import JMParser
 
-import numpy as np
-from scipy import stats
-
 
 def parse_scores_from_directory(base_path: str, output_csv_path: str):
+    """
+    Parses and pivots section-level fluency and coherence scores for each document.
+
+    Assumes input directory contains one folder per document, each holding .txt files
+    for different sections. Uses `JMParser` in 'ScoreParsing' mode to extract scores.
+
+    The resulting CSV has rows indexed by (section_name, metric) and columns as
+    document IDs, with score values filled in.
+
+    Args:
+        base_path (str): Path to the directory containing document subdirectories.
+        output_csv_path (str): File path to save the resulting CSV.
+
+    Returns:
+        None. Writes the aggregated scores to `output_csv_path`.
+    """
     parser = JMParser("ScoreParsing")
     data = {}
 

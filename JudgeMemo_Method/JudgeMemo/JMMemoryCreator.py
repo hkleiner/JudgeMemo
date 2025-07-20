@@ -3,7 +3,42 @@ from JudgeMemo.JMParser import JMParser
 
 
 class JMMemoryCreator:
+    """
+    JMMemoryCreator processes evaluated document sections to build a structured memory representation
+    of issues and scores, and can generate a formatted report summarizing these evaluations.
+
+    Attributes:
+        doc_id (str): Identifier of the document being processed.
+        parser (JMParser): Parser instance to extract structured info from evaluation text.
+        memory (dict): Stores the structured evaluation memory for all sections.
+
+    Methods:
+        create_memory(scanner_results, memory_file, is_raw_text=False):
+            Processes evaluation results from scanned sections, converts them to structured memory,
+            and optionally saves the memory to a JSON file.
+
+        _create_memory_entry(sec_eval, sec_nr, sec_summary, sec_start, sec_end, is_raw_text=False) -> dict:
+            Parses a single section's evaluation text and builds a memory entry dictionary.
+
+        _build_memory_dict(section_key, issues_and_scores, section_start_char_incl,
+                           section_end_char_excl, section_summary) -> dict:
+            Builds the dictionary structure for one section's memory entry including issues, scores, and metadata.
+
+        create_report(report_file, sec2tag=True) -> str:
+            Generates a textual evaluation report from the stored memory.
+            Supports two modes:
+                - sec2tag (True): Reports by section, listing scores and categorized issues by tag.
+                - sec2tag (False): Reports by tag, listing all sections that have issues with that tag,
+                                   followed by section scores summary.
+            Optionally saves the report to a file.
+    """
     def __init__(self, doc_id):
+        """
+        Initializes JMMemoryCreator with a document identifier and sets up parser and memory container.
+
+        Args:
+            doc_id (str): Document identifier for which memory is being created.
+        """
         self.doc_id = doc_id
         self.parser = JMParser(doc_id=doc_id)
         self.memory = dict()
@@ -13,6 +48,15 @@ class JMMemoryCreator:
                       memory_file, 
                       is_raw_text: bool = False
                       ):
+        """
+        Processes a list of scan results to build and store the memory structure.
+        Optionally saves the memory dictionary as a JSON file.
+
+        Args:
+            scanner_results (list): List of section scan objects containing evaluation data.
+            memory_file (str): Path to save the memory JSON file. If empty or None, memory is not saved.
+            is_raw_text (bool): Whether the evaluation text is raw or already parsed (default False).
+        """
         for scan in scanner_results:
             entry = self._create_memory_entry(
                 sec_eval=scan.sec_evaluation,
@@ -35,7 +79,22 @@ class JMMemoryCreator:
                              sec_start: int,
                              sec_end: int,
                              is_raw_text: bool = False
-                             ):
+                             ) -> dict:
+        """
+        Parses a single section's evaluation text and creates a memory entry dictionary
+        including issues and scores.
+
+        Args:
+            sec_eval (str): The evaluation text of the section.
+            sec_nr (str): Section number or key.
+            sec_summary (str): Summary text of the section.
+            sec_start (int): Start character index of the section in the document (inclusive).
+            sec_end (int): End character index of the section in the document (exclusive).
+            is_raw_text (bool): Whether the evaluation text is raw or already parsed (default False).
+
+        Returns:
+            dict: Memory entry for the section keyed by section number.
+        """
         sec_scores_issues = self.parser.parse(input_data=sec_eval, is_raw_text=is_raw_text, scores_only=False)
 
         return self._build_memory_dict(
@@ -52,6 +111,19 @@ class JMMemoryCreator:
                            section_start_char_incl: int,
                            section_end_char_excl: int,
                            section_summary: str) -> dict:
+        """
+        Constructs the structured memory dictionary for a section given its parsed issues and scores.
+
+        Args:
+            section_key (str): Identifier/key for the section.
+            issues_and_scores (dict): Parsed dictionary with keys "issues" and "scores".
+            section_start_char_incl (int): Inclusive start character index of section.
+            section_end_char_excl (int): Exclusive end character index of section.
+            section_summary (str): Summary text for the section.
+
+        Returns:
+            dict: A dictionary mapping section_key to its detailed memory entry.
+        """
         raw_issues = issues_and_scores.get("issues", {})
         raw_scores = issues_and_scores.get("scores", {})
 
@@ -77,18 +149,25 @@ class JMMemoryCreator:
     def create_report(self,
                       report_file: str,
                       sec2tag: bool = True
-                      ):
-        # TODO: build the final report from the before created memory that contains all information about the in sections
-        #  evaluated document and its issues
-        # the report is given to the model as part of the user prompt and shall have a nice structured format that you
-        # can define as you think it suits best for an LLM
-        # There are two modes:
-        # - sec2tag (True): For each Section, create a sub-report containing the issues of a section and the fluency and
-        # coherence scores it got assigned; issues are categorized in fluency and coherence issues and further
-        # subcategorized by tag -> it is important to keep this information
-        # - sec2tag (False) -> tag2seq: Collect all fluency and coherence tags that appear in the memory (keep the
-        # categorization by metric). For each tag, name the sections that had issues falling into the tag category.
-        # In the very end, give the fluency and coherence scores for each section.
+                      ) -> str:
+        """
+        Generates a human-readable report summarizing issues and scores stored in memory.
+        Two modes are supported:
+          - sec2tag=True: The report is organized by section, with issues categorized by metric and tag.
+          - sec2tag=False: The report is organized by tags, listing all sections with that issue tag,
+                           followed by a summary of scores per section.
+
+        Args:
+            report_file (str): Path to save the generated report text file.
+                               If empty or None, report is not saved.
+            sec2tag (bool): Whether to generate the report by section (True) or by tag (False).
+
+        Raises:
+            ValueError: If the memory is empty when attempting to create a report.
+
+        Returns:
+            str: The full textual report.
+        """
         if not self.memory:
             raise ValueError("Memory is empty. Please run `create_memory` first.")
 
