@@ -16,11 +16,11 @@ This project is the result of a master's thesis conducted at LMU Munich (Ludwig-
   - `baseline_model_inference/prompts/` - all prompts needed to run our vanilla pipeline
 - `experiments/` — experimental results for vanilla evaluation set up and prompt engineering
 - `JudgeMemo_Method/` — code for our framework `JudgeMemo`
-  - `JudgeMemo_Method/JudgeMemo/` - framework package
+  - `JudgeMemo_Method/JudgeMemo/` - pipeline package
   - `JudgeMemo_Method/prompts/` - all prompts needed to run our pipeline (with context-awareness)
   - `JudgeMemo_Method/prompt_no-context/` - all prompts needed to run our pipeline (without context-awareness)
-  - `JudgeMemo_Method/pipeline_JudgeMemo.py/` - script to run our framework
-- `experiments_JM/` — experimental results for our method (`JudgeMemo`) and ablation studies
+  - `JudgeMemo_Method/pipeline_JudgeMemo.py` - script to run our framework
+- `experiments_JM/` — experimental results (outputs) for our method (`JudgeMemo`) and ablation studies
 - `environment.yml` — Conda environment definition file  
 - `requirements.txt` — Python dependencies for pip  
 - `README.md` — This file, with instructions and overview  
