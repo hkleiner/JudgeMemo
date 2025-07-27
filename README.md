@@ -1,6 +1,15 @@
 ## JudgeMemo: A Memory-Based Method for Improving Long-Context LLM-as-a-Judge Assessments
 
 ### Abstract
+As Large Language Models (LLMs) are increasingly adopted as automated evaluators (so-called LLMs-as-a-Judge) their ability to evaluate long-context inputs remains underexplored and underperforming. While technical advances have extended LLM context windows to over 100,000
+tokens, empirical studies reveal significant performance degradation when reasoning across long
+sequences. This thesis addresses this gap by introducing JUDGEMEMO, a structured memory-augmented evaluation framework inspired by human note-taking, designed to enhance LLM assessment reliability on long-form documents. We also present COFLUEVAL-LC, a novel diagnostic dataset built from Project Gutenberg texts, systematically manipulated to degrade fluency and
+coherence across varied structural and granular levels. Through extensive experiments, we show
+that traditional LLM-as-a-Judge setups struggle with long-context consistency and exhibit reduced
+sensitivity to subtle quality manipulations. In contrast, JUDGEMEMO significantly improves evaluation performance and robustness by segmenting documents into smaller sub-units, generating
+intermediate evaluations (memory), and feeding this structured memory back into the evaluation
+loop. Our results demonstrate that memory-augmented setups can mitigate the contextual limitations of LLMs, offering a more human-aligned, scalable path toward reliable automatic evaluation
+of long-form content.
 
 This project is the result of a master's thesis conducted at LMU Munich (Ludwig-Maximilians-Universität München) within the interdisciplinary program of Computational Linguistics and Computer Science. The work was carried out at the Faculty of Language and Literature Studies as well as the Faculty of Mathematics, Informatics, and Statistics.
 
