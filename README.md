@@ -19,16 +19,16 @@ This project is the result of a master's thesis conducted at LMU Munich (Ludwig-
   - `Dataset_Creation/DatasetCreator/` — preprocessing package
   - `Dataset_Creation/templates/` — .json-templates for dataset creation
   - `Dataset_Creation/TextManipulation/` — data manipulation package
-  - `Dataset_Creation/apply_manipulations_to_data.py` - script to manipulate gold documents
+  - `Dataset_Creation/apply_manipulations_to_data.py` — script to manipulate gold documents
 - `data/` — datasets and processed data files
 - `baseline_model_inference/` — vanilla evaluation pipeline and prompt engineering scripts
-  - `baseline_model_inference/prompts/` - all prompts needed to run our vanilla pipeline
+  - `baseline_model_inference/prompts/` — all prompts needed to run our vanilla pipeline
 - `experiments/` — experimental results for vanilla evaluation set up and prompt engineering
 - `JudgeMemo_Method/` — code for our framework `JudgeMemo`
-  - `JudgeMemo_Method/JudgeMemo/` - pipeline package
-  - `JudgeMemo_Method/prompts/` - all prompts needed to run our pipeline (with context-awareness)
-  - `JudgeMemo_Method/prompt_no-context/` - all prompts needed to run our pipeline (without context-awareness)
-  - `JudgeMemo_Method/pipeline_JudgeMemo.py` - script to run our framework
+  - `JudgeMemo_Method/JudgeMemo/` — pipeline package
+  - `JudgeMemo_Method/prompts/` — all prompts needed to run our pipeline (with context-awareness)
+  - `JudgeMemo_Method/prompt_no-context/` — all prompts needed to run our pipeline (without context-awareness)
+  - `JudgeMemo_Method/pipeline_JudgeMemo.py` — script to run our framework
 - `experiments_JM/` — experimental results (outputs) for our method (`JudgeMemo`) and ablation studies
 - `environment.yml` — Conda environment definition file  
 - `requirements.txt` — Python dependencies for pip  
