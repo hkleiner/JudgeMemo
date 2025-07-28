@@ -88,4 +88,4 @@ If you have any questions or want to get in touch, feel free to reach me at:
 **LinkedIn:** [linkedin.com/in/hermine-kleiner-09479b279](https://www.linkedin.com/in/hermine-kleiner-09479b279/)  
 
 ### License
-This project is licensed under the .... See the [LICENSE](./LICENSE) file for details.
+<a href="https://github.com/hkleiner/JudgeMemo">A Memory-Based Method for Improving Long-Context LLM-as-a-Judge Assessments</a> © 2025 by <a href="https://github.com/hkleiner/">Hermine Kleiner</a> is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a><img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/nc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/sa.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;">
